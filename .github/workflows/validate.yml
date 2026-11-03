@@ -1,0 +1,67 @@
+name: Validate repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  structure:
+    name: Metadata, specification, catalogue and links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - run: pip install -r requirements-ci.txt
+      - name: Validate assessments
+        run: python tools/assessment-validator/validate.py
+      - name: Catalogue is up to date
+        run: python tools/catalogue-generator/build_catalogue.py --check
+      - name: Local links resolve
+        run: python tools/repository-checker/check_links.py
+      - name: Dataset registry and generator determinism
+        run: python tools/dataset-validator/validate_datasets.py
+      - name: Tooling self-tests
+        run: python -m pytest -q tools/tests
+
+  contract-tests:
+    name: Starter contract tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - run: pip install -r requirements-ci.txt
+      - name: Run every assessment's contract tests in isolation
+        run: python tools/test-runner/run_tests.py -q
+
+  hygiene:
+    name: Secrets and confidential-material guard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No assessor-only material in the public repository
+        run: |
+          if find . -path ./.git -prune -o \( -name 'MARKING_GUIDE.md' -o -type d -name 'hidden_tests' -o -type d -name 'reference' -path '*/solutions/*' \) -print | grep -q .; then
+            echo "Assessor-only material found. It belongs in the private assessor kit." && exit 1
+          fi
+      - name: Obvious secret patterns
+        run: |
+          if grep -RInE --exclude-dir=.git '(sk-[A-Za-z0-9]{32,}|AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9]{36}|xox[baprs]-[A-Za-z0-9-]{10,})' .; then
+            echo "Possible secret committed." && exit 1
+          fi

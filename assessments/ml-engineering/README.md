@@ -1,0 +1,32 @@
+# Machine Learning Engineering
+
+> **Designing, training, evaluating, shipping and maintaining learning systems.**
+
+ML engineers build models that work **outside the notebook**. This subtrack assesses:
+- the mathematics underneath;
+- supervised, unsupervised and deep learning;
+- computer vision, NLP, time series and recommender systems;
+- rigorous evaluation;
+- model optimisation for constrained hardware;
+- deployment, MLOps and monitoring;
+- the responsible-ML practices that keep models fair, interpretable and robust.
+
+**What sets ML Engineering apart from the other subtracks.** Data Science asks "is this effect real?" ML Engineering asks "**will this model keep working, under real data, at real cost, after deployment?**" AI Engineering builds applications *on top of* foundation models, while MLE trains, adapts, evaluates and operates the models themselves. Running generative models in production is part of MLE too, as industry certifications now reflect. See the [competency framework](../../docs/competency-framework.md).
+
+## How to use this subtrack
+
+1. **Pick a tier.** [Tier 1](tier-1/README.md) · [Tier 2](tier-2/README.md) · [Tier 3](tier-3/README.md). See [tier definitions](../../docs/tier-definitions.md).
+2. **Pick a unit** from the map below. There's no required order.
+3. **Pick any assessment** in that unit and tier.
+4. **Register, build, submit, defend.** See the [member handbook](../../docs/member-handbook.md).
+
+**Compute.** Every assessment can be completed on a CPU laptop or a free notebook tier, such as Google Colab or Kaggle. Each assessment's `metadata.yaml` states its compute needs and the free path.
+
+**Typical tools:** Python, NumPy, pandas, scikit-learn, PyTorch, XGBoost/LightGBM, Hugging Face, MLflow, FastAPI, Docker, ONNX Runtime, pytest.
+
+<!-- CATALOGUE:START -->
+<!-- CATALOGUE:END -->
+
+## Capstones
+
+See [capstones](capstones/README.md) once they're published, and the [cross-disciplinary challenges](../../cross-disciplinary/README.md).
