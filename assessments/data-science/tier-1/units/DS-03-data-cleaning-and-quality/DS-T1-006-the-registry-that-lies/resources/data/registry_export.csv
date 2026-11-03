@@ -1,0 +1,1246 @@
+record_id,matric_no,full_name,date_of_birth,state_of_origin,phone,email,jamb_score,admission_date,department,level,cgpa
+R00001,21/LAW/9548,Zainab Bello,27/09/2002,Bayelsa,+2348115442523,zainab.bello12@example.ng,201,07/11/2021,Law,500,3.61
+R00002,21/MAS/8552,Funmilayo Mohammed,NA,Enugu,0903 274 1349,funmilayo.mohammed55@example.ng,186,19/10/2021,Mass Comm.,400,4.62
+R00003,23/MIC/3820,Fatima Mohammed,2004-11-13,Zamfara,08111590785,fatima.mohammed12@example.ng,210,01-10-2023,Microbiology,300,4.02
+R00004,23/LAW/1245,Femi Obi,2005-11-07,Rivers,08112856484,femi.obi76@example.ng,246,2023-11-28,Law,300,3.46
+R00005,21/LAW/7135,Zainab Bello,2004-02-01,Edo,08145454983,zainab.bello37@example.ng,302,17 Nov 2021,Law,500,2.95
+R00006,24/ACC/4714,"NNAMDI, Zainab",2005-03-11,Benue,2348124594149,zainab.nnamdi28@example.ng,639,15/01/2025,Accounting,200,4.00
+R00007,24/MAS/1024,  kelechi uzor ,2007-05-05,Nasarawa,09027019261,kelechi.uzor6@example.ng,-226,2024-10-13,Mass Communication,200,2.59
+R00008,21/ACC/1615,Ngozi Onyeka,07/11/2002,Sokoto,08153154525,Ngozi.Onyeka65@Example.Ng,243,22/01/2022,Acct,400,4.55
+R00009,23/LAW/1463,Hauwa Bello,16-11-2002,Enugu,08114610274,Hauwa.Bello88@Example.Ng,262,2024-01-11,Law,300,3.17
+R00010,23/ECO/2453,Amaka Adebayo,2007-12-23,Bayelsa,+2348151163704,Amaka.Adebayo87@Example.Ng,279,2023-11-21,economics,300,2.21
+R00011,22/MEC/7729,Ifeoma Onyeka,05-01-2006,Bayelsa,2348151733583,ifeoma.onyeka89@example.ng,271,2022-11-15,Mechanical Engineering,400,1.80
+R00012,24/MIC/8633,"BABATUNDE, Amaka",11/26/2006,Kwara,09087043832,amaka.babatunde15@example.ng,318,2024-10-05,MCB,200,3.47
+R00013,25/ACC/0841,Gbenga Onyeka,2004-01-03,Zamfara,08145036120,gbenga.onyeka67@example.ng,262,11/10/2025,Accountancy,100,4.35
+R00014,23/COM/2686,Aisha Ojo,2007-10-14,Imo,0815 803 8098,aisha.ojo89@example.ng,334,16/11/2023,Computer Science,300,2.23
+R00015,22/MIC/7135,Funmilayo Eze,2002-04-12,Niger,08163646483,funmilayo.eze16@example.ng,297,18/09/2022,Microbiology,400,4.26
+R00016,25/ECO/2203,Yusuf Babatunde,04/08/2009,AkwaIbom,-,yusuf.babatunde19@example.ng,333,2026-01-26,Economics,100,2.82
+R00017,22/ECO/1242,Rukayat Mohammed,7 Jan 2004,NA,08112509179,Rukayat.Mohammed63@Example.Ng,268,2022-09-07,economics,400,nil
+R00018,21/MIC/6097,  abubakar olawale ,21 May 2003,Yobe,+2348069071421,Abubakar.Olawale93@Example.Ng,306,28/10/2021,Microbiology,400,3.98
+R00019,25/MIC/9479,Zainab Garba,2006-03-15,Ebonyi,08185215849,zainab.garba20@example.ng,270,2025-10-06,Microbiology,100,4.05
+R00020,22/MEC/4372,Chinedu Suleiman,21-10-2006,Kaduna,09057999784,Chinedu.Suleiman15@Example.Ng,285,2023-01-26,Mechanical Engineering,400,4.08
+R00021,23/MAS/9705,Oge Adebayo,21/11/2002,Niger,2348127636100,oge.adebayo18@example.ng,214,2023-11-14,Mass Communication,300,4.03
+R00022,21/MEC/1056,Uche Babatunde,03/10/1999,Delta,08166627214,uche.babatunde53@example.ng,216,2021-10-02,Mechanical Engineering,500,2.21
+R00023,21/ACC/1161,  amaka oladipo ,2000-08-17,Ekiti,0811 419 0767,amaka.oladipo91@example.ng,283,21/10/2021,Accounting,400,2.68
+R00024,22/MAS/4437,Adaeze Abdullahi,05/03/2005,Abia,08052648886,adaeze.abdullahi56@example.ng,277,11/10/2022,Mass Communication,400,2.91
+R00025,24/LAW/5479,Chidi Lawal,2004-05-22,Jigawa,08083332355,chidi.lawal67@example.ng,207,3 Jan 2025,Law,200,4.01
+R00026,25/ECO/6464,Ifeoma Okonkwo,18/12/2007,Kwara,08069502586,ifeoma.okonkwo21@example.ng,215,2025-09-16,Econs,100,2.35
+R00027,23/COM/0985,Yusuf Aliyu,2002-11-27,Bayelsa,2348126894826,yusuf.aliyu88@example.ng,226,2023-09-27,Computer science ,300,2.69
+R00028,24/ECO/1990,Ibrahim Nwosu,2006-05-09,Gombe,08111482522,ibrahim.nwosu20@example.ng,247,02/10/2024,Economics,200L,2.92
+R00029,25/MAS/8336,Uche Yakubu,2007-03-10,Enugu,08153270543,uche.yakubu40@example.ng,288,2026-01-18,Mass Communication,100,3.30
+R00030,24/ACC/5299,Nkechi Okafor,04/02/2004,Gombe,2347061438988,nkechi.okafor28@example.ng,205,2024-11-02,Accounting,200,5.00
+R00031,24/MIC/6138,Aisha Nwosu,27/06/2003,ANAMBRA,09022884489,aisha.nwosu85@example.ng,660,09/11/2024,Microbiology,200,3.52
+R00032,24/ECO/1483,Chiamaka Uzor,2004-01-21,Lagos,09081109847,chiamaka.uzor51@example.ng,303,2024-11-13,Econs,200,2.35
+R00033,22/ECO/2816,Ibrahim Garba,08/10/2000,Ogun,08023479107,ibrahim.garba64@example.ng,203,28/09/2022,Economics,400,2.37
+R00034,23/LAW/2823,Chinedu Ojo,2007-04-16,rivers ,2347015474233,chinedu.ojo87@example.ng,275,2023-09-05,Law,300,3.08
+R00035,22/LAW/4435,Kelechi Lawal,2000-12-16,Yobe,2348176576703,kelechi.lawal79@example.ng,318,2022-10-18,Law,400,3.76
+R00036,21/ECO/7318,Gbenga Ogunleye,2000-02-14,rivers ,0909 839 0546,gbenga.ogunleye30@example.ng,334,3 Oct 2021,Economics,400,3.15
+R00037,22/ACC/9961,  kelechi uzor ,12/20/2002,Zamfara,0814 554 8118,kelechi.uzor12@example.ng,229,2023-01-09,Accounting,400,4.22
+R00038,23/MIC/0377,  abubakar ogunleye ,23/10/2004,Borno,08119072418,abubakar.ogunleye83@example.ng,258,2023-11-06,Microbiology,300,3.69
+R00039,21/LAW/7338,"EZEH, Chidi",2003-07-13,Nasarawa,090955855,chidi.ezeh78@example.ng,236,16 Oct 2021,law ,500,4.16
+R00040,22/MAS/0123,Uche Chukwu,21/01/2005,Benue,2348187833629,uche.chukwu98@example.ng,,2023-01-26,Mass Comm.,400,3.77
+R00041,25/ECO/2215,Ebuka Yakubu,24/04/2007,Zamfara,+234 (810) 410-1596,ebuka.yakubu50@example.ng,277,2025-11-20,Economics,100,1.98
+R00042,24/MEC/3918,Ifeanyi Babatunde,2002-07-01,Edo,2348155037203,ifeanyi.babatunde12@example.ng,217,23-01-2025,Mechanical Engineering,200,3.59
+R00043,22/MAS/0013,Funmilayo Okonkwo,07/01/2005,Zamfara,+234 (806) 649-8525,Funmilayo.Okonkwo91@Example.Ng,233,2023-01-14,Mass communication,400,2.01
+R00044,25/MIC/8205,Tunde Nwosu,26 May 2008,Rivers,09082913549,tunde.nwosu11@example.ng,329,20/09/2025,MCB,100,2.68
+R00045,23-MEC-8181,Kemi Suleiman,2001-08-03,Yobe,+2349052681162,kemi.suleiman91@example.ng,305,2023-10-08,Mechanical Engineering,300,4.19
+R00046,22/COM/5407,Fatima Adeyemi,2005-08-07,Taraba,09026996754,fatima.adeyemi88@example.ng,330,2022-10-23,Computer Science,400,3.09
+R00047,23/COM/7074,Hauwa Balogun,2005-07-10,Gombe,2348061307051,hauwa.balogun23@example.ng,192,2023-11-01,Computer Science,300,2.98
+R00048,21/ACC/2609,  ibrahim nwosu ,2004-08-05,Yobe,08168103395,ibrahim.nwosu41@example.ng,304,28/01/2022,Accounting,400,3.59
+R00049,24/ACC/4784,Funmilayo Obi,2007-05-12,Katsina,+2348026490248,funmilayo.obi52@example.ng,-266,2024-09-19,Accounting,200,3.36
+R00050,23/COM/2769,Musa Oladipo,NA,Zamfara,08063666699,musa.oladipo15@example.ng,294,2023-09-09,Computer Science,300,3.22
+R00051,25/ACC/6888,Ibrahim Obi,3 Jan 2004,Abuja,09031923993,Ibrahim.Obi30@Example.Ng,192,22-09-2025,Accounting,100,3.19
+R00052,25/MEC/8222,Maryam Garba,25 Oct 2006,Borno,08025329209,maryam.garba70@example.ng,280,14 Jan 2026,Mech. Engineering,100,4.27
+R00053,21/COM/1051,Funmilayo Danjuma,2005-01-17,Yobe,08144719747,funmilayo.danjuma4@example.ng,250,2021-10-23,Computer Science,400,2.71
+R00054,21/ACC/9718,Hauwa Onyeka,13/04/2004,Kwara,0816 920 8054,hauwa.onyeka74@example.ng,334,12-11-2021,Accountancy,400,3.49
+R00055,23/MEC/3729,Obinna Nwosu,22/07/2003,Ekiti,08126611509,obinna.nwosu54@example.ng,302,18 Jan 2024,Mechanical Engineering,300,3.37
+R00056,25-COM-1681,Ebuka Aliyu,2004-10-14,Oyo,08142047042,ebuka.aliyu87@example.ng,300,2026-01-05,Computer Science,100,3.76
+R00057,21/COM/0419,Bisola Afolabi,06/23/2005,Oyo,+2348030722112,bisola.afolabi42@example.ng,211,2021-10-27,Computer science ,400,3.29
+R00058,25/MEC/4282,Halima Afolabi,18 Apr 2007,Ekiti,0812 134 9372,halima.afolabi37@example.ng,199,2025-09-01,Mechanical Engineering,100,2.90
+R00059,21/LAW/6073,Oge Okafor,2000-03-28,Kwara,+2349096394060,oge.okafor56@example.ng,245,27 Jan 2022,law ,500,3.47
+R00060,22/MAS/3122,Yusuf Mohammed,27-06-2000,Delta,+2348081207772,yusuf.mohammed10@example.ng,294,03/10/2022,Mass Communication,400,4.42
+R00061,22/LAW/8895,Rukayat Oladipo,2000-08-11,Ondo,+2348082601419,rukayat.oladipo26@example.ng,283,01/09/2022,Law,400,3.34
+R00062,24/COM/5555,"CHUKWU, Funmilayo",19 Sep 2005,Yobe,09085067508,funmilayo.chukwu8@example.ng,307,2025-01-12,Computer Science,200,4.08
+R00063,22/ACC/9296,Halima Obi,2004-11-17,Ondo,2349032391061,halima.obi41@example.ng,273,2022-09-15,Accounting,400,3.95
+R00064,25/MEC/1929,Ngozi Adeyemi,NA,Anambra,0903 590 3272,ngozi.adeyemi36@example.ng,321,2025-10-04,Mechanical Engineering,100,1.97
+R00065,21/LAW/7630,Amaka Uzor,14-12-2000,Plateau,2348120675668,amaka.uzor1@example.ng,194,11 Oct 2021,Law,500,4.20
+R00066,21/MEC/0301,Ifeoma Chukwu,2000-12-09,Jigawa,09039198652,ifeoma.chukwu97@example.ng,285,2021-11-17,Mechanical Engineering,500,3.42
+R00067,21-ACC-1490,Aisha Yakubu,08/11/2001,Enugu,2348173890663,aisha.yakubu56@example.ng,192,10-09-2021,Accountancy,400,4.33
+R00068,24/ACC/9140,"OLADIPO, Maryam",2027-01-27,Sokoto,08167355987,maryam.oladipo34@example.ng,295,2024-11-11,Acct,200L,3.79
+R00069,24/MEC/7401,"CHUKWU, Ifeoma",2002-03-02,Ogun,2348030509403,ifeoma.chukwu23@example.ng,,2024-11-25,Mechanical Engineering,200,3.18
+R00070,24/MAS/6289,Babajide Nnamdi,-,Enugu,+2348026959036,babajide.nnamdi87@example.ng,181,2024-11-01,Mass Communication,200,3.37
+R00071,22/ECO/6868,Zainab Olawale,2000-12-23,Kebbi,07033372836,zainab.olawale45@example.ng,210,2022-09-23,Economics,400,3.31
+R00072,22/MEC/9508,"AFOLABI, Zainab",20 Jul 2003,Edo,+2348131070101,zainab.afolabi60@example.ng,332,24-09-2022,Mechanical Engineering,400L,3.14
+R00073,22/MEC/8719,Emeka Ibekwe,20-10-2005,Bauchi,08081801764,Emeka.Ibekwe49@Example.Ng,247,2022-10-05,Mechanical Engr.,400,3.19
+R00074,22/COM/9323,Fatima Okonkwo,2004-12-20,Imo,NA,fatima.okonkwo16@example.ng,238,10/10/2022,Computer Science,400,3.32
+R00075,25/MAS/4994,Sani Nwosu,11/01/2006,Akwa Ibom,+2348060295966,sani.nwosu58@example.ng,197,2025-11-03,Mass Communication,100,2.81
+R00076,24/COM/2925,"ADEBAYO, Adaeze",2007-04-06,oyo,09032833938,Adaeze.Adebayo12@Example.Ng,184,17/10/2024,Computer Science,200,2.75
+R00077,23/ECO/7932,Aisha Yakubu,2025-03-05,CROSS RIVER,+2349036542856,Aisha.Yakubu6@Example.Ng,328,15/09/2023,ECONOMICS,300,2.12
+R00078,22/ECO/2175,Amaka Olawale,2006-07-28,Borno,08062896412,amaka.olawale75@example.ng,305,2022-11-15,Economics,400,3.38
+R00079,23/ECO/0592,Musa Yakubu,2003-09-20,Kano,08121246297,musa.yakubu2@example.ng,336,2024-01-15,Economics,300,2.75
+R00080,24/COM/2383,Obinna Adeyemi,2003-05-23,,07062460116,obinna.adeyemi24@example.ng,308,2025-01-13,Computer science ,200,3.85
+R00081,24/MEC/4968,Abubakar Garba,25/05/2004,Sokoto,09036986480,abubakar.garba51@example.ng,208,2024-09-15,Mechanical Engineering,200,3.40
+R00082,22/ECO/2127,Ebuka Nwosu,2003-05-02,Zamfara,2348102697221,ebuka.nwosu86@example.ng,338,02/10/2022,Econs,400,2.32
+R00083,22/MEC/6208,Babajide Ojo,2004-09-20,Ekiti,08111777756,babajide.ojo1@example.ng,334,09/09/2022,MECH ENG,400,4.11
+R00084,22/COM/5404,Abubakar Abdullahi,2000-04-22,Bayelsa,+234 (808) 898-7376,abubakar.abdullahi25@example.ng,277,09/10/2022,Computer Science,400,2.71
+R00085,22/MIC/8190,Babajide Ojo,  ,Adamawa,0810 368 9655,babajide.ojo94@example.ng,339,2022-09-10,Microbiology,400,5.00
+R00086,24/COM/9565,Ngozi Lawal,2007-10-26,Niger,+2348088369126,Ngozi.Lawal16@Example.Ng,239,2024-09-13,Computer Science,200,3.16
+R00087,21/ACC/7823,Babajide Nwosu,25/10/2002,nil,+234 (809) 304-5618,babajide.nwosu64@example.ng,223,15/01/2022,Acct,400,3.75
+R00088,25/MIC/8466,Damilola Akinola,12 Jul 2008,Kaduna,2347060176419,Damilola.Akinola72@Example.Ng,244,02/11/2025,Microbiology,100,4.30
+R00089,25/MAS/0609,Fatima Uzor,22/03/2006,FCT,+2348061924740,fatima.uzor31@example.ng,332,2025-09-08,Mass Communication,100,3.66
+R00090,24/LAW/8936,Emeka Adebayo,2008-02-11,Ekiti,2348130701108,emeka.adebayo81@example.ng,-186,7 Nov 2024,Law,200,4.10
+R00091,24/ACC/7352,Halima Yakubu,2006-02-28,Yobe,09054935313,halima.yakubu37@example.ng,329,25/10/2024,Acct,200,3.88
+R00092,24/MEC/5443,Adaeze Bello,16/12/2005,Edo,08109138623,adaeze.bello26@example.ng,276,2025-01-09,MECH ENG,200,3.39
+R00093,22/LAW/9238,Ifeanyi Yakubu,24/04/2004,Sokoto,2348176926772,ifeanyi.yakubu98@example.ng,319,2023-01-08,Law,400,3.24
+R00094,25/COM/0748,Chiamaka Abdullahi,-,Nassarawa,+2348141048862,chiamaka.abdullahi98@example.ng,302,25-10-2025,Computer Science,100,4.39
+R00095,24/MAS/3598,Kelechi Akinola,28/01/2007,Plateau,08063986679,kelechi.akinola68@example.ng,209,12/01/2025,Mass Communication,200,3.09
+R00096,23/COM/7633,"OLADIPO, Abubakar",01/01/2003,Kwara,2348090770351,Abubakar.Oladipo56@Example.Ng,280,15/10/2023,Computer Science,300,2.74
+R00097,22/MAS/1763,Yetunde Ojo,25/04/2005,Kogi,+2349058456744,yetunde.ojo2@example.ng,302,2022-10-23,Mass Comm.,400,3.68
+R00098,21/LAW/7271,Ifeoma Chukwu,24/10/2003,Abia,08067457281,ifeoma.chukwu35@example.ng,255,2021-11-24,law ,500,3.91
+R00099,22/MAS/5098,Yusuf Oladipo,16 Sep 2006,Ekiti,08088166561,yusuf.oladipo73@example.ng,200,2022-09-09,Mass Communication,400,3.99
+R00100,22/MEC/0097,Zainab Adebayo,25-02-2003,Ogun,08069736068,zainab.adebayo3@example.ng,224,2022-10-01,Mechanical Engineering,400,3.68
+R00101,21/MEC/8845,Chiamaka Akinola,2001-11-13,Gombe,0817 971 8102,chiamaka.akinola30@example.ng,220,2021-09-05,Mechanical Engineering,500,3.34
+R00102,21/MEC/2901,Usman Mohammed,2001-06-07,Anambra,+2348100607723,usman.mohammed29@example.ng,222,9 Oct 2021,Mechanical Engr.,500,4.51
+R00103,24/MIC/3112,Ibrahim Afolabi,  ,Kano,N/A,ibrahim.afolabi55@example.ng,253,2024-09-09,Microbiology,200,3.49
+R00104,24/ACC/4352,Fatima Yakubu,2006-12-03,AKWA IBOM,0817 648 1933,fatima.yakubu11@example.ng,227,2024-09-14,Accounting,200,2.43
+R00105,22/MEC/0644,Chinedu Adeyemi,18-07-2004,Cross River,2349082041630,chinedu.adeyemi41@example.ng,207,20/01/2023,Mechanical Engr.,400,2.79
+R00106,25/ACC/9260,Bisola Afolabi,08/09/2006,Lagos,0905 130 9590,bisola.afolabi86@example.ng,255,18/10/2025,Acct,100,2.44
+R00107,22/MEC/4221,  ifeoma lawal ,2002-02-18,Cross River,08072866354,Ifeoma.Lawal99@Example.Ng,315,2022-11-16,Mechanical Engineering,400,3.50
+R00108,24/COM/2580,Chiamaka Adebayo,2006-05-07,N/A,+2348110183412,chiamaka.adebayo17@example.ng,181,2024-10-09,COMPUTER SCIENCE,200,2.38
+R00109,23/COM/7311,Ebuka Okafor,2006-12-06,Ekiti,0706 247 7924,Ebuka.Okafor61@Example.Ng,240,2023-10-10,Comp. Sci.,300,3.33
+R00110,23/MAS/2768,Chiamaka Chukwu,20/11/2005,Rivers,08149867147,chiamaka.chukwu87@example.ng,317,2023-09-13,Mass Communication,300,3.51
+R00111,22/MEC/1584,Maryam Eze,NA,Ogun,08088955327,maryam.eze48@example.ng,281,2022-09-12,MECH ENG,400,3.24
+R00112,25/ACC/8507,"OJO, Chinedu",21/07/2004,Bauchi,09084557458,chinedu.ojo67@example.ng,290,18 Sep 2025,Accounting,100,3.56
+R00113,22/LAW/7579,Fatima Nnamdi,01/23/2006,null,0816 910 0805,fatima.nnamdi4@example.ng,272,07/09/2022,Law,400,2.90
+R00114,22/MIC/8858,Funmilayo Ezeh,2002-02-25,Bayelsa,08024094967,funmilayo.ezeh37@example.ng,289,2023-01-16,Microbiology,400,3.71
+R00115,23/LAW/5406,Chidi Balogun,2004-06-24,,08104170943,chidi.balogun89@example.ng,236,2023-09-18,LAW,300,2.44
+R00116,22/COM/5902,Femi Okafor,12-08-2002,Edo,2348157697144,femi.okafor1@example.ng,222,3 Sep 2022,Computer Science,400,3.76
+R00117,21/MAS/5738,"IBEKWE, Tunde",2005-06-08,Benue,+2348104306924,Tunde.Ibekwe33@Example.Ng,197,11 Nov 2021,Mass Communication,400,3.68
+R00118,25/MEC/7396,Femi Nwosu,20 Dec 2004,Osun,08116018722,femi.nwosu4@example.ng,180,12-09-2025,Mechanical Engineering,100,3.68
+R00119,25/MEC/1983,Ngozi Ezeh,2007-05-11,Adamawa,2348141978063,ngozi.ezeh5@example.ng,335,17/11/2025,Mechanical Engineering,100,2.92
+R00120,22/MEC/3818,Kelechi Chukwu,2000-09-11,Adamawa,09027709202,Kelechi.Chukwu98@Example.Ng,246,2023-01-16,Mechanical Engineering,400,3.21
+R00121,24/MEC/5353,Temitope Uzor,2002-06-11,Kaduna,2347063448225,temitope.uzor67@example.ng,317,25 Jan 2025,Mechanical Engineering,200,2.90
+R00122,21/COM/1115,"DANJUMA, Oluwaseun",2005-08-22,Borno,07061565632,Oluwaseun.Danjuma71@Example.Ng,340,8 Jan 2022,Computer Science,400,3.62
+R00123,21/MAS/3659,  chidi onyeka ,21/07/1999,FCT,07014410021,chidi.onyeka23@example.ng,336,2021-11-25,Mass Comm.,400,2.72
+R00124,22/ECO/4556,  musa olawale ,28/04/2004,Kano State,0812 335 0271,musa.olawale31@example.ng,301,2022-10-28,Economics,400,3.32
+R00125,24/ACC/3238,Tunde Uzor,2005-03-16,Osun,2349022072854,tunde.uzor24@example.ng,330,2025-01-01,Accounting,200,2.76
+R00126,21/ECO/0130,Maryam Nwosu,2003-12-14,Ekiti,08150296935,Maryam.Nwosu90@Example.Ng,273,21/11/2021,economics,400,2.46
+R00127,25-COM-5655,  tunde oladipo ,24/04/2003,Kaduna,2348052547595,tunde.oladipo59@example.ng,280,2025-11-16,COMPUTER SCIENCE,100,2.20
+R00128,21/MAS/7335,  uche nwosu ,07/26/2001,Kaduna,08122782255,uche.nwosu60@example.ng,181,28-09-2021,Mass Communication,400,3.44
+R00129,24/LAW/2517,Chiamaka Mohammed,2002-03-05, lagos,+2348111751843,chiamaka.mohammed22@example.ng,251,2024-09-19,Law,200,3.89
+R00130,23/ECO/8258,Nkechi Nwosu,2006-03-09,Katsina,08139335925,nkechi.nwosu97@example.ng,301,2023-10-27,economics,300,2.91
+R00131,22/ECO/9428,Maryam Onyeka,2000-11-09,Niger,08080791936,maryam.onyeka52@example.ng,189,3 Sep 2022,Economics,400L,2.58
+R00132,23/COM/9851,"NWOSU, Ifeoma",23/04/2007,Kogi,07034789149,ifeoma.nwosu57@example.ng,260,01/09/2023,COMPUTER SCIENCE,300,2.92
+R00133,24/MEC/9995,Ebuka Onyeka,02-11-2007,Jigawa,2347034051065,Ebuka.Onyeka66@Example.Ng,199,2025-01-09,Mechanical Engineering,200,4.17
+R00134,22/MAS/3579,Kemi Adeyemi,20/10/2000,Akwa Ibom,08150131545,kemi.adeyemi37@example.ng,334,2022-10-09,Mass Communication,400,3.51
+R00135,25/MAS/5383,Emeka Nwosu,08/01/2003,Rivers,+2348185095018,emeka.nwosu56@example.ng,-241,12/11/2025,Mass Communication,100,2.99
+R00136,22/MEC/2268,"OBI, Damilola",2006-10-25,Borno,+2348069683216,damilola.obi52@example.ng,-212,14-01-2023,Mechanical Engineering,400,3.68
+R00137,25/MIC/1783,Ebuka Danjuma,2006-11-26,Kebbi,08032568646,ebuka.danjuma18@example.ng,186,20/01/2026,Microbiology,100,3.64
+R00138,23/COM/2461,Damilola Yakubu,2007-07-21,Delta,09086018316,damilola.yakubu53@example.ng,185,2023-11-16,Comp. Sci.,300,2.71
+R00139,21/ECO/1191,Oluwaseun Danjuma,2002-03-10,Nasarawa,09082823015,oluwaseun.danjuma55@example.ng,301,2021-11-04,Economics,400,2.54
+R00140,25/MIC/6133,Gbenga Ibekwe,2004-03-05,Bayelsa,2348135876319,gbenga.ibekwe69@example.ng,200,2025-09-28,Micro-biology,100,4.15
+R00141,25/ECO/7927,Kemi Olawale,25/11/2006,Nasarawa,07069994705,Kemi.Olawale50@Example.Ng,201,03-01-2026,Economics,100,2.62
+R00142,25/ACC/0537,Zainab Babatunde,2006-01-10,Lagos,08123738647,zainab.babatunde4@example.ng,312,2026-01-10,Accountancy,100,2.37
+R00143,23/MAS/6064,Adaeze Uzor,2001-12-27,Cross River,2348160298911,adaeze.uzor86@example.ng,213,11/09/2023,Mass Comm.,300,2.65
+R00144,25/ECO/2734,Maryam Nnamdi,2007-05-14,Kebbi,09091560358,maryam.nnamdi64@example.ng,683,2025-11-21,Economics,100,2.57
+R00145,24/MAS/8506,Segun Akinola,2003-01-13,Kano,0802 849 8211,segun.akinola63@example.ng,253,2024-11-25,Mass Comm.,200,3.70
+R00146,21/MIC/8129,Chinedu Lawal,2002-03-27,Abia,081098639,chinedu.lawal77@example.ng,238,2021-09-03,MCB,400,3.34
+R00147,23/LAW/2059,Ifeanyi Akinola,11/11/2006,Ondo,08122400179,ifeanyi.akinola16@example.ng,186,2023-09-20,Law,300,2.65
+R00148,24/MAS/3974,Tunde Olawale,2005-04-17,Edo,08149993995,tunde.olawale57@example.ng,228,2024-11-14,Mass Communication,200,3.51
+R00149,23/MAS/8130,Rukayat Chukwu,2003-02-11,Adamawa,0909 513 5953,rukayat.chukwu39@example.ng,313,2024-01-05,Mass Communication,300,2.92
+R00150,25/MEC/4196,Femi Eze,2007-09-02,Katsina,2348113377511,Femi.Eze66@Example.Ng,195,20/10/2025,Mechanical Engineering,100,4.43
+R00151,24/MIC/6078,Hauwa Olawale,20 Nov 2008,Kwara,08100602527,hauwa.olawale68@example.ng,318,06/11/2024,Microbiology,200,3.81
+R00152,24/ECO/4385,  femi mohammed ,11/02/2006,Kaduna,07039145544,femi.mohammed30@example.ng,264,2024-11-27,Economics,200,1.90
+R00153,24/MIC/5621,Maryam Abdullahi,2004-07-15,Nasarawa,2348088191782,maryam.abdullahi47@example.ng,295,2024-10-15,Microbiology,200,2.68
+R00154,21/MEC/8976,Gbenga Yakubu,2001-06-20,Gombe,+2348052893589,gbenga.yakubu99@example.ng,198,11/11/2021,Mechanical Engineering,500,3.93
+R00155,25/MAS/5534,Yusuf Eze,7 Jul 2009,Kogi,08174445396,yusuf.eze46@example.ng,-270,2025-09-13,Mass Communication,100,3.18
+R00156,22/MEC/5182,Oge Eze,2005-09-25,Yobe,08146531494,Oge.Eze8@Example.Ng,299,2022-09-06,Mechanical Engineering,400L,3.97
+R00157,22/ECO/8719,Zainab Abdullahi,2005-11-13,Lag.,+2349097773111,zainab.abdullahi43@example.ng,-200,2022-11-23,Economics,400,2.61
+R00158,22/MIC/7255,Nkechi Adebayo,2002-08-07,Bauchi,09058074836,Nkechi.Adebayo49@Example.Ng,331,15-01-2023,Microbiology,400,3.04
+R00159,23/LAW/6025,Gbenga Eze,2005-11-04,Borno,2349083594814,gbenga.eze31@example.ng,299,08/01/2024,Law,300,3.70
+R00160,24/MIC/2478,Ngozi Okafor,2003-11-20,Edo,0808 772 8283,Ngozi.Okafor10@Example.Ng,197,09/11/2024,Microbiology,200,3.69
+R00161,24/ACC/3289,Abubakar Akinola,2006-03-27,Delta,2348031797828,abubakar.akinola66@example.ng,243,2024-11-18,Accounting,200,2.58
+R00162,21/COM/4243,Temitope Olawale,2000-03-03,Jigawa,+234 (816) 778-6700,temitope.olawale27@example.ng,713,12/09/2021,Computer Science,400,3.35
+R00163,21/MIC/0661,  damilola chukwu ,22-04-2002,Adamawa,0813 005 7779,Damilola.Chukwu25@Example.Ng,280,22/11/2021,Microbiology,400,2.38
+R00164,25/MIC/7368,Tunde Babatunde,17 Oct 2003,Yobe,07016348260,tunde.babatunde80@example.ng,210,13/11/2025,Microbiology,100,4.35
+R00165,24/MEC/2587,Hauwa Okonkwo,20/01/2005,Sokoto,+2348129812419,hauwa.okonkwo26@example.ng,306,2024-10-02,Mechanical Engineering,200,2.84
+R00166,21/MEC/0301,Ifeoma Chukwu,2000-12-09,Jigawa,09039198652,ifeoma.chukwu97@example.ng,285,2021-11-17,Mechanical Engineering,500,3.42
+R00167,24/COM/9617,"BALOGUN, Kelechi",2006-05-20,Jigawa,08035340933,kelechi.balogun65@example.ng,N/A,2025-01-15,Computer Science,200,3.14
+R00168,23/MAS/2103,Zainab Okonkwo,2004-05-16,Ogun,08140630258,zainab.okonkwo78@example.ng,336,2023-09-14,Mass Communication,300L,3.98
+R00169,21/LAW/9150,Gbenga Olawale,1999-11-18,nil,2348170251332,Gbenga.Olawale66@Example.Ng,283,03/09/2021,Law,500,2.61
+R00170,25/ECO/0063,Segun Balogun,2008-03-18,Jigawa,0809 257 2969,segun.balogun86@example.ng,314,2025-11-28,Economics,100,2.66
+R00171,23/ACC/1711,Hauwa Balogun,25 Sep 2007,Sokoto,080533595,hauwa.balogun39@example.ng,322,2023-09-27,Acct,300,2.82
+R00172,21/COM/7979,"OBI, Ibrahim",2005-12-18,Enugu,+234 (810) 455-9925,Ibrahim.Obi25@Example.Ng,335,2021-10-24,Computer Science,400,2.81
+R00173,21/MIC/4012,Fatima Danjuma,12/07/1999,Yobe,0703 405 2775,fatima.danjuma84@example.ng,261,15/01/2022,Microbiology,400,2.95
+R00174,23/ACC/7999,Babajide Lawal,2006-02-26,ANAMBRA,,babajide.lawal90@example.ng,323,2023-10-18,Accounting,300,3.15
+R00175,23/MEC/1331,Obinna Okafor,3 Mar 2002,Kaduna,+234 (815) 534-8154,obinna.okafor43@example.ng,316,2023-09-16,Mechanical Engineering,300L,2.29
+R00176,22/ACC/7391,Yusuf Suleiman,2004-03-06,Bayelsa,09059494413,yusuf.suleiman14@example.ng,190,2022-10-21,ACCOUNTING,400,3.90
+R00177,23/ECO/7310,Damilola Okonkwo,2004-02-25,Nassarawa,09038797049,damilola.okonkwo28@example.ng,239,2023-11-13,Economics,300,4.00
+R00178,23/COM/9598,Fatima Okonkwo,2003-06-08,Gombe,0814 814 8189,Fatima.Okonkwo28@Example.Ng,277,26-09-2023,COMPUTER SCIENCE,300,2.35
+R00179,24/MIC/4889,Oge Olawale,2004-09-03,Osun,+2348156996662,oge.olawale43@example.ng,295,21-10-2024,Microbiology,200,3.43
+R00180,22/MAS/0474,Halima Okonkwo,04/12/2004,Ebonyi,0909 301 5998,halima.okonkwo3@example.ng,255,2023-01-12,Mass Communication,400,3.06
+R00181,24/LAW/4463,Kelechi Lawal,2004-12-14,Kogi,0815 643 7696,Kelechi.Lawal72@Example.Ng,253,24/10/2024,Law,200,3.63
+R00182,21/MEC/7150,Usman Aliyu,2005-10-11,Jigawa,+2348185871273,usman.aliyu62@example.ng,714,2021-10-16,Mechanical Engr.,500,3.61
+R00183,25/MEC/9011,Temitope Aliyu,2007-01-20,Kano,+2348100428208,temitope.aliyu3@example.ng,262,09-10-2025,MECH ENG,100L,3.12
+R00184,22/LAW/5098,Segun Oladipo,2006-05-27,Bauchi,+2349084099825,segun.oladipo72@example.ng,247,2022-10-27,Law,400,4.53
+R00185,23/MAS/6585,Ebuka Okonkwo,2004-04-05,Ondo,09053449584,ebuka.okonkwo86@example.ng,296,2023-09-27,Mass Communication,300,2.95
+R00186,22/ECO/6360,Ifeoma Adeyemi,2001-05-21,Imo,09056708376,ifeoma.adeyemi18@example.ng,199,2022-09-16,Economics,400,1.93
+R00187,22/ECO/2856,Aisha Nwosu,2002-05-24,Katsina,0806 438 9870,aisha.nwosu16@example.ng,306,2022-10-24,ECONOMICS,400,2.93
+R00188,25/ACC/8560,Adaeze Lawal,16/06/2005,Zamfara,0706 130 9762,adaeze.lawal23@example.ng,nil,22-11-2025,Accounting,100,5.00
+R00189,22/COM/2206,Segun Okafor,20 Jul 2004,Kaduna,08031950104,segun.okafor61@example.ng,195,16 Nov 2022,Computer Science,400,3.30
+R00190,23/MAS/0222,Ebuka Mohammed,06-05-2002,Bauchi,2348028687011,ebuka.mohammed99@example.ng,320,2023-11-25,MASS COMM,300,3.23
+R00191,24/MIC/6210,Uche Ibekwe,10-08-2004,Anambra State,08170439465,uche.ibekwe11@example.ng,315,2024-11-23,MICROBIOLOGY,200,3.40
+R00192,23/MAS/0142,Zainab Balogun,22/11/2007,ENUGU,2348021273017,zainab.balogun95@example.ng,206,2023-09-08,MASS COMM,300L,3.70
+R00193,22/MAS/4033,Babajide Uzor,20/08/2006,Kaduna,2348038252015,babajide.uzor59@example.ng,295,09-09-2022,Mass Communication,400,2.97
+R00194,24/MIC/1632,Aisha Garba,25 Jul 2004,Bauchi,08027097493,Aisha.Garba57@Example.Ng,307,2024-10-03,Microbiology,200,4.14
+R00195,21/MEC/4676,  nkechi adebayo ,2002-04-24,Benue,+2348139651773,nkechi.adebayo77@example.ng,317,2021-10-03,Mechanical Engineering,500,2.16
+R00196,21/MEC/5584,  damilola adeyemi ,8 Dec 2003,Yobe,2348059260785,damilola.adeyemi92@example.ng,254,21 Oct 2021,Mechanical Engineering,500,3.41
+R00197,22/ACC/8429,Abubakar Nwosu,2003-05-27,null,08092049305,abubakar.nwosu97@example.ng,265,02/09/2022,Acct,400L,3.71
+R00198,24/ACC/2356,Chiamaka Adebayo,-,Kaduna,+234 (706) 281-5055,chiamaka.adebayo19@example.ng,nil,13/01/2025,Accounting,200,3.07
+R00199,23/COM/0602,Adaeze Afolabi,2007-06-02,Plateau,+2348152000351,adaeze.afolabi38@example.ng,305,2023-10-02,Computer Science,300,2.88
+R00200,24/ACC/4447,"UZOR, Nkechi",2007-03-21,Osun,08087372853,nkechi.uzor77@example.ng,220,04/10/2024,ACCOUNTING,200,3.66
+R00201,24/MEC/8308,Aisha Eze,10/04/2006,Katsina,2347033317662,aisha.eze11@example.ng,185,25 Jan 2025,Mechanical Engineering,200,4.18
+R00202,22/MEC/3931,Segun Ezeh,2001-06-10,Ondo,2348085185519,segun.ezeh76@example.ng,292,2022-11-09,Mechanical Engineering,400,2.84
+R00203,24/LAW/2295,Emeka Uzor,11/11/2004,OYO,2348076868784,emeka.uzor24@example.ng,207,2024-11-02,Law,200,4.37
+R00204,24/ECO/4809,Obinna Eze,27/06/2007,Imo,+234 (811) 663-2964,obinna.eze95@example.ng,308,26/11/2024,ECONOMICS,200,3.93
+R00205,25/LAW/4720,Ibrahim Akinola,11-05-2004,Kogi,08020041456,ibrahim.akinola97@example.ng,278,07-11-2025,LAW,100,2.67
+R00206,25/ACC/2903,Uche Nwosu,2008-01-15,Niger,08034453892,uche.nwosu72@example.ng,N/A,2025-11-09,Accountancy,100,2.30
+R00207,25/ECO/8883,Maryam Nnamdi,NA,Akwa Ibom,09057338050,maryam.nnamdi17@example.ng,282,28-01-2026,Economics,100,2.05
+R00208,21/COM/3029,Rukayat Mohammed,2000-02-26,Kwara,08055878196,rukayat.mohammed71@example.ng,340,13/09/2021,Comp. Sci.,400,2.41
+R00209,23/MAS/1119,"MOHAMMED, Ifeanyi",2003-06-16,Gombe,2348038985897,ifeanyi.mohammed96@example.ng,331,17 Sep 2023,Mass Communication,300,4.72
+R00210,24/MAS/6302,Adaeze Nwosu,2007-08-17,Borno,2348093261304,adaeze.nwosu27@example.ng,333,2024-11-21,MASS COMM,200,2.61
+R00211,23/MAS/7115,Obinna Ogunleye,27 Aug 2001,Edo,+2348070840280,obinna.ogunleye86@example.ng,303,09/10/2023,Mass Communication,300,3.50
+R00212,21/MAS/9093,Sani Olawale,2004-07-28,Abia,2347012411917,sani.olawale41@example.ng,189,12 Jan 2022,Mass Communication,400,3.77
+R00213,25/LAW/8979,Obinna Uzor,2008-02-09,Adamawa,+234 (701) 168-3022,obinna.uzor61@example.ng,250,2025-09-28,Law,100,3.37
+R00214,23/ECO/5601,Adaeze Uzor,2002-07-04,Gombe,2348101425890,adaeze.uzor52@example.ng,-239,2023-11-22,Economics,300,3.40
+R00215,22/MEC/7829,Ebuka Nnamdi,2003-08-22,Ebonyi,07062914433,ebuka.nnamdi11@example.ng,-237,2022-11-01,MECH ENG,400,3.85
+R00216,22/MIC/2396,Emeka Suleiman,2006-06-19,Ebonyi,+2348077111324,emeka.suleiman39@example.ng,193,2022-11-08,Microbiology,400,3.59
+R00217,25/ACC/1816,Chiamaka Okonkwo,20 Aug 2003,Gombe,08065311103,chiamaka.okonkwo74@example.ng,208,11/11/2025,ACCOUNTING,100,3.00
+R00218,22/ECO/2249,Uche Nnamdi,18 Aug 2002,Delta,08022507038,uche.nnamdi13@example.ng,284,10-01-2023,Economics,400,2.77
+R00219,22/COM/9495,Ifeoma Olawale,2002-01-05,Zamfara,08068573038,Ifeoma.Olawale26@Example.Ng,184,2022-09-16,COMPUTER SCIENCE,400,3.48
+R00220,21/MEC/4380,"AFOLABI, Bisola",2005-03-15,Kwara,08126230378,bisola.afolabi75@example.ng,287,05/10/2021,Mechanical Engineering,500,
+R00221,24/MAS/8144,Yusuf Nnamdi,07/25/2005,Adamawa,07012040036,yusuf.nnamdi22@example.ng,232,2024-10-09,Mass Communication,200,3.32
+R00222,21/ACC/0471,Kemi Adeyemi,1999-02-05,Jigawa,08067629097,kemi.adeyemi25@example.ng,337,18-09-2021,Accounting,400,2.97
+R00223,25/ACC/4296,Musa Ogunleye,12/06/2009,Gombe,07064261258,Musa.Ogunleye65@Example.Ng,335,25/09/2025,Accountancy,100,4.60
+R00224,23/LAW/2152,Femi Olawale,2006-10-27,Cross River,+2349087905507,femi.olawale72@example.ng,310,16/09/2023,Law,300,1.96
+R00225,24/COM/3783,Temitope Aliyu,08/12/2005,Lagos,080826675,temitope.aliyu45@example.ng,262,26/09/2024,Computer Science,200,3.31
+R00226,22/ECO/8696,Fatima Bello,2002-01-20,FCT,+2348066723458,fatima.bello39@example.ng,278,17/11/2022,Economics,400,2.10
+R00227,24/COM/8539,Kemi Garba,2003-05-28,Plateau,08164899452,Kemi.Garba86@Example.Ng,244,2025-01-11,Computer science ,200,4.53
+R00228,21/COM/0850,Obinna Ibekwe,06/07/2002,Edo,2348071325146,Obinna.Ibekwe88@Example.Ng,295,2021-10-08,Computer science ,400,3.43
+R00229,23/MAS/2768,"CHUKWU, Chiamaka",2005-11-20,Rivers,08149867147,chiamaka.chukwu87@example.ng,317,2023-09-13,Mass Communication,300,3.51
+R00230,22/MEC/8785,Obinna Ibekwe,2005-02-18,Rivers,0816 929 2692,obinna.ibekwe77@example.ng,296,2022-09-18,MECH ENG,400,3.23
+R00231,23/MIC/9089,Funmilayo Ojo,2001-03-08,Kebbi,0817 899 9670,funmilayo.ojo6@example.ng,299,05/10/2023,MICROBIOLOGY,300,3.55
+R00232,23/COM/8653,Funmilayo Olawale,2003-10-23,Akwa Ibom,07014429682,funmilayo.olawale35@example.ng,200,26/01/2024,COMPUTER SCIENCE,300,2.98
+R00233,23/LAW/5339,Ifeoma Oladipo,2006-06-08,Kogi,0816 015 8521,ifeoma.oladipo4@example.ng,322,2024-01-28,Law,300,2.63
+R00234,24/MIC/4382,Halima Ojo,2007-08-26,Benue,2348027984316,halima.ojo24@example.ng,220,12 Sep 2024,Microbiology,200,2.89
+R00235,21/LAW/4352,Ibrahim Babatunde,2000-03-25,Kwara,08171013641,Ibrahim.Babatunde73@Example.Ng,296,2021-11-25,Law,500,1.91
+R00236,22/ECO/5748,Musa Okafor,2006-03-04,Bayelsa,08151976785,musa.okafor35@example.ng,316,2022-11-27,Economics,400,3.33
+R00237,23/MEC/0423,Fatima Yakubu,2007-09-16,Rivers,08072036298,fatima.yakubu60@example.ng,326,22 Nov 2023,MECH ENG,300,3.25
+R00238,24/ACC/2991,Obinna Babatunde,2003-10-19,Ebonyi,+2348080944209,obinna.babatunde56@example.ng,265,2024-11-17,Acct,200,2.30
+R00239,24/MEC/7071,Hauwa Balogun,11 May 2003,Edo,09036188387,hauwa.balogun27@example.ng,295,2025-01-24,Mechanical Engr.,200,3.44
+R00240,21/ECO/4382,  zainab nnamdi ,2003-04-07,Jigawa,07011603472,zainab.nnamdi98@example.ng,259,13/09/2021,ECONOMICS,400,1.62
+R00241,23/ACC/0759,Ibrahim Onyeka,07/11/2002,Adamawa,+2348111757767,ibrahim.onyeka93@example.ng,311,2023-11-23,Accounting,300,2.97
+R00242,25/LAW/8061,Yetunde Abdullahi,2004-12-05,Kano,0809 846 7819,yetunde.abdullahi11@example.ng,286,2025-10-16,Law,100,3.90
+R00243,21/MAS/4700,Adaeze Oladipo,03/04/2001,Niger,0703 779 7093,adaeze.oladipo37@example.ng,663,2021-10-26,Mass Communication,400,3.97
+R00244,21/COM/6014,Babajide Balogun,03/11/2001,Bayelsa,+2348074297124,babajide.balogun39@example.ng,317,2021-11-18,CSC,400,2.19
+R00245,21/ACC/3470,  kemi olawale ,2004-06-19,Yobe,08062792164,kemi.olawale89@example.ng,209,22/10/2021,Accountancy,400,4.01
+R00246,23/ECO/9202,Ifeanyi Okafor,2001-12-19,Yobe,0803 678 2639,ifeanyi.okafor44@example.ng,296,2023-09-18,Economics,300L,3.58
+R00247,23-MIC-0700,Bisola Mohammed,15 Aug 2004,Borno,08036040855,bisola.mohammed39@example.ng,235,19/10/2023,MICROBIOLOGY,300,4.61
+R00248,21/MIC/3302,Kelechi Balogun,18-04-2000,Benue,0803 534 1774,kelechi.balogun33@example.ng,307,2021-09-01,Microbiology,400,3.14
+R00249,24/COM/1386,"CHUKWU, Maryam",2007-01-07,Ekiti,+2348094605572,maryam.chukwu2@example.ng,269,02/01/2025,Computer Science,200,4.35
+R00250,25/MEC/8913,Yetunde Eze,2007-04-11,Ekiti,0816 118 2321,Yetunde.Eze15@Example.Ng,309,27-10-2025,Mechanical Engr.,100,3.56
+R00251,21/ACC/1615,Ngozi Onyeka,2002-07-11,Sokoto,+234 (815) 315-4525,ngozi.onyeka65@example.ng,243,22/01/2022,Accounting,400,4.55
+R00252,24/MEC/2490,Bisola Eze,2002-04-07,Enugu State,+234 (814) 056-6105,bisola.eze89@example.ng,199,27/01/2025,Mechanical Engineering,200L,4.45
+R00253,24/COM/6052,"BALOGUN, Kemi",14/03/2006,Benue,08154034819,kemi.balogun50@example.ng,204,2024-09-23,Computer Science,200,3.02
+R00254,24/ECO/6438,Chinedu Ibekwe,2003-12-22,Bayelsa,07035795072,chinedu.ibekwe79@example.ng,267,2024-09-19,Economics,200,3.10
+R00255,21/MAS/9203,Usman Okafor,2004-01-05,Edo,08137865518,usman.okafor3@example.ng,268,06/09/2021,Mass Communication,400,2.25
+R00256,25/MIC/3419,Gbenga Adebayo,26 May 2004,Abia,0809 365 0018,gbenga.adebayo8@example.ng,268,2025-11-25,Microbiology,100,
+R00257,21/LAW/4595,Emeka Aliyu,2005-03-01,Lagos,0807 360 2362,Emeka.Aliyu76@Example.Ng,191,4 Oct 2021,law ,500,2.85
+R00258,23/COM/1579,Ebuka Nnamdi,20 Oct 2007,Akwa-Ibom,2348094783671,Ebuka.Nnamdi12@Example.Ng,322,2024-01-10,Computer Science,300,3.48
+R00259,25/LAW/2382,Ngozi Olawale,2008-03-13,Yobe,090936688,ngozi.olawale35@example.ng,311,2025-11-06,Law,100,3.56
+R00260,24/LAW/7213,Ibrahim Ezeh,23 Dec 2004,Sokoto,2348147042863,Ibrahim.Ezeh76@Example.Ng,274,24/10/2024,law ,200,3.05
+R00261,23/ACC/4764,Adaeze Akinola,22/03/2004,Cross-River,08187688053,adaeze.akinola15@example.ng,233,2024-01-17,ACCOUNTING,300,3.71
+R00262,24/LAW/8093,Oluwaseun Suleiman,07-05-2004,Bayelsa,07011302360,oluwaseun.suleiman77@example.ng,310,14/09/2024,law ,200,2.49
+R00263,23/COM/9233,Abubakar Ibekwe,26/08/2007,Imo,07030233247,abubakar.ibekwe16@example.ng,330,26/09/2023,COMPUTER SCIENCE,300,3.93
+R00264,21/MEC/3648,Kemi Ibekwe,05/12/2001,FCT,+2348022313913,kemi.ibekwe77@example.ng,308,2021-09-22,Mechanical Engineering,500,3.65
+R00265,24/ECO/4431,Bisola Suleiman,2003-09-22,Adamawa,09059489591,bisola.suleiman32@example.ng,200,2024-11-17,Economics,200,2.69
+R00266,22/COM/5821,  hauwa mohammed ,2003-05-04,Ogun,0902 249 9298,hauwa.mohammed75@example.ng,292,25 Nov 2022,Computer science ,400,4.09
+R00267,21/ECO/2967,Abubakar Garba,2005-10-12,Cross River,+2348152401414,abubakar.garba33@example.ng,329,2021-11-21,ECONOMICS,400,2.51
+R00268,24-MEC-2587,Hauwa Okonkwo,20/01/2005,Sokoto,08129812419,hauwa.okonkwo26@example.ng,306,02/10/2024,Mechanical Engineering,200,2.84
+R00269,21/ECO/0225,Halima Afolabi,15/04/1999,Delta,08084160781,halima.afolabi95@example.ng,0,17/01/2022,ECONOMICS,400,2.83
+R00270,21/ECO/7451,Musa Adeyemi,16-09-2004,Niger,09027959852,musa.adeyemi97@example.ng,673,2021-10-20,Economics,400L,3.48
+R00271,25/MIC/0732,Chiamaka Balogun,2003-09-10,Adamawa,07013970436,chiamaka.balogun66@example.ng,259,2025-11-09,Microbiology,100,4.01
+R00272,21/MEC/1538,Maryam Obi,19-09-2000,Niger,+2348170637716,maryam.obi41@example.ng,335,11 Nov 2021,Mechanical Engineering,500,3.57
+R00273,25/MEC/9486,Aisha Suleiman,2004-03-02,Bauchi,+2348059910882,aisha.suleiman68@example.ng,185,2025-11-28,Mech. Engineering,100,2.59
+R00274,22/MEC/3307,Yetunde Olawale,2000-01-23,Delta,2348147123582,yetunde.olawale46@example.ng,182,21/01/2023,Mechanical Engineering,400L,4.39
+R00275,22/MEC/2533,Halima Olawale,03/01/2004,Borno,07033705080,halima.olawale47@example.ng,294,14/01/2023,Mechanical Engineering,400,-
+R00276,23/ACC/3473,Ifeanyi Okafor,2002-07-05,Delta,08051877760,ifeanyi.okafor63@example.ng,293,18/09/2023,Accounting,300,3.75
+R00277,22/MIC/6597,Abubakar Suleiman,01/02/2003,Bauchi,08101469577,abubakar.suleiman81@example.ng,215,23/10/2022,Microbiology,400,4.33
+R00278,23/ACC/4682,Emeka Lawal,2005-05-13,Imo,08085847104,emeka.lawal80@example.ng,214,2023-09-12,Accounting,300,3.75
+R00279,24/MAS/8885,Halima Abdullahi,2005-03-11,FCT,+2348177547842,halima.abdullahi70@example.ng,182,2025-01-19,Mass Communication,200,3.46
+R00280,24/LAW/6836,Maryam Okonkwo,2002-11-13,Adamawa,08172954823,maryam.okonkwo9@example.ng,0,2024-11-10,Law,200,3.88
+R00281,22/COM/0394,Sani Ibekwe,13-03-2006,Yobe,nil,sani.ibekwe22@example.ng,268,03/09/2022,Comp. Sci.,400,4.28
+R00282,21/ACC/3777,Nkechi Obi,2000-11-09,Ondo,0817 526 8414,Nkechi.Obi30@Example.Ng,206,27-09-2021,Accounting,400,3.85
+R00283,23/LAW/8453,Fatima Aliyu,2002-02-14,Bauchi,08031622575,Fatima.Aliyu98@Example.Ng,267,2023-10-11,Law,300L,2.98
+R00284,24/COM/6752,  abubakar ibekwe ,2008-10-10,Lag.,+2348037190613,abubakar.ibekwe18@example.ng,247,23/10/2024,Computer Science,200,4.06
+R00285,22/MIC/6420,"OKONKWO, Yetunde",2006-05-09,Kebbi,09038362367,yetunde.okonkwo89@example.ng,294,2022-11-08,MCB,400,3.00
+R00286,22/LAW/5719,Gbenga Ogunleye,24 Nov 2000,Lagos,09053893116,gbenga.ogunleye39@example.ng,nil,21/09/2022,Law,400,2.90
+R00287,23/ACC/2635,Chidi Okafor,2006-10-02,,+2347015722197,Chidi.Okafor88@Example.Ng,249,11/10/2023,Accounting,300,3.56
+R00288,22/MEC/7007,Chiamaka Mohammed,2001-08-03,Ebonyi,2348061064165,chiamaka.mohammed45@example.ng,nil,18-10-2022,Mechanical Engineering,400,4.33
+R00289,25/MIC/3861,Funmilayo Uzor,2005-03-01,Lagos,2348182408308,funmilayo.uzor6@example.ng,0,2025-09-03,Microbiology,100,4.01
+R00290,25/ECO/7667,Nkechi Suleiman,01-07-2009,Abia,2347069033623,nkechi.suleiman73@example.ng,311,2025-09-09,Economics,100,2.98
+R00291,22/LAW/9233,Uche Eze,26 Jun 2005,Kaduna,07030471418,uche.eze2@example.ng,200,11-09-2022,Law,400,4.09
+R00292,21/ACC/3605,Chidi Mohammed,25/04/2001,Bayelsa,0908 820 1344,chidi.mohammed48@example.ng,187,2021-09-06,Accounting,400,3.34
+R00293,21/MAS/1085,Musa Uzor,04/06/2004,Bayelsa,08146207725,musa.uzor50@example.ng,303,16-09-2021,Mass Comm.,400,4.75
+R00294,25/ECO/2349,Babajide Olawale,2008-11-24,Sokoto,+2348085037205,babajide.olawale48@example.ng,192,17/10/2025,Economics,100,3.61
+R00295,22/ACC/8154,Ebuka Eze,2002-03-11,Imo,+2347037741103,ebuka.eze8@example.ng,320,23 Sep 2022,Accounting,400,3.64
+R00296,24/MAS/9279,"YAKUBU, Ngozi",2002-06-12,Borno,08053791340,ngozi.yakubu83@example.ng,299,15 Oct 2024,Mass Communication,200,2.37
+R00297,25/LAW/2867,Temitope Bello,11/08/2009,Osun,09028937822,temitope.bello53@example.ng,326,06/01/2026,LAW,100,2.84
+R00298,21/LAW/2349,Aisha Ogunleye,1999-09-15,Kebbi,09087990477,Aisha.Ogunleye56@Example.Ng,234,2021-09-11,law ,500,3.63
+R00299,24/MIC/5654,Ibrahim Suleiman,10/07/2002,Cross River,0802 047 5118,ibrahim.suleiman69@example.ng,333,24/11/2024,Micro-biology,200,3.40
+R00300,25/MAS/4113,Sani Uzor,2005-07-22,Ondo,2348086743569,sani.uzor26@example.ng,255,2025-11-18,Mass Communication,100,3.45
+R00301,25/MIC/6879,Yusuf Ibekwe,20/04/2008,Kogi,+2347033837862,yusuf.ibekwe25@example.ng,338,2026-01-02,MCB,100,3.07
+R00302,24/ECO/9913,Halima Ojo,01/01/2002,Edo,08167910466,halima.ojo58@example.ng,182,2024-09-20,Economics,200,2.92
+R00303,22/LAW/7577,Nkechi Ojo,18/12/2006,Delta,0701 912 8946,Nkechi.Ojo70@Example.Ng,262,2022-10-19,Law,400,4.57
+R00304,22/MIC/0252,Segun Olawale,NA,Kebbi,0818 163 7360,segun.olawale53@example.ng,324,2023-01-16,Micro-biology,400,4.19
+R00305,22/LAW/6140,Funmilayo Yakubu,2001-08-20,Edo,+234 (814) 649-3481,funmilayo.yakubu12@example.ng,308,2022-09-17,Law,400,4.05
+R00306,22/LAW/2348,Sani Ogunleye,2002-07-09, kano,+234 (811) 565-8297,sani.ogunleye67@example.ng,268,2022-09-03,LAW,400L,2.66
+R00307,22/ECO/6001,Chinedu Suleiman,2004-06-12,Ekiti,0802 342 7603,chinedu.suleiman57@example.ng,245,2023-01-06,ECONOMICS,400,1.58
+R00308,23/COM/8408,"EZEH, Ngozi",03/09/2004,Borno,+2348025763277,ngozi.ezeh44@example.ng,259,5 Sep 2023,Computer Science,300,3.40
+R00309,23/MEC/9448,Rukayat Afolabi,19 Jul 2002,Jigawa,+2347035855735,rukayat.afolabi61@example.ng,242,2024-01-01,Mechanical Engineering,300,2.95
+R00310,21/MIC/3356,Chiamaka Adebayo,24-04-2003,Gombe,07016789455,chiamaka.adebayo52@example.ng,296,19 Nov 2021,Microbiology,400,2.23
+R00311,25/COM/3518,Gbenga Babatunde,25-04-2005,Gombe,08029008353,gbenga.babatunde44@example.ng,238,23-09-2025,Computer Science,100,3.59
+R00312,21/MAS/2621,"GARBA, Funmilayo",01/07/1999,Sokoto,08106118768,funmilayo.garba7@example.ng,248,18 Sep 2021,Mass Communication,400,3.87
+R00313,24/MAS/7962,Rukayat Olawale,2008-09-20,Osun,08060007248,rukayat.olawale90@example.ng,305,2024-09-28,Mass Communication,200,3.82
+R00314,21/LAW/7231,Chidi Onyeka,2002-07-23,Delta,+2348098251606,chidi.onyeka33@example.ng,277,2021-09-07,Law,500,3.84
+R00315,24/MAS/3598,"AKINOLA, Kelechi",01/28/2007,Plateau,2348063986679,kelechi.akinola68@example.ng,209,12/01/2025,Mass Communication,200,3.09
+R00316,22/MIC/1806,Yetunde Okonkwo,16/06/2006,Ondo,2347016401080,Yetunde.Okonkwo72@Example.Ng,259,2022-09-14,Microbiology,400L,4.13
+R00317,22/ACC/6144,Oluwaseun Okonkwo,03/24/2000,Taraba,+2347063625525,oluwaseun.okonkwo86@example.ng,276,2022-09-24,ACCOUNTING,400,3.75
+R00318,22/MEC/8219,Temitope Adebayo,17-07-2003,Osun,08143901059,temitope.adebayo33@example.ng,297,24/10/2022,Mechanical Engr.,400,4.16
+R00319,23/ACC/2970,"EZEH, Ifeoma",11/05/2003,Jigawa,09053596293,Ifeoma.Ezeh4@Example.Ng,268,03/01/2024,Accountancy,300,3.01
+R00320,22/MEC/9430,Ifeoma Ogunleye,03/07/2006,Taraba,+2347066390875,ifeoma.ogunleye2@example.ng,210,08/01/2023,MECH ENG,400,2.69
+R00321,21/MEC/6974,Chidi Nnamdi,06/06/2001,Ogun,+2348118372627,chidi.nnamdi97@example.ng,259,2021-11-22,Mechanical Engineering,500,3.89
+R00322,25/MAS/0609,Fatima Uzor,22 Mar 2006,FCT,2348061924740,fatima.uzor31@example.ng,332,8 Sep 2025,Mass Communication,100,3.66
+R00323,25/ACC/1122,Oluwaseun Eze,null,Ebonyi,2348058066315,oluwaseun.eze25@example.ng,193,03-01-2026,Accounting,100,3.04
+R00324,24/MIC/6078,Hauwa Olawale,2008-11-20,Kwara,+2348100602527,hauwa.olawale68@example.ng,318,2024-11-06,MCB,200,3.81
+R00325,21/ACC/0466,Kemi Obi,04/26/2000,Cross-River,08126802496,kemi.obi32@example.ng,210,15 Sep 2021,Accounting,400,3.68
+R00326,21/ECO/1949,Yusuf Babatunde,2001-06-28,Ebonyi,08102473459,yusuf.babatunde4@example.ng,236,24/01/2022,Economics,400,2.86
+R00327,21/MIC/1729,Usman Okonkwo,28 Apr 1999,Kwara,08161452827,Usman.Okonkwo31@Example.Ng,218,11 Jan 2022,Microbiology,400,2.75
+R00328,22/COM/4084,"ONYEKA, Ifeoma",25-06-2005,Adamawa,+2348024785901,ifeoma.onyeka61@example.ng,244,02/01/2023,Computer science ,400,3.19
+R00329,21/ACC/7301,Ngozi Babatunde,2000-12-02,Rivers,08139662745,ngozi.babatunde28@example.ng,229,2021-10-16,Acct,400,4.13
+R00330,22/COM/8910,Funmilayo Balogun,2004-11-21,Sokoto,2347034536274,funmilayo.balogun28@example.ng,256,2022-10-09,CSC,400,4.34
+R00331,25/COM/6226,Maryam Okonkwo,2005-08-17,Ebonyi,08031834226,maryam.okonkwo90@example.ng,185,20 Sep 2025,Comp. Sci.,100,4.11
+R00332,22/MEC/7796,Adaeze Lawal,2003-08-10,Kano,0706 047 5555,adaeze.lawal78@example.ng,-272,04/01/2023,Mechanical Engineering,400,3.48
+R00333,23/COM/6126,Babajide Uzor,2003-04-28,Imo,+234 (816) 391-4750,babajide.uzor93@example.ng,235,2024-01-12,Computer Science,300,2.71
+R00334,22/LAW/2234,Chinedu Balogun,24-07-2000,Bayelsa,+2348185529943,chinedu.balogun64@example.ng,193,04-11-2022,Law,400,3.17
+R00335,25/MIC/0449,Zainab Ogunleye,2006-01-19,Kogi,0812 653 0643,zainab.ogunleye4@example.ng,266,2025-09-02,MICROBIOLOGY,100,3.86
+R00336,23/ACC/8658,Musa Lawal,  ,Taraba,08024149820,Musa.Lawal85@Example.Ng,271,2024-01-04,Acct,300,3.68
+R00337,22/ECO/2438,Kemi Aliyu,2006-06-20,Enugu,08079065026,kemi.aliyu96@example.ng,nil,03/10/2022,Economics,400,2.42
+R00338,24/ACC/8870,Zainab Okonkwo,2003-07-14,Katsina,08051496398,zainab.okonkwo29@example.ng,263,2025-01-19,Accounting,200,4.84
+R00339,25/MAS/4111,Ibrahim Lawal,2004-11-27,Adamawa,+2348037839569,ibrahim.lawal63@example.ng,295,2025-11-23,Mass Communication,100,3.22
+R00340,23/ACC/2928,Damilola Ojo,NA,Sokoto,0807 308 4981,damilola.ojo81@example.ng,230,2023-09-05,Accounting,300,3.83
+R00341,21/ACC/5693,Babajide Uzor,2003-06-16,Kwara,08102184254,Babajide.Uzor51@Example.Ng,301,2021-11-06,Acct,400L,3.71
+R00342,25/LAW/5974,Uche Olawale,16-12-2007,Adamawa,08028628913,uche.olawale45@example.ng,297,21/09/2025,LAW,100,2.37
+R00343,21/ECO/3857,Ifeoma Uzor,08/01/2001,Imo,+2347034978052,ifeoma.uzor35@example.ng,213,2021-11-28,Economics,400,2.68
+R00344,24/LAW/3907,Obinna Ogunleye,2005-07-20,Jigawa,08094830406,obinna.ogunleye86@example.ng,244,2024-09-06,Law,200,3.21
+R00345,24/MEC/0729,Adaeze Ibekwe,2007-09-24,Plateau,08155332106,adaeze.ibekwe33@example.ng,305,16/10/2024,Mechanical Engineering,200,3.28
+R00346,21/COM/3653,Ngozi Onyeka,15/05/2001,Ekiti,2348068276177,Ngozi.Onyeka97@Example.Ng,634,14/01/2022,Comp. Sci.,400,3.26
+R00347,25/COM/7521,Rukayat Chukwu,2009-11-09,Sokoto,0905 393 5708,rukayat.chukwu41@example.ng,nil,15-10-2025,Computer Science,100,3.54
+R00348,21/COM/4847,Rukayat Garba,2000-06-23,Edo,08174284504,rukayat.garba91@example.ng,213,2021-10-05,Computer Science,400,4.48
+R00349,22/MAS/0039,Babajide Ojo,2004-01-20,akwa ibom ,,babajide.ojo92@example.ng,222,2022-10-18,Mass Communication,400,3.70
+R00350,24/ECO/7653,Bisola Ibekwe,2007-03-14,Kano,-,bisola.ibekwe29@example.ng,287,2024-11-27,Economics,200,2.08
+R00351,24/ECO/2673,"OGUNLEYE, Usman",15/04/2004,Akwa Ibom,09096120699,usman.ogunleye49@example.ng,195,2024-09-26,Economics,200,3.30
+R00352,22/MEC/1527,Usman Lawal,23 Dec 2000,Niger,08163311890,usman.lawal97@example.ng,274,15-10-2022,Mechanical Engr.,400,2.63
+R00353,25-COM-1681,Ebuka Aliyu,2004-10-14,Oyo,08142047042,ebuka.aliyu87@example.ng,300,2026-01-05,Computer Science,100,3.76
+R00354,25/MEC/1014,Nkechi Suleiman,09/25/2004,Kaduna,+2348068954427,Nkechi.Suleiman27@Example.Ng,N/A,12 Nov 2025,Mechanical Engineering,100,3.44
+R00355,22/ECO/7630,Ibrahim Ezeh,16/04/2005,Taraba,08088769897,ibrahim.ezeh28@example.ng,293,22-11-2022,Economics,400,3.11
+R00356,24/MIC/1568,Segun Onyeka,24-08-2002,Jigawa,08105608291,segun.onyeka53@example.ng,207,14/10/2024,MCB,200,3.32
+R00357,25/MAS/2849,Fatima Abdullahi,2009-09-24,Adamawa,0817 259 6420,fatima.abdullahi96@example.ng,255,2025-10-23,MASS COMM,100,2.56
+R00358,22/LAW/4370,Bisola Babatunde,2006-06-19,Jigawa,2348034915696,bisola.babatunde4@example.ng,314,9 Oct 2022,Law,400,3.20
+R00359,21/ACC/3406,"IBEKWE, Ebuka",09-02-2003,Cross River,2348055010379,ebuka.ibekwe90@example.ng,192,2022-01-03,Accounting,400,3.92
+R00360,22/MEC/1957,Musa Adebayo,05/23/2006,Cross River,08134623174,musa.adebayo22@example.ng,265,2022-09-16,Mechanical Engineering,400,2.49
+R00361,24/COM/5896,Chidi Onyeka,12/09/2008,Sokoto,+2349094667666,chidi.onyeka61@example.ng,333,27 Jan 2025,Comp. Sci.,200,2.74
+R00362,21/LAW/4140,Abubakar Akinola,24/07/2004,Sokoto,09083432766,abubakar.akinola50@example.ng,328,2021-11-15,Law,500,2.95
+R00363,22/ACC/9346,Chidi Adebayo,2000-12-25,Gombe,09056751837,chidi.adebayo56@example.ng,340,2023-01-26,Accounting,400,4.03
+R00364,24-ECO-9355,Ngozi Garba,2002-11-18,Bayelsa,+2348103480070,ngozi.garba78@example.ng,191,04/10/2024,Economics,200,3.18
+R00365,21/COM/9633,Musa Yakubu,2001-03-08,Osun,+2348177748056,Musa.Yakubu51@Example.Ng,316,2021-09-14,CSC,400,3.58
+R00366,22/COM/7335,"IBEKWE, Chinedu",28/03/2004,Ogun,08088754052,chinedu.ibekwe7@example.ng,263,17/01/2023,Computer Science,400,2.69
+R00367,25/MIC/9834,  abubakar afolabi ,2006-07-17,Taraba,0808 860 5863,abubakar.afolabi4@example.ng,327,2025-11-28,Microbiology,100,3.46
+R00368,22/ACC/9866,Nkechi Babatunde,2004-03-10,Ondo,09059331467,nkechi.babatunde26@example.ng,202,10/01/2023,Accounting,400,2.32
+R00369,21/ACC/3014,Ifeoma Balogun,13/03/2003,Zamfara,+234 (809) 633-4933,ifeoma.balogun40@example.ng,262,12/10/2021,Acct,400,3.55
+R00370,22/COM/5902,Femi Okafor,2002-08-12,Edo,08157697144,femi.okafor1@example.ng,222,2022-09-03,Computer Science,400,3.76
+R00371,24/MEC/7734,Adaeze Yakubu,1 Feb 2007,FCT,09089448530,adaeze.yakubu76@example.ng,281,2024-10-23,Mechanical Engineering,200,4.09
+R00372,21/MAS/5131,Obinna Olawale,02-09-1999,Taraba,08097843809,obinna.olawale54@example.ng,315,2021-11-26,Mass Communication,400,4.16
+R00373,21/MAS/8552,Funmilayo Mohammed,21/09/2003,Enugu,+2349032741349,funmilayo.mohammed55@example.ng,186,19 Oct 2021,Mass Communication,400,4.62
+R00374,25/MAS/8156,"NNAMDI, Chidi",1 Feb 2009,Ogun,+2348098384922,Chidi.Nnamdi86@Example.Ng,185,2025-09-25,Mass Communication,100,4.38
+R00375,25/ACC/6573,Babajide Adebayo,02/16/2005,Kebbi,08051952835,babajide.adebayo4@example.ng,234,2025-09-06,Acct,100,2.33
+R00376,22/MEC/0944,Yusuf Ibekwe,03/02/2003,Benue,2349037609964,Yusuf.Ibekwe88@Example.Ng,199,08/11/2022,Mechanical Engineering,400,3.60
+R00377,25/ACC/4967,Yetunde Chukwu,2008-03-23,Kebbi,0808 721 9784,yetunde.chukwu92@example.ng,201,08/01/2026,Accounting,100,3.78
+R00378,21/ECO/6792,Abubakar Suleiman,17 Mar 1999,Plateau,08148163527,abubakar.suleiman46@example.ng,331,2022-01-28,Economics,400,2.20
+R00379,25/MEC/2230,Musa Ibekwe,2006-01-05,Yobe,07013336747,musa.ibekwe43@example.ng,209,27 Oct 2025,Mechanical Engineering,100,3.86
+R00380,24-ECO-4091,Femi Afolabi,18/10/2003,Yobe,+2348099968833,femi.afolabi80@example.ng,340,05/11/2024,Economics,200,3.08
+R00381,22/MAS/0212,Oluwaseun Ogunleye,05/05/2005,Ekiti,070328937,oluwaseun.ogunleye71@example.ng,323,27/11/2022,Mass Communication,400,4.09
+R00382,22/LAW/5438,Amaka Ibekwe,27/01/2004,Kebbi,2349022227915,amaka.ibekwe51@example.ng,261,2022-11-01,law ,400L,2.73
+R00383,25/MIC/1783,Ebuka Danjuma,26/11/2006,Kebbi,0803 256 8646,ebuka.danjuma18@example.ng,186,2026-01-20,Microbiology,100,3.64
+R00384,22/MEC/9910,Temitope Abdullahi,17 Oct 2004,Benue,08113601128,temitope.abdullahi7@example.ng,337,23/10/2022,Mechanical Engineering,400,2.84
+R00385,25/MIC/2421,Zainab Garba,22-08-2003, kano,09034827229,Zainab.Garba71@Example.Ng,311,02/09/2025,Microbiology,100,3.33
+R00386,23/MEC/8181,Kemi Suleiman,03/08/2001,Yobe,2349052681162,kemi.suleiman91@example.ng,305,8 Oct 2023,Mechanical Engineering,300,4.19
+R00387,22/ECO/9131,"AFOLABI, Ifeoma",14/02/2003,Katsina,08116401365,ifeoma.afolabi94@example.ng,331,2022-10-11,Econs,400,2.53
+R00388,21/ECO/4382,  zainab nnamdi ,2003-04-07,Jigawa,07011603472,zainab.nnamdi98@example.ng,259,13/09/2021,ECONOMICS,400,1.62
+R00389,24/ECO/8567,"MOHAMMED, Amaka",01/11/2007,  ,07011668073,amaka.mohammed41@example.ng,330,24/10/2024,Economics,200,2.98
+R00390,22/LAW/7062,Ngozi Babatunde,16 Nov 2006,  ,+2348132236068,Ngozi.Babatunde70@Example.Ng,254,03-01-2023,law ,400,3.13
+R00391,24/COM/8038,  hauwa ogunleye ,2004-06-11,Lagos,+234 (808) 365-9243,hauwa.ogunleye73@example.ng,256,06/11/2024,Computer Science,200,2.76
+R00392,21/ECO/0982,"AFOLABI, Amaka",22/11/1999,Akwa Ibom,+234 (810) 573-6370,amaka.afolabi93@example.ng,339,21/09/2021,Economics,400L,3.18
+R00393,23/MAS/3569,Tunde Suleiman,2002-09-14,Benue,2348126963313,tunde.suleiman57@example.ng,214,2023-09-12,Mass Communication,300,4.14
+R00394,24/COM/5660,Segun Ezeh,2008-11-27,Taraba,+2347039184301,segun.ezeh23@example.ng,279,2024-09-07,Computer Science,200,3.86
+R00395,21/ACC/8316,  hauwa olawale ,21-05-2000,Yobe,070129666,hauwa.olawale46@example.ng,296,2021-11-10,Accountancy,400,3.36
+R00396,21/LAW/0593,Oluwaseun Balogun,01-02-2000,Enugu,07030530260,oluwaseun.balogun8@example.ng,290,2021-09-02,Law,500,4.21
+R00397,21/ECO/7915,Gbenga Babatunde,2002-09-02,F.C.T,+2348074394147,gbenga.babatunde88@example.ng,252,2021-11-21,Economics,400,3.19
+R00398,23/MAS/8837,"OLADIPO, Yetunde",2003-04-16,Bayelsa,0803 884 8015,Yetunde.Oladipo55@Example.Ng,589,1 Jan 2024,Mass Communication,300,2.59
+R00399,21/ECO/7320,"AKINOLA, Sani",1999-11-01,Kogi,08084990344,sani.akinola95@example.ng,247,2022-01-18,Economics,400,1.75
+R00400,22/ECO/6263,Bisola Danjuma,27/08/2005,Bauchi,08025957947,bisola.danjuma62@example.ng,197,2022-11-20,Economics,400,2.82
+R00401,22/MAS/2218,Amaka Nnamdi,10/10/2000,Abia,08106308337,amaka.nnamdi14@example.ng,279,2023-01-13,Mass Communication,400,3.57
+R00402,21/MAS/7643,Emeka Adeyemi,14/03/2004,Ebonyi,0908 576 2698,emeka.adeyemi11@example.ng,338,2021-09-04,Mass Communication,400,2.93
+R00403,23/MEC/4918,Maryam Yakubu,2001-09-25,Delta,08176165320,maryam.yakubu37@example.ng,289,2023-11-17,Mechanical Engineering,300,3.58
+R00404,24/MIC/5150,Tunde Oladipo,2002-06-24,  ,08171177216,Tunde.Oladipo36@Example.Ng,274,21-01-2025,MCB,200,2.73
+R00405,22/ACC/5619,Zainab Garba,19 Jun 2003,Ondo,09037607365,Zainab.Garba17@Example.Ng,272,19/01/2023,Accounting,400,2.99
+R00406,24/LAW/4143,"EZE, Temitope",2002-03-25,KANO,+2349033213658,temitope.eze82@example.ng,247,2025-01-28,Law,200,4.30
+R00407,21/MEC/8986,Temitope Nwosu,04/16/2000,Edo,+2349083956204,temitope.nwosu4@example.ng,307,2021-09-02,Mechanical Engineering,500,4.38
+R00408,22/ECO/9250,Kelechi Aliyu,21/02/2002,Plateau,090338147,kelechi.aliyu99@example.ng,227,2022-10-22,ECONOMICS,400,2.20
+R00409,22/MEC/1501,Kemi Okafor,20-03-2005,Ekiti,0903 935 2617,kemi.okafor79@example.ng,336,2022-10-18,Mechanical Engineering,400,2.48
+R00410,24/ACC/8007,Kemi Ezeh,2003-10-21,Ebonyi,nil,kemi.ezeh21@example.ng,286,2024-11-10,Accounting,200,2.54
+R00411,25/COM/7207,Amaka Ibekwe,09/12/2003,Kwara,08159223494,amaka.ibekwe29@example.ng,296,09/10/2025,Computer Science,100,3.97
+R00412,23/MAS/1504,Ibrahim Suleiman,09-01-2002,Sokoto,081188133,ibrahim.suleiman56@example.ng,260,11/01/2024,Mass Communication,300,2.94
+R00413,24/COM/9514,Zainab Obi,20 Feb 2004,Kaduna,08069167886,zainab.obi86@example.ng,271,2024-10-08,Computer Science,200,3.74
+R00414,21/ACC/1855,Funmilayo Ibekwe,2000-01-13,Katsina,2348147081378,funmilayo.ibekwe5@example.ng,254,2021-10-08,Accountancy,400,4.10
+R00415,21/LAW/3457,Ebuka Mohammed,2000-05-12,Bayelsa,+2349054663231,ebuka.mohammed14@example.ng,250,2021-10-01,Law,500,2.17
+R00416,24/ECO/3491,Ebuka Adeyemi,2004-05-05,Adamawa,2348072373598,Ebuka.Adeyemi16@Example.Ng,275,03/09/2024,Economics,200,1.51
+R00417,22/ECO/5920,Damilola Olawale,06/15/2001,Sokoto,0817 916 9696,damilola.olawale86@example.ng,326,2022-10-18,Economics,400,2.60
+R00418,23/MIC/5574,Amaka Uzor,2003-11-11,Ebonyi,+2348094337692,amaka.uzor58@example.ng,195,2023-09-10,Microbiology,300,2.24
+R00419,25/MIC/4014,"MOHAMMED, Oge",03/01/2009,Nassarawa,08174456583,oge.mohammed40@example.ng,209,2025-10-03,Microbiology,100,2.49
+R00420,23/MAS/5646,Ebuka Nwosu,2004-08-13,Cross River,08180592923,ebuka.nwosu96@example.ng,340,2023-09-20,Mass Communication,300,4.17
+R00421,24/MAS/3430,Usman Oladipo,16 Mar 2006,Bayelsa,08071813300,Usman.Oladipo65@Example.Ng,305,25 Nov 2024,Mass Comm.,200,2.40
+R00422,22/MEC/8955,Yusuf Chukwu,2002-12-17,Gombe,08088154479,yusuf.chukwu12@example.ng,292,10-11-2022,Mechanical Engineering,400,4.67
+R00423,25/MEC/5787,Chiamaka Balogun,09/06/2009,Ebonyi,08033269311,Chiamaka.Balogun66@Example.Ng,233,02/10/2025,Mechanical Engineering,100,3.90
+R00424,24/ECO/2688,Musa Oladipo,26/05/2002,Niger,+234 (809) 871-4771,musa.oladipo82@example.ng,340,28/10/2024,Economics,200,2.10
+R00425,21/MIC/3830,Halima Afolabi,14-10-2005,Yobe,2349081323806,halima.afolabi15@example.ng,260,2021-09-25,Micro-biology,400,3.89
+R00426,25/ECO/9748,Adaeze Adebayo,2007-12-11,Oyo,08177118664,adaeze.adebayo78@example.ng,-276,22/09/2025,Economics,100,2.42
+R00427,22/MAS/0937,"AKINOLA, Oge",2001-10-12,Zamfara,08093167179,oge.akinola92@example.ng,183,2023-01-07,Mass communication,400,1.48
+R00428,22/LAW/7036,Uche Adebayo,2003-09-08,Taraba,08095260029,uche.adebayo37@example.ng,279,28/09/2022,LAW,400,3.41
+R00429,22/MAS/5283,"DANJUMA, Sani",2006-11-13,Nasarawa,+2348057102114,sani.danjuma87@example.ng,262,22/11/2022,Mass Communication,400,4.00
+R00430,25/COM/7575,Fatima Ezeh,26/04/2009,Kano,  ,fatima.ezeh73@example.ng,265,28-11-2025,CSC,100,2.21
+R00431,23-MEC-6273,Ngozi Olawale,2006-02-24,Benue,08029628713,ngozi.olawale85@example.ng,237,10/10/2023,Mechanical Engineering,300,3.71
+R00432,25/MIC/9107,Segun Suleiman,08/07/2003,Cross River,09037567691,segun.suleiman12@example.ng,nil,15/01/2026,Microbiology,100,3.38
+R00433,21/ACC/0767,Rukayat Ojo,2003-04-14,Osun,08029514475,rukayat.ojo96@example.ng,237,05/01/2022,Acct,400,3.60
+R00434,22/MAS/2658,Oluwaseun Adebayo,2004-05-18,Plateau,08100158525,Oluwaseun.Adebayo55@Example.Ng,271,12-11-2022,Mass communication,400,4.46
+R00435,21/MIC/6870,Kelechi Ibekwe,2005-09-06,Oyo,0818 592 2984,Kelechi.Ibekwe14@Example.Ng,263,2021-11-11,MCB,400,2.80
+R00436,22/MIC/7255,Nkechi Adebayo,2002-08-07,Bauchi,09058074836,Nkechi.Adebayo49@Example.Ng,331,15-01-2023,Microbiology,400,3.04
+R00437,23/LAW/5283,Yusuf Nwosu,2006-03-06,FCT,08071415599,yusuf.nwosu57@example.ng,288,2023-11-01,Law,300,2.80
+R00438,24/ECO/4563,Chidi Adeyemi,05/04/2008,Cross River,+234 (802) 286-6445,chidi.adeyemi79@example.ng,193,03/09/2024,Economics,200,3.91
+R00439,22/ECO/2347,Nkechi Akinola,13/03/2004,Taraba,+2348107895529,nkechi.akinola18@example.ng,299,2022-11-24,Economics,400,2.61
+R00440,23/MIC/5253,Ngozi Akinola,07/02/2007,Ondo,+2349090885870,ngozi.akinola25@example.ng,304,04-11-2023,Microbiology,300,3.82
+R00441,24/ECO/4431,Bisola Suleiman,2003-09-22,Adamawa,09059489591,bisola.suleiman32@example.ng,200,2024-11-17,Economics,200,2.69
+R00442,25/LAW/4150,Maryam Adebayo,2007-11-14,Kogi,+2348053612584,maryam.adebayo8@example.ng,-287,2025-11-19,Law,100,3.18
+R00443,24/ECO/7227,Gbenga Yakubu,02/02/2007,Ebonyi,09030931203,Gbenga.Yakubu3@Example.Ng,313,2025-01-09,Economics,200,3.77
+R00444,25/COM/7989,Amaka Ogunleye,2004-11-02,Osun,+234 (802) 283-2670,amaka.ogunleye39@example.ng,272,2025-10-14,Computer Science,100,3.48
+R00445,22/ECO/1483,Aisha Nwosu,2002-10-03,Delta,nil,aisha.nwosu58@example.ng,0,2022-11-26,economics,400,3.57
+R00446,21/LAW/6193,Abubakar Lawal,03/11/2001,Kwara,07039554858,abubakar.lawal54@example.ng,303,2021-09-06,Law,500,3.70
+R00447,24/ACC/5118,Maryam Balogun,08/11/2003,Kebbi,08064946177,maryam.balogun28@example.ng,198,05/11/2024,Acct,200,3.54
+R00448,23/MIC/4679,Zainab Babatunde,2007-08-21,Bauchi,07066000689,zainab.babatunde84@example.ng,239,2023-10-04,Microbiology,300,4.09
+R00449,23/ACC/4838,Kemi Aliyu,2005-11-17,Nasarawa,08139801848,kemi.aliyu35@example.ng,281,2024-01-01,Accounting,300,2.25
+R00450,21/MAS/6544,Femi Lawal,2003-02-26,Bayelsa,07030772749,femi.lawal30@example.ng,291,20-10-2021,Mass Communication,400,4.26
+R00451,25/ACC/8560,Adaeze Lawal,16 Jun 2005,Zamfara,+2347061309762,adaeze.lawal23@example.ng,245,22 Nov 2025,Accountancy,100,5.00
+R00452,23/LAW/3080,Fatima Aliyu,06-07-2007,Bauchi,2348127639865,fatima.aliyu63@example.ng,295,2023-11-25,Law,300,3.30
+R00453,23/LAW/6428,"EZEH, Kemi",2006-10-20,Edo,+2349090519978,kemi.ezeh15@example.ng,197,22-11-2023,Law,300,3.81
+R00454,24/MEC/4433,Musa Obi,7 Jun 2003, kano,NA,musa.obi26@example.ng,329,2024-11-22,MECH ENG,200,2.53
+R00455,25/MIC/0166,Ibrahim Ogunleye,23/12/2003,FCT,0803 134 5068,ibrahim.ogunleye71@example.ng,261,2025-11-08,Microbiology,100,4.46
+R00456,24/ECO/7508,Uche Ogunleye,2005-07-21,Zamfara,08033549742,uche.ogunleye66@example.ng,292,04/10/2024,Economics,200L,3.51
+R00457,25/MEC/5235,  funmilayo nnamdi ,07/03/2009,Rivers,+2348138942252,funmilayo.nnamdi18@example.ng,216,18/09/2025,Mechanical Engineering,100,2.70
+R00458,25/ACC/5513,Yusuf Adebayo,2004-11-23,Gombe,+234 (909) 831-6328,yusuf.adebayo36@example.ng,219,2026-01-19,Accounting,100,3.12
+R00459,21/LAW/5831,Emeka Afolabi,27/05/2002,Zamfara,09056999460,emeka.afolabi26@example.ng,210,2022-01-28,Law,500L,3.40
+R00460,24/ACC/5205,Ifeoma Akinola,2008-12-01,Ekiti,08075219776,ifeoma.akinola64@example.ng,269,05/01/2025,Accounting,200,3.67
+R00461,21/ACC/8083,Yusuf Chukwu,2000-12-26,Ogun,2348157481728,yusuf.chukwu9@example.ng,212,2021-09-03,Accounting,400,4.11
+R00462,24/MEC/7371,Tunde Nwosu,2005-10-28,Plateau,07038696012,tunde.nwosu51@example.ng,298,10-01-2025,Mech. Engineering,200,3.48
+R00463,25/COM/5092,Rukayat Okonkwo,18/12/2004,Kwara,09055795865,rukayat.okonkwo5@example.ng,257,2025-09-16,Computer Science,100,3.66
+R00464,22/ECO/0503,"BALOGUN, Halima",08/04/2002,Gombe,2349084089872,halima.balogun31@example.ng,328,04/01/2023,ECONOMICS,400,3.66
+R00465,24/MEC/4270,Segun Babatunde,25-12-2007,,+234 (812) 518-3555,segun.babatunde40@example.ng,608,2025-01-06,Mechanical Engineering,200,3.77
+R00466,25/LAW/7340,Fatima Bello,2007-01-16,Plateau,08068792477,fatima.bello78@example.ng,238,02/01/2026,Law,100,3.96
+R00467,23/ECO/6519,Emeka Balogun,2007-12-08,Kaduna,08106778001,emeka.balogun32@example.ng,183,2023-11-19,Economics,300,2.78
+R00468,24/MIC/7154,Adaeze Nwosu,16 May 2002,Ogun,+2347032399864,adaeze.nwosu27@example.ng,316,2024-11-22,Microbiology,200,3.86
+R00469,24/LAW/6348,Yetunde Adebayo,2004-06-28,Benue,08150488845,yetunde.adebayo31@example.ng,235,18/10/2024,Law,200,3.84
+R00470,24/LAW/0284,Damilola Akinola,17/04/2006,Ekiti,2347062481836,damilola.akinola71@example.ng,243,15 Sep 2024,Law,200L,3.37
+R00471,22/MIC/7266,"MOHAMMED, Aisha",2001-09-21,Plateau,-,aisha.mohammed19@example.ng,191,07-11-2022,Microbiology,400,4.64
+R00472,23/LAW/5294,Yetunde Akinola,2 Oct 2006,Abuja,+234 (903) 536-8028,yetunde.akinola69@example.ng,264,2023-11-06,Law,300,4.38
+R00473,23/MAS/3174,"EZE, Amaka",2007-10-28,Bayelsa,08171708132,amaka.eze15@example.ng,285,12 Nov 2023,Mass Communication,300,4.07
+R00474,21/MEC/4664,Chidi Chukwu,12/07/2001,Ondo,+2348065666765,chidi.chukwu34@example.ng,236,2022-01-01,Mechanical Engr.,500,3.51
+R00475,23/LAW/1926,  ifeoma nwosu ,2005-08-16,Kwara,+2348157649300,ifeoma.nwosu11@example.ng,197,2023-09-18,law ,300,3.45
+R00476,24/MAS/6325,Tunde Suleiman,2006-07-09,Bayelsa,0813 504 2221,tunde.suleiman7@example.ng,235,14 Jan 2025,Mass Comm.,200,3.47
+R00477,21/MIC/5522,Oluwaseun Suleiman,16-11-2001,Niger,2348171303199,oluwaseun.suleiman51@example.ng,215,2021-09-06,Microbiology,400,3.29
+R00478,22/COM/0610,Ifeoma Ogunleye,9 Jan 2001,Benue,2348092598713,ifeoma.ogunleye16@example.ng,275,2023-01-14,CSC,400,2.65
+R00479,25/MAS/9142,Hauwa Danjuma,2003-04-03,Abia,07033342528,Hauwa.Danjuma30@Example.Ng,307,28-11-2025,Mass Communication,100,3.57
+R00480,21/MEC/4505,"AFOLABI, Kelechi",28/06/2004,null,0810 837 0592,kelechi.afolabi58@example.ng,228,04/09/2021,Mechanical Engineering,500,2.74
+R00481,21/ACC/0814,  tunde onyeka ,2000-03-12,Bauchi,08172755590,tunde.onyeka71@example.ng,309,19-11-2021,Accounting,400,2.33
+R00482,25/MAS/4113,Sani Uzor,2005-07-22,Ondo,2348086743569,sani.uzor26@example.ng,255,2025-11-18,Mass Communication,100,3.45
+R00483,21/MIC/8961,Halima Adebayo,2004-11-21,Taraba,08037995592,halima.adebayo59@example.ng,249,10/11/2021,Microbiology,400L,3.05
+R00484,21/MEC/8542,"OLAWALE, Ifeoma",2002-05-07,Ekiti,08090649950,Ifeoma.Olawale69@Example.Ng,241,07/09/2021,Mechanical Engineering,500,2.90
+R00485,21/MIC/0661,  damilola chukwu ,22-04-2002,Adamawa,0813 005 7779,Damilola.Chukwu25@Example.Ng,280,22/11/2021,Microbiology,400,2.38
+R00486,25/MEC/2230,  musa ibekwe ,01/05/2006,Yobe,07013336747,musa.ibekwe43@example.ng,209,27 Oct 2025,Mechanical Engineering,100,3.86
+R00487,23/MAS/5702,Damilola Yakubu,2003-03-19,Sokoto,09081173490,damilola.yakubu84@example.ng,0,2023-11-12,Mass Communication,300,3.71
+R00488,25/ACC/0305,"OLAWALE, Usman",2009-05-14,Akwa Ibom,+2348090551613,usman.olawale90@example.ng,339,2025-10-14,Accounting,100,2.38
+R00489,25/MAS/5560,Maryam Uzor,2009-02-02,Bauchi,+2349093447280,maryam.uzor40@example.ng,304,2026-01-01,Mass Communication,100,3.10
+R00490,25/ECO/0888,Sani Garba,2003-07-28,Plateau,07015009775,sani.garba79@example.ng,203,2025-09-24,Economics,100,2.25
+R00491,21/COM/1948,"EZEH, Chidi",2004-04-06,Ogun,+2349036002189,Chidi.Ezeh68@Example.Ng,285,21-01-2022,Computer Science,400,3.86
+R00492,23/MAS/2097,  temitope garba ,6 Mar 2004,Rivers State,07036944378,temitope.garba70@example.ng,187,2023-09-25,Mass Communication,300,
+R00493,25/COM/9540,"YAKUBU, Oluwaseun",2008-02-01,Kwara,  ,oluwaseun.yakubu32@example.ng,226,2025-11-10,Computer science ,100,3.37
+R00494,25/MAS/0207,Kemi Balogun,2004-07-09,Cross-River,+2348157071346,kemi.balogun69@example.ng,238,23 Oct 2025,Mass Communication,100,N/A
+R00495,25/ECO/9843,Kelechi Ezeh,08/23/2006,Jigawa,09059195570,kelechi.ezeh60@example.ng,246,2025-10-13,Economics,100,2.04
+R00496,24/MEC/7783,Kemi Garba,28-02-2003,Niger,09085035945,kemi.garba20@example.ng,216,21/10/2024,Mechanical Engineering,200,2.88
+R00497,25/MIC/8871,Halima Afolabi,2005-09-02,Lagos,07061406502,halima.afolabi19@example.ng,247,06/10/2025,MICROBIOLOGY,100,2.69
+R00498,23/LAW/1245,Femi Obi,07/11/2005,Rivers,2348112856484,femi.obi76@example.ng,246,28 Nov 2023,Law,300,3.46
+R00499,25/MAS/4720,"NNAMDI, Hauwa",2004-07-05,Cross River,09086187214,hauwa.nnamdi58@example.ng,267,2026-01-24,Mass Communication,100,3.63
+R00500,21/MEC/0775,Musa Oladipo,2001-10-01,Plateau,+2348169954207,Musa.Oladipo29@Example.Ng,nil,2022-01-05,Mechanical Engineering,500,4.24
+R00501,22/ECO/6390,Funmilayo Adebayo,18/07/2004,Kwara,+2348053140674,funmilayo.adebayo23@example.ng,247,2023-01-28,Economics,400,0.80
+R00502,24/LAW/5297,"DANJUMA, Ifeanyi",08/02/2008,Gombe,08053235514,ifeanyi.danjuma35@example.ng,261,17-01-2025,law ,200,3.01
+R00503,22/MIC/0837,Gbenga Okonkwo,2003-05-05,Anambra,0809 666 3849,gbenga.okonkwo9@example.ng,296,21/11/2022,Microbiology,400,2.94
+R00504,25/ECO/2035,  ngozi eze ,2006-12-12,Ondo,09084955262,ngozi.eze17@example.ng,302,19-10-2025,Econs,100,2.47
+R00505,21/ECO/1814,  ifeanyi bello ,2004-05-15,Katsina,+2348062312425,ifeanyi.bello50@example.ng,308,12/01/2022,economics,400,2.07
+R00506,25/ECO/2020,Damilola Adebayo,2007-05-19,Kogi,08039223008,damilola.adebayo87@example.ng,284,21-01-2026,economics,100,2.28
+R00507,25/ECO/8118,Fatima Okafor,03/15/2008,Ogun,08109781786,fatima.okafor97@example.ng,201,04/11/2025,Economics,100,2.88
+R00508,23-COM-6141,Chidi Chukwu,14/05/2003,Kano,+234 (815) 894-4876,Chidi.Chukwu43@Example.Ng,191,27/09/2023,CSC,300,4.37
+R00509,24/COM/8622,Maryam Adebayo,15-07-2003,Yobe,08113511904,maryam.adebayo27@example.ng,246,2024-10-14,COMPUTER SCIENCE,200,2.04
+R00510,21/ACC/2663,Yusuf Onyeka,2004-01-17,Bayelsa,+2348020811724,Yusuf.Onyeka80@Example.Ng,297,2022-01-21,Acct,400,3.11
+R00511,22/MIC/4395,Yetunde Balogun,2000-07-23,Plateau,2347030144522,yetunde.balogun62@example.ng,232,08/01/2023,Microbiology,400,3.80
+R00512,22/COM/7602,"BALOGUN, Amaka",2002-06-26,Borno,+2347014228515,amaka.balogun50@example.ng,244,2022-10-06,Computer Science,400,2.90
+R00513,23/MEC/5869,Sani Afolabi,2001-04-21,Kebbi,+2348156234550,sani.afolabi97@example.ng,340,2023-11-14,Mechanical Engineering,300,3.48
+R00514,22/LAW/2522,Adaeze Yakubu,07-09-2002,Bauchi,0809 391 4569,adaeze.yakubu71@example.ng,282,2023-01-20,Law,400,4.39
+R00515,24/COM/5856,Chidi Eze,2005-03-19,Bauchi,+2348139103290,chidi.eze52@example.ng,321,2024-09-11,COMPUTER SCIENCE,200,3.48
+R00516,22/ECO/3918,Usman Nwosu,2000-12-05,Adamawa,08039899971,usman.nwosu73@example.ng,322,2022-11-04,Economics,400,3.59
+R00517,21/MAS/6678,Musa Danjuma,21/01/2000,Kwara,08152504232,musa.danjuma19@example.ng,331,10/01/2022,Mass Communication,400L,2.29
+R00518,21/ACC/6889,"ADEBAYO, Halima",2005-11-13,Abia,2348092747642,Halima.Adebayo80@Example.Ng,220,3 Oct 2021,Accounting,400,3.76
+R00519,21/COM/2728,Yetunde Adebayo,18/04/2004,Enugu,08095610141,yetunde.adebayo34@example.ng,236,25-01-2022,Computer Science,400,3.81
+R00520,25/COM/6504,Sani Ojo,05/07/2005,Nassarawa,+2349034259273,Sani.Ojo43@Example.Ng,240,2025-10-19,Computer Science,100,2.77
+R00521,21/COM/5137,Ngozi Suleiman,2000-03-01,Benue,+2348039954853,ngozi.suleiman57@example.ng,193,2021-09-16,COMPUTER SCIENCE,400,3.40
+R00522,23/ECO/7972,Ebuka Eze,22/11/2001,Enugu,08031066783,Ebuka.Eze50@Example.Ng,223,2023-10-01,Economics,300L,1.62
+R00523,21/MEC/6717,Oluwaseun Mohammed,2005-09-15,Yobe,08037016579,Oluwaseun.Mohammed54@Example.Ng,240,2021-10-12,Mechanical Engineering,500,3.30
+R00524,21/ACC/9302,Maryam Ezeh,2005-01-26,Bayelsa,08172359835,maryam.ezeh69@example.ng,275,14 Sep 2021,Accounting,400,3.61
+R00525,22/COM/3482,Maryam Akinola,09/06/2005,Delta,+2348083672978,maryam.akinola27@example.ng,340,2022-09-21,Computer Science,400,4.25
+R00526,23/LAW/6747,"OJO, Hauwa",17/10/2001,Ebonyi,2348093617088,hauwa.ojo61@example.ng,225,4 Jan 2024,Law,300,3.67
+R00527,22/ACC/2445,Tunde Nnamdi,11/12/2003,nil,09028760093,tunde.nnamdi29@example.ng,240,20 Nov 2022,Accounting,400,3.33
+R00528,24/COM/7720,Ifeoma Aliyu,nil,Sokoto,09054545040,ifeoma.aliyu59@example.ng,183,13/11/2024,Computer Science,200,3.57
+R00529,25/MAS/5063,Nkechi Adeyemi,2009-12-12,Zamfara,NA,nkechi.adeyemi64@example.ng,209,15/11/2025,Mass Communication,100,4.18
+R00530,24/ECO/5643,"SULEIMAN, Zainab",2008-07-20,Kano,08112511933,zainab.suleiman23@example.ng,300,22/01/2025,ECONOMICS,200,2.46
+R00531,23/MEC/4325,Hauwa Yakubu,21/07/2003,Niger,2349026977018,hauwa.yakubu13@example.ng,312,2024-01-07,Mechanical Engineering,300,2.45
+R00532,21/MIC/9117,Nkechi Aliyu,1999-12-14,Ondo,081262678,Nkechi.Aliyu75@Example.Ng,186,03/11/2021,Microbiology,400,3.79
+R00533,23/MEC/0602,Halima Mohammed,2002-08-05,Lagos,+234 (802) 333-4204,halima.mohammed36@example.ng,311,2023-09-16,Mech. Engineering,300,3.79
+R00534,24/MIC/4715,Ibrahim Ibekwe,2008-08-07,CROSS RIVER,09036882077,ibrahim.ibekwe96@example.ng,235,25/10/2024,Microbiology,200,1.81
+R00535,21/MAS/9973,Bisola Obi,2003-01-02,Kebbi,+234 (905) 831-8895,bisola.obi67@example.ng,231,2021-11-19,Mass Communication,400,3.36
+R00536,21/ECO/2546,Halima Onyeka,2001-02-06,Delta,null,halima.onyeka48@example.ng,-194,2021-10-02,Economics,400,3.42
+R00537,25/ECO/9739,Damilola Olawale,2005-02-10,Jigawa,+2348075268515,damilola.olawale70@example.ng,260,1 Jan 2026,Economics,100,3.25
+R00538,22/MIC/5134,Rukayat Bello,2000-03-24,Yobe,0811 981 7926,rukayat.bello35@example.ng,194,04-10-2022,MCB,400,3.78
+R00539,25/ACC/6204,Kelechi Yakubu,28 Aug 2009,Lagos,08033560486,Kelechi.Yakubu27@Example.Ng,336,09/10/2025,Accounting,100,2.67
+R00540,21/LAW/3441,Nkechi Uzor,03/03/2004,Ogun,08118558294,nkechi.uzor76@example.ng,220,2021-10-24,LAW,500,3.82
+R00541,22/MEC/0120,"ADEYEMI, Yusuf",2004-10-21,Ebonyi,2349099169225,yusuf.adeyemi71@example.ng,312,16/09/2022,Mechanical Engineering,400,2.95
+R00542,25/ECO/0895,Abubakar Onyeka,02/04/2004,nil,09086519457,abubakar.onyeka7@example.ng,250,2026-01-09,Economics,100,3.75
+R00543,24/ACC/9773,Rukayat Adeyemi,2008-01-22,KANO,+2348124573192,rukayat.adeyemi44@example.ng,672,2024-09-13,ACCOUNTING,200,3.99
+R00544,23/ECO/9328,Obinna Nnamdi,28/01/2006,Adamawa,0813 041 1273,obinna.nnamdi26@example.ng,308,2023-11-24,Econs,300,2.70
+R00545,22/MAS/2218,Amaka Nnamdi,2000-10-10,Abia,+2348106308337,amaka.nnamdi14@example.ng,279,2023-01-13,MASS COMM,400,3.57
+R00546,25/ACC/2800,"ABDULLAHI, Gbenga",2004-09-01,Borno,+2347060476776,Gbenga.Abdullahi66@Example.Ng,180,11 Oct 2025,Accounting,100,3.54
+R00547,22/MIC/5783,Kemi Balogun,1 Dec 2003,Borno,07014489222,kemi.balogun82@example.ng,239,20 Nov 2022,Microbiology,400,3.52
+R00548,21/MAS/0771,Gbenga Nnamdi,14-03-2002,Benue,08147123790,gbenga.nnamdi45@example.ng,223,09/09/2021,Mass Communication,400,3.70
+R00549,21/COM/5634,Femi Yakubu,2004-08-11,Anambra,2349080592931,femi.yakubu15@example.ng,272,2021-09-09,Computer Science,400,4.22
+R00550,24/MIC/3474,Femi Suleiman,03/03/2004,Adamawa,08032302240,femi.suleiman3@example.ng,187,2024-10-22,MICROBIOLOGY,200,3.12
+R00551,21/MAS/0771,Gbenga Nnamdi,2002-03-14,Benue,0814 712 3790,gbenga.nnamdi45@example.ng,223,09/09/2021,MASS COMM,400,3.70
+R00552,22/COM/8347,Kemi Okafor,2000-03-06,Delta,08137119257,kemi.okafor80@example.ng,313,28/09/2022,Computer Science,400,3.37
+R00553,25/LAW/9958,Femi Nwosu,12 Nov 2009,Ebonyi,0812 749 9431,femi.nwosu7@example.ng,302,2026-01-22,law ,100,3.72
+R00554,22/MEC/4671,Fatima Obi,09/16/2006,NA,2348101333175,fatima.obi79@example.ng,184,14/11/2022,Mechanical Engineering,400,4.38
+R00555,23/MAS/3058,Babajide Oladipo,2007-08-06,Oyo State,+234 (805) 681-5797,babajide.oladipo59@example.ng,190,24/10/2023,Mass Communication,300,4.69
+R00556,24-LAW-3616,Yetunde Eze,2008-05-21,Anambra,0902 946 0615,yetunde.eze39@example.ng,329,19 Jan 2025,LAW,200,3.22
+R00557,25/ECO/9059,Femi Bello,2008-06-18,Ekiti,0815 388 1897,Femi.Bello95@Example.Ng,206,2025-11-28,Economics,100,2.30
+R00558,25/LAW/9197,Chidi Babatunde,2008-06-13,Enugu,08124306379,chidi.babatunde3@example.ng,222,12-11-2025,law ,100,2.62
+R00559,22/MEC/5604,Musa Balogun,2002-05-26,Delta,08165516099,musa.balogun24@example.ng,288,2022-11-10,Mechanical Engineering,400,5.00
+R00560,25/COM/8993,Amaka Adebayo,2006-08-23,Borno,2348150196763,amaka.adebayo99@example.ng,306,2026-01-04,Computer Science,100,4.48
+R00561,22/ECO/7670,Aisha Yakubu,2003-11-09,Ebonyi,08183693913,aisha.yakubu42@example.ng,316,07/11/2022,ECONOMICS,400L,2.65
+R00562,24/ACC/7407,"NWOSU, Ifeoma",28/05/2004,Gombe,+2348102092762,ifeoma.nwosu11@example.ng,259,25/10/2024,Accounting,200,2.79
+R00563,24/MIC/1054,Ifeanyi Akinola,2003-05-16,Osun,09052455491,ifeanyi.akinola2@example.ng,203,2024-11-04,Microbiology,200,3.19
+R00564,24/COM/4194,Fatima Lawal,2002-06-20,Kebbi,+2348062478648,fatima.lawal61@example.ng,280,28 Nov 2024,Computer Science,200,2.67
+R00565,22/LAW/9556,Sani Bello,2004-06-27,Ebonyi,+2348167222092,sani.bello94@example.ng,271,2023-01-21,LAW,400,3.43
+R00566,25/ECO/2559,Femi Abdullahi,07/08/2008,Bayelsa,+234 (703) 568-3798,femi.abdullahi77@example.ng,234,20-01-2026,Economics,100,2.51
+R00567,25/LAW/2564,  kelechi akinola ,10 Sep 2009,Kano,08161502126,kelechi.akinola83@example.ng,334,2025-10-23,Law,100,NA
+R00568,23/ECO/3254,Uche Mohammed,06/27/2007,Adamawa,NA,uche.mohammed23@example.ng,232,04/10/2023,Economics,300,3.78
+R00569,22/MIC/6960,Abubakar Adebayo,10/13/2001,Zamfara,0805 949 0689,abubakar.adebayo89@example.ng,325,2022-11-18,Microbiology,400,2.68
+R00570,23/MEC/8376,Rukayat Nnamdi,10-06-2002,Adamawa,08123004904,rukayat.nnamdi19@example.ng,243,14/09/2023,Mechanical Engineering,300,3.14
+R00571,24/MIC/7698,Oluwaseun Oladipo,04/11/2002,Kaduna,09098633778,oluwaseun.oladipo93@example.ng,219,14/10/2024,MICROBIOLOGY,200,3.64
+R00572,24/ACC/4743,Segun Akinola,06/07/2004,Akwa Ibom,0817 017 5951,segun.akinola33@example.ng,294,10-10-2024,Accounting,200,2.72
+R00573,22/MAS/6128,"OKONKWO, Obinna",06-10-2005,Kebbi,+234 (807) 646-3912,obinna.okonkwo64@example.ng,325,16 Sep 2022,Mass Communication,400,2.61
+R00574,21/LAW/0582,Fatima Ojo,2005-05-01,Bayelsa,+234 (815) 981-2652,fatima.ojo12@example.ng,291,2021-11-04,Law,500,3.28
+R00575,23/MIC/2405,Uche Chukwu,-,Imo,08176986789,Uche.Chukwu98@Example.Ng,201,2023-11-06,Micro-biology,300L,3.31
+R00576,21/ECO/4020,Fatima Okafor,04/02/2001,Abia,+2348173458936,fatima.okafor1@example.ng,259,2021-09-28,Economics,400,2.90
+R00577,23/COM/6126,Babajide Uzor,2003-04-28,Imo,+2348163914750,babajide.uzor93@example.ng,-235,12/01/2024,Computer Science,300,2.71
+R00578,23/MAS/4745,Yetunde Aliyu,10/02/2002,Kogi,08039095882,yetunde.aliyu26@example.ng,323,11 Jan 2024,Mass Communication,300,5.00
+R00579,22/ECO/2625,Maryam Okafor,2000-11-09,Ondo,07016389339,maryam.okafor41@example.ng,212,2023-01-22,Econs,400,2.77
+R00580,21/ACC/4864,Ngozi Balogun,2001-11-11,Plateau,08170648355,ngozi.balogun85@example.ng,288,02-11-2021,Accounting,400,3.00
+R00581,23/LAW/0299,Adaeze Uzor,  ,Plateau,2347035151153,adaeze.uzor31@example.ng,N/A,2023-09-24,Law,300,3.59
+R00582,23/ECO/8031,Hauwa Suleiman,2001-06-08,FCT,+234 (808) 875-4449,hauwa.suleiman61@example.ng,301,04-11-2023,Economics,300,3.11
+R00583,25/MEC/2941,Nkechi Yakubu,04/24/2004,Kano,+2349053852419,nkechi.yakubu8@example.ng,690,2026-01-25,Mech. Engineering,100,4.55
+R00584,25/MAS/5388,  halima adebayo ,11/03/2009,Ebonyi,  ,halima.adebayo87@example.ng,318,2025-10-24,Mass Communication,100,3.69
+R00585,23/ECO/5987,Halima Olawale,10/10/2004,Bauchi,+2349027556684,Halima.Olawale65@Example.Ng,227,20-01-2024,Economics,300,2.60
+R00586,25/ACC/7603,Chinedu Lawal,2006-07-02,Kano State,080528752,chinedu.lawal50@example.ng,313,2025-11-23,Acct,100,4.59
+R00587,24/MIC/4220,Segun Onyeka,27-10-2007,Bauchi,+234 (816) 236-3592,segun.onyeka93@example.ng,280,02/10/2024,Micro-biology,200,4.23
+R00588,22/ECO/4066,Musa Ojo,15 Jun 2000,Yobe,+2348175855199,musa.ojo24@example.ng,606,3 Jan 2023,Economics,400,2.78
+R00589,21/MEC/9998,Ifeanyi Afolabi,13/10/2001,Edo,2347017985096,ifeanyi.afolabi3@example.ng,245,2021-09-22,Mech. Engineering,500,3.59
+R00590,21/ACC/4442,"ABDULLAHI, Femi",2004-05-07,Yobe,08136801792,femi.abdullahi25@example.ng,333,26/09/2021,Accounting,400,2.94
+R00591,23/MAS/1178,Ebuka Lawal,11/03/2004,Plateau,+2349095313623,ebuka.lawal80@example.ng,188,25-10-2023,Mass Communication,300,4.40
+R00592,22/MEC/3350,"BELLO, Temitope",2003-09-02,Kebbi,+234 (706) 229-2942,temitope.bello66@example.ng,nil,2022-09-20,Mechanical Engr.,400,2.79
+R00593,25/LAW/7894,"LAWAL, Funmilayo",2009-04-24,-,09092651916,funmilayo.lawal23@example.ng,232,2025-10-04,Law,100,3.11
+R00594,25/ECO/7538,Bisola Balogun,04/12/2003,Kogi,09038322122,Bisola.Balogun38@Example.Ng,224,2026-01-11,ECONOMICS,100,2.91
+R00595,25/ACC/7604,Tunde Danjuma,2008-01-09,Kwara,08149991959,tunde.danjuma27@example.ng,339,12/10/2025,ACCOUNTING,100,4.10
+R00596,23/LAW/5471,Ifeoma Garba,2005-03-13,Federal Capital Territory,08021787249,ifeoma.garba44@example.ng,203,28/09/2023,law ,300,2.24
+R00597,24/COM/8379,Halima Aliyu,2002-08-14,Jigawa,08180364179,halima.aliyu70@example.ng,278,24 Jan 2025,Computer Science,200,3.27
+R00598,24/COM/2807,Temitope Ogunleye,02/11/2008,Sokoto,08171783754,temitope.ogunleye41@example.ng,250,24 Nov 2024,Computer Science,200,3.18
+R00599,24/MAS/3225,Sani Garba,09/07/2008,ENUGU,+234 (903) 052-3820,sani.garba96@example.ng,700,19/09/2024,Mass Communication,200,1.86
+R00600,24/COM/9047,Rukayat Ezeh,06/08/2003,Delta,0807 758 7675,rukayat.ezeh27@example.ng,330,28 Oct 2024,Computer Science,200,NA
+R00601,24/MEC/3814,Aisha Balogun,20/10/2004,anambra,+2348186068341,aisha.balogun72@example.ng,285,2024-11-15,Mech. Engineering,200,4.10
+R00602,25/LAW/2071,Tunde Okonkwo,24/02/2003,Yobe,08160840355,tunde.okonkwo38@example.ng,257,2025-10-17,Law,100,3.67
+R00603,23/MEC/6884,Yusuf Ojo,2005-01-11,Imo,2347035432277,yusuf.ojo13@example.ng,224,2023-11-08,Mechanical Engineering,300,4.90
+R00604,21/ACC/7377,Fatima Balogun,01/24/2002,Sokoto,090269798,fatima.balogun44@example.ng,340,2021-10-21,Accounting,400,4.11
+R00605,23/LAW/8302,Adaeze Nnamdi,2004-09-26,AKWA IBOM,08156858322,adaeze.nnamdi46@example.ng,224,2023-09-04,Law,300,3.96
+R00606,21/ACC/2864,"OJO, Sani",05/09/2004,Anambra,0902 928 9173,sani.ojo59@example.ng,234,2021-10-06,Accounting,400,4.82
+R00607,21/LAW/4928,Zainab Ojo,08/01/2004,Enugu,+234 (813) 779-5231,zainab.ojo98@example.ng,183,05-10-2021,Law,500,3.85
+R00608,21/MEC/7003,Hauwa Adebayo,11/18/2001,Bayelsa,08125467849,hauwa.adebayo4@example.ng,275,27/01/2022,Mechanical Engr.,500,5.00
+R00609,25/MAS/4994,Sani Nwosu,11 Jan 2006,AkwaIbom,08060295966,sani.nwosu58@example.ng,197,2025-11-03,Mass Comm.,100,2.81
+R00610,22/ECO/0383,Yusuf Ibekwe,2006-05-18,Bayelsa,07039959802,yusuf.ibekwe23@example.ng,321,2023-01-14,Economics,400,2.98
+R00611,23/COM/8234,Usman Obi,28/11/2003,FCT,0701 705 6747,usman.obi71@example.ng,305,2023-09-08,Computer Science,300,3.41
+R00612,23/ECO/7757,"ADEYEMI, Abubakar",2007-10-10,Yobe,08027924206,Abubakar.Adeyemi9@Example.Ng,325,28/11/2023,Economics,300,-
+R00613,24/ACC/9543,Ifeoma Balogun,2004-03-20,Bayelsa,0703 748 1513,ifeoma.balogun62@example.ng,251,2024-10-24,Accountancy,200,3.31
+R00614,21/ACC/4500,Musa Suleiman,25/06/2001,Cross River,0809 692 7200,musa.suleiman66@example.ng,279,2021-10-04,ACCOUNTING,400,4.44
+R00615,24/ECO/5801,Ibrahim Akinola,2006-04-22,Enugu State,2348149505428,ibrahim.akinola56@example.ng,671,21/11/2024,ECONOMICS,200,2.19
+R00616,22/COM/5895,Tunde Uzor,2005-04-08,Benue,2348146512035,tunde.uzor63@example.ng,235,2022-09-03,Computer Science,400,4.36
+R00617,24/MIC/1884,Yusuf Onyeka,24/03/2007,Gombe,+2348034962247,yusuf.onyeka6@example.ng,326,09-01-2025,Microbiology,200,3.50
+R00618,21/ACC/3349,  hauwa yakubu ,16-11-1999,Taraba,+2348108518636,hauwa.yakubu86@example.ng,314,2021-09-03,Acct,400,3.62
+R00619,21/MEC/5595,Gbenga Okafor,1999-06-09,Edo,081725103,Gbenga.Okafor94@Example.Ng,221,1 Jan 2022,Mech. Engineering,500,3.93
+R00620,23/MEC/6883,Oge Akinola,2007-04-09,Kebbi,09029642675,oge.akinola91@example.ng,326,2023-10-23,Mech. Engineering,300,1.98
+R00621,22/MEC/2551,Yetunde Nnamdi,07/08/2006,Plateau,0809 556 8838,yetunde.nnamdi86@example.ng,333,07/01/2023,Mechanical Engineering,400,2.93
+R00622,24/ACC/2289,Kemi Nwosu,22/01/2002,Niger,0908 793 2771,kemi.nwosu60@example.ng,230,04/10/2024,Accounting,200,2.62
+R00623,21/LAW/8616,Ebuka Abdullahi,N/A,Kaduna,+234 (905) 270-3304,ebuka.abdullahi65@example.ng,210,18/09/2021,law ,500,2.34
+R00624,21/MIC/4048,Amaka Ojo,NA,Cross River,+234 (809) 380-1594,Amaka.Ojo63@Example.Ng,339,28-01-2022,Microbiology,400,3.27
+R00625,25/ACC/3990,Ibrahim Danjuma,03-11-2006,Edo,08052257201,ibrahim.danjuma31@example.ng,218,2025-10-13,Accountancy,100,3.40
+R00626,25/MAS/1994,Aisha Oladipo,18 Sep 2004,Bauchi,null,aisha.oladipo79@example.ng,302,2025-09-05,Mass communication,100,3.94
+R00627,23/MIC/4871,  chidi chukwu ,2007-03-12,Ondo,+2348068019821,chidi.chukwu32@example.ng,-316,2023-10-04,Microbiology,300,4.59
+R00628,23/LAW/6428,"EZEH, Kemi",2006-10-20,Edo,+2349090519978,kemi.ezeh15@example.ng,197,22-11-2023,Law,300,3.81
+R00629,21/LAW/2663,Zainab Nnamdi,2002-10-25,Edo,+2348149111064,zainab.nnamdi94@example.ng,299,2022-01-03,Law,500,4.09
+R00630,23/ACC/1153,Nkechi Lawal,06/04/2002,Nasarawa,NA,nkechi.lawal33@example.ng,280,2023-09-15,Acct,300,3.84
+R00631,24/MIC/4422,Kemi Babatunde,03-02-2003,Benue,08113842661,kemi.babatunde15@example.ng,273,16/11/2024,Microbiology,200,3.12
+R00632,23/ECO/7477,Kemi Yakubu,2005-01-11,Katsina,2348125667035,kemi.yakubu46@example.ng,301,16 Sep 2023,Economics,300,2.60
+R00633,21/MAS/2872,Tunde Olawale,2001-02-08,Plateau,+2349094304714,tunde.olawale5@example.ng,266,24/01/2022,Mass Communication,400,2.56
+R00634,22/ECO/1692,Maryam Nnamdi,2003-11-17,Jigawa,09094821091,maryam.nnamdi89@example.ng,231,2023-01-01,Economics,400L,3.52
+R00635,25/MIC/4446,Amaka Adeyemi,2007-01-14,Kebbi,+2349025935903,amaka.adeyemi71@example.ng,265,21-09-2025,Microbiology,100,2.67
+R00636,25/MIC/7341,"YAKUBU, Chiamaka",2007-08-20,Borno,08091875837,chiamaka.yakubu18@example.ng,234,21 Jan 2026,Microbiology,100,NA
+R00637,23/MEC/2598,"EZEH, Zainab",04/05/2007,Kwara,08168108616,zainab.ezeh35@example.ng,321,2024-01-20,Mechanical Engr.,300,4.07
+R00638,25/ECO/4232,"AFOLABI, Damilola",6 Aug 2003,Gombe,07035823279,damilola.afolabi60@example.ng,211,2025-11-06,Economics,100,2.37
+R00639,24/COM/3671,Funmilayo Yakubu,N/A,Delta,07035099393,funmilayo.yakubu48@example.ng,279,2025-01-04,Computer Science,200,4.02
+R00640,21/MEC/8360,Ifeoma Abdullahi,04-05-2004,Niger,+234 (810) 854-1327,Ifeoma.Abdullahi95@Example.Ng,196,2021-09-28,Mech. Engineering,500,2.83
+R00641,22/ACC/0666,Babajide Oladipo,2001-12-26,Sokoto,08057294960,babajide.oladipo26@example.ng,230,19 Nov 2022,Accounting,400,5.00
+R00642,21/MEC/2581,Halima Lawal,2024-12-15,Bayelsa,07015479067,halima.lawal84@example.ng,246,2021-10-23,Mechanical Engineering,500,4.21
+R00643,21-MEC-2382,Abubakar Danjuma,27/07/2004,Ekiti,09093651577,abubakar.danjuma41@example.ng,294,27/01/2022,Mech. Engineering,500,3.82
+R00644,21/ECO/4296,Ifeoma Mohammed,2000-07-08,Kogi,08174997640,ifeoma.mohammed96@example.ng,188,2021-09-14,Economics,400,2.75
+R00645,25/ECO/9291,Segun Abdullahi,2007-04-19,Imo,08177788037,segun.abdullahi46@example.ng,215,2025-10-26,Economics,100,3.03
+R00646,22/MEC/9472,Bisola Onyeka,03-09-2002,Taraba,080887762,bisola.onyeka52@example.ng,-243,2022-10-11,MECH ENG,400,4.03
+R00647,23/COM/0985,Yusuf Aliyu,2002-11-27,Bayelsa,08126894826,yusuf.aliyu88@example.ng,226,2023-09-27,COMPUTER SCIENCE,300,2.69
+R00648,24/ECO/8533,Funmilayo Ogunleye,15 Jan 2006,Sokoto,09098632900,funmilayo.ogunleye3@example.ng,320,2024-09-15,Economics,200,2.69
+R00649,22/MEC/9027,Kemi Yakubu,2000-06-25,Yobe,+2348183592799,Kemi.Yakubu35@Example.Ng,261,2022-10-17,Mechanical Engineering,400,4.53
+R00650,25/MIC/9862,Maryam Olawale,06/04/2008,NASARAWA,081667487,maryam.olawale41@example.ng,315,2025-10-18,Microbiology,100L,2.92
+R00651,22/LAW/0467,Chinedu Danjuma,6 Oct 2001,Anambra,0803 519 7409,chinedu.danjuma42@example.ng,305,2022-11-03,law ,400,4.90
+R00652,21/MIC/4040,Maryam Garba,25-10-1999,Kebbi,08104695594,Maryam.Garba66@Example.Ng,319,2021-09-22,MCB,400,3.94
+R00653,23/ECO/8303,Emeka Adebayo,2001-09-08,Enugu,09083156230,emeka.adebayo75@example.ng,215,16 Oct 2023,Economics,300,2.46
+R00654,21/COM/2388,Uche Lawal,2005-07-19,Kano,09054207067,uche.lawal25@example.ng,-267,18/11/2021,Computer Science,400,3.10
+R00655,23/MAS/1119,"MOHAMMED, Ifeanyi",16/06/2003,Gombe,080389858,ifeanyi.mohammed96@example.ng,331,2023-09-17,Mass Communication,300,4.72
+R00656,25/LAW/1380,Babajide Adebayo,2008-04-01,Benue,0703 861 9798,babajide.adebayo18@example.ng,207,1 Nov 2025,LAW,100,5.00
+R00657,24/MAS/3278,Fatima Bello,2006-05-19,Niger,2348128927081,fatima.bello22@example.ng,207,14/10/2024,Mass Communication,200,3.08
+R00658,21/COM/1665,Gbenga Bello,2000-07-13,Gombe,08111110893,gbenga.bello78@example.ng,318,2021-09-04,COMPUTER SCIENCE,400,3.06
+R00659,23/MIC/5418,Oge Adebayo,2003-01-26,Plateau,07031316477,oge.adebayo83@example.ng,335,2024-01-09,Microbiology,300L,3.30
+R00660,21/MAS/6678,  musa danjuma ,2000-01-21,Kwara,0815 250 4232,musa.danjuma19@example.ng,331,10/01/2022,Mass Communication,400,2.29
+R00661,22/MEC/1197,  temitope yakubu ,21/09/2002,ENUGU,08089179509,temitope.yakubu84@example.ng,328,2022-09-28,Mechanical Engineering,400,3.99
+R00662,25/COM/4239,Gbenga Akinola,28/02/2009,Bayelsa,+2349057080600,Gbenga.Akinola53@Example.Ng,293,2026-01-18,Computer Science,100,3.56
+R00663,23/ACC/1952,"ADEBAYO, Halima",2026-11-20,Zamfara,08136685026,halima.adebayo5@example.ng,241,27/11/2023,ACCOUNTING,300,3.12
+R00664,24/ACC/1814,Ifeoma Mohammed,2007-06-23,Ebonyi,2348035873372,ifeoma.mohammed46@example.ng,292,18/10/2024,ACCOUNTING,200,3.09
+R00665,23/ACC/7914,Babajide Adeyemi,2007-05-15,Lagos,07064536506,babajide.adeyemi18@example.ng,320,2023-10-05,Accounting,300,3.85
+R00666,24-ECO-2749,Yetunde Adeyemi,15/06/2002,Ekiti,+2349024814849,yetunde.adeyemi70@example.ng,245,11/01/2025,Economics,200,3.90
+R00667,23/ECO/8420,Gbenga Obi,19/11/2003,Ebonyi,+234 (807) 116-5078,gbenga.obi93@example.ng,213,16/10/2023,Economics,300L,2.86
+R00668,22/MEC/9125,Tunde Ojo,15/03/2001,Gombe,08026132943,tunde.ojo82@example.ng,227,5 Jan 2023,Mechanical Engr.,400,4.40
+R00669,22/ACC/5775,Hauwa Afolabi,2001-10-13,Rivers,2348056964941,hauwa.afolabi69@example.ng,272,2022-09-15,Accounting,400,4.21
+R00670,24/MIC/5628,Halima Ogunleye,2006-03-17,Rivers,0813 507 3579,halima.ogunleye32@example.ng,,2024-10-22,Microbiology,200,4.02
+R00671,23/MIC/1502,Yusuf Adebayo,null,Ondo,0806 385 5257,Yusuf.Adebayo5@Example.Ng,244,2024-01-12,Microbiology,300,3.39
+R00672,21/MIC/7672,"EZEH, Yetunde",2004-03-10,FCT,+2349024755532,yetunde.ezeh98@example.ng,194,27/11/2021,Micro-biology,400L,3.46
+R00673,23/MEC/4736,Ebuka Onyeka,06/08/2007,Abia,09030328640,ebuka.onyeka18@example.ng,257,7 Jan 2024,Mechanical Engineering,300,4.33
+R00674,24/LAW/8594,Obinna Ibekwe,2006-04-11,OYO,+2347067492747,Obinna.Ibekwe77@Example.Ng,185,2024-11-09,Law,200,2.46
+R00675,25/ACC/5502,Zainab Ezeh,01/16/2005,Jigawa,09033872549,zainab.ezeh56@example.ng,202,10/01/2026,Accounting,100,2.88
+R00676,21/MEC/5278,Hauwa Nwosu,15 May 2003,Yobe,0815 592 9045,hauwa.nwosu71@example.ng,635,2022-01-25,Mech. Engineering,500,3.24
+R00677,22/COM/5321,Femi Suleiman,28/02/2003,Jigawa,0802 498 9513,femi.suleiman58@example.ng,339,09/01/2023,Computer Science,400,2.90
+R00678,23/COM/8186,"CHUKWU, Emeka",2002-12-24,Bayelsa,08123526928,emeka.chukwu97@example.ng,222,2023-09-04,Computer Science,300,3.64
+R00679,22/MIC/8146,Femi Chukwu,2004-03-02,Lagos,09057829396,femi.chukwu24@example.ng,274,04/01/2023,Microbiology,400,2.72
+R00680,24/MIC/3921,Oluwaseun Okonkwo,22/07/2002,Yobe,07010476760,oluwaseun.okonkwo88@example.ng,322,2024-10-25,Microbiology,200,2.97
+R00681,21/ECO/2090,Oluwaseun Abdullahi,2000-06-11,N/A,09028337140,Oluwaseun.Abdullahi86@Example.Ng,293,2021-09-06,Economics,400,2.24
+R00682,24/LAW/7379,Ifeanyi Olawale,2008-08-17,Taraba,+2348122198495,ifeanyi.olawale35@example.ng,285,2025-01-15,Law,200,4.09
+R00683,24/LAW/0284,Damilola Akinola,17/04/2006,Ekiti,2347062481836,damilola.akinola71@example.ng,243,15 Sep 2024,Law,200L,3.37
+R00684,22/COM/5498,Fatima Suleiman,2002-02-16,Gombe,0806 511 5954,fatima.suleiman55@example.ng,293,17 Sep 2022,Computer Science,400,3.99
+R00685,24/MEC/2467,Babajide Balogun,2004-01-13,Taraba,+234 (706) 922-7705,babajide.balogun56@example.ng,316,01/10/2024,Mechanical Engr.,200,3.26
+R00686,23/MEC/4250,Babajide Suleiman,09/03/2001,null,08167187189,babajide.suleiman15@example.ng,245,17/09/2023,Mechanical Engineering,300,3.76
+R00687,25/MIC/5000,Aisha Ibekwe,8 Jan 2003,Imo,+2349059049525,aisha.ibekwe17@example.ng,287,2026-01-06,Microbiology,100,2.59
+R00688,25/ECO/5458,Sani Afolabi,02/03/2007,Enugu,+2348107594736,sani.afolabi83@example.ng,201,08/01/2026,Econs,100,1.78
+R00689,21/MIC/2017,Emeka Eze,20/11/2005,ENUGU,2348165523937,emeka.eze85@example.ng,261,06/09/2021,Microbiology,400,3.27
+R00690,23/MAS/5949,Damilola Danjuma,09/09/2006,Ondo,08130348839,damilola.danjuma60@example.ng,193,26/11/2023,Mass Communication,300,3.17
+R00691,24/MEC/9649,Maryam Akinola,2007-08-11,Kebbi,08065567507,maryam.akinola9@example.ng,283,6 Nov 2024,Mech. Engineering,200,3.27
+R00692,22/ACC/1773,  emeka mohammed ,2002-05-12,Abia,08073813811,emeka.mohammed20@example.ng,267,24/10/2022,Accounting,400,3.75
+R00693,23/MEC/2319,Ifeanyi Adeyemi,08/12/2003,Adamawa,+2348109640019,ifeanyi.adeyemi1@example.ng,219,2023-09-26,Mechanical Engineering,300,2.38
+R00694,22/MEC/2551,Yetunde Nnamdi,nil,Plateau,2348095568838,yetunde.nnamdi86@example.ng,333,2023-01-07,Mech. Engineering,400,2.93
+R00695,21/ACC/6669,Adaeze Uzor,27 Jul 2002,Kogi,07036843398,adaeze.uzor12@example.ng,292,01/11/2021,Accounting,400,3.51
+R00696,25/COM/7575,Fatima Ezeh,26/04/2009,Kano,  ,fatima.ezeh73@example.ng,265,28-11-2025,CSC,100,2.21
+R00697,25/MEC/1913,Halima Suleiman,10/11/2004,Edo,08087352453,halima.suleiman78@example.ng,212,13 Oct 2025,Mechanical Engineering,100,2.78
+R00698,24/MAS/7664,Ifeoma Ibekwe,27/01/2007,Osun,08085895329,ifeoma.ibekwe38@example.ng,338,2024-11-19,Mass Communication,200,4.96
+R00699,25/MAS/4519,Sani Afolabi,2026-03-09,Bayelsa,08024506460,sani.afolabi60@example.ng,335,2025-09-08,Mass Communication,100,
+R00700,25/MIC/3913,Fatima Garba,19/04/2004,Oyo State,0818 116 1923,fatima.garba45@example.ng,274,2025-09-17,Microbiology,100,2.52
+R00701,25/ECO/9011,Chiamaka Garba,2003-07-14,Gombe,08071322533,chiamaka.garba29@example.ng,279,17-01-2026,Economics,100,2.90
+R00702,22/MIC/0834,  kemi eze ,N/A,Nasarawa,08109130325,kemi.eze2@example.ng,274,2022-09-12,Microbiology,400,4.06
+R00703,23/COM/6108,Emeka Aliyu,2003-12-09,Enugu,08038949227,emeka.aliyu90@example.ng,329,23/10/2023,Computer Science,300,2.44
+R00704,23/MEC/3345,Temitope Danjuma,01/22/2004,Katsina,0703 066 9167,Temitope.Danjuma63@Example.Ng,223,16/01/2024,Mechanical Engineering,300,3.11
+R00705,23/COM/7734,Segun Onyeka,09/08/2002,Oyo State,08176389067,segun.onyeka57@example.ng,277,2023-11-05,Computer Science,300,2.53
+R00706,21/MEC/5966,  ifeoma uzor ,1999-08-09,Akwa-Ibom,+2348189934531,ifeoma.uzor28@example.ng,N/A,2021-10-26,Mechanical Engineering,500,3.80
+R00707,25/COM/1568,Aisha Aliyu,15 Feb 2008,Borno,08110789739,Aisha.Aliyu51@Example.Ng,332,16-11-2025,Computer Science,100,2.82
+R00708,23/MAS/4701,Femi Chukwu,2002-03-09,Ebonyi,09031181786,femi.chukwu79@example.ng,-340,2023-10-25,MASS COMM,300,3.85
+R00709,22/COM/2206,Segun Okafor,2004-07-20,Kaduna,08031950104,segun.okafor61@example.ng,195,2022-11-16,Computer Science,400,3.30
+R00710,24/MAS/5334,Abubakar Babatunde,10/08/2008,Bayelsa,08060868354,abubakar.babatunde18@example.ng,195,05/01/2025,Mass Communication,200,3.16
+R00711,25/ACC/5042,Hauwa Babatunde,2008-07-21,Adamawa,+2347034868642,hauwa.babatunde23@example.ng,262,6 Sep 2025,Accounting,100,3.70
+R00712,24/COM/1282,Yusuf Balogun,04-09-2004,Kwara,0701 961 3297,Yusuf.Balogun67@Example.Ng,326,2025-01-25,Computer science ,200,2.83
+R00713,21/MIC/4235,Yusuf Mohammed,1999-01-05,Katsina,08095538976,yusuf.mohammed97@example.ng,208,2022-01-22,Microbiology,400,3.05
+R00714,22/ECO/6153,Funmilayo Olawale,10/11/2002,Ondo,09052202576,funmilayo.olawale62@example.ng,254,2022-11-16,Economics,400,2.62
+R00715,22/MAS/9154,Tunde Ezeh,26/11/2005,Delta,2349037048152,tunde.ezeh19@example.ng,182,12 Nov 2022,Mass Comm.,400,1.76
+R00716,25/MIC/0470,Halima Abdullahi,2026-12-23,NASARAWA,+2348166035858,halima.abdullahi95@example.ng,216,2025-11-06,Microbiology,100,3.65
+R00717,22/ECO/5920,Damilola Olawale,06/15/2001,Sokoto,0817 916 9696,damilola.olawale86@example.ng,326,2022-10-18,Economics,400,2.60
+R00718,24/MIC/6731,Kelechi Danjuma,04-09-2007,Benue,+2348067710133,Kelechi.Danjuma49@Example.Ng,330,10-11-2024,Microbiology,200,4.30
+R00719,24/ACC/5087,Femi Oladipo,  ,Kogi,08036260931,Femi.Oladipo87@Example.Ng,268,2024-10-19,ACCOUNTING,200,3.24
+R00720,25/LAW/3110,Ifeoma Okafor,21/06/2009,Zamfara,07013993425,ifeoma.okafor76@example.ng,267,2026-01-08,Law,100,2.56
+R00721,24/MIC/9046,"IBEKWE, Segun",23-01-2003,Delta,080635393,segun.ibekwe1@example.ng,230,2024-09-12,Microbiology,200,2.94
+R00722,24/ECO/9236,Adaeze Suleiman,16/04/2005,Kogi,0815 374 8138,adaeze.suleiman50@example.ng,662,03/11/2024,Economics,200,2.55
+R00723,24/MIC/0758,Yetunde Onyeka,2003-06-16,Oyo,2349036651356,yetunde.onyeka43@example.ng,239,2025-01-14,Microbiology,200,3.43
+R00724,24/ECO/4108,Uche Suleiman,24/10/2007,Enugu,  ,Uche.Suleiman27@Example.Ng,326,24/09/2024,Economics,200,3.00
+R00725,24/LAW/7832,Chinedu Ojo,2005-11-21,Ondo,081621605,chinedu.ojo25@example.ng,249,2024-10-26,Law,200,4.16
+R00726,24/ECO/5738,"ALIYU, Tunde",2004-07-14,NA,+2348152041336,tunde.aliyu28@example.ng,227,13/09/2024,Economics,200,2.89
+R00727,21/MAS/3071,Amaka Okafor,2002-11-09,Ondo,0807 439 6683,amaka.okafor63@example.ng,304,2021-09-11,Mass Communication,400,3.29
+R00728,21/MAS/9086,Zainab Abdullahi,12/28/2004,Zamfara,08074000573,zainab.abdullahi91@example.ng,627,13-01-2022,Mass Communication,400,3.63
+R00729,23/MIC/8962,Ebuka Obi,2004-11-26,Kwara,08030833538,ebuka.obi78@example.ng,216,2023-10-17,Microbiology,300,3.60
+R00730,21/LAW/4751,Obinna Adeyemi,11/10/2000,Nasarawa,08079005674,Obinna.Adeyemi51@Example.Ng,223,2022-01-10,LAW,500,3.87
+R00731,24/MIC/1784,Oluwaseun Yakubu,16 May 2002,Kebbi,08075577293,oluwaseun.yakubu26@example.ng,225,12-01-2025,MICROBIOLOGY,200,3.49
+R00732,25/MAS/4285,  kemi onyeka ,2005-09-06,Yobe,+234 (903) 014-6653,kemi.onyeka15@example.ng,292,28-09-2025,Mass Communication,100L,3.09
+R00733,24/ACC/7407,Ifeoma Nwosu,05/28/2004,Gombe,2348102092762,Ifeoma.Nwosu11@Example.Ng,259,2024-10-25,Acct,200,2.79
+R00734,25/MIC/2351,Bisola Balogun,2009-12-13,Osun,2348137835024,bisola.balogun35@example.ng,288,09-10-2025,MCB,100,3.85
+R00735,25/MEC/7095,Usman Ibekwe,2004-01-19,Kogi,09090106849,usman.ibekwe86@example.ng,203,2026-01-19,Mechanical Engr.,100L,3.71
+R00736,23/LAW/5792,Oge Lawal,01/06/2002,Jigawa,+2348101927235,oge.lawal22@example.ng,N/A,2024-01-09,LAW,300,3.74
+R00737,21/ACC/1373,Oluwaseun Yakubu,2004-02-08,Gombe,0818 220 3978,Oluwaseun.Yakubu33@Example.Ng,285,28/11/2021,Accounting,400,2.53
+R00738,25/COM/5777,Maryam Lawal,27/07/2006,Yobe,+2348158356857,maryam.lawal75@example.ng,301,07/10/2025,Computer Science,100,3.51
+R00739,22/COM/6840,Funmilayo Ezeh,2005-09-12,Osun,+2348132815220,funmilayo.ezeh89@example.ng,184,2022-09-16,CSC,400,3.06
+R00740,22/MEC/5797,Nkechi Ogunleye,2001-05-25,Ogun,0808 277 3808,nkechi.ogunleye92@example.ng,323,2022-11-11,Mechanical Engineering,400,2.72
+R00741,23/ACC/4682,"LAWAL, Emeka",13 May 2005,Imo,0808 584 7104,emeka.lawal80@example.ng,214,2023-09-12,Accountancy,300,3.75
+R00742,22/MIC/6866,Emeka Eze,2002-10-21,Anambra,0908 474 3288,emeka.eze98@example.ng,325,17 Jan 2023,Microbiology,400,3.77
+R00743,24-LAW-3733,Musa Ogunleye,7 Feb 2007,Kogi,08147899899,Musa.Ogunleye35@Example.Ng,186,09/11/2024,Law,200,2.89
+R00744,23/ACC/0008,Amaka Yakubu,08/11/2004,Kebbi,+2349025726576,Amaka.Yakubu86@Example.Ng,194,2024-01-26,Accounting,300,3.11
+R00745,22/LAW/6975,Kemi Olawale,2005-08-02,Jigawa,+2349094629574,kemi.olawale55@example.ng,274,03/09/2022,Law,400,4.27
+R00746,22/LAW/5065,Hauwa Balogun,27/04/2000,Bayelsa,NA,hauwa.balogun66@example.ng,232,10/09/2022,Law,400L,2.84
+R00747,23/ECO/0047,"EZEH, Rukayat",2004-01-28,Ebonyi,09080621416,rukayat.ezeh14@example.ng,207,2023-10-22,Economics,300,1.82
+R00748,25/MAS/7444,Segun Yakubu,14/04/2004,Enugu,+2347017263796,segun.yakubu77@example.ng,183,2026-01-05,Mass Communication,100,3.71
+R00749,21/ECO/7638,"AFOLABI, Kemi",2024-09-20,Akwa Ibom,+2348071545231,kemi.afolabi3@example.ng,271,20-09-2021,Economics,400,2.62
+R00750,22/ECO/1614,Fatima Okafor,2003-09-06,FCT,2348185199055,fatima.okafor15@example.ng,275,11/09/2022,Econs,400,1.81
+R00751,22/ACC/6614,Sani Akinola,23/07/2005,Ebonyi,+2348140157187,sani.akinola55@example.ng,280,2022-09-04,Accountancy,400,2.83
+R00752,25/ECO/2011,Fatima Okafor,05/01/2009,Cross-River,+2349059699364,fatima.okafor46@example.ng,286,2025-11-20,Economics,100L,3.38
+R00753,24-ACC-3897,Femi Abdullahi,2006-06-14,Bauchi,2348069517163,femi.abdullahi16@example.ng,301,17/01/2025,Accounting,200,2.51
+R00754,23/ACC/8779,Usman Ogunleye,2002-04-12,Cross River,0817 535 9341,usman.ogunleye55@example.ng,302,2023-11-10,ACCOUNTING,300,3.27
+R00755,21/MAS/5671,Zainab Adebayo,2005-05-03,Yobe,08124718813,zainab.adebayo9@example.ng,266,23/11/2021,MASS COMM,400,3.74
+R00756,22/MEC/4864,Rukayat Adebayo,08/05/2005,Bauchi,2348058884980,Rukayat.Adebayo42@Example.Ng,340,2022-09-06,Mechanical Engineering,400,3.41
+R00757,23/MIC/2896,Segun Chukwu,2006-08-08,Enugu,2349026402649,segun.chukwu20@example.ng,293,2023-11-25,Microbiology,300,3.36
+R00758,22/ACC/3844,Zainab Ogunleye,2005-03-05,Nasarawa,+2348132619636,zainab.ogunleye94@example.ng,208,14-09-2022,Accounting,400,3.23
+R00759,21/MIC/4390,Hauwa Yakubu,2005-08-15,Plateau,07030995605,hauwa.yakubu54@example.ng,247,2021-11-07,Microbiology,400,2.90
+R00760,21/MIC/2700,Chiamaka Eze,2002-06-05,null,+2349056727162,chiamaka.eze38@example.ng,-315,2021-10-23,MICROBIOLOGY,400,2.39
+R00761,25/MEC/2129,Temitope Aliyu,2003-10-05,Jigawa,0905 075 0034,temitope.aliyu94@example.ng,202,2025-11-18,Mechanical Engineering,100,3.59
+R00762,25/ECO/8864,Amaka Onyeka,03/22/2003,Delta,08025851706,amaka.onyeka59@example.ng,207,2025-11-02,Econs,100,2.78
+R00763,23/MIC/1541,Segun Danjuma,21 Feb 2007,Nassarawa,+2348170135439,Segun.Danjuma45@Example.Ng,336,2023-09-10,Microbiology,300,2.76
+R00764,22/ACC/7724,Ebuka Obi,28/02/2006,Kebbi,08156982543,ebuka.obi44@example.ng,262,2023-01-02,Accounting,400L,3.85
+R00765,23/LAW/5294,Yetunde Akinola,02/10/2006,FCT,+2349035368028,yetunde.akinola69@example.ng,264,2023-11-06,Law,300,4.38
+R00766,23/MEC/4641,Ifeoma Lawal,2004-05-27,Taraba,+2348177731449,ifeoma.lawal46@example.ng,236,2023-10-09,Mechanical Engineering,300,4.48
+R00767,24/ACC/5898,"LAWAL, Ifeanyi",18/04/2002,Oyo,2348157705233,Ifeanyi.Lawal71@Example.Ng,301,11/11/2024,Accounting,200,2.18
+R00768,21/MAS/8609,Maryam Onyeka,2003-06-24,Osun,08053795091,Maryam.Onyeka48@Example.Ng,281,2021-11-01,Mass Communication,400,3.83
+R00769,23/MIC/4952,Femi Lawal,02/06/2006,Bayelsa,07012660532,femi.lawal77@example.ng,239,05/01/2024,Microbiology,300,-
+R00770,21/ECO/6219,Chidi Ibekwe,2005-12-16,Bayelsa,0812 597 2062,chidi.ibekwe96@example.ng,331,22-01-2022,Economics,400,3.14
+R00771,25/ECO/0593,Oge Abdullahi,2008-03-02,Kwara,2349096637784,oge.abdullahi89@example.ng,249,28-09-2025,Econs,100,2.42
+R00772,23/ACC/8658,Musa Lawal,  ,Taraba,08024149820,Musa.Lawal85@Example.Ng,271,2024-01-04,Acct,300,3.68
+R00773,21/ECO/8926,Aisha Abdullahi,1999-01-15,Enugu,08178890860,aisha.abdullahi67@example.ng,215,16 Oct 2021,Economics,400L,2.90
+R00774,23/MEC/1756,Uche Akinola,20/10/2005,Plateau,2348154966197,uche.akinola39@example.ng,261,20/09/2023,Mechanical Engineering,300,3.92
+R00775,23/MEC/0317,Oluwaseun Obi,2005-02-22,Lagos,08121963483,oluwaseun.obi12@example.ng,682,2024-01-02,Mech. Engineering,300,3.42
+R00776,21/MIC/2416,Chidi Ogunleye,21/01/1999,Zamfara,2348142548195,Chidi.Ogunleye17@Example.Ng,264,11 Nov 2021,Microbiology,400,2.75
+R00777,25/COM/7930,Kemi Olawale,20/02/2009,Taraba,+2348111140064,kemi.olawale16@example.ng,303,2026-01-06,Computer Science,100,3.19
+R00778,24/MAS/8446,  ebuka bello ,01/28/2003,Ebonyi,+234 (805) 152-8230,ebuka.bello84@example.ng,196,21/10/2024,Mass Comm.,200,3.34
+R00779,22/COM/9116,Obinna Balogun,04/01/2003,Cross River,2348145708059,obinna.balogun24@example.ng,251,2023-01-02,Computer Science,400,3.30
+R00780,23/MIC/3860,Nkechi Nwosu,2006-12-14,Delta,08181561447,nkechi.nwosu9@example.ng,210,2024-01-16,Microbiology,300,4.10
+R00781,24/LAW/7096,Musa Uzor,01/08/2007,Akwa Ibom,2348109729781,musa.uzor83@example.ng,311,03/11/2024,Law,200,3.12
+R00782,24/ECO/1692,Abubakar Suleiman,1 Jun 2006,Kogi,07030752847,abubakar.suleiman39@example.ng,308,18/01/2025,ECONOMICS,200,2.66
+R00783,24/COM/3787,Emeka Babatunde,11/05/2005,Cross River,0816 094 6872,emeka.babatunde40@example.ng,228,2025-01-04,Computer Science,200,3.32
+R00784,21/COM/4648,"NWOSU, Oluwaseun",2000-11-02,Borno,+2348187114915,oluwaseun.nwosu83@example.ng,280,22-11-2021,Computer Science,400,2.90
+R00785,21/MAS/0996,"OKAFOR, Damilola",null,Kaduna,08085972713,damilola.okafor13@example.ng,309,12 Nov 2021,Mass Communication,400,4.10
+R00786,25/COM/7664,Tunde Okonkwo,2004-03-13,Zamfara,08101982485,tunde.okonkwo59@example.ng,220,22/01/2026,Comp. Sci.,100,3.98
+R00787,25/COM/5541,Amaka Nwosu,08/08/2009,Borno,2349022073895,amaka.nwosu27@example.ng,198,2025-10-19,Computer Science,100,3.20
+R00788,22/ECO/2438,Kemi Aliyu,20/06/2006,NA,,Kemi.Aliyu96@Example.Ng,254,2022-10-03,Economics,400,2.42
+R00789,24/COM/0942,Babajide Ezeh,14/07/2007,Borno,2347013369883,babajide.ezeh1@example.ng,279,2024-09-06,CSC,200,2.65
+R00790,23/MAS/2536,Uche Ogunleye,02/08/2007,Jigawa,09035118355,uche.ogunleye73@example.ng,206,2024-01-12,Mass communication,300,4.40
+R00791,25/LAW/6273,Maryam Nwosu,02/20/2004,Sokoto,08107197225,maryam.nwosu68@example.ng,212,01-10-2025,Law,100,3.00
+R00792,21/MEC/3379,Fatima Danjuma,09/19/2001,Gombe,0813 209 3647,fatima.danjuma28@example.ng,272,2021-09-12,Mechanical Engineering,500,2.54
+R00793,22/ECO/4878,Rukayat Ogunleye,2004-01-15,Borno,0810 497 1578,rukayat.ogunleye86@example.ng,236,2023-01-26,Economics,400,2.64
+R00794,22/ECO/9062,Ifeoma Balogun,2002-02-21,Kwara,08099101026,ifeoma.balogun20@example.ng,332,2023-01-04,ECONOMICS,400,1.90
+R00795,23/LAW/4520,Ngozi Akinola,25-07-2002,Nasarawa,+2348025870475,ngozi.akinola57@example.ng,316,2023-09-17,law ,300,3.33
+R00796,25/ECO/7508,"UZOR, Yusuf",2003-09-16,Sokoto,08087829190,Yusuf.Uzor99@Example.Ng,307,07-11-2025,Economics,100,2.66
+R00797,21/MIC/4120,Chiamaka Ogunleye,,Imo,08022994593,chiamaka.ogunleye37@example.ng,243,2021-09-20,Microbiology,400,2.84
+R00798,21/COM/9110,Nkechi Ogunleye,2005-06-21,Oyo,+2348053446449,nkechi.ogunleye69@example.ng,269,2022-01-05,Computer Science,400,3.36
+R00799,23/ECO/9061,Maryam Suleiman,2007-03-22,nil,08097449024,Maryam.Suleiman9@Example.Ng,304,21/11/2023,Economics,300,2.11
+R00800,23/MEC/7952,Temitope Chukwu,14-11-2006,Taraba,08185180215,Temitope.Chukwu35@Example.Ng,288,2023-11-20,MECH ENG,300,2.59
+R00801,22/ECO/8335,Musa Onyeka,2004-01-24,Cross River,2349059738602,musa.onyeka57@example.ng,276,10/10/2022,Economics,400,3.75
+R00802,22/LAW/9612,Usman Uzor,2004-08-11,Niger,08142850081,usman.uzor82@example.ng,270,2023-01-21,LAW,400,2.55
+R00803,24/ACC/2488,"IBEKWE, Yetunde",2008-06-11,N/A,2348127005908,yetunde.ibekwe82@example.ng,216,2024-11-18,Accounting,200,4.70
+R00804,24/LAW/5478,Segun Babatunde,2004-12-20,Rivers,2348189660456,segun.babatunde88@example.ng,305,02/10/2024,Law,200,3.31
+R00805,24/COM/1674,  ibrahim mohammed ,20/07/2004,Bauchi,+2349026550521,Ibrahim.Mohammed15@Example.Ng,242,09/10/2024,Computer Science,200,3.87
+R00806,22/COM/2679,Kelechi Ezeh,2001-08-08,Kwara,+2347034369746,kelechi.ezeh83@example.ng,181,2022-11-28,Computer Science,400,4.04
+R00807,22/MIC/0309,Damilola Adebayo,03/01/2004,Ondo,+2348020658372,damilola.adebayo57@example.ng,290,2022-11-20,MICROBIOLOGY,400,3.86
+R00808,24/LAW/6002,  temitope onyeka ,2025-01-02,oyo,09098237805,temitope.onyeka48@example.ng,295,02/11/2024,Law,200,3.10
+R00809,23/MIC/4370,"OLAWALE, Obinna",2002-08-09,Enugu,2348083148076,obinna.olawale82@example.ng,228,2023-09-11,MICROBIOLOGY,300,3.75
+R00810,21/LAW/8986,"GARBA, Halima",01-03-1999,Kwara,+2348132443016,halima.garba54@example.ng,306,2022-01-05,LAW,500,3.62
+R00811,24/COM/6782,  kemi balogun ,13/05/2003,Nasarawa,0701 376 9292,kemi.balogun75@example.ng,183,23 Sep 2024,Computer Science,200,3.42
+R00812,21/MAS/7553,Bisola Ojo,18-06-2002,Akwa Ibom,08061351279,bisola.ojo9@example.ng,315,2021-09-27,Mass Communication,400L,3.88
+R00813,23-ACC-4718,Emeka Adeyemi,2007-12-21,Rivers,+2348109712466,emeka.adeyemi37@example.ng,197,2024-01-09,Accounting,300,3.60
+R00814,21/MAS/2353,Femi Oladipo,2003-06-12,Lagos,+2349089990934,femi.oladipo82@example.ng,267,2021-10-20,Mass Communication,400,2.95
+R00815,21/ECO/0596,Babajide Mohammed,2004-04-24,Nasarawa,08087391753,babajide.mohammed93@example.ng,315,1 Oct 2021,Economics,400,3.24
+R00816,23/MAS/7323,Adaeze Eze,22 Dec 2004,Sokoto,08163298735,adaeze.eze52@example.ng,312,02/10/2023,MASS COMM,300,3.87
+R00817,22/ACC/1663,Chidi Ojo,2001-12-15,Oyo,07017350600,chidi.ojo19@example.ng,226,22/10/2022,Accounting,400L,3.14
+R00818,25/ECO/1845,Ifeoma Abdullahi,2006-03-27,Kwara,0805 749 5539,ifeoma.abdullahi14@example.ng,723,2026-01-19,Economics,100,1.54
+R00819,21/MAS/6610,Halima Ibekwe,10/10/2005,Ekiti,+2347064569470,halima.ibekwe88@example.ng,257,7 Oct 2021,Mass Comm.,400,2.39
+R00820,21/ACC/8428,Segun Danjuma,2003-01-08,Kebbi,2348178445652,segun.danjuma41@example.ng,286,2021-10-06,Accounting,400,  
+R00821,25/COM/4346,Chinedu Ogunleye,17/11/2007,NA,08147894436,chinedu.ogunleye29@example.ng,310,2025-11-02,Computer Science,100,4.44
+R00822,25/COM/4585,Emeka Okonkwo,13-05-2006,Ebonyi,2348090035123,emeka.okonkwo37@example.ng,206,10/01/2026,COMPUTER SCIENCE,100,3.12
+R00823,25/COM/2787,Emeka Ezeh,2006-07-26,Abia,090567262,emeka.ezeh32@example.ng,230,2025-09-26,CSC,100,3.76
+R00824,23/ECO/9175,Fatima Adebayo,2003-01-23,Benue,08102994611,fatima.adebayo76@example.ng,193,01/01/2024,ECONOMICS,300,2.62
+R00825,25/MEC/8222,Maryam Garba,25 Oct 2006,Borno,08025329209,maryam.garba70@example.ng,280,14 Jan 2026,Mech. Engineering,100,4.27
+R00826,23/ECO/6762,Adaeze Obi,17 Aug 2007,Zamfara,09028066206,adaeze.obi10@example.ng,288,2023-10-21,Econs,300,2.98
+R00827,22/LAW/4845,Bisola Chukwu,2000-03-10,NA,08123092872,bisola.chukwu65@example.ng,225,2022-09-12,Law,400,3.10
+R00828,25/MIC/8407,"OLAWALE, Zainab",09/09/2006,,+2348097690586,zainab.olawale83@example.ng,268,25/01/2026,Microbiology,100,3.14
+R00829,25/MIC/4625,Hauwa Balogun,-,Delta,+234 (814) 443-5864,hauwa.balogun81@example.ng,194,27/11/2025,Micro-biology,100,2.61
+R00830,25/MEC/5791,Abubakar Babatunde,26/09/2008,Gombe,08105127161,abubakar.babatunde65@example.ng,-318,2025-11-22,Mechanical Engineering,100,3.49
+R00831,22/ECO/6802,  tunde danjuma ,2002-03-13,Plateau,09022900635,tunde.danjuma3@example.ng,197,2022-11-04,Economics,400,3.14
+R00832,25/ACC/5115,Kemi Aliyu,2008-03-21,Taraba,+2348035946386,kemi.aliyu90@example.ng,284,5 Jan 2026,Accounting,100,3.68
+R00833,22/ECO/9062,Ifeoma Balogun,2002-02-21,  ,+2348099101026,ifeoma.balogun20@example.ng,332,4 Jan 2023,Economics,400,1.90
+R00834,24/MEC/5564,Yetunde Ibekwe,2005-01-17,Borno,09085081358,yetunde.ibekwe91@example.ng,265,2024-11-05,Mechanical Engineering,200,3.65
+R00835,21/MIC/3302,"BALOGUN, Kelechi",18-04-2000,Benue,2348035341774,kelechi.balogun33@example.ng,307,2021-09-01,Microbiology,400L,3.14
+R00836,22/MEC/3777,"ONYEKA, Bisola",26 Apr 2000,Borno,+234 (814) 910-8717,bisola.onyeka60@example.ng,200,2022-09-18,Mechanical Engineering,400,3.02
+R00837,22/ECO/4358,"ALIYU, Segun",12/26/2002,rivers ,09096988011,segun.aliyu74@example.ng,329,2023-01-21,Economics,400,2.56
+R00838,23/COM/3137,Musa Abdullahi,2006-11-23, lagos,2348152917349,musa.abdullahi53@example.ng,620,14/11/2023,Computer Science,300L,2.93
+R00839,23/LAW/9107,Obinna Afolabi,24/10/2001,Cross-River,09039323672,obinna.afolabi13@example.ng,,19/10/2023,LAW,300,2.93
+R00840,22/LAW/4845,Bisola Chukwu,2000-03-10,Osun,081230928,bisola.chukwu65@example.ng,225,2022-09-12,Law,400,3.10
+R00841,25/MEC/5478,Kelechi Garba,2003-02-09,Cross River,2349081688746,Kelechi.Garba47@Example.Ng,,2025-11-04,Mechanical Engineering,100,2.93
+R00842,22/MEC/5800,Sani Aliyu,10/05/2000,Kaduna,2347063547651,sani.aliyu91@example.ng,270,26/01/2023,Mechanical Engineering,400,3.03
+R00843,24/COM/5736,"ABDULLAHI, Segun",2007-07-17,Anambra,+2347010886713,segun.abdullahi19@example.ng,255,01-01-2025,Computer Science,200,3.04
+R00844,25/COM/4131,Ngozi Okonkwo,2008-03-18,Ondo,08024296206,Ngozi.Okonkwo44@Example.Ng,323,05/11/2025,Computer Science,100,3.30
+R00845,23/COM/9540,Uche Lawal,17-10-2005,Kwara,0815 875 6569,Uche.Lawal56@Example.Ng,215,24/09/2023,Computer Science,300,4.51
+R00846,21/COM/5700,Femi Olawale,2001-04-13,FCT,2349024948021,femi.olawale55@example.ng,330,2021-10-11,Computer Science,400,4.12
+R00847,21/LAW/2714,"ALIYU, Obinna",1999-01-19,LAGOS,08076727192,obinna.aliyu86@example.ng,213,2022-01-20,LAW,500,3.03
+R00848,21/MAS/9839,Amaka Garba,03-06-2001,Sokoto,09038504291,amaka.garba92@example.ng,292,2021-10-28,Mass Communication,400,3.70
+R00849,23/MEC/2169,Chiamaka Bello,2006-06-23,Zamfara,0811 831 3708,chiamaka.bello94@example.ng,312,2024-01-08,Mechanical Engineering,300L,2.97
+R00850,22/MIC/3395,Ngozi Ibekwe,28/06/2002,Nassarawa,09088307891,ngozi.ibekwe15@example.ng,-326,2022-09-07,Microbiology,400,2.93
+R00851,23/MIC/0348,Musa Akinola,18/08/2005,Nasarawa,07035230322,musa.akinola79@example.ng,273,2023-11-05,Micro-biology,300,2.49
+R00852,21/ACC/8049,Sani Aliyu,2003-06-08,Edo,08186353619,sani.aliyu54@example.ng,261,19/11/2021,Acct,400,2.25
+R00853,25/MAS/0794,Chiamaka Ogunleye,2009-07-10,Ondo,2348159498218,chiamaka.ogunleye40@example.ng,310,2025-09-15,Mass Communication,100,2.96
+R00854,23/MIC/3820,Fatima Mohammed,2004-11-13,Zamfara,08111590785,fatima.mohammed12@example.ng,210,01-10-2023,Microbiology,300,4.02
+R00855,25/MEC/3525,Halima Adebayo,2007-03-27,Jigawa,08063481841,halima.adebayo76@example.ng,-286,11 Jan 2026,Mechanical Engr.,100,3.52
+R00856,23/MIC/3531,Ebuka Bello,2005-02-23,Ogun,08127541336,ebuka.bello12@example.ng,240,2023-09-10,Microbiology,300L,3.19
+R00857,23/LAW/1965,Obinna Okafor,2006-05-02,Bayelsa,0815 092 3307,obinna.okafor9@example.ng,287,14-09-2023,Law,300L,2.79
+R00858,24/MAS/5095,Damilola Akinola,25 Sep 2002,null,09081262718,Damilola.Akinola40@Example.Ng,N/A,2024-09-16,Mass Communication,200,3.13
+R00859,22/COM/9981,Fatima Olawale,08/18/2002,nil,08126233193,fatima.olawale90@example.ng,255,2022-09-11,CSC,400,4.39
+R00860,25/MAS/3796,Musa Ezeh,2008-10-24,Cross River,+2349021020107,musa.ezeh72@example.ng,187,2025-10-06,Mass communication,100,3.45
+R00861,22/LAW/3368,"BALOGUN, Emeka",2004-03-25,Bauchi,+2348026478215,emeka.balogun47@example.ng,280,2022-11-01,law ,400,3.22
+R00862,23/ECO/3497,Ifeoma Olawale,2004-11-01,Niger,0815 289 6925,ifeoma.olawale83@example.ng,213,02/09/2023,economics,300,-
+R00863,25/ECO/2554,Femi Bello,2006-04-08,Katsina,08100607188,femi.bello68@example.ng,308,2025-09-12,Economics,100,1.86
+R00864,22/ECO/4284,Ngozi Eze,22/01/2005,Edo,2347018363875,ngozi.eze3@example.ng,307,2022-10-07,Economics,400,3.12
+R00865,22/ECO/1801,Emeka Nwosu,2004-08-11,N/A,+2348068952914,Emeka.Nwosu56@Example.Ng,200,08/11/2022,Economics,400,2.85
+R00866,22/ACC/0785,Femi Ibekwe,01/02/2001,Sokoto,09029218955,Femi.Ibekwe42@Example.Ng,227,2022-10-11,Accounting,400,2.61
+R00867,21/COM/2201,Chinedu Balogun,2000-04-26, kano,08172448313,chinedu.balogun41@example.ng,268,2021-09-10,Comp. Sci.,400,3.20
+R00868,24-MIC-3291,Babajide Afolabi,2007-08-14,Oyo,0802 776 5708,babajide.afolabi59@example.ng,324,06/10/2024,Microbiology,200,3.44
+R00869,22/LAW/6328,Oge Garba,08/19/2005,oyo,08161883432,oge.garba60@example.ng,265,2022-10-07,Law,400,3.81
+R00870,23/MEC/5749,"ADEBAYO, Fatima",2007-09-26,Osun,+2348123131178,fatima.adebayo90@example.ng,326,2023-10-17,Mechanical Engineering,300,3.44
+R00871,21/ECO/2967,Abubakar Garba,2005-10-12,Cross River,08152401414,abubakar.garba33@example.ng,-329,21-11-2021,economics,400,2.51
+R00872,24/COM/8731,Nkechi Danjuma,22 Jul 2007,AKWA IBOM,08113502945,nkechi.danjuma16@example.ng,230,2024-09-02,Computer science ,200,2.74
+R00873,23/MAS/3034,  kelechi chukwu ,10/11/2006,Bauchi,08116193709,kelechi.chukwu41@example.ng,268,2023-11-25,Mass Communication,300,3.74
+R00874,25/MAS/5196,Abubakar Suleiman,2008-12-19,Gombe,2348033759497,abubakar.suleiman81@example.ng,181,2025-09-18,Mass Communication,100,4.79
+R00875,23/MEC/8610,Fatima Ibekwe,2003-11-24,OYO,2348082549613,fatima.ibekwe95@example.ng,242,2023-11-12,Mech. Engineering,300,4.08
+R00876,24/ACC/9787,Kemi Okonkwo,1 Feb 2007,Jigawa,08179074639,kemi.okonkwo12@example.ng,181,27/11/2024,ACCOUNTING,200,4.34
+R00877,22/MAS/4889,Maryam Yakubu,2 Mar 2004,Sokoto,08113249241,maryam.yakubu74@example.ng,nil,26/01/2023,Mass Comm.,400L,2.96
+R00878,22/MAS/2185,Emeka Chukwu,02/08/2005,Niger,+2348111545611,emeka.chukwu88@example.ng,261,2023-01-08,Mass Communication,400,5.00
+R00879,22/COM/5380,  oluwaseun uzor ,26/05/2004,KANO,+2348152449989,oluwaseun.uzor46@example.ng,306,2023-01-19,Comp. Sci.,400L,2.84
+R00880,24/MIC/4709,Tunde Akinola,07/27/2008,Jigawa,+2347067742843,tunde.akinola35@example.ng,257,2024-10-18,Microbiology,200,3.96
+R00881,24/ECO/4130,Uche Ogunleye,2008-08-20,Osun,08170084032,Uche.Ogunleye76@Example.Ng,211,05/11/2024,Economics,200,2.74
+R00882,21/LAW/5045,Chiamaka Ibekwe,2001-11-20, lagos,07062119527,chiamaka.ibekwe24@example.ng,278,18/09/2021,Law,500,3.71
+R00883,21/COM/2609,Gbenga Danjuma,2004-10-25,  ,2348129687237,Gbenga.Danjuma12@Example.Ng,186,26/11/2021,Computer science ,400,3.03
+R00884,21/MEC/9081,  adaeze babatunde ,2000-04-15,Bauchi,08177062119,adaeze.babatunde2@example.ng,198,20-09-2021,Mechanical Engineering,500,4.25
+R00885,24/COM/2516,Emeka Ojo,04-01-2002,Imo,2348162207186,emeka.ojo20@example.ng,268,2024-10-19,Computer Science,200,3.46
+R00886,23/LAW/3414,Ebuka Onyeka,2003-09-06, lagos,08053946348,ebuka.onyeka28@example.ng,293,2023-09-25,Law,300,3.71
+R00887,21/COM/0210,Segun Obi,20-07-2001,Zamfara,09022365124,segun.obi76@example.ng,222,07/10/2021,Computer science ,400,4.02
+R00888,21/LAW/2126,Kelechi Danjuma,1999-07-04,Katsina,0703 321 8643,kelechi.danjuma54@example.ng,249,24 Nov 2021,Law,500,2.66
+R00889,21/LAW/4120,Kelechi Akinola,3 Nov 2000,Rivers,08122316577,kelechi.akinola42@example.ng,312,2021-10-05,law ,500,2.72
+R00890,23/COM/2335,Chinedu Afolabi,15/12/2003,Gombe,08091041755,chinedu.afolabi72@example.ng,216,2023-09-09,Computer Science,300,2.97
+R00891,25/MAS/8036,Ifeanyi Babatunde,2005-11-03,Anambra,07030944797,ifeanyi.babatunde13@example.ng,243,15/10/2025,Mass Communication,100,3.43
+R00892,23/MIC/6017,Segun Chukwu,23/08/2005,Cross River,+2349097731744,segun.chukwu11@example.ng,313,6 Oct 2023,Microbiology,300,3.07
+R00893,21/ACC/2834,Damilola Garba,04/04/2000,Plateau,08162583594,damilola.garba7@example.ng,260,2021-09-19,Accountancy,400,3.23
+R00894,24/MIC/5654,Ibrahim Suleiman,10/07/2002,Cross River,0802 047 5118,ibrahim.suleiman69@example.ng,333,24/11/2024,Micro-biology,200,3.40
+R00895,22/MEC/4556,Tunde Mohammed,23 Feb 2001,Ondo,+2348061577288,Tunde.Mohammed36@Example.Ng,227,27 Oct 2022,Mech. Engineering,400,4.35
+R00896,23/COM/3034,Emeka Obi,13 Apr 2003,Kano,09092240381,Emeka.Obi68@Example.Ng,246,2023-10-16,Computer Science,300L,3.58
+R00897,21/ACC/8049,Sani Aliyu,2003-06-08,Edo,08186353619,sani.aliyu54@example.ng,261,2021-11-19,Accounting,400,2.25
+R00898,22/MIC/7207,Sani Nnamdi,2002-02-26,anambra,2348171741732,sani.nnamdi82@example.ng,262,2023-01-04,MICROBIOLOGY,400,N/A
+R00899,23/ECO/0973,  maryam balogun ,16/03/2006,Imo,09051424700,Maryam.Balogun43@Example.Ng,329,18 Sep 2023,Economics,300,2.70
+R00900,23/MIC/4063,Chinedu Nnamdi,2002-01-18, kano,2348126507049,chinedu.nnamdi18@example.ng,211,18-10-2023,Micro-biology,300,3.95
+R00901,21/MIC/7934,Femi Okafor,2005-09-14,KANO,09090918188,femi.okafor77@example.ng,340,2021-09-25,Microbiology,400,3.68
+R00902,24/COM/6839,Fatima Garba,2008-02-05,Gombe,08187646349,fatima.garba4@example.ng,325,25 Nov 2024,Computer Science,200,1.42
+R00903,25/ECO/1845,Ifeoma Abdullahi,2006-03-27,Kwara,0805 749 5539,ifeoma.abdullahi14@example.ng,723,2026-01-19,Economics,100,1.54
+R00904,21-COM-4537,Halima Obi,2003-04-25,Plateau,2348028614559,halima.obi78@example.ng,282,05-09-2021,Computer Science,400,2.57
+R00905,25/ECO/0559,Ngozi Aliyu,18-04-2008,Anambra State,2348166431507,ngozi.aliyu39@example.ng,-224,20/11/2025,Economics,100,2.30
+R00906,24/MIC/3558,Tunde Uzor,05/06/2006,Kebbi,09054340431,tunde.uzor1@example.ng,198,28/01/2025,Micro-biology,200,3.40
+R00907,23/MAS/9801,Gbenga Onyeka,2002-09-17,Ekiti,09024386329,gbenga.onyeka23@example.ng,284,12/09/2023,Mass Communication,300,3.91
+R00908,21/MIC/4120,Chiamaka Ogunleye,,Imo,08022994593,chiamaka.ogunleye37@example.ng,243,2021-09-20,Microbiology,400,2.84
+R00909,21/LAW/8656,Oge Onyeka,28/06/2000,Nassarawa,08063969802,oge.onyeka31@example.ng,253,2022-01-21,Law,500,4.64
+R00910,22/MEC/3931,Segun Ezeh,10/06/2001,Ondo,2348085185519,segun.ezeh76@example.ng,292,2022-11-09,Mechanical Engineering,400,2.84
+R00911,21/MEC/7317,Ngozi Chukwu,2005-09-23,Lag.,07060605958,ngozi.chukwu42@example.ng,243,2021-09-22,Mechanical Engineering,500,2.64
+R00912,21/MEC/1063,Amaka Bello,2001-02-27,Kano,08064147138,amaka.bello52@example.ng,314,11 Jan 2022,Mechanical Engineering,500,4.60
+R00913,22/ACC/9584,Aisha Balogun,2006-10-25,  ,2347039184726,Aisha.Balogun93@Example.Ng,198,2022-10-21,Accounting,400,4.03
+R00914,22/MEC/4274,Yusuf Chukwu,01/02/2004,Benue,2348030961529,yusuf.chukwu31@example.ng,185,2023-01-28,Mechanical Engineering,400,3.27
+R00915,22/LAW/9974,Tunde Suleiman,20 Mar 2000,Ogun,2349083250614,tunde.suleiman12@example.ng,228,2022-09-15,Law,400,3.12
+R00916,25/ECO/2349,Babajide Olawale,2008-11-24,Sokoto,+2348085037205,babajide.olawale48@example.ng,192,17/10/2025,Economics,100,3.61
+R00917,22/MAS/9748,Yetunde Ogunleye,14-05-2002,Benue,09035969422,Yetunde.Ogunleye52@Example.Ng,334,2022-09-15,Mass Communication,400,2.06
+R00918,21/MIC/6250,"CHUKWU, Tunde",2003-01-09,Nasarawa,08130458405,tunde.chukwu58@example.ng,311,2021-10-14,Microbiology,400,4.38
+R00919,25/ACC/6257,  musa bello ,2003-01-13,Kaduna,08160051114,musa.bello26@example.ng,313,24-09-2025,ACCOUNTING,100,4.16
+R00920,23/MEC/4990,Gbenga Adeyemi,2001-06-24,Osun,2349054902747,gbenga.adeyemi27@example.ng,236,04/01/2024,Mechanical Engineering,300,4.10
+R00921,22/MEC/6420,Nkechi Balogun,2005-05-18,Ekiti,07060754425,Nkechi.Balogun20@Example.Ng,231,2022-11-16,Mechanical Engineering,400,3.08
+R00922,24/ACC/3763,  aisha mohammed ,2007-02-15,Benue,0813 208 5586,aisha.mohammed56@example.ng,280,2025-01-03,Accounting,200,4.31
+R00923,22/MAS/4102,Bisola Uzor,2002-02-07,Edo,N/A,bisola.uzor6@example.ng,233,2022-09-04,Mass communication,400,3.21
+R00924,25/MEC/0732,Emeka Adeyemi,18/07/2006,Kogi,07036529890,emeka.adeyemi71@example.ng,246,2025-10-17,Mechanical Engineering,100,2.98
+R00925,25/LAW/4911,"OLAWALE, Segun",13 Jan 2006,Imo,08096340655,segun.olawale29@example.ng,274,01/10/2025,Law,100,3.99
+R00926,23/MIC/4892,Chinedu Danjuma,28 Nov 2002,Ondo,0908 787 5341,chinedu.danjuma53@example.ng,323,2024-01-05,Microbiology,300,3.64
+R00927,23/LAW/2266,"YAKUBU, Tunde",14 Jun 2006,Yobe,07060024216,tunde.yakubu33@example.ng,336,2023-10-04,Law,300,2.77
+R00928,22/ACC/3095,Funmilayo Aliyu,2003-07-26,Edo,+234 (706) 138-5396,funmilayo.aliyu81@example.ng,192,2022-09-02,ACCOUNTING,400,3.17
+R00929,25/MAS/0648,Zainab Uzor,28 Mar 2006,Borno,08175971552,zainab.uzor34@example.ng,210,2026-01-13,Mass Communication,100L,3.42
+R00930,25/LAW/6156,Femi Suleiman,20-08-2009,Delta,08076964249,femi.suleiman85@example.ng,267,2025-11-04,law ,100,3.26
+R00931,25/MEC/2212,"OLADIPO, Musa",2005-07-09,FCT,09089270356,musa.oladipo40@example.ng,226,10/01/2026,Mechanical Engineering,100,2.99
+R00932,22/LAW/2746,Rukayat Bello,2002-08-11,Ogun,07063383383,rukayat.bello9@example.ng,201,2022-09-28,Law,400,3.41
+R00933,23/MEC/6270,Zainab Abdullahi,09/06/2004,Kwara,09089603523,zainab.abdullahi78@example.ng,200,15/09/2023,Mechanical Engineering,300,2.66
+R00934,24/COM/6040,Kelechi Eze,12-06-2005,Imo,+234 (903) 899-6876,kelechi.eze24@example.ng,256,2024-10-02,CSC,200,3.08
+R00935,21/COM/7441,Segun Onyeka,14/06/2000,Zamfara,2347065900575,Segun.Onyeka88@Example.Ng,326,2021-10-01,Computer science ,400,3.53
+R00936,21/ACC/1571,Fatima Ojo,23-04-2005,FCT,08034764893,fatima.ojo59@example.ng,314,25/11/2021,Accounting,400,3.59
+R00937,23/ECO/7310,Damilola Okonkwo,nil,Nasarawa,09038797049,damilola.okonkwo28@example.ng,239,13/11/2023,Economics,300,4.00
+R00938,21/ECO/8926,Aisha Abdullahi,15/01/1999,Enugu,+2348178890860,aisha.abdullahi67@example.ng,215,16/10/2021,ECONOMICS,400,2.90
+R00939,21/MEC/2432,Usman Mohammed,1999-12-13,Gombe,0905 551 1234,usman.mohammed29@example.ng,318,24 Oct 2021,Mechanical Engineering,500,2.21
+R00940,25/MEC/6573,Segun Eze,2005-11-25,Benue,09092384253,Segun.Eze94@Example.Ng,333,2025-09-11,Mechanical Engineering,100,4.11
+R00941,24/ACC/5299,Nkechi Okafor,2004-02-04,Gombe,0706 143 8988,nkechi.okafor28@example.ng,205,2024-11-02,Accounting,200,5.00
+R00942,25/MAS/2044,Hauwa Ibekwe,7 Jun 2003,Taraba,08094787841,hauwa.ibekwe61@example.ng,238,2025-09-26,Mass communication,100,2.64
+R00943,21/MIC/7060,  yetunde nwosu ,11/02/2002,Cross-River,08061370932,yetunde.nwosu54@example.ng,292,2021-11-06,Microbiology,400,3.80
+R00944,25/MEC/5653,Temitope Chukwu,09/02/2003,Zamfara,09086229406,temitope.chukwu80@example.ng,331,07/11/2025,Mechanical Engineering,100,3.61
+R00945,23/MIC/4787,Aisha Uzor,2004-10-18,Zamfara,081589613,aisha.uzor96@example.ng,310,2023-09-24,Microbiology,300,3.98
+R00946,22/MEC/2431,Chidi Ezeh,2005-10-16,Ogun,08126757473,chidi.ezeh16@example.ng,287,2022-10-28,Mechanical Engineering,400,3.24
+R00947,25/MAS/3126,"BELLO, Abubakar",2003-10-01,Enugu State,0807 093 1429,abubakar.bello53@example.ng,244,18/11/2025,Mass Communication,100,3.18
+R00948,21/ACC/1807,Obinna Garba,2000-08-04,Ekiti,+2349058670260,obinna.garba46@example.ng,191,2021-11-18,Accounting,400,3.46
+R00949,25/MAS/6864,Adaeze Bello,2009-02-12,Lagos,2349035054123,adaeze.bello92@example.ng,203,25/10/2025,Mass communication,100,3.30
+R00950,24/ACC/7903,  ngozi ojo ,01/02/2002,Benue,08180384632,ngozi.ojo91@example.ng,180,14/09/2024,ACCOUNTING,200L,3.84
+R00951,23/COM/4263,Babajide Okonkwo,26-06-2001,Imo,09027085672,babajide.okonkwo75@example.ng,327,2023-09-21,Computer science ,300,3.04
+R00952,25/MIC/0186,"OLADIPO, Segun",15/03/2004,Ogun,0703 139 3541,segun.oladipo21@example.ng,203,28 Jan 2026,MCB,100,4.27
+R00953,25/ACC/2732,Emeka Okafor,2006-09-28,KANO,080967323,emeka.okafor33@example.ng,253,15 Jan 2026,Accounting,100,4.23
+R00954,22/MEC/1091,Segun Okonkwo,1 Jul 2003,Delta,08038090590,segun.okonkwo90@example.ng,272,2022-10-12,Mechanical Engr.,400,3.82
+R00955,22/MAS/1290,Rukayat Ibekwe,14 May 2004,Adamawa,+2349095518755,rukayat.ibekwe76@example.ng,237,21/01/2023,Mass Communication,400,2.05
+R00956,23/MEC/1283,Tunde Yakubu,9 Apr 2002,Enugu,2349084244293,Tunde.Yakubu20@Example.Ng,324,09/11/2023,Mechanical Engineering,300,2.69
+R00957,24/LAW/7911,Tunde Nnamdi,16/01/2004,Kano,0802 235 3643,Tunde.Nnamdi31@Example.Ng,313,2024-10-13,Law,200,2.47
+R00958,22/COM/2100,Ifeoma Olawale,2004-01-27,Kebbi,07010786160,Ifeoma.Olawale67@Example.Ng,331,2023-01-10,Computer Science,400,2.99
+R00959,24/MEC/9477,Abubakar Mohammed,24/04/2006,Jigawa,+2348069320052,abubakar.mohammed68@example.ng,297,17-10-2024,Mech. Engineering,200,2.94
+R00960,23/MIC/4394,Nkechi Nnamdi,N/A,oyo,+2349021995190,nkechi.nnamdi95@example.ng,296,16/10/2023,Microbiology,300,3.96
+R00961,25/ACC/9520,Babajide Ibekwe,21/06/2005,Borno,2348052953077,babajide.ibekwe91@example.ng,243,26 Oct 2025,Accounting,100,3.31
+R00962,24/ACC/1445,Gbenga Chukwu,2006-04-26,Lagos,2348151767127,gbenga.chukwu44@example.ng,207,20 Jan 2025,Accounting,200,4.39
+R00963,22/ECO/6280,Zainab Eze,2004-07-05,Osun,08039281828,zainab.eze42@example.ng,237,02/09/2022,Economics,400,2.62
+R00964,23/ECO/4757,Amaka Bello,2002-02-16,Bauchi,+2347016846714,amaka.bello71@example.ng,291,2023-11-27,economics,300,3.06
+R00965,24/LAW/2463,Abubakar Adeyemi,16 Nov 2002,Akwa Ibom,080584151,abubakar.adeyemi22@example.ng,214,2024-11-09,Law,200,3.25
+R00966,22/LAW/4834,  ifeanyi olawale ,21-09-2002,Ogun,0807 029 7051,ifeanyi.olawale82@example.ng,282,2022-11-06,Law,400,-
+R00967,24/ECO/2105,Oge Danjuma,2004-06-21,Yobe,+2348059108834,oge.danjuma49@example.ng,247,2025-01-07,Economics,200,1.99
+R00968,23/ECO/1172,Temitope Okafor,2007-10-05,Oyo,+234 (813) 385-1709,temitope.okafor31@example.ng,188,2023-09-10,Economics,300,3.29
+R00969,25/COM/6948,"EZE, Musa",11/06/2003,AkwaIbom,08097789990,musa.eze23@example.ng,196,27-09-2025,Computer Science,100,3.97
+R00970,22/ACC/1243,Babajide Adebayo,2005-10-09,Gombe,08173581114,babajide.adebayo73@example.ng,328,2022-10-15,ACCOUNTING,400,4.17
+R00971,21/LAW/7726,Halima Ezeh,06/24/2002,Sokoto,08059258826,halima.ezeh40@example.ng,209,2021-10-06,Law,500,2.07
+R00972,22/MAS/5885,Hauwa Adeyemi,2002-03-18,Delta,07061200768,hauwa.adeyemi58@example.ng,303,14/11/2022,MASS COMM,400,  
+R00973,23/MEC/0778,Yusuf Oladipo,06/11/2003,Edo,08068765008,Yusuf.Oladipo16@Example.Ng,204,01-01-2024,Mechanical Engineering,300,3.88
+R00974,22/ACC/5619,Zainab Garba,2003-06-19,Ondo,+2349037607365,zainab.garba17@example.ng,272,19/01/2023,ACCOUNTING,400,2.99
+R00975,23/ACC/4466,"ADEYEMI, Oge",2001-01-09,Kano,08054562056,oge.adeyemi84@example.ng,254,01/11/2023,Accounting,300,2.22
+R00976,21/MIC/7531,Rukayat Bello,1999-04-10,Bauchi,+2349085638564,Rukayat.Bello48@Example.Ng,259,18/11/2021,Micro-biology,400,3.17
+R00977,22/MEC/9430,Ifeoma Ogunleye,03/07/2006,Taraba,+2347066390875,ifeoma.ogunleye2@example.ng,210,08/01/2023,MECH ENG,400,2.69
+R00978,23/ACC/1952,Halima Adebayo,11/20/2006,Zamfara,08136685026,Halima.Adebayo5@Example.Ng,241,2023-11-27,Acct,300,3.12
+R00979,22/ECO/2092,"LAWAL, Zainab",2000-05-07,Plateau,2349021423731,zainab.lawal23@example.ng,259,8 Oct 2022,Econs,400,3.16
+R00980,22/COM/2778,"SULEIMAN, Oge",2006-10-01,Ekiti,08149552962,oge.suleiman95@example.ng,294,16 Nov 2022,Computer Science,400,3.72
+R00981,25/ECO/5054,Chinedu Olawale,2005-02-28,Jigawa,2348031130685,chinedu.olawale62@example.ng,319,19/09/2025,Economics,100,1.61
+R00982,23/MIC/4787,Aisha Uzor,18/10/2004,Zamfara,0815 896 1347,aisha.uzor96@example.ng,310,24/09/2023,Microbiology,300,3.98
+R00983,25/ECO/8468,Amaka Garba,27/04/2003,Rivers,+2348072947862,Amaka.Garba71@Example.Ng,209,2026-01-28,Economics,100,3.49
+R00984,23-MIC-4347,"NNAMDI, Nkechi",08/11/2001,Kebbi,2347015565214,nkechi.nnamdi93@example.ng,306,2023-10-11,Micro-biology,300,3.10
+R00985,22/ECO/5235,"OJO, Kelechi",10/09/2000,Katsina,+2349021925738,kelechi.ojo53@example.ng,275,2022-10-22,Economics,400,2.69
+R00986,21/COM/5008,Gbenga Olawale,2000-03-27,Kebbi,0814 634 3169,gbenga.olawale1@example.ng,238,13-11-2021,Computer Science,400,3.40
+R00987,23/MEC/7810,Gbenga Oladipo,13-11-2002,Ekiti,090379625,gbenga.oladipo5@example.ng,238,17/09/2023,Mechanical Engineering,300,3.50
+R00988,24/MAS/0788,Chiamaka Aliyu,16/05/2007,LAGOS,0903 031 3672,chiamaka.aliyu2@example.ng,208,2025-01-01,Mass Communication,200,2.63
+R00989,24/COM/1190,Chiamaka Ogunleye,06/02/2003,Ogun,+2348151219821,chiamaka.ogunleye44@example.ng,321,2024-11-08,Computer Science,200,2.77
+R00990,21/ACC/1373,Oluwaseun Yakubu,2004-02-08,Gombe,08182203978,oluwaseun.yakubu33@example.ng,285,28/11/2021,Accounting,400,2.53
+R00991,22/ECO/7566,Musa Obi,2002-06-07,Kaduna,08114040369,musa.obi59@example.ng,283,2022-09-27,Economics,400,2.31
+R00992,23/ACC/4948,Obinna Ogunleye,20/03/2001,Bauchi,+2348145592779,Obinna.Ogunleye34@Example.Ng,191,2023-09-15,Accounting,300,4.35
+R00993,23/MAS/2136,Gbenga Lawal,2001-06-14,Delta,2348066406100,gbenga.lawal1@example.ng,259,28/11/2023,MASS COMM,300,2.25
+R00994,21/MAS/6131,Obinna Babatunde,22 Sep 1999,Ondo,08150966882,obinna.babatunde4@example.ng,252,13-11-2021,Mass Communication,400,4.16
+R00995,24/MAS/5514,Temitope Abdullahi,27/03/2002,Lagos,+2348164820446,temitope.abdullahi2@example.ng,201,14 Nov 2024,Mass Communication,200,nil
+R00996,23/ACC/0497,Temitope Suleiman,05/07/2004,Edo,07062820014,Temitope.Suleiman73@Example.Ng,229,2024-01-14,Accounting,300,3.59
+R00997,24/MIC/8633,Amaka Babatunde,26 Nov 2006,Kwara,2349087043832,amaka.babatunde15@example.ng,318,05/10/2024,Micro-biology,200,3.47
+R00998,21/MAS/8600,Babajide Babatunde,12/12/2001,Adamawa,0706 986 1093,babajide.babatunde58@example.ng,301,2021-10-17,Mass Communication,400,4.20
+R00999,25/COM/9246,Aisha Danjuma,2009-12-19,Imo,08184914478,aisha.danjuma83@example.ng,191,2025-10-27,COMPUTER SCIENCE,100,1.75
+R01000,24/MAS/0970,Usman Nnamdi,24/05/2004,Katsina,08079424949,usman.nnamdi53@example.ng,237,26/09/2024,Mass Communication,200,4.38
+R01001,21/MEC/8373,Chidi Nwosu,08/06/2002,Ebonyi,+2348086053862,chidi.nwosu91@example.ng,295,2021-09-04,Mechanical Engineering,500,3.88
+R01002,22/ECO/4676,Chiamaka Akinola,05/04/2002,Sokoto,+2347035487845,chiamaka.akinola96@example.ng,321,09-09-2022,Economics,400,1.67
+R01003,24/LAW/9244,Tunde Onyeka,2007-04-14,Gombe,2348112019276,tunde.onyeka24@example.ng,194,24/11/2024,law ,200,3.36
+R01004,21/COM/4940,"UZOR, Musa",02/05/2000,Kaduna,+2348134980358,musa.uzor41@example.ng,281,07-11-2021,Computer Science,400,2.68
+R01005,23-ACC-0704,Kemi Okafor,2007-09-16,null,+2347064648680,kemi.okafor3@example.ng,339,19/11/2023,Accounting,300,3.63
+R01006,24/MIC/4767,Adaeze Abdullahi,28-09-2005,Gombe,07014221552,adaeze.abdullahi56@example.ng,253,2024-10-28,Microbiology,200,3.56
+R01007,23/ACC/0754,Hauwa Ojo,01/02/2003,FCT,+2348154582489,Hauwa.Ojo29@Example.Ng,264,2 Oct 2023,Accounting,300,4.27
+R01008,24/ECO/7409,"AFOLABI, Ibrahim",2002-12-12,Kaduna,08177960361,ibrahim.afolabi61@example.ng,225,2024-09-12,economics,200L,-
+R01009,23/MIC/0441,"ADEBAYO, Zainab",NA,Ekiti,2347034881099,zainab.adebayo96@example.ng,285,2024-01-06,Micro-biology,300,4.05
+R01010,22/MAS/2359,Tunde Mohammed,2005-11-19,Cross River,+234 (805) 300-2892,tunde.mohammed35@example.ng,318,2022-09-26,Mass Communication,400,4.29
+R01011,21/MIC/5219,Kemi Oladipo,11/01/2004,Yobe,2348166340965,kemi.oladipo37@example.ng,287,2021-09-24,Microbiology,400,3.46
+R01012,21/ECO/4869,Abubakar Garba,,Jigawa,0802 065 6449,abubakar.garba78@example.ng,263,2021-10-02,Economics,400L,2.30
+R01013,22/MEC/1445,Damilola Onyeka,2003-10-03,Ekiti,09081398228,damilola.onyeka72@example.ng,336,2022-09-10,Mechanical Engineering,400,2.29
+R01014,23/ACC/0008,"YAKUBU, Amaka",2004-11-08,Kebbi,09025726576,Amaka.Yakubu86@Example.Ng,194,2024-01-26,Accounting,300,3.11
+R01015,23/ACC/7841,  emeka nnamdi ,2002-09-18,Abia,2348029788824,Emeka.Nnamdi21@Example.Ng,249,2023-11-04,Accounting,300,2.32
+R01016,25/COM/2787,Emeka Ezeh,2006-07-26,Abia,090567262,emeka.ezeh32@example.ng,230,2025-09-26,CSC,100,3.76
+R01017,22/MAS/1253,Ifeanyi Olawale,2004-04-11,Katsina,090248418,ifeanyi.olawale38@example.ng,293,2022-09-07,Mass Communication,400,3.52
+R01018,25/COM/1534,Aisha Onyeka,25 Mar 2003,Edo,2348078369849,aisha.onyeka75@example.ng,738,2026-01-16,Computer Science,100,3.86
+R01019,25/MIC/4836,Tunde Ojo,2003-07-17,Oyo,+2348172028061,tunde.ojo75@example.ng,205,2025-09-14,MICROBIOLOGY,100,4.71
+R01020,23/ACC/2753,Maryam Ezeh,07-03-2001,Kwara,+2348066646471,maryam.ezeh91@example.ng,280,14/09/2023,Accounting,300,3.22
+R01021,23/MAS/4976,Hauwa Okonkwo,2001-08-22,OYO,08142556508,hauwa.okonkwo74@example.ng,N/A,11/09/2023,Mass Communication,300L,2.81
+R01022,25/ECO/6284,"DANJUMA, Sani",2006-02-17,Borno,+2348125804371,sani.danjuma31@example.ng,315,18/11/2025,Economics,100,2.74
+R01023,24/ECO/5560,Ebuka Ezeh,12/04/2004,Lagos,+234 (813) 081-3442,Ebuka.Ezeh19@Example.Ng,318,06/09/2024,Economics,200,3.02
+R01024,24/MIC/6580,Ibrahim Bello,16 Nov 2003,Benue,2348073808805,ibrahim.bello3@example.ng,267,2024-11-12,Microbiology,200,5.00
+R01025,21/ECO/7811,  oge adeyemi ,24/07/2001,Anambra,08116497426,oge.adeyemi97@example.ng,292,2021-09-16,Economics,400,3.25
+R01026,21/MIC/9854,Babajide Chukwu,13/05/2001,Akwa Ibom,+2349024017608,babajide.chukwu33@example.ng,316,2022-01-10,MCB,400,3.53
+R01027,21/COM/8614,Chiamaka Ojo,2002-03-28,nil,0703 445 8614,chiamaka.ojo54@example.ng,325,05/09/2021,CSC,400,2.92
+R01028,25/MEC/0057,Uche Ojo,2008-11-04,Akwa Ibom,08029461517,uche.ojo32@example.ng,230,23/10/2025,Mechanical Engineering,100,3.43
+R01029,25/MEC/1194,"NNAMDI, Ebuka",18/12/2007,Lagos,0814 120 5814,ebuka.nnamdi16@example.ng,281,14-11-2025,Mechanical Engineering,100,3.38
+R01030,24/COM/4970,Oluwaseun Oladipo,09/12/2003,Edo,+234 (903) 057-0465,Oluwaseun.Oladipo9@Example.Ng,317,2024-10-05,Computer Science,200,3.51
+R01031,23/LAW/7726,Ifeanyi Babatunde,2001-03-08,Kwara,+2349096190435,Ifeanyi.Babatunde30@Example.Ng,659,08/01/2024,Law,300,nil
+R01032,24/COM/9977,Musa Obi,2008-03-18,Niger,+2348064975937,musa.obi87@example.ng,336,15/10/2024,Computer science ,200,2.09
+R01033,21/COM/9655,Oluwaseun Yakubu,1999-12-24,Kano,07010402256,oluwaseun.yakubu53@example.ng,274,2022-01-02,Computer Science,400L,2.16
+R01034,21/MAS/2792,Rukayat Ogunleye,2001-11-09,null,07060380160,rukayat.ogunleye57@example.ng,278,02/01/2022,MASS COMM,400,3.60
+R01035,22/MAS/0554,Aisha Adebayo,2006-09-18,Borno,0808 557 5177,aisha.adebayo4@example.ng,300,2022-10-01,Mass Communication,400,3.96
+R01036,25/COM/6214,Tunde Mohammed,11/09/2003,Katsina,+2348106298447,tunde.mohammed4@example.ng,317,2026-01-23,Comp. Sci.,100,3.36
+R01037,21/MEC/5174,Emeka Akinola,2005-02-16,Kogi,08026854010,emeka.akinola91@example.ng,325,10 Sep 2021,Mechanical Engineering,500L,3.45
+R01038,23/COM/4253,Amaka Garba,2003-05-06,Jigawa,08186816494,amaka.garba16@example.ng,286,2023-11-12,Computer Science,300,3.22
+R01039,21/LAW/3118,Emeka Nnamdi,08/02/2004,Lagos,+234 (905) 206-3670,emeka.nnamdi72@example.ng,210,2021-10-16,Law,500,4.22
+R01040,22/COM/8910,"BALOGUN, Funmilayo",null,Sokoto,0703 453 6274,Funmilayo.Balogun28@Example.Ng,256,2022-10-09,Computer Science,400,4.34
+R01041,23/ECO/7167,Ifeanyi Aliyu,2004-12-19,Gombe,08099888234,ifeanyi.aliyu6@example.ng,292,01/10/2023,Economics,300,2.58
+R01042,24/MAS/6618,Babajide Obi,9 Jan 2005,Anambra State,+2348146564361,babajide.obi85@example.ng,272,2025-01-03,Mass Communication,200,3.00
+R01043,21/LAW/5569,  ifeanyi akinola ,09/07/2001,Plateau,2349030597279,ifeanyi.akinola43@example.ng,205,02/09/2021,LAW,500,4.13
+R01044,24/COM/1497,"YAKUBU, Kemi",20/09/2007,Cross-River,+2349028926682,kemi.yakubu93@example.ng,202,2025-01-20,Computer Science,200,2.79
+R01045,21/LAW/1186,Femi Nwosu,2004-09-15,Nasarawa,08153323547,femi.nwosu51@example.ng,218,2022-01-24,Law,500,2.43
+R01046,24/MIC/0062,Musa Chukwu,22-07-2005,FCT,08163786494,Musa.Chukwu93@Example.Ng,329,2024-09-26,Microbiology,200,3.31
+R01047,21/MEC/3795,  gbenga uzor ,2003-12-04,LAGOS,08114531019,gbenga.uzor52@example.ng,230,22 Sep 2021,Mechanical Engineering,500,2.99
+R01048,25/LAW/1675,"OKONKWO, Segun",9 Apr 2006,Enugu,08060880029,Segun.Okonkwo61@Example.Ng,193,2026-01-06,law ,100,2.32
+R01049,21/COM/4296,Musa Okafor,24/02/1999,Adamawa,0902 598 2017,musa.okafor45@example.ng,339,2021-10-11,Comp. Sci.,400,3.37
+R01050,24/COM/0283,Ifeanyi Adeyemi,25 Feb 2008,Enugu,080773022,Ifeanyi.Adeyemi25@Example.Ng,314,2024-10-08,Computer Science,200,5.00
+R01051,24/MIC/5929,Ibrahim Oladipo,2007-09-07,Bauchi,08128406050,ibrahim.oladipo30@example.ng,211,2024-10-07,Microbiology,200,2.98
+R01052,24/MEC/0165,Aisha Onyeka,2006-07-15,Yobe,09094931851,aisha.onyeka70@example.ng,193,20/09/2024,Mechanical Engr.,200,3.83
+R01053,23/ECO/7897,Oluwaseun Lawal,27 Feb 2002,nil,+2348031851880,oluwaseun.lawal10@example.ng,184,16/09/2023,Economics,300,2.70
+R01054,23-MAS-0683,Musa Ogunleye,2005-06-12,Plateau,2348059646115,Musa.Ogunleye67@Example.Ng,219,02/09/2023,Mass Comm.,300,3.76
+R01055,23/ECO/1945,Yusuf Nwosu,22/11/2004,Niger,09086823374,yusuf.nwosu20@example.ng,312,2023-10-13,Economics,300,3.00
+R01056,25/LAW/7474,Oluwaseun Eze,20 Nov 2009,Borno,09053848389,Oluwaseun.Eze89@Example.Ng,197,2025-09-10,Law,100,1.82
+R01057,21/ECO/9123,Obinna Mohammed,06/03/2004,Delta,08140910429,obinna.mohammed24@example.ng,186,2021-10-22,Economics,400,2.63
+R01058,21/LAW/3976,Sani Oladipo,2000-08-25,Borno,+2348188021476,sani.oladipo9@example.ng,212,20/10/2021,Law,500,4.26
+R01059,21/ECO/5643,Abubakar Bello,1999-07-04,Gombe,+2349097342081,abubakar.bello96@example.ng,201,2021-10-01,Econs,400,2.54
+R01060,21/MEC/2025,Chiamaka Babatunde,2005-07-12,FCT,08061651662,chiamaka.babatunde16@example.ng,330,2021-09-17,Mechanical Engineering,500L,2.16
+R01061,24/ECO/2211,"OGUNLEYE, Chinedu",N/A,Kogi,2348170414073,Chinedu.Ogunleye62@Example.Ng,246,25/01/2025,economics,200,3.20
+R01062,22/LAW/2234,Chinedu Balogun,24-07-2000,Bayelsa,+2348185529943,chinedu.balogun64@example.ng,193,04-11-2022,Law,400,3.17
+R01063,21/ACC/2334,Gbenga Garba,2005-04-21,Kaduna,+2348102467913,gbenga.garba39@example.ng,298,2022-01-12,Accounting,400,2.70
+R01064,21/MAS/8622,Halima Nnamdi,2001-07-12,N/A,+2348065380135,halima.nnamdi5@example.ng,209,6 Nov 2021,Mass Communication,400L,4.19
+R01065,23/ECO/4365,Oge Lawal,2004-01-06,Abia,08119371696,oge.lawal95@example.ng,323,2024-01-03,Economics,300,2.90
+R01066,21/ACC/3725,"EZE, Zainab",24/08/2002,Sokoto,07015247510,zainab.eze5@example.ng,323,2022-01-12,ACCOUNTING,400,3.04
+R01067,22/MEC/0037,Obinna Eze,02/05/2005,Katsina,08152128123,Obinna.Eze75@Example.Ng,0,2023-01-13,Mechanical Engr.,400,3.48
+R01068,23/MEC/7074,Usman Onyeka,2001-12-19,Taraba,08122791061,usman.onyeka16@example.ng,324,12-09-2023,Mech. Engineering,300,3.07
+R01069,24/MIC/4220,Segun Onyeka,27-10-2007,Bauchi,+234 (816) 236-3592,segun.onyeka93@example.ng,280,02/10/2024,Micro-biology,200,4.23
+R01070,24/MEC/5019,"CHUKWU, Nkechi",2002-06-14,Cross River,2348074856835,nkechi.chukwu53@example.ng,253,2024-11-15,Mechanical Engr.,200,3.33
+R01071,22/MEC/4227,Gbenga Bello,2002-02-27,Borno,+2348179784976,gbenga.bello14@example.ng,324,2022-10-07,Mechanical Engineering,400,3.66
+R01072,25/MAS/6443,Bisola Danjuma,2005-05-14,Zamfara,+234 (703) 859-0880,bisola.danjuma15@example.ng,239,01-09-2025,Mass Communication,100,3.81
+R01073,24/ACC/5232,Funmilayo Danjuma,2006-11-24,Cross River,+2348039888186,funmilayo.danjuma51@example.ng,197,19 Sep 2024,Accounting,200,3.24
+R01074,25/COM/0741,Oluwaseun Akinola,10-04-2009,Borno,08157068903,oluwaseun.akinola45@example.ng,204,2026-01-14,Computer Science,100,4.13
+R01075,24/MEC/4546,  maryam ojo ,2003-08-22,Bauchi,08179110417,Maryam.Ojo8@Example.Ng,229,2025-01-21,Mechanical Engineering,200,3.47
+R01076,21/ACC/8875,Funmilayo Nwosu,2003-04-18,Ogun,+234 (806) 025-3851,funmilayo.nwosu50@example.ng,322,2022-01-15,ACCOUNTING,400L,3.14
+R01077,25/MEC/1017,Oluwaseun Adeyemi,-,Ogun,+2348159696940,oluwaseun.adeyemi66@example.ng,721,2025-10-20,Mechanical Engineering,100,3.43
+R01078,24/LAW/6032,Maryam Ibekwe,08/10/2006,Kwara,09093543911,Maryam.Ibekwe65@Example.Ng,211,08/11/2024,law ,200,3.57
+R01079,22/MEC/9184,Chidi Babatunde,2002-06-27,NASARAWA,08184900919,chidi.babatunde3@example.ng,267,2023-01-08,Mechanical Engineering,400,2.89
+R01080,25/MAS/7286,Ifeoma Ibekwe,28/06/2005,Kaduna,2348052368194,ifeoma.ibekwe60@example.ng,257,14-09-2025,Mass Communication,100,3.29
+R01081,22/ECO/5311,Kelechi Garba,05/08/2006,Ogun,0813 647 7949,kelechi.garba89@example.ng,319,20/01/2023,ECONOMICS,400,2.90
+R01082,24/COM/5947,Emeka Ezeh,2003-09-23,Lagos,08121323705,Emeka.Ezeh91@Example.Ng,197,4 Jan 2025,Computer Science,200,2.72
+R01083,25/MEC/8513,Funmilayo Adebayo,21/04/2006,Katsina,+234 (810) 973-9978,funmilayo.adebayo28@example.ng,237,2025-10-20,Mechanical Engineering,100,2.42
+R01084,21/MAS/6106,Kelechi Afolabi,25 Jul 1999,Abia,08116010635,Kelechi.Afolabi98@Example.Ng,271,19/01/2022,Mass Comm.,400,2.91
+R01085,22/COM/0610,  ifeoma ogunleye ,09/01/2001,Benue,08092598713,ifeoma.ogunleye16@example.ng,275,14/01/2023,Computer Science,400L,2.65
+R01086,25/MIC/2342,Yusuf Abdullahi,2004-02-13,FCT,08098104241,yusuf.abdullahi33@example.ng,319,2026-01-23,Microbiology,100,3.42
+R01087,21/ECO/1374,Zainab Yakubu,07/08/2003,Anambra,+234 (814) 713-7136,zainab.yakubu92@example.ng,225,2021-09-05,ECONOMICS,400,2.19
+R01088,24/MEC/0148,Yetunde Suleiman,2003-12-22,Bauchi,08110651955,yetunde.suleiman40@example.ng,184,2024-09-06,Mech. Engineering,200,1.82
+R01089,21/LAW/9963,Yetunde Mohammed,18/08/2002,Bauchi,09095834354,yetunde.mohammed34@example.ng,303,2021-09-07,LAW,500,3.96
+R01090,25/ECO/4855,Yetunde Balogun,2003-12-03,Ogun,2348134810103,Yetunde.Balogun72@Example.Ng,316,2025-11-12,Econs,100,4.00
+R01091,21/MIC/1961,Ngozi Nnamdi,11/09/2000,Kebbi,0703 414 6391,ngozi.nnamdi74@example.ng,261,23/09/2021,Microbiology,400,3.92
+R01092,25/LAW/4679,Segun Suleiman,NA,Gombe,+2348118820705,segun.suleiman2@example.ng,287,2025-11-27,Law,100,3.30
+R01093,24/MEC/4165,"OGUNLEYE, Sani",2004-06-15,Katsina,08089573920,sani.ogunleye14@example.ng,325,2024-10-13,Mechanical Engineering,200,3.73
+R01094,21/MEC/3428,Halima Adeyemi,1999-08-17,Yobe,07013148288,halima.adeyemi99@example.ng,182,20-11-2021,Mechanical Engineering,500,1.99
+R01095,25/MIC/8171,"EZEH, Halima",2003-01-03,Ekiti,+2348062594971,halima.ezeh96@example.ng,230,2025-10-27,Microbiology,100,4.01
+R01096,25/ACC/7063,Kelechi Uzor,2007-01-09,Abia,,kelechi.uzor17@example.ng,210,08/01/2026,Accounting,100,3.85
+R01097,25/COM/1022,Ibrahim Aliyu,06-01-2008,Lagos,+2348078868038,Ibrahim.Aliyu96@Example.Ng,228,2025-09-12,Computer Science,100,3.30
+R01098,23/COM/7311,Ebuka Okafor,2006-12-06,Ekiti,07062477924,ebuka.okafor61@example.ng,-240,10/10/2023,Computer science ,300,3.33
+R01099,25/MAS/4136,Ifeoma Babatunde,19 May 2008,Zamfara,08121356785,ifeoma.babatunde9@example.ng,338,2025-09-11,Mass Communication,100,2.41
+R01100,23/MEC/9465,Femi Olawale,13/04/2005,Abia,0809 304 6842,femi.olawale91@example.ng,283,9 Oct 2023,Mechanical Engineering,300,3.04
+R01101,22/MIC/3067,Kemi Mohammed,2006-11-07,Osun,nil,kemi.mohammed97@example.ng,236,05-01-2023,Microbiology,400,3.87
+R01102,22/ACC/7724,Ebuka Obi,28/02/2006,Kebbi,08156982543,ebuka.obi44@example.ng,262,2023-01-02,Accounting,400L,3.85
+R01103,24/MEC/1062,Babajide Onyeka,13-08-2005,Edo,07032344317,babajide.onyeka51@example.ng,230,2024-11-27,Mechanical Engineering,200,4.25
+R01104,21/ECO/1323,Chinedu Babatunde,05/27/2005,Kebbi,08188225646,chinedu.babatunde27@example.ng,281,2021-09-15,ECONOMICS,400,1.98
+R01105,22/MEC/2170,"OLAWALE, Halima",21/06/2004,Kaduna,+2348111009488,halima.olawale94@example.ng,334,2022-09-12,Mechanical Engineering,400,2.38
+R01106,22/COM/7113,Chiamaka Lawal,09-07-2003,Delta,2349033596141,chiamaka.lawal31@example.ng,207,2022-11-13,Computer Science,400L,3.90
+R01107,21/MAS/4995,Ibrahim Obi,2002-10-19,Delta,080930633,Ibrahim.Obi19@Example.Ng,282,2021-10-03,Mass Communication,400,3.81
+R01108,22/MEC/2141,Bisola Danjuma,19 Feb 2004,Anambra,+234 (701) 645-9647,bisola.danjuma71@example.ng,309,2022-10-07,Mechanical Engineering,400,3.24
+R01109,24/ECO/7653,Bisola Ibekwe,2007-03-14,Kano,-,bisola.ibekwe29@example.ng,287,2024-11-27,Economics,200,2.08
+R01110,23/ECO/0534,Babajide Yakubu,2001-11-21,Akwa Ibom,2349097982300,babajide.yakubu87@example.ng,0,8 Jan 2024,Economics,300,2.50
+R01111,23/ACC/3244,Chiamaka Okonkwo,15-10-2006,Yobe,+2348098604161,chiamaka.okonkwo31@example.ng,257,09/01/2024,Accounting,300,2.50
+R01112,25/MAS/5300,Zainab Balogun,18/05/2009,Lagos,0814 107 3420,zainab.balogun55@example.ng,190,01/09/2025,Mass Communication,100,3.57
+R01113,21/ECO/6999,Damilola Aliyu,14/01/2004,Imo,08056204964,damilola.aliyu37@example.ng,184,6 Sep 2021,Economics,400,2.64
+R01114,25/ACC/4799,  obinna uzor ,01/19/2007,Abia,08021167203,obinna.uzor8@example.ng,213,2026-01-06,Accountancy,100,3.62
+R01115,24/ACC/2283,Musa Akinola,2007-09-15,Bauchi,09083630697,musa.akinola96@example.ng,196,2024-11-04,Acct,200,3.16
+R01116,23/LAW/0747,Kelechi Mohammed,12/04/2007,F.C.T,0908 234 2587,kelechi.mohammed18@example.ng,275,05/10/2023,Law,300,2.86
+R01117,21/MEC/0945,Femi Afolabi,2002-12-13,Niger,0905 746 2512,femi.afolabi32@example.ng,225,16/11/2021,Mech. Engineering,500,3.88
+R01118,22/MEC/4750,"OGUNLEYE, Oluwaseun",2026-08-21,Bauchi,08152890197,oluwaseun.ogunleye69@example.ng,331,2023-01-15,Mechanical Engineering,400,3.56
+R01119,21/MAS/2888,Maryam Adeyemi,-,Plateau,08100454396,maryam.adeyemi37@example.ng,0,19/09/2021,Mass Communication,400,3.44
+R01120,24/ECO/4333,Kemi Onyeka,16 Dec 2007,Kaduna,2348075441007,kemi.onyeka3@example.ng,316,12/09/2024,ECONOMICS,200,2.60
+R01121,24/LAW/5950,Ebuka Adeyemi,2007-04-25,C/River,NA,ebuka.adeyemi80@example.ng,253,2024-10-12,law ,200,3.77
+R01122,22/MEC/8943,"OKAFOR, Obinna",2006-04-27,Benue,2348068132329,Obinna.Okafor10@Example.Ng,273,28 Sep 2022,Mech. Engineering,400,3.60
+R01123,21/COM/7074,Temitope Chukwu,21/05/2002,Ekiti,+2349050486982,temitope.chukwu77@example.ng,652,15-11-2021,Computer Science,400,3.37
+R01124,23/COM/6108,Emeka Aliyu,09/12/2003,ENUGU,+234 (803) 894-9227,emeka.aliyu90@example.ng,329,2023-10-23,Computer Science,300,2.44
+R01125,24/ACC/2289,Kemi Nwosu,01/22/2002,Niger,+2349087932771,kemi.nwosu60@example.ng,230,04/10/2024,Accounting,200,2.62
+R01126,25/LAW/2564,Kelechi Akinola,10 Sep 2009,Kano,08161502126,kelechi.akinola83@example.ng,334,23-10-2025,Law,100,3.27
+R01127,24/MIC/2478,Ngozi Okafor,2003-11-20,Edo,0808 772 8283,Ngozi.Okafor10@Example.Ng,197,09/11/2024,Microbiology,200,3.69
+R01128,22/ACC/6614,Sani Akinola,23/07/2005,Ebonyi,+2348140157187,sani.akinola55@example.ng,280,2022-09-04,Accountancy,400,2.83
+R01129,24/ECO/9471,Chidi Chukwu,2004-12-22,Niger,07037960514,chidi.chukwu9@example.ng,203,2024-09-05,Economics,200,2.82
+R01130,21/COM/8197,Ifeanyi Eze,28 Feb 2004,Zamfara,08037336366,ifeanyi.eze57@example.ng,312,5 Sep 2021,Computer Science,400,3.42
+R01131,22/ACC/1574,Funmilayo Mohammed,12/01/2006,anambra,07060750508,funmilayo.mohammed81@example.ng,183,2023-01-09,Accountancy,400,2.15
+R01132,24/ACC/9140,Maryam Oladipo,27/01/2003,Sokoto,08167355987,maryam.oladipo34@example.ng,295,2024-11-11,Accountancy,200,3.79
+R01133,23/MIC/3860,Nkechi Nwosu,2006-12-14,Delta,08181561447,nkechi.nwosu9@example.ng,210,2024-01-16,Microbiology,300,4.10
+R01134,23/MIC/6609,  segun bello ,07/23/2002,FCT,09028651486,segun.bello26@example.ng,295,2023-09-07,MCB,300,2.67
+R01135,23/ECO/9486,Ebuka Ibekwe,14-10-2002,Gombe,+2348030629071,ebuka.ibekwe82@example.ng,210,28/01/2024,Economics,300,2.01
+R01136,24/COM/0196,Zainab Lawal,26/12/2002,Rivers State,090936171,zainab.lawal78@example.ng,205,2024-09-23,Computer Science,200,4.17
+R01137,22/LAW/9750,Yusuf Ibekwe,2005-10-15,rivers ,09024719244,yusuf.ibekwe10@example.ng,300,19/10/2022,law ,400,3.76
+R01138,25/LAW/4679,Segun Suleiman,2003-11-27,Gombe,2348118820705,segun.suleiman2@example.ng,287,2025-11-27,Law,100,3.30
+R01139,24/MEC/4546,Maryam Ojo,22/08/2003,,08179110417,maryam.ojo8@example.ng,229,2025-01-21,Mechanical Engineering,200,nil
+R01140,25/LAW/9634,"IBEKWE, Zainab",15/09/2004,Yobe,0816 776 0485,zainab.ibekwe7@example.ng,206,10/09/2025,law ,100,2.69
+R01141,24/COM/7172,"LAWAL, Uche",2003-10-09,Cross River,08078328907,uche.lawal65@example.ng,269,22-09-2024,Computer Science,200,4.19
+R01142,22/ECO/3556,  abubakar suleiman ,2003-10-01,Abia,+234 (803) 515-2181,abubakar.suleiman43@example.ng,281,13/01/2023,economics,400,2.89
+R01143,21/ECO/6594,Ngozi Yakubu,15-02-2004,Edo,+234 (806) 707-0121,ngozi.yakubu73@example.ng,316,2021-09-28,Economics,400,1.35
+R01144,24/ACC/3763,Aisha Mohammed,2007-02-15,Benue,0813 208 5586,aisha.mohammed56@example.ng,280,03/01/2025,Accounting,200,4.31
+R01145,24/COM/4011,Gbenga Okafor,2006-10-22,Edo,08035747049,gbenga.okafor92@example.ng,297,10/10/2024,Computer Science,200,3.47
+R01146,24-ECO-0217,Funmilayo Nnamdi,25/11/2005,Ekiti,2349052024509,funmilayo.nnamdi76@example.ng,318,2024-11-13,Econs,200,2.50
+R01147,24/LAW/4852,"AFOLABI, Yusuf",2004-12-16,Delta,09090417884,Yusuf.Afolabi31@Example.Ng,248,2024-10-26,law ,200L,2.94
+R01148,23/ACC/7878,Tunde Aliyu,16/01/2005,nil,+2348131917289,tunde.aliyu8@example.ng,320,2023-09-17,Accounting,300,3.51
+R01149,22/MAS/7441,Aisha Nnamdi,12/24/2006,ANAMBRA,+234 (803) 954-8079,Aisha.Nnamdi69@Example.Ng,278,07/01/2023,Mass Communication,400,2.64
+R01150,25/MAS/6648,Kemi Adebayo,05/03/2003,Nasarawa,2348088578285,kemi.adebayo39@example.ng,202,15/10/2025,MASS COMM,100,3.38
+R01151,23/COM/9602,Aisha Okonkwo,2001-12-23,Bayelsa,2348123209933,aisha.okonkwo55@example.ng,290,11/11/2023,Comp. Sci.,300L,3.82
+R01152,21/MAS/9216,Hauwa Olawale,04/04/2000,Kwara,2348156230039,Hauwa.Olawale52@Example.Ng,289,2021-11-08,MASS COMM,400,3.83
+R01153,25/MEC/3906,  fatima garba ,2003-05-10,FCT,08151338128,fatima.garba41@example.ng,272,09/01/2026,Mechanical Engineering,100,4.67
+R01154,22/LAW/0917,Kemi Uzor,2001-11-14,Bayelsa,0813 207 6271,Kemi.Uzor87@Example.Ng,262,11/11/2022,Law,400,2.85
+R01155,22/ACC/1052,Obinna Nwosu,2003-04-12,Adamawa,0814 443 7551,obinna.nwosu41@example.ng,264,2022-11-28,Accounting,400,3.49
+R01156,24/MAS/0992,"AKINOLA, Abubakar",26/02/2005,Enugu,2349096209314,abubakar.akinola14@example.ng,310,2024-10-11,Mass Communication,200,3.14
+R01157,21/MIC/7672,Yetunde Ezeh,2004-03-10,FCT,+2349024755532,yetunde.ezeh98@example.ng,194,27-11-2021,Microbiology,400,3.46
+R01158,22/MEC/1666,Obinna Uzor,2002-09-01,Kebbi,08113772335,obinna.uzor22@example.ng,205,07-10-2022,Mechanical Engineering,400,3.71
+R01159,23/COM/8060,Amaka Afolabi,2003-06-26,Edo,07035481727,Amaka.Afolabi18@Example.Ng,222,2023-11-01,Computer Science,300,3.93
+R01160,21/COM/0223,Adaeze Chukwu,2002-11-21,C/River,08132062814,adaeze.chukwu71@example.ng,339,14/09/2021,Comp. Sci.,400,2.67
+R01161,25/LAW/7917,Ifeoma Eze,2004-02-09,Ogun,0816 489 5865,ifeoma.eze23@example.ng,229,2025-09-11,Law,100,3.06
+R01162,21/LAW/3626,Babajide Nnamdi,26/06/2004,Delta,2348021074949,babajide.nnamdi94@example.ng,335,2021-09-27,Law,500,3.25
+R01163,23/MIC/2786,Segun Babatunde,18/02/2007,Ondo,0701 742 6916,Segun.Babatunde9@Example.Ng,193,2023-11-27,Microbiology,300,3.19
+R01164,23/LAW/4848,Funmilayo Ibekwe,10-10-2007,Zamfara,0809 890 0313,funmilayo.ibekwe66@example.ng,218,27-11-2023,Law,300,2.90
+R01165,21/MAS/6890,Fatima Adebayo,2000-07-28,Bayelsa,+2348145963875,fatima.adebayo11@example.ng,581,4 Sep 2021,Mass Communication,400,3.55
+R01166,24/ACC/9176,"ADEYEMI, Yetunde",06/06/2005,Delta,0808 635 1795,yetunde.adeyemi28@example.ng,185,2024-10-18,Accounting,200,4.39
+R01167,23/LAW/6933,Tunde Olawale,5 Apr 2005,Kebbi,+2348022152404,tunde.olawale63@example.ng,262,2023-09-24,Law,300,3.65
+R01168,24/MIC/3112,Ibrahim Afolabi,11/06/2006,Kano State,0703 503 1563,ibrahim.afolabi55@example.ng,253,2024-09-09,Microbiology,200L,3.49
+R01169,23/COM/7580,"EZEH, Yetunde",16/03/2001,Jigawa,07035298482,yetunde.ezeh15@example.ng,204,24 Jan 2024,Computer Science,300,3.49
+R01170,22/MAS/3968,Ifeanyi Chukwu,15 Sep 2006,Imo,07033322555,ifeanyi.chukwu82@example.ng,302,2022-09-11,Mass Communication,400,4.07
+R01171,21/MIC/3897,Tunde Mohammed,2004-06-03,Ondo,08140391837,tunde.mohammed82@example.ng,208,2021-09-09,Microbiology,400,3.65
+R01172,25-MEC-4011,Segun Abdullahi,2009-09-06,Edo,08084088242,segun.abdullahi8@example.ng,205,12/10/2025,Mechanical Engr.,100,3.08
+R01173,21/MIC/9420,Oge Olawale,03/11/2000,Cross River,+2348120328096,oge.olawale33@example.ng,296,2021-11-07,Micro-biology,400,3.43
+R01174,23/LAW/2841,Chinedu Akinola,2007-06-07,Yobe,08022077540,chinedu.akinola34@example.ng,243,25/10/2023,LAW,300L,2.87
+R01175,22/COM/3932,Ifeanyi Nnamdi,11/14/2001,Zamfara,08115223190,ifeanyi.nnamdi18@example.ng,228,2023-01-12,Comp. Sci.,400,2.67
+R01176,24/LAW/5479,Chidi Lawal,05/22/2004,Jigawa,08083332355,chidi.lawal67@example.ng,207,2025-01-03,Law,200,4.01
+R01177,22/LAW/1101,Chiamaka Adebayo,2004-01-27,Plateau,08091571528,chiamaka.adebayo36@example.ng,192,17-09-2022,LAW,400,2.86
+R01178,23/MAS/8968,Adaeze Nwosu,9 Jul 2002,Osun,08101092719,adaeze.nwosu35@example.ng,199,02-01-2024,Mass communication,300L,4.20
+R01179,23/MIC/4522,Chiamaka Balogun,15-07-2007,Rivers,+234 (807) 377-7778,chiamaka.balogun34@example.ng,304,2023-10-05,Microbiology,300,3.78
+R01180,24/LAW/1435,Abubakar Abdullahi,2006-03-25,Edo,+2348022076164,abubakar.abdullahi34@example.ng,253,09/09/2024,LAW,200,4.31
+R01181,24/LAW/1226,Yusuf Danjuma,15/08/2006,Bayelsa,08059982119,yusuf.danjuma84@example.ng,207,7 Oct 2024,Law,200,2.62
+R01182,21/MEC/4807,Kemi Afolabi,08/05/2004,Borno,09099172461,kemi.afolabi98@example.ng,722,2022-01-20,Mechanical Engineering,500,3.32
+R01183,25/MAS/5300,Zainab Balogun,18/05/2009,LAGOS,08141073420,zainab.balogun55@example.ng,190,2025-09-01,Mass communication,100,3.57
+R01184,24/LAW/1305,  chinedu onyeka ,2003-01-10,Cross River,+234 (817) 340-1571,chinedu.onyeka75@example.ng,305,10-11-2024,law ,200,3.34
+R01185,23/MEC/4325,Hauwa Yakubu,21/07/2003,Niger,+2349026977018,hauwa.yakubu13@example.ng,312,2024-01-07,Mechanical Engineering,300,2.45
+R01186,24/COM/2383,Obinna Adeyemi,23 May 2003,Abia,07062460116,obinna.adeyemi24@example.ng,308,13/01/2025,COMPUTER SCIENCE,200,3.85
+R01187,25/MIC/0732,Chiamaka Balogun,2003-09-10,Adamawa,07013970436,chiamaka.balogun66@example.ng,259,2025-11-09,Microbiology,100,4.01
+R01188,22/COM/9872,Emeka Uzor,09/05/2002,Bauchi,2348146121919,emeka.uzor53@example.ng,201,26/01/2023,Computer Science,400,2.54
+R01189,21/ECO/3857,Ifeoma Uzor,08/01/2001,Imo,+2347034978052,ifeoma.uzor35@example.ng,213,2021-11-28,Economics,400,2.68
+R01190,22/MEC/6042,Hauwa Suleiman,2000-02-08,Akwa Ibom,+2348124895262,hauwa.suleiman48@example.ng,213,2022-09-23,Mechanical Engineering,400,3.88
+R01191,25/LAW/7865,Nkechi Okonkwo,2008-04-18,Ebonyi,+234 (817) 020-8491,nkechi.okonkwo19@example.ng,336,14/10/2025,Law,100,3.95
+R01192,25/MEC/6217,Nkechi Eze,2027-08-25,Rivers,07017532864,nkechi.eze25@example.ng,311,2025-10-02,Mechanical Engineering,100,4.10
+R01193,24/MAS/9074,"ALIYU, Zainab",2002-07-20,Zamfara,08027129587,zainab.aliyu52@example.ng,0,13 Jan 2025,MASS COMM,200,3.27
+R01194,21/COM/4243,Temitope Olawale,03/03/2000,Jigawa,2348167786700,temitope.olawale27@example.ng,313,2021-09-12,Computer Science,400,3.35
+R01195,21/MAS/6247,Fatima Chukwu,2005-11-21,Bauchi,0908 208 3122,Fatima.Chukwu74@Example.Ng,314,2021-10-10,Mass Comm.,400,3.88
+R01196,23/MEC/5844,Adaeze Adeyemi,2001-07-24,Kano,+2347019027228,adaeze.adeyemi37@example.ng,297,2023-09-24,Mechanical Engineering,300,4.04
+R01197,22/LAW/1565,Emeka Balogun,13/10/2001,Niger,0812 579 6019,emeka.balogun8@example.ng,296,2022-09-06,LAW,400,3.51
+R01198,24/MIC/0095,Emeka Uzor,18-07-2005,Kaduna,07038137089,emeka.uzor7@example.ng,-290,2024-10-07,Microbiology,200,3.30
+R01199,25/ACC/6318,Emeka Adebayo,2004-08-22,Osun,08024345100,emeka.adebayo80@example.ng,234,2025-11-25,Acct,100,3.02
+R01200,21/LAW/8302,Temitope Mohammed,1999-08-18,Katsina,08114605157,temitope.mohammed76@example.ng,242,13/11/2021,law ,500,4.10
+R01201,24/COM/9047,Rukayat Ezeh,6 Aug 2003,Delta,08077587675,rukayat.ezeh27@example.ng,330,28-10-2024,Computer Science,200,2.89
+R01202,21/ECO/9752,Chinedu Ojo,03/01/2002,Niger,08158212230,chinedu.ojo47@example.ng,290,2021-10-09,ECONOMICS,400,2.74
+R01203,23/MEC/8579,  adaeze okonkwo ,2007-05-11,Zamfara,0802 093 7250,adaeze.okonkwo41@example.ng,338,25/09/2023,MECH ENG,300,3.74
+R01204,24/ACC/4310,Chidi Lawal,2004-07-09,Bayelsa,08093893226,chidi.lawal92@example.ng,184,19-09-2024,Accounting,200,3.44
+R01205,24/ACC/9969,Adaeze Chukwu,18/06/2008,Edo,08029181084,adaeze.chukwu92@example.ng,212,2024-10-16,Accounting,200,3.32
+R01206,23/LAW/2037,Hauwa Balogun,2003-07-04,Kaduna,08128744735,hauwa.balogun39@example.ng,222,2023-09-14,Law,300,3.37
+R01207,24/MIC/6083,"OLADIPO, Bisola",2004-03-21,Benue,+2349035371654,bisola.oladipo38@example.ng,278,06/11/2024,MCB,200,3.02
+R01208,24/MEC/0092,  funmilayo lawal ,2002-10-17,Bauchi,0818 917 4259,funmilayo.lawal65@example.ng,197,18 Sep 2024,Mechanical Engineering,200,4.28
+R01209,22/LAW/9710,Yetunde Adeyemi,2006-07-25,Gombe,08139820232,yetunde.adeyemi45@example.ng,-247,2022-09-16,Law,400,3.97
+R01210,25/MEC/5649,Segun Suleiman,2007-06-02,  ,08090246234,segun.suleiman97@example.ng,314,09-01-2026,Mechanical Engineering,100,3.23
+R01211,25/COM/1898,Hauwa Adebayo,2005-07-20,Niger,+2348066382793,hauwa.adebayo99@example.ng,210,21-11-2025,Computer Science,100,3.90
+R01212,25/MIC/7050,Musa Obi,21/01/2004,Ebonyi,2349087805837,musa.obi13@example.ng,312,13 Nov 2025,Microbiology,100,3.49
+R01213,25/ACC/2732,Emeka Okafor,2006-09-28,KANO,080967323,emeka.okafor33@example.ng,253,15 Jan 2026,Accounting,100,4.23
+R01214,22/ECO/8103,Nkechi Yakubu,,Katsina,08153509476,nkechi.yakubu81@example.ng,292,2023-01-24,ECONOMICS,400,3.74
+R01215,24/MAS/9796,Femi Nwosu,21 Dec 2004,Katsina,NA,femi.nwosu60@example.ng,187,27/09/2024,Mass Communication,200,3.87
+R01216,23/LAW/5406,  chidi balogun ,2004-06-24,Ebonyi,+2348104170943,chidi.balogun89@example.ng,236,18/09/2023,Law,300,2.44
+R01217,23/ECO/4631,"AKINOLA, Sani",2006-10-27,Kogi,07063306013,sani.akinola68@example.ng,284,05-09-2023,Economics,300,2.68
+R01218,25/ACC/9421,Musa Garba,2006-12-27,Edo,07036533730,musa.garba37@example.ng,325,2025-09-13,Accounting,100,3.43
+R01219,21/MAS/7643,Emeka Adeyemi,2004-03-14,Ebonyi,+234 (908) 576-2698,emeka.adeyemi11@example.ng,338,2021-09-04,Mass Communication,400,2.93
+R01220,24/ECO/0126,"GARBA, Tunde",2003-08-26,NA,0817 216 8433,Tunde.Garba12@Example.Ng,224,2024-10-20,Economics,200,2.59
+R01221,24/MEC/7190,Babajide Ojo,2004-08-03,Yobe,0802 653 5450,Babajide.Ojo10@Example.Ng,184,19-09-2024,Mechanical Engineering,200,4.17
+R01222,23/MEC/6205,Oge Suleiman,2005-01-16,Yobe,2348088290824,oge.suleiman12@example.ng,273,2024-01-13,Mechanical Engineering,300,2.03
+R01223,23/LAW/9890,Maryam Yakubu,2003-11-12,Abia,09082996888,maryam.yakubu19@example.ng,337,12-11-2023,Law,300L,3.84
+R01224,23/LAW/3424,"EZE, Nkechi",2007-06-28,Delta,0809 213 3616,nkechi.eze57@example.ng,274,23/09/2023,LAW,300,2.75
+R01225,23/MIC/1541,Segun Danjuma,2007-02-21,NASARAWA,0817 013 5439,segun.danjuma45@example.ng,336,2023-09-10,Microbiology,300,2.76
+R01226,21/COM/3268,Chidi Balogun,05/08/2004,RIVERS,+2348121551927,chidi.balogun83@example.ng,208,20 Nov 2021,Computer Science,400,3.75
+R01227,22/MEC/3777,"ONYEKA, Bisola",26 Apr 2000,Borno,+234 (814) 910-8717,bisola.onyeka60@example.ng,200,2022-09-18,Mechanical Engineering,400,3.02
+R01228,22/COM/6227,"EZEH, Segun",06/19/2002,NASARAWA,07067880299,segun.ezeh24@example.ng,268,24/09/2022,Computer Science,400,4.02
+R01229,25/ACC/3638,  segun oladipo ,2004-12-06,Kogi,+234 (817) 829-5458,segun.oladipo19@example.ng,292,01/11/2025,Accounting,100,4.52
+R01230,21/ECO/6994,Chidi Afolabi,2005-06-19,Ekiti,08121717485,chidi.afolabi69@example.ng,285,2022-01-21,Econs,400,2.91
+R01231,25/MEC/6573,"EZE, Segun",25/11/2005,Benue,2349092384253,segun.eze94@example.ng,333,11/09/2025,MECH ENG,100,4.11
+R01232,23/LAW/4110,Chinedu Afolabi,27 Feb 2007,NA,0818 592 5653,chinedu.afolabi75@example.ng,263,03/01/2024,Law,300,3.02
+R01233,21/ACC/5338,Fatima Olawale,22/08/2003,Sokoto,08082959676,fatima.olawale26@example.ng,321,2021-11-11,Accounting,400,3.93
+R01234,22/ECO/2100,"DANJUMA, Yetunde",2002-07-11,Kwara,08056242140,yetunde.danjuma25@example.ng,180,2022-10-07,Economics,400,2.35
+R01235,24-LAW-7790,Halima Ezeh,26/01/2003,Cross River,08059205415,halima.ezeh94@example.ng,181,2025-01-01,Law,200,3.25
+R01236,21/ACC/5068,Usman Ojo,24-02-2002,Kwara,0813 525 3789,usman.ojo98@example.ng,230,14 Jan 2022,Acct,400,3.50
+R01237,24/MAS/3881,Obinna Okafor,N/A,Taraba,0816 871 1113,obinna.okafor52@example.ng,306,06/01/2025,Mass Communication,200,2.43
+R01238,21/COM/3378,Ebuka Mohammed,1999-04-25,Imo,2347039338485,ebuka.mohammed44@example.ng,276,2021-10-06,Computer Science,400,NA
+R01239,25/MIC/8730,Abubakar Balogun,09/04/2009,Sokoto,08127434501,abubakar.balogun37@example.ng,321,2025-10-26,Microbiology,100,3.60
+R01240,23/ECO/1580,Kelechi Afolabi,2004-08-14,Jigawa,2348023287480,kelechi.afolabi71@example.ng,203,2023-10-27,Economics,300,2.91
+R01241,24/MIC/9498,Temitope Okafor,2005-02-16,Borno,09082349926,Temitope.Okafor73@Example.Ng,265,2024-09-21,MCB,200,3.73
+R01242,23/MAS/7828,Chidi Garba,2001-09-20,NASARAWA,+2349038431241,chidi.garba97@example.ng,246,2024-01-21,Mass Communication,300,4.60
+R01243,24/ECO/8153,Gbenga Nnamdi,09/09/2002,Taraba,+2348182222667,Gbenga.Nnamdi60@Example.Ng,198,26 Oct 2024,Economics,200,3.16
+R01244,23/LAW/3845,Kemi Ezeh,2001-11-11,Rivers State,+234 (903) 311-4501,kemi.ezeh21@example.ng,218,2024-01-16,law ,300,2.81
+R01245,22/COM/5404,Abubakar Abdullahi,2000-04-22,Bayelsa,2348088987376,abubakar.abdullahi25@example.ng,277,2022-10-09,Computer science ,400,2.71

@@ -1,0 +1,59 @@
+id: DS-T1-006
+title: "The Registry That Lies: Forensic Cleaning of a Student Records Export"
+summary: >-
+  Profile and clean a deliberately corrupted university registry export. Recover what can be
+  recovered, flag what cannot, consolidate duplicates without merging namesakes, and detect a
+  hidden systemic grading-scale defect from data.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-03
+format: debugging-forensics
+secondary_formats: [implementation]
+domains: [education, public-sector-records]
+technologies: [python, pandas, pytest, regex]
+prerequisites:
+  knowledge:
+    - Python functions, modules and packages
+    - pandas DataFrame selection, filtering and groupby
+    - Basic regular expressions
+    - Running pytest
+  recommended_assessments: [DS-T1-001]
+competencies:
+  - Systematic data profiling and defect inventory
+  - Distinguishing missing, invalid, ambiguous and valid values
+  - Canonicalisation of categorical values with auditable mappings
+  - Parsing heterogeneous date and phone formats without guessing
+  - Rule-based duplicate detection with false-merge awareness
+  - Detecting systemic (non-random) defects from distributions
+  - Unit testing of data-cleaning rules
+  - Data-quality reporting for non-technical owners
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 2, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [data-quality, record-linkage, ndpa, forensics, nigeria]
+legacy_source: ["Novice/Data Science/tasks.md (data cleaning task)"]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release (pilot assessment that sets the repository standard)."}

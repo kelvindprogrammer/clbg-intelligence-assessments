@@ -1,0 +1,53 @@
+# Copy to <assessment>/metadata.yaml and fill in every field.
+# The schema is at shared/schemas/assessment.schema.json, and the guide at docs/contributing/AUTHORING_GUIDE.md §4.
+id: XX-TN-NNN                      # from shared/id-allocation.md
+title: "Evocative Title: Precise Subtitle"
+summary: >-
+  One or two sentences (40–400 characters) used in the catalogue. Say what the member does
+  and what makes it interesting.
+version: 1.0.0
+status: draft                      # draft | reviewed | approved | retired
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: []                      # required before status: approved
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit                   # unit | capstone | cross-disciplinary | signature
+subtrack: data-science             # data-science | ml-engineering | ai-engineering | cross-disciplinary
+tier: 1
+unit: DS-03                        # unit code; CAP for capstones; XD-FND/INT/ADV; SIG-<CAT>
+format: investigation              # see AUTHORING_GUIDE §1.3
+secondary_formats: []
+domains: [education]
+technologies: [python, pandas]
+prerequisites:
+  knowledge:
+    - Concrete, checkable knowledge item
+  recommended_assessments: []
+competencies:
+  - Competency demonstrated (at least 3)
+  - ...
+  - ...
+estimated_hours: {min: 8, max: 14}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none                        # none | optional | required (required needs free_alternative)
+  internet: setup-only             # none | setup-only | required
+  paid_api: none                   # none | optional | required (optional/required needs free_alternative)
+  min_ram_gb: 4
+  # free_alternative: "Run with Ollama + llama3.2:3b locally, or with the provided deterministic mock"
+collaboration: individual          # individual | pair | team
+datasets: [synthetic]              # DSET-NNN | synthetic | member-sourced | none
+resources:
+  starter: false
+  tests: false
+  submission_template: false
+  assessor_kit: true
+  # data_generator: resources/generate_data.py
+  # generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: []
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

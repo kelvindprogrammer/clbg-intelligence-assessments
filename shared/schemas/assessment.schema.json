@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://clbg.example/schemas/assessment.schema.json",
+  "title": "CLBG Intelligence Track Assessment Metadata",
+  "description": "Schema for metadata.yaml in every CLBG assessment directory. See docs/contributing/metadata-reference.md for field guidance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "title", "summary", "version", "status", "authors", "created", "last_reviewed", "next_review",
+    "collection", "subtrack", "tier", "unit", "format", "domains", "technologies",
+    "prerequisites", "competencies", "estimated_hours", "difficulty", "compute",
+    "collaboration", "datasets", "resources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^((DS|ML|AI|XD)-T[123]-[0-9]{3}|(DS|ML|AI)-CAP-T[123]-[0-9]{2}|SIG-[A-Z]{2,4}-[0-9]{2})$"
+    },
+    "title": { "type": "string", "minLength": 8, "maxLength": 120 },
+    "summary": { "type": "string", "minLength": 40, "maxLength": 400, "description": "One or two sentences used in the catalogue." },
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "status": { "enum": ["draft", "reviewed", "approved", "retired"] },
+    "authors": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 2 } },
+    "reviewers": { "type": "array", "items": { "type": "string" } },
+    "created": { "type": "string", "format": "date" },
+    "last_reviewed": { "type": "string", "format": "date" },
+    "next_review": { "type": "string", "format": "date" },
+    "collection": { "enum": ["unit", "capstone", "cross-disciplinary", "signature"] },
+    "subtrack": { "enum": ["data-science", "ml-engineering", "ai-engineering", "cross-disciplinary"] },
+    "tier": { "type": "integer", "minimum": 1, "maximum": 3 },
+    "unit": {
+      "type": "string",
+      "pattern": "^((DS|ML|AI)-[0-9]{2}|XD-(FND|INT|ADV)|CAP|SIG-(INT|DATA|ML|AIE|RES|SYS|GRAND))$"
+    },
+    "format": {
+      "enum": [
+        "implementation", "investigation", "reverse-engineering", "replication",
+        "comparative", "optimization", "system-design", "debugging-forensics",
+        "open-ended", "capstone"
+      ]
+    },
+    "secondary_formats": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "implementation", "investigation", "reverse-engineering", "replication",
+          "comparative", "optimization", "system-design", "debugging-forensics",
+          "open-ended", "capstone"
+        ]
+      }
+    },
+    "domains": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "technologies": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "prerequisites": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["knowledge"],
+      "properties": {
+        "knowledge": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "recommended_assessments": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "competencies": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+    "estimated_hours": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "number", "minimum": 1 },
+        "max": { "type": "number", "minimum": 1 }
+      }
+    },
+    "difficulty": {
+      "type": "object",
+      "description": "Each dimension is rated 1 (low) to 5 (very high). See docs/tier-definitions.md section 5.",
+      "additionalProperties": false,
+      "required": ["technical", "mathematical", "research", "engineering", "ambiguity", "resources"],
+      "properties": {
+        "technical": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "mathematical": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "research": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "engineering": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "ambiguity": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "resources": { "type": "integer", "minimum": 1, "maximum": 5 }
+      }
+    },
+    "compute": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gpu", "internet", "paid_api", "min_ram_gb"],
+      "properties": {
+        "gpu": { "enum": ["none", "optional", "required"] },
+        "internet": { "enum": ["none", "setup-only", "required"] },
+        "paid_api": { "enum": ["none", "optional", "required"] },
+        "min_ram_gb": { "type": "number", "minimum": 1, "maximum": 64 },
+        "free_alternative": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "collaboration": { "enum": ["individual", "pair", "team"] },
+    "datasets": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^(DSET-[0-9]{3}|synthetic|member-sourced|none)$" }
+    },
+    "resources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["starter", "tests", "submission_template", "assessor_kit"],
+      "properties": {
+        "starter": { "type": "boolean" },
+        "tests": { "type": "boolean" },
+        "submission_template": { "type": "boolean" },
+        "assessor_kit": { "type": "boolean" },
+        "data_generator": { "type": "string", "description": "Relative path of the public dataset generation script, if any." },
+        "generator_in_assessor_kit": { "type": "boolean", "description": "true if the data generator is kept in the assessor kit (forensic assessments where it would reveal the answers)" }
+      }
+    },
+    "ci": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "contract_tests": { "type": "boolean" },
+        "heavy": { "type": "boolean", "description": "true if tests need dependencies outside the shared CI environment" }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "legacy_source": { "type": "array", "items": { "type": "string" } },
+    "changelog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["version", "date", "change"],
+        "properties": {
+          "version": { "type": "string" },
+          "date": { "type": "string" },
+          "change": { "type": "string" }
+        }
+      }
+    }
+  }
+}
