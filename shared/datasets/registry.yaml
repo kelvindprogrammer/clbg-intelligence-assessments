@@ -1,0 +1,1139 @@
+# CLBG Intelligence Track: verified public dataset registry (machine-readable copy).
+# Human-readable version with selection criteria and re-verification checklist: DATASET_REGISTRY.md
+# 'verified: true' means the licence/terms were confirmed from the provider page or API on 'verified_on'.
+# The status (RECOMMENDED / CONDITIONAL / NOT RECOMMENDED) is the first word(s) of 'notes'.
+# Maintainer: CLBG Intelligence Track Assessment Committee. Last full review: 2026-11-03.
+- id: DSET-001
+  name: Bank Marketing
+  provider: UCI Machine Learning Repository
+  url: https://archive.ics.uci.edu/dataset/222/bank+marketing
+  license: CC BY 4.0
+  format: CSV (semicolon-separated)
+  size: 45,211 rows x 16 features (bank-full); 41,188-row 'additional' variant
+  modality: tabular
+  domain: banking / direct marketing (Portugal, 2008-2010)
+  limitations: Field 'duration' is only known after the call, so it leaks the target and must be excluded for realistic models; class imbalance (minority 'yes'); dated, single-country.
+  units:
+  - DS-04
+  - DS-08
+  - ML-02
+  - ML-04
+  - ML-05
+  - ML-14
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the UCI dataset page. Good for leakage-detection tasks.
+- id: DSET-002
+  name: Online Retail II
+  provider: UCI Machine Learning Repository
+  url: https://archive.ics.uci.edu/dataset/502/online+retail+ii
+  license: CC BY 4.0
+  format: XLSX (two sheets)
+  size: 1,067,371 transaction lines (Dec 2009 - Dec 2011)
+  modality: tabular / transactional
+  domain: e-commerce retail (UK)
+  limitations: Cancellations (invoice prefix 'C'), negative quantities, missing CustomerID, non-product stock codes (postage, adjustments); GBP prices; one retailer.
+  units:
+  - DS-01
+  - DS-03
+  - DS-04
+  - DS-07
+  - DS-09
+  - ML-10
+  - ML-03
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the UCI page. Natural fit for RFM, cohort and SQL tasks; convert XLSX to Parquet/SQLite at setup.
+- id: DSET-003
+  name: Adult (Census Income)
+  provider: UCI Machine Learning Repository
+  url: https://archive.ics.uci.edu/dataset/2/adult
+  license: CC BY 4.0
+  format: CSV
+  size: 48,842 rows x 14 features
+  modality: tabular
+  domain: census / income (USA, 1994)
+  limitations: Contains sensitive attributes (sex, race, marital status); 1994 data; overused benchmark; missing values coded '?'.
+  units:
+  - ML-14
+  - ML-02
+  - DS-05
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the UCI page. Use for fairness auditing, where its sensitive attributes are the point; avoid as a generic classification exercise.
+- id: DSET-004
+  name: Air Quality
+  provider: UCI Machine Learning Repository
+  url: https://archive.ics.uci.edu/dataset/360/air+quality
+  license: CC BY 4.0
+  format: CSV / XLSX
+  size: 9,358 hourly records x 15 columns (Mar 2004 - Feb 2005)
+  modality: tabular / time series
+  domain: environment / sensor data (Italy)
+  limitations: Missing values coded as -200; sensor drift; single device in a single city; European climate.
+  units:
+  - DS-03
+  - DS-10
+  - ML-09
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the UCI page. Good for sentinel-value detection and imputation.
+- id: DSET-005
+  name: Bike Sharing
+  provider: UCI Machine Learning Repository
+  url: https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset
+  license: CC BY 4.0
+  format: CSV
+  size: 17,389 hourly rows (and 731 daily rows)
+  modality: tabular / time series
+  domain: urban mobility (Washington DC, 2011-2012)
+  limitations: casual + registered = cnt (target leakage if either is used as a feature); weather features are normalised; two years only.
+  units:
+  - DS-10
+  - ML-09
+  - ML-04
+  - ML-05
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the UCI page.
+- id: DSET-006
+  name: Wine Quality
+  provider: UCI Machine Learning Repository
+  url: https://archive.ics.uci.edu/dataset/186/wine+quality
+  license: CC BY 4.0
+  format: CSV
+  size: 6,497 rows (1,599 red + 4,898 white) x 11 features
+  modality: tabular
+  domain: food science (Portugal, vinho verde)
+  limitations: Ordinal target with heavy class imbalance (few very low/high scores); physicochemical inputs only; frequently used in tutorials.
+  units:
+  - ML-02
+  - ML-05
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the UCI page. Use for ordinal-vs-nominal framing or calibration, not as a headline project.
+- id: DSET-007
+  name: Default of Credit Card Clients
+  provider: UCI Machine Learning Repository
+  url: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+  license: CC BY 4.0
+  format: XLS / CSV
+  size: 30,000 rows x 23 features
+  modality: tabular
+  domain: consumer credit (Taiwan, 2005)
+  limitations: Includes sex, education and marital status (fairness-sensitive); undocumented category codes in EDUCATION/MARRIAGE; imbalance (~22% default).
+  units:
+  - ML-05
+  - ML-14
+  - DS-09
+  - ML-12
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the UCI page. Useful for cost-sensitive thresholding and fairness metrics in credit.
+- id: DSET-008
+  name: ElectricityLoadDiagrams20112014
+  provider: UCI Machine Learning Repository
+  url: https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014
+  license: CC BY 4.0
+  format: TXT (semicolon, comma decimal)
+  size: 370 clients x 140,256 15-minute readings (2011-2014)
+  modality: time series
+  domain: energy / electricity load (Portugal)
+  limitations: Clients that start later have leading zeros; daylight-saving anomalies; values in kW per 15 min; about 700 MB uncompressed.
+  units:
+  - DS-10
+  - ML-09
+  - DS-11
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the UCI page. Good multi-series forecasting and pipeline-performance dataset; analogous to Nigerian DisCo load problems.
+- id: DSET-009
+  name: SMS Spam Collection
+  provider: UCI Machine Learning Repository
+  url: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
+  license: CC BY 4.0
+  format: TSV
+  size: 5,574 SMS messages
+  modality: text
+  domain: telecoms / spam filtering
+  limitations: English (UK and Singapore) SMS; imbalanced (~13% spam); some duplicates; 2011-era spam patterns. The Hugging Face mirror (ucirvine/sms_spam) says 'unknown' licence, so cite UCI.
+  units:
+  - ML-08
+  - ML-05
+  - AI-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the UCI page.
+- id: DSET-010
+  name: OpenML (platform, per-dataset licences)
+  provider: OpenML
+  url: https://www.openml.org
+  license: 'Per dataset: read the ''licence'' field from the API (e.g. dataset 31 credit-g reports ''Public''; dataset 42165 reports ''NA'')'
+  format: ARFF / Parquet via REST API and the openml Python package
+  size: thousands of datasets; tasks and benchmark suites
+  modality: tabular (mostly)
+  domain: mixed
+  limitations: 'Licence metadata is inconsistent: some uploads say ''NA'' or omit provenance. Many datasets are re-uploads of UCI/Kaggle data with their original terms.'
+  units:
+  - ML-02
+  - ML-05
+  - ML-13
+  verified: true
+  verified_on: '2026-11-03'
+  notes: CONDITIONAL. API queried for datasets 31, 42165, 42803, 1590, 40945 and 43. Only use datasets whose licence field is an explicit open licence or 'Public' with traceable original provenance; record the specific dataset ID in the assessment.
+- id: DSET-011
+  name: scikit-learn bundled and fetchable datasets
+  provider: scikit-learn developers
+  url: https://scikit-learn.org/stable/datasets.html
+  license: 'Package: BSD-3-Clause. Each bundled or fetched dataset keeps its original source terms (see the dataset''s docstring).'
+  format: in-memory NumPy/pandas via sklearn.datasets loaders
+  size: toy datasets (KB) to fetchers (e.g. California housing ~20k rows, 20 Newsgroups ~18k docs)
+  modality: tabular / text / image (small)
+  domain: mixed
+  limitations: Toy datasets (iris, digits, diabetes) are over-familiar; fetchers download from third-party hosts; some datasets were removed for ethical reasons (e.g. Boston housing removed in 1.2).
+  units:
+  - ML-01
+  - ML-02
+  - ML-03
+  - ML-05
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Page fetched; the BSD notice covers the library. Prefer generators (make_classification, make_blobs) for controlled ML-01/ML-03 experiments.
+- id: DSET-012
+  name: Credit Card Fraud Detection (ULB)
+  provider: Machine Learning Group, Universite Libre de Bruxelles (via Kaggle)
+  url: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+  license: 'Database: Open Database License (ODbL 1.0); contents: Database Contents License (DbCL 1.0)'
+  format: CSV
+  size: 284,807 transactions, 492 frauds; ~150 MB
+  modality: tabular
+  domain: finance / fraud detection (Europe, Sept 2013)
+  limitations: Features V1-V28 are PCA-anonymised, so no domain features; extreme imbalance (0.172%); two days only; Kaggle account needed to download.
+  units:
+  - ML-05
+  - ML-14
+  - ML-13
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read from the Kaggle dataset metadata. ODbL share-alike applies to derived databases that are redistributed.
+- id: DSET-013
+  name: Stack Overflow Developer Survey
+  provider: Stack Overflow
+  url: https://survey.stackoverflow.co/
+  license: 'Survey data: ODbL 1.0; contents: DbCL 1.0'
+  format: CSV (zip) per year
+  size: tens of thousands of respondents per annual edition (editions from 2011 onward)
+  modality: tabular / survey
+  domain: technology workforce
+  limitations: Self-selected respondents; multi-select fields stored as delimited strings; question wording changes year to year; small Nigerian subsample.
+  units:
+  - DS-03
+  - DS-04
+  - DS-05
+  - DS-06
+  - DS-12
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read in the survey site footer and structured data.
+- id: DSET-014
+  name: Olist Brazilian E-Commerce Public Dataset
+  provider: Olist (via Kaggle)
+  url: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+  license: CC BY-NC-SA 4.0
+  format: CSV (9 related tables)
+  size: ~100k orders (2016-2018)
+  modality: tabular / relational
+  domain: e-commerce marketplace (Brazil)
+  limitations: Non-commercial and share-alike; anonymised; Portuguese review text; Kaggle account needed.
+  units:
+  - DS-07
+  - DS-09
+  - ML-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: CONDITIONAL. Licence read from the Kaggle dataset metadata. A multi-table schema well suited to joins and marketplace analytics. Non-commercial terms are acceptable for CLBG's non-commercial assessment use.
+- id: DSET-015
+  name: Chinook sample database
+  provider: Luis Rocha (lerocha/chinook-database)
+  url: https://github.com/lerocha/chinook-database
+  license: MIT (Copyright (c) 2008-2024 Luis Rocha)
+  format: SQL scripts for SQLite, PostgreSQL, MySQL, SQL Server, Oracle, DB2
+  size: 11 tables; ~1 MB SQLite
+  modality: relational
+  domain: digital music store
+  limitations: Small and synthetic-like; widely used, so public query solutions exist; little data-quality noise.
+  units:
+  - DS-07
+  - DS-11
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. LICENSE.md read from the repository.
+- id: DSET-016
+  name: Northwind and pubs sample databases
+  provider: Microsoft (sql-server-samples)
+  url: https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs
+  license: MIT ("These samples and templates are all licensed under the MIT license")
+  format: T-SQL scripts (instnwnd.sql, instpubs.sql); community ports exist for SQLite/PostgreSQL
+  size: 13 tables (Northwind)
+  modality: relational
+  domain: wholesale trading
+  limitations: T-SQL dialect; dated 1990s sample data; community ports carry their own licences, so verify before use.
+  units:
+  - DS-07
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Repository README licence statement read; folder contents confirmed.
+- id: DSET-017
+  name: Sakila sample database (multi-dialect port)
+  provider: jOOQ (port of the MySQL Sakila schema)
+  url: https://github.com/jOOQ/sakila
+  license: BSD-2-Clause (repository licence); original MySQL Sakila is distributed under the New BSD licence
+  format: SQL scripts for many RDBMS (PostgreSQL, SQLite, MySQL, SQL Server, Oracle, ...)
+  size: 16 tables
+  modality: relational
+  domain: DVD rental store
+  limitations: Fictional data; heavily used in tutorials; the MySQL licence page returned HTTP 403 on 2026-11-03, so the repository licence is the one verified.
+  units:
+  - DS-07
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Repository licence confirmed via GitHub metadata.
+- id: DSET-018
+  name: TPC-H data generator (dbgen)
+  provider: Transaction Processing Performance Council
+  url: https://www.tpc.org/tpc_documents_current_versions/current_specifications5.asp
+  license: TPC End User License Agreement (EULA) on tool download; results may not be published as 'TPC-H' benchmark results without TPC rules compliance
+  format: generator producing pipe-delimited tables (8 tables) at chosen scale factor
+  size: scale factor 1 = ~1 GB; choose SF 0.1-1 for laptops
+  modality: relational (synthetic)
+  domain: order processing / decision support
+  limitations: Synthetic, uniform distributions (unrealistic skew); EULA acceptance required; never label results as an official TPC-H result. DuckDB's tpch extension (MIT-licensed DuckDB) can generate the same schema in-process.
+  units:
+  - DS-07
+  - DS-11
+  - ML-11
+  verified: true
+  verified_on: '2026-11-03'
+  notes: CONDITIONAL. Download page and EULA requirement confirmed. Use for query-optimisation and pipeline-performance tasks.
+- id: DSET-019
+  name: World Development Indicators (WDI) API
+  provider: World Bank
+  url: https://api.worldbank.org/v2/country/NGA/indicator/NY.GDP.PCAP.CD?format=json
+  license: CC BY 4.0 with additional World Bank terms (attribution; dispute-resolution clause) - https://datacatalog.worldbank.org/public-licenses
+  format: JSON / XML REST API; CSV bulk
+  size: ~1,400 indicators x 200+ economies, 1960-present
+  modality: tabular / panel
+  domain: development economics (includes Nigeria)
+  limitations: Gaps for recent years; indicator definitions and base years change; national accounts revisions (Nigeria rebased GDP in 2014 and 2024/25).
+  units:
+  - DS-02
+  - DS-04
+  - DS-06
+  - DS-12
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence page and summary terms read; API call for Nigeria (NGA) GDP per capita returned 2024 and 2025 values (last updated 2026-10-08).
+- id: DSET-020
+  name: Our World in Data (charts and datasets)
+  provider: Global Change Data Lab / Our World in Data
+  url: https://ourworldindata.org/
+  license: CC BY 4.0 for data and charts produced by OWID; third-party source data keep their own licences (stated per chart)
+  format: CSV / JSON via grapher download and API
+  size: thousands of indicators
+  modality: tabular / panel
+  domain: global development, health, energy, climate
+  limitations: Mixes original and third-party data, so check each chart's source licence; interpolated/estimated values; country aggregates.
+  units:
+  - DS-04
+  - DS-06
+  - DS-12
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence statement read on the OWID FAQ page.
+- id: DSET-021
+  name: FAOSTAT
+  provider: Food and Agriculture Organization of the United Nations
+  url: https://www.fao.org/faostat/en/#data
+  license: 'CC BY 4.0 (FAO Statistical Database Terms of Use: https://www.fao.org/contact-us/terms/db-terms-of-use/en/)'
+  format: CSV bulk download / API
+  size: ~245 countries, 1961-present, many domains (production, trade, prices, emissions)
+  modality: tabular / panel
+  domain: agriculture and food (includes Nigeria)
+  limitations: Official vs imputed/estimated flags must be respected; unit conversions; country-composition changes over time.
+  units:
+  - DS-04
+  - DS-06
+  - DS-10
+  - DS-02
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. FAO database terms page read (CC BY 4.0, attribution to FAO).
+- id: DSET-022
+  name: NASA POWER (Prediction Of Worldwide Energy Resources) API
+  provider: NASA Langley Research Center
+  url: https://power.larc.nasa.gov/
+  license: 'NASA open data policy: "NASA has a free and open policy for data and information generated under NASA sponsorship" (Earthdata data-use guidance); POWER asks for citation per its Referencing guide'
+  format: JSON / CSV / NetCDF via REST API by lat-lon point or region
+  size: daily data from 1981; hourly from 2001; global grid
+  modality: time series / gridded
+  domain: climate, solar energy, agriculture
+  limitations: Reanalysis/satellite-derived (coarse ~0.5 degree grid) rather than station truth; the POWER docs page itself states no licence, so the general NASA ESDIS policy applies.
+  units:
+  - DS-02
+  - DS-10
+  - ML-09
+  - AI-06
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Earthdata open-data policy and POWER referencing page read. Excellent for Nigerian solar-yield and planting-season tasks.
+- id: DSET-023
+  name: Open-Meteo Weather API
+  provider: Open-Meteo
+  url: https://open-meteo.com/en/terms
+  license: 'Data: CC BY 4.0. Free API: non-commercial use only; < 10,000 calls/day, 5,000/hour, 600/minute'
+  format: JSON / CSV REST API (no key for free tier)
+  size: historical reanalysis and forecasts, global
+  modality: time series
+  domain: weather / climate
+  limitations: Rate limits; non-commercial restriction on the free endpoint; model-derived values; historical archive accuracy varies by region.
+  units:
+  - DS-02
+  - DS-10
+  - ML-09
+  - AI-06
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Terms page read. Good tool for AI-06 tool-calling demos (deterministic mock still required for tests).
+- id: DSET-024
+  name: OpenAQ API (v3)
+  provider: OpenAQ
+  url: https://docs.openaq.org/
+  license: Licences vary per upstream provider ("Creative Commons licenses or open government licenses, and sometimes under bespoke terms"); attribution to OpenAQ and original sources required
+  format: JSON REST API (API key required); AWS open data archive
+  size: global air-quality measurements; sparse in Nigeria
+  modality: time series / geospatial
+  domain: environment / air quality
+  limitations: Each location's licence must be checked; low-cost sensors are uncalibrated; large gaps; API key is personal and must not be committed.
+  units:
+  - DS-02
+  - DS-03
+  - DS-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: CONDITIONAL. Terms page read; API-key requirement confirmed.
+- id: DSET-025
+  name: NBS Nigeria Microdata Catalogue (NADA)
+  provider: National Bureau of Statistics, Nigeria
+  url: https://microdata.nigerianstat.gov.ng/index.php/catalog
+  license: Per-study access type shown in the catalogue (e.g. 'Public use data files' for NLFS 2024-2025, NASS 2023, COVID-19 NLPS); no blanket open licence found; site Terms of Use not retrieved
+  format: Stata / SPSS / CSV (varies by study)
+  size: 107 catalogue records (2026-11-03)
+  modality: tabular / survey microdata
+  domain: official statistics (labour, agriculture, prices, health)
+  limitations: 'Registration may be required per study; licence text not confirmed; microdata about people: NDPA 2023 applies. The NBS homepage (https://www.nigerianstat.gov.ng/) also gives no licence statement.'
+  units:
+  - DS-03
+  - DS-05
+  - DS-08
+  - DS-12
+  verified: false
+  verified_on: null
+  notes: CONDITIONAL. Catalogue fetched 2026-11-03 but licence/terms text not retrievable. Members may download under their own acceptance of NBS terms for learning; CLBG must not redistribute files. Re-verify before any assessment depends on it.
+- id: DSET-026
+  name: Nigeria - Subnational Administrative Boundaries (COD-AB)
+  provider: OCHA via HDX; source OSGOF, eHealth Africa, UN Cartographic Section
+  url: https://data.humdata.org/dataset/cod-ab-nga
+  license: Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)
+  format: SHP / GeoJSON / GeoPackage / XLSX gazetteer
+  size: admin levels 0-3 (country, state, LGA, ward)
+  modality: geospatial
+  domain: administrative geography (Nigeria)
+  limitations: Boundary versions differ from INEC/other sources; P-codes must be used for joins; ward boundaries are operational, not legal.
+  units:
+  - DS-06
+  - DS-07
+  - DS-11
+  - DS-03
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence confirmed via the HDX CKAN API (last modified 2026-04-16).
+- id: DSET-027
+  name: Nigeria - Food Prices (WFP VAM)
+  provider: World Food Programme via HDX
+  url: https://data.humdata.org/dataset/wfp-food-prices-for-nigeria
+  license: Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)
+  format: CSV
+  size: market-level monthly prices for staple commodities across Nigerian markets
+  modality: time series / tabular
+  domain: food security / prices (Nigeria)
+  limitations: Irregular market coverage; currency redenominations and units vary per commodity; sources combine WFP, FEWS NET and FAO.
+  units:
+  - DS-10
+  - DS-04
+  - DS-09
+  - ML-09
+  - DS-03
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence confirmed via the HDX CKAN API (last modified 2026-10-18).
+- id: DSET-028
+  name: GRID3 NGA - Health Facilities (v2.0 / v3.0)
+  provider: GRID3 / CIESIN, Columbia University (via HDX)
+  url: https://data.humdata.org/dataset/grid3-nga-health-facilities-v2-0
+  license: Creative Commons Attribution International (CC BY)
+  format: GeoPackage + PDF documentation
+  size: nationwide (v2.0, Nov 2024); v3.0 covers 24 states
+  modality: geospatial / tabular
+  domain: health infrastructure (Nigeria)
+  limitations: Duplicates and naming variants across versions; facility functionality not guaranteed; v3.0 supersedes v2.0 only for included states.
+  units:
+  - DS-03
+  - DS-06
+  - DS-07
+  - ML-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence confirmed via the HDX CKAN API. Good entity-resolution exercise against OSM-derived facility lists.
+- id: DSET-029
+  name: GRID3 NGA - Settlement Extents v3.1
+  provider: GRID3 / CIESIN (via HDX)
+  url: https://data.humdata.org/dataset/grid3-nga-settlement-extents-v3_1
+  license: Creative Commons Attribution Share-Alike (CC BY-SA)
+  format: SHP / GeoPackage
+  size: nationwide settlement polygons
+  modality: geospatial
+  domain: settlements / population geography (Nigeria)
+  limitations: Derived from satellite imagery classification; share-alike obligations on derivatives; GRID3 site lists a newer v4.1 whose licence was not confirmed.
+  units:
+  - DS-06
+  - ML-07
+  - DS-11
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence confirmed via the HDX CKAN API.
+- id: DSET-030
+  name: Nigeria Healthsites (OpenStreetMap)
+  provider: Healthsites.io / OpenStreetMap contributors (via HDX)
+  url: https://data.humdata.org/dataset/nigeria-healthsites
+  license: Open Database License (ODbL)
+  format: SHP / GeoJSON / CSV
+  size: OSM-tagged health facilities across Nigeria
+  modality: geospatial
+  domain: health infrastructure (Nigeria)
+  limitations: 'Volunteered data: incomplete and uneven coverage; ODbL share-alike for redistributed derived databases.'
+  units:
+  - DS-03
+  - DS-06
+  - DS-07
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence confirmed via the HDX CKAN API (last modified 2026-09-29).
+- id: DSET-031
+  name: NaijaSenti
+  provider: HausaNLP
+  url: https://github.com/hausanlp/NaijaSenti
+  license: 'Repository: CC BY 4.0. Hugging Face mirror (HausaNLP/NaijaSenti-Twitter) labelled CC BY-NC-SA 4.0. Treat as CC BY-NC-SA 4.0 (most restrictive).'
+  format: TSV
+  size: ~30,000 annotated tweets per language for Hausa, Igbo, Yoruba, plus Nigerian Pidgin
+  modality: text
+  domain: sentiment (Nigerian languages, social media)
+  limitations: Tweets contain usernames/URLs (scrub before display); annotator disagreement; code-switching; tweet text may be removed upstream.
+  units:
+  - ML-08
+  - AI-10
+  - AI-12
+  - ML-14
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. README licence read on GitHub; HF card licence read via API. Licence conflict recorded.
+- id: DSET-032
+  name: AfriSenti (SemEval-2023 Task 12)
+  provider: AfriSenti / Masakhane / HausaNLP
+  url: https://github.com/afrisenti-semeval/afrisent-semeval-2023
+  license: 'Repository: CC BY 4.0. Hugging Face card (masakhane/afrisenti) labelled CC BY-NC-SA 2.0. Treat as non-commercial share-alike.'
+  format: TSV
+  size: '> 110,000 tweets in 14 African languages (incl. Hausa, Igbo, Yoruba, Nigerian Pidgin)'
+  modality: text
+  domain: sentiment (African languages)
+  limitations: Same Twitter caveats as NaijaSenti (it includes NaijaSenti data); class imbalance varies by language.
+  units:
+  - ML-08
+  - AI-12
+  - AI-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. README licence read; HF card read via API. Licence conflict recorded.
+- id: DSET-033
+  name: MasakhaNER 2.0
+  provider: Masakhane
+  url: https://github.com/masakhane-io/masakhane-ner
+  license: 'Repository: "The license of the NER dataset is in CC-BY-4.0-NC" (CC BY-NC 4.0). HF card says AFL-3.0. Treat as CC BY-NC 4.0.'
+  format: CoNLL (BIO tags)
+  size: 20 African languages incl. Hausa, Igbo, Yoruba, Nigerian Pidgin; PER, ORG, LOC, DATE entities
+  modality: text
+  domain: named-entity recognition (news)
+  limitations: News domain only; non-commercial; source news text carries its own copyright (repository note).
+  units:
+  - ML-08
+  - AI-12
+  - AI-05
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Repository licence statement read; HF card read via API.
+- id: DSET-034
+  name: MAFAND-MT
+  provider: Masakhane
+  url: https://github.com/masakhane-io/lafand-mt
+  license: '"The license of the MT dataset is in CC-BY-4.0-NC" (CC BY-NC 4.0)'
+  format: TSV / JSON parallel sentences
+  size: 16 African languages paired with English or French (incl. hau, ibo, yor, pcm)
+  modality: text (parallel)
+  domain: machine translation (news)
+  limitations: News domain; Hausa train set partly from WMT21; Yoruba from MENYO-20k news portion; source texts may carry other licences.
+  units:
+  - ML-08
+  - AI-10
+  - AI-12
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Repository licence statement read; HF card (masakhane/mafand) confirms cc-by-nc-4.0.
+- id: DSET-035
+  name: AfriQA
+  provider: Masakhane
+  url: https://github.com/masakhane-io/afriqa
+  license: 'Repository: CC BY 4.0. HF card (masakhane/afriqa): CC BY-SA 4.0. Treat as CC BY-SA 4.0.'
+  format: JSON
+  size: ~12,239 cross-lingual open-retrieval QA examples (incl. Hausa, Igbo, Yoruba)
+  modality: text
+  domain: question answering / cross-lingual retrieval
+  limitations: Answers grounded in English/French Wikipedia, so translation adds noise; per-language counts in the README do not sum exactly to totals.
+  units:
+  - AI-05
+  - AI-04
+  - AI-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. README licence read; HF card read via API.
+- id: DSET-036
+  name: MasakhaNEWS
+  provider: Masakhane
+  url: https://huggingface.co/datasets/masakhane/masakhanews
+  license: AFL-3.0 (Hugging Face dataset card); the GitHub README states no licence
+  format: CSV / JSON
+  size: 16 languages; e.g. Hausa 3,173, Igbo 1,940, Yoruba 2,050, Pidgin 1,517 articles
+  modality: text
+  domain: news topic classification
+  limitations: Small per-language sets; topic labels imbalanced; licence stated only on the HF card.
+  units:
+  - ML-08
+  - AI-02
+  - AI-04
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. HF card licence read via API; split sizes read on GitHub.
+- id: DSET-037
+  name: FLEURS
+  provider: Google
+  url: https://huggingface.co/datasets/google/fleurs
+  license: CC BY 4.0
+  format: Audio (WAV) + transcripts (Parquet on HF)
+  size: 102 languages, ~10 h training audio per language (incl. Hausa, Igbo, Yoruba)
+  modality: audio + text
+  domain: speech recognition / speech translation
+  limitations: Read speech (not conversational); multi-GB per language; few speakers per language.
+  units:
+  - AI-09
+  - ML-08
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. HF card licence and language list read.
+- id: DSET-038
+  name: AfriSpeech-200
+  provider: Intron Health
+  url: https://huggingface.co/datasets/intronhealth/afrispeech-200
+  license: CC BY-NC-SA 4.0; gated (manual access approval on Hugging Face)
+  format: Audio + transcripts
+  size: ~200 h of African-accented English (clinical and general domain), 120+ accents, many Nigerian
+  modality: audio + text
+  domain: speech recognition (accented English, health)
+  limitations: Gated access delays setup; non-commercial share-alike; clinical vocabulary; tens of GB in total.
+  units:
+  - AI-09
+  - ML-14
+  verified: true
+  verified_on: '2026-11-03'
+  notes: CONDITIONAL. HF API licence and gating confirmed. Offer as an optional extension; never a required download.
+- id: DSET-039
+  name: Mozilla Common Voice (via Mozilla Data Collective)
+  provider: Mozilla Foundation
+  url: https://mozilladatacollective.com/
+  license: 'CC0-1.0 per dataset listings, plus platform terms: account required, no re-hosting/re-sharing, no attempts to identify speakers'
+  format: MP3 + TSV
+  size: 'e.g. Hausa scripted speech v24.0: 10,447 clips (~12.6 h, 60 speakers)'
+  modality: audio + text
+  domain: speech recognition (crowd-sourced)
+  limitations: Since October 2025 distributed only via the Mozilla Data Collective; older Hugging Face mirrors are deprecated; dataset pages are JavaScript-rendered and could not be read directly.
+  units:
+  - AI-09
+  - ML-08
+  verified: false
+  verified_on: null
+  notes: 'CONDITIONAL. Not verified: dataset pages did not render on 2026-11-03, and terms were seen only in search listings. Prefer FLEURS (DSET-037) until re-verified.'
+- id: DSET-040
+  name: Wikipedia dumps (incl. Simple English Wikipedia)
+  provider: Wikimedia Foundation
+  url: https://dumps.wikimedia.org/
+  license: CC BY-SA 4.0 and GFDL (https://dumps.wikimedia.org/legal.html); HF Parquet mirror wikimedia/wikipedia tagged CC BY-SA 3.0 + GFDL
+  format: XML (bz2) dumps; Parquet mirror on Hugging Face
+  size: simplewiki-latest-pages-articles.xml.bz2 = 360 MB (2026-11-02); Hausa/Igbo/Yoruba editions also available
+  modality: text
+  domain: encyclopedic knowledge
+  limitations: Wikitext markup needs parsing; share-alike applies to redistributed derived corpora; small-language editions contain bot-generated stubs.
+  units:
+  - AI-01
+  - AI-04
+  - AI-05
+  - AI-08
+  - DS-11
+  - ML-08
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Legal page read; Simple English dump listing confirmed.
+- id: DSET-041
+  name: arXiv metadata snapshot
+  provider: Cornell University / arXiv (via Kaggle)
+  url: https://www.kaggle.com/datasets/Cornell-University/arxiv
+  license: 'Metadata: CC0 1.0 Universal; full-text papers keep individual licences (https://arxiv.org/help/license)'
+  format: JSON Lines
+  size: millions of paper records; multi-GB; refreshed regularly
+  modality: text / metadata
+  domain: scholarly literature
+  limitations: Metadata only (titles, abstracts, authors, categories); author names are personal data, so aggregate rather than profile individuals; Kaggle account needed.
+  units:
+  - AI-04
+  - AI-05
+  - DS-07
+  - ML-10
+  - DS-12
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read from the Kaggle dataset metadata.
+- id: DSET-042
+  name: SQuAD 2.0
+  provider: Stanford NLP (Rajpurkar et al.)
+  url: https://rajpurkar.github.io/SQuAD-explorer/
+  license: CC BY-SA 4.0
+  format: JSON
+  size: 150,000+ questions (100k answerable from SQuAD 1.1 + 50k+ unanswerable)
+  modality: text
+  domain: reading comprehension / extractive QA
+  limitations: Wikipedia passages; saturated benchmark; unanswerable questions are adversarially written.
+  units:
+  - AI-05
+  - AI-10
+  - ML-08
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence statement read on the explorer page.
+- id: DSET-043
+  name: HotpotQA
+  provider: HotpotQA team (CMU, Stanford, Montreal)
+  url: https://hotpotqa.github.io/
+  license: CC BY-SA 4.0
+  format: JSON
+  size: ~113k QA pairs; train file 535 MB
+  modality: text
+  domain: multi-hop question answering
+  limitations: Wikipedia 2017 snapshot; some questions are answerable with shortcuts; large distractor setting.
+  units:
+  - AI-05
+  - AI-07
+  - AI-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence statement read on the project page.
+- id: DSET-044
+  name: SciFact (BEIR version)
+  provider: AllenAI (original); BEIR benchmark packaging
+  url: https://huggingface.co/datasets/BeIR/scifact
+  license: 'Original AllenAI release: CC BY-NC 2.0 (allenai/scifact). The BEIR HF card says CC BY-SA 4.0, but the BEIR repo disclaims dataset licences. Treat as CC BY-NC 2.0.'
+  format: JSONL corpus / queries / qrels
+  size: ~5,183 abstracts; ~300 test queries
+  modality: text
+  domain: scientific claim verification / retrieval
+  limitations: Small query set means high variance in nDCG@10; biomedical vocabulary.
+  units:
+  - AI-04
+  - AI-05
+  - AI-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: CONDITIONAL. Both HF cards read via API; BEIR README disclaimer read. Licence conflict recorded.
+- id: DSET-045
+  name: BANKING77
+  provider: PolyAI
+  url: https://huggingface.co/datasets/PolyAI/banking77
+  license: CC BY 4.0
+  format: Parquet / CSV
+  size: 13,083 customer-service queries, 77 intents
+  modality: text
+  domain: banking / fintech customer support
+  limitations: Single-turn English queries; fine-grained overlapping intents; no Nigerian banking vocabulary (consider a synthetic Nigerian supplement).
+  units:
+  - ML-08
+  - AI-02
+  - AI-04
+  - AI-06
+  - AI-03
+  - AI-13
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. HF card licence read via API.
+- id: DSET-046
+  name: GSM8K
+  provider: OpenAI
+  url: https://huggingface.co/datasets/openai/gsm8k
+  license: MIT
+  format: Parquet / JSONL
+  size: 8.5k grade-school maths word problems (7.5k train / 1.3k test)
+  modality: text
+  domain: mathematical reasoning
+  limitations: Widely contaminated in LLM pretraining data, so use only for evaluation-method exercises, never as evidence of model capability.
+  units:
+  - AI-10
+  - AI-02
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. HF card licence read via API.
+- id: DSET-047
+  name: HumanEval
+  provider: OpenAI
+  url: https://huggingface.co/datasets/openai/openai_humaneval
+  license: MIT
+  format: Parquet / JSONL
+  size: 164 Python programming problems with unit tests
+  modality: text / code
+  domain: code generation evaluation
+  limitations: Executing generated code requires a sandbox (container, no network, time limits); contaminated benchmark.
+  units:
+  - AI-10
+  - AI-11
+  - AI-06
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. HF card licence read via API.
+- id: DSET-048
+  name: databricks-dolly-15k
+  provider: Databricks
+  url: https://huggingface.co/datasets/databricks/databricks-dolly-15k
+  license: CC BY-SA 3.0
+  format: JSONL
+  size: ~15,000 instruction-response pairs
+  modality: text
+  domain: instruction following
+  limitations: Written by employees of one company; some answers copy Wikipedia; share-alike on derivatives.
+  units:
+  - AI-12
+  - AI-02
+  - AI-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. HF card licence read via API.
+- id: DSET-049
+  name: deepset prompt-injections
+  provider: deepset
+  url: https://huggingface.co/datasets/deepset/prompt-injections
+  license: Apache-2.0
+  format: Parquet
+  size: < 1,000 labelled prompts (injection vs benign), English and German
+  modality: text
+  domain: AI security / prompt injection
+  limitations: Small; simple direct injections only; does not cover indirect (document-borne) injection, so supplement with synthetic cases.
+  units:
+  - AI-11
+  - AI-10
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. HF card licence read via API.
+- id: DSET-050
+  name: AG News
+  provider: A. Gulli (AG's corpus); HF packaging fancyzhx/ag_news
+  url: http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html
+  license: 'Original corpus page: provided "for research purposes" and "non-commercial activity"; HF card: ''unknown'''
+  format: Parquet / CSV
+  size: 120,000 train / 7,600 test articles, 4 classes
+  modality: text
+  domain: news topic classification
+  limitations: No formal licence; 2004-2005 English news; saturated benchmark.
+  units:
+  - ML-08
+  - AI-04
+  verified: true
+  verified_on: '2026-11-03'
+  notes: CONDITIONAL. Original corpus page read; HF card read. Prefer MasakhaNEWS (DSET-036) for topic classification.
+- id: DSET-051
+  name: emotion (dair-ai)
+  provider: DAIR.AI (Saravia et al., 2018)
+  url: https://huggingface.co/datasets/dair-ai/emotion
+  license: '"The dataset should be used for educational and research purposes only" (HF card, licence ''other'')'
+  format: Parquet
+  size: 20,000 English tweets, 6 emotion labels
+  modality: text
+  domain: emotion classification
+  limitations: Labels from hashtag distant supervision (noisy); imbalanced; tweet-derived text.
+  units:
+  - ML-08
+  verified: true
+  verified_on: '2026-11-03'
+  notes: CONDITIONAL. HF card licensing section read.
+- id: DSET-052
+  name: IMDB Large Movie Review Dataset
+  provider: Stanford AI Lab (Maas et al., 2011)
+  url: https://ai.stanford.edu/~amaas/data/sentiment/
+  license: 'No licence stated on the Hugging Face card (stanfordnlp/imdb: ''other'', ''More Information Needed''); original page unreachable on 2026-11-03'
+  format: Parquet / text files
+  size: 50,000 labelled reviews + 50,000 unlabelled
+  modality: text
+  domain: sentiment (movie reviews)
+  limitations: Licence unclear; saturated benchmark; review text is copyrighted by IMDb users.
+  units:
+  - ML-08
+  verified: false
+  verified_on: null
+  notes: 'NOT RECOMMENDED. Not verified: the original page refused connection and the HF card gives no licence. Use NaijaSenti (DSET-031) or BANKING77 (DSET-045) instead.'
+- id: DSET-053
+  name: Fashion-MNIST
+  provider: Zalando Research
+  url: https://github.com/zalandoresearch/fashion-mnist
+  license: MIT
+  format: IDX binary / Parquet (HF zalando-datasets/fashion_mnist)
+  size: 70,000 28x28 greyscale images, 10 classes (~30 MB)
+  modality: image
+  domain: fashion product classification
+  limitations: Low resolution; clean, centred images (unrealistic); saturated for CNNs.
+  units:
+  - ML-06
+  - ML-07
+  - ML-11
+  - ML-01
+  - ML-12
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. LICENSE file read on GitHub; HF card agrees (MIT).
+- id: DSET-054
+  name: CIFAR-10
+  provider: Alex Krizhevsky, University of Toronto
+  url: https://www.cs.toronto.edu/~kriz/cifar.html
+  license: No licence stated on the official page (redirects to cave.cs.toronto.edu); authors ask users to cite the 2009 tech report
+  format: Python pickle / binary
+  size: 60,000 32x32 colour images, 10 classes (163 MB Python version)
+  modality: image
+  domain: object classification
+  limitations: No explicit licence; images were drawn from the 80 Million Tiny Images collection (withdrawn by its authors in 2020); saturated benchmark.
+  units:
+  - ML-06
+  - ML-07
+  - ML-11
+  verified: false
+  verified_on: null
+  notes: 'CONDITIONAL. Page fetched 2026-11-03: no licence is published (not a verification failure). Members may download from source for learning; CLBG must not redistribute. Prefer Fashion-MNIST (DSET-053) or EuroSAT (DSET-055).'
+- id: DSET-055
+  name: EuroSAT (RGB and multispectral)
+  provider: Helber et al., DFKI
+  url: https://github.com/phelber/EuroSAT
+  license: MIT (dataset README); underlying Copernicus Sentinel-2 data are free and open
+  format: JPEG (RGB) / GeoTIFF (13 bands)
+  size: 27,000 64x64 patches, 10 land-use classes (~90 MB RGB)
+  modality: image / geospatial
+  domain: remote sensing / land use
+  limitations: European scenes only, so models shift when applied to Nigerian landscapes (a useful robustness exercise); low resolution.
+  units:
+  - ML-07
+  - ML-11
+  - ML-14
+  - AI-09
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. README licence statement read; HF mirror (blanchon/EuroSAT_RGB) is marked 'unknown', so cite the original.
+- id: DSET-056
+  name: PlantVillage (augmented release, Pandian & Gopal)
+  provider: Mendeley Data (Arun Pandian J., Geetharamani Gopal), DOI 10.17632/tywbtsjrjv.1
+  url: https://data.mendeley.com/datasets/tywbtsjrjv/1
+  license: CC0 1.0
+  format: JPEG
+  size: 61,486 images (incl. augmented), 39 classes
+  modality: image
+  domain: agriculture / plant disease
+  limitations: Lab images on uniform backgrounds (models learn background shortcuts and fail in the field); augmented copies leak across random splits; no cassava classes. The original Hughes and Salathe GitHub release (~54,306 images) licence was not confirmed.
+  units:
+  - ML-07
+  - ML-14
+  - ML-11
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence read on the Mendeley page. Use the Mendeley release only, and design splits that defeat augmentation leakage.
+- id: DSET-057
+  name: Oxford-IIIT Pet
+  provider: Visual Geometry Group, University of Oxford
+  url: https://www.robots.ox.ac.uk/~vgg/data/pets/
+  license: CC BY-SA 4.0
+  format: JPEG + trimap PNG masks + XML head boxes
+  size: ~7,349 images, 37 breeds (~200 per class)
+  modality: image
+  domain: pet breed classification / segmentation
+  limitations: Images are Flickr/web-sourced (check the page attribution notes); trimaps are coarse at boundaries.
+  units:
+  - ML-07
+  - ML-05
+  - AI-09
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Licence statement read on the VGG page; HF mirror timm/oxford-iiit-pet agrees.
+- id: DSET-058
+  name: COCO 2017 (Common Objects in Context)
+  provider: COCO Consortium
+  url: https://cocodataset.org/
+  license: 'Annotations: CC BY 4.0; images: subject to Flickr Terms of Use (as reported in mirrored terms; primary page not retrievable)'
+  format: JPEG + JSON annotations
+  size: 118k train / 5k val images (~19 GB train images)
+  modality: image + text (captions)
+  domain: object detection, segmentation, captioning
+  limitations: Large download; image copyright stays with Flickr users; demographic biases documented in the literature.
+  units:
+  - ML-07
+  - AI-09
+  verified: false
+  verified_on: null
+  notes: 'CONDITIONAL. Not verified: the terms-of-use section is JavaScript-rendered and was not retrievable on 2026-11-03; terms seen only in secondary sources. Use the val2017 split (5k images) for any CPU-scale task once terms are re-verified.'
+- id: DSET-059
+  name: Flickr8k
+  provider: Hodosh, Young and Hockenmaier (2013)
+  url: https://academictorrents.com/details/9dea07ba660a722ae1008c4c8afdd303b6f6e53b
+  license: No licence found; images are Flickr user content and the original request form is offline
+  format: JPEG + text captions
+  size: 8,000 images x 5 captions
+  modality: image + text
+  domain: image captioning
+  limitations: Unclear redistribution rights; mirrors on Kaggle/HF carry no licence (HF jxie/flickr8k has none).
+  units:
+  - AI-09
+  verified: false
+  verified_on: null
+  notes: 'NOT RECOMMENDED. Not verified: no licence published by the authors or mirrors. Use COCO captions (DSET-058) after re-verification, or Oxford-IIIT Pet (DSET-057).'
+- id: DSET-060
+  name: MovieLens (ml-latest-small and larger releases)
+  provider: GroupLens Research, University of Minnesota
+  url: https://grouplens.org/datasets/movielens/
+  license: 'Custom research licence (README): research use; no endorsement implied; must acknowledge; redistribution only under the same terms; no commercial or revenue-bearing use without permission'
+  format: CSV
+  size: 'ml-latest-small: ~100k ratings, ~600 users, ~9.7k movies; larger releases up to 32M ratings'
+  modality: tabular / interactions
+  domain: recommender systems (movies)
+  limitations: Non-commercial; popularity bias; ratings from MovieLens users only; README terms must be included with any redistributed derivative.
+  units:
+  - ML-10
+  - DS-07
+  - ML-05
+  verified: true
+  verified_on: '2026-11-03'
+  notes: CONDITIONAL. README usage licence read (files.grouplens.org/datasets/movielens/ml-latest-small-README.html).
+- id: DSET-061
+  name: M4 Competition datasets (Monash Forecasting Repository)
+  provider: Makridakis et al.; packaged by Monash University on Zenodo
+  url: https://zenodo.org/records/4656480
+  license: CC BY 4.0 (Zenodo records 4656379, 4656410, 4656480, 4656522, 4656589); forecastingdata.org adds "All datasets are intended to use only for research purpose"
+  format: TSF (.tsf text format)
+  size: 100,000 series (yearly, quarterly, monthly, weekly, daily, hourly)
+  modality: time series
+  domain: mixed (macro, micro, finance, industry, demographic)
+  limitations: Series are anonymised, so no covariates or dates for most frequencies; research-purpose note means educational use only.
+  units:
+  - DS-10
+  - ML-09
+  verified: true
+  verified_on: '2026-11-03'
+  notes: RECOMMENDED. Zenodo API licence field read for 5 M4 records; repository page read.
+- id: DSET-062
+  name: M5 Forecasting (Walmart)
+  provider: University of Nicosia / Walmart (Kaggle competition)
+  url: https://www.kaggle.com/competitions/m5-forecasting-accuracy/data
+  license: No open licence found; access governed by Kaggle competition rules
+  format: CSV
+  size: 42,840 hierarchical sales series (3,049 products, 10 stores)
+  modality: time series
+  domain: retail demand
+  limitations: Competition-rules terms; Kaggle account and rule acceptance required.
+  units:
+  - DS-10
+  - ML-09
+  verified: false
+  verified_on: null
+  notes: 'NOT RECOMMENDED. Not verified: no licence published, and Kaggle rules pages did not render. Use M4 (DSET-061), Electricity (DSET-008) or HDX food prices (DSET-027).'
+- id: DSET-063
+  name: NYC TLC Trip Record Data
+  provider: NYC Taxi and Limousine Commission
+  url: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+  license: 'No explicit licence on the page; published as NYC open data; TLC disclaimer: "The trip data was not created by the TLC, and TLC makes no representations as to the accuracy of these data"'
+  format: Parquet (monthly files) + data dictionaries (PDF)
+  size: yellow taxi from 2009; green from Aug 2013; FHV from 2015; HVFHV from 2019; millions of rows per month
+  modality: tabular / geospatial / events
+  domain: urban transport
+  limitations: No formal licence; schema changes across years; outliers (negative fares, zero distances); location IDs are taxi zones, not coordinates (after 2016).
+  units:
+  - DS-07
+  - DS-11
+  - DS-10
+  - DS-03
+  verified: false
+  verified_on: null
+  notes: 'CONDITIONAL. Page fetched 2026-11-03: no explicit licence (the NYC Open Data portal returned HTTP 403). Widely used public-sector data; members download at setup, and CLBG does not redistribute.'
+- id: DSET-064
+  name: Chicago Crimes - 2001 to Present
+  provider: City of Chicago Data Portal
+  url: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2
+  license: 'Not confirmed: the portal returned HTTP 403 on 2026-11-03; the City''s disclaimer provides data ''as is'' and reserves the right to terminate use for Terms of Use violations'
+  format: CSV / JSON (Socrata API)
+  size: millions of incident records (2001-present), updated daily
+  modality: tabular / geospatial / events
+  domain: public safety
+  limitations: Sensitive domain (crime); block-level addresses; risk of stigmatising communities; terms not confirmed.
+  units:
+  - DS-04
+  - DS-07
+  - DS-11
+  verified: false
+  verified_on: null
+  notes: NOT RECOMMENDED. Not verified (HTTP 403). Do not use in assessments until the terms are re-verified and an ethics review is recorded.
+- id: DSET-065
+  name: GH Archive
+  provider: Ilya Grigorik / GH Archive project
+  url: https://www.gharchive.org/
+  license: No licence stated on the site; data are public GitHub events subject to GitHub's Terms of Service
+  format: Hourly JSON.gz archives; public BigQuery dataset 'githubarchive'
+  size: from 2011-02-12; terabytes in total (hourly files ~100 MB+)
+  modality: events / JSON
+  domain: software engineering activity
+  limitations: Contains usernames and commit metadata (personal data); no licence; very large; BigQuery needs a Google Cloud project (1 TB/month free query tier).
+  units:
+  - DS-11
+  - DS-07
+  verified: false
+  verified_on: null
+  notes: 'CONDITIONAL. Page fetched 2026-11-03: no licence published. Use only aggregated statistics from a few hourly files; never profile individuals.'
+- id: DSET-066
+  name: Mobility Database (GTFS / GTFS-RT / GBFS catalogue)
+  provider: MobilityData
+  url: https://mobilitydatabase.org/
+  license: Catalogue terms not retrieved; each feed carries its own licence set by the publishing agency
+  format: GTFS zip (CSV tables), GTFS-RT protobuf; REST API
+  size: 6,000+ feeds from 100+ countries
+  modality: tabular / geospatial / schedule
+  domain: public transport
+  limitations: Per-feed licence must be checked; few or no official feeds for Nigerian cities (Lagos BRT/rail coverage uncertain).
+  units:
+  - DS-07
+  - DS-11
+  - DS-06
+  verified: false
+  verified_on: null
+  notes: 'CONDITIONAL. Not verified: the catalogue site states no licence on its homepage. When a task needs GTFS, pick one named feed and verify its licence individually.'
