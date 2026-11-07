@@ -183,6 +183,7 @@ units:
     subtrack: ml-engineering
     description: Fairness metrics and trade-offs, explainability methods and their limits, adversarial and distributional robustness, model cards.
     targets: {1: 1, 2: 2, 3: 2}
+    tier_notes: "Tier 1 has one assessment, on measuring group-level error disparities and reading a model card. Fairness interventions and interpretability trade-offs need independent judgement and belong at Tiers 2 and 3."
 
   # ------------------------------------------------------------------ AI ENGINEERING
   - code: AI-01
@@ -198,12 +199,14 @@ units:
     subtrack: ai-engineering
     description: Prompt design as specification, few-shot design, schema-constrained output, prompt testing and regression.
     targets: {1: 2, 2: 2, 3: 1}
+    tier_notes: "Tier 3 has one assessment. Advanced prompt work quickly becomes evaluation (AI-10), context engineering (AI-08) or adaptation (AI-12), so a single research-grade prompt-optimisation study is enough here."
   - code: AI-03
     slug: model-apis-and-local-inference
     name: Model APIs and Local Inference
     subtrack: ai-engineering
     description: Provider APIs, streaming, retries and rate limits, provider abstraction and running open-weight models locally.
     targets: {1: 2, 2: 2, 3: 1}
+    tier_notes: "Tier 3 has one assessment, on an inference-serving trade-off study (quantisation, batching, latency against quality). Broader serving architecture is assessed in AI-13 and ML-12."
   - code: AI-04
     slug: embeddings-and-semantic-search
     name: Embeddings and Semantic Search
@@ -228,18 +231,21 @@ units:
     subtrack: ai-engineering
     description: Workflow versus agent patterns, multi-step pipelines, Model Context Protocol, multi-agent coordination and durable execution.
     targets: {1: 1, 2: 2, 3: 2}
+    tier_notes: "Tier 1 has one assessment, a deterministic multi-step workflow with explicit state. Open-ended orchestration needs agent and evaluation fluency, so most of this unit sits at Tiers 2 and 3."
   - code: AI-08
     slug: context-engineering-and-memory
     name: Context Engineering and Memory Systems
     subtrack: ai-engineering
     description: Context budgeting, summarisation and compaction, long-term memory stores, memory retrieval and memory evaluation.
     targets: {1: 1, 2: 2, 3: 2}
+    tier_notes: "Tier 1 has one assessment, on context-window budgeting and conversation summarisation. Memory architectures and retrieval-backed memory are Tier 2 and 3 work."
   - code: AI-09
     slug: multimodal-ai
     name: Multimodal AI Engineering
     subtrack: ai-engineering
     description: Vision-language models, OCR and document understanding, speech pipelines and cross-modal retrieval.
     targets: {1: 1, 2: 2, 3: 2}
+    tier_notes: "Tier 1 has one assessment, using a small local vision-language or OCR pipeline with clear evaluation. Multimodal systems are resource-heavy, so deeper work is at Tiers 2 and 3, with CPU-feasible paths."
   - code: AI-10
     slug: ai-evaluation-and-observability
     name: AI Evaluation and Observability
@@ -252,6 +258,7 @@ units:
     subtrack: ai-engineering
     description: Prompt injection, data exfiltration, excessive agency, red-teaming, privacy, NDPA-aware design and harm mitigation.
     targets: {1: 1, 2: 2, 3: 2}
+    tier_notes: "Tier 1 has one assessment, on recognising and testing for prompt injection and data leakage against a provided mock application. Threat modelling and defence design are Tier 2 and 3 work."
   - code: AI-12
     slug: model-adaptation
     name: Model Adaptation (Fine-tuning, PEFT and Distillation)
@@ -265,3 +272,4 @@ units:
     subtrack: ai-engineering
     description: Caching, routing, fallbacks, latency and cost budgets, guardrails, deployment and AI product iteration.
     targets: {1: 1, 2: 2, 3: 3}
+    tier_notes: "Tier 1 has one assessment, on wrapping a model call with timeouts, retries, caching and cost logging. Architecture and reliability design are the substance of Tiers 2 and 3."
