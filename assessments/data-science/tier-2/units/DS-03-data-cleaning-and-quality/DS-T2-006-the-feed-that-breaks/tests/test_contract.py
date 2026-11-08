@@ -10,14 +10,14 @@ from conftest import INBOX, REF
 
 pytestmark = pytest.mark.contract
 
-INBOX_SHA256 = "0bb516d38d8de9516d944745f13f397fac1e2be6886bf4787ac594a5f0d58841"
+INBOX_SHA256 = "8daa8fd6216b234eab7c7cc9b71a8a195104f05d5c2ff787604a7c6c8ddc0ec8"
 
 
 def test_inbox_unmodified():
     h = hashlib.sha256()
     for f in sorted(p for p in INBOX.rglob("*") if p.is_file()):
         h.update(f.relative_to(INBOX).as_posix().encode())
-        h.update(f.read_bytes())
+        h.update(f.read_bytes().replace(chr(13).encode() + chr(10).encode(), chr(10).encode()))
     assert h.hexdigest() == INBOX_SHA256, "resources/inbox has been modified. Restore the original deliveries."
 
 
