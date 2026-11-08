@@ -1,0 +1,53 @@
+id: ML-T2-020
+title: "Seeds, Fertiliser and New Arrivals: A Time-Aware Recommender with Cold-Start Items"
+summary: >-
+  Build a time-ordered recommender for a synthetic farm-input marketplace, compare popularity, matrix factorisation and an attribute-based hybrid, and show with a validation window that mimics deployment which one survives new product launches.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-10
+format: comparative
+secondary_formats: [investigation]
+domains: [agriculture, e-commerce, recommender-systems]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Fitting TruncatedSVD or similar factorisation
+    - Recall@k and its relation to hit rate
+    - Time-ordered train and test splits
+competencies:
+  - Splitting purchase logs by time rather than at random
+  - Fitting an implicit-feedback factorisation and a popularity baseline under one code path
+  - Handling items with no history through attribute-to-factor mapping
+  - Evaluating overall and on the cold-start segment separately
+  - Designing the validation window so it contains the same kind of cold-start items as deployment
+  - Writing a recommendation with its caveats
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 3, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [recommender, cold-start, matrix-factorisation, implicit-feedback, time-aware-evaluation, agriculture, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

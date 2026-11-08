@@ -1,0 +1,53 @@
+id: ML-T3-019
+title: "Position Bias in the Market Feed: Learning to Rank from Clicks Without Learning Where We Put Things"
+summary: >-
+  Learn a ranker from position-biased marketplace click logs: estimate the examination curve from a small randomised slice, build an inverse-propensity estimator for policies that were never run, train a debiased ranker, and analyse the cost and benefit of exposing small vendors.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-10
+format: open-ended
+secondary_formats: [investigation]
+domains: [e-commerce, marketplaces, ranking]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Logistic regression with sample weights
+    - Ranking metrics and click-through rates
+    - Importance (inverse-probability) weighting at an intuitive level
+competencies:
+  - Estimating an examination curve from a randomised slice
+  - Computing an inverse-propensity estimate of a policy never deployed
+  - Training a debiased ranker and comparing it with a naive click model and with the logging policy
+  - Choosing clipping and normalisation and showing their bias-variance effect
+  - Measuring exposure for a protected group and stating the price of changing it
+  - Designing a monitoring plan for a feedback loop
+estimated_hours: {min: 24, max: 34}
+difficulty: {technical: 3, mathematical: 4, research: 4, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [learning-to-rank, position-bias, inverse-propensity, counterfactual-evaluation, exposure, marketplace, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

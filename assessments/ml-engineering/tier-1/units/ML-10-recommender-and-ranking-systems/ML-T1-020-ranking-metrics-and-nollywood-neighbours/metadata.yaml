@@ -1,0 +1,52 @@
+id: ML-T1-020
+title: "Ranking Metrics and Nollywood Neighbours: Implementing Item-Based Recommendation from Scratch"
+summary: >-
+  Implement ranking metrics, a leave-last-out chronological split, item-item cosine similarity, neighbour-based and popularity recommendation, and an evaluation loop on a synthetic Nigerian streaming-app viewing log.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-10
+format: implementation
+secondary_formats: [comparative]
+domains: [media, streaming, recommender-systems]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - Python and numpy indexing
+    - Dot products and norms
+    - Train/test splits
+competencies:
+  - Implementing recall, hit rate and NDCG with exact conventions
+  - Splitting interaction logs chronologically per user
+  - Building item-item cosine similarity from a binary matrix with safe edge cases
+  - Producing top-k recommendations that exclude seen items and break ties deterministically
+  - Comparing a personalised recommender with a popularity baseline
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [recommender, ndcg, item-knn, cosine-similarity, leave-last-out, popularity-baseline, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
