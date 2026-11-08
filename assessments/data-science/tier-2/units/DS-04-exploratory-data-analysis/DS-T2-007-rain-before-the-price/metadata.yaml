@@ -1,0 +1,56 @@
+id: DS-T2-007
+title: "Rain Before the Price: Multi-Source EDA of Rainfall Anomalies and Food Prices"
+summary: >-
+  Explore 12 years of state rainfall, staple prices and national macro shocks across 18 Nigerian
+  states (synthetic, stylised). Isolate local rainfall signals from national inflation, search lags
+  without fooling yourself, control the false discovery rate, beat a naive baseline and deliver a hypothesis register.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-04
+format: investigation
+secondary_formats: [comparative]
+domains: [agriculture, climate, food-security]
+technologies: [python, pandas, numpy, scipy, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - Time-series seasonality, trend, lags and autocorrelation
+    - Linear regression and p-values
+    - The multiple-comparisons problem
+    - pandas reshaping (pivot, merge, groupby)
+  recommended_assessments: [DS-T1-009, DS-T1-011]
+competencies:
+  - Aligning and exploring a multi-source panel, including missingness patterns
+  - Separating common shocks from local signals
+  - Valid inference under lag search, seasonality and autocorrelation
+  - False discovery rate control across many hypotheses
+  - Simulation-based validation of an analysis method against a baseline
+  - Building a prioritised hypothesis register with follow-up actions
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 3, mathematical: 3, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic, DSET-022, DSET-027]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [food-prices, rainfall, climate, multiple-comparisons, false-discovery-rate, permutation-tests, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

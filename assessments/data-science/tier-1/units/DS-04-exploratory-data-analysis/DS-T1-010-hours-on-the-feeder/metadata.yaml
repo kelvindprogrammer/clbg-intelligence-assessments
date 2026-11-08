@@ -1,0 +1,54 @@
+id: DS-T1-010
+title: "Hours on the Feeder: Supply-Hours Exploration of Electricity Outage Logs"
+summary: >-
+  Turn six months of messy control-room outage logs from a fictional Nigerian distribution company
+  into defensible daily supply hours, then use dependence-aware bootstrap intervals to find which
+  feeders are confidently failing their NERC service band and how naive processing distorts the answer.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-04
+format: implementation
+secondary_formats: [investigation]
+domains: [energy, power, regulation]
+technologies: [python, pandas, numpy, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - pandas datetimes, sorting and groupby
+    - The idea of a bootstrap confidence interval
+    - Running pytest
+  recommended_assessments: [DS-T1-006]
+competencies:
+  - Converting event logs into regular time series with interval arithmetic
+  - Detecting logging artefacts and representing missing coverage explicitly
+  - Block and cluster bootstrap intervals under dependence
+  - Answering stakeholder questions with quantified uncertainty
+  - Testing data transformations with hand-worked edge cases
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 3, mathematical: 2, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [electricity, nerc, service-bands, event-logs, bootstrap, missing-data, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

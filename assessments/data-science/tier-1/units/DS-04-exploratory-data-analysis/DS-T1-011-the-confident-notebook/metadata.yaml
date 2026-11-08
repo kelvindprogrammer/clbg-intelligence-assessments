@@ -1,0 +1,55 @@
+id: DS-T1-011
+title: "The Confident Notebook: Auditing the Claims of an Exploratory Analysis"
+summary: >-
+  Audit a polished but flawed exploratory notebook from a fictional mobile-money operator. For each
+  of ten claims, decide whether the data supports it, name the flaw (survivorship, base rates, log
+  scales, confounding, ecological fallacy, regression to the mean and more) and compute the correct figure.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-04
+format: debugging-forensics
+secondary_formats: [investigation]
+domains: [fintech, mobile-money]
+technologies: [python, pandas, numpy, scipy, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - pandas merge and groupby
+    - Means, medians and conditional probability
+    - What a p-value is
+    - Running pytest
+  recommended_assessments: [DS-T1-009]
+competencies:
+  - Separating correct computation from flawed inference in an analysis
+  - Recognising and naming common analytical fallacies
+  - Re-analysing data to quantify the correct answer
+  - Identifying claims that do survive scrutiny
+  - Writing a constructive, actionable audit for an executive
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [analytical-fallacies, survivorship-bias, base-rates, regression-to-the-mean, multiple-comparisons, mobile-money, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

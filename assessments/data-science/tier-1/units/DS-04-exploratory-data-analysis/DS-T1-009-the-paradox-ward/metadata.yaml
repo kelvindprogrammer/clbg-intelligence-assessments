@@ -1,0 +1,56 @@
+id: DS-T1-009
+title: "The Paradox Ward: Stratified Exploration of Hospital Outcome Rankings"
+summary: >-
+  A draft hospital league table ranks the network's referral centre last on crude 30-day mortality.
+  Stratify, standardise and decompose the rates to discover a Simpson's reversal, tell confounders
+  from proxies and non-confounders, and advise the Commissioner on what the data can and cannot show.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-04
+format: investigation
+secondary_formats: [implementation]
+domains: [health, public-sector]
+technologies: [python, pandas, numpy, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - pandas groupby, crosstab and merge
+    - Proportions and percentages
+    - The meaning of a confidence interval
+    - Running pytest
+  recommended_assessments: [DS-T1-006]
+competencies:
+  - Building stratified rate tables with binomial uncertainty
+  - Diagnosing case-mix (composition) differences between groups
+  - Detecting and explaining Simpson's paradox systematically
+  - Direct standardisation and Kitagawa rate-gap decomposition
+  - Distinguishing confounders, proxies and non-confounders with evidence
+  - Writing quantified, limitation-aware findings for a decision-maker
+estimated_hours: {min: 8, max: 14}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [simpsons-paradox, standardisation, confounding, health, league-tables, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

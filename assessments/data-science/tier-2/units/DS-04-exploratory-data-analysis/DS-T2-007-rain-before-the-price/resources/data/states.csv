@@ -1,0 +1,19 @@
+state,zone,agro_zone,lat,lon
+Sokoto,North West,sahel,13.06,5.24
+Kebbi,North West,sahel,12.45,4.2
+Katsina,North West,sahel,12.99,7.6
+Kano,North West,sudan,12.0,8.52
+Jigawa,North West,sahel,11.76,9.34
+Zamfara,North West,sudan,12.17,6.66
+Kaduna,North West,guinea,10.52,7.44
+Borno,North East,sahel,11.85,13.16
+Yobe,North East,sahel,11.75,11.97
+Bauchi,North East,sudan,10.31,9.84
+Gombe,North East,sudan,10.29,11.17
+Plateau,North Central,guinea,9.9,8.86
+Niger,North Central,guinea,9.61,6.56
+Benue,North Central,guinea,7.73,8.54
+Oyo,South West,forest,7.38,3.95
+Ondo,South West,forest,7.25,5.19
+Enugu,South East,forest,6.46,7.55
+Rivers,South South,forest,4.82,7.03
