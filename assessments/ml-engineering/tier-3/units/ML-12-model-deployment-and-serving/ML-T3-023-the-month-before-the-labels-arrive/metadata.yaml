@@ -1,0 +1,55 @@
+id: ML-T3-023
+title: "The Month Before the Labels Arrive: Designing a Safe Rollout for a Replacement Credit Model"
+summary: >-
+  Using a deterministic rollout simulator with delayed loan outcomes, hidden segment-level harm and silent failures, implement the statistics and an auditable rollout controller that rolls back harmful replacement models quickly, promotes good ones in reasonable time, and defend the stage, guardrail and threshold design with ablations.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-12
+format: system-design
+secondary_formats: [investigation]
+domains: [fintech, agent-banking, credit-scoring, model-serving]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Two-proportion z tests and confidence intervals
+    - A/B testing and why repeated looks inflate false positives
+    - Delayed feedback and censoring in credit outcomes
+    - Champion/challenger deployment
+    - Non-inferiority versus superiority testing
+competencies:
+  - Designing a staged rollout with explicit entry and exit criteria
+  - Combining immediate proxy guardrails with lagged outcome evidence
+  - Protecting a small segment from harm hidden by the overall average
+  - Testing non-inferiority with a stated margin
+  - Quantifying the harm-versus-delay trade-off with a simulator
+  - Writing an automated controller whose every decision is explained
+estimated_hours: {min: 24, max: 36}
+difficulty: {technical: 4, mathematical: 3, research: 4, engineering: 4, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [rollout, canary, shadow-deployment, rollback, delayed-labels, non-inferiority, guardrails, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

@@ -1,0 +1,53 @@
+id: ML-T1-021
+title: "The Meter Token Gatekeeper: A Validated, Checksummed Model Bundle and Prediction Function"
+summary: >-
+  Implement the serving contract for a prepaid-meter bypass-risk model: a strict record validator, a JSON-only checksummed model bundle with version checks, and a batch prediction function that isolates bad records. No network, no framework.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-12
+format: implementation
+secondary_formats: [debugging-forensics]
+domains: [energy, utilities, model-serving]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Writing Python functions with dict inputs and custom exceptions
+    - Fitting a scikit-learn classifier and reading its coefficients
+    - Reading and writing JSON files
+    - Basic hashing (what a SHA-256 digest is for)
+competencies:
+  - Specifying and enforcing an input schema
+  - Serialising a model without executing untrusted code
+  - Detecting corrupted or tampered artefacts
+  - Designing batch prediction that isolates failures
+  - Testing edge cases of a serving function
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 3, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [model-packaging, input-validation, serialisation, integrity, api-contract, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

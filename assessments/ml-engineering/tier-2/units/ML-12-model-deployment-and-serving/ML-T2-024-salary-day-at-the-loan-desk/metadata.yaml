@@ -1,0 +1,53 @@
+id: ML-T2-024
+title: "Salary Day at the Loan Desk: Micro-Batching a Scoring Service Under a Latency SLO"
+summary: >-
+  Build an exact single-worker micro-batching simulator, fit the batch cost curve from timing data with garbage-collection spikes, and tune a batching and load-shedding policy that holds a p99 latency SLO on unseen and 25 percent heavier salary-day traffic.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-12
+format: optimization
+secondary_formats: [system-design]
+domains: [fintech, digital-lending, model-serving]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Queues and FIFO service
+    - Percentiles and what p99 means
+    - Least-squares line fitting
+    - Python classes, dataclasses and collections.deque
+competencies:
+  - Writing a deterministic discrete-event simulator
+  - Fitting a linear batch-cost model robustly to noisy timings
+  - Reasoning about throughput versus tail latency
+  - Designing a load-shedding rule
+  - Tuning a policy on one trace and validating on others
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 4, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [serving, latency, micro-batching, load-shedding, simulation, slo, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
