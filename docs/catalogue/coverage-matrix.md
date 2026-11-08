@@ -24,12 +24,12 @@ Built assessments versus the planned target, per unit and tier, from `shared/uni
 
 | Unit | T1 built/target | T2 built/target | T3 built/target |
 |---|---|---|---|
-| ML-01 Mathematical and Computational Foundations | 0/3 | 0/2 | 0/2 |
-| ML-02 Supervised Learning and Ensembles | 0/3 | 0/2 | 0/2 |
-| ML-03 Unsupervised and Representation Learning | 0/2 | 0/2 | 0/2 |
-| ML-04 Feature Engineering and Data for ML | 0/2 | 0/2 | 0/2 |
-| ML-05 Evaluation, Validation and Model Selection | 0/2 | 0/3 | 0/2 |
-| ML-06 Neural Networks and Deep Learning | 0/2 | 0/2 | 0/2 |
+| ML-01 Mathematical and Computational Foundations | 1/3 | 1/2 | 1/2 |
+| ML-02 Supervised Learning and Ensembles | 1/3 | 1/2 | 1/2 |
+| ML-03 Unsupervised and Representation Learning | 1/2 | 1/2 | 1/2 |
+| ML-04 Feature Engineering and Data for ML | 1/2 | 1/2 | 1/2 |
+| ML-05 Evaluation, Validation and Model Selection | 1/2 | 1/3 | 1/2 |
+| ML-06 Neural Networks and Deep Learning | 1/2 | 1/2 | 1/2 |
 | ML-07 Computer Vision | 0/2 | 0/2 | 0/2 |
 | ML-08 Natural Language Processing | 0/2 | 0/2 | 0/2 |
 | ML-09 Time-Series Machine Learning | 0/1 | 0/2 | 0/2 |
@@ -59,10 +59,10 @@ Built assessments versus the planned target, per unit and tier, from `shared/uni
 
 ## Totals
 
-- Unit assessments built against target: **50/232**
-- Unit assessments (all): 50
+- Unit assessments built against target: **68/232**
+- Unit assessments (all): 68
 - Capstones: 0
 - Cross-disciplinary: 0
 - Signature challenges: 0
-- **Total assessments: 50**
+- **Total assessments: 68**
 

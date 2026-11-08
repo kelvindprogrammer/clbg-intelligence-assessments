@@ -7,41 +7,53 @@ See [tier definitions](../../../docs/tier-definitions.md) for the full competenc
 
 ## Units at this tier
 
-### ML-01: Mathematical and Computational Foundations
+### [ML-01: Mathematical and Computational Foundations](units/ML-01-mathematical-and-computational-foundations/README.md)
 
 Linear algebra, calculus and optimisation, probability for ML, numerical stability and vectorised computation.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-001`](units/ML-01-mathematical-and-computational-foundations/ML-T2-001-when-the-normal-equations-lie/README.md) | When the Normal Equations Lie: Fitting a Feeder-Load Model on Collinear Sensor Data | Comparative | 14–20 h | reviewed |
 
-### ML-02: Supervised Learning and Ensembles
+### [ML-02: Supervised Learning and Ensembles](units/ML-02-supervised-learning-and-ensembles/README.md)
 
 Linear and kernel models, trees, bagging, boosting and stacking, plus the bias-variance trade-off, implemented and applied.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-003`](units/ML-02-supervised-learning-and-ensembles/ML-T2-003-forty-analysts-two-hundred-alerts/README.md) | Forty Analysts, Two Hundred Alerts: Choosing Between Linear Models, Forests and Boosting Under an Alert Budget | Comparative | 14–20 h | reviewed |
 
-### ML-03: Unsupervised and Representation Learning
+### [ML-03: Unsupervised and Representation Learning](units/ML-03-unsupervised-and-representation-learning/README.md)
 
 Clustering, dimensionality reduction, density estimation, anomaly detection and learned representations.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-005`](units/ML-03-unsupervised-and-representation-learning/ML-T2-005-quiet-meters/README.md) | Quiet Meters: Unsupervised Detection of Electricity Theft on a Distribution Feeder | Comparative | 14–22 h | reviewed |
 
-### ML-04: Feature Engineering and Data for ML
+### [ML-04: Feature Engineering and Data for ML](units/ML-04-feature-engineering-and-data-for-ml/README.md)
 
 Encoding, leakage-safe preprocessing pipelines, feature selection, labelling quality and data-centric ML.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-007`](units/ML-04-feature-engineering-and-data-for-ml/ML-T2-007-the-too-good-credit-model/README.md) | The Too-Good Credit Model: Leakage Forensics on a Microfinance Default Model | Debugging & Forensics | 14–22 h | reviewed |
 
-### ML-05: Evaluation, Validation and Model Selection
+### [ML-05: Evaluation, Validation and Model Selection](units/ML-05-evaluation-validation-and-model-selection/README.md)
 
 Metric choice, cross-validation design, calibration, statistical comparison of models and hyperparameter search.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-009`](units/ML-05-evaluation-validation-and-model-selection/ML-T2-009-which-loan-model-ships/README.md) | Which Loan Model Ships? Time-Aware Model Selection for Mobile-Money Micro-Loans | Comparative | 14–22 h | reviewed |
 
-### ML-06: Neural Networks and Deep Learning
+### [ML-06: Neural Networks and Deep Learning](units/ML-06-neural-networks-and-deep-learning/README.md)
 
 Backpropagation from first principles, training dynamics, regularisation, architectures and PyTorch engineering.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-012`](units/ML-06-neural-networks-and-deep-learning/ML-T2-012-the-meter-that-lies/README.md) | The Meter That Lies: Training a Neural Network to Catch Prepaid-Meter Tampering | Optimization | 14–22 h | reviewed |
 
 ### ML-07: Computer Vision
 

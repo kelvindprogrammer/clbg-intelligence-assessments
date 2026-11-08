@@ -30,12 +30,12 @@ ML engineers build models that work **outside the notebook**. This subtrack asse
 
 | Unit | Tier 1 | Tier 2 | Tier 3 |
 |---|---|---|---|
-| **ML-01** Mathematical and Computational Foundations | in development | in development | in development |
-| **ML-02** Supervised Learning and Ensembles | in development | in development | in development |
-| **ML-03** Unsupervised and Representation Learning | in development | in development | in development |
-| **ML-04** Feature Engineering and Data for ML | in development | in development | in development |
-| **ML-05** Evaluation, Validation and Model Selection | in development | in development | in development |
-| **ML-06** Neural Networks and Deep Learning | in development | in development | in development |
+| **ML-01** Mathematical and Computational Foundations | [1 assessment](tier-1/units/ML-01-mathematical-and-computational-foundations/README.md) | [1 assessment](tier-2/units/ML-01-mathematical-and-computational-foundations/README.md) | [1 assessment](tier-3/units/ML-01-mathematical-and-computational-foundations/README.md) |
+| **ML-02** Supervised Learning and Ensembles | [1 assessment](tier-1/units/ML-02-supervised-learning-and-ensembles/README.md) | [1 assessment](tier-2/units/ML-02-supervised-learning-and-ensembles/README.md) | [1 assessment](tier-3/units/ML-02-supervised-learning-and-ensembles/README.md) |
+| **ML-03** Unsupervised and Representation Learning | [1 assessment](tier-1/units/ML-03-unsupervised-and-representation-learning/README.md) | [1 assessment](tier-2/units/ML-03-unsupervised-and-representation-learning/README.md) | [1 assessment](tier-3/units/ML-03-unsupervised-and-representation-learning/README.md) |
+| **ML-04** Feature Engineering and Data for ML | [1 assessment](tier-1/units/ML-04-feature-engineering-and-data-for-ml/README.md) | [1 assessment](tier-2/units/ML-04-feature-engineering-and-data-for-ml/README.md) | [1 assessment](tier-3/units/ML-04-feature-engineering-and-data-for-ml/README.md) |
+| **ML-05** Evaluation, Validation and Model Selection | [1 assessment](tier-1/units/ML-05-evaluation-validation-and-model-selection/README.md) | [1 assessment](tier-2/units/ML-05-evaluation-validation-and-model-selection/README.md) | [1 assessment](tier-3/units/ML-05-evaluation-validation-and-model-selection/README.md) |
+| **ML-06** Neural Networks and Deep Learning | [1 assessment](tier-1/units/ML-06-neural-networks-and-deep-learning/README.md) | [1 assessment](tier-2/units/ML-06-neural-networks-and-deep-learning/README.md) | [1 assessment](tier-3/units/ML-06-neural-networks-and-deep-learning/README.md) |
 | **ML-07** Computer Vision | in development | in development | in development |
 | **ML-08** Natural Language Processing | in development | in development | in development |
 | **ML-09** Time-Series Machine Learning | in development | in development | in development |

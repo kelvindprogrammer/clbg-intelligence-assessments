@@ -1,6 +1,6 @@
 {
   "generated_by": "tools/catalogue-generator/build_catalogue.py",
-  "count": 50,
+  "count": 68,
   "assessments": [
     {
       "id": "DS-T1-001",
@@ -3321,6 +3321,1182 @@
         "nigeria"
       ],
       "path": "assessments/data-science/tier-3/units/DS-12-applied-research-and-communication/DS-T3-022-referee-report"
+    },
+    {
+      "id": "ML-T1-001",
+      "title": "The Score That Overflowed: Numerically Stable Softmax and Logistic Loss from Scratch",
+      "summary": "Rebuild softmax, log-sum-exp, stable binary cross-entropy and softmax cross-entropy with verified gradients, then fit a logistic churn model on badly scaled telecom features without a single NaN.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-01",
+      "format": "implementation",
+      "secondary_formats": [
+        "debugging-forensics"
+      ],
+      "domains": [
+        "telecoms",
+        "numerical-computing"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Reasoning about overflow, underflow and cancellation in float64 and float32",
+        "Implementing log-sum-exp, softmax and log-softmax stably",
+        "Deriving and verifying analytic gradients",
+        "Gradient-based fitting of logistic regression",
+        "Writing tests that target numerical edge cases",
+        "Explaining numerical failures in plain language"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 3,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "numerical-stability",
+        "softmax",
+        "logistic-regression",
+        "gradient-checking",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-01-mathematical-and-computational-foundations/ML-T1-001-the-score-that-overflowed"
+    },
+    {
+      "id": "ML-T1-004",
+      "title": "The Field Officer's Decision Tree: A CART Classifier from Scratch for Cassava Disease Triage",
+      "summary": "Implement a Gini CART classifier with an efficient split search, importances and rule export; verify it against scikit-learn on synthetic cassava-disease data and show where greedy splitting struggles.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-02",
+      "format": "implementation",
+      "secondary_formats": [
+        "replication"
+      ],
+      "domains": [
+        "agriculture",
+        "plant-health",
+        "interpretable-ml"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Computing impurity and gain exactly",
+        "Searching splits efficiently with sorting and cumulative class counts",
+        "Building and querying a recursive tree with stopping rules",
+        "Verifying a from-scratch model against a reference library",
+        "Extracting human-readable rules and checking them against the model",
+        "Diagnosing overfitting and the limits of greedy splitting (XOR)"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "decision-tree",
+        "cart",
+        "gini",
+        "overfitting",
+        "interpretability",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-02-supervised-learning-and-ensembles/ML-T1-004-the-field-officers-decision-tree"
+    },
+    {
+      "id": "ML-T1-007",
+      "title": "Agents on the Map: K-Means and Silhouette from Scratch for Mobile-Money Agent Siting",
+      "summary": "Implement k-means++ seeding, Lloyd iterations with empty-cluster repair, multi-restart selection and the silhouette score from scratch, verify them against scikit-learn, and use them to recommend how many agent hubs a region needs.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-03",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "geospatial"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing iterative algorithms with vectorised numpy",
+        "k-means++ seeding and Lloyd iterations",
+        "Handling degenerate cases such as empty clusters and duplicate points",
+        "Silhouette score and internal validation of clusterings",
+        "Verifying a from-scratch implementation against a reference library",
+        "Explaining the limits of k-means"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "clustering",
+        "k-means",
+        "silhouette",
+        "numpy",
+        "mobile-money"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-03-unsupervised-and-representation-learning/ML-T1-007-agents-on-the-map"
+    },
+    {
+      "id": "ML-T1-009",
+      "title": "Maize Yield Without Peeking: Leakage-Safe Preprocessing Built from Scratch",
+      "summary": "Implement a median imputer with missing indicators, a standard scaler, a one-hot encoder and a smoothed out-of-fold target encoder from scratch, and assemble a leakage-safe feature pipeline for predicting smallholder maize yield.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-04",
+      "format": "implementation",
+      "secondary_formats": [
+        "debugging-forensics"
+      ],
+      "domains": [
+        "agriculture",
+        "agritech"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Fit-on-train, transform-on-test discipline",
+        "Median imputation with missingness indicators",
+        "Standardisation and its edge cases",
+        "One-hot encoding with unknown and rare categories",
+        "Smoothed and out-of-fold target encoding for high-cardinality categories",
+        "Writing tests that detect data leakage"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "feature-engineering",
+        "leakage",
+        "target-encoding",
+        "agriculture",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-04-feature-engineering-and-data-for-ml/ML-T1-009-maize-yield-without-peeking"
+    },
+    {
+      "id": "ML-T1-011",
+      "title": "The Triage Scorecard: Building an Honest Evaluation Kit for a Malaria Risk Score",
+      "summary": "Implement classification metrics, a household-aware stratified cross-validation splitter, a recall-targeted threshold and a calibration error from scratch, and use them to audit a clinic risk score.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-05",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "health",
+        "evaluation"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing classification metrics from their definitions",
+        "Handling ties in ranking metrics (AUC, average precision)",
+        "Preventing leakage with group-aware, stratified splitting",
+        "Choosing an operating threshold from a clinical constraint",
+        "Measuring calibration",
+        "Explaining why accuracy misleads on imbalanced data",
+        "Testing numerical code against an oracle"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "metrics",
+        "cross-validation",
+        "calibration",
+        "imbalance",
+        "health",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-05-evaluation-validation-and-model-selection/ML-T1-011-the-triage-scorecard"
+    },
+    {
+      "id": "ML-T1-013",
+      "title": "The Signal Map: Backpropagation From Scratch for a 4G Coverage Classifier",
+      "summary": "Implement a fully connected neural network, its backward pass, a gradient checker and momentum SGD in numpy, then use it to classify 4G coverage from drive-test samples and explain what goes wrong with zero initialisation.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-06",
+      "format": "implementation",
+      "secondary_formats": [
+        "debugging-forensics"
+      ],
+      "domains": [
+        "telecoms",
+        "neural-networks"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "pytest"
+      ],
+      "competencies": [
+        "Deriving and implementing backpropagation for a ReLU network",
+        "Numerically stable softmax cross-entropy",
+        "Verifying gradients with finite differences",
+        "Implementing SGD with classical momentum",
+        "Explaining weight initialisation and symmetry breaking",
+        "Diagnosing training failures from loss curves",
+        "Writing tests for numerical code"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "backpropagation",
+        "mlp",
+        "gradient-checking",
+        "initialisation",
+        "telecoms",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-06-neural-networks-and-deep-learning/ML-T1-013-the-signal-map"
+    },
+    {
+      "id": "ML-T2-001",
+      "title": "When the Normal Equations Lie: Fitting a Feeder-Load Model on Collinear Sensor Data",
+      "summary": "On synthetic hourly feeder data with near-duplicate sensor columns and a mid-year sensor vendor change, diagnose ill-conditioning, compare four least-squares solvers, select ridge strength by time-ordered validation and defend the final model.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-01",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "energy",
+        "power-distribution",
+        "numerical-linear-algebra"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Diagnosing ill-conditioning and near-collinearity from singular values and correlations",
+        "Implementing and comparing least-squares solvers",
+        "Choosing regularisation without leaking future data",
+        "Distinguishing numerical error from statistical (identifiability) error",
+        "Justifying a method against a baseline with held-out evidence",
+        "Reporting limits of a fitted model under sensor drift"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "least-squares",
+        "conditioning",
+        "ridge",
+        "svd",
+        "temporal-validation",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-01-mathematical-and-computational-foundations/ML-T2-001-when-the-normal-equations-lie"
+    },
+    {
+      "id": "ML-T2-003",
+      "title": "Forty Analysts, Two Hundred Alerts: Choosing Between Linear Models, Forests and Boosting Under an Alert Budget",
+      "summary": "On synthetic mobile-money transactions with extreme imbalance, a leaky post-hoc column and mid-period fraud-pattern drift, build a leak-free pipeline, choose between logistic regression, random forest and boosting under a daily alert budget, and defend the training window.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-02",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "mobile-money",
+        "fraud-detection"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Detecting target leakage from data alone",
+        "Splitting time-ordered data without look-ahead",
+        "Choosing a metric that matches an operational constraint (alert budget)",
+        "Comparing linear, bagged and boosted models against a baseline",
+        "Handling class imbalance and concept drift deliberately",
+        "Justifying model selection with validation evidence and reporting uncertainty"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "imbalanced-classification",
+        "random-forest",
+        "gradient-boosting",
+        "leakage",
+        "temporal-validation",
+        "concept-drift",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-02-supervised-learning-and-ensembles/ML-T2-003-forty-analysts-two-hundred-alerts"
+    },
+    {
+      "id": "ML-T2-005",
+      "title": "Quiet Meters: Unsupervised Detection of Electricity Theft on a Distribution Feeder",
+      "summary": "Design scale-free behavioural features and compare a magnitude baseline with isolation forest, LOF and PCA reconstruction error on synthetic feeder meter data, quantify the uncertainty of a tiny audit sample, and recommend which meters to inspect.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-03",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "energy",
+        "utilities"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Feature design for anomaly detection from time series",
+        "Comparing unsupervised detectors against a defensible baseline",
+        "Evaluating with very few labels and reporting uncertainty",
+        "Separating nuisance variation (customer size, weekday, weather) from signal",
+        "Reasoning about decoy anomalies that are legitimate",
+        "Turning a model into an operational recommendation"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "anomaly-detection",
+        "feature-design",
+        "bootstrap",
+        "electricity",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-03-unsupervised-and-representation-learning/ML-T2-005-quiet-meters"
+    },
+    {
+      "id": "ML-T2-007",
+      "title": "The Too-Good Credit Model: Leakage Forensics on a Microfinance Default Model",
+      "summary": "Audit a microfinance default-prediction dataset for target leakage using documentation and evidence, rebuild a temporal and customer-disjoint evaluation, report the honest performance against the naive one, and check the honest features for drift.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-04",
+      "format": "debugging-forensics",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "finance",
+        "microfinance"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Detecting target leakage from timing documentation and from statistical evidence",
+        "Designing temporal and group-aware splits",
+        "Quantifying the gap between naive and honest evaluation",
+        "Detecting covariate drift with the population stability index",
+        "Distrusting documentation that contradicts the data",
+        "Communicating a model risk finding to a credit committee"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "leakage",
+        "evaluation",
+        "credit-risk",
+        "psi",
+        "microfinance",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-04-feature-engineering-and-data-for-ml/ML-T2-007-the-too-good-credit-model"
+    },
+    {
+      "id": "ML-T2-009",
+      "title": "Which Loan Model Ships? Time-Aware Model Selection for Mobile-Money Micro-Loans",
+      "summary": "Choose between candidate default models for a mobile-money micro-lender using forward-chaining validation, a label-maturity embargo, a leak audit and a cost-based threshold, and defend the estimate against what actually happens next quarter.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-05",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "mobile-money",
+        "credit-risk"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Designing forward-chaining validation for time-ordered data",
+        "Handling right-censored labels (loans that have not matured)",
+        "Auditing features for post-outcome leakage",
+        "Selecting an operating threshold from a cost matrix",
+        "Comparing candidate models with uncertainty estimates",
+        "Reporting an honest estimate of future performance",
+        "Testing evaluation code"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 2
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "validation",
+        "time-series-split",
+        "leakage",
+        "cost-sensitive",
+        "fintech",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-05-evaluation-validation-and-model-selection/ML-T2-009-which-loan-model-ships"
+    },
+    {
+      "id": "ML-T2-012",
+      "title": "The Meter That Lies: Training a Neural Network to Catch Prepaid-Meter Tampering",
+      "summary": "Design the training process around a provided numpy MLP to detect prepaid-meter tampering from skewed, imbalanced tabular data: preprocessing, early stopping, imbalance handling and loss-curve diagnosis, judged against a linear baseline on fresh meters.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-06",
+      "format": "optimization",
+      "secondary_formats": [
+        "comparative",
+        "debugging-forensics"
+      ],
+      "domains": [
+        "energy",
+        "power-utilities",
+        "neural-networks"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Preprocessing skewed and wildly scaled features without leakage",
+        "Designing a training loop with early stopping and best-weight restoration",
+        "Handling class imbalance in a neural network",
+        "Diagnosing underfitting, overfitting and instability from loss curves",
+        "Comparing a network with a tuned linear baseline using precision-recall",
+        "Justifying hyperparameter choices from validation evidence",
+        "Testing a training pipeline"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "training-diagnostics",
+        "early-stopping",
+        "imbalance",
+        "tabular",
+        "energy",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-06-neural-networks-and-deep-learning/ML-T2-012-the-meter-that-lies"
+    },
+    {
+      "id": "ML-T3-001",
+      "title": "Does Adam Excuse Unscaled Features? An Experimental Study of Conditioning, Momentum and Second-Order Steps",
+      "summary": "Test the claim that an adaptive optimiser removes the need for feature scaling by implementing five optimisers on controlled ill-conditioned logistic problems, measuring iteration and cost scaling with condition number, separating scale from correlation effects, and defending the conclusion.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-01",
+      "format": "open-ended",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "credit-scoring",
+        "optimisation"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Turning a vague engineering claim into falsifiable hypotheses",
+        "Implementing gradient descent, accelerated descent, damped Newton and Adam for logistic loss",
+        "Defining cost fairly across first- and second-order methods",
+        "Handling censored (non-converged) runs correctly",
+        "Estimating a scaling exponent with a bootstrap interval",
+        "Distinguishing scale-induced from correlation-induced ill-conditioning",
+        "Stating the generalisation limits of a synthetic study"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 36
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "optimisation",
+        "conditioning",
+        "momentum",
+        "newton",
+        "experimental-design",
+        "censoring",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-01-mathematical-and-computational-foundations/ML-T3-001-does-adam-excuse-unscaled-features"
+    },
+    {
+      "id": "ML-T3-003",
+      "title": "Do Ensembles Cure Overfitting? A Bias-Variance Replication Study with Bagging and Boosting",
+      "summary": "Build and validate a Monte Carlo bias-variance decomposition on a synthetic cocoa-yield problem with known truth, then use it to test whether bagging and boosting reduce variance, when boosting overfits, and how noise, sample size and irrelevant features change the answer.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-02",
+      "format": "replication",
+      "secondary_formats": [
+        "open-ended"
+      ],
+      "domains": [
+        "agriculture",
+        "cocoa",
+        "statistical-learning-theory"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Estimating bias, variance and noise by repeated resampling with a known truth",
+        "Correcting the finite-round bias of the squared-bias estimate",
+        "Validating an instrument with known-answer models",
+        "Designing ablations over depth, ensemble size, learning rate, sample size, noise and irrelevant features",
+        "Attaching bootstrap standard errors to decomposition terms",
+        "Turning folklore into testable claims and reporting verdicts with scope"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 36
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "bias-variance",
+        "bagging",
+        "gradient-boosting",
+        "monte-carlo",
+        "replication",
+        "uncertainty",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-02-supervised-learning-and-ensembles/ML-T3-003-do-ensembles-cure-overfitting"
+    },
+    {
+      "id": "ML-T3-005",
+      "title": "Do the Cooperatives Have Segments? Testing for Structure Before Clustering",
+      "summary": "Decide whether a cooperative member population contains genuine segments and how many, through preprocessing ablations, null models, a gap statistic, stability analysis and a hidden-truth evaluation that includes populations with no structure.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-03",
+      "format": "investigation",
+      "secondary_formats": [
+        "open-ended"
+      ],
+      "domains": [
+        "fintech",
+        "cooperative-finance"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Testing the hypothesis that clusters exist before choosing k",
+        "Designing null reference distributions and understanding how the choice of null changes the conclusion",
+        "Preprocessing heterogeneous, heavy-tailed data for distance-based methods",
+        "Cluster stability under resampling",
+        "Building a decision procedure and calibrating it on simulated ground truth",
+        "Communicating negative or ambiguous findings to a business audience"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 40
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "clustering",
+        "gap-statistic",
+        "null-model",
+        "stability",
+        "cooperatives",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-03-unsupervised-and-representation-learning/ML-T3-005-do-the-cooperatives-have-segments"
+    },
+    {
+      "id": "ML-T3-007",
+      "title": "Whose Label Is It Anyway? Spending a Relabelling Budget on Noisy Cassava Disease Annotations",
+      "summary": "Estimate label-noise rates per annotator, choose which labels to send for expert relabelling under a budget, train a noise-robust classifier, and defend the trade-offs between cleaning, discarding and modelling the noise, evaluated against hidden truth and a clean test set.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-04",
+      "format": "open-ended",
+      "secondary_formats": [
+        "investigation",
+        "optimization"
+      ],
+      "domains": [
+        "agriculture",
+        "computer-vision-embeddings"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Estimating label noise without ground truth",
+        "Out-of-fold prediction for finding suspicious labels",
+        "Annotator-aware reasoning about systematic versus random error",
+        "Allocating a limited expert budget",
+        "Noise-robust training by filtering or weighting",
+        "Evaluating data-centric interventions with honest uncertainty"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 40
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "label-noise",
+        "data-centric",
+        "annotators",
+        "active-relabelling",
+        "agriculture",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-04-feature-engineering-and-data-for-ml/ML-T3-007-whose-label-is-it-anyway"
+    },
+    {
+      "id": "ML-T3-009",
+      "title": "The Leaderboard That Flatters: Winner's Curse and Valid Selection in a Fraud Hackathon",
+      "summary": "Quantify the winner's curse on a small public leaderboard, build a leakage-free nested validation procedure, and design and defend the evaluation protocol for the private phase of a fraud-detection hackathon.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-05",
+      "format": "investigation",
+      "secondary_formats": [
+        "open-ended",
+        "implementation"
+      ],
+      "domains": [
+        "fintech",
+        "fraud-detection",
+        "evaluation-methodology"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scipy",
+        "scikit-learn",
+        "pandas",
+        "pytest"
+      ],
+      "competencies": [
+        "Quantifying the winner's curse by simulation",
+        "Implementing nested cross-validation without leakage",
+        "Comparing models with paired resampling",
+        "Planning evaluation-set size from effect size and power",
+        "Shrinking noisy leaderboard scores",
+        "Designing and defending an evaluation protocol",
+        "Reporting experiments with ablations and honest uncertainty"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 36
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 2
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "winner-curse",
+        "nested-cv",
+        "leaderboard",
+        "statistics",
+        "fraud",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-05-evaluation-validation-and-model-selection/ML-T3-009-the-leaderboard-that-flatters"
+    },
+    {
+      "id": "ML-T3-011",
+      "title": "When Does Depth Pay? A Controlled Study of Neural Networks Versus Boosted Trees on Small Agricultural Tables",
+      "summary": "Run a controlled, seed-replicated study of when a small neural network matches or beats gradient-boosted trees and logistic regression on small synthetic soil tables, and defend a recommendation for an agricultural extension programme.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-06",
+      "format": "investigation",
+      "secondary_formats": [
+        "comparative",
+        "open-ended"
+      ],
+      "domains": [
+        "agriculture",
+        "neural-networks",
+        "research-methods"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Designing a controlled comparison with factors and confounds identified",
+        "Giving each model a fair tuning budget",
+        "Replicating over seeds and reporting paired uncertainty",
+        "Locating regime boundaries (crossovers)",
+        "Separating what the data support from what the generator builds in",
+        "Writing a recommendation with stated scope",
+        "Testing study code for determinism and pairing"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 36
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 5,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 2
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "tabular-deep-learning",
+        "experiment-design",
+        "gradient-boosting",
+        "agriculture",
+        "nigeria",
+        "research"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-06-neural-networks-and-deep-learning/ML-T3-011-when-does-depth-pay"
     }
   ]
 }

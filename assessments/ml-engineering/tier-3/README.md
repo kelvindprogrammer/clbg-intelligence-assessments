@@ -7,41 +7,53 @@ See [tier definitions](../../../docs/tier-definitions.md) for the full competenc
 
 ## Units at this tier
 
-### ML-01: Mathematical and Computational Foundations
+### [ML-01: Mathematical and Computational Foundations](units/ML-01-mathematical-and-computational-foundations/README.md)
 
 Linear algebra, calculus and optimisation, probability for ML, numerical stability and vectorised computation.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-001`](units/ML-01-mathematical-and-computational-foundations/ML-T3-001-does-adam-excuse-unscaled-features/README.md) | Does Adam Excuse Unscaled Features? An Experimental Study of Conditioning, Momentum and Second-Order Steps | Open-Ended | 24–36 h | reviewed |
 
-### ML-02: Supervised Learning and Ensembles
+### [ML-02: Supervised Learning and Ensembles](units/ML-02-supervised-learning-and-ensembles/README.md)
 
 Linear and kernel models, trees, bagging, boosting and stacking, plus the bias-variance trade-off, implemented and applied.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-003`](units/ML-02-supervised-learning-and-ensembles/ML-T3-003-do-ensembles-cure-overfitting/README.md) | Do Ensembles Cure Overfitting? A Bias-Variance Replication Study with Bagging and Boosting | Research Replication | 24–36 h | reviewed |
 
-### ML-03: Unsupervised and Representation Learning
+### [ML-03: Unsupervised and Representation Learning](units/ML-03-unsupervised-and-representation-learning/README.md)
 
 Clustering, dimensionality reduction, density estimation, anomaly detection and learned representations.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-005`](units/ML-03-unsupervised-and-representation-learning/ML-T3-005-do-the-cooperatives-have-segments/README.md) | Do the Cooperatives Have Segments? Testing for Structure Before Clustering | Investigation | 24–40 h | reviewed |
 
-### ML-04: Feature Engineering and Data for ML
+### [ML-04: Feature Engineering and Data for ML](units/ML-04-feature-engineering-and-data-for-ml/README.md)
 
 Encoding, leakage-safe preprocessing pipelines, feature selection, labelling quality and data-centric ML.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-007`](units/ML-04-feature-engineering-and-data-for-ml/ML-T3-007-whose-label-is-it-anyway/README.md) | Whose Label Is It Anyway? Spending a Relabelling Budget on Noisy Cassava Disease Annotations | Open-Ended | 24–40 h | reviewed |
 
-### ML-05: Evaluation, Validation and Model Selection
+### [ML-05: Evaluation, Validation and Model Selection](units/ML-05-evaluation-validation-and-model-selection/README.md)
 
 Metric choice, cross-validation design, calibration, statistical comparison of models and hyperparameter search.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-009`](units/ML-05-evaluation-validation-and-model-selection/ML-T3-009-the-leaderboard-that-flatters/README.md) | The Leaderboard That Flatters: Winner's Curse and Valid Selection in a Fraud Hackathon | Investigation | 24–36 h | reviewed |
 
-### ML-06: Neural Networks and Deep Learning
+### [ML-06: Neural Networks and Deep Learning](units/ML-06-neural-networks-and-deep-learning/README.md)
 
 Backpropagation from first principles, training dynamics, regularisation, architectures and PyTorch engineering.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-011`](units/ML-06-neural-networks-and-deep-learning/ML-T3-011-when-does-depth-pay/README.md) | When Does Depth Pay? A Controlled Study of Neural Networks Versus Boosted Trees on Small Agricultural Tables | Investigation | 24–36 h | reviewed |
 
 ### ML-07: Computer Vision
 

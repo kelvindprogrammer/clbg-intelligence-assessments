@@ -7,41 +7,53 @@ See [tier definitions](../../../docs/tier-definitions.md) for the full competenc
 
 ## Units at this tier
 
-### ML-01: Mathematical and Computational Foundations
+### [ML-01: Mathematical and Computational Foundations](units/ML-01-mathematical-and-computational-foundations/README.md)
 
 Linear algebra, calculus and optimisation, probability for ML, numerical stability and vectorised computation.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-001`](units/ML-01-mathematical-and-computational-foundations/ML-T1-001-the-score-that-overflowed/README.md) | The Score That Overflowed: Numerically Stable Softmax and Logistic Loss from Scratch | Implementation | 8–12 h | reviewed |
 
-### ML-02: Supervised Learning and Ensembles
+### [ML-02: Supervised Learning and Ensembles](units/ML-02-supervised-learning-and-ensembles/README.md)
 
 Linear and kernel models, trees, bagging, boosting and stacking, plus the bias-variance trade-off, implemented and applied.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-004`](units/ML-02-supervised-learning-and-ensembles/ML-T1-004-the-field-officers-decision-tree/README.md) | The Field Officer's Decision Tree: A CART Classifier from Scratch for Cassava Disease Triage | Implementation | 10–14 h | reviewed |
 
-### ML-03: Unsupervised and Representation Learning
+### [ML-03: Unsupervised and Representation Learning](units/ML-03-unsupervised-and-representation-learning/README.md)
 
 Clustering, dimensionality reduction, density estimation, anomaly detection and learned representations.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-007`](units/ML-03-unsupervised-and-representation-learning/ML-T1-007-agents-on-the-map/README.md) | Agents on the Map: K-Means and Silhouette from Scratch for Mobile-Money Agent Siting | Implementation | 8–14 h | reviewed |
 
-### ML-04: Feature Engineering and Data for ML
+### [ML-04: Feature Engineering and Data for ML](units/ML-04-feature-engineering-and-data-for-ml/README.md)
 
 Encoding, leakage-safe preprocessing pipelines, feature selection, labelling quality and data-centric ML.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-009`](units/ML-04-feature-engineering-and-data-for-ml/ML-T1-009-maize-yield-without-peeking/README.md) | Maize Yield Without Peeking: Leakage-Safe Preprocessing Built from Scratch | Implementation | 8–14 h | reviewed |
 
-### ML-05: Evaluation, Validation and Model Selection
+### [ML-05: Evaluation, Validation and Model Selection](units/ML-05-evaluation-validation-and-model-selection/README.md)
 
 Metric choice, cross-validation design, calibration, statistical comparison of models and hyperparameter search.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-011`](units/ML-05-evaluation-validation-and-model-selection/ML-T1-011-the-triage-scorecard/README.md) | The Triage Scorecard: Building an Honest Evaluation Kit for a Malaria Risk Score | Implementation | 8–14 h | reviewed |
 
-### ML-06: Neural Networks and Deep Learning
+### [ML-06: Neural Networks and Deep Learning](units/ML-06-neural-networks-and-deep-learning/README.md)
 
 Backpropagation from first principles, training dynamics, regularisation, architectures and PyTorch engineering.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-013`](units/ML-06-neural-networks-and-deep-learning/ML-T1-013-the-signal-map/README.md) | The Signal Map: Backpropagation From Scratch for a 4G Coverage Classifier | Implementation | 10–16 h | reviewed |
 
 ### ML-07: Computer Vision
 
