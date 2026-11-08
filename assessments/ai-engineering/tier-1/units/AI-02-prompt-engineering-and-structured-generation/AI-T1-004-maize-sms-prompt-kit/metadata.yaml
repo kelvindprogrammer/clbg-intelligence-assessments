@@ -1,0 +1,52 @@
+id: AI-T1-004
+title: "The Maize SMS Prompt Kit: Templates, Few-Shot Selection, Fencing and Strict Parsing"
+summary: >-
+  Implement a strict prompt template renderer, an injection-resistant fence, deterministic few-shot selection with a word budget, a robust JSON extractor and a schema validator, and wire them into a triage function that survives a mock model's formatting failures and a prompt-injection attempt.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 1
+unit: AI-02
+format: implementation
+secondary_formats: []
+domains: [agriculture, nlp-applications, prompt-engineering, nigeria]
+technologies: [python, json, pytest]
+prerequisites:
+  knowledge:
+    - Python string handling and regular expressions
+    - JSON objects, arrays and escaping
+    - Reading a failing pytest assertion
+competencies:
+  - Building prompts from a strict template without silent substitution errors
+  - Selecting few-shot examples deterministically and fitting a prompt to a budget
+  - Delimiting untrusted text so it cannot forge the prompt's structure
+  - Extracting and validating structured output without trusting its format
+  - Writing an end-to-end wrapper that returns a result instead of raising on model misbehaviour
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/mock_llm.py
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [prompt-templates, few-shot, json-parsing, schema-validation, prompt-injection, agriculture, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

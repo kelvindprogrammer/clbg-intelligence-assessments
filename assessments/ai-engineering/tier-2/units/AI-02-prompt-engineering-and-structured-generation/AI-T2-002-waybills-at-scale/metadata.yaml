@@ -1,0 +1,52 @@
+id: AI-T2-002
+title: "Waybills at Scale: A Retrying, Validating, Cost-Aware Extraction Harness"
+summary: >-
+  Engineer the harness around a mock extraction model with timeouts, rate limits, refusals, malformed and wrong JSON and prompt injection: retries with a virtual clock, grounded validation, repair loops, human routing, cost accounting, and a policy chosen against a success bar.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 2
+unit: AI-02
+format: optimization
+secondary_formats: [system-design]
+domains: [logistics, document-processing, reliability-engineering, nigeria]
+technologies: [python, json, pytest]
+prerequisites:
+  knowledge:
+    - Exceptions and try/except in Python
+    - JSON parsing and validation basics
+    - Writing tests with scripted fake objects
+competencies:
+  - Designing retry policies that distinguish transient from permanent failures
+  - Validating model output against the source document, not only against a schema
+  - Building repair and escalation logic with explicit call budgets
+  - Accounting for token cost and latency in a batch pipeline
+  - Choosing a configuration against a success bar and checking it on unseen data
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 4, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/mock_extractor.py
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [retries, backoff, structured-output, grounding, prompt-injection, cost-control, logistics, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

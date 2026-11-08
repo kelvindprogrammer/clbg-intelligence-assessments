@@ -1,0 +1,53 @@
+id: AI-T3-001
+title: "Is Prompt B Really Better? A Regression Gate for Prompts in a Multilingual Care Bot"
+summary: >-
+  Design and implement a statistically defensible regression gate for prompt changes in a multilingual care bot, measure its false-block and detection rates by simulation against a prompt-sensitive mock, and argue what the protocol can and cannot establish.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 3
+unit: AI-02
+format: open-ended
+secondary_formats: [investigation]
+domains: [telecoms, evaluation, prompt-engineering, statistics, nigeria]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - Bootstrap confidence intervals and what clustering does to them
+    - Type I error, power and multiple comparisons
+    - Reading a simulation study and its assumptions
+competencies:
+  - Choosing the unit of resampling and pairing for LLM evaluation with item difficulty and sampling noise
+  - Controlling error across language and attack slices
+  - Planning evaluation set size from effect size and variance
+  - Estimating a gate's false-block and detection rates by simulation
+  - Detecting contamination between prompts and evaluation sets
+  - Writing a validity argument that separates what the mock shows from what real deployments need
+estimated_hours: {min: 24, max: 34}
+difficulty: {technical: 4, mathematical: 4, research: 4, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/prompt_mock.py
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [prompt-evaluation, regression-testing, bootstrap, multiple-comparisons, power, subgroup-analysis, prompt-injection, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
