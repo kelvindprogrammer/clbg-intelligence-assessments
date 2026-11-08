@@ -1,0 +1,53 @@
+id: AI-T2-006
+title: "Needles in the Circular: Chunking and Hybrid Search for a Compliance Desk"
+summary: >-
+  Implement chunking, BM25 and rank fusion from scratch, then build and tune a hybrid retriever over long synthetic regulatory circulars with exact-code and topic queries, and defend it against whole-document lexical and dense baselines on held-out queries.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 2
+unit: AI-04
+format: comparative
+secondary_formats: [optimization]
+domains: [finance, regulation, information-retrieval, nigeria]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - "Cosine similarity and exact nearest-neighbour search"
+    - "Recall@k and mean reciprocal rank"
+    - "Basic term-frequency ideas (TF-IDF)"
+competencies:
+  - "Implementing BM25 and reciprocal rank fusion exactly"
+  - "Choosing chunk size and overlap from evidence rather than habit"
+  - "Designing a fusion rule that serves exact-identifier queries and paraphrase queries"
+  - "Separating development tuning from held-out evaluation"
+  - "Analysing retrieval quality per query type"
+  - "Comparing a hybrid retriever against lexical and dense baselines fairly"
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/circulars.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [hybrid-search, bm25, chunking, rank-fusion, rrf, dense-retrieval, evaluation, regulation, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

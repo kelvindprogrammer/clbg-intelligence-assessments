@@ -1,0 +1,53 @@
+id: AI-T3-003
+title: "The Stale Index: Approximate Nearest-Neighbour Search for a Marketplace Whose Catalogue Keeps Moving"
+summary: >-
+  Implement k-means and an inverted-file ANN index with exact distance accounting on a synthetic marketplace catalogue with head and tail queries and distribution drift, then choose a recall-versus-cost configuration, measure the harm of a stale index, and design and calibrate a rebuild policy with a threats-to-validity analysis.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 3
+unit: AI-04
+format: investigation
+secondary_formats: [system-design]
+domains: [e-commerce, marketplace, approximate-nearest-neighbour, monitoring, nigeria]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - "K-means clustering and the idea of a coarse quantiser"
+    - "Exact nearest-neighbour search and recall@k"
+    - "Distribution shift in embeddings"
+competencies:
+  - "Implementing k-means and an inverted-file index with exact cost accounting"
+  - "Measuring the recall-versus-cost frontier and choosing a configuration under a budget"
+  - "Decomposing quality by query segment and explaining why averages hide failures"
+  - "Quantifying how appends without retraining degrade an index and detecting it from unlabelled signals"
+  - "Designing and calibrating a rebuild policy against a stated definition of harm"
+  - "Arguing what a synthetic generator can and cannot support"
+estimated_hours: {min: 26, max: 36}
+difficulty: {technical: 4, mathematical: 3, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/catalogue.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [ann, ivf, kmeans, recall, drift, monitoring, index-maintenance, tail-queries, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

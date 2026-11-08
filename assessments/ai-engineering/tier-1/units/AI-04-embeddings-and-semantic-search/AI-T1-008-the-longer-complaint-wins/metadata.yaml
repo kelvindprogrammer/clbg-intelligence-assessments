@@ -1,0 +1,52 @@
+id: AI-T1-008
+title: "The Longer Complaint Wins: Building and Evaluating Similarity Search from Scratch"
+summary: >-
+  Implement row normalisation, dot, cosine and L2 scoring, deterministic top-k, recall@k, MRR and nDCG@k from scratch on a deterministic toy embedder, then show and explain why dot-product search is captured by long boilerplate documents while cosine search is not.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 1
+unit: AI-04
+format: implementation
+secondary_formats: [investigation]
+domains: [fintech, customer-support, information-retrieval, nigeria]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - "Numpy matrix multiplication and broadcasting"
+    - "The dot product and vector length"
+    - "Running pytest and reading a failing assertion"
+competencies:
+  - "Implementing similarity metrics and exact top-k search exactly to a specification"
+  - "Handling zero vectors, ties and short corpora correctly"
+  - "Computing recall@k, MRR and nDCG@k with the right conventions"
+  - "Diagnosing why unnormalised dot-product search favours long documents"
+  - "Reporting retrieval quality honestly on a labelled set"
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/faqs.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [embeddings, similarity-search, cosine, dot-product, recall, mrr, ndcg, evaluation, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
