@@ -1,0 +1,54 @@
+id: DS-T2-020
+title: "Which Forecast Do You Trust? Benchmarking Load Forecasts with Honest Intervals on Power Feeders"
+summary: >-
+  Build a benchmark harness and your own forecaster for eight synthetic power-feeder load series, then show with leak-free rolling-origin evidence that it beats a seasonal-naive baseline in accuracy while its 80% intervals are honestly calibrated.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-10
+format: comparative
+secondary_formats: [implementation]
+domains: [power-energy, utilities]
+technologies: [python, pandas, numpy, scipy, pytest]
+prerequisites:
+  knowledge:
+    - "Seasonal-naive baselines and MASE"
+    - "Rolling-origin backtesting"
+    - "Linear regression with indicator and Fourier features"
+    - "Empirical quantiles"
+  recommended_assessments: [DS-T1-025]
+competencies:
+  - "Designing and justifying a forecasting method for trend, weekly and annual seasonality"
+  - "Leak-free benchmarking against a baseline"
+  - "Calibrating prediction intervals empirically"
+  - "Scoring intervals with coverage and the interval score"
+  - "Detecting and handling non-forecastable outage days"
+  - "Arguing from per-series evidence rather than averages"
+estimated_hours: {min: 14, max: 22}
+difficulty: {technical: 3, mathematical: 3, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [forecasting, prediction-intervals, backtesting, power, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

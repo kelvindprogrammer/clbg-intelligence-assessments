@@ -1,0 +1,54 @@
+id: DS-T3-018
+title: "One Number, Many Clinics: Reconciling Hierarchical Forecasts Across a Health Network"
+summary: >-
+  Reconcile incoherent forecasts for a three-level health-network hierarchy with five methods implemented from first principles, evaluate them by level, detect a hidden patient-transfer event that breaks top-down logic, and argue honestly what reconciliation does and does not buy.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-10
+format: comparative
+secondary_formats: [investigation]
+domains: [health, public-health-planning]
+technologies: [python, pandas, numpy, pytest]
+prerequisites:
+  knowledge:
+    - "Rolling-origin evaluation and scale-free errors"
+    - "Matrix algebra: inverses, projections, least squares"
+    - "Sample covariance and shrinkage"
+    - "Reading an applied statistics paper"
+  recommended_assessments: [DS-T2-020]
+competencies:
+  - "Constructing a summing matrix for a hierarchy"
+  - "Implementing reconciliation as a projection and deriving its properties"
+  - "Estimating covariance with shrinkage when the dimension is large relative to the sample"
+  - "Evaluating forecasts by hierarchy level without leakage"
+  - "Detecting structural change in compositional shares"
+  - "Arguing whether a small, noisy improvement is real"
+estimated_hours: {min: 22, max: 34}
+difficulty: {technical: 4, mathematical: 4, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [hierarchical-forecasting, reconciliation, mint, structural-change, health, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

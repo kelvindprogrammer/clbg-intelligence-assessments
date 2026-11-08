@@ -1,0 +1,53 @@
+id: DS-T1-025
+title: "The Agent Who Went Quiet: Baseline Forecasts from a Gappy Mobile-Money Ledger"
+summary: >-
+  Turn a duplicated, gappy mobile-money agent ledger into regular daily series, implement the two baseline forecasters and the MASE metric, and choose a baseline per agent with a leak-free rolling-origin backtest.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-10
+format: implementation
+secondary_formats: [investigation]
+domains: [fintech, mobile-money]
+technologies: [python, pandas, numpy, pytest]
+prerequisites:
+  knowledge:
+    - "Python functions and modules"
+    - "pandas indexing, reindex and groupby"
+    - "NumPy slicing"
+    - "Running pytest"
+  recommended_assessments: []
+competencies:
+  - "Regularising an irregular daily series without inventing data"
+  - "Seasonal-naive and moving-average baselines"
+  - "Scale-free error metrics (MASE)"
+  - "Rolling-origin backtesting without leakage"
+  - "Choosing a baseline per series from evidence"
+estimated_hours: {min: 8, max: 14}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [time-series, baselines, backtesting, mobile-money, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
