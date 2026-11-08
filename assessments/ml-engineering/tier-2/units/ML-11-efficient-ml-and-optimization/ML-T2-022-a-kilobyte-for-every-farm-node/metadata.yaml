@@ -1,0 +1,53 @@
+id: ML-T2-022
+title: "A Kilobyte for Every Farm Node: Quantising and Pruning a Small Network to a Byte Budget"
+summary: >-
+  Compress a trained 24-64-32-4 irrigation-decision MLP to at most 20 percent of its float32 size using quantisation and pruning you implement yourself, choose the configuration from calibration data, and report which choices bought which saving.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-11
+format: optimization
+secondary_formats: [comparative]
+domains: [agriculture, edge-computing, iot]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Forward pass of a ReLU MLP in numpy
+    - Training and scoring a scikit-learn classifier
+    - Train, calibration and test splits
+    - Integer versus floating-point representations
+competencies:
+  - Implementing symmetric integer quantisation
+  - Comparing per-tensor and per-channel scaling
+  - Applying global magnitude pruning
+  - Accounting for real storage cost including indices and scales
+  - Selecting a compression configuration without test-set leakage
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [quantisation, pruning, model-compression, edge-ml, storage-budget, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

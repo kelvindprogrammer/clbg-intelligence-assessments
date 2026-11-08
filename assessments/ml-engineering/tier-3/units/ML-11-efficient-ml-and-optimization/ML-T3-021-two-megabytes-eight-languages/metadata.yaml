@@ -1,0 +1,55 @@
+id: ML-T3-021
+title: "Two Megabytes, Eight Languages: A Compression Study for On-Device Language Identification Under Distribution Shift"
+summary: >-
+  Given a 2 MB hashed n-gram language-ID teacher and an unlabelled transfer pool, build size and compute accounting, a distillation routine, Pareto analysis and a selection rule, then design and defend a study of distillation, pruning, low-rank and quantisation under a clean-to-shifted message distribution gap.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-11
+format: open-ended
+secondary_formats: [comparative]
+domains: [languages, telecoms, edge-computing, nlp]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Linear and logistic models on hashed n-gram features
+    - Ridge regression and its closed form
+    - Quantisation, pruning and low-rank factorisation (ML-T2-022 level)
+    - Confidence in an accuracy estimate (binomial standard error)
+    - Experimental design (ablations and controls)
+competencies:
+  - Building honest size and multiply-add cost models
+  - Distilling a teacher onto a smaller student using unlabelled data
+  - Constructing and reading Pareto frontiers across several objectives
+  - Evaluating models under distribution shift rather than on clean data
+  - Selecting a deployable model with a small validation set and stating the uncertainty
+  - Writing a study protocol with hypotheses, controls and threats to validity
+estimated_hours: {min: 24, max: 36}
+difficulty: {technical: 4, mathematical: 3, research: 4, engineering: 4, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [distillation, compression, pareto, distribution-shift, language-identification, edge-ml, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
