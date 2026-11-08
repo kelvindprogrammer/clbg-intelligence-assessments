@@ -1,0 +1,23 @@
+{
+  "diesel": {
+    "capex": 1800000,
+    "monthly_fixed": 50000,
+    "litres_per_month": 600,
+    "replacement_month": null,
+    "replacement_cost": 0
+  },
+  "solar_battery": {
+    "capex": 14500000,
+    "monthly_fixed": 25000,
+    "litres_per_month": 75,
+    "replacement_month": 72,
+    "replacement_cost": 4000000
+  },
+  "hybrid": {
+    "capex": 9000000,
+    "monthly_fixed": 45000,
+    "litres_per_month": 380,
+    "replacement_month": 60,
+    "replacement_cost": 1800000
+  }
+}

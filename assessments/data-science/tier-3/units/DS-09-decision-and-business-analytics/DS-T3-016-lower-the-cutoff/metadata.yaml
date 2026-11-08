@@ -1,0 +1,54 @@
+id: DS-T3-016
+title: "Lower the Cut-off? A Credit Decision Where Outcomes Exist Only for the Approved"
+summary: >-
+  Decide whether a digital lender should lower its approval cut-off when defaults are observed only for approved loans, using a randomised exploration sample, inverse-propensity weighting, decision-level bootstrap uncertainty and minimax-regret robustness, and write the recommendation memo.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-09
+format: open-ended
+secondary_formats: [optimization]
+domains: [fintech, credit-risk, decision-analysis]
+technologies: [python, numpy, pandas, scipy, pytest]
+prerequisites:
+  knowledge:
+    - Logistic regression
+    - Bootstrap resampling
+    - Expected-value decision analysis
+    - numpy and pandas
+  recommended_assessments: []
+competencies:
+  - Sample-selection and reject-inference reasoning
+  - Inverse-propensity weighting
+  - Profit-based threshold optimisation
+  - Decision-level uncertainty quantification
+  - Minimax-regret robust choice
+  - Experiment ethics in lending
+estimated_hours: {min: 25, max: 40}
+difficulty: {technical: 4, mathematical: 4, research: 4, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [credit-risk, selection-bias, ipw, decision-analysis, robustness, fintech, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

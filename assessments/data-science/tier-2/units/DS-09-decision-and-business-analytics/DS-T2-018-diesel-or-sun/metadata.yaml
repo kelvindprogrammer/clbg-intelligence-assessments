@@ -1,0 +1,54 @@
+id: DS-T2-018
+title: "Diesel or Sun? A Ten-Year Power Decision for a Rural Health Centre"
+summary: >-
+  Fit a fuel-price model, simulate ten-year futures with parameter uncertainty, compare diesel, solar and hybrid power on expected cost and tail risk, and write a board memo with sensitivity analysis.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-09
+format: comparative
+secondary_formats: [optimization]
+domains: [energy, health-infrastructure, decision-analysis]
+technologies: [python, numpy, pandas, scipy, pytest]
+prerequisites:
+  knowledge:
+    - Log returns and random walks
+    - Present value and discounting
+    - Percentiles and simulation
+    - numpy vectorisation
+  recommended_assessments: []
+competencies:
+  - Stochastic price modelling
+  - Monte Carlo cost simulation
+  - Parameter-uncertainty propagation
+  - Risk measures (CVaR)
+  - Sensitivity and break-even analysis
+  - Decision memo writing
+estimated_hours: {min: 14, max: 22}
+difficulty: {technical: 3, mathematical: 3, research: 2, engineering: 2, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [monte-carlo, decision-analysis, energy, cvar, sensitivity-analysis, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
