@@ -1,0 +1,52 @@
+id: ML-T1-009
+title: "Maize Yield Without Peeking: Leakage-Safe Preprocessing Built from Scratch"
+summary: >-
+  Implement a median imputer with missing indicators, a standard scaler, a one-hot encoder and a smoothed out-of-fold target encoder from scratch, and assemble a leakage-safe feature pipeline for predicting smallholder maize yield.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-04
+format: implementation
+secondary_formats: [debugging-forensics]
+domains: [agriculture, agritech]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - numpy arrays, masks and axis operations
+    - Train/test splits and why they exist
+    - The idea of a regression model such as ridge
+competencies:
+  - Fit-on-train, transform-on-test discipline
+  - Median imputation with missingness indicators
+  - Standardisation and its edge cases
+  - One-hot encoding with unknown and rare categories
+  - Smoothed and out-of-fold target encoding for high-cardinality categories
+  - Writing tests that detect data leakage
+estimated_hours: {min: 8, max: 14}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [feature-engineering, leakage, target-encoding, agriculture, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

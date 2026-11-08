@@ -1,0 +1,11 @@
+feature,recorded_at
+amount_ngn,application
+tenor_months,application
+income_ngn,application
+prior_loans,application
+credit_score,application
+phone_changes_12m,application
+dpd_at_month_end,post_disbursement
+collections_calls,post_disbursement
+restructured_flag,post_outcome
+bureau_score_refreshed,application

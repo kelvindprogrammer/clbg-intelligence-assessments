@@ -1,0 +1,53 @@
+id: ML-T2-007
+title: "The Too-Good Credit Model: Leakage Forensics on a Microfinance Default Model"
+summary: >-
+  Audit a microfinance default-prediction dataset for target leakage using documentation and evidence, rebuild a temporal and customer-disjoint evaluation, report the honest performance against the naive one, and check the honest features for drift.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-04
+format: debugging-forensics
+secondary_formats: [comparative]
+domains: [finance, microfinance]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Logistic regression and AUC
+    - Train/test splits and their assumptions
+    - Basic data-quality profiling
+    - numpy and scikit-learn pipelines
+competencies:
+  - Detecting target leakage from timing documentation and from statistical evidence
+  - Designing temporal and group-aware splits
+  - Quantifying the gap between naive and honest evaluation
+  - Detecting covariate drift with the population stability index
+  - Distrusting documentation that contradicts the data
+  - Communicating a model risk finding to a credit committee
+estimated_hours: {min: 14, max: 22}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [leakage, evaluation, credit-risk, psi, microfinance, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

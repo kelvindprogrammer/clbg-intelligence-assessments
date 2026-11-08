@@ -1,0 +1,53 @@
+id: ML-T3-007
+title: "Whose Label Is It Anyway? Spending a Relabelling Budget on Noisy Cassava Disease Annotations"
+summary: >-
+  Estimate label-noise rates per annotator, choose which labels to send for expert relabelling under a budget, train a noise-robust classifier, and defend the trade-offs between cleaning, discarding and modelling the noise, evaluated against hidden truth and a clean test set.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-04
+format: open-ended
+secondary_formats: [investigation, optimization]
+domains: [agriculture, computer-vision-embeddings]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Classification with logistic regression and cross-validation
+    - Confusion matrices and class-conditional errors
+    - The notion of label noise (symmetric and asymmetric)
+    - Experimental design with seeds and uncertainty
+competencies:
+  - Estimating label noise without ground truth
+  - Out-of-fold prediction for finding suspicious labels
+  - Annotator-aware reasoning about systematic versus random error
+  - Allocating a limited expert budget
+  - Noise-robust training by filtering or weighting
+  - Evaluating data-centric interventions with honest uncertainty
+estimated_hours: {min: 24, max: 40}
+difficulty: {technical: 4, mathematical: 3, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [label-noise, data-centric, annotators, active-relabelling, agriculture, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
