@@ -1,0 +1,52 @@
+id: AI-T2-001
+title: "Sharp Sharp or Safe: Choosing Decoding Settings for a USSD Banking Assistant"
+summary: >-
+  Implement softmax with temperature, top-k, top-p, repetition penalty, seeded sampling and beam search against a deterministic mock language model, then choose decoding settings that meet a validity bar and a diversity bar and still hold on held-out seeds.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 2
+unit: AI-01
+format: comparative
+secondary_formats: [implementation]
+domains: [fintech, ussd, llm-fundamentals, nigeria]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - numpy vectorised operations and cumulative sums
+    - Softmax and the meaning of a next-token distribution
+    - Reading a precision-style acceptance criterion and testing it
+competencies:
+  - Implementing temperature, top-k, top-p and repetition penalty correctly, including tie and boundary cases
+  - Seeded, replayable sampling from a next-token distribution
+  - Explaining where beam search beats greedy decoding and where it cannot help
+  - Defining generation metrics (validity, uniqueness, repetition) that match a product requirement
+  - Choosing decoding parameters under competing constraints and checking they generalise to unseen seeds
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 3, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/lm.py
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [sampling, temperature, top-p, beam-search, decoding, evaluation, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

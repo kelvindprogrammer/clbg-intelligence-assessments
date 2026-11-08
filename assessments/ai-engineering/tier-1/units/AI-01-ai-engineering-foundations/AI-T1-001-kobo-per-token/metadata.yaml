@@ -1,0 +1,52 @@
+id: AI-T1-001
+title: "Kobo per Token: Building a Byte-Pair Tokeniser for a Lagos SMS Assistant"
+summary: >-
+  Implement a byte-pair-encoding trainer, encoder, decoder, vocabulary and token-cost calculator with exact tie-breaking, then measure and explain how an English-first tokeniser taxes Yoruba and Pidgin users.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 1
+unit: AI-01
+format: implementation
+secondary_formats: [investigation]
+domains: [telecoms, languages, nlp-fundamentals, nigeria]
+technologies: [python, pytest]
+prerequisites:
+  knowledge:
+    - Python lists, dicts, tuples and sorting with keys
+    - Counting items with collections.Counter
+    - Running pytest and reading a failing assertion
+competencies:
+  - Implementing byte-pair encoding exactly to a written specification
+  - Reasoning about deterministic tie-breaking and edge cases
+  - Verifying an encoder with round-trip and monotonicity properties
+  - Computing token-based cost and fertility
+  - Explaining why tokenisation affects cost and quality across languages
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/corpus.py
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [tokenisation, bpe, multilingual, pricing, yoruba, pidgin, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
