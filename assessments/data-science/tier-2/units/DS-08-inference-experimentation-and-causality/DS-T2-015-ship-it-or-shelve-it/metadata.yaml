@@ -1,0 +1,54 @@
+id: DS-T2-015
+title: "Ship It or Shelve It? Auditing a Fintech A/B Test with Traps"
+summary: >-
+  Audit and analyse a mobile-app A/B test containing sample-ratio mismatch, user contamination, heavy-tailed revenue, multiple metrics and peeking, and deliver a defensible ship decision on several scenarios.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-08
+format: investigation
+secondary_formats: [comparative]
+domains: [fintech, experimentation]
+technologies: [python, numpy, pandas, scipy, pytest]
+prerequisites:
+  knowledge:
+    - Two-proportion tests and confidence intervals
+    - Bootstrap or robust summary statistics
+    - pandas groupby and merge
+    - Running pytest
+  recommended_assessments: []
+competencies:
+  - Experiment validity auditing
+  - Robust effect estimation
+  - Multiple-testing control
+  - Simulation of peeking
+  - Decision rules under uncertainty
+  - Experiment memo writing
+estimated_hours: {min: 14, max: 22}
+difficulty: {technical: 3, mathematical: 3, research: 2, engineering: 2, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [ab-testing, experimentation, srm, multiple-testing, fintech, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

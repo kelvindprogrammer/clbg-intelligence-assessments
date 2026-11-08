@@ -1,0 +1,54 @@
+id: DS-T3-013
+title: "The Minister Wants a Number: Auditing a Staggered Solar Mini-Grid Evaluation"
+summary: >-
+  Audit a two-way fixed-effects evaluation of a staggered rollout by building group-time difference-in-differences estimators, cluster-bootstrap inference, pre-trend diagnostics and ablations, and write a validity argument.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-08
+format: comparative
+secondary_formats: [investigation]
+domains: [energy, policy-evaluation, causal-inference]
+technologies: [python, numpy, pandas, scipy, pytest]
+prerequisites:
+  knowledge:
+    - Linear regression and fixed effects
+    - Potential outcomes and difference-in-differences
+    - Bootstrap resampling
+    - pandas and numpy
+  recommended_assessments: []
+competencies:
+  - Estimand definition for staggered adoption
+  - Group-time difference-in-differences
+  - Cluster bootstrap inference
+  - Pre-trend diagnostics
+  - Ablation design
+  - Causal validity argumentation
+estimated_hours: {min: 25, max: 40}
+difficulty: {technical: 4, mathematical: 4, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [causal-inference, difference-in-differences, policy-evaluation, energy, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

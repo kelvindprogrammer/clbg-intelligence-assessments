@@ -1,0 +1,53 @@
+id: DS-T1-021
+title: "How Sure Is the Average? Confidence Intervals for Mobile-Money Cash-Outs"
+summary: >-
+  Implement t and percentile-bootstrap intervals, a coverage simulator and a regional summary for skewed mobile-money cash-out data, then show by simulation when the textbook interval fails.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-08
+format: implementation
+secondary_formats: [investigation]
+domains: [fintech, statistics]
+technologies: [python, numpy, pandas, scipy, pytest]
+prerequisites:
+  knowledge:
+    - Python functions and numpy arrays
+    - Mean, standard deviation and sampling variation
+    - pandas groupby
+    - Running pytest
+  recommended_assessments: []
+competencies:
+  - Confidence interval construction
+  - Reproducible bootstrap resampling
+  - Coverage simulation
+  - Sample size planning
+  - Communicating uncertainty
+estimated_hours: {min: 8, max: 14}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [confidence-intervals, bootstrap, simulation, fintech, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
