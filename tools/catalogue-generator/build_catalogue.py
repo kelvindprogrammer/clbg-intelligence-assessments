@@ -142,7 +142,10 @@ def build(check: bool) -> int:
                 if target == 0:
                     lines.append(f"### {code}: {u['name']}\n\n_Not offered at this tier._ {u.get('tier_notes', '')}\n")
                     continue
-                lines.append(f"### [{code}: {u['name']}]({rel(tier_readme, unit_dir / 'README.md')})\n\n{u['description']}\n")
+                if items:
+                    lines.append(f"### [{code}: {u['name']}]({rel(tier_readme, unit_dir / 'README.md')})\n\n{u['description']}\n")
+                else:
+                    lines.append(f"### {code}: {u['name']}\n\n{u['description']}\n")
                 if items:
                     lines.append(table(items, tier_readme, ("id", "title", "format", "hours", "status")))
                     lines.append("")
@@ -160,22 +163,21 @@ def build(check: bool) -> int:
                            table(items, unit_readme, ("id", "title", "format", "domain", "hours", "compute", "difficulty")), ""]
                     for a in items:
                         ul.append(f"- **[{a.meta['id']}]({rel(unit_readme, a.path / 'README.md')}): {a.meta['title']}.** {a.meta['summary']}")
-                    other = [t for t in (1, 2, 3) if t != tier and int(u["targets"].get(t, 0)) > 0]
+                    other = [t for t in (1, 2, 3) if t != tier and by_sub_tier_unit.get((sub, t, code))]
                     if other:
                         ul += ["", "## Same unit, other tiers", ""]
                         for t in other:
-                            ul.append(f"- [Tier {t}]({rel(unit_readme, sub_dir / f'tier-{t}' / 'units' / f'{code}-{u['slug']}' / 'README.md')})")
+                            ul.append(f"- [Tier {t}]({rel(unit_readme, sub_dir / f'tier-{t}' / 'units' / (code + '-' + u['slug']) / 'README.md')})")
                     outputs[unit_readme] = "\n".join(ul) + "\n"
             outputs[tier_readme] = "\n".join(lines) + "\n"
 
         # capstones
         caps = [a for a in assessments if a.meta.get("collection") == "capstone" and a.meta.get("subtrack") == sub]
         cap_readme = sub_dir / "capstones" / "README.md"
-        if caps:
-            outputs[cap_readme] = "\n".join([GEN_NOTE, f"# {sinfo['name']}: Capstone Projects", "",
-                "Capstones integrate several units into one substantial, end-to-end piece of work. "
-                "They are the strongest single piece of evidence for tier placement and usually need a full technical defence.", "",
-                table(caps, cap_readme, ("id", "title", "tier", "format", "hours", "status")), ""]) + "\n"
+        outputs[cap_readme] = "\n".join([GEN_NOTE, f"# {sinfo['name']}: Capstone Projects", "",
+            "Capstones integrate several units into one substantial, end-to-end piece of work. "
+            "They are the strongest single piece of evidence for tier placement and usually need a full technical defence.", "",
+            table(caps, cap_readme, ("id", "title", "tier", "format", "hours", "status")) if caps else "_Capstones for this subtrack are in development._", ""]) + "\n"
 
         # subtrack README generated block
         sub_readme = sub_dir / "README.md"
@@ -190,12 +192,11 @@ def build(check: bool) -> int:
                     if int(u["targets"].get(t, 0)) == 0:
                         cells.append("—")
                     elif n_built:
-                        cells.append(f"[{n_built} assessment{'s' if n_built != 1 else ''}]({rel(sub_readme, sub_dir / f'tier-{t}' / 'units' / f'{code}-{u['slug']}' / 'README.md')})")
+                        cells.append(f"[{n_built} assessment{'s' if n_built != 1 else ''}]({rel(sub_readme, sub_dir / f'tier-{t}' / 'units' / (code + '-' + u['slug']) / 'README.md')})")
                     else:
                         cells.append("in development")
                 block.append(f"| **{code}** {u['name']} | " + " | ".join(cells) + " |")
-            if caps:
-                block += ["", f"**Capstones:** [{len(caps)} capstone projects](capstones/README.md)"]
+            block += ["", f"**Capstones:** [{len(caps)} capstone project{'s' if len(caps) != 1 else ''}](capstones/README.md)" if caps else "**Capstones:** [in development](capstones/README.md)"]
             block += ["", END]
             text = sub_readme.read_text(encoding="utf-8")
             if START in text and END in text:

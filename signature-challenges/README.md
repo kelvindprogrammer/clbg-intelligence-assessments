@@ -4,13 +4,13 @@ The Signature Challenges are CLBG's flagship problems. They're memorable, multid
 
 | Category | Code | Spirit |
 |---|---|---|
-| [Intelligence Challenges](intelligence-challenges/) | `SIG-INT` | Problems that require reasoning across data, models and AI systems at once |
-| [Data Challenges](data-challenges/) | `SIG-DATA` | Investigations where the truth is hidden in the data |
-| [Machine Learning Challenges](machine-learning-challenges/) | `SIG-ML` | Learning systems under realistic pressure: shift, imbalance, budgets |
-| [AI Engineering Challenges](ai-engineering-challenges/) | `SIG-AIE` | Building AI systems that are reliable, secure and honest |
-| [Research Challenges](research-challenges/) | `SIG-RES` | Replication and inquiry, where negative results count |
-| [Systems and Optimization Challenges](systems-and-optimization-challenges/) | `SIG-SYS` | Making things fast, small, cheap and robust |
-| [Grand Integrated Challenges](grand-integrated-challenges/) | `SIG-GRAND` | Multi-week, multi-team, end-to-end problems |
+| Intelligence Challenges (`intelligence-challenges/`) | `SIG-INT` | Problems that require reasoning across data, models and AI systems at once |
+| Data Challenges (`data-challenges/`) | `SIG-DATA` | Investigations where the truth is hidden in the data |
+| Machine Learning Challenges (`machine-learning-challenges/`) | `SIG-ML` | Learning systems under realistic pressure: shift, imbalance, budgets |
+| AI Engineering Challenges (`ai-engineering-challenges/`) | `SIG-AIE` | Building AI systems that are reliable, secure and honest |
+| Research Challenges (`research-challenges/`) | `SIG-RES` | Replication and inquiry, where negative results count |
+| Systems and Optimization Challenges (`systems-and-optimization-challenges/`) | `SIG-SYS` | Making things fast, small, cheap and robust |
+| Grand Integrated Challenges (`grand-integrated-challenges/`) | `SIG-GRAND` | Multi-week, multi-team, end-to-end problems |
 
 ## The shared evaluation protocol
 

@@ -41,4 +41,4 @@ This rubric is public so you know exactly how you'll be judged. Assessors also u
 |---|---|
 | … | … |
 
-Outcome bands and placement rules: [placement framework](../../../../../../docs/placement-framework.md).
+Outcome bands and placement rules: placement framework (`docs/placement-framework.md` at the repository root).
