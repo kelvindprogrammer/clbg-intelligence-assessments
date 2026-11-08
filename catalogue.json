@@ -1,6 +1,6 @@
 {
   "generated_by": "tools/catalogue-generator/build_catalogue.py",
-  "count": 68,
+  "count": 85,
   "assessments": [
     {
       "id": "DS-T1-001",
@@ -3707,6 +3707,326 @@
       "path": "assessments/ml-engineering/tier-1/units/ML-06-neural-networks-and-deep-learning/ML-T1-013-the-signal-map"
     },
     {
+      "id": "ML-T1-015",
+      "title": "Reading the Prepaid Meter: Convolution, Pooling and Gradient Histograms from Scratch",
+      "summary": "Implement 2-D convolution, max pooling, Sobel gradients and a gradient-orientation histogram feature from scratch in numpy, then read noisy, shifted synthetic seven-segment meter digits with a nearest-centroid reader and explain why it beats raw pixels.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-07",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "computer-vision",
+        "energy",
+        "utilities"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing 2-D convolution, pooling and gradients without a vision library",
+        "Deriving and checking output-size formulas",
+        "Building shift-tolerant features",
+        "Explaining why a representation generalises better than raw pixels",
+        "Trading coverage for accuracy with a reject option"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "convolution",
+        "pooling",
+        "sobel",
+        "hog",
+        "image-features",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-07-computer-vision/ML-T1-015-reading-the-prepaid-meter"
+    },
+    {
+      "id": "ML-T1-017",
+      "title": "Which Language Is This SMS? A Tokenizer, Character N-Grams and Naive Bayes from Scratch",
+      "summary": "Implement a tokenizer, character n-gram features and a multinomial naive Bayes classifier from scratch, verify the classifier against scikit-learn, and use them to identify English, Nigerian Pidgin and Yoruba-style synthetic SMS despite typos and code-switching.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-08",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "nlp",
+        "languages",
+        "telecoms",
+        "banking"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Writing a deterministic tokenizer with explicit rules",
+        "Generating character n-gram features",
+        "Implementing multinomial naive Bayes with Laplace smoothing",
+        "Computing normalised log-probabilities without underflow",
+        "Explaining why sub-word features resist typos"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "naive-bayes",
+        "char-ngrams",
+        "language-identification",
+        "code-switching",
+        "pidgin",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-08-natural-language-processing/ML-T1-017-which-language-is-this-sms"
+    },
+    {
+      "id": "ML-T1-019",
+      "title": "The Forecast That Peeked: Building a Leak-Free Walk-Forward Backtest for Feeder Load",
+      "summary": "Implement lag features, expanding-window walk-forward splits, a seasonal-naive baseline, MASE and a closed-form ridge autoregression for a synthetic daily feeder-load series, then explain why a backtest that peeks at the future is worthless.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-09",
+      "format": "implementation",
+      "secondary_formats": [
+        "debugging-forensics"
+      ],
+      "domains": [
+        "energy",
+        "power-distribution",
+        "forecasting"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Building lagged design matrices without off-by-one errors",
+        "Designing expanding-window backtests with no look-ahead",
+        "Computing and interpreting MASE against a seasonal-naive baseline",
+        "Implementing ridge regression in closed form with an unpenalised intercept",
+        "Producing recursive multi-step forecasts from history only"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "forecasting",
+        "walk-forward",
+        "mase",
+        "ridge",
+        "autoregression",
+        "leakage",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-09-time-series-machine-learning/ML-T1-019-the-forecast-that-peeked"
+    },
+    {
+      "id": "ML-T1-020",
+      "title": "Ranking Metrics and Nollywood Neighbours: Implementing Item-Based Recommendation from Scratch",
+      "summary": "Implement ranking metrics, a leave-last-out chronological split, item-item cosine similarity, neighbour-based and popularity recommendation, and an evaluation loop on a synthetic Nigerian streaming-app viewing log.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-10",
+      "format": "implementation",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "media",
+        "streaming",
+        "recommender-systems"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing recall, hit rate and NDCG with exact conventions",
+        "Splitting interaction logs chronologically per user",
+        "Building item-item cosine similarity from a binary matrix with safe edge cases",
+        "Producing top-k recommendations that exclude seen items and break ties deterministically",
+        "Comparing a personalised recommender with a popularity baseline"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "recommender",
+        "ndcg",
+        "item-knn",
+        "cosine-similarity",
+        "leave-last-out",
+        "popularity-baseline",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-10-recommender-and-ranking-systems/ML-T1-020-ranking-metrics-and-nollywood-neighbours"
+    },
+    {
+      "id": "ML-T1-021",
+      "title": "The Meter Token Gatekeeper: A Validated, Checksummed Model Bundle and Prediction Function",
+      "summary": "Implement the serving contract for a prepaid-meter bypass-risk model: a strict record validator, a JSON-only checksummed model bundle with version checks, and a batch prediction function that isolates bad records. No network, no framework.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-12",
+      "format": "implementation",
+      "secondary_formats": [
+        "debugging-forensics"
+      ],
+      "domains": [
+        "energy",
+        "utilities",
+        "model-serving"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Specifying and enforcing an input schema",
+        "Serialising a model without executing untrusted code",
+        "Detecting corrupted or tampered artefacts",
+        "Designing batch prediction that isolates failures",
+        "Testing edge cases of a serving function"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 3,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "model-packaging",
+        "input-validation",
+        "serialisation",
+        "integrity",
+        "api-contract",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-12-model-deployment-and-serving/ML-T1-021-the-meter-token-gatekeeper"
+    },
+    {
       "id": "ML-T2-001",
       "title": "When the Normal Equations Lie: Fitting a Feeder-Load Model on Collinear Sensor Data",
       "summary": "On synthetic hourly feeder data with near-duplicate sensor columns and a mid-year sensor vendor change, diagnose ill-conditioning, compare four least-squares solvers, select ridge strength by time-ordered validation and defend the final model.",
@@ -4098,6 +4418,396 @@
         "nigeria"
       ],
       "path": "assessments/ml-engineering/tier-2/units/ML-06-neural-networks-and-deep-learning/ML-T2-012-the-meter-that-lies"
+    },
+    {
+      "id": "ML-T2-014",
+      "title": "The Camera the Farmer Actually Owns: Leaf-Disease Triage Under Camera Shift",
+      "summary": "Train a three-class maize-leaf classifier on clean lab photos so that it works on dim, colour-cast, blurred field-phone photos, using augmentation and robust features, a 90-image field validation set and an honest account of what that set can and cannot tell you.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-07",
+      "format": "investigation",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "computer-vision",
+        "agriculture",
+        "plant-health"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Diagnosing a failure as camera shift rather than model weakness",
+        "Designing augmentation that mimics a target device",
+        "Engineering exposure- and colour-cast-robust features",
+        "Selecting a model on 90 target-domain images and quantifying the uncertainty",
+        "Reporting performance per camera and per class"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "domain-shift",
+        "augmentation",
+        "robustness",
+        "maize",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-07-computer-vision/ML-T2-014-the-camera-the-farmer-actually-owns"
+    },
+    {
+      "id": "ML-T2-016",
+      "title": "Light No Dey: Complaint Triage When the Vocabulary Moves",
+      "summary": "Route synthetic mixed English and Pidgin power-utility complaints into five categories when training data come from before a tariff reform and test data after it, build a stress validation because the plain validation set is saturated, and defer the least confident messages to a human desk under a 15 percent review budget.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-08",
+      "format": "comparative",
+      "secondary_formats": [
+        "system-design"
+      ],
+      "domains": [
+        "nlp",
+        "energy",
+        "customer-service",
+        "pidgin"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Recognising a saturated validation set",
+        "Constructing a stress validation for noisy text",
+        "Comparing word and sub-word representations under drift",
+        "Designing augmentation that simulates misspellings",
+        "Routing by confidence under a review budget and checking that confidence is informative"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "text-classification",
+        "drift",
+        "tfidf",
+        "char-ngrams",
+        "human-in-the-loop",
+        "pidgin",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-08-natural-language-processing/ML-T2-016-light-no-dey-and-the-vocabulary-that-moved"
+    },
+    {
+      "id": "ML-T2-018",
+      "title": "Salary Day at the POS Agent: Forecasting Cash-Out Demand Around Paydays and Holiday Eves",
+      "summary": "Forecast weekly cash-out volumes for 30 synthetic mobile-money agents with a pooled, causally featured model that handles paydays, holiday eves and closed days, selected against a seasonal-naive baseline with time-ordered validation.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-09",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "mobile-money",
+        "forecasting"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Designing causal lag, rolling and calendar features for a panel of series",
+        "Choosing a metric that survives zero-volume days",
+        "Pooling many series in one model with per-series normalisation",
+        "Comparing a seasonal baseline, a linear model and boosting with rolling-origin validation",
+        "Deciding what a four-origin validation can and cannot show",
+        "Writing a decision memo for an operations lead"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "forecasting",
+        "panel-data",
+        "calendar-effects",
+        "rolling-origin",
+        "wape",
+        "mobile-money",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-09-time-series-machine-learning/ML-T2-018-salary-day-cash-out-demand"
+    },
+    {
+      "id": "ML-T2-020",
+      "title": "Seeds, Fertiliser and New Arrivals: A Time-Aware Recommender with Cold-Start Items",
+      "summary": "Build a time-ordered recommender for a synthetic farm-input marketplace, compare popularity, matrix factorisation and an attribute-based hybrid, and show with a validation window that mimics deployment which one survives new product launches.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-10",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "agriculture",
+        "e-commerce",
+        "recommender-systems"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Splitting purchase logs by time rather than at random",
+        "Fitting an implicit-feedback factorisation and a popularity baseline under one code path",
+        "Handling items with no history through attribute-to-factor mapping",
+        "Evaluating overall and on the cold-start segment separately",
+        "Designing the validation window so it contains the same kind of cold-start items as deployment",
+        "Writing a recommendation with its caveats"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "recommender",
+        "cold-start",
+        "matrix-factorisation",
+        "implicit-feedback",
+        "time-aware-evaluation",
+        "agriculture",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-10-recommender-and-ranking-systems/ML-T2-020-seeds-fertiliser-and-new-arrivals"
+    },
+    {
+      "id": "ML-T2-022",
+      "title": "A Kilobyte for Every Farm Node: Quantising and Pruning a Small Network to a Byte Budget",
+      "summary": "Compress a trained 24-64-32-4 irrigation-decision MLP to at most 20 percent of its float32 size using quantisation and pruning you implement yourself, choose the configuration from calibration data, and report which choices bought which saving.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-11",
+      "format": "optimization",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "agriculture",
+        "edge-computing",
+        "iot"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing symmetric integer quantisation",
+        "Comparing per-tensor and per-channel scaling",
+        "Applying global magnitude pruning",
+        "Accounting for real storage cost including indices and scales",
+        "Selecting a compression configuration without test-set leakage"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "quantisation",
+        "pruning",
+        "model-compression",
+        "edge-ml",
+        "storage-budget",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-11-efficient-ml-and-optimization/ML-T2-022-a-kilobyte-for-every-farm-node"
+    },
+    {
+      "id": "ML-T2-024",
+      "title": "Salary Day at the Loan Desk: Micro-Batching a Scoring Service Under a Latency SLO",
+      "summary": "Build an exact single-worker micro-batching simulator, fit the batch cost curve from timing data with garbage-collection spikes, and tune a batching and load-shedding policy that holds a p99 latency SLO on unseen and 25 percent heavier salary-day traffic.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-12",
+      "format": "optimization",
+      "secondary_formats": [
+        "system-design"
+      ],
+      "domains": [
+        "fintech",
+        "digital-lending",
+        "model-serving"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Writing a deterministic discrete-event simulator",
+        "Fitting a linear batch-cost model robustly to noisy timings",
+        "Reasoning about throughput versus tail latency",
+        "Designing a load-shedding rule",
+        "Tuning a policy on one trace and validating on others"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 4,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "serving",
+        "latency",
+        "micro-batching",
+        "load-shedding",
+        "simulation",
+        "slo",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-12-model-deployment-and-serving/ML-T2-024-salary-day-at-the-loan-desk"
     },
     {
       "id": "ML-T3-001",
@@ -4497,6 +5207,404 @@
         "research"
       ],
       "path": "assessments/ml-engineering/tier-3/units/ML-06-neural-networks-and-deep-learning/ML-T3-011-when-does-depth-pay"
+    },
+    {
+      "id": "ML-T3-013",
+      "title": "Which Roof, and Whose Village? Label-Efficient Roof Mapping with Honest Spatial Validation",
+      "summary": "Classify roof material (metal, thatch, concrete tile) in synthetic aerial tiles from ten labelled villages and a pool of unlabelled tiles, quantify how much random splits overstate accuracy, compare supervised, patch-dictionary and normalised features across label budgets, and defend which claims the evidence supports.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-07",
+      "format": "open-ended",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "computer-vision",
+        "energy",
+        "remote-sensing"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Designing and defending a spatially blocked evaluation",
+        "Quantifying how far a random split overstates performance",
+        "Using unlabelled images through learned patch features",
+        "Isolating nuisance variation (village lighting and tint) from signal",
+        "Planning a label budget with evidence and uncertainty",
+        "Writing a validity argument for a synthetic study"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 32
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 2,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "label-efficiency",
+        "spatial-validation",
+        "self-supervised-features",
+        "k-means",
+        "rural-electrification",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-07-computer-vision/ML-T3-013-which-roof-and-whose-village"
+    },
+    {
+      "id": "ML-T3-015",
+      "title": "The Scam Detector That Learned to Shout: Auditing and Hardening an SMS Filter Against Style Shortcuts",
+      "summary": "Audit a synthetic SMS scam filter that relies on an urgent writing style that scammers and genuine senders later stop using consistently, find the shortcut from data with counterfactual flips, measure false-positive and recall harm across English, Pidgin and Yoruba-style messages with intervals, and defend a hardened detector and its limits.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-08",
+      "format": "debugging-forensics",
+      "secondary_formats": [
+        "open-ended"
+      ],
+      "domains": [
+        "nlp",
+        "fintech",
+        "fraud",
+        "responsible-ai"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Detecting a spurious cue from data with counterfactual tests",
+        "Choosing an operating threshold for a false-positive budget",
+        "Measuring subgroup recall and false-positive rate with intervals",
+        "Constructing a validation set that exposes a known failure mode",
+        "Comparing mitigations and defending the trade-offs",
+        "Writing a validity and harm analysis"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 32
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 2,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "shortcut-learning",
+        "spurious-correlation",
+        "robustness",
+        "subgroup-evaluation",
+        "scam-detection",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-08-natural-language-processing/ML-T3-015-the-scam-detector-that-learned-to-shout"
+    },
+    {
+      "id": "ML-T3-017",
+      "title": "After the Devaluation: Calibrated Price Forecasts Across a Structural Break",
+      "summary": "Forecast a weekly staple-food price series through a synthetic currency shock: detect the break, decide how much history to trust, build calibrated 13-week prediction intervals, and argue the policy for the weeks right after a shock when almost no post-break data exists.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-09",
+      "format": "open-ended",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "agriculture",
+        "food-prices",
+        "macroeconomics",
+        "forecasting"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Detecting and dating a structural break in a short series",
+        "Choosing between full-history, rolling-window and post-break training and defending the trade-off",
+        "Building empirically calibrated multi-horizon intervals",
+        "Scoring intervals with coverage and the interval score, not width or accuracy alone",
+        "Designing controls (a no-shock series) and ablations",
+        "Arguing a policy for the period when the new regime is barely observed"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 34
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "structural-break",
+        "prediction-intervals",
+        "conformal",
+        "interval-score",
+        "regime-shift",
+        "food-prices",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-09-time-series-machine-learning/ML-T3-017-after-the-devaluation"
+    },
+    {
+      "id": "ML-T3-019",
+      "title": "Position Bias in the Market Feed: Learning to Rank from Clicks Without Learning Where We Put Things",
+      "summary": "Learn a ranker from position-biased marketplace click logs: estimate the examination curve from a small randomised slice, build an inverse-propensity estimator for policies that were never run, train a debiased ranker, and analyse the cost and benefit of exposing small vendors.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-10",
+      "format": "open-ended",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "e-commerce",
+        "marketplaces",
+        "ranking"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Estimating an examination curve from a randomised slice",
+        "Computing an inverse-propensity estimate of a policy never deployed",
+        "Training a debiased ranker and comparing it with a naive click model and with the logging policy",
+        "Choosing clipping and normalisation and showing their bias-variance effect",
+        "Measuring exposure for a protected group and stating the price of changing it",
+        "Designing a monitoring plan for a feedback loop"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 34
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "learning-to-rank",
+        "position-bias",
+        "inverse-propensity",
+        "counterfactual-evaluation",
+        "exposure",
+        "marketplace",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-10-recommender-and-ranking-systems/ML-T3-019-position-bias-in-the-market-feed"
+    },
+    {
+      "id": "ML-T3-021",
+      "title": "Two Megabytes, Eight Languages: A Compression Study for On-Device Language Identification Under Distribution Shift",
+      "summary": "Given a 2 MB hashed n-gram language-ID teacher and an unlabelled transfer pool, build size and compute accounting, a distillation routine, Pareto analysis and a selection rule, then design and defend a study of distillation, pruning, low-rank and quantisation under a clean-to-shifted message distribution gap.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-11",
+      "format": "open-ended",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "languages",
+        "telecoms",
+        "edge-computing",
+        "nlp"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Building honest size and multiply-add cost models",
+        "Distilling a teacher onto a smaller student using unlabelled data",
+        "Constructing and reading Pareto frontiers across several objectives",
+        "Evaluating models under distribution shift rather than on clean data",
+        "Selecting a deployable model with a small validation set and stating the uncertainty",
+        "Writing a study protocol with hypotheses, controls and threats to validity"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 36
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 4,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "distillation",
+        "compression",
+        "pareto",
+        "distribution-shift",
+        "language-identification",
+        "edge-ml",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-11-efficient-ml-and-optimization/ML-T3-021-two-megabytes-eight-languages"
+    },
+    {
+      "id": "ML-T3-023",
+      "title": "The Month Before the Labels Arrive: Designing a Safe Rollout for a Replacement Credit Model",
+      "summary": "Using a deterministic rollout simulator with delayed loan outcomes, hidden segment-level harm and silent failures, implement the statistics and an auditable rollout controller that rolls back harmful replacement models quickly, promotes good ones in reasonable time, and defend the stage, guardrail and threshold design with ablations.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-12",
+      "format": "system-design",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "agent-banking",
+        "credit-scoring",
+        "model-serving"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Designing a staged rollout with explicit entry and exit criteria",
+        "Combining immediate proxy guardrails with lagged outcome evidence",
+        "Protecting a small segment from harm hidden by the overall average",
+        "Testing non-inferiority with a stated margin",
+        "Quantifying the harm-versus-delay trade-off with a simulator",
+        "Writing an automated controller whose every decision is explained"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 36
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 4,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "rollout",
+        "canary",
+        "shadow-deployment",
+        "rollback",
+        "delayed-labels",
+        "non-inferiority",
+        "guardrails",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-12-model-deployment-and-serving/ML-T3-023-the-month-before-the-labels-arrive"
     }
   ]
 }

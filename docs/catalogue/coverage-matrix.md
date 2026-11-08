@@ -30,12 +30,12 @@ Built assessments versus the planned target, per unit and tier, from `shared/uni
 | ML-04 Feature Engineering and Data for ML | 1/2 | 1/2 | 1/2 |
 | ML-05 Evaluation, Validation and Model Selection | 1/2 | 1/3 | 1/2 |
 | ML-06 Neural Networks and Deep Learning | 1/2 | 1/2 | 1/2 |
-| ML-07 Computer Vision | 0/2 | 0/2 | 0/2 |
-| ML-08 Natural Language Processing | 0/2 | 0/2 | 0/2 |
-| ML-09 Time-Series Machine Learning | 0/1 | 0/2 | 0/2 |
-| ML-10 Recommender and Ranking Systems | 0/1 | 0/2 | 0/2 |
-| ML-11 Efficient ML and Model Optimization | — | 0/2 | 0/2 |
-| ML-12 Model Deployment and Serving | 0/2 | 0/2 | 0/2 |
+| ML-07 Computer Vision | 1/2 | 1/2 | 1/2 |
+| ML-08 Natural Language Processing | 1/2 | 1/2 | 1/2 |
+| ML-09 Time-Series Machine Learning | 1/1 ✅ | 1/2 | 1/2 |
+| ML-10 Recommender and Ranking Systems | 1/1 ✅ | 1/2 | 1/2 |
+| ML-11 Efficient ML and Model Optimization | — | 1/2 | 1/2 |
+| ML-12 Model Deployment and Serving | 1/2 | 1/2 | 1/2 |
 | ML-13 ML Pipelines, MLOps and Monitoring | 0/1 | 0/3 | 0/2 |
 | ML-14 Responsible ML (Fairness, Interpretability and Robustness) | 0/1 | 0/2 | 0/2 |
 
@@ -59,10 +59,10 @@ Built assessments versus the planned target, per unit and tier, from `shared/uni
 
 ## Totals
 
-- Unit assessments built against target: **68/232**
-- Unit assessments (all): 68
+- Unit assessments built against target: **85/232**
+- Unit assessments (all): 85
 - Capstones: 0
 - Cross-disciplinary: 0
 - Signature challenges: 0
-- **Total assessments: 68**
+- **Total assessments: 85**
 

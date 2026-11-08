@@ -55,39 +55,49 @@ Backpropagation from first principles, training dynamics, regularisation, archit
 |---|---|---|---|---|
 | [`ML-T1-013`](units/ML-06-neural-networks-and-deep-learning/ML-T1-013-the-signal-map/README.md) | The Signal Map: Backpropagation From Scratch for a 4G Coverage Classifier | Implementation | 10–16 h | reviewed |
 
-### ML-07: Computer Vision
+### [ML-07: Computer Vision](units/ML-07-computer-vision/README.md)
 
 Image processing, CNNs, transfer learning, detection and segmentation basics, robustness and failure analysis.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-015`](units/ML-07-computer-vision/ML-T1-015-reading-the-prepaid-meter/README.md) | Reading the Prepaid Meter: Convolution, Pooling and Gradient Histograms from Scratch | Implementation | 8–12 h | reviewed |
 
-### ML-08: Natural Language Processing
+### [ML-08: Natural Language Processing](units/ML-08-natural-language-processing/README.md)
 
 Tokenisation, classical and neural text models, transformers, low-resource and African-language NLP.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-017`](units/ML-08-natural-language-processing/ML-T1-017-which-language-is-this-sms/README.md) | Which Language Is This SMS? A Tokenizer, Character N-Grams and Naive Bayes from Scratch | Implementation | 8–12 h | reviewed |
 
-### ML-09: Time-Series Machine Learning
+### [ML-09: Time-Series Machine Learning](units/ML-09-time-series-machine-learning/README.md)
 
 Lag features, leakage-free temporal validation, global models, sequence models and anomaly detection on streams.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-019`](units/ML-09-time-series-machine-learning/ML-T1-019-the-forecast-that-peeked/README.md) | The Forecast That Peeked: Building a Leak-Free Walk-Forward Backtest for Feeder Load | Implementation | 8–12 h | reviewed |
 
-### ML-10: Recommender and Ranking Systems
+### [ML-10: Recommender and Ranking Systems](units/ML-10-recommender-and-ranking-systems/README.md)
 
 Collaborative filtering, matrix factorisation, implicit feedback, ranking metrics and offline evaluation pitfalls.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-020`](units/ML-10-recommender-and-ranking-systems/ML-T1-020-ranking-metrics-and-nollywood-neighbours/README.md) | Ranking Metrics and Nollywood Neighbours: Implementing Item-Based Recommendation from Scratch | Implementation | 8–12 h | reviewed |
 
 ### ML-11: Efficient ML and Model Optimization
 
 _Not offered at this tier._ Tier 1 is not offered. Optimisation presupposes a working, evaluated model and a profiling mindset, both of which are Tier 2 competencies.
 
-### ML-12: Model Deployment and Serving
+### [ML-12: Model Deployment and Serving](units/ML-12-model-deployment-and-serving/README.md)
 
 Model packaging, REST serving, containers, input validation, batch versus online inference and load testing.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-021`](units/ML-12-model-deployment-and-serving/ML-T1-021-the-meter-token-gatekeeper/README.md) | The Meter Token Gatekeeper: A Validated, Checksummed Model Bundle and Prediction Function | Implementation | 8–12 h | reviewed |
 
 ### ML-13: ML Pipelines, MLOps and Monitoring
 

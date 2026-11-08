@@ -36,12 +36,12 @@ ML engineers build models that work **outside the notebook**. This subtrack asse
 | **ML-04** Feature Engineering and Data for ML | [1 assessment](tier-1/units/ML-04-feature-engineering-and-data-for-ml/README.md) | [1 assessment](tier-2/units/ML-04-feature-engineering-and-data-for-ml/README.md) | [1 assessment](tier-3/units/ML-04-feature-engineering-and-data-for-ml/README.md) |
 | **ML-05** Evaluation, Validation and Model Selection | [1 assessment](tier-1/units/ML-05-evaluation-validation-and-model-selection/README.md) | [1 assessment](tier-2/units/ML-05-evaluation-validation-and-model-selection/README.md) | [1 assessment](tier-3/units/ML-05-evaluation-validation-and-model-selection/README.md) |
 | **ML-06** Neural Networks and Deep Learning | [1 assessment](tier-1/units/ML-06-neural-networks-and-deep-learning/README.md) | [1 assessment](tier-2/units/ML-06-neural-networks-and-deep-learning/README.md) | [1 assessment](tier-3/units/ML-06-neural-networks-and-deep-learning/README.md) |
-| **ML-07** Computer Vision | in development | in development | in development |
-| **ML-08** Natural Language Processing | in development | in development | in development |
-| **ML-09** Time-Series Machine Learning | in development | in development | in development |
-| **ML-10** Recommender and Ranking Systems | in development | in development | in development |
-| **ML-11** Efficient ML and Model Optimization | — | in development | in development |
-| **ML-12** Model Deployment and Serving | in development | in development | in development |
+| **ML-07** Computer Vision | [1 assessment](tier-1/units/ML-07-computer-vision/README.md) | [1 assessment](tier-2/units/ML-07-computer-vision/README.md) | [1 assessment](tier-3/units/ML-07-computer-vision/README.md) |
+| **ML-08** Natural Language Processing | [1 assessment](tier-1/units/ML-08-natural-language-processing/README.md) | [1 assessment](tier-2/units/ML-08-natural-language-processing/README.md) | [1 assessment](tier-3/units/ML-08-natural-language-processing/README.md) |
+| **ML-09** Time-Series Machine Learning | [1 assessment](tier-1/units/ML-09-time-series-machine-learning/README.md) | [1 assessment](tier-2/units/ML-09-time-series-machine-learning/README.md) | [1 assessment](tier-3/units/ML-09-time-series-machine-learning/README.md) |
+| **ML-10** Recommender and Ranking Systems | [1 assessment](tier-1/units/ML-10-recommender-and-ranking-systems/README.md) | [1 assessment](tier-2/units/ML-10-recommender-and-ranking-systems/README.md) | [1 assessment](tier-3/units/ML-10-recommender-and-ranking-systems/README.md) |
+| **ML-11** Efficient ML and Model Optimization | — | [1 assessment](tier-2/units/ML-11-efficient-ml-and-optimization/README.md) | [1 assessment](tier-3/units/ML-11-efficient-ml-and-optimization/README.md) |
+| **ML-12** Model Deployment and Serving | [1 assessment](tier-1/units/ML-12-model-deployment-and-serving/README.md) | [1 assessment](tier-2/units/ML-12-model-deployment-and-serving/README.md) | [1 assessment](tier-3/units/ML-12-model-deployment-and-serving/README.md) |
 | **ML-13** ML Pipelines, MLOps and Monitoring | in development | in development | in development |
 | **ML-14** Responsible ML (Fairness, Interpretability and Robustness) | in development | in development | in development |
 

@@ -55,41 +55,53 @@ Backpropagation from first principles, training dynamics, regularisation, archit
 |---|---|---|---|---|
 | [`ML-T3-011`](units/ML-06-neural-networks-and-deep-learning/ML-T3-011-when-does-depth-pay/README.md) | When Does Depth Pay? A Controlled Study of Neural Networks Versus Boosted Trees on Small Agricultural Tables | Investigation | 24–36 h | reviewed |
 
-### ML-07: Computer Vision
+### [ML-07: Computer Vision](units/ML-07-computer-vision/README.md)
 
 Image processing, CNNs, transfer learning, detection and segmentation basics, robustness and failure analysis.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-013`](units/ML-07-computer-vision/ML-T3-013-which-roof-and-whose-village/README.md) | Which Roof, and Whose Village? Label-Efficient Roof Mapping with Honest Spatial Validation | Open-Ended | 24–32 h | reviewed |
 
-### ML-08: Natural Language Processing
+### [ML-08: Natural Language Processing](units/ML-08-natural-language-processing/README.md)
 
 Tokenisation, classical and neural text models, transformers, low-resource and African-language NLP.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-015`](units/ML-08-natural-language-processing/ML-T3-015-the-scam-detector-that-learned-to-shout/README.md) | The Scam Detector That Learned to Shout: Auditing and Hardening an SMS Filter Against Style Shortcuts | Debugging & Forensics | 24–32 h | reviewed |
 
-### ML-09: Time-Series Machine Learning
+### [ML-09: Time-Series Machine Learning](units/ML-09-time-series-machine-learning/README.md)
 
 Lag features, leakage-free temporal validation, global models, sequence models and anomaly detection on streams.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-017`](units/ML-09-time-series-machine-learning/ML-T3-017-after-the-devaluation/README.md) | After the Devaluation: Calibrated Price Forecasts Across a Structural Break | Open-Ended | 24–34 h | reviewed |
 
-### ML-10: Recommender and Ranking Systems
+### [ML-10: Recommender and Ranking Systems](units/ML-10-recommender-and-ranking-systems/README.md)
 
 Collaborative filtering, matrix factorisation, implicit feedback, ranking metrics and offline evaluation pitfalls.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-019`](units/ML-10-recommender-and-ranking-systems/ML-T3-019-position-bias-in-the-market-feed/README.md) | Position Bias in the Market Feed: Learning to Rank from Clicks Without Learning Where We Put Things | Open-Ended | 24–34 h | reviewed |
 
-### ML-11: Efficient ML and Model Optimization
+### [ML-11: Efficient ML and Model Optimization](units/ML-11-efficient-ml-and-optimization/README.md)
 
 Profiling, quantisation, pruning, distillation, ONNX export and latency/memory budgets on CPU hardware.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-021`](units/ML-11-efficient-ml-and-optimization/ML-T3-021-two-megabytes-eight-languages/README.md) | Two Megabytes, Eight Languages: A Compression Study for On-Device Language Identification Under Distribution Shift | Open-Ended | 24–36 h | reviewed |
 
-### ML-12: Model Deployment and Serving
+### [ML-12: Model Deployment and Serving](units/ML-12-model-deployment-and-serving/README.md)
 
 Model packaging, REST serving, containers, input validation, batch versus online inference and load testing.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-023`](units/ML-12-model-deployment-and-serving/ML-T3-023-the-month-before-the-labels-arrive/README.md) | The Month Before the Labels Arrive: Designing a Safe Rollout for a Replacement Credit Model | System Design | 24–36 h | reviewed |
 
 ### ML-13: ML Pipelines, MLOps and Monitoring
 

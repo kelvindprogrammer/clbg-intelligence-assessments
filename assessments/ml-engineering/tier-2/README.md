@@ -55,41 +55,53 @@ Backpropagation from first principles, training dynamics, regularisation, archit
 |---|---|---|---|---|
 | [`ML-T2-012`](units/ML-06-neural-networks-and-deep-learning/ML-T2-012-the-meter-that-lies/README.md) | The Meter That Lies: Training a Neural Network to Catch Prepaid-Meter Tampering | Optimization | 14–22 h | reviewed |
 
-### ML-07: Computer Vision
+### [ML-07: Computer Vision](units/ML-07-computer-vision/README.md)
 
 Image processing, CNNs, transfer learning, detection and segmentation basics, robustness and failure analysis.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-014`](units/ML-07-computer-vision/ML-T2-014-the-camera-the-farmer-actually-owns/README.md) | The Camera the Farmer Actually Owns: Leaf-Disease Triage Under Camera Shift | Investigation | 14–20 h | reviewed |
 
-### ML-08: Natural Language Processing
+### [ML-08: Natural Language Processing](units/ML-08-natural-language-processing/README.md)
 
 Tokenisation, classical and neural text models, transformers, low-resource and African-language NLP.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-016`](units/ML-08-natural-language-processing/ML-T2-016-light-no-dey-and-the-vocabulary-that-moved/README.md) | Light No Dey: Complaint Triage When the Vocabulary Moves | Comparative | 14–20 h | reviewed |
 
-### ML-09: Time-Series Machine Learning
+### [ML-09: Time-Series Machine Learning](units/ML-09-time-series-machine-learning/README.md)
 
 Lag features, leakage-free temporal validation, global models, sequence models and anomaly detection on streams.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-018`](units/ML-09-time-series-machine-learning/ML-T2-018-salary-day-cash-out-demand/README.md) | Salary Day at the POS Agent: Forecasting Cash-Out Demand Around Paydays and Holiday Eves | Comparative | 14–20 h | reviewed |
 
-### ML-10: Recommender and Ranking Systems
+### [ML-10: Recommender and Ranking Systems](units/ML-10-recommender-and-ranking-systems/README.md)
 
 Collaborative filtering, matrix factorisation, implicit feedback, ranking metrics and offline evaluation pitfalls.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-020`](units/ML-10-recommender-and-ranking-systems/ML-T2-020-seeds-fertiliser-and-new-arrivals/README.md) | Seeds, Fertiliser and New Arrivals: A Time-Aware Recommender with Cold-Start Items | Comparative | 14–20 h | reviewed |
 
-### ML-11: Efficient ML and Model Optimization
+### [ML-11: Efficient ML and Model Optimization](units/ML-11-efficient-ml-and-optimization/README.md)
 
 Profiling, quantisation, pruning, distillation, ONNX export and latency/memory budgets on CPU hardware.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-022`](units/ML-11-efficient-ml-and-optimization/ML-T2-022-a-kilobyte-for-every-farm-node/README.md) | A Kilobyte for Every Farm Node: Quantising and Pruning a Small Network to a Byte Budget | Optimization | 14–20 h | reviewed |
 
-### ML-12: Model Deployment and Serving
+### [ML-12: Model Deployment and Serving](units/ML-12-model-deployment-and-serving/README.md)
 
 Model packaging, REST serving, containers, input validation, batch versus online inference and load testing.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-024`](units/ML-12-model-deployment-and-serving/ML-T2-024-salary-day-at-the-loan-desk/README.md) | Salary Day at the Loan Desk: Micro-Batching a Scoring Service Under a Latency SLO | Optimization | 14–20 h | reviewed |
 
 ### ML-13: ML Pipelines, MLOps and Monitoring
 
