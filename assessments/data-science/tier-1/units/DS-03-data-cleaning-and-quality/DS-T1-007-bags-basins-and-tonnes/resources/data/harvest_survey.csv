@@ -1,0 +1,2401 @@
+record_id,state,lga,enumerator_id,interview_date,crop,harvest_qty,harvest_unit,plot_area,area_unit
+HS24-00001,Benue,Otukpo,EN03,2024-10-21,maize,11½,BAG,0.7,Acres
+HS24-00002,Benue,Makurdi,EN12,2024-11-17,maize,21½,bag,1.59,hectares
+HS24-00003,Niger,Lapai,EN14,2024-12-09,rice_paddy,84,bag,1.42,ha
+HS24-00004,Kaduna,Giwa,EN16,2024-11-10,maize,79 1/2,100kg bag,9.0,acre
+HS24-00005,Benue,Otukpo,EN06,2024-11-28,maize,17½,100 kg bag,0.57,ha
+HS24-00006,Niger,Shiroro,EN02,2024-11-14,rice_paddy,119,Basin,0.80,hectare
+HS24-00007,Niger,Shiroro,EN02,2024-10-10,rice_paddy,50.73,MT,77.3,ac
+HS24-00008,Kaduna,Giwa,EN04,2024-12-07,maize,13.5,BAG,0.72,ha
+HS24-00009,Benue,Gboko,EN15,2024-10-04,sorghum,10,bag,0.65,ha
+HS24-00010,Niger,Mokwa,EN11,2024-12-08,rice_paddy,0.7,tons,0.32,ha
+HS24-00011,Niger,Bida,EN05,2024-10-18,maize,21,bags,0.98,hectares
+HS24-00012,Niger,Mokwa,EN02,2024-12-13,sorghum,44.5,kwano,1.24,ha
+HS24-00013,Benue,Otukpo,EN15,2024-11-09,rice_paddy,507,Basin,2.36,Ha
+HS24-00014,Kaduna,Kauru,EN01,2024-11-14,sorghum,109,BASIN,1.21,HA
+HS24-00015,Niger,Mokwa,EN05,2024-11-13,maize,11.5,100 kg bag,"7,500",square metres
+HS24-00016,Benue,Makurdi,EN03,2024-12-18,maize,157.5,small bag,4.26,hectares
+HS24-00017,Kaduna,Kauru,EN04,2024-12-01,sorghum,8,BAG,0.71,ha
+HS24-00018,Kaduna,Kauru,EN16,2024-12-01,sorghum,13.5,100 kg bag,1.57,ha
+HS24-00019,Kaduna,Kauru,EN10,2024-11-20,maize,14,BAG,2.3,acre
+HS24-00020,Niger,Shiroro,EN11,2024-10-17,rice_paddy,162.5,Basin,2.2,Acres
+HS24-00021,Niger,Shiroro,EN02,2024-12-13,rice_paddy,1.91,MT,1.07,ha
+HS24-00022,Kaduna,Kauru,EN13,2024-11-18,maize,63,big bag,1.35,HA
+HS24-00023,Niger,Lapai,EN11,2024-12-15,cowpea,59,MUDU,0.5,Acres
+HS24-00024,Benue,Katsina-Ala,EN03,2024-11-20,maize,32.5,small bag,1.55,ha
+HS24-00025,Benue,Otukpo,EN15,2024-12-14,maize,47.5,Basin,0.75,ha
+HS24-00026,Kaduna,Giwa,EN16,2024-11-17,sorghum,14,bags,1.37,ha
+HS24-00027,Benue,Gboko,EN15,2024-10-01,sorghum,4,bag,1.0,acres
+HS24-00028,Benue,Gboko,EN03,2024-11-15,sorghum,42 1/2,100kg bag,2.88,Ha
+HS24-00029,Niger,Mokwa,EN11,2024-10-05,maize,6.5,kgs,1.0,acres
+HS24-00030,Benue,Gboko,EN15,2024-11-07,rice_paddy,0,kg,0.74,hectares
+HS24-00031,Niger,Bida,EN11,2024-11-16,maize,12,kgs,0.43,Ha
+HS24-00032,Benue,Otukpo,EN03,2024-12-16,rice_paddy,37,100kg bag,2.3,acres
+HS24-00033,Kaduna,Giwa,EN16,2024-10-17,maize,N/A,BAG,1.9,Acres
+HS24-00034,Benue,Otukpo,EN06,2024-11-19,rice_paddy,28,Bags,1.09,ha
+HS24-00035,Benue,Makurdi,EN03,2024-11-18,rice_paddy,87½,small bag,1.19,ha
+HS24-00036,Kaduna,Kachia,EN13,2024-11-12,maize,0,basin,7000,square metres
+HS24-00037,Benue,Gboko,EN03,2024-12-08,cowpea,5.5,bag (50kg),0.66,ha
+HS24-00038,Benue,Gboko,EN12,2024-10-11,maize,22½,kwano,0.26,Ha
+HS24-00039,Benue,Gboko,EN12,2024-11-11,rice_paddy,"1,270",kg,1.7,ac
+HS24-00040,Benue,Otukpo,EN12,2024-10-05,sorghum,7.5,big bag,0.59,ha
+HS24-00041,Kaduna,Kauru,EN13,2024-11-07,maize,48,bag (50kg),1.11,HA
+HS24-00042,Kaduna,Kauru,EN01,2024-11-08,rice_paddy,13½,bag (50kg),0.40,ha
+HS24-00043,Niger,Mokwa,EN11,2024-11-26,sorghum,10,kgs,0.45,ha
+HS24-00044,Benue,Makurdi,EN12,2024-12-07,cowpea,11,bag (100kg),1.28,ha
+HS24-00045,Niger,Bida,EN14,2024-11-17,sorghum,390,kilo,0.42,ha
+HS24-00046,Kaduna,Kauru,EN01,2024-10-05,sorghum,24½,BASIN,0.44,Ha
+HS24-00047,Niger,Lapai,EN11,2024-12-16,sorghum,3,kg,0.66,hectares
+HS24-00048,Kaduna,Giwa,EN07,2024-11-09,sorghum,258,mudu,0.49,ha
+HS24-00049,Benue,Otukpo,EN09,2024-12-04,maize,43 1/2,Basin,1.4,ac
+HS24-00050,Kaduna,Zaria,EN16,2024-11-21,maize,19.5,bag,12100,sq m
+HS24-00051,Niger,Shiroro,EN11,2024-12-12,maize,34 1/2,100 kg bag,1.96,hectare
+HS24-00052,Kaduna,Zaria,EN07,2024-10-08,cowpea,43,paint bucket,0.45,hectare
+HS24-00053,Benue,Katsina-Ala,EN03,2024-11-09,maize,30.5,100 kg bag,0.48,Ha
+HS24-00054,Benue,Katsina-Ala,EN15,2024-12-15,rice_paddy,67,50kg bag,2.7,Acres
+HS24-00055,Niger,Bida,EN14,2024-11-22,maize,25.5,100 kg bag,"15,100",m²
+HS24-00056,Niger,Shiroro,EN08,2024-10-07,maize,19,bag (100kg),1.08,hectares
+HS24-00057,Kaduna,Kachia,EN07,2024-11-04,maize,7½,Bags,0.49,ha
+HS24-00058,Benue,Gboko,EN03,2024-11-01,cowpea,380,kg,0.55,ha
+HS24-00059,Kaduna,Giwa,EN10,2024-11-23,maize,23.5,bag (50kg),0.54,ha
+HS24-00060,Kaduna,Giwa,EN07,2024-11-21,sorghum,1010,kilogram,1.40,ha
+HS24-00061,Niger,Shiroro,EN11,2024-10-02,maize,10,bag,1.11,ha
+HS24-00062,Benue,Katsina-Ala,EN06,2024-11-03,maize,26½,100 kg bag,1.16,hectare
+HS24-00063,Kaduna,Kachia,EN13,2024-11-01,cowpea,58,BASIN,1.68,hectares
+HS24-00064,Kaduna,Kachia,EN07,2024-12-20,sorghum,22½,bags,0.98,hectares
+HS24-00065,Kaduna,Giwa,EN01,2024-11-26,maize,18,big bag,1.4,acre
+HS24-00066,Benue,Katsina-Ala,EN06,2024-11-10,cowpea,4,bag (100kg),1.59,HA
+HS24-00067,Kaduna,Zaria,EN01,2024-10-23,maize,8.5,big bag,"3,300",square metres
+HS24-00068,Niger,Mokwa,EN02,2024-12-19,sorghum,5 1/2,Bags,2.9,ac
+HS24-00069,Kaduna,Giwa,EN16,2024-12-01,maize,14½,bags,0.64,HA
+HS24-00070,Benue,Katsina-Ala,EN15,2024-10-06,maize,12.5,BAG,0.73,ha
+HS24-00071,Niger,Bida,EN11,2024-10-09,sorghum,815,kilogram,0.9,Acres
+HS24-00072,Kaduna,Kauru,EN07,2024-12-04,maize,18½,big bag,0.68,Ha
+HS24-00073,Niger,Lapai,EN14,2024-11-07,maize,"3,465",KG,2.8,Acres
+HS24-00074,Niger,Bida,EN02,2024-11-17,maize,41½,50kg bags,2.1,Acres
+HS24-00075,Kaduna,Giwa,EN16,2024-11-26,maize,"5,425",KG,"18,700",sq m
+HS24-00076,Benue,Katsina-Ala,EN09,2024-12-06,rice_paddy,27.5,bags,2.7,Acres
+HS24-00077,Niger,Mokwa,EN02,2024-11-28,maize,16.5,big bag,0.80,ha
+HS24-00078,Kaduna,Zaria,EN07,2024-11-14,sorghum,6 1/2,bag,1.4,Acres
+HS24-00079,Kaduna,Zaria,EN04,2024-11-27,rice_paddy,49.5,basins,1.8,acres
+HS24-00080,Kaduna,Kachia,EN01,2024-12-05,cowpea,2½,50kg bag,0.18,ha
+HS24-00081,Benue,Gboko,EN09,2024-11-25,maize,990,tons,"6,200",sq m
+HS24-00082,Niger,Lapai,EN08,2024-11-04,sorghum,4,bags,0.64,hectare
+HS24-00083,Niger,Bida,EN02,2024-10-26,maize,25.5,bag,1.69,ha
+HS24-00084,Niger,Mokwa,EN08,2024-11-24,rice_paddy,3955,Kg,4.4,ac
+HS24-00085,Kaduna,Giwa,EN13,2024-12-04,rice_paddy,"1,610",kilo,1.4,acre
+HS24-00086,Benue,Gboko,EN03,2024-11-06,maize,33.5,basin,0.52,Ha
+HS24-00087,Kaduna,Kachia,EN04,2024-11-18,rice_paddy,90½,50kg bags,"8,200",square metres
+HS24-00088,Benue,Gboko,EN09,2024-12-19,sorghum,11,big bag,4.2,acres
+HS24-00089,Kaduna,Zaria,EN10,2024-11-01,sorghum,405,kg,2.1,acre
+HS24-00090,Benue,Otukpo,EN03,2024-11-24,sorghum,19.5,Basin,0.38,HA
+HS24-00091,Benue,Gboko,EN03,2024-12-04,maize,0,kg,5.8,acre
+HS24-00092,Kaduna,Kauru,EN13,2024-11-02,maize,39,bag,1.84,ha
+HS24-00093,Benue,Katsina-Ala,EN15,2024-11-05,maize,13½,100kg bag,0.57,ha
+HS24-00094,Niger,Bida,EN02,2024-12-04,maize,37 1/2,bag,15000,m2
+HS24-00095,Benue,Makurdi,EN12,2024-10-05,sorghum,"1,045",kilogram,1.83,Ha
+HS24-00096,Kaduna,Kauru,EN10,2024-12-08,cowpea,4,100kg bag,0.96,ha
+HS24-00097,Benue,Makurdi,EN03,2024-12-18,maize,54½,kwano,1.7,acre
+HS24-00098,Kaduna,Kachia,EN04,2024-12-12,sorghum,4½,bag,1.3,Acres
+HS24-00099,Niger,Shiroro,EN14,2024-10-24,sorghum,17,50 kg bag,0.67,ha
+HS24-00100,Niger,Shiroro,EN02,2024-12-02,cowpea,6,100kg bag,2.7,ac
+HS24-00101,Niger,Bida,EN02,2024-10-20,cowpea,4,Bags,0.68,ha
+HS24-00102,Benue,Otukpo,EN15,2024-10-17,maize,20½,50kg bag,0.54,hectares
+HS24-00103,Kaduna,Kauru,EN04,2024-11-04,sorghum,-,kgs,0.70,ha
+HS24-00104,Benue,Makurdi,EN06,2024-11-28,rice_paddy,41,small bag,"7,000",m2
+HS24-00105,Niger,Mokwa,EN08,2024-12-15,rice_paddy,75,half bag,0.60,hectares
+HS24-00106,Niger,Bida,EN05,2024-11-27,maize,13,100 kg bag,1.3,Acres
+HS24-00107,Niger,Bida,EN11,2024-12-20,maize,-,Kg,1.11,hectares
+HS24-00108,Kaduna,Kauru,EN13,2024-12-07,maize,11,big bag,4400,square metres
+HS24-00109,Kaduna,Zaria,EN10,2024-11-28,cowpea,nil,50 kg bag,1.1,ac
+HS24-00110,Niger,Lapai,EN02,2024-11-21,maize,80½,basin,1.62,hectare
+HS24-00111,Kaduna,Giwa,EN16,2024-12-12,rice_paddy,54,half bag,1.05,Ha
+HS24-00112,Niger,Lapai,EN11,2024-12-07,cowpea,9.5,kgs,5.0,ac
+HS24-00113,Benue,Makurdi,EN06,2024-12-05,rice_paddy,"1,115",kg,0.59,ha
+HS24-00114,Benue,Katsina-Ala,EN15,2024-12-14,rice_paddy,138,basin,10700,square metres
+HS24-00115,Kaduna,Zaria,EN04,2024-12-19,maize,95.5,BASIN,4.3,ac
+HS24-00116,Kaduna,Kauru,EN13,2024-12-11,rice_paddy,82.5,Basin,0.87,hectare
+HS24-00117,Niger,Mokwa,EN14,2024-12-19,sorghum,48.5,50kg bags,1.42,ha
+HS24-00118,Kaduna,Kachia,EN13,2024-10-13,rice_paddy,22 1/2,50kg bag,7000,square metres
+HS24-00119,Kaduna,Zaria,EN13,2024-12-12,maize,13½,small bag,0.75,ha
+HS24-00120,Niger,Mokwa,EN14,2024-10-01,sorghum,67,bag (50kg),3.9,acre
+HS24-00121,Niger,Mokwa,EN14,2024-11-19,maize,0.58,MT,0.29,ha
+HS24-00122,Kaduna,Giwa,EN01,2024-11-03,sorghum,6.5,bag,0.84,ha
+HS24-00123,Kaduna,Giwa,EN01,2024-10-19,maize,18,big bag,"5,100",m²
+HS24-00124,Kaduna,Kauru,EN13,2024-10-24,maize,12,BAG,1.07,ha
+HS24-00125,Kaduna,Kauru,EN04,2024-10-16,maize,18,bags,1.10,ha
+HS24-00126,Kaduna,Giwa,EN10,2024-11-18,maize,22.5,bags,0.72,ha
+HS24-00127,Kaduna,Giwa,EN16,2024-12-19,maize,125.5,BASIN,1.17,hectares
+HS24-00128,Benue,Katsina-Ala,EN09,2024-10-21,cowpea,12,pickup,2.24,hectare
+HS24-00129,Niger,Mokwa,EN14,2024-12-11,sorghum,3,BAG,3500,m2
+HS24-00130,Benue,Gboko,EN03,2024-12-10,maize,28,small bag,0.54,ha
+HS24-00131,Kaduna,Giwa,EN13,2024-11-07,sorghum,6,small bag,0.27,hectare
+HS24-00132,Kaduna,Zaria,EN04,2024-11-02,sorghum,11,100 kg bag,2.9,acre
+HS24-00133,Kaduna,Kauru,EN04,2024-11-25,rice_paddy,2545,kgs,3.4,acre
+HS24-00134,Benue,Otukpo,EN15,2024-10-14,maize,12.5,basins,0.18,Ha
+HS24-00135,Niger,Mokwa,EN08,2024-10-16,cowpea,192,mudu,0.58,hectare
+HS24-00136,Benue,Otukpo,EN06,2024-12-17,cowpea,4.5,big bag,0.99,Ha
+HS24-00137,Niger,Shiroro,EN14,2024-11-11,maize,7,100kg bag,0.57,Ha
+HS24-00138,Benue,Gboko,EN09,2024-10-04,sorghum,18 1/2,bag (100kg),"18,100",sq m
+HS24-00139,Kaduna,Giwa,EN07,2024-12-16,sorghum,4095,kilogram,7.3,ac
+HS24-00140,Kaduna,Kachia,EN04,2024-12-07,cowpea,14,Basin,1.5,acre
+HS24-00141,Benue,Makurdi,EN09,2024-12-08,rice_paddy,28,bag (100kg),0.90,hectares
+HS24-00142,Benue,Makurdi,EN12,2024-12-16,sorghum,505,KG,0.71,Ha
+HS24-00143,Benue,Katsina-Ala,EN06,2024-10-23,maize,19½,BAG,2.5,acre
+HS24-00144,Benue,Makurdi,EN06,2024-11-27,maize,"1,180",kilos,0.65,hectare
+HS24-00145,Kaduna,Kauru,EN04,2024-12-06,cowpea,5 1/2,big bag,5800,ha
+HS24-00146,Kaduna,Zaria,EN07,2024-10-11,rice_paddy,47½,BAG,0.68,ha
+HS24-00147,Niger,Bida,EN08,2024-10-23,cowpea,6½,bag,0.92,ha
+HS24-00148,Benue,Otukpo,EN03,2024-12-06,maize,11,big bag,9000,ha
+HS24-00149,Niger,Shiroro,EN08,2024-12-18,rice_paddy,2028,modu,0.96,ha
+HS24-00150,Niger,Shiroro,EN02,2024-11-19,cowpea,19 1/2,50 kg bag,3.7,acres
+HS24-00151,Kaduna,Kauru,EN01,2024-12-01,maize,20 1/2,BAG,1.25,hectare
+HS24-00152,Kaduna,Giwa,EN10,2024-11-14,rice_paddy,192.5,basins,1.77,ha
+HS24-00153,Benue,Makurdi,EN12,2024-12-09,maize,59,50kg bag,5.4,Acres
+HS24-00154,Niger,Mokwa,EN02,2024-10-23,rice_paddy,"1,965",kgs,1.09,hectare
+HS24-00155,Kaduna,Zaria,EN16,2024-11-02,maize,"1,475",kilo,0.58,ha
+HS24-00156,Niger,Bida,EN14,2024-12-19,maize,"2,615",kilo,11500,square metres
+HS24-00157,Kaduna,Giwa,EN16,2024-10-19,sorghum,4½,big bag,0.61,ha
+HS24-00158,Kaduna,Kauru,EN10,2024-10-04,maize,6,heap,1.04,Ha
+HS24-00159,Kaduna,Giwa,EN07,2024-12-08,maize,470,basin,11.3,Acres
+HS24-00160,Niger,Shiroro,EN05,2024-12-13,sorghum,61,kwano,2.7,Acres
+HS24-00161,Kaduna,Giwa,EN10,2024-11-28,sorghum,630,KG,2.9,acre
+HS24-00162,Benue,Otukpo,EN15,2024-11-22,maize,23,BAG,1.71,Ha
+HS24-00163,Niger,Shiroro,EN14,2024-10-12,sorghum,13 1/2,bag,1.16,hectare
+HS24-00164,Benue,Katsina-Ala,EN03,2024-11-24,maize,6 1/2,Bags,0.49,hectare
+HS24-00165,Niger,Bida,EN08,2024-12-06,maize,19½,bag (100kg),1.15,Ha
+HS24-00166,Kaduna,Kachia,EN01,2024-10-23,maize,162,bag (100kg),29900,ha
+HS24-00167,Kaduna,Kachia,EN10,2024-11-12,cowpea,10.5,100 kg bag,1.49,ha
+HS24-00168,Kaduna,Kachia,EN07,2024-12-18,cowpea,2,BAG,0.30,ha
+HS24-00169,Kaduna,Zaria,EN13,2024-12-10,rice_paddy,14.5,bag,5600,sq m
+HS24-00170,Kaduna,Zaria,EN13,2024-11-26,maize,11,big bag,0.51,HA
+HS24-00171,Benue,Gboko,EN12,2024-12-20,maize,10.5,BAG,1.01,hectares
+HS24-00172,Niger,Mokwa,EN08,2024-10-09,maize,17,big bag,0.67,ha
+HS24-00173,Niger,Shiroro,EN08,2024-12-18,maize,47,kwano,1.20,hectares
+HS24-00174,Benue,Makurdi,EN09,2024-12-03,maize,20,bag,0.56,hectares
+HS24-00175,Kaduna,Kachia,EN01,2024-12-10,maize,1.11,t,1.20,hectares
+HS24-00176,Niger,Mokwa,EN05,2024-11-06,maize,15,100kg bag,8400,square metres
+HS24-00177,Kaduna,Kachia,EN01,2024-10-05,rice_paddy,121,bags,1.79,Ha
+HS24-00178,Niger,Lapai,EN08,2024-11-22,rice_paddy,2 1/2,100kg bag,0.3,Acres
+HS24-00179,Kaduna,Kauru,EN13,2024-10-28,cowpea,22.5,BASIN,  ,hectare
+HS24-00180,Niger,Lapai,EN08,2024-12-02,sorghum,27,bags,4.5,acres
+HS24-00181,Niger,Lapai,EN02,2024-12-10,sorghum,7,100kg bag,1.72,ha
+HS24-00182,Benue,Gboko,EN06,2024-12-05,cowpea,nil,small bag,0.94,ha
+HS24-00183,Benue,Gboko,EN15,2024-12-10,rice_paddy,"1,750",kilogram,0.57,ha
+HS24-00184,Niger,Lapai,EN14,2024-10-12,rice_paddy,2.5,bag,0.3,Acres
+HS24-00185,Niger,Mokwa,EN05,2024-12-09,maize,21,Basin,0.29,hectares
+HS24-00186,Niger,Lapai,EN11,2024-10-08,sorghum,42,basin,0.44,Ha
+HS24-00187,Benue,Makurdi,EN03,2024-10-07,maize,15.5,bag (100kg),0.85,HA
+HS24-00188,Niger,Mokwa,EN02,2024-11-18,sorghum,7,100kg bag,1.2,ac
+HS24-00189,Kaduna,Giwa,EN16,2024-11-17,maize,4,bags,0.30,HA
+HS24-00190,Kaduna,Kauru,EN07,2024-10-15,rice_paddy,38½,bags,"17,500",square metres
+HS24-00191,Benue,Otukpo,EN06,2024-10-28,maize,N/A,BAG,1.2,acres
+HS24-00192,Kaduna,Kauru,EN10,2024-10-11,rice_paddy,23,bag (100kg),0.89,ha
+HS24-00193,Kaduna,Kauru,EN01,2024-12-19,rice_paddy,16,100 kg bag,0.9,ac
+HS24-00194,Niger,Bida,EN02,2024-10-14,maize,20,100 kg bag,3.5,ac
+HS24-00195,Kaduna,Kachia,EN07,2024-12-15,maize,55,Basin,6800,sq m
+HS24-00196,Benue,Otukpo,EN06,2024-11-10,rice_paddy,12.5,bags,0.51,Ha
+HS24-00197,Niger,Lapai,EN08,2024-11-09,maize,75.5,half bag,2.72,hectare
+HS24-00198,Benue,Katsina-Ala,EN06,2024-10-16,rice_paddy,23.5,bag (100kg),0.50,Ha
+HS24-00199,Benue,Otukpo,EN15,2024-11-04,cowpea,4,100 kg bag,0.41,hectare
+HS24-00200,Niger,Mokwa,EN08,2024-12-07,maize,3,bag (100kg),0.23,ha
+HS24-00201,Benue,Otukpo,EN12,2024-10-25,rice_paddy,120.5,50kg bags,2.15,ha
+HS24-00202,Niger,Lapai,EN05,2024-11-10,sorghum,6½,100kg bag,1.07,hectares
+HS24-00203,Benue,Makurdi,EN15,2024-12-16,maize,16,bag (100kg),0.81,hectare
+HS24-00204,Kaduna,Giwa,EN01,2024-10-15,rice_paddy,90 1/2,BASIN,1.1,ac
+HS24-00205,Kaduna,Kachia,EN16,2024-10-17,sorghum,3,bag,0.8,acre
+HS24-00206,Benue,Makurdi,EN12,2024-12-03,sorghum,27,50kg bag,4.9,acre
+HS24-00207,Benue,Katsina-Ala,EN06,2024-11-27,sorghum,21,Bags,4.0,acre
+HS24-00208,Benue,Gboko,EN15,2024-11-06,sorghum,59,basin,1.80,Ha
+HS24-00209,Kaduna,Zaria,EN07,2024-10-01,rice_paddy,36,bags,1.25,ha
+HS24-00210,Niger,Lapai,EN05,2024-12-16,maize,18½,BAG,"10,000",m2
+HS24-00211,Benue,Makurdi,EN06,2024-10-05,rice_paddy,27,Bags,0.67,ha
+HS24-00212,Benue,Katsina-Ala,EN03,2024-12-17,rice_paddy,11,bag (100kg),"2,700",m²
+HS24-00213,Benue,Otukpo,EN12,2024-12-09,cowpea,18,small bag,1.00,Ha
+HS24-00214,Kaduna,Giwa,EN04,2024-11-21,rice_paddy,36,bags,2.4,ac
+HS24-00215,Kaduna,Kauru,EN04,2024-10-24,maize,34 1/2,bags,1.73,ha
+HS24-00216,Niger,Shiroro,EN14,2024-10-02,sorghum,33,basins,0.75,hectare
+HS24-00217,Kaduna,Kachia,EN10,2024-10-09,maize,192.5,BASIN,1.45,Ha
+HS24-00218,Kaduna,Zaria,EN13,2024-10-02,sorghum,7½,100kg bag,"10,500",sq m
+HS24-00219,Benue,Makurdi,EN06,2024-12-02,cowpea,615,kg,2.6,Acres
+HS24-00220,Kaduna,Zaria,EN10,2024-10-21,maize,39,BASIN,0.61,ha
+HS24-00221,Benue,Makurdi,EN03,2024-12-01,maize,36.5,bag,1.06,ha
+HS24-00222,Kaduna,Kauru,EN13,2024-10-04,maize,9,100kg bag,3500,sq m
+HS24-00223,Niger,Shiroro,EN02,2024-11-14,sorghum,9 1/2,50 kg bag,1.11,Ha
+HS24-00224,Benue,Otukpo,EN15,2024-12-03,maize,995,kilos,0.54,ha
+HS24-00225,Benue,Otukpo,EN03,2024-12-04,sorghum,37.5,basin,0.45,ha
+HS24-00226,Niger,Shiroro,EN05,2024-11-20,maize,5,big bag,0.28,hectares
+HS24-00227,Benue,Makurdi,EN12,2024-12-09,maize,13.5,bag (100kg),0.50,hectare
+HS24-00228,Niger,Bida,EN05,2024-12-03,maize,6.5,bag,0.26,ha
+HS24-00229,Benue,Otukpo,EN06,2024-11-10,cowpea,0,Kg,0.89,HA
+HS24-00230,Benue,Gboko,EN06,2024-10-03,maize,10,50 kg bag,0.32,ha
+HS24-00231,Kaduna,Kachia,EN13,2024-11-19,maize,1.5,bag,0.25,hectare
+HS24-00232,Kaduna,Giwa,EN16,2024-10-24,rice_paddy,105 1/2,BASIN,1.18,hectares
+HS24-00233,Benue,Katsina-Ala,EN15,2024-12-05,sorghum,"1,045",kilos,2.0,Acres
+HS24-00234,Kaduna,Giwa,EN16,2024-10-19,maize,2,big bag,0.23,ha
+HS24-00235,Niger,Mokwa,EN11,2024-10-08,cowpea,22 1/2,kg,1.98,Ha
+HS24-00236,Niger,Lapai,EN08,2024-10-14,maize,4.5,BAG,0.26,Ha
+HS24-00237,Niger,Bida,EN14,2024-12-08,rice_paddy,7 1/2,bag,0.36,hectares
+HS24-00238,Niger,Mokwa,EN05,2024-12-17,cowpea,2,BAG,0.40,Ha
+HS24-00239,Niger,Mokwa,EN08,2024-12-11,maize,14.5,100kg bag,0.48,HA
+HS24-00240,Niger,Lapai,EN02,2024-12-17,maize,30,bag,14000,m2
+HS24-00241,Niger,Shiroro,EN11,2024-11-05,sorghum,17,100kg bag,1.19,ha
+HS24-00242,Benue,Gboko,EN15,2024-12-11,maize,13,BAG,2.0,ac
+HS24-00243,Kaduna,Giwa,EN10,2024-12-07,maize,13 1/2,Bags,7600,m2
+HS24-00244,Benue,Makurdi,EN06,2024-10-05,maize,6,cart,"7,200",sq m
+HS24-00245,Kaduna,Kauru,EN07,2024-11-10,maize,5,100 kg bag,0.26,hectares
+HS24-00246,Benue,Gboko,EN09,2024-11-28,rice_paddy,5.5,big bag,0.36,ha
+HS24-00247,Niger,Shiroro,EN11,2024-10-06,sorghum,18,cart,3.2,acre
+HS24-00248,Niger,Lapai,EN02,2024-10-21,cowpea,"1,480",KG,4.0,Acres
+HS24-00249,Kaduna,Kauru,EN13,2024-10-21,maize,40,basins,1.14,ha
+HS24-00250,Niger,Shiroro,EN05,2024-12-19,sorghum,11,50kg bags,1.2,acre
+HS24-00251,Benue,Katsina-Ala,EN09,2024-12-17,rice_paddy,70,BAG,1.32,ha
+HS24-00252,Niger,Bida,EN14,2024-12-12,maize,10,100 kg bag,0.87,HA
+HS24-00253,Kaduna,Giwa,EN10,2024-12-03,cowpea,2.5,bag,0.8,ac
+HS24-00254,Niger,Bida,EN08,2024-12-01,cowpea,15,half bag,"10,800",square metres
+HS24-00255,Niger,Shiroro,EN11,2024-10-19,maize,,bag,1.1,acres
+HS24-00256,Kaduna,Kauru,EN16,2024-11-10,sorghum,4½,100kg bag,0.7,ac
+HS24-00257,Niger,Lapai,EN02,2024-11-12,cowpea,5.5,bags,0.64,ha
+HS24-00258,Kaduna,Zaria,EN16,2024-12-19,maize,24,Bags,"7,800",m2
+HS24-00259,Niger,Bida,EN14,2024-11-21,maize,108,kwano,"11,400",m2
+HS24-00260,Kaduna,Zaria,EN04,2024-10-14,sorghum,7,Basin,0.20,ha
+HS24-00261,Kaduna,Giwa,EN10,2024-11-09,maize,101,big bag,3.09,ha
+HS24-00262,Kaduna,Kauru,EN01,2024-10-22,maize,18,100kg bag,1.3,ac
+HS24-00263,Niger,Mokwa,EN11,2024-12-07,maize,5,kgs,0.55,hectare
+HS24-00264,Niger,Bida,EN11,2024-10-27,sorghum,44.5,Kg,3.29,ha
+HS24-00265,Niger,Mokwa,EN02,2024-10-17,cowpea,5.5,bag (100kg),0.90,ha
+HS24-00266,Benue,Katsina-Ala,EN09,2024-10-23,maize,28.5,50kg bag,10500,sq m
+HS24-00267,Niger,Bida,EN05,2024-12-07,sorghum,"2,100",kg,1.32,ha
+HS24-00268,Kaduna,Giwa,EN16,2024-11-07,rice_paddy,49½,half bag,1.07,hectares
+HS24-00269,Niger,Lapai,EN05,2024-10-06,rice_paddy,46.5,BASIN,0.34,ha
+HS24-00270,Niger,Lapai,EN05,2024-12-20,cowpea,73.5,BASIN,5.5,Acres
+HS24-00271,Kaduna,Kauru,EN01,2024-12-16,sorghum,6,Bags,3000,square metres
+HS24-00272,Kaduna,Giwa,EN04,2024-12-14,sorghum,8.5,bag,1.9,acre
+HS24-00273,Niger,Bida,EN08,2024-11-09,sorghum,55.5,basins,0.83,Ha
+HS24-00274,Kaduna,Kachia,EN01,2024-12-02,cowpea,10,kwano,0.37,ha
+HS24-00275,Kaduna,Kachia,EN10,2024-10-18,maize,15 1/2,bag,0.42,hectare
+HS24-00276,Kaduna,Zaria,EN16,2024-12-07,cowpea,9.5,bag,1.13,hectares
+HS24-00277,Niger,Mokwa,EN14,2024-10-22,maize,7½,bag,0.55,Ha
+HS24-00278,Kaduna,Giwa,EN07,2024-10-23,sorghum,9,bag (100kg),1.95,ha
+HS24-00279,Kaduna,Kachia,EN04,2024-12-12,maize,11.5,100kg bag,0.46,hectares
+HS24-00280,Niger,Bida,EN14,2024-12-08,rice_paddy,3.12,t,3.3,acre
+HS24-00281,Niger,Lapai,EN11,2024-11-23,maize,51,Basin,"8,300",sq m
+HS24-00282,Benue,Gboko,EN09,2024-11-21,maize,91.61,metric tonne,29.88,hectares
+HS24-00283,Niger,Mokwa,EN05,2024-12-09,cowpea,7,bag (100kg),10900,m2
+HS24-00284,Kaduna,Zaria,EN07,2024-11-16,sorghum,4,big bag,0.66,ha
+HS24-00285,Benue,Makurdi,EN06,2024-11-25,rice_paddy,123,basin,1.10,HA
+HS24-00286,Niger,Shiroro,EN08,2024-11-26,rice_paddy,62 1/2,basins,1.2,Acres
+HS24-00287,Benue,Gboko,EN03,2024-10-28,maize,27½,basins,0.6,acres
+HS24-00288,Kaduna,Zaria,EN04,2024-12-11,maize,2.1,t,1.21,ha
+HS24-00289,Benue,Gboko,EN09,2024-10-26,sorghum,99,paint buckets,0.43,hectare
+HS24-00290,Benue,Gboko,EN06,2024-11-05,cowpea,NA,mudu,0.94,ha
+HS24-00291,Niger,Lapai,EN14,2024-12-17,maize,13,big bag,0.77,hectares
+HS24-00292,Niger,Lapai,EN11,2024-10-28,sorghum,1,pickup,"1,200",m2
+HS24-00293,Kaduna,Zaria,EN01,2024-12-07,rice_paddy,367 1/2,Bags,14.09,ha
+HS24-00294,Niger,Mokwa,EN05,2024-10-08,rice_paddy,37.5,bag (50kg),1.4,Acres
+HS24-00295,Kaduna,Kachia,EN13,2024-10-03,maize,20½,bag,1.90,ha
+HS24-00296,Niger,Shiroro,EN05,2024-11-26,maize,-,100kg bag,7600,square metres
+HS24-00297,Benue,Otukpo,EN03,2024-10-17,sorghum,9,100 kg bag,0.46,hectare
+HS24-00298,Kaduna,Zaria,EN13,2024-10-28,maize,400,kg.,0.42,ha
+HS24-00299,Benue,Makurdi,EN06,2024-10-27,rice_paddy,40½,bag (100kg),0.64,ha
+HS24-00300,Niger,Lapai,EN11,2024-11-06,cowpea,410,kilos,1.23,ha
+HS24-00301,Niger,Bida,EN02,2024-12-04,cowpea,570,kg,1.9,acres
+HS24-00302,Kaduna,Zaria,EN01,2024-11-13,maize,5½,big bag,0.44,ha
+HS24-00303,Niger,Mokwa,EN02,2024-11-09,rice_paddy,39 1/2,small bag,0.54,hectares
+HS24-00304,Benue,Otukpo,EN15,2024-11-08,cowpea,0,bag,0.41,hectare
+HS24-00305,Benue,Makurdi,EN12,2024-10-01,maize,0.76,tonnes,"5,900",sq m
+HS24-00306,Kaduna,Kauru,EN07,2024-10-19,sorghum,"2,135",kilogram,3.1,acres
+HS24-00307,Niger,Lapai,EN14,2024-11-26,rice_paddy,1370,kilo,0.52,ha
+HS24-00308,Kaduna,Zaria,EN01,2024-11-20,maize,11½,big bag,1.3,Acres
+HS24-00309,Niger,Shiroro,EN02,2024-11-28,cowpea,12 1/2,Basin,2.9,acre
+HS24-00310,Niger,Bida,EN08,2024-11-04,sorghum,16.5,bag (100kg),1.30,ha
+HS24-00311,Benue,Gboko,EN06,2024-12-17,rice_paddy,127½,BAG,4.8,acres
+HS24-00312,Kaduna,Giwa,EN01,2024-11-27,maize,15½,Bags,0.73,Ha
+HS24-00313,Niger,Lapai,EN14,2024-11-04,maize,14½,Bags,0.73,Ha
+HS24-00314,Benue,Makurdi,EN15,2024-11-13,sorghum,33.5,bags,2.9,Acres
+HS24-00315,Benue,Katsina-Ala,EN15,2024-12-18,rice_paddy,20 1/2,Bags,1.1,ac
+HS24-00316,Benue,Katsina-Ala,EN06,2024-12-02,cowpea,4,BAG,1.2,Acres
+HS24-00317,Kaduna,Giwa,EN16,2024-12-02,maize,4 1/2,Bags,0.5,Acres
+HS24-00318,Niger,Shiroro,EN05,2024-12-12,maize,18,bag (100kg),3.9,ac
+HS24-00319,Niger,Mokwa,EN02,2024-11-25,rice_paddy,4½,100kg bag,0.33,ha
+HS24-00320,Kaduna,Zaria,EN01,2024-11-06,cowpea,12,bag (50kg),1.10,ha
+HS24-00321,Kaduna,Giwa,EN07,2024-12-04,cowpea,20.5,50 kg bag,1.16,ha
+HS24-00322,Benue,Otukpo,EN15,2024-12-12,maize,197,mudus,0.47,HA
+HS24-00323,Kaduna,Kachia,EN07,2024-10-01,maize,12,bag (100kg),0.69,Ha
+HS24-00324,Benue,Makurdi,EN15,2024-10-09,cowpea,65,Paint Bucket,0.7,Acres
+HS24-00325,Kaduna,Zaria,EN13,2024-11-21,rice_paddy,91,basin,1.11,hectare
+HS24-00326,Benue,Katsina-Ala,EN09,2024-11-20,rice_paddy,392½,basins,1.88,ha
+HS24-00327,Benue,Gboko,EN09,2024-11-26,sorghum,9 1/2,100kg bag,0.69,ha
+HS24-00328,Niger,Lapai,EN05,2024-12-05,maize,107½,small bag,N/A,ha
+HS24-00329,Niger,Mokwa,EN08,2024-10-28,cowpea,"1,740",t,1.11,ha
+HS24-00330,Niger,Bida,EN08,2024-12-19,maize,28,big bag,2.7,ac
+HS24-00331,Niger,Mokwa,EN11,2024-11-27,sorghum,51.5,basin,0.73,hectares
+HS24-00332,Benue,Makurdi,EN09,2024-10-15,maize,40½,50kg bags,0.34,HA
+HS24-00333,Benue,Gboko,EN03,2024-11-27,cowpea,4½,big bag,0.69,hectares
+HS24-00334,Kaduna,Kauru,EN07,2024-12-04,sorghum,3,Bags,0.28,ha
+HS24-00335,Niger,Shiroro,EN02,2024-11-08,rice_paddy,715,mudu,0.58,hectares
+HS24-00336,Kaduna,Kauru,EN04,2024-11-20,cowpea,285,kgs,1.9,Acres
+HS24-00337,Niger,Shiroro,EN05,2024-10-23,rice_paddy,34.5,100kg bag,"24,400",m²
+HS24-00338,Niger,Lapai,EN11,2024-10-05,maize,27,kg,2.64,hectares
+HS24-00339,Benue,Makurdi,EN15,2024-12-04,cowpea,11,basin,0.31,Ha
+HS24-00340,Kaduna,Kachia,EN04,2024-11-04,maize,14 1/2,small bag,0.68,hectare
+HS24-00341,Kaduna,Zaria,EN07,2024-10-03,maize,8 1/2,BAG,0.9,acres
+HS24-00342,Niger,Lapai,EN08,2024-12-02,maize,0,bags,0.65,HA
+HS24-00343,Niger,Bida,EN05,2024-12-15,cowpea,22,bags,"24,500",sq m
+HS24-00344,Benue,Makurdi,EN15,2024-11-07,maize,15,bags,1.7,acres
+HS24-00345,Benue,Makurdi,EN06,2024-10-07,maize,6,BAG,0.44,hectare
+HS24-00346,Kaduna,Kachia,EN07,2024-12-14,rice_paddy,102,BAG,"28,900",m2
+HS24-00347,Kaduna,Kauru,EN16,2024-12-20,rice_paddy,58,basins,7300,m2
+HS24-00348,Benue,Katsina-Ala,EN03,2024-11-16,cowpea,100,Kilograms,0.31,Ha
+HS24-00349,Kaduna,Giwa,EN10,2024-12-20,rice_paddy,65.5,kwano,1.3,Acres
+HS24-00350,Niger,Mokwa,EN11,2024-12-09,cowpea,1985,kilo,2.44,ha
+HS24-00351,Kaduna,Zaria,EN07,2024-11-25,sorghum,7.5,big bag,1.1,ac
+HS24-00352,Kaduna,Kauru,EN10,2024-12-20,sorghum,19,100kg bag,2.9,Acres
+HS24-00353,Kaduna,Kauru,EN07,2024-12-16,maize,89,basin,0.58,HA
+HS24-00354,Kaduna,Giwa,EN13,2024-11-08,maize,5,bags,0.84,ha
+HS24-00355,Benue,Makurdi,EN12,2024-11-23,rice_paddy,86½,half bag,1.99,HA
+HS24-00356,Niger,Lapai,EN02,2024-12-12,maize,-,BAG,0.54,hectares
+HS24-00357,Kaduna,Zaria,EN01,2024-12-04,sorghum,105,kg,0.13,HA
+HS24-00358,Niger,Lapai,EN08,2024-12-05,maize,201 1/2,kwano,0.72,HA
+HS24-00359,Benue,Gboko,EN03,2024-12-08,maize,10 1/2,50kg bag,0.38,ha
+HS24-00360,Benue,Otukpo,EN12,2024-12-15,sorghum,14,100 kg bag,1.57,ha
+HS24-00361,Kaduna,Zaria,EN10,2024-11-16,sorghum,10,50 kg bag,0.56,ha
+HS24-00362,Benue,Makurdi,EN06,2024-10-12,maize,77,basins,0.73,ha
+HS24-00363,Niger,Lapai,EN14,2024-11-26,sorghum,309,paint,0.93,ha
+HS24-00364,Niger,Bida,EN14,2024-10-27,maize,4½,bag,0.5,acres
+HS24-00365,Benue,Katsina-Ala,EN06,2024-10-21,maize,560,kilo,1.3,acre
+HS24-00366,Kaduna,Kachia,EN10,2024-12-05,maize,18½,50kg bag,1.8,acre
+HS24-00367,Kaduna,Zaria,EN04,2024-12-10,sorghum,68.5,basin,"17,800",m2
+HS24-00368,Niger,Bida,EN11,2024-10-22,rice_paddy,34,Kg,0.55,hectares
+HS24-00369,Kaduna,Kachia,EN13,2024-12-09,sorghum,690,kg.,0.50,ha
+HS24-00370,Kaduna,Kauru,EN13,2024-12-16,maize,48½,bag,2.4,Acres
+HS24-00371,Kaduna,Giwa,EN13,2024-11-26,maize,23,big bag,0.87,ha
+HS24-00372,Benue,Makurdi,EN03,2024-10-13,rice_paddy,29,100 kg bag,1.16,Ha
+HS24-00373,Niger,Mokwa,EN02,2024-10-24,maize,0,BAG,1.6,acres
+HS24-00374,Niger,Mokwa,EN14,2024-12-19,maize,78,Basin,2.4,Acres
+HS24-00375,Kaduna,Zaria,EN13,2024-12-12,sorghum,0,basins,2.1,acres
+HS24-00376,Niger,Shiroro,EN02,2024-11-25,cowpea,7 1/2,100kg bag,10700,sq m
+HS24-00377,Benue,Makurdi,EN03,2024-11-28,maize,8,big bag,0.32,HA
+HS24-00378,Benue,Otukpo,EN12,2024-10-01,maize,69.5,50 kg bag,1.27,Ha
+HS24-00379,Niger,Lapai,EN08,2024-10-12,maize,9,100 kg bag,"8,000",m2
+HS24-00380,Niger,Lapai,EN02,2024-11-12,maize,5 1/2,bag (100kg),0.9,Acres
+HS24-00381,Niger,Mokwa,EN14,2024-12-12,maize,"2,515",kg.,0.69,ha
+HS24-00382,Kaduna,Zaria,EN07,2024-12-13,rice_paddy,2640,KG,1.21,hectares
+HS24-00383,Benue,Makurdi,EN09,2024-10-26,maize,10,bag (100kg),1.25,Ha
+HS24-00384,Niger,Mokwa,EN02,2024-11-18,sorghum,,small bag,0.62,hectare
+HS24-00385,Benue,Otukpo,EN09,2024-12-06,maize,84,Bags,"18,700",square metres
+HS24-00386,Kaduna,Kachia,EN01,2024-10-02,rice_paddy,2675,kg,1.9,ac
+HS24-00387,Kaduna,Giwa,EN16,2024-11-05,maize,38,BAG,4.6,acres
+HS24-00388,Kaduna,Kauru,EN04,2024-11-08,maize,187,kwano,2.4,ac
+HS24-00389,Niger,Shiroro,EN11,2024-12-03,cowpea,23,Basin,"7,500",m2
+HS24-00390,Kaduna,Giwa,EN07,2024-11-12,maize,42,bags,3.4,ac
+HS24-00391,Benue,Katsina-Ala,EN06,2024-11-07,rice_paddy,45,bags,3.8,acre
+HS24-00392,Benue,Otukpo,EN12,2024-10-13,rice_paddy,"1,275",kg,0.45,hectares
+HS24-00393,Niger,Bida,EN14,2024-10-18,rice_paddy,3592,Mudu,4.27,hectares
+HS24-00394,Kaduna,Zaria,EN10,2024-11-03,sorghum,8 1/2,Bags,3.5,acre
+HS24-00395,Benue,Katsina-Ala,EN06,2024-11-19,sorghum,21.5,50kg bags,"20,200",m2
+HS24-00396,Kaduna,Zaria,EN04,2024-11-01,maize,7,bag,0.51,ha
+HS24-00397,Benue,Katsina-Ala,EN12,2024-12-02,maize,21.5,bag (100kg),1.19,HA
+HS24-00398,Niger,Lapai,EN02,2024-10-25,cowpea,8½,basin,0.73,ha
+HS24-00399,Benue,Makurdi,EN06,2024-10-25,rice_paddy,287,paint bucket,1.0,acres
+HS24-00400,Niger,Mokwa,EN05,2024-11-17,sorghum,3,BAG,"3,300",sq m
+HS24-00401,Benue,Gboko,EN06,2024-12-08,maize,150,Basin,1.46,ha
+HS24-00402,Niger,Shiroro,EN05,2024-10-21,maize,65.5,Basin,1.57,hectares
+HS24-00403,Niger,Lapai,EN11,2024-12-11,maize,22,Kg,0.59,ha
+HS24-00404,Benue,Otukpo,EN06,2024-12-19,cowpea,137,mudus,0.56,hectares
+HS24-00405,Benue,Makurdi,EN15,2024-11-23,sorghum,54,basin,0.73,HA
+HS24-00406,Kaduna,Kauru,EN16,2024-10-13,maize,"3,525",kgs,3.2,acres
+HS24-00407,Niger,Shiroro,EN05,2024-10-05,rice_paddy,27 1/2,bag (50kg),3.0,Acres
+HS24-00408,Kaduna,Kauru,EN01,2024-11-24,sorghum,"1,045",Kilograms,1.8,ac
+HS24-00409,Niger,Lapai,EN02,2024-11-21,sorghum,12,half bag,1.5,ac
+HS24-00410,Benue,Katsina-Ala,EN15,2024-11-15,rice_paddy,71,bag (100kg),1.34,ha
+HS24-00411,Kaduna,Kauru,EN16,2024-12-04,sorghum,5 1/2,50 kg bag,0.52,ha
+HS24-00412,Kaduna,Kachia,EN07,2024-10-07,maize,23,Basin,0.49,ha
+HS24-00413,Kaduna,Kachia,EN13,2024-10-15,cowpea,2,bag,1.01,hectare
+HS24-00414,Benue,Katsina-Ala,EN12,2024-10-16,rice_paddy,625,Kg,5100,square metres
+HS24-00415,Benue,Gboko,EN06,2024-10-04,cowpea,0,Kg,0.52,ha
+HS24-00416,Kaduna,Giwa,EN10,2024-12-11,sorghum,32,Basin,1.09,Ha
+HS24-00417,Niger,Mokwa,EN02,2024-12-05,rice_paddy,24,bag (100kg),0.72,HA
+HS24-00418,Niger,Shiroro,EN14,2024-12-02,rice_paddy,318,Bags,19.79,ha
+HS24-00419,Niger,Bida,EN02,2024-12-10,maize,5 1/2,bag,1.1,acre
+HS24-00420,Niger,Bida,EN14,2024-12-10,maize,41.5,bag,4.2,Acres
+HS24-00421,Kaduna,Kachia,EN10,2024-10-05,sorghum,9.5,BAG,2.3,acre
+HS24-00422,Kaduna,Giwa,EN07,2024-10-02,maize,22,100kg bag,0.48,Ha
+HS24-00423,Kaduna,Kachia,EN16,2024-12-07,rice_paddy,33 1/2,half bag,2.0,acres
+HS24-00424,Benue,Makurdi,EN12,2024-11-22,maize,2895,KG,2.9,acre
+HS24-00425,Benue,Makurdi,EN15,2024-10-13,maize,"1,185",kgs,1.6,ac
+HS24-00426,Niger,Bida,EN14,2024-11-10,sorghum,660,kgs,0.80,ha
+HS24-00427,Kaduna,Kachia,EN07,2024-10-01,maize,  ,bag (50kg),0.69,ha
+HS24-00428,Benue,Makurdi,EN03,2024-11-15,cowpea,150,KG,0.44,ha
+HS24-00429,Kaduna,Giwa,EN01,2024-11-22,maize,12½,bag,0.47,hectares
+HS24-00430,Kaduna,Kachia,EN10,2024-12-03,maize,79,small bag,2.49,Ha
+HS24-00431,Niger,Lapai,EN02,2024-11-23,maize,34,bag,1.78,Ha
+HS24-00432,Kaduna,Zaria,EN16,2024-10-10,maize,0.51,MT,0.24,hectares
+HS24-00433,Kaduna,Kachia,EN10,2024-12-04,cowpea,7.5,100 kg bag,0.75,ha
+HS24-00434,Benue,Otukpo,EN12,2024-10-19,rice_paddy,1.62,metric tonne,1.09,HA
+HS24-00435,Benue,Makurdi,EN12,2024-10-01,cowpea,224,modu,0.70,hectare
+HS24-00436,Benue,Otukpo,EN09,2024-11-20,maize,10,big bag,0.98,HA
+HS24-00437,Kaduna,Kachia,EN07,2024-10-23,sorghum,7 1/2,bag (100kg),3.0,ac
+HS24-00438,Benue,Makurdi,EN03,2024-10-03,maize,2.5,big bag,0.23,hectare
+HS24-00439,Kaduna,Giwa,EN16,2024-10-09,maize,27,big bag,1.5,acres
+HS24-00440,Niger,Mokwa,EN02,2024-12-01,cowpea,5,100 kg bag,1.8,Acres
+HS24-00441,Kaduna,Giwa,EN13,2024-10-05,maize,52,BASIN,1.9,acres
+HS24-00442,Niger,Lapai,EN02,2024-10-09,sorghum,28,bag (100kg),20100,sq m
+HS24-00443,Kaduna,Kauru,EN01,2024-11-14,rice_paddy,169,basins,2.4,Acres
+HS24-00444,Niger,Mokwa,EN02,2024-10-08,sorghum,4,bag (100kg),0.21,ha
+HS24-00445,Kaduna,Kauru,EN04,2024-12-16,sorghum,10,bags,0.67,hectares
+HS24-00446,Kaduna,Giwa,EN16,2024-10-22,rice_paddy,"1,560",kg.,0.82,hectares
+HS24-00447,Kaduna,Kachia,EN07,2024-10-13,maize,18.5,bag,1.8,acres
+HS24-00448,Benue,Otukpo,EN12,2024-12-03,cowpea,6,100kg bag,0.84,hectare
+HS24-00449,Kaduna,Kauru,EN13,2024-10-13,sorghum,"2,050",kg,2.43,HA
+HS24-00450,Niger,Mokwa,EN02,2024-11-26,sorghum,545,kg.,0.23,hectares
+HS24-00451,Niger,Lapai,EN08,2024-12-01,maize,13,100 kg bag,0.82,HA
+HS24-00452,Kaduna,Kauru,EN13,2024-10-01,rice_paddy,8.5,bag (100kg),0.28,ha
+HS24-00453,Benue,Otukpo,EN12,2024-11-13,maize,48,bag (100kg),1.62,HA
+HS24-00454,Niger,Lapai,EN14,2024-10-07,maize,8,big bag,1.8,Acres
+HS24-00455,Niger,Shiroro,EN11,2024-12-18,cowpea,290,kg,0.35,ha
+HS24-00456,Benue,Gboko,EN03,2024-10-10,sorghum,5,bag,0.44,hectare
+HS24-00457,Kaduna,Kachia,EN10,2024-10-28,cowpea,300,kilo,0.47,hectare
+HS24-00458,Benue,Otukpo,EN15,2024-12-10,maize,8.5,big bag,N/A,
+HS24-00459,Benue,Gboko,EN09,2024-10-04,maize,31.8,t,59.8,acre
+HS24-00460,Niger,Lapai,EN05,2024-11-25,maize,8,100 kg bag,0.38,HA
+HS24-00461,Niger,Shiroro,EN08,2024-10-22,maize,12,big bag,2.1,ac
+HS24-00462,Kaduna,Giwa,EN13,2024-11-22,maize,3.5,bag (100kg),0.23,ha
+HS24-00463,Benue,Otukpo,EN09,2024-11-20,cowpea,1130,kilo,3.7,ac
+HS24-00464,Niger,Mokwa,EN02,2024-11-25,cowpea,840,Kg,2.80,ha
+HS24-00465,Niger,Bida,EN02,2024-12-11,maize,14.5,Bags,1.62,ha
+HS24-00466,Kaduna,Giwa,EN10,2024-11-05,cowpea,3½,BAG,0.40,hectares
+HS24-00467,Benue,Makurdi,EN15,2024-12-08,sorghum,6.5,100 kg bag,0.22,HA
+HS24-00468,Benue,Otukpo,EN15,2024-11-07,maize,1.1,tonne,0.9,acres
+HS24-00469,Benue,Makurdi,EN09,2024-10-16,cowpea,17,Bags,1.42,ha
+HS24-00470,Kaduna,Zaria,EN16,2024-10-05,maize,"4,745",t,3.25,hectares
+HS24-00471,Kaduna,Kauru,EN04,2024-10-02,maize,11.5,Bags,0.51,ha
+HS24-00472,Benue,Katsina-Ala,EN06,2024-12-19,maize,125½,basins,1.29,ha
+HS24-00473,Kaduna,Kauru,EN04,2024-12-19,maize,136.5,BASIN,0.92,HA
+HS24-00474,Kaduna,Kachia,EN16,2024-10-18,rice_paddy,1085,kilos,4300,m²
+HS24-00475,Benue,Otukpo,EN15,2024-10-13,maize,710,kilogram,0.75,ha
+HS24-00476,Niger,Mokwa,EN02,2024-11-01,maize,23.5,bag,3.4,Acres
+HS24-00477,Niger,Mokwa,EN05,2024-11-10,maize,84.5,bags,2.33,hectare
+HS24-00478,Benue,Otukpo,EN15,2024-12-20,maize,3.5,half bag,0.28,hectare
+HS24-00479,Benue,Gboko,EN06,2024-11-13,maize,13,jerrycan,1.7,Acres
+HS24-00480,Kaduna,Kachia,EN04,2024-10-17,sorghum,7½,bag,1.4,acre
+HS24-00481,Niger,Lapai,EN08,2024-10-07,cowpea,-,bag,1.6,ac
+HS24-00482,Kaduna,Giwa,EN13,2024-11-28,rice_paddy,251,basins,1.41,HA
+HS24-00483,Kaduna,Kauru,EN13,2024-10-11,sorghum,6,bag (100kg),0.58,Ha
+HS24-00484,Niger,Shiroro,EN14,2024-12-16,maize,14½,bag (100kg),0.98,ha
+HS24-00485,Benue,Katsina-Ala,EN15,2024-10-06,sorghum,7.5,100 kg bag,0.67,ha
+HS24-00486,Benue,Otukpo,EN03,2024-10-09,rice_paddy,18,bag (50kg),0.9,acres
+HS24-00487,Benue,Katsina-Ala,EN12,2024-10-27,cowpea,230,mudu,1.2,acres
+HS24-00488,Niger,Bida,EN08,2024-12-17,maize,17.5,bag,0.59,hectares
+HS24-00489,Benue,Gboko,EN06,2024-12-15,rice_paddy,99½,basin,1.21,Ha
+HS24-00490,Niger,Mokwa,EN08,2024-10-02,maize,61½,basins,1.6,acre
+HS24-00491,Kaduna,Zaria,EN16,2024-11-23,cowpea,56.5,kwano,3.2,ac
+HS24-00492,Benue,Gboko,EN03,2024-12-06,sorghum,4 1/2,bags,0.32,HA
+HS24-00493,Niger,Bida,EN08,2024-11-03,rice_paddy,76,basins,2.4,Acres
+HS24-00494,Kaduna,Kauru,EN07,2024-10-09,sorghum,72,basins,0.65,ha
+HS24-00495,Niger,Bida,EN05,2024-11-11,rice_paddy,2.64,tonnes,0.67,Ha
+HS24-00496,Benue,Makurdi,EN06,2024-10-19,rice_paddy,155½,Basin,0.83,ha
+HS24-00497,Niger,Lapai,EN02,2024-10-22,rice_paddy,19,100kg bag,1.3,ac
+HS24-00498,Niger,Lapai,EN05,2024-11-27,maize,5.5,bags,0.23,hectares
+HS24-00499,Benue,Katsina-Ala,EN12,2024-12-03,maize,9½,BAG,0.32,ha
+HS24-00500,Benue,Katsina-Ala,EN15,2024-12-07,maize,14,big bag,2.7,acre
+HS24-00501,Niger,Shiroro,EN02,2024-12-07,maize,18½,50kg bags,0.35,HA
+HS24-00502,Kaduna,Kachia,EN16,2024-10-27,cowpea,37.5,Basin,4.1,Acres
+HS24-00503,Kaduna,Giwa,EN13,2024-10-22,maize,15.5,100kg bag,0.52,Ha
+HS24-00504,Kaduna,Kachia,EN04,2024-10-20,cowpea,255,Kilograms,0.7,Acres
+HS24-00505,Benue,Otukpo,EN03,2024-12-09,sorghum,7 1/2,BAG,1.1,Acres
+HS24-00506,Benue,Gboko,EN12,2024-10-19,maize,58,basins,1.9,Acres
+HS24-00507,Niger,Bida,EN11,2024-10-06,sorghum,4,kgs,1.3,acre
+HS24-00508,Benue,Otukpo,EN03,2024-11-24,maize,30½,Bags,2.1,ac
+HS24-00509,Niger,Mokwa,EN14,2024-11-25,maize,33,half bag,1.16,hectares
+HS24-00510,Benue,Makurdi,EN12,2024-12-01,sorghum,,bags,0.56,Ha
+HS24-00511,Kaduna,Kachia,EN13,2024-12-15,rice_paddy,49½,50kg bags,0.85,Ha
+HS24-00512,Kaduna,Kachia,EN01,2024-11-27,sorghum,16,jerrycan,1.44,ha
+HS24-00513,Kaduna,Zaria,EN04,2024-11-20,maize,"3,125",kilo,2.7,Acres
+HS24-00514,Kaduna,Kauru,EN04,2024-10-05,cowpea,235,kilo,0.32,hectares
+HS24-00515,Niger,Shiroro,EN08,2024-11-13,maize,23.5,100kg bag,0.82,hectare
+HS24-00516,Benue,Makurdi,EN09,2024-10-06,sorghum,54,kwano,1.24,Ha
+HS24-00517,Benue,Katsina-Ala,EN06,2024-10-22,rice_paddy,14.5,100kg bag,0.8,acres
+HS24-00518,Benue,Makurdi,EN12,2024-12-18,maize,128.5,basin,0.84,ha
+HS24-00519,Niger,Shiroro,EN05,2024-12-18,maize,,half bag,4.13,hectare
+HS24-00520,Kaduna,Kauru,EN01,2024-11-16,sorghum,25,basins,1.0,ac
+HS24-00521,Kaduna,Kauru,EN16,2024-12-07,maize,22.5,100 kg bag,0.98,hectares
+HS24-00522,Kaduna,Giwa,EN10,2024-10-09,cowpea,8,Bags,1.8,acre
+HS24-00523,Kaduna,Zaria,EN16,2024-12-13,sorghum,"1,860",kilogram,"7,500",square metres
+HS24-00524,Benue,Makurdi,EN06,2024-12-18,maize,2325,kg,1.31,ha
+HS24-00525,Niger,Mokwa,EN11,2024-10-10,rice_paddy,36.5,kgs,0.72,ha
+HS24-00526,Kaduna,Kachia,EN13,2024-12-01,maize,10.5,BAG,1.0,ac
+HS24-00527,Kaduna,Zaria,EN10,2024-10-18,maize,7½,100kg bag,1.14,ha
+HS24-00528,Kaduna,Kachia,EN13,2024-10-01,maize,29 1/2,50kg bag,1.27,HA
+HS24-00529,Niger,Lapai,EN14,2024-11-11,maize,5 1/2,bags,1.1,Acres
+HS24-00530,Benue,Makurdi,EN12,2024-12-20,sorghum,127½,kwano,"13,600",sq m
+HS24-00531,Niger,Mokwa,EN14,2024-12-19,maize,40½,100kg bag,1.95,hectare
+HS24-00532,Kaduna,Kauru,EN04,2024-11-04,cowpea,6,50 kg bag,4300,m2
+HS24-00533,Benue,Katsina-Ala,EN09,2024-12-18,sorghum,6,pickup,1.04,ha
+HS24-00534,Kaduna,Zaria,EN10,2024-11-11,rice_paddy,35,bags,0.94,ha
+HS24-00535,Kaduna,Kauru,EN07,2024-11-13,maize,25 1/2,bag,1.14,hectare
+HS24-00536,Kaduna,Kauru,EN13,2024-11-07,cowpea,31 1/2,kwano,2.31,hectare
+HS24-00537,Kaduna,Kachia,EN07,2024-10-26,cowpea,25,Basin,2.7,acre
+HS24-00538,Kaduna,Kachia,EN16,2024-12-07,maize,168.5,BASIN,4.0,ac
+HS24-00539,Niger,Mokwa,EN08,2024-11-07,cowpea,nil,Bags,7.1,Acres
+HS24-00540,Niger,Mokwa,EN11,2024-10-17,maize,13,Kg,1.04,Ha
+HS24-00541,Kaduna,Zaria,EN07,2024-10-25,rice_paddy,118,50 kg bag,1.45,ha
+HS24-00542,Benue,Gboko,EN09,2024-12-11,rice_paddy,1217,modu,1.15,ha
+HS24-00543,Kaduna,Giwa,EN16,2024-12-11,maize,16.5,Basin,0.9,Acres
+HS24-00544,Kaduna,Kachia,EN10,2024-11-22,maize,11½,100 kg bag,2.5,acres
+HS24-00545,Niger,Bida,EN02,2024-11-22,rice_paddy,75.5,basin,"6,800",sq m
+HS24-00546,Kaduna,Kauru,EN10,2024-11-02,maize,25,BASIN,1.7,acre
+HS24-00547,Niger,Shiroro,EN08,2024-11-09,sorghum,19.5,basins,"1,900",m2
+HS24-00548,Niger,Bida,EN08,2024-12-07,maize,127½,BASIN,1.37,ha
+HS24-00549,Kaduna,Kauru,EN16,2024-11-10,sorghum,10 1/2,Bags,1.13,Ha
+HS24-00550,Benue,Otukpo,EN06,2024-10-03,maize,7.5,bags,0.91,hectare
+HS24-00551,Kaduna,Giwa,EN01,2024-11-13,maize,48.5,50kg bag,1.26,ha
+HS24-00552,Benue,Gboko,EN03,2024-11-07,maize,7 1/2,Bags,1.1,ac
+HS24-00553,Kaduna,Zaria,EN07,2024-11-18,rice_paddy,121.5,basin,0.73,hectares
+HS24-00554,Kaduna,Kauru,EN01,2024-10-04,maize,14,bag,0.81,ha
+HS24-00555,Niger,Mokwa,EN14,2024-11-17,maize,14½,BAG,"10,400",m²
+HS24-00556,Kaduna,Kauru,EN13,2024-12-14,maize,13,heap,1.7,acre
+HS24-00557,Niger,Shiroro,EN05,2024-12-20,maize,18,100kg bag,0.59,hectares
+HS24-00558,Kaduna,Kachia,EN01,2024-11-24,maize,2.08,tonne,3.2,ac
+HS24-00559,Benue,Makurdi,EN09,2024-11-01,maize,20,BAG,11500,ha
+HS24-00560,Kaduna,Giwa,EN04,2024-11-22,maize,16,bag,0.64,Ha
+HS24-00561,Benue,Katsina-Ala,EN09,2024-12-16,sorghum,5,BAG,0.42,ha
+HS24-00562,Kaduna,Kachia,EN10,2024-12-16,maize,11.5,100kg bag,0.61,hectares
+HS24-00563,Benue,Katsina-Ala,EN09,2024-12-06,cowpea,4,Bags,2.5,Acres
+HS24-00564,Niger,Bida,EN11,2024-11-20,cowpea,700,kg,0.81,Ha
+HS24-00565,Niger,Shiroro,EN05,2024-10-18,cowpea,28.5,Basin,3.1,acre
+HS24-00566,Benue,Makurdi,EN03,2024-11-21,maize,112 1/2,basin,"7,000",sq m
+HS24-00567,Benue,Makurdi,EN09,2024-11-04,maize,21 1/2,bags,nil,hectare
+HS24-00568,Benue,Otukpo,EN15,2024-12-03,maize,7,Bags,1.5,Acres
+HS24-00569,Kaduna,Kachia,EN07,2024-10-03,maize,20,100kg bag,1.18,ha
+HS24-00570,Kaduna,Zaria,EN13,2024-12-04,sorghum,69 1/2,basins,1.15,hectares
+HS24-00571,Kaduna,Zaria,EN16,2024-11-17,maize,26,big bag,1.18,Ha
+HS24-00572,Niger,Lapai,EN08,2024-10-02,maize,9.5,bags,0.49,ha
+HS24-00573,Kaduna,Kachia,EN16,2024-10-21,sorghum,  ,half bag,1.53,Ha
+HS24-00574,Niger,Shiroro,EN11,2024-11-18,maize,  ,bag,1.31,ha
+HS24-00575,Niger,Bida,EN11,2024-11-26,cowpea,28,half bag,1.86,Ha
+HS24-00576,Niger,Mokwa,EN08,2024-10-06,maize,13.5,Basin,0.33,ha
+HS24-00577,Kaduna,Giwa,EN01,2024-12-18,maize,22,50kg bags,0.60,hectares
+HS24-00578,Benue,Otukpo,EN06,2024-10-14,sorghum,13,50kg bags,6200,m2
+HS24-00579,Benue,Gboko,EN03,2024-11-23,maize,4,cart,0.56,HA
+HS24-00580,Kaduna,Kachia,EN07,2024-12-04,rice_paddy,282 1/2,basins,1.64,ha
+HS24-00581,Niger,Shiroro,EN08,2024-10-19,rice_paddy,306,basins,1.14,hectares
+HS24-00582,Benue,Gboko,EN09,2024-11-06,maize,8,pickup,2.8,acres
+HS24-00583,Niger,Lapai,EN14,2024-12-19,rice_paddy,42.5,basins,2.3,Acres
+HS24-00584,Kaduna,Zaria,EN16,2024-11-24,cowpea,10,Basin,1.2,acres
+HS24-00585,Benue,Katsina-Ala,EN12,2024-12-18,maize,8.5,bag (100kg),0.51,hectares
+HS24-00586,Niger,Bida,EN08,2024-11-11,maize,6,bag (100kg),0.25,hectares
+HS24-00587,Benue,Otukpo,EN06,2024-12-07,sorghum,5,100kg bag,0.41,hectares
+HS24-00588,Kaduna,Zaria,EN01,2024-12-07,cowpea,6½,50 kg bag,1.01,HA
+HS24-00589,Kaduna,Kachia,EN13,2024-12-07,sorghum,331 1/2,Basin,1.86,ha
+HS24-00590,Niger,Bida,EN11,2024-11-01,cowpea,445,kilos,1.03,ha
+HS24-00591,Kaduna,Kauru,EN10,2024-12-18,sorghum,56 1/2,small bag,6.2,Acres
+HS24-00592,Niger,Mokwa,EN14,2024-11-27,maize,2.91,metric tonne,5.8,ac
+HS24-00593,Niger,Bida,EN05,2024-12-11,sorghum,16.5,bag,1.82,Ha
+HS24-00594,Benue,Makurdi,EN12,2024-10-09,sorghum,0.47,tons,1.4,acre
+HS24-00595,Niger,Bida,EN14,2024-12-02,cowpea,20 1/2,basin,0.92,hectare
+HS24-00596,Kaduna,Giwa,EN07,2024-12-07,maize,12,big bag,0.57,ha
+HS24-00597,Kaduna,Zaria,EN10,2024-12-13,maize,10,bag,0.47,ha
+HS24-00598,Benue,Gboko,EN03,2024-11-27,cowpea,4,cart,0.92,hectare
+HS24-00599,Benue,Makurdi,EN09,2024-11-28,maize,14.5,bag,0.74,hectare
+HS24-00600,Niger,Mokwa,EN14,2024-10-08,rice_paddy,55,50 kg bag,0.75,ha
+HS24-00601,Niger,Shiroro,EN11,2024-12-17,rice_paddy,33 1/2,Kg,4.2,acre
+HS24-00602,Benue,Makurdi,EN03,2024-10-02,sorghum,25½,100kg bag,3.10,ha
+HS24-00603,Kaduna,Kachia,EN07,2024-10-03,maize,55½,Basin,0.54,ha
+HS24-00604,Kaduna,Zaria,EN07,2024-10-05,sorghum,43,Basin,4400,square metres
+HS24-00605,Benue,Makurdi,EN03,2024-11-17,sorghum,44½,Basin,0.56,hectares
+HS24-00606,Niger,Mokwa,EN11,2024-12-06,maize,11½,kg,0.48,ha
+HS24-00607,Benue,Katsina-Ala,EN15,2024-11-22,maize,8,bags,0.51,ha
+HS24-00608,Niger,Lapai,EN05,2024-12-17,sorghum,16,bags,3.4,acre
+HS24-00609,Kaduna,Giwa,EN01,2024-12-05,cowpea,525,kg.,2.1,Acres
+HS24-00610,Niger,Bida,EN08,2024-11-17,maize,5.5,BAG,0.28,ha
+HS24-00611,Niger,Mokwa,EN14,2024-10-09,cowpea,210,Kilograms,2.1,Acres
+HS24-00612,Kaduna,Zaria,EN01,2024-10-28,maize,0.95,MT,"11,000",m2
+HS24-00613,Benue,Otukpo,EN12,2024-11-07,sorghum,12,bag (50kg),2.6,acre
+HS24-00614,Benue,Makurdi,EN03,2024-11-12,maize,10,bag (100kg),0.61,HA
+HS24-00615,Niger,Shiroro,EN05,2024-12-02,cowpea,10 1/2,100 kg bag,3.8,acres
+HS24-00616,Benue,Makurdi,EN06,2024-12-09,maize,16,100 kg bag,1.4,ac
+HS24-00617,Benue,Gboko,EN15,2024-12-20,sorghum,7,BAG,1.1,Acres
+HS24-00618,Niger,Bida,EN05,2024-12-02,maize,27.5,BAG,1.33,ha
+HS24-00619,Kaduna,Zaria,EN01,2024-11-11,rice_paddy,30.5,bags,1.24,Ha
+HS24-00620,Niger,Bida,EN11,2024-12-18,maize,50,basins,1.9,ac
+HS24-00621,Niger,Lapai,EN08,2024-12-03,maize,72,BASIN,3.0,ac
+HS24-00622,Benue,Gboko,EN12,2024-10-04,rice_paddy,33 1/2,BAG,1.7,acres
+HS24-00623,Niger,Lapai,EN11,2024-10-02,cowpea,460,Kg,0.86,hectares
+HS24-00624,Niger,Lapai,EN14,2024-12-20,maize,7½,bag,1.8,Acres
+HS24-00625,Kaduna,Kachia,EN07,2024-10-05,sorghum,9 1/2,big bag,1.3,ac
+HS24-00626,Benue,Makurdi,EN09,2024-10-02,rice_paddy,nil,100kg bag,0.23,HA
+HS24-00627,Benue,Otukpo,EN09,2024-12-09,sorghum,86,BASIN,1.19,ha
+HS24-00628,Benue,Gboko,EN09,2024-11-17,cowpea,6,100 kg bag,0.85,ha
+HS24-00629,Niger,Mokwa,EN02,2024-11-19,sorghum,31,bags,4.27,ha
+HS24-00630,Niger,Lapai,EN14,2024-11-13,maize,32,kwano,0.58,hectare
+HS24-00631,Benue,Otukpo,EN06,2024-11-24,maize,6½,BAG,0.39,hectare
+HS24-00632,Kaduna,Giwa,EN01,2024-11-18,maize,44,50kg bag,3.0,acre
+HS24-00633,Niger,Shiroro,EN14,2024-12-02,maize,26,bags,1.07,ha
+HS24-00634,Kaduna,Giwa,EN04,2024-12-08,cowpea,17,Basin,1.4,ac
+HS24-00635,Kaduna,Kachia,EN01,2024-11-07,rice_paddy,315,Kg,0.28,ha
+HS24-00636,Niger,Lapai,EN02,2024-11-06,maize,"4,120",KG,3.9,acre
+HS24-00637,Kaduna,Zaria,EN16,2024-12-02,rice_paddy,4.02,tonnes,1.31,HA
+HS24-00638,Niger,Lapai,EN11,2024-11-21,rice_paddy,7.5,Kg,0.49,ha
+HS24-00639,Kaduna,Zaria,EN13,2024-11-27,cowpea,16,bags,1.23,ha
+HS24-00640,Niger,Shiroro,EN05,2024-11-11,rice_paddy,44,big bag,1.40,ha
+HS24-00641,Niger,Mokwa,EN02,2024-11-07,maize,12.5,50kg bags,0.40,ha
+HS24-00642,Kaduna,Kachia,EN04,2024-10-07,rice_paddy,25,bag (100kg),0.87,hectare
+HS24-00643,Benue,Katsina-Ala,EN12,2024-10-07,maize,54,big bag,5.05,ha
+HS24-00644,Benue,Makurdi,EN15,2024-10-21,cowpea,7.5,bags,0.88,ha
+HS24-00645,Niger,Lapai,EN08,2024-10-15,maize,66,bag,1.47,ha
+HS24-00646,Niger,Bida,EN08,2024-10-14,maize,,big bag,1.13,Ha
+HS24-00647,Benue,Gboko,EN06,2024-11-22,cowpea,8,50 kg bag,3.0,ac
+HS24-00648,Kaduna,Kauru,EN10,2024-12-15,sorghum,445,KG,0.85,HA
+HS24-00649,Niger,Mokwa,EN02,2024-12-10,maize,12,Bags,0.66,ha
+HS24-00650,Benue,Makurdi,EN03,2024-12-18,rice_paddy,29,bag,0.47,ha
+HS24-00651,Niger,Shiroro,EN11,2024-12-16,cowpea,7,kg,0.81,HA
+HS24-00652,Kaduna,Kauru,EN13,2024-12-09,maize,5,big bag,0.78,ha
+HS24-00653,Benue,Katsina-Ala,EN09,2024-12-04,sorghum,2900,kilos,2.17,ha
+HS24-00654,Benue,Makurdi,EN15,2024-11-18,sorghum,6.5,100 kg bag,1.4,ac
+HS24-00655,Niger,Shiroro,EN14,2024-10-06,rice_paddy,29,Bags,11300,square metres
+HS24-00656,Benue,Katsina-Ala,EN03,2024-12-18,maize,5.5,100 kg bag,1.7,acres
+HS24-00657,Niger,Shiroro,EN14,2024-10-22,cowpea,11.5,Bags,2.9,Acres
+HS24-00658,Kaduna,Kauru,EN01,2024-10-24,cowpea,9 1/2,BASIN,0.47,hectare
+HS24-00659,Benue,Makurdi,EN09,2024-11-19,maize,5.5,bag (100kg),0.29,hectares
+HS24-00660,Kaduna,Zaria,EN04,2024-10-10,cowpea,7.5,BAG,1.9,Acres
+HS24-00661,Niger,Mokwa,EN11,2024-12-01,maize,14.5,kg,2.2,Acres
+HS24-00662,Niger,Lapai,EN02,2024-10-01,rice_paddy,24½,big bag,0.80,ha
+HS24-00663,Benue,Gboko,EN15,2024-12-20,cowpea,20,kwano,0.57,ha
+HS24-00664,Niger,Bida,EN14,2024-11-25,maize,37 1/2,BASIN,0.45,hectares
+HS24-00665,Kaduna,Zaria,EN01,2024-12-04,maize,16.5,100 kg bag,0.78,hectares
+HS24-00666,Kaduna,Zaria,EN13,2024-10-11,maize,59,basins,0.57,ha
+HS24-00667,Kaduna,Giwa,EN16,2024-10-08,sorghum,25½,BAG,3.6,acres
+HS24-00668,Niger,Bida,EN02,2024-10-01,maize,"4,225",Kg,2.26,Ha
+HS24-00669,Niger,Mokwa,EN05,2024-10-02,sorghum,"5,615",kilos,5.9,ac
+HS24-00670,Kaduna,Zaria,EN04,2024-10-18,sorghum,3.5,bag,0.18,ha
+HS24-00671,Benue,Gboko,EN06,2024-10-14,sorghum,18.98,MT,28.77,hectares
+HS24-00672,Kaduna,Kauru,EN16,2024-12-10,maize,N/A,kwano,1.08,ha
+HS24-00673,Kaduna,Kauru,EN16,2024-10-03,maize,82½,kwano,1.65,Ha
+HS24-00674,Kaduna,Zaria,EN01,2024-11-07,cowpea,5.5,Bags,0.89,hectares
+HS24-00675,Kaduna,Kachia,EN13,2024-10-20,cowpea,115,Kilograms,0.20,hectare
+HS24-00676,Niger,Shiroro,EN02,2024-10-03,rice_paddy,43½,50kg bag,1.22,ha
+HS24-00677,Kaduna,Giwa,EN07,2024-11-16,sorghum,2.5,bag,0.48,ha
+HS24-00678,Benue,Katsina-Ala,EN15,2024-12-12,cowpea,4,jerrycan,1.15,hectare
+HS24-00679,Niger,Shiroro,EN05,2024-11-07,rice_paddy,83.5,50kg bags,4.3,ac
+HS24-00680,Benue,Makurdi,EN06,2024-11-24,sorghum,35,bag (100kg),1.24,HA
+HS24-00681,Niger,Mokwa,EN08,2024-11-18,rice_paddy,10½,Basin,0.4,ac
+HS24-00682,Kaduna,Kachia,EN04,2024-12-17,sorghum,4,BAG,0.80,hectare
+HS24-00683,Kaduna,Giwa,EN10,2024-10-13,maize,16,big bag,0.71,Ha
+HS24-00684,Niger,Bida,EN11,2024-10-08,maize,47,kwano,1.4,acre
+HS24-00685,Niger,Lapai,EN14,2024-10-19,maize,98,basins,2.6,acres
+HS24-00686,Kaduna,Kauru,EN13,2024-10-20,maize,53 1/2,basin,0.71,ha
+HS24-00687,Benue,Makurdi,EN06,2024-12-08,maize,38,basin,0.73,Ha
+HS24-00688,Benue,Otukpo,EN09,2024-11-21,sorghum,288,MUDU,1.4,Acres
+HS24-00689,Benue,Makurdi,EN09,2024-10-27,rice_paddy,90.5,bags,3.1,acres
+HS24-00690,Kaduna,Zaria,EN04,2024-12-16,cowpea,3.5,big bag,"6,100",m²
+HS24-00691,Niger,Mokwa,EN11,2024-10-08,cowpea,345,KG,0.60,Ha
+HS24-00692,Benue,Gboko,EN06,2024-12-12,sorghum,2,bags,0.45,hectare
+HS24-00693,Niger,Bida,EN02,2024-11-07,maize,34,kwano,0.48,hectares
+HS24-00694,Benue,Otukpo,EN15,2024-12-12,maize,9.5,big bag,0.39,HA
+HS24-00695,Niger,Shiroro,EN14,2024-12-12,maize,29.5,BASIN,1.5,acres
+HS24-00696,Kaduna,Kachia,EN13,2024-10-25,maize,20½,bag,0.48,HA
+HS24-00697,Benue,Katsina-Ala,EN15,2024-11-24,rice_paddy,13.5,bag (50kg),0.60,hectare
+HS24-00698,Benue,Katsina-Ala,EN03,2024-10-25,rice_paddy,1512,modu,0.63,Ha
+HS24-00699,Kaduna,Kachia,EN01,2024-10-02,rice_paddy,9 1/2,big bag,0.42,hectare
+HS24-00700,Benue,Makurdi,EN06,2024-11-12,maize,1.69,tonnes,2.0,acre
+HS24-00701,Benue,Katsina-Ala,EN09,2024-11-21,maize,61,bag,1.61,ha
+HS24-00702,Kaduna,Kauru,EN10,2024-10-23,sorghum,7,BAG,0.86,ha
+HS24-00703,Kaduna,Zaria,EN16,2024-12-15,sorghum,19.5,Basin,0.55,Ha
+HS24-00704,Kaduna,Zaria,EN01,2024-12-02,cowpea,7,bag (50kg),0.85,HA
+HS24-00705,Kaduna,Kauru,EN13,2024-11-05,maize,29,bag,3.8,acres
+HS24-00706,Niger,Lapai,EN14,2024-11-10,maize,79.5,kwano,1.86,ha
+HS24-00707,Niger,Mokwa,EN05,2024-10-27,cowpea,1.5,100kg bag,0.47,Ha
+HS24-00708,Kaduna,Giwa,EN01,2024-10-08,maize,19½,BAG,0.81,hectares
+HS24-00709,Benue,Katsina-Ala,EN03,2024-12-03,sorghum,25.5,100kg bag,5.0,acres
+HS24-00710,Benue,Otukpo,EN09,2024-11-12,maize,45.5,half bag,1.30,hectare
+HS24-00711,Niger,Bida,EN14,2024-11-06,maize,20.5,bag,1.14,HA
+HS24-00712,Niger,Lapai,EN14,2024-11-18,rice_paddy,20,50 kg bag,0.50,ha
+HS24-00713,Kaduna,Kachia,EN13,2024-10-09,rice_paddy,14,bag (100kg),1.0,acre
+HS24-00714,Niger,Lapai,EN14,2024-11-23,maize,"1,170",Kg,2.9,acre
+HS24-00715,Benue,Otukpo,EN12,2024-11-23,maize,59.5,basins,0.93,HA
+HS24-00716,Niger,Bida,EN05,2024-11-14,cowpea,9½,bag (100kg),1.74,hectare
+HS24-00717,Benue,Gboko,EN03,2024-10-04,maize,16,bag,0.62,ha
+HS24-00718,Niger,Lapai,EN14,2024-12-03,rice_paddy,"5,765",kg.,3.9,Acres
+HS24-00719,Benue,Otukpo,EN09,2024-10-07,maize,1.91,metric tonne,4800,m2
+HS24-00720,Kaduna,Zaria,EN10,2024-12-03,sorghum,540,kgs,0.51,ha
+HS24-00721,Niger,Shiroro,EN08,2024-12-10,sorghum,7.5,bag (100kg),2.0,acres
+HS24-00722,Kaduna,Zaria,EN04,2024-10-09,cowpea,9.5,kwano,2.0,ac
+HS24-00723,Benue,Katsina-Ala,EN06,2024-11-10,maize,15 1/2,bag,0.91,ha
+HS24-00724,Niger,Shiroro,EN11,2024-12-11,sorghum,61,basins,1.30,ha
+HS24-00725,Benue,Otukpo,EN12,2024-10-08,maize,1.76,tonne,1.03,hectares
+HS24-00726,Kaduna,Kachia,EN10,2024-10-16,rice_paddy,"2,855",Kg,1.40,HA
+HS24-00727,Kaduna,Kachia,EN10,2024-11-21,sorghum,9,small bag,2.2,acre
+HS24-00728,Kaduna,Kachia,EN04,2024-10-26,sorghum,19.5,100kg bag,1.9,Acres
+HS24-00729,Benue,Makurdi,EN03,2024-12-14,sorghum,58½,50kg bags,1.24,hectares
+HS24-00730,Benue,Otukpo,EN03,2024-10-27,rice_paddy,59½,bag,2.2,acres
+HS24-00731,Benue,Makurdi,EN09,2024-10-11,cowpea,6,Bags,1.09,hectare
+HS24-00732,Benue,Otukpo,EN03,2024-10-02,maize,"1,415",kg,0.61,HA
+HS24-00733,Niger,Bida,EN14,2024-11-23,rice_paddy,33.5,half bag,2.8,ac
+HS24-00734,Kaduna,Kachia,EN01,2024-12-18,sorghum,835,kg,1.27,HA
+HS24-00735,Niger,Bida,EN11,2024-12-03,sorghum,12,Kg,0.76,ha
+HS24-00736,Benue,Otukpo,EN06,2024-11-05,sorghum,7,bag (100kg),0.39,hectares
+HS24-00737,Benue,Otukpo,EN06,2024-10-26,maize,24 1/2,bag (100kg),1.04,ha
+HS24-00738,Benue,Makurdi,EN09,2024-12-13,sorghum,9,50kg bag,0.52,hectares
+HS24-00739,Benue,Makurdi,EN12,2024-11-22,rice_paddy,45,bag (100kg),1.02,ha
+HS24-00740,Benue,Katsina-Ala,EN06,2024-12-20,maize,0,kilogram,1.38,hectare
+HS24-00741,Kaduna,Kauru,EN07,2024-12-10,sorghum,11½,bag,3.7,acre
+HS24-00742,Benue,Otukpo,EN12,2024-10-22,maize,9½,100 kg bag,0.38,ha
+HS24-00743,Kaduna,Kauru,EN10,2024-11-06,rice_paddy,0,kg,1.5,ac
+HS24-00744,Benue,Katsina-Ala,EN12,2024-12-13,maize,2455,kgs,1.36,hectare
+HS24-00745,Niger,Mokwa,EN08,2024-10-18,maize,22,100kg bag,1.77,ha
+HS24-00746,Benue,Makurdi,EN06,2024-12-10,maize,21,Bags,1.88,Ha
+HS24-00747,Benue,Otukpo,EN03,2024-11-14,cowpea,  ,bags,2.7,ac
+HS24-00748,Kaduna,Kachia,EN10,2024-10-24,sorghum,2.5,bags,0.52,ha
+HS24-00749,Niger,Bida,EN14,2024-10-10,maize,10,wheelbarrow,0.80,ha
+HS24-00750,Kaduna,Kauru,EN10,2024-10-05,cowpea,3,bag,0.36,hectares
+HS24-00751,Benue,Gboko,EN09,2024-11-22,sorghum,N/A,Basin,2.61,hectare
+HS24-00752,Kaduna,Kauru,EN16,2024-11-02,maize,11,BAG,2.4,acres
+HS24-00753,Benue,Katsina-Ala,EN12,2024-12-08,sorghum,10.5,50kg bag,0.9,acre
+HS24-00754,Niger,Bida,EN08,2024-12-07,maize,760,kg.,0.61,ha
+HS24-00755,Niger,Mokwa,EN08,2024-12-04,cowpea,2 1/2,bag,0.75,hectares
+HS24-00756,Niger,Bida,EN05,2024-11-02,maize,10 1/2,BAG,0.75,hectare
+HS24-00757,Benue,Otukpo,EN09,2024-11-07,maize,18½,bag (100kg),"12,900",sq m
+HS24-00758,Benue,Katsina-Ala,EN12,2024-11-17,sorghum,nil,bag,4900,sq m
+HS24-00759,Kaduna,Giwa,EN07,2024-11-01,maize,19,bag (100kg),0.68,hectares
+HS24-00760,Kaduna,Giwa,EN01,2024-11-12,maize,8,BAG,1.5,ac
+HS24-00761,Kaduna,Kauru,EN16,2024-10-25,sorghum,27½,half bag,0.87,HA
+HS24-00762,Niger,Shiroro,EN14,2024-10-07,maize,11,100 kg bag,0.63,hectares
+HS24-00763,Benue,Gboko,EN12,2024-11-06,rice_paddy,10,bags,0.43,ha
+HS24-00764,Benue,Otukpo,EN09,2024-11-02,maize,"1,295",Kg,0.77,ha
+HS24-00765,Kaduna,Kauru,EN16,2024-11-22,maize,N/A,bag,1.46,ha
+HS24-00766,Kaduna,Kauru,EN10,2024-10-25,cowpea,3,50kg bags,0.52,ha
+HS24-00767,Niger,Bida,EN08,2024-12-17,sorghum,16½,bags,0.92,hectare
+HS24-00768,Benue,Otukpo,EN03,2024-11-26,cowpea,2½,100 kg bag,0.7,ac
+HS24-00769,Kaduna,Zaria,EN01,2024-10-09,maize,11,50kg bags,0.56,hectares
+HS24-00770,Kaduna,Zaria,EN13,2024-10-08,rice_paddy,521,MUDU,1.3,ac
+HS24-00771,Niger,Lapai,EN08,2024-12-04,maize,17.5,100kg bag,1.5,acre
+HS24-00772,Benue,Katsina-Ala,EN09,2024-12-12,sorghum,610,Kilograms,0.74,hectare
+HS24-00773,Niger,Bida,EN11,2024-12-09,maize,47½,basins,1.0,Acres
+HS24-00774,Benue,Gboko,EN03,2024-10-09,cowpea,600,KG,1.16,Ha
+HS24-00775,Benue,Makurdi,EN12,2024-10-21,cowpea,214,mudu,0.84,Ha
+HS24-00776,Niger,Bida,EN05,2024-12-12,rice_paddy,31 1/2,100kg bag,4.3,Acres
+HS24-00777,Benue,Katsina-Ala,EN06,2024-11-15,cowpea,5½,bag,1.7,ac
+HS24-00778,Niger,Shiroro,EN14,2024-12-01,maize,18,big bag,0.81,ha
+HS24-00779,Niger,Lapai,EN05,2024-10-23,maize,125½,basins,1.22,hectares
+HS24-00780,Niger,Shiroro,EN05,2024-11-20,maize,16 1/2,bag,1.6,ac
+HS24-00781,Kaduna,Zaria,EN13,2024-10-25,sorghum,9½,bag,1.25,ha
+HS24-00782,Niger,Shiroro,EN11,2024-11-08,maize,186 1/2,BASIN,1.83,HA
+HS24-00783,Benue,Otukpo,EN06,2024-11-04,sorghum,267,Mudu,3100,m2
+HS24-00784,Niger,Shiroro,EN08,2024-11-05,maize,44,100 kg bag,1.31,hectares
+HS24-00785,Kaduna,Kauru,EN16,2024-11-21,sorghum,11 1/2,100kg bag,0.92,hectare
+HS24-00786,Niger,Mokwa,EN05,2024-11-03,maize,47.5,50 kg bag,N/A,ha
+HS24-00787,Kaduna,Giwa,EN16,2024-11-16,sorghum,39,Basin,0.69,ha
+HS24-00788,Kaduna,Zaria,EN01,2024-10-24,maize,28,big bag,0.69,Ha
+HS24-00789,Niger,Mokwa,EN11,2024-12-04,maize,"3,595",kilo,1.79,Ha
+HS24-00790,Kaduna,Giwa,EN10,2024-10-27,maize,13,big bag,NA,ha
+HS24-00791,Kaduna,Giwa,EN04,2024-10-19,maize,51,bag,1.73,Ha
+HS24-00792,Kaduna,Kachia,EN10,2024-12-11,sorghum,289,Mudu,0.53,ha
+HS24-00793,Kaduna,Giwa,EN16,2024-12-16,rice_paddy,143.5,small bag,"13,300",m2
+HS24-00794,Niger,Mokwa,EN08,2024-11-14,rice_paddy,146 1/2,50kg bags,2.44,ha
+HS24-00795,Kaduna,Kauru,EN04,2024-10-15,cowpea,260,kgs,,ha
+HS24-00796,Kaduna,Zaria,EN10,2024-11-13,maize,5.5,BAG,5200,square metres
+HS24-00797,Benue,Otukpo,EN15,2024-12-13,maize,41.5,bag,1.57,hectares
+HS24-00798,Benue,Katsina-Ala,EN12,2024-10-24,rice_paddy,8 1/2,Bags,0.41,HA
+HS24-00799,Benue,Makurdi,EN12,2024-10-24,rice_paddy,19 1/2,50kg bag,0.44,HA
+HS24-00800,Benue,Gboko,EN15,2024-10-11,cowpea,10½,bag,2.84,ha
+HS24-00801,Benue,Makurdi,EN09,2024-10-07,sorghum,8.5,BAG,1.8,ac
+HS24-00802,Kaduna,Kauru,EN16,2024-11-22,cowpea,6,small bag,0.31,hectares
+HS24-00803,Kaduna,Giwa,EN10,2024-12-03,rice_paddy,14 1/2,BAG,0.43,hectare
+HS24-00804,Niger,Bida,EN11,2024-11-16,maize,23.5,Bags,1.81,hectare
+HS24-00805,Benue,Katsina-Ala,EN03,2024-10-07,maize,63 1/2,50 kg bag,3.4,ac
+HS24-00806,Kaduna,Kachia,EN07,2024-11-28,sorghum,5,bag (100kg),"5,700",square metres
+HS24-00807,Kaduna,Kauru,EN07,2024-12-05,sorghum,3,Bags,0.9,acre
+HS24-00808,Kaduna,Kauru,EN16,2024-12-13,sorghum,48,bag (100kg),"26,800",sq m
+HS24-00809,Benue,Katsina-Ala,EN12,2024-11-05,cowpea,3.5,50kg bag,1.0,acre
+HS24-00810,Kaduna,Kauru,EN13,2024-11-12,maize,17½,bag,2.2,acre
+HS24-00811,Niger,Lapai,EN14,2024-10-02,sorghum,1.11,tonne,nil,
+HS24-00812,Kaduna,Zaria,EN13,2024-12-02,maize,88,half bag,0.81,hectares
+HS24-00813,Benue,Otukpo,EN03,2024-12-12,sorghum,14.5,small bag,0.52,ha
+HS24-00814,Niger,Mokwa,EN14,2024-12-03,cowpea,12,BAG,1.02,ha
+HS24-00815,Niger,Shiroro,EN14,2024-10-06,cowpea,8 1/2,50 kg bag,6300,sq m
+HS24-00816,Benue,Makurdi,EN12,2024-12-07,maize,13.5,Bags,0.90,ha
+HS24-00817,Kaduna,Kachia,EN13,2024-10-11,maize,7½,bag (100kg),3800,m²
+HS24-00818,Kaduna,Giwa,EN07,2024-10-05,rice_paddy,33 1/2,bag,2.0,ac
+HS24-00819,Benue,Gboko,EN12,2024-12-01,sorghum,2,BAG,0.31,ha
+HS24-00820,Niger,Mokwa,EN14,2024-12-16,maize,29,bags,2.20,ha
+HS24-00821,Kaduna,Zaria,EN07,2024-12-12,maize,20 1/2,Bags,0.56,ha
+HS24-00822,Niger,Bida,EN14,2024-10-20,sorghum,6,100 kg bag,0.34,ha
+HS24-00823,Benue,Gboko,EN15,2024-10-14,sorghum,9 1/2,bag (100kg),1.6,acres
+HS24-00824,Niger,Shiroro,EN14,2024-12-09,maize,3,bags,0.17,hectare
+HS24-00825,Niger,Bida,EN14,2024-10-18,sorghum,79.5,basins,0.74,hectare
+HS24-00826,Benue,Katsina-Ala,EN12,2024-11-13,cowpea,5.5,kwano,1.5,acre
+HS24-00827,Benue,Makurdi,EN03,2024-11-13,rice_paddy,17,Bags,0.74,hectare
+HS24-00828,Benue,Katsina-Ala,EN06,2024-10-02,cowpea,3 1/2,bags,0.83,hectare
+HS24-00829,Kaduna,Zaria,EN07,2024-12-13,sorghum,2.5,small bag,0.13,ha
+HS24-00830,Niger,Lapai,EN14,2024-11-06,cowpea,11 1/2,bag,2.9,Acres
+HS24-00831,Benue,Makurdi,EN12,2024-12-16,cowpea,1265,kg.,3.3,acre
+HS24-00832,Niger,Shiroro,EN05,2024-12-20,maize,2½,bag,0.3,acre
+HS24-00833,Kaduna,Giwa,EN04,2024-11-13,cowpea,4½,100kg bag,0.71,hectare
+HS24-00834,Benue,Gboko,EN15,2024-11-23,sorghum,495,kilos,0.35,ha
+HS24-00835,Kaduna,Giwa,EN04,2024-12-04,sorghum,11 1/2,bag,2.0,acre
+HS24-00836,Kaduna,Kauru,EN13,2024-10-11,maize,12,heap,1.19,ha
+HS24-00837,Kaduna,Kauru,EN04,2024-10-26,cowpea,14.5,small bag,0.83,HA
+HS24-00838,Benue,Gboko,EN15,2024-12-08,cowpea,0,BASIN,0.33,hectare
+HS24-00839,Benue,Katsina-Ala,EN09,2024-12-12,maize,16,50 kg bag,1.9,Acres
+HS24-00840,Benue,Makurdi,EN03,2024-10-23,cowpea,3,bag (50kg),0.28,hectares
+HS24-00841,Niger,Shiroro,EN11,2024-12-19,maize,200,kwano,6.0,Acres
+HS24-00842,Niger,Mokwa,EN05,2024-12-17,maize,51.5,BAG,1.41,Ha
+HS24-00843,Benue,Katsina-Ala,EN03,2024-11-01,maize,-,Basin,4.4,acres
+HS24-00844,Kaduna,Giwa,EN01,2024-12-04,sorghum,98.5,basin,3.8,ac
+HS24-00845,Kaduna,Zaria,EN07,2024-11-17,cowpea,9.5,big bag,2.06,HA
+HS24-00846,Benue,Gboko,EN03,2024-10-18,maize,0,kwano,1.03,ha
+HS24-00847,Niger,Bida,EN08,2024-11-02,sorghum,495,kilogram,0.49,Ha
+HS24-00848,Kaduna,Kauru,EN10,2024-11-22,maize,12,Bags,0.74,hectare
+HS24-00849,Benue,Katsina-Ala,EN03,2024-10-04,maize,7,100kg bag,0.53,Ha
+HS24-00850,Benue,Gboko,EN03,2024-10-07,rice_paddy,113.5,basin,2.5,ac
+HS24-00851,Kaduna,Zaria,EN07,2024-10-01,sorghum,29,bag,,Acres
+HS24-00852,Kaduna,Kauru,EN04,2024-12-08,sorghum,15½,Bags,1.69,Ha
+HS24-00853,Kaduna,Zaria,EN13,2024-10-22,cowpea,16,50 kg bag,"17,100",sq m
+HS24-00854,Kaduna,Kachia,EN13,2024-12-04,maize,30.5,big bag,0.83,ha
+HS24-00855,Kaduna,Kauru,EN04,2024-12-02,sorghum,6,big bag,0.61,ha
+HS24-00856,Benue,Gboko,EN06,2024-11-23,maize,48,bag (50kg),0.61,Ha
+HS24-00857,Niger,Shiroro,EN05,2024-10-23,maize,40,Basin,0.30,ha
+HS24-00858,Kaduna,Kauru,EN13,2024-11-10,maize,440,kilos,0.41,Ha
+HS24-00859,Niger,Mokwa,EN14,2024-12-07,maize,53½,half bag,1.09,Ha
+HS24-00860,Benue,Otukpo,EN03,2024-11-20,cowpea,4,big bag,4.9,ac
+HS24-00861,Kaduna,Kachia,EN13,2024-11-07,maize,101 1/2,50kg bags,3.9,acres
+HS24-00862,Niger,Bida,EN05,2024-12-05,maize,120.5,100 kg bag,8.0,Acres
+HS24-00863,Benue,Otukpo,EN09,2024-12-15,sorghum,27½,small bag,1.16,ha
+HS24-00864,Benue,Otukpo,EN15,2024-11-10,sorghum,2,100kg bag,5300,square metres
+HS24-00865,Niger,Mokwa,EN11,2024-10-04,sorghum,1295,kilo,1.23,Ha
+HS24-00866,Niger,Shiroro,EN02,2024-10-15,rice_paddy,36 1/2,BAG,2.1,acres
+HS24-00867,Kaduna,Kauru,EN04,2024-11-16,maize,33,100 kg bag,2.1,acre
+HS24-00868,Benue,Makurdi,EN15,2024-11-21,maize,565,Kg,0.9,Acres
+HS24-00869,Kaduna,Giwa,EN01,2024-10-27,sorghum,222,paint bucket,0.50,ha
+HS24-00870,Niger,Mokwa,EN05,2024-11-03,maize,33.5,bag (100kg),3.6,ac
+HS24-00871,Niger,Mokwa,EN02,2024-10-26,maize,,basins,1.46,HA
+HS24-00872,Benue,Makurdi,EN03,2024-10-22,sorghum,9,basin,0.23,Ha
+HS24-00873,Kaduna,Zaria,EN04,2024-10-12,maize,34,bag,4.4,Acres
+HS24-00874,Niger,Shiroro,EN14,2024-11-07,cowpea,1,cart,1.5,acres
+HS24-00875,Kaduna,Giwa,EN10,2024-11-12,maize,17.5,kwano,,
+HS24-00876,Benue,Makurdi,EN06,2024-10-20,cowpea,12,50kg bag,0.71,HA
+HS24-00877,Kaduna,Kauru,EN10,2024-11-15,maize,83,Basin,0.76,HA
+HS24-00878,Benue,Makurdi,EN15,2024-10-01,rice_paddy,"1,805",kilogram,1.9,Acres
+HS24-00879,Niger,Lapai,EN02,2024-12-03,sorghum,51.5,BASIN,0.49,hectares
+HS24-00880,Benue,Otukpo,EN15,2024-11-16,cowpea,78,mudu,0.33,Ha
+HS24-00881,Kaduna,Kachia,EN04,2024-11-08,maize,2660,kg.,1.31,HA
+HS24-00882,Niger,Lapai,EN05,2024-11-01,cowpea,15.5,bag,2.99,Ha
+HS24-00883,Niger,Mokwa,EN08,2024-11-24,maize,23,BAG,1.31,hectare
+HS24-00884,Kaduna,Giwa,EN07,2024-11-27,rice_paddy,48 1/2,Bags,1.91,Ha
+HS24-00885,Kaduna,Zaria,EN04,2024-10-04,rice_paddy,102,bag,6.0,acres
+HS24-00886,Kaduna,Kauru,EN04,2024-10-21,rice_paddy,32 1/2,bag,1.19,Ha
+HS24-00887,Kaduna,Giwa,EN01,2024-12-02,maize,71,kwano,0.61,Ha
+HS24-00888,Benue,Katsina-Ala,EN12,2024-11-01,maize,43,Basin,2.5,ac
+HS24-00889,Kaduna,Zaria,EN07,2024-10-14,sorghum,221,MUDU,0.27,ha
+HS24-00890,Niger,Shiroro,EN11,2024-11-12,maize,76 1/2,kg,1.62,ha
+HS24-00891,Niger,Mokwa,EN02,2024-12-16,sorghum,"1,330",KG,2.1,acres
+HS24-00892,Kaduna,Zaria,EN01,2024-12-11,maize,6,bag,0.53,HA
+HS24-00893,Benue,Otukpo,EN03,2024-11-23,cowpea,  ,bag,1.27,hectare
+HS24-00894,Benue,Gboko,EN09,2024-12-11,maize,44,kwano,2.8,acre
+HS24-00895,Niger,Bida,EN08,2024-11-04,sorghum,0,Basin,0.18,ha
+HS24-00896,Benue,Otukpo,EN06,2024-10-27,cowpea,55,Paint Bucket,0.52,hectare
+HS24-00897,Kaduna,Kachia,EN07,2024-12-05,maize,7.5,bag (100kg),0.33,ha
+HS24-00898,Kaduna,Kachia,EN07,2024-10-19,maize,3.5,bag (100kg),0.46,ha
+HS24-00899,Niger,Lapai,EN02,2024-12-18,sorghum,293,mudus,1.1,Acres
+HS24-00900,Benue,Otukpo,EN06,2024-11-06,sorghum,6½,bag,1.8,ac
+HS24-00901,Kaduna,Kachia,EN13,2024-11-22,rice_paddy,nil,100kg bag,1.8,Acres
+HS24-00902,Benue,Katsina-Ala,EN03,2024-12-18,maize,5½,bag,0.9,acres
+HS24-00903,Benue,Katsina-Ala,EN09,2024-11-10,maize,3.5,100kg bag,0.48,HA
+HS24-00904,Kaduna,Zaria,EN13,2024-12-10,cowpea,13.5,50 kg bag,0.74,ha
+HS24-00905,Benue,Gboko,EN12,2024-11-10,cowpea,3,bags,0.8,acre
+HS24-00906,Niger,Shiroro,EN14,2024-11-03,sorghum,"1,820",kg.,4.9,acre
+HS24-00907,Kaduna,Kachia,EN04,2024-11-06,cowpea,67,kwano,3.23,ha
+HS24-00908,Kaduna,Kauru,EN01,2024-11-08,cowpea,2.5,100 kg bag,1.9,ac
+HS24-00909,Kaduna,Kauru,EN13,2024-11-07,sorghum,7.5,bag,1.2,Acres
+HS24-00910,Benue,Gboko,EN12,2024-12-09,maize,46,Basin,0.73,ha
+HS24-00911,Niger,Shiroro,EN14,2024-12-12,maize,37,small bag,1.34,ha
+HS24-00912,Benue,Katsina-Ala,EN06,2024-11-09,cowpea,5,bag,0.72,ha
+HS24-00913,Benue,Otukpo,EN03,2024-12-11,maize,1160,kg,0.74,HA
+HS24-00914,Kaduna,Kauru,EN13,2024-10-12,sorghum,93.5,kwano,4.4,Acres
+HS24-00915,Kaduna,Giwa,EN07,2024-11-13,rice_paddy,72.5,small bag,6.5,acre
+HS24-00916,Niger,Shiroro,EN02,2024-12-01,maize,0,BASIN,0.41,ha
+HS24-00917,Benue,Makurdi,EN12,2024-12-08,maize,18,50kg bag,0.67,Ha
+HS24-00918,Benue,Otukpo,EN06,2024-12-06,sorghum,9,bag (100kg),1.06,ha
+HS24-00919,Kaduna,Zaria,EN01,2024-12-02,maize,7½,bag,1.5,Acres
+HS24-00920,Benue,Makurdi,EN12,2024-11-27,sorghum,18,Basin,0.31,hectares
+HS24-00921,Benue,Otukpo,EN12,2024-10-17,maize,7,100kg bag,1.8,acres
+HS24-00922,Kaduna,Zaria,EN10,2024-10-24,cowpea,2½,bag,0.46,ha
+HS24-00923,Benue,Otukpo,EN09,2024-12-09,sorghum,8,100 kg bag,2.5,Acres
+HS24-00924,Niger,Lapai,EN08,2024-10-17,maize,11.5,100 kg bag,0.74,hectare
+HS24-00925,Benue,Makurdi,EN03,2024-12-20,maize,18 1/2,big bag,2.5,acres
+HS24-00926,Kaduna,Kachia,EN04,2024-12-10,maize,12,BAG,0.71,ha
+HS24-00927,Niger,Mokwa,EN14,2024-12-19,maize,11½,bags,2.6,acres
+HS24-00928,Benue,Gboko,EN06,2024-10-26,maize,61,basins,0.50,ha
+HS24-00929,Benue,Makurdi,EN09,2024-12-05,maize,26,bags,NA,Ha
+HS24-00930,Kaduna,Kauru,EN04,2024-10-11,maize,1865,KG,2.5,ac
+HS24-00931,Kaduna,Giwa,EN16,2024-11-22,maize,22.5,half bag,1.19,ha
+HS24-00932,Benue,Katsina-Ala,EN12,2024-11-23,maize,18,50 kg bag,1.9,Acres
+HS24-00933,Kaduna,Kauru,EN07,2024-10-05,sorghum,19,50 kg bag,0.78,Ha
+HS24-00934,Kaduna,Kauru,EN01,2024-11-18,sorghum,6,bag (100kg),0.61,ha
+HS24-00935,Niger,Mokwa,EN14,2024-10-26,maize,435,kilogram,0.41,Ha
+HS24-00936,Kaduna,Kachia,EN13,2024-11-07,maize,7.5,100kg bag,0.40,HA
+HS24-00937,Benue,Gboko,EN06,2024-11-22,rice_paddy,6,half bag,0.10,Ha
+HS24-00938,Niger,Mokwa,EN05,2024-11-22,sorghum,69½,basin,0.78,hectares
+HS24-00939,Kaduna,Giwa,EN13,2024-11-24,sorghum,39,BAG,2.11,ha
+HS24-00940,Kaduna,Zaria,EN07,2024-12-05,maize,7½,bags,0.9,ac
+HS24-00941,Benue,Makurdi,EN09,2024-10-16,maize,5,100 kg bag,0.32,HA
+HS24-00942,Kaduna,Kachia,EN16,2024-10-12,sorghum,69,50kg bag,30600,ha
+HS24-00943,Benue,Katsina-Ala,EN09,2024-12-03,sorghum,8,100 kg bag,1.17,ha
+HS24-00944,Niger,Lapai,EN14,2024-12-03,rice_paddy,27 1/2,BAG,0.73,ha
+HS24-00945,Benue,Gboko,EN09,2024-10-27,maize,11.5,bag (100kg),0.42,ha
+HS24-00946,Niger,Lapai,EN05,2024-10-01,maize,92.5,100 kg bag,8.9,acre
+HS24-00947,Kaduna,Kauru,EN13,2024-11-23,rice_paddy,36 1/2,BAG,nil,hectares
+HS24-00948,Kaduna,Giwa,EN13,2024-12-13,maize,5.5,bag (100kg),0.9,acres
+HS24-00949,Kaduna,Giwa,EN10,2024-10-20,sorghum,"1,580",kilo,"10,200",sq m
+HS24-00950,Benue,Katsina-Ala,EN15,2024-10-04,maize,6 1/2,100 kg bag,0.46,ha
+HS24-00951,Benue,Gboko,EN06,2024-12-19,rice_paddy,28.5,100 kg bag,1.9,Acres
+HS24-00952,Kaduna,Kachia,EN07,2024-10-23,maize,23½,bag,1.8,acres
+HS24-00953,Niger,Lapai,EN05,2024-10-08,sorghum,4,100kg bag,1.6,ac
+HS24-00954,Kaduna,Giwa,EN01,2024-10-23,rice_paddy,6.6,tonnes,2.01,Ha
+HS24-00955,Benue,Otukpo,EN06,2024-11-14,maize,15 1/2,bag,0.56,HA
+HS24-00956,Kaduna,Giwa,EN16,2024-10-20,maize,"4,310",kg,5.0,ac
+HS24-00957,Niger,Mokwa,EN11,2024-11-23,sorghum,7½,Kg,"6,300",m²
+HS24-00958,Niger,Bida,EN14,2024-12-08,rice_paddy,21,Bags,0.90,Ha
+HS24-00959,Niger,Lapai,EN02,2024-11-16,sorghum,14,basin,0.37,ha
+HS24-00960,Benue,Makurdi,EN03,2024-12-13,maize,14 1/2,bag (50kg),0.49,hectares
+HS24-00961,Kaduna,Kauru,EN16,2024-11-14,maize,15½,bag,1.03,ha
+HS24-00962,Kaduna,Kachia,EN10,2024-10-06,sorghum,7 1/2,bags,0.74,hectare
+HS24-00963,Niger,Bida,EN08,2024-12-16,maize,17½,big bag,2.6,acre
+HS24-00964,Niger,Bida,EN08,2024-12-19,cowpea,5,Bags,1.46,ha
+HS24-00965,Kaduna,Zaria,EN16,2024-12-04,maize,47.5,Basin,0.37,ha
+HS24-00966,Niger,Shiroro,EN14,2024-12-17,maize,1220,kilogram,0.60,hectare
+HS24-00967,Benue,Makurdi,EN06,2024-11-22,maize,33,cart,2.03,Ha
+HS24-00968,Kaduna,Giwa,EN01,2024-10-25,cowpea,7,50kg bag,0.45,HA
+HS24-00969,Benue,Katsina-Ala,EN12,2024-10-13,cowpea,3,50kg bags,0.35,HA
+HS24-00970,Niger,Bida,EN14,2024-11-07,sorghum,1355,Paint Bucket,2.82,Ha
+HS24-00971,Benue,Katsina-Ala,EN09,2024-11-11,cowpea,9,half bag,0.57,ha
+HS24-00972,Kaduna,Zaria,EN01,2024-10-03,maize,18,big bag,1.10,Ha
+HS24-00973,Benue,Makurdi,EN15,2024-10-17,sorghum,"1,250",Kilograms,4.8,Acres
+HS24-00974,Kaduna,Kachia,EN07,2024-12-10,rice_paddy,1.52,t,0.88,ha
+HS24-00975,Kaduna,Giwa,EN13,2024-10-05,sorghum,13,BAG,1.9,ac
+HS24-00976,Niger,Shiroro,EN11,2024-12-13,maize,28.5,kgs,1.7,ac
+HS24-00977,Niger,Mokwa,EN11,2024-12-17,sorghum,19,bag,1.15,HA
+HS24-00978,Kaduna,Kachia,EN07,2024-12-09,maize,17,heap,2.1,ac
+HS24-00979,Niger,Shiroro,EN08,2024-12-15,maize,52,BASIN,0.78,ha
+HS24-00980,Benue,Makurdi,EN15,2024-10-28,maize,14 1/2,100 kg bag,9200,sq m
+HS24-00981,Niger,Lapai,EN11,2024-12-05,sorghum,5 1/2,Kg,0.49,hectares
+HS24-00982,Benue,Otukpo,EN06,2024-12-03,cowpea,745,MT,4.3,acre
+HS24-00983,Kaduna,Kauru,EN04,2024-10-04,maize,"2,540",Kg,5.5,acres
+HS24-00984,Benue,Makurdi,EN06,2024-12-07,maize,22,bag,0.79,hectares
+HS24-00985,Kaduna,Giwa,EN10,2024-10-20,rice_paddy,36,bag,1.96,ha
+HS24-00986,Benue,Makurdi,EN06,2024-12-13,maize,5,BAG,0.8,ac
+HS24-00987,Niger,Mokwa,EN14,2024-12-03,maize,0.19,MT,0.5,ac
+HS24-00988,Niger,Bida,EN02,2024-11-14,maize,22,bags,0.85,ha
+HS24-00989,Benue,Otukpo,EN15,2024-12-16,sorghum,1155,Kg,1.21,hectare
+HS24-00990,Benue,Katsina-Ala,EN03,2024-11-23,rice_paddy,333,Basin,"17,300",sq m
+HS24-00991,Benue,Otukpo,EN12,2024-10-26,maize,18½,100 kg bag,2.6,acres
+HS24-00992,Benue,Katsina-Ala,EN12,2024-12-17,sorghum,44,Basin,2.0,acres
+HS24-00993,Niger,Mokwa,EN11,2024-12-11,maize,10,Kg,0.52,ha
+HS24-00994,Benue,Gboko,EN12,2024-10-01,rice_paddy,8,bags,0.33,hectares
+HS24-00995,Kaduna,Giwa,EN07,2024-10-05,sorghum,36,kwano,0.96,ha
+HS24-00996,Benue,Makurdi,EN03,2024-12-07,sorghum,23,50kg bag,1.03,hectare
+HS24-00997,Kaduna,Giwa,EN01,2024-11-12,sorghum,18.5,BAG,2.05,ha
+HS24-00998,Kaduna,Kauru,EN13,2024-12-05,maize,31,50kg bag,0.81,hectares
+HS24-00999,Niger,Bida,EN11,2024-10-15,rice_paddy,9,Kg,0.45,hectare
+HS24-01000,Kaduna,Kauru,EN10,2024-12-14,maize,2.15,metric tonne,1.7,acre
+HS24-01001,Niger,Lapai,EN11,2024-12-12,maize,18.5,kg,0.82,ha
+HS24-01002,Niger,Shiroro,EN02,2024-12-15,rice_paddy,1405,kilos,0.57,ha
+HS24-01003,Niger,Mokwa,EN08,2024-10-07,sorghum,43½,small bag,1.06,hectare
+HS24-01004,Kaduna,Kachia,EN10,2024-12-18,rice_paddy,13.5,half bag,1.1,ac
+HS24-01005,Benue,Gboko,EN12,2024-12-13,maize,2.48,tonne,1.36,hectare
+HS24-01006,Benue,Otukpo,EN12,2024-12-17,sorghum,9½,bags,1.7,acres
+HS24-01007,Kaduna,Kachia,EN13,2024-11-05,maize,6,bag (100kg),1.17,hectare
+HS24-01008,Niger,Bida,EN02,2024-10-13,maize,6,Bags,3000,m²
+HS24-01009,Benue,Gboko,EN12,2024-12-19,maize,6,Bags,nil,hectare
+HS24-01010,Kaduna,Zaria,EN16,2024-10-07,rice_paddy,N/A,half bag,0.28,hectare
+HS24-01011,Niger,Shiroro,EN08,2024-12-12,sorghum,7 1/2,100 kg bag,2.0,acres
+HS24-01012,Niger,Shiroro,EN11,2024-12-03,sorghum,89.5,kwano,3.7,acres
+HS24-01013,Niger,Bida,EN14,2024-11-04,sorghum,12,50kg bag,1.4,acre
+HS24-01014,Kaduna,Giwa,EN10,2024-11-04,rice_paddy,21.5,BAG,3.0,acre
+HS24-01015,Kaduna,Giwa,EN04,2024-10-11,rice_paddy,67½,kwano,0.75,ha
+HS24-01016,Niger,Lapai,EN05,2024-11-10,rice_paddy,28.5,basin,0.49,HA
+HS24-01017,Kaduna,Kauru,EN04,2024-10-19,rice_paddy,13,bag,1.18,ha
+HS24-01018,Benue,Otukpo,EN06,2024-10-22,maize,13,bag (100kg),0.50,Ha
+HS24-01019,Benue,Gboko,EN09,2024-10-22,cowpea,8.5,bag (100kg),4.3,Acres
+HS24-01020,Benue,Otukpo,EN15,2024-12-19,cowpea,6,100 kg bag,7300,m²
+HS24-01021,Kaduna,Zaria,EN04,2024-10-18,maize,31,big bag,2.04,hectare
+HS24-01022,Niger,Shiroro,EN11,2024-11-07,rice_paddy,"1,450",kilo,0.71,ha
+HS24-01023,Benue,Gboko,EN09,2024-12-11,maize,44,big bag,1.83,ha
+HS24-01024,Niger,Lapai,EN08,2024-12-02,sorghum,8.5,100kg bag,2.4,acres
+HS24-01025,Niger,Lapai,EN11,2024-10-02,sorghum,12,100kg bag,-,
+HS24-01026,Kaduna,Zaria,EN07,2024-12-14,maize,282,half bag,5.21,HA
+HS24-01027,Benue,Katsina-Ala,EN12,2024-10-22,maize,21 1/2,BAG,1.21,HA
+HS24-01028,Niger,Lapai,EN02,2024-12-04,maize,7½,50 kg bag,0.9,acres
+HS24-01029,Niger,Lapai,EN05,2024-10-25,rice_paddy,244,basins,2.76,ha
+HS24-01030,Benue,Gboko,EN06,2024-11-16,maize,11,bag (100kg),1.5,acre
+HS24-01031,Niger,Shiroro,EN05,2024-12-15,rice_paddy,8,Bags,0.6,acres
+HS24-01032,Benue,Makurdi,EN03,2024-10-13,maize,1.86,MT,0.92,HA
+HS24-01033,Kaduna,Kauru,EN04,2024-12-11,maize,"3,135",kg,1.25,ha
+HS24-01034,Niger,Bida,EN08,2024-12-12,sorghum,5.5,Bags,"7,500",m2
+HS24-01035,Kaduna,Kachia,EN13,2024-11-10,sorghum,11,pickup,3.6,Acres
+HS24-01036,Kaduna,Giwa,EN04,2024-11-20,maize,18,100kg bag,1.66,ha
+HS24-01037,Kaduna,Giwa,EN10,2024-10-10,sorghum,42½,half bag,0.95,ha
+HS24-01038,Kaduna,Giwa,EN13,2024-11-12,maize,1.25,tonnes,2.0,acre
+HS24-01039,Kaduna,Giwa,EN10,2024-10-27,maize,535,kg,"5,100",sq m
+HS24-01040,Kaduna,Kachia,EN04,2024-11-11,maize,21½,bags,0.47,hectare
+HS24-01041,Kaduna,Zaria,EN13,2024-12-20,sorghum,9,bag,0.81,hectares
+HS24-01042,Benue,Makurdi,EN09,2024-11-04,maize,22½,basin,0.25,Ha
+HS24-01043,Niger,Bida,EN02,2024-10-26,sorghum,8,bag,1.9,acre
+HS24-01044,Kaduna,Zaria,EN07,2024-12-18,maize,41,BASIN,0.76,ha
+HS24-01045,Kaduna,Giwa,EN16,2024-10-24,maize,1545,kg,0.43,HA
+HS24-01046,Benue,Katsina-Ala,EN03,2024-11-14,maize,51,50kg bag,1.19,HA
+HS24-01047,Kaduna,Kachia,EN04,2024-11-03,cowpea,17 1/2,50kg bags,1.60,ha
+HS24-01048,Kaduna,Kachia,EN01,2024-12-11,maize,13,Bags,1.38,ha
+HS24-01049,Benue,Otukpo,EN06,2024-12-13,sorghum,112,paint bucket,0.50,hectare
+HS24-01050,Niger,Mokwa,EN02,2024-11-28,maize,16½,100kg bag,2.6,Acres
+HS24-01051,Niger,Lapai,EN14,2024-10-11,rice_paddy,23,half bag,0.58,ha
+HS24-01052,Kaduna,Zaria,EN07,2024-10-24,maize,12,bag,1.2,ac
+HS24-01053,Niger,Mokwa,EN05,2024-10-19,cowpea,190,mudu,0.46,ha
+HS24-01054,Niger,Lapai,EN05,2024-10-09,maize,9,small bag,0.39,ha
+HS24-01055,Niger,Bida,EN14,2024-10-05,sorghum,15.5,50kg bags,1.8,acres
+HS24-01056,Kaduna,Kauru,EN13,2024-12-10,maize,11 1/2,50kg bags,0.65,ha
+HS24-01057,Kaduna,Kauru,EN10,2024-12-05,maize,23½,50 kg bag,2.1,acres
+HS24-01058,Niger,Lapai,EN11,2024-11-17,rice_paddy,1035,Kilograms,0.59,HA
+HS24-01059,Benue,Katsina-Ala,EN09,2024-10-20,rice_paddy,180½,basins,2.5,Acres
+HS24-01060,Kaduna,Giwa,EN07,2024-10-08,rice_paddy,59,kwano,1.4,acre
+HS24-01061,Kaduna,Kauru,EN13,2024-11-28,maize,64 1/2,kwano,0.58,ha
+HS24-01062,Kaduna,Giwa,EN13,2024-10-18,maize,13,bag,  ,
+HS24-01063,Kaduna,Zaria,EN10,2024-12-15,sorghum,62,bag (50kg),2.89,Ha
+HS24-01064,Niger,Shiroro,EN02,2024-11-03,maize,nil,basin,6700,square metres
+HS24-01065,Kaduna,Giwa,EN07,2024-12-17,sorghum,20.5,half bag,0.75,HA
+HS24-01066,Kaduna,Zaria,EN13,2024-12-01,maize,14.5,bag,0.57,ha
+HS24-01067,Kaduna,Zaria,EN07,2024-10-02,sorghum,38,bag,2.61,ha
+HS24-01068,Kaduna,Kauru,EN13,2024-12-05,sorghum,2 1/2,100 kg bag,0.8,acres
+HS24-01069,Niger,Bida,EN05,2024-10-10,maize,"1,670",kg,3.0,Acres
+HS24-01070,Niger,Bida,EN11,2024-10-18,sorghum,7,kgs,4200,square metres
+HS24-01071,Niger,Mokwa,EN05,2024-10-18,maize,13,bags,0.60,ha
+HS24-01072,Kaduna,Giwa,EN01,2024-12-07,sorghum,34 1/2,bag (100kg),3.1,acres
+HS24-01073,Niger,Shiroro,EN08,2024-10-08,maize,43,50 kg bag,2.3,ac
+HS24-01074,Benue,Otukpo,EN09,2024-10-24,sorghum,10.5,Bags,2.6,acres
+HS24-01075,Benue,Gboko,EN03,2024-11-22,rice_paddy,220,half bag,14900,m2
+HS24-01076,Kaduna,Kachia,EN10,2024-12-18,maize,43,100 kg bag,2.92,hectare
+HS24-01077,Benue,Makurdi,EN15,2024-12-09,maize,23 1/2,bag,1.38,hectare
+HS24-01078,Kaduna,Kauru,EN01,2024-10-09,maize,10,jerrycan,0.91,ha
+HS24-01079,Benue,Gboko,EN09,2024-12-08,maize,14½,bag,0.36,ha
+HS24-01080,Benue,Makurdi,EN12,2024-11-28,cowpea,15.5,Basin,"9,700",square metres
+HS24-01081,Kaduna,Giwa,EN04,2024-10-25,maize,3 1/2,BAG,0.45,hectares
+HS24-01082,Niger,Mokwa,EN02,2024-11-02,maize,685,kilo,0.54,ha
+HS24-01083,Niger,Shiroro,EN11,2024-11-07,maize,11,bag (100kg),,ha
+HS24-01084,Benue,Otukpo,EN03,2024-11-16,maize,14,cart,0.57,Ha
+HS24-01085,Kaduna,Kachia,EN16,2024-12-09,maize,36,basins,0.89,ha
+HS24-01086,Benue,Gboko,EN03,2024-12-12,maize,57,bag (50kg),1.00,ha
+HS24-01087,Kaduna,Kauru,EN10,2024-10-28,sorghum,19,basin,0.78,ha
+HS24-01088,Kaduna,Kauru,EN07,2024-10-26,sorghum,3,half bag,2100,sq m
+HS24-01089,Kaduna,Giwa,EN16,2024-11-20,rice_paddy,15,bags,0.60,hectares
+HS24-01090,Kaduna,Kachia,EN07,2024-12-06,sorghum,18 1/2,BAG,2.3,acre
+HS24-01091,Niger,Mokwa,EN02,2024-10-24,maize,"6,185",kilogram,2.71,Ha
+HS24-01092,Kaduna,Kauru,EN01,2024-10-18,sorghum,5½,100kg bag,1.04,HA
+HS24-01093,Niger,Shiroro,EN14,2024-10-26,maize,"1,820",kilo,0.99,hectare
+HS24-01094,Benue,Gboko,EN06,2024-11-08,sorghum,4.5,bag,0.59,ha
+HS24-01095,Benue,Otukpo,EN03,2024-10-24,rice_paddy,2245,Kg,0.64,ha
+HS24-01096,Kaduna,Zaria,EN04,2024-11-16,rice_paddy,32,Basin,0.5,acres
+HS24-01097,Benue,Katsina-Ala,EN15,2024-10-26,maize,22,jerrycan,11100,m2
+HS24-01098,Niger,Bida,EN08,2024-12-19,cowpea,6,bag,"10,400",square metres
+HS24-01099,Benue,Otukpo,EN12,2024-11-07,sorghum,6 1/2,bag (100kg),0.53,ha
+HS24-01100,Benue,Katsina-Ala,EN12,2024-10-07,maize,25.5,100kg bag,4.4,ac
+HS24-01101,Benue,Katsina-Ala,EN09,2024-10-11,rice_paddy,38,bag (100kg),2.9,ac
+HS24-01102,Benue,Makurdi,EN09,2024-12-20,maize,54,basin,1.4,acres
+HS24-01103,Benue,Katsina-Ala,EN09,2024-10-16,cowpea,16.5,basins,0.70,Ha
+HS24-01104,Niger,Lapai,EN11,2024-11-26,rice_paddy,17.5,kgs,0.66,Ha
+HS24-01105,Niger,Shiroro,EN11,2024-12-19,cowpea,7 1/2,100 kg bag,1.09,HA
+HS24-01106,Benue,Gboko,EN06,2024-10-11,cowpea,12,bag,0.88,hectares
+HS24-01107,Kaduna,Giwa,EN01,2024-10-20,sorghum,12.5,100kg bag,0.82,Ha
+HS24-01108,Kaduna,Zaria,EN13,2024-12-12,cowpea,4 1/2,bags,0.69,hectares
+HS24-01109,Niger,Mokwa,EN08,2024-12-11,maize,1865,kg,1.07,ha
+HS24-01110,Niger,Lapai,EN05,2024-12-04,cowpea,204,modu,0.52,ha
+HS24-01111,Kaduna,Giwa,EN13,2024-11-25,rice_paddy,151.5,basin,0.79,ha
+HS24-01112,Niger,Mokwa,EN02,2024-12-17,sorghum,42 1/2,kwano,1.65,ha
+HS24-01113,Kaduna,Kachia,EN16,2024-10-23,cowpea,1 1/2,bag (50kg),0.30,hectares
+HS24-01114,Benue,Otukpo,EN15,2024-10-10,maize,24.5,50kg bags,1.9,Acres
+HS24-01115,Kaduna,Kauru,EN13,2024-12-18,sorghum,10.5,bags,0.65,ha
+HS24-01116,Benue,Gboko,EN09,2024-11-28,maize,32.59,metric tonne,67.6,acre
+HS24-01117,Kaduna,Zaria,EN10,2024-11-09,sorghum,265,Basin,2.83,hectares
+HS24-01118,Benue,Makurdi,EN15,2024-12-18,sorghum,56.5,basins,2.0,acre
+HS24-01119,Benue,Katsina-Ala,EN12,2024-11-13,rice_paddy,26 1/2,Bags,1.26,ha
+HS24-01120,Kaduna,Giwa,EN04,2024-11-14,cowpea,13½,bags,4.3,ac
+HS24-01121,Kaduna,Giwa,EN13,2024-12-19,rice_paddy,17 1/2,small bag,0.41,HA
+HS24-01122,Benue,Otukpo,EN06,2024-12-09,cowpea,735,kilogram,0.53,ha
+HS24-01123,Niger,Lapai,EN02,2024-11-23,cowpea,5.5,bag,2.5,acre
+HS24-01124,Benue,Gboko,EN03,2024-10-21,maize,3,bags,0.5,Acres
+HS24-01125,Kaduna,Kachia,EN10,2024-12-20,maize,18½,bag,1.8,ac
+HS24-01126,Kaduna,Giwa,EN10,2024-12-13,sorghum,15.5,big bag,0.51,HA
+HS24-01127,Niger,Mokwa,EN08,2024-12-05,cowpea,6 1/2,100 kg bag,1.35,ha
+HS24-01128,Niger,Lapai,EN05,2024-11-14,maize,23,BAG,0.95,ha
+HS24-01129,Kaduna,Kauru,EN01,2024-12-07,cowpea,9½,100kg bag,1.48,hectare
+HS24-01130,Benue,Katsina-Ala,EN15,2024-12-15,maize,12½,Bags,0.56,ha
+HS24-01131,Niger,Shiroro,EN08,2024-11-03,maize,6½,Bags,0.48,HA
+HS24-01132,Kaduna,Zaria,EN16,2024-12-13,cowpea,2½,BAG,,
+HS24-01133,Niger,Bida,EN02,2024-12-08,maize,100,basin,1.90,HA
+HS24-01134,Kaduna,Zaria,EN16,2024-10-07,cowpea,15,Bags,5.0,ac
+HS24-01135,Kaduna,Zaria,EN16,2024-11-21,maize,14,bags,0.80,ha
+HS24-01136,Benue,Katsina-Ala,EN06,2024-10-04,sorghum,16,small bag,0.68,hectare
+HS24-01137,Niger,Bida,EN14,2024-10-10,cowpea,109,mudus,0.46,Ha
+HS24-01138,Kaduna,Kachia,EN16,2024-11-02,maize,22.5,bag (100kg),2.7,Acres
+HS24-01139,Niger,Lapai,EN11,2024-12-04,sorghum,"2,145",Kg,1.92,hectares
+HS24-01140,Niger,Lapai,EN02,2024-11-28,maize,17.5,Bags,1.01,hectare
+HS24-01141,Kaduna,Giwa,EN07,2024-12-19,cowpea,7.5,basins,0.9,ac
+HS24-01142,Niger,Bida,EN14,2024-11-07,maize,5,100 kg bag,0.42,hectare
+HS24-01143,Niger,Mokwa,EN08,2024-12-12,sorghum,5055,MT,2.75,hectares
+HS24-01144,Kaduna,Giwa,EN01,2024-10-08,sorghum,870,kgs,0.42,hectares
+HS24-01145,Benue,Makurdi,EN15,2024-12-06,cowpea,27,kwano,0.87,ha
+HS24-01146,Benue,Makurdi,EN12,2024-10-04,rice_paddy,28.5,bag (100kg),0.90,Ha
+HS24-01147,Kaduna,Zaria,EN01,2024-10-16,rice_paddy,20,big bag,0.95,ha
+HS24-01148,Benue,Gboko,EN15,2024-11-14,maize,13.5,100kg bag,1.4,acre
+HS24-01149,Benue,Otukpo,EN15,2024-10-16,maize,36,bag (100kg),4.3,acre
+HS24-01150,Niger,Shiroro,EN02,2024-11-16,sorghum,19,bag (100kg),1.37,ha
+HS24-01151,Niger,Shiroro,EN11,2024-10-16,maize,24,kgs,1.02,ha
+HS24-01152,Niger,Bida,EN05,2024-10-27,rice_paddy,108,Basin,"8,800",sq m
+HS24-01153,Niger,Mokwa,EN05,2024-11-14,sorghum,2.69,tons,1.16,ha
+HS24-01154,Benue,Gboko,EN12,2024-12-09,maize,10,bags,0.29,HA
+HS24-01155,Kaduna,Zaria,EN01,2024-12-04,cowpea,4½,bag (100kg),0.67,hectare
+HS24-01156,Kaduna,Giwa,EN04,2024-12-13,sorghum,3.5,BAG,1.1,ac
+HS24-01157,Benue,Otukpo,EN15,2024-12-20,rice_paddy,9½,Bags,0.5,acre
+HS24-01158,Kaduna,Kauru,EN04,2024-10-06,maize,15,Basin,0.29,ha
+HS24-01159,Kaduna,Zaria,EN16,2024-11-14,sorghum,1240,kg,1.15,HA
+HS24-01160,Niger,Shiroro,EN11,2024-10-12,sorghum,62,BASIN,0.88,ha
+HS24-01161,Benue,Gboko,EN03,2024-12-10,maize,42,Basin,0.43,ha
+HS24-01162,Benue,Makurdi,EN12,2024-10-28,sorghum,4,bag (100kg),0.42,hectare
+HS24-01163,Kaduna,Kachia,EN10,2024-11-02,cowpea,885,Kg,0.90,hectares
+HS24-01164,Benue,Otukpo,EN12,2024-10-02,cowpea,275,mudu,1.6,acres
+HS24-01165,Kaduna,Kauru,EN01,2024-11-07,maize,0,Kilograms,4.3,Acres
+HS24-01166,Kaduna,Kauru,EN13,2024-11-17,maize,64.5,Basin,0.87,Ha
+HS24-01167,Niger,Lapai,EN05,2024-10-14,maize,20,BAG,2.0,Acres
+HS24-01168,Niger,Shiroro,EN02,2024-11-25,maize,"2,050",kilo,1.04,ha
+HS24-01169,Kaduna,Kauru,EN04,2024-11-12,cowpea,2½,bag,0.43,hectare
+HS24-01170,Benue,Gboko,EN12,2024-12-13,cowpea,755,KG,0.92,ha
+HS24-01171,Niger,Mokwa,EN14,2024-10-23,cowpea,4 1/2,BAG,1.21,ha
+HS24-01172,Benue,Katsina-Ala,EN15,2024-10-19,maize,37,basin,0.66,ha
+HS24-01173,Kaduna,Kachia,EN04,2024-10-06,maize,148,50kg bags,3.58,ha
+HS24-01174,Niger,Lapai,EN02,2024-11-09,sorghum,110.5,Basin,2.40,hectares
+HS24-01175,Kaduna,Kachia,EN07,2024-10-12,maize,40,pickup,3.68,hectares
+HS24-01176,Niger,Lapai,EN14,2024-10-14,sorghum,N/A,KG,0.61,hectare
+HS24-01177,Benue,Katsina-Ala,EN09,2024-11-06,sorghum,13 1/2,100 kg bag,0.93,Ha
+HS24-01178,Kaduna,Kachia,EN16,2024-10-12,rice_paddy,87.5,bag (50kg),2.9,Acres
+HS24-01179,Benue,Otukpo,EN09,2024-11-05,maize,8,Bags,0.34,HA
+HS24-01180,Benue,Makurdi,EN03,2024-11-02,maize,"1,160",Kg,7100,hectares
+HS24-01181,Benue,Otukpo,EN06,2024-12-09,sorghum,13,big bag,0.79,hectares
+HS24-01182,Benue,Makurdi,EN03,2024-12-19,maize,24.5,basins,0.71,HA
+HS24-01183,Kaduna,Zaria,EN07,2024-11-05,maize,8,Bags,1.7,ac
+HS24-01184,Niger,Mokwa,EN02,2024-10-06,rice_paddy,72,Basin,0.40,ha
+HS24-01185,Kaduna,Kachia,EN10,2024-10-28,maize,12½,basin,0.19,HA
+HS24-01186,Niger,Bida,EN11,2024-12-03,sorghum,500,kilogram,1.4,ac
+HS24-01187,Kaduna,Zaria,EN07,2024-12-03,maize,30 1/2,bag,1.79,ha
+HS24-01188,Benue,Gboko,EN09,2024-11-11,rice_paddy,23,50kg bags,0.59,hectares
+HS24-01189,Benue,Otukpo,EN12,2024-12-08,rice_paddy,314.5,50 kg bag,2.82,ha
+HS24-01190,Kaduna,Giwa,EN04,2024-11-10,maize,15,BAG,"5,000",m²
+HS24-01191,Niger,Shiroro,EN11,2024-10-15,rice_paddy,45.5,Kg,2.4,ac
+HS24-01192,Kaduna,Kauru,EN07,2024-11-19,sorghum,2 1/2,big bag,0.29,ha
+HS24-01193,Kaduna,Giwa,EN10,2024-12-07,sorghum,280,kgs,"3,700",m²
+HS24-01194,Benue,Otukpo,EN09,2024-12-11,maize,15,bag,0.63,hectare
+HS24-01195,Kaduna,Kachia,EN04,2024-12-03,cowpea,5.5,bag (50kg),8300,m²
+HS24-01196,Benue,Otukpo,EN12,2024-12-01,sorghum,7,BAG,0.75,ha
+HS24-01197,Kaduna,Kauru,EN13,2024-12-17,sorghum,575,Kilograms,1.33,Ha
+HS24-01198,Benue,Makurdi,EN15,2024-11-19,sorghum,7.5,bag,0.69,ha
+HS24-01199,Benue,Makurdi,EN09,2024-11-14,maize,"4,630",kilogram,1.66,hectare
+HS24-01200,Niger,Lapai,EN02,2024-11-08,cowpea,"2,870",kgs,3.99,ha
+HS24-01201,Kaduna,Kauru,EN04,2024-10-08,cowpea,585,KG,0.77,Ha
+HS24-01202,Kaduna,Zaria,EN01,2024-10-23,rice_paddy,53,Basin,0.60,ha
+HS24-01203,Benue,Makurdi,EN03,2024-12-17,rice_paddy,23½,bag (100kg),0.69,Ha
+HS24-01204,Benue,Makurdi,EN09,2024-11-27,cowpea,19,kwano,2.5,acres
+HS24-01205,Niger,Lapai,EN11,2024-12-20,sorghum,8½,Kg,0.47,HA
+HS24-01206,Kaduna,Kachia,EN10,2024-11-03,rice_paddy,64,bag,2.8,acre
+HS24-01207,Niger,Lapai,EN08,2024-10-25,maize,19½,bag,3.4,ac
+HS24-01208,Kaduna,Kauru,EN16,2024-10-09,sorghum,237,MUDU,3500,sq m
+HS24-01209,Benue,Otukpo,EN03,2024-11-10,maize,33,bag (100kg),0.92,Ha
+HS24-01210,Niger,Mokwa,EN11,2024-11-22,maize,34,basin,0.9,acres
+HS24-01211,Kaduna,Giwa,EN07,2024-11-18,rice_paddy,43,100 kg bag,0.73,ha
+HS24-01212,Niger,Lapai,EN14,2024-10-26,rice_paddy,30,100 kg bag,0.89,hectares
+HS24-01213,Kaduna,Kauru,EN10,2024-10-14,sorghum,246,kwano,2.80,ha
+HS24-01214,Benue,Makurdi,EN03,2024-10-27,maize,11,bag,0.46,ha
+HS24-01215,Benue,Makurdi,EN15,2024-12-04,maize,18½,bag (100kg),1.03,hectare
+HS24-01216,Benue,Gboko,EN15,2024-12-11,maize,12½,100kg bag,"9,400",sq m
+HS24-01217,Benue,Makurdi,EN06,2024-10-10,maize,24.5,bag (100kg),5.3,acre
+HS24-01218,Niger,Lapai,EN14,2024-12-10,sorghum,725,kg.,0.97,ha
+HS24-01219,Benue,Gboko,EN03,2024-10-07,sorghum,23.5,big bag,1.65,ha
+HS24-01220,Benue,Katsina-Ala,EN12,2024-12-20,maize,24.5,BAG,"6,900",square metres
+HS24-01221,Benue,Otukpo,EN12,2024-11-26,sorghum,265,mudus,0.39,ha
+HS24-01222,Benue,Katsina-Ala,EN03,2024-10-04,maize,25,100 kg bag,1.01,HA
+HS24-01223,Benue,Makurdi,EN12,2024-11-08,sorghum,31,50kg bag,1.61,Ha
+HS24-01224,Niger,Bida,EN11,2024-12-09,cowpea,670,kg,1.96,ha
+HS24-01225,Benue,Katsina-Ala,EN09,2024-11-26,rice_paddy,137,basins,1.22,ha
+HS24-01226,Kaduna,Kachia,EN04,2024-11-24,rice_paddy,  ,100 kg bag,0.36,ha
+HS24-01227,Benue,Otukpo,EN03,2024-12-20,maize,53,50kg bags,"10,300",m²
+HS24-01228,Niger,Shiroro,EN05,2024-12-16,maize,127.5,basin,1.30,hectares
+HS24-01229,Kaduna,Kachia,EN16,2024-10-24,rice_paddy,"1,885",kg,0.86,ha
+HS24-01230,Benue,Makurdi,EN03,2024-11-06,sorghum,6½,big bag,N/A,
+HS24-01231,Benue,Otukpo,EN03,2024-10-11,maize,20,BAG,1.3,Acres
+HS24-01232,Kaduna,Kauru,EN10,2024-10-11,maize,13½,bag,1.7,Acres
+HS24-01233,Niger,Mokwa,EN05,2024-11-01,sorghum,30.5,bag (50kg),1.03,Ha
+HS24-01234,Kaduna,Zaria,EN16,2024-12-01,maize,38,BASIN,1.0,acres
+HS24-01235,Benue,Makurdi,EN12,2024-10-17,rice_paddy,10 1/2,bag,1.08,ha
+HS24-01236,Niger,Mokwa,EN05,2024-12-05,rice_paddy,32,bag (50kg),0.64,ha
+HS24-01237,Kaduna,Giwa,EN10,2024-11-08,sorghum,5.5,big bag,1.8,Acres
+HS24-01238,Niger,Bida,EN02,2024-10-04,cowpea,2.5,BAG,4900,m²
+HS24-01239,Benue,Makurdi,EN09,2024-12-20,maize,19,bag,0.46,hectares
+HS24-01240,Benue,Gboko,EN06,2024-12-09,maize,19,big bag,"7,300",m2
+HS24-01241,Benue,Otukpo,EN03,2024-12-17,maize,30,bag,0.89,ha
+HS24-01242,Benue,Katsina-Ala,EN03,2024-10-11,sorghum,17.5,bag,3.3,acres
+HS24-01243,Niger,Shiroro,EN02,2024-10-04,sorghum,11,half bag,0.76,Ha
+HS24-01244,Kaduna,Giwa,EN07,2024-12-09,maize,151,BASIN,2.4,acres
+HS24-01245,Benue,Otukpo,EN15,2024-12-10,maize,0,Bags,2900,square metres
+HS24-01246,Niger,Bida,EN02,2024-10-17,maize,46,Bags,1.28,HA
+HS24-01247,Kaduna,Zaria,EN10,2024-11-16,sorghum,6½,bags,0.39,hectare
+HS24-01248,Benue,Otukpo,EN09,2024-10-03,sorghum,133.5,basin,1.97,hectares
+HS24-01249,Niger,Bida,EN14,2024-10-22,maize,24,half bag,0.78,hectare
+HS24-01250,Benue,Otukpo,EN03,2024-11-06,maize,9,100kg bag,0.8,acres
+HS24-01251,Benue,Makurdi,EN06,2024-10-06,cowpea,14,50 kg bag,10800,m2
+HS24-01252,Kaduna,Kauru,EN04,2024-11-16,sorghum,15.5,small bag,1.05,hectare
+HS24-01253,Niger,Shiroro,EN11,2024-10-25,cowpea,16 1/2,small bag,1.7,acre
+HS24-01254,Niger,Mokwa,EN02,2024-10-22,maize,26.5,bag (50kg),0.89,Ha
+HS24-01255,Benue,Gboko,EN15,2024-10-25,rice_paddy,1478,mudu,0.59,Ha
+HS24-01256,Kaduna,Kauru,EN10,2024-10-12,rice_paddy,"2,150",kilo,0.96,ha
+HS24-01257,Kaduna,Giwa,EN10,2024-10-13,maize,14.5,bag,1.07,ha
+HS24-01258,Kaduna,Giwa,EN10,2024-12-08,cowpea,3,bags,0.72,hectares
+HS24-01259,Kaduna,Giwa,EN13,2024-10-23,sorghum,2045,KG,18800,ha
+HS24-01260,Benue,Katsina-Ala,EN03,2024-10-15,rice_paddy,82.5,Basin,1.7,acres
+HS24-01261,Kaduna,Kachia,EN16,2024-12-10,maize,22,bag,2.1,Acres
+HS24-01262,Benue,Gboko,EN15,2024-12-16,rice_paddy,134 1/2,kwano,N/A,
+HS24-01263,Benue,Katsina-Ala,EN12,2024-10-22,maize,6.5,50kg bags,0.4,acres
+HS24-01264,Benue,Katsina-Ala,EN09,2024-12-10,cowpea,229,Mudu,"8,600",sq m
+HS24-01265,Benue,Gboko,EN06,2024-12-12,maize,30.5,100 kg bag,1.03,ha
+HS24-01266,Kaduna,Giwa,EN01,2024-10-21,maize,212,BASIN,1.65,hectares
+HS24-01267,Niger,Lapai,EN11,2024-10-25,rice_paddy,  ,small bag,0.89,hectare
+HS24-01268,Kaduna,Kachia,EN04,2024-11-19,sorghum,3 1/2,BAG,0.45,hectare
+HS24-01269,Niger,Shiroro,EN11,2024-12-04,sorghum,3.5,Kg,1.3,Acres
+HS24-01270,Niger,Mokwa,EN02,2024-12-03,maize,10.5,BAG,0.74,ha
+HS24-01271,Niger,Lapai,EN14,2024-10-16,sorghum,49,50kg bags,"14,800",square metres
+HS24-01272,Benue,Katsina-Ala,EN09,2024-11-04,maize,470,MT,0.38,ha
+HS24-01273,Benue,Makurdi,EN06,2024-12-08,rice_paddy,50,50kg bag,0.82,HA
+HS24-01274,Niger,Mokwa,EN05,2024-11-09,maize,12½,100 kg bag,6800,m2
+HS24-01275,Niger,Shiroro,EN11,2024-11-01,cowpea,214,Mudu,2.5,acre
+HS24-01276,Niger,Mokwa,EN14,2024-10-15,maize,13,100kg bag,1.48,ha
+HS24-01277,Kaduna,Kachia,EN10,2024-10-08,maize,5 1/2,bag,0.39,Ha
+HS24-01278,Benue,Makurdi,EN06,2024-11-02,maize,14 1/2,100kg bag,1.70,hectare
+HS24-01279,Kaduna,Kauru,EN13,2024-11-08,maize,"2,480",Kg,2.8,Acres
+HS24-01280,Kaduna,Kachia,EN04,2024-10-08,maize,102½,50kg bags,1.18,ha
+HS24-01281,Niger,Shiroro,EN11,2024-12-06,sorghum,0.23,ton,0.42,ha
+HS24-01282,Kaduna,Zaria,EN01,2024-10-06,maize,19.5,bag (100kg),0.62,ha
+HS24-01283,Benue,Gboko,EN12,2024-11-12,rice_paddy,26½,bag,1.1,acres
+HS24-01284,Kaduna,Kauru,EN01,2024-12-18,sorghum,20,bag (100kg),2.7,ac
+HS24-01285,Benue,Katsina-Ala,EN15,2024-10-28,maize,32 1/2,50kg bag,1.6,acres
+HS24-01286,Kaduna,Zaria,EN07,2024-10-01,sorghum,45.72,tons,78.0,ac
+HS24-01287,Niger,Bida,EN11,2024-10-17,sorghum,4½,Kg,1.0,ac
+HS24-01288,Niger,Mokwa,EN05,2024-12-11,maize,10,bags,0.81,ha
+HS24-01289,Kaduna,Kauru,EN10,2024-11-25,rice_paddy,52,bag,0.94,hectares
+HS24-01290,Niger,Mokwa,EN08,2024-10-25,sorghum,13,bag (100kg),1.7,acres
+HS24-01291,Niger,Shiroro,EN11,2024-11-13,cowpea,36,kg,2.04,hectares
+HS24-01292,Benue,Otukpo,EN09,2024-12-09,maize,2.78,MT,1.20,Ha
+HS24-01293,Kaduna,Kauru,EN13,2024-10-18,cowpea,21,bag,3.6,acres
+HS24-01294,Benue,Makurdi,EN15,2024-12-15,rice_paddy,0.62,ton,0.29,hectares
+HS24-01295,Benue,Otukpo,EN12,2024-10-15,rice_paddy,21,50 kg bag,0.29,Ha
+HS24-01296,Kaduna,Kauru,EN16,2024-12-19,maize,44.39,tons,54.2,acre
+HS24-01297,Kaduna,Kachia,EN01,2024-11-02,maize,78,100kg bag,10.8,acres
+HS24-01298,Niger,Shiroro,EN08,2024-10-24,maize,15.5,bags,0.88,Ha
+HS24-01299,Benue,Otukpo,EN12,2024-10-13,cowpea,16,bag,1.75,hectare
+HS24-01300,Benue,Otukpo,EN09,2024-12-01,maize,8 1/2,100kg bag,"7,100",m2
+HS24-01301,Benue,Gboko,EN06,2024-11-17,maize,70,basins,3.1,acres
+HS24-01302,Niger,Bida,EN05,2024-11-18,maize,22,small bag,1.33,ha
+HS24-01303,Niger,Lapai,EN08,2024-10-23,maize,1.82,tons,1.17,hectare
+HS24-01304,Niger,Mokwa,EN14,2024-11-04,sorghum,23,BAG,6.2,acres
+HS24-01305,Kaduna,Giwa,EN01,2024-10-11,maize,6½,bag,0.52,ha
+HS24-01306,Benue,Makurdi,EN03,2024-11-23,maize,15,100 kg bag,2.5,ac
+HS24-01307,Kaduna,Kauru,EN10,2024-10-07,rice_paddy,71 1/2,BASIN,5800,m2
+HS24-01308,Kaduna,Kauru,EN13,2024-12-14,cowpea,49,half bag,1.65,ha
+HS24-01309,Benue,Gboko,EN06,2024-12-06,rice_paddy,11,basins,0.3,ac
+HS24-01310,Niger,Lapai,EN14,2024-10-12,sorghum,22½,bag,2.3,ac
+HS24-01311,Kaduna,Kauru,EN16,2024-10-24,maize,27½,50kg bag,1.26,Ha
+HS24-01312,Benue,Makurdi,EN09,2024-10-08,sorghum,7 1/2,BAG,0.55,ha
+HS24-01313,Benue,Katsina-Ala,EN06,2024-12-13,cowpea,15,basin,0.70,hectares
+HS24-01314,Benue,Otukpo,EN12,2024-12-02,maize,"2,755",Kilograms,2.4,Acres
+HS24-01315,Benue,Gboko,EN03,2024-10-02,maize,30.5,basins,1.6,Acres
+HS24-01316,Kaduna,Giwa,EN04,2024-12-01,sorghum,1.24,t,0.61,hectare
+HS24-01317,Kaduna,Zaria,EN07,2024-10-12,rice_paddy,464,paint bucket,1.4,acre
+HS24-01318,Benue,Katsina-Ala,EN09,2024-12-19,sorghum,13,100kg bag,1.30,HA
+HS24-01319,Niger,Bida,EN08,2024-12-09,sorghum,8,50 kg bag,1.0,acre
+HS24-01320,Benue,Katsina-Ala,EN15,2024-12-18,sorghum,7.5,bag (100kg),0.44,HA
+HS24-01321,Kaduna,Giwa,EN07,2024-12-01,cowpea,15½,bag (100kg),29200,square metres
+HS24-01322,Kaduna,Zaria,EN04,2024-12-18,sorghum,16.5,bag,4.1,Acres
+HS24-01323,Niger,Bida,EN08,2024-12-15,maize,13 1/2,100 kg bag,4.4,acres
+HS24-01324,Niger,Lapai,EN08,2024-11-08,maize,6 1/2,bag,0.40,ha
+HS24-01325,Kaduna,Zaria,EN16,2024-10-06,maize,-,50kg bag,16700,m²
+HS24-01326,Benue,Gboko,EN12,2024-11-24,sorghum,11,kwano,0.6,ac
+HS24-01327,Benue,Makurdi,EN06,2024-10-03,maize,73.5,bag (50kg),1.85,hectares
+HS24-01328,Niger,Lapai,EN02,2024-10-11,cowpea,4,bag (100kg),0.54,HA
+HS24-01329,Benue,Gboko,EN15,2024-11-01,rice_paddy,10½,100kg bag,0.39,hectare
+HS24-01330,Benue,Katsina-Ala,EN03,2024-12-08,sorghum,30,100 kg bag,1.62,hectares
+HS24-01331,Kaduna,Kauru,EN01,2024-10-25,maize,5,bag (100kg),1.4,acres
+HS24-01332,Kaduna,Zaria,EN10,2024-11-28,maize,22,100 kg bag,1.7,acre
+HS24-01333,Kaduna,Kauru,EN13,2024-11-17,maize,4.5,big bag,0.9,acres
+HS24-01334,Niger,Shiroro,EN05,2024-10-02,cowpea,29,50kg bags,4.3,acre
+HS24-01335,Benue,Gboko,EN03,2024-11-25,cowpea,18,50 kg bag,0.74,hectares
+HS24-01336,Niger,Bida,EN14,2024-11-15,sorghum,300,kilos,0.18,hectares
+HS24-01337,Kaduna,Giwa,EN16,2024-12-09,rice_paddy,18.5,bag,0.51,Ha
+HS24-01338,Benue,Gboko,EN03,2024-12-04,sorghum,9,Bags,0.51,Ha
+HS24-01339,Kaduna,Giwa,EN13,2024-10-16,cowpea,35,BASIN,2.1,acre
+HS24-01340,Benue,Makurdi,EN09,2024-10-06,cowpea,  ,mudus,0.37,ha
+HS24-01341,Benue,Katsina-Ala,EN03,2024-10-16,maize,13,bag,0.81,hectare
+HS24-01342,Niger,Lapai,EN14,2024-10-21,maize,43,basin,0.57,ha
+HS24-01343,Niger,Mokwa,EN05,2024-11-22,maize,9.5,bag (50kg),0.52,hectares
+HS24-01344,Kaduna,Giwa,EN01,2024-10-14,maize,2420,KG,0.52,Ha
+HS24-01345,Niger,Mokwa,EN02,2024-11-22,maize,24,bag (100kg),,square metres
+HS24-01346,Kaduna,Zaria,EN07,2024-11-16,rice_paddy,36.5,bags,3.7,ac
+HS24-01347,Kaduna,Kauru,EN16,2024-10-09,maize,23.5,bags,2.7,Acres
+HS24-01348,Benue,Gboko,EN03,2024-12-16,cowpea,5½,100kg bag,2.8,acre
+HS24-01349,Niger,Bida,EN14,2024-12-04,maize,29 1/2,small bag,-,Acres
+HS24-01350,Kaduna,Giwa,EN01,2024-12-19,sorghum,215,kilo,0.7,Acres
+HS24-01351,Kaduna,Zaria,EN01,2024-11-20,maize,265,Kilograms,0.32,HA
+HS24-01352,Kaduna,Kauru,EN10,2024-10-08,sorghum,3 1/2,bag (50kg),0.37,Ha
+HS24-01353,Niger,Lapai,EN05,2024-12-14,sorghum,124.5,Basin,2.78,ha
+HS24-01354,Benue,Makurdi,EN12,2024-12-05,maize,2.35,ton,14100,sq m
+HS24-01355,Niger,Lapai,EN02,2024-12-15,rice_paddy,30,100 kg bag,1.9,ac
+HS24-01356,Niger,Bida,EN05,2024-11-18,maize,8,100kg bag,0.81,hectare
+HS24-01357,Benue,Makurdi,EN12,2024-12-18,maize,5.5,bags,0.8,acres
+HS24-01358,Niger,Mokwa,EN08,2024-11-05,rice_paddy,87½,50 kg bag,3.7,acre
+HS24-01359,Kaduna,Kauru,EN13,2024-12-14,maize,24,bag,1.01,hectares
+HS24-01360,Benue,Gboko,EN09,2024-12-14,rice_paddy,0,kilos,1.87,hectares
+HS24-01361,Benue,Gboko,EN15,2024-11-04,cowpea,12,big bag,3.18,ha
+HS24-01362,Niger,Bida,EN08,2024-11-04,cowpea,14,kwano,1.3,acres
+HS24-01363,Kaduna,Kachia,EN16,2024-11-05,maize,3.44,tonne,7500,m²
+HS24-01364,Kaduna,Zaria,EN04,2024-11-14,sorghum,45 1/2,BASIN,"7,600",square metres
+HS24-01365,Kaduna,Zaria,EN16,2024-10-22,rice_paddy,66.5,kwano,6500,sq m
+HS24-01366,Niger,Bida,EN05,2024-10-16,rice_paddy,575,kg,0.38,ha
+HS24-01367,Kaduna,Kauru,EN13,2024-11-28,sorghum,2,bag,0.26,ha
+HS24-01368,Kaduna,Giwa,EN13,2024-12-15,cowpea,11,big bag,2.2,Acres
+HS24-01369,Niger,Shiroro,EN05,2024-12-01,maize,3 1/2,BAG,0.69,ha
+HS24-01370,Kaduna,Kauru,EN01,2024-12-07,sorghum,275,Mudu,2.3,acre
+HS24-01371,Kaduna,Kauru,EN01,2024-10-18,maize,54½,basins,0.73,hectare
+HS24-01372,Niger,Bida,EN02,2024-10-14,rice_paddy,0,kilos,1.07,hectares
+HS24-01373,Benue,Otukpo,EN15,2024-11-05,maize,40,100 kg bag,4.4,Acres
+HS24-01374,Niger,Shiroro,EN11,2024-11-07,rice_paddy,"2,930",Kilograms,13900,ha
+HS24-01375,Benue,Katsina-Ala,EN03,2024-10-13,sorghum,5.5,bag,1.34,ha
+HS24-01376,Niger,Lapai,EN11,2024-10-16,rice_paddy,40,Kg,0.85,hectares
+HS24-01377,Kaduna,Giwa,EN01,2024-10-19,cowpea,4½,100kg bag,0.77,ha
+HS24-01378,Kaduna,Zaria,EN01,2024-12-18,rice_paddy,213½,BASIN,2.03,hectares
+HS24-01379,Niger,Shiroro,EN14,2024-12-16,maize,560,kg,1.4,acres
+HS24-01380,Benue,Makurdi,EN15,2024-12-13,maize,20,100kg bag,0.65,hectares
+HS24-01381,Benue,Katsina-Ala,EN06,2024-10-25,cowpea,3.5,50kg bags,0.38,Ha
+HS24-01382,Kaduna,Zaria,EN04,2024-12-01,maize,20.5,100kg bag,2.33,ha
+HS24-01383,Niger,Shiroro,EN02,2024-10-20,maize,20 1/2,100kg bag,0.59,hectare
+HS24-01384,Niger,Bida,EN08,2024-12-06,sorghum,43.5,basins,0.76,hectares
+HS24-01385,Niger,Shiroro,EN14,2024-10-22,maize,20,100 kg bag,1.12,HA
+HS24-01386,Kaduna,Kachia,EN04,2024-11-25,rice_paddy,38 1/2,50 kg bag,"4,700",m²
+HS24-01387,Niger,Mokwa,EN14,2024-11-03,cowpea,8½,50 kg bag,1.01,hectares
+HS24-01388,Niger,Mokwa,EN11,2024-10-12,sorghum,,100 kg bag,1.3,acre
+HS24-01389,Kaduna,Zaria,EN10,2024-12-19,sorghum,63½,basin,0.70,Ha
+HS24-01390,Benue,Katsina-Ala,EN06,2024-10-10,maize,4,100 kg bag,0.26,ha
+HS24-01391,Kaduna,Giwa,EN10,2024-10-05,sorghum,18,bags,"14,900",m²
+HS24-01392,Kaduna,Kauru,EN04,2024-11-22,maize,61,bag (100kg),3.4,ac
+HS24-01393,Niger,Shiroro,EN14,2024-11-23,rice_paddy,167,50kg bag,3.5,ac
+HS24-01394,Niger,Lapai,EN05,2024-11-23,maize,13,bag,0.75,ha
+HS24-01395,Kaduna,Kachia,EN07,2024-12-20,maize,38,small bag,1.10,Ha
+HS24-01396,Benue,Gboko,EN09,2024-12-19,maize,1010,kilogram,1.48,hectares
+HS24-01397,Benue,Gboko,EN15,2024-12-01,maize,148½,bag,8.00,ha
+HS24-01398,Kaduna,Kauru,EN10,2024-11-11,cowpea,0,kg,1.17,Ha
+HS24-01399,Benue,Katsina-Ala,EN12,2024-12-11,maize,28,bag (100kg),1.25,ha
+HS24-01400,Benue,Makurdi,EN09,2024-11-24,maize,35 1/2,BAG,0.78,ha
+HS24-01401,Benue,Katsina-Ala,EN15,2024-11-06,sorghum,30.5,basin,0.74,ha
+HS24-01402,Kaduna,Giwa,EN04,2024-12-15,maize,1.29,tonne,1.1,Acres
+HS24-01403,Kaduna,Kachia,EN07,2024-12-14,maize,25.5,50kg bag,6100,m²
+HS24-01404,Niger,Shiroro,EN14,2024-10-15,sorghum,11,bag (100kg),1.4,Acres
+HS24-01405,Niger,Mokwa,EN02,2024-12-13,rice_paddy,152,BASIN,11500,square metres
+HS24-01406,Kaduna,Kauru,EN04,2024-10-22,cowpea,0,100kg bag,0.45,hectare
+HS24-01407,Niger,Mokwa,EN08,2024-11-07,maize,27,half bag,3.6,Acres
+HS24-01408,Kaduna,Zaria,EN04,2024-12-13,maize,125,paint buckets,2200,ha
+HS24-01409,Kaduna,Giwa,EN16,2024-12-04,sorghum,48.5,100 kg bag,2.84,ha
+HS24-01410,Kaduna,Kachia,EN01,2024-11-25,rice_paddy,"1,765",kg.,0.89,Ha
+HS24-01411,Kaduna,Zaria,EN13,2024-11-26,sorghum,5,100kg bag,0.76,ha
+HS24-01412,Kaduna,Zaria,EN13,2024-10-19,sorghum,39,BAG,4.7,acre
+HS24-01413,Benue,Makurdi,EN15,2024-11-15,sorghum,59½,basins,3.2,acres
+HS24-01414,Benue,Gboko,EN03,2024-12-20,maize,8 1/2,100 kg bag,1.4,acres
+HS24-01415,Kaduna,Giwa,EN16,2024-12-02,maize,30,bag (100kg),1.31,hectares
+HS24-01416,Benue,Makurdi,EN09,2024-12-16,rice_paddy,81½,BASIN,0.73,hectare
+HS24-01417,Niger,Lapai,EN05,2024-10-09,maize,19,BAG,1.65,HA
+HS24-01418,Kaduna,Zaria,EN04,2024-11-20,maize,730,kilos,0.34,ha
+HS24-01419,Kaduna,Kauru,EN16,2024-12-15,cowpea,1060,kilo,1.05,hectares
+HS24-01420,Kaduna,Kachia,EN04,2024-12-14,maize,30,50 kg bag,11900,sq m
+HS24-01421,Niger,Bida,EN05,2024-10-24,maize,50.5,bag,1.89,Ha
+HS24-01422,Kaduna,Kachia,EN10,2024-12-13,maize,84,basin,2.09,hectares
+HS24-01423,Kaduna,Kachia,EN10,2024-10-05,rice_paddy,NA,BAG,0.33,HA
+HS24-01424,Kaduna,Zaria,EN10,2024-10-01,cowpea,5.5,BAG,0.89,HA
+HS24-01425,Kaduna,Kachia,EN16,2024-12-11,cowpea,11,bag,2.4,acre
+HS24-01426,Benue,Otukpo,EN12,2024-10-11,rice_paddy,14½,bags,0.44,Ha
+HS24-01427,Kaduna,Zaria,EN13,2024-10-01,maize,21.5,bag (100kg),1.44,ha
+HS24-01428,Kaduna,Giwa,EN16,2024-11-14,maize,26,100kg bag,1.11,HA
+HS24-01429,Niger,Shiroro,EN14,2024-12-01,rice_paddy,37½,big bag,0.63,hectares
+HS24-01430,Benue,Otukpo,EN12,2024-11-19,cowpea,214,mudu,1.17,Ha
+HS24-01431,Kaduna,Kachia,EN04,2024-11-15,maize,81.5,basins,0.79,hectares
+HS24-01432,Benue,Gboko,EN09,2024-12-06,cowpea,6.5,50kg bag,0.61,ha
+HS24-01433,Benue,Gboko,EN15,2024-12-04,maize,"2,325",Kilograms,0.87,hectare
+HS24-01434,Niger,Mokwa,EN14,2024-12-19,sorghum,7,bag (100kg),0.73,ha
+HS24-01435,Benue,Otukpo,EN06,2024-11-24,rice_paddy,36,50 kg bag,0.55,Ha
+HS24-01436,Kaduna,Giwa,EN16,2024-12-05,rice_paddy,7,bag (100kg),0.36,HA
+HS24-01437,Benue,Gboko,EN15,2024-11-07,maize,36 1/2,small bag,nil,Ha
+HS24-01438,Niger,Bida,EN08,2024-10-13,sorghum,495,Kilograms,0.44,HA
+HS24-01439,Benue,Katsina-Ala,EN12,2024-12-16,rice_paddy,83.5,50kg bag,2.2,acres
+HS24-01440,Benue,Makurdi,EN12,2024-10-24,cowpea,190,KG,1.7,ac
+HS24-01441,Niger,Mokwa,EN11,2024-10-03,maize,247,basin,1.43,hectare
+HS24-01442,Benue,Gboko,EN09,2024-10-24,sorghum,4,100kg bag,0.33,ha
+HS24-01443,Niger,Lapai,EN02,2024-11-11,maize,36,50kg bags,1.02,Ha
+HS24-01444,Benue,Gboko,EN12,2024-12-01,cowpea,7,bag (100kg),0.83,ha
+HS24-01445,Kaduna,Kachia,EN04,2024-10-23,maize,46.5,big bag,2.6,ac
+HS24-01446,Kaduna,Zaria,EN04,2024-12-07,sorghum,156 1/2,kwano,1.83,ha
+HS24-01447,Benue,Makurdi,EN15,2024-10-11,maize,53.5,half bag,1.32,hectares
+HS24-01448,Kaduna,Zaria,EN07,2024-11-05,rice_paddy,38.5,half bag,0.73,ha
+HS24-01449,Kaduna,Giwa,EN04,2024-10-22,maize,4,bag (100kg),0.50,ha
+HS24-01450,Kaduna,Zaria,EN13,2024-11-25,maize,9.5,100kg bag,5700,m2
+HS24-01451,Niger,Mokwa,EN08,2024-11-27,cowpea,171,mudus,1.2,Acres
+HS24-01452,Benue,Otukpo,EN15,2024-12-13,rice_paddy,82,bags,4.9,acre
+HS24-01453,Kaduna,Kauru,EN16,2024-10-15,cowpea,10,50kg bags,0.90,ha
+HS24-01454,Niger,Mokwa,EN05,2024-12-14,rice_paddy,21 1/2,bag (100kg),0.65,ha
+HS24-01455,Kaduna,Giwa,EN10,2024-10-16,sorghum,8,bags,0.36,Ha
+HS24-01456,Niger,Lapai,EN11,2024-11-18,maize,23 1/2,kg,"15,200",square metres
+HS24-01457,Niger,Bida,EN02,2024-12-02,maize,3.5,Bags,0.23,ha
+HS24-01458,Kaduna,Zaria,EN10,2024-11-08,sorghum,5 1/2,bag,2.1,acre
+HS24-01459,Benue,Makurdi,EN06,2024-10-25,maize,5.5,Bags,0.60,hectare
+HS24-01460,Niger,Shiroro,EN11,2024-12-10,sorghum,0.84,MT,0.84,hectares
+HS24-01461,Niger,Shiroro,EN02,2024-11-17,maize,2670,KG,1.22,hectare
+HS24-01462,Benue,Gboko,EN12,2024-11-25,maize,46,Basin,2.4,Acres
+HS24-01463,Benue,Makurdi,EN03,2024-12-19,cowpea,840,Kilograms,1.6,ac
+HS24-01464,Niger,Lapai,EN14,2024-11-09,maize,1600,kg,0.70,ha
+HS24-01465,Kaduna,Kachia,EN10,2024-12-16,maize,51.5,Bags,7.0,Acres
+HS24-01466,Niger,Lapai,EN11,2024-12-03,maize,18,kgs,2.1,acres
+HS24-01467,Kaduna,Zaria,EN07,2024-12-15,sorghum,12,bags,3.3,acre
+HS24-01468,Niger,Lapai,EN08,2024-12-19,cowpea,4½,big bag,2.2,acres
+HS24-01469,Benue,Makurdi,EN12,2024-12-02,maize,23.5,Bags,0.79,Ha
+HS24-01470,Kaduna,Kachia,EN07,2024-11-04,maize,660,kg.,0.32,hectare
+HS24-01471,Niger,Mokwa,EN08,2024-11-23,rice_paddy,16,bag (100kg),4800,m2
+HS24-01472,Kaduna,Zaria,EN13,2024-12-02,maize,15½,bags,0.53,ha
+HS24-01473,Niger,Shiroro,EN08,2024-10-02,maize,0,kwano,0.61,ha
+HS24-01474,Kaduna,Kauru,EN04,2024-10-20,maize,15,bags,0.87,ha
+HS24-01475,Benue,Gboko,EN15,2024-11-20,maize,24½,BASIN,0.40,Ha
+HS24-01476,Benue,Otukpo,EN12,2024-10-17,maize,36.5,100kg bag,0.95,hectares
+HS24-01477,Benue,Makurdi,EN12,2024-11-07,cowpea,8 1/2,bag,1.63,Ha
+HS24-01478,Kaduna,Kachia,EN07,2024-10-18,rice_paddy,,half bag,1.28,ha
+HS24-01479,Benue,Makurdi,EN12,2024-12-03,cowpea,180,kilogram,0.34,hectare
+HS24-01480,Benue,Gboko,EN03,2024-10-13,maize,13.5,Bags,1.3,acres
+HS24-01481,Kaduna,Giwa,EN10,2024-12-10,sorghum,12,100 kg bag,1.34,ha
+HS24-01482,Benue,Otukpo,EN15,2024-12-10,cowpea,11.5,kwano,1.7,acre
+HS24-01483,Niger,Bida,EN08,2024-11-09,rice_paddy,61,small bag,2.7,acre
+HS24-01484,Benue,Katsina-Ala,EN09,2024-11-01,cowpea,26,kwano,8000,m²
+HS24-01485,Niger,Lapai,EN11,2024-12-08,sorghum,6,kgs,1.1,acres
+HS24-01486,Niger,Mokwa,EN08,2024-12-10,maize,69,basins,0.82,ha
+HS24-01487,Kaduna,Giwa,EN13,2024-12-12,rice_paddy,14.5,Bags,7100,square metres
+HS24-01488,Benue,Otukpo,EN15,2024-10-09,sorghum,11,BAG,12800,m²
+HS24-01489,Niger,Shiroro,EN14,2024-12-05,sorghum,9,big bag,0.85,hectare
+HS24-01490,Kaduna,Giwa,EN01,2024-10-17,maize,17,100kg bag,0.60,ha
+HS24-01491,Kaduna,Giwa,EN13,2024-11-28,maize,0,kgs,1.01,hectare
+HS24-01492,Kaduna,Zaria,EN04,2024-10-20,sorghum,127½,basin,2.76,hectare
+HS24-01493,Benue,Gboko,EN09,2024-10-03,maize,20,basin,0.59,HA
+HS24-01494,Niger,Bida,EN05,2024-11-24,maize,13,big bag,0.72,ha
+HS24-01495,Niger,Mokwa,EN02,2024-11-13,cowpea,38,basin,0.96,ha
+HS24-01496,Niger,Mokwa,EN11,2024-11-17,rice_paddy,46,big bag,1.14,HA
+HS24-01497,Niger,Shiroro,EN14,2024-10-04,maize,75,basin,1.15,HA
+HS24-01498,Niger,Lapai,EN05,2024-11-13,rice_paddy,38,100 kg bag,"9,300",sq m
+HS24-01499,Niger,Bida,EN11,2024-11-27,rice_paddy,42½,kg,0.80,ha
+HS24-01500,Benue,Katsina-Ala,EN06,2024-11-17,maize,32.5,bag,3.07,ha
+HS24-01501,Benue,Katsina-Ala,EN09,2024-12-15,cowpea,175,modu,0.26,ha
+HS24-01502,Niger,Bida,EN11,2024-10-10,cowpea,30 1/2,Kg,1.08,HA
+HS24-01503,Kaduna,Kachia,EN07,2024-10-01,rice_paddy,43,wheelbarrow,2.19,ha
+HS24-01504,Benue,Gboko,EN09,2024-11-07,cowpea,215,Mudu,0.77,ha
+HS24-01505,Kaduna,Kauru,EN04,2024-11-08,sorghum,NA,bags,0.5,ac
+HS24-01506,Benue,Otukpo,EN03,2024-12-08,maize,18.5,BAG,1.01,ha
+HS24-01507,Benue,Otukpo,EN15,2024-10-08,rice_paddy,27½,bag,0.98,Ha
+HS24-01508,Kaduna,Kauru,EN07,2024-10-15,maize,21,bags,2.5,acre
+HS24-01509,Niger,Shiroro,EN11,2024-10-06,cowpea,14½,kgs,0.65,ha
+HS24-01510,Niger,Bida,EN02,2024-11-20,rice_paddy,97½,100kg bag,1.66,hectare
+HS24-01511,Kaduna,Kauru,EN04,2024-11-07,sorghum,6,BAG,1.1,ac
+HS24-01512,Benue,Katsina-Ala,EN09,2024-11-02,maize,27,100kg bag,2.1,ac
+HS24-01513,Kaduna,Zaria,EN04,2024-11-19,sorghum,85 1/2,kwano,12000,square metres
+HS24-01514,Benue,Gboko,EN06,2024-12-18,maize,5,bags,0.47,ha
+HS24-01515,Kaduna,Kachia,EN04,2024-12-02,rice_paddy,63,Bags,2.5,acre
+HS24-01516,Kaduna,Zaria,EN01,2024-10-25,maize,"1,685",kg,-,
+HS24-01517,Niger,Shiroro,EN08,2024-11-12,maize,15.5,BAG,2.3,ac
+HS24-01518,Niger,Bida,EN14,2024-10-01,maize,8½,100 kg bag,"4,800",m2
+HS24-01519,Kaduna,Kauru,EN16,2024-10-03,cowpea,17,100 kg bag,2.88,hectare
+HS24-01520,Niger,Lapai,EN14,2024-11-27,maize,NA,half bag,1.26,ha
+HS24-01521,Kaduna,Zaria,EN10,2024-12-20,maize,15,100 kg bag,0.67,HA
+HS24-01522,Niger,Mokwa,EN08,2024-10-13,sorghum,5,half bag,0.38,hectares
+HS24-01523,Kaduna,Kachia,EN01,2024-12-08,cowpea,5,half bag,0.57,HA
+HS24-01524,Benue,Otukpo,EN15,2024-11-12,sorghum,4½,bag,1.6,Acres
+HS24-01525,Niger,Bida,EN05,2024-11-04,maize,67 1/2,100 kg bag,2.97,ha
+HS24-01526,Niger,Bida,EN02,2024-12-06,rice_paddy,2395,mudus,0.75,ha
+HS24-01527,Kaduna,Kachia,EN16,2024-10-12,rice_paddy,4330,kilos,1.97,ha
+HS24-01528,Niger,Bida,EN08,2024-11-22,sorghum,2,bag,0.24,Ha
+HS24-01529,Niger,Lapai,EN08,2024-10-05,rice_paddy,6,jerrycan,0.94,ha
+HS24-01530,Niger,Lapai,EN05,2024-10-09,maize,171,Basin,2.27,Ha
+HS24-01531,Niger,Lapai,EN11,2024-10-15,sorghum,9 1/2,kgs,2.0,acre
+HS24-01532,Kaduna,Kauru,EN10,2024-11-16,maize,555,kilo,1.01,hectares
+HS24-01533,Kaduna,Zaria,EN13,2024-10-11,maize,28,100 kg bag,2.7,acre
+HS24-01534,Niger,Lapai,EN11,2024-10-06,cowpea,10,kg,4.0,acre
+HS24-01535,Niger,Lapai,EN05,2024-10-18,maize,2.26,tonne,  ,
+HS24-01536,Kaduna,Zaria,EN10,2024-10-12,rice_paddy,385½,BAG,15.90,Ha
+HS24-01537,Kaduna,Giwa,EN04,2024-11-02,maize,9,BAG,0.27,hectare
+HS24-01538,Niger,Shiroro,EN11,2024-10-18,rice_paddy,111½,Kg,3.21,ha
+HS24-01539,Kaduna,Kachia,EN16,2024-12-15,cowpea,6,50kg bag,0.74,Ha
+HS24-01540,Kaduna,Kachia,EN01,2024-12-18,rice_paddy,63,half bag,1.09,ha
+HS24-01541,Niger,Shiroro,EN02,2024-11-18,sorghum,37,basin,1.3,acres
+HS24-01542,Kaduna,Giwa,EN04,2024-10-24,sorghum,18.5,50kg bags,3.0,acres
+HS24-01543,Niger,Mokwa,EN11,2024-12-11,sorghum,16 1/2,Basin,0.25,hectare
+HS24-01544,Kaduna,Giwa,EN01,2024-11-01,maize,8,bag (100kg),0.71,hectares
+HS24-01545,Kaduna,Kauru,EN07,2024-11-26,rice_paddy,145 1/2,50kg bags,1.92,ha
+HS24-01546,Benue,Otukpo,EN15,2024-12-05,maize,11.5,100kg bag,0.55,ha
+HS24-01547,Niger,Shiroro,EN11,2024-11-26,maize,15 1/2,kgs,1.4,ac
+HS24-01548,Niger,Bida,EN05,2024-11-26,maize,38½,basin,0.56,HA
+HS24-01549,Niger,Mokwa,EN08,2024-12-03,sorghum,2271,Paint Bucket,"27,900",square metres
+HS24-01550,Benue,Katsina-Ala,EN09,2024-12-18,sorghum,8,Bags,0.80,ha
+HS24-01551,Kaduna,Kachia,EN10,2024-12-15,cowpea,4½,bag,0.79,ha
+HS24-01552,Benue,Gboko,EN15,2024-10-06,cowpea,251,mudu,0.52,ha
+HS24-01553,Benue,Gboko,EN15,2024-11-20,cowpea,9,bags,0.99,hectare
+HS24-01554,Niger,Mokwa,EN11,2024-11-15,cowpea,3,BAG,1.09,hectare
+HS24-01555,Niger,Bida,EN05,2024-12-16,sorghum,7,bag,3.6,acres
+HS24-01556,Kaduna,Kauru,EN07,2024-10-22,sorghum,15,BASIN,0.8,acres
+HS24-01557,Benue,Makurdi,EN09,2024-11-13,maize,33,basin,0.49,hectare
+HS24-01558,Kaduna,Kauru,EN10,2024-10-24,sorghum,3.5,Bags,1.4,acres
+HS24-01559,Niger,Shiroro,EN11,2024-12-14,cowpea,8 1/2,kgs,0.48,Ha
+HS24-01560,Kaduna,Kauru,EN04,2024-10-14,cowpea,615,kg.,"8,700",square metres
+HS24-01561,Niger,Shiroro,EN05,2024-10-10,cowpea,11,bag (50kg),1.15,hectare
+HS24-01562,Niger,Mokwa,EN02,2024-12-19,rice_paddy,52 1/2,basin,1.1,Acres
+HS24-01563,Benue,Katsina-Ala,EN09,2024-10-25,maize,10.5,50 kg bag,0.33,ha
+HS24-01564,Niger,Lapai,EN14,2024-10-14,maize,47,100kg bag,2.46,hectare
+HS24-01565,Benue,Katsina-Ala,EN12,2024-10-11,sorghum,15.5,50 kg bag,1.04,HA
+HS24-01566,Kaduna,Kauru,EN04,2024-12-17,maize,15½,bag,3.2,acre
+HS24-01567,Benue,Otukpo,EN15,2024-11-20,maize,28,Bags,1.97,hectare
+HS24-01568,Benue,Katsina-Ala,EN15,2024-11-24,maize,5½,Bags,0.21,hectare
+HS24-01569,Benue,Katsina-Ala,EN03,2024-11-26,maize,"3,040",kg,6.9,acres
+HS24-01570,Niger,Lapai,EN14,2024-12-12,maize,21.5,BASIN,0.25,Ha
+HS24-01571,Kaduna,Kachia,EN07,2024-10-07,cowpea,820,kgs,0.65,hectares
+HS24-01572,Kaduna,Giwa,EN01,2024-11-13,sorghum,7.5,Bags,1.11,ha
+HS24-01573,Kaduna,Kachia,EN07,2024-11-19,sorghum,7,bags,1.0,acres
+HS24-01574,Niger,Lapai,EN14,2024-10-14,cowpea,4.5,bag,3.3,ac
+HS24-01575,Kaduna,Zaria,EN13,2024-11-24,cowpea,31,half bag,5.9,ac
+HS24-01576,Niger,Bida,EN08,2024-12-06,maize,17 1/2,bag,0.42,Ha
+HS24-01577,Benue,Makurdi,EN03,2024-11-25,rice_paddy,39.5,bag,3.4,Acres
+HS24-01578,Benue,Gboko,EN15,2024-10-15,maize,45,bags,3.3,acres
+HS24-01579,Benue,Katsina-Ala,EN12,2024-12-16,sorghum,25 1/2,big bag,1.28,ha
+HS24-01580,Kaduna,Kauru,EN16,2024-12-07,maize,19 1/2,BAG,1.28,hectares
+HS24-01581,Benue,Katsina-Ala,EN06,2024-12-14,maize,10,jerrycan,2.0,acres
+HS24-01582,Kaduna,Zaria,EN10,2024-11-02,sorghum,745,Kg,0.81,ha
+HS24-01583,Niger,Mokwa,EN02,2024-10-06,rice_paddy,3469,mudu,3.8,acre
+HS24-01584,Kaduna,Giwa,EN04,2024-12-14,rice_paddy,27,100 kg bag,0.65,Ha
+HS24-01585,Niger,Shiroro,EN05,2024-11-10,sorghum,675,kg,0.74,ha
+HS24-01586,Kaduna,Giwa,EN01,2024-11-15,maize,15 1/2,50 kg bag,1.0,acre
+HS24-01587,Benue,Gboko,EN03,2024-10-10,cowpea,21½,bag (50kg),2.2,ac
+HS24-01588,Niger,Mokwa,EN14,2024-12-15,maize,1040,kg.,"5,600",m2
+HS24-01589,Kaduna,Kauru,EN04,2024-12-07,maize,33½,100kg bag,0.95,hectare
+HS24-01590,Kaduna,Kachia,EN13,2024-12-02,rice_paddy,125.5,bag (50kg),2.02,hectares
+HS24-01591,Niger,Lapai,EN02,2024-12-05,sorghum,293.5,BASIN,"34,400",m2
+HS24-01592,Niger,Shiroro,EN05,2024-10-04,maize,21,Bags,2.2,acres
+HS24-01593,Benue,Makurdi,EN12,2024-12-01,sorghum,nil,Bags,1.26,Ha
+HS24-01594,Benue,Gboko,EN15,2024-12-06,cowpea,6,100 kg bag,1.06,Ha
+HS24-01595,Niger,Shiroro,EN05,2024-10-02,sorghum,5,bag,0.70,ha
+HS24-01596,Benue,Katsina-Ala,EN03,2024-11-13,sorghum,4½,100 kg bag,0.74,hectares
+HS24-01597,Niger,Mokwa,EN11,2024-10-27,rice_paddy,1690,kg.,0.98,HA
+HS24-01598,Niger,Shiroro,EN08,2024-11-15,rice_paddy,37,50kg bags,0.97,hectare
+HS24-01599,Niger,Bida,EN14,2024-12-14,maize,11 1/2,100 kg bag,0.68,hectare
+HS24-01600,Kaduna,Kauru,EN04,2024-10-01,sorghum,41.5,bag (50kg),2.1,acres
+HS24-01601,Benue,Gboko,EN12,2024-11-07,maize,14.5,bag,0.99,Ha
+HS24-01602,Niger,Lapai,EN14,2024-11-20,maize,6 1/2,bags,0.63,hectares
+HS24-01603,Niger,Shiroro,EN02,2024-11-03,sorghum,21,50kg bag,N/A,acre
+HS24-01604,Kaduna,Kauru,EN04,2024-11-23,maize,9 1/2,BAG,0.56,HA
+HS24-01605,Kaduna,Giwa,EN07,2024-10-17,maize,1.9,t,2.07,Ha
+HS24-01606,Niger,Bida,EN05,2024-10-23,maize,36 1/2,bag,4.4,ac
+HS24-01607,Kaduna,Giwa,EN07,2024-11-26,rice_paddy,39,BASIN,1.2,Acres
+HS24-01608,Kaduna,Kauru,EN07,2024-11-10,sorghum,23,basins,2.4,acre
+HS24-01609,Benue,Katsina-Ala,EN09,2024-12-19,rice_paddy,11,BAG,1.15,Ha
+HS24-01610,Kaduna,Kauru,EN16,2024-11-06,maize,59,Basin,0.69,ha
+HS24-01611,Benue,Gboko,EN03,2024-11-14,sorghum,910,tonnes,0.47,HA
+HS24-01612,Benue,Otukpo,EN06,2024-10-12,sorghum,  ,kg,0.88,ha
+HS24-01613,Kaduna,Giwa,EN07,2024-12-03,maize,202,100kg bag,7.45,ha
+HS24-01614,Benue,Makurdi,EN12,2024-12-10,maize,3.2,tonnes,1.65,hectares
+HS24-01615,Kaduna,Kachia,EN16,2024-12-18,rice_paddy,15,bags,1.0,acre
+HS24-01616,Kaduna,Giwa,EN07,2024-12-18,cowpea,3.5,50kg bag,0.6,acre
+HS24-01617,Kaduna,Kauru,EN07,2024-11-01,maize,nil,big bag,0.60,ha
+HS24-01618,Benue,Makurdi,EN12,2024-12-16,maize,14,wheelbarrow,0.85,HA
+HS24-01619,Kaduna,Giwa,EN01,2024-12-16,sorghum,18,Bags,"5,800",sq m
+HS24-01620,Kaduna,Giwa,EN16,2024-12-13,cowpea,22,50kg bags,0.81,hectare
+HS24-01621,Kaduna,Giwa,EN07,2024-10-17,maize,46.5,basins,0.77,hectares
+HS24-01622,Niger,Bida,EN14,2024-10-27,sorghum,51,basins,1.3,Acres
+HS24-01623,Benue,Gboko,EN06,2024-10-21,sorghum,26.5,bag,"29,200",m2
+HS24-01624,Kaduna,Kachia,EN07,2024-11-03,rice_paddy,20,big bag,nil,
+HS24-01625,Niger,Shiroro,EN05,2024-11-07,cowpea,2,bag,0.56,ha
+HS24-01626,Kaduna,Kachia,EN07,2024-10-04,sorghum,21,basin,3200,sq m
+HS24-01627,Niger,Lapai,EN05,2024-10-23,rice_paddy,14.5,bag (100kg),1.3,ac
+HS24-01628,Benue,Otukpo,EN12,2024-10-03,maize,38.5,BAG,2.38,hectare
+HS24-01629,Niger,Bida,EN08,2024-12-05,maize,"3,415",kgs,1.25,ha
+HS24-01630,Kaduna,Zaria,EN04,2024-11-02,sorghum,10,100kg bag,1.2,ac
+HS24-01631,Benue,Katsina-Ala,EN15,2024-10-04,cowpea,21,bag (100kg),2.85,ha
+HS24-01632,Kaduna,Kachia,EN04,2024-10-08,maize,1530,Kg,0.68,ha
+HS24-01633,Kaduna,Kachia,EN16,2024-10-06,maize,78.5,BASIN,0.28,ha
+HS24-01634,Niger,Mokwa,EN05,2024-11-12,sorghum,37.5,BASIN,0.7,Acres
+HS24-01635,Benue,Katsina-Ala,EN15,2024-12-10,maize,30½,big bag,1.42,HA
+HS24-01636,Niger,Shiroro,EN14,2024-11-06,rice_paddy,"2,295",kg.,-,square metres
+HS24-01637,Benue,Gboko,EN12,2024-11-11,maize,2115,kg.,1.12,ha
+HS24-01638,Niger,Mokwa,EN08,2024-12-08,sorghum,29,basin,1.05,ha
+HS24-01639,Benue,Otukpo,EN06,2024-11-22,rice_paddy,480½,BASIN,-,
+HS24-01640,Kaduna,Giwa,EN16,2024-10-23,rice_paddy,161,Basin,1.24,ha
+HS24-01641,Benue,Gboko,EN12,2024-11-21,sorghum,50,Basin,2.1,acres
+HS24-01642,Kaduna,Zaria,EN16,2024-12-05,maize,"2,235",KG,1.40,HA
+HS24-01643,Kaduna,Kauru,EN04,2024-11-18,maize,22½,100 kg bag,1.28,ha
+HS24-01644,Benue,Katsina-Ala,EN09,2024-12-05,maize,184 1/2,Basin,1.41,Ha
+HS24-01645,Benue,Katsina-Ala,EN06,2024-10-15,maize,28.5,big bag,"14,000",m2
+HS24-01646,Kaduna,Kauru,EN04,2024-11-17,rice_paddy,39,bag,2.6,Acres
+HS24-01647,Kaduna,Kauru,EN01,2024-12-10,maize,60,paint buckets,0.14,ha
+HS24-01648,Niger,Mokwa,EN11,2024-11-11,cowpea,4 1/2,kg,2.8,Acres
+HS24-01649,Benue,Makurdi,EN15,2024-11-22,cowpea,6,50 kg bag,0.80,ha
+HS24-01650,Niger,Lapai,EN11,2024-12-07,maize,19,kgs,0.75,hectare
+HS24-01651,Niger,Mokwa,EN14,2024-11-24,rice_paddy,192 1/2,basins,2.5,ac
+HS24-01652,Benue,Otukpo,EN03,2024-10-27,sorghum,6½,100 kg bag,0.52,ha
+HS24-01653,Niger,Mokwa,EN14,2024-12-15,sorghum,15.5,100kg bag,"17,000",m²
+HS24-01654,Kaduna,Kauru,EN04,2024-12-15,maize,38 1/2,big bag,1.11,Ha
+HS24-01655,Kaduna,Kachia,EN01,2024-11-26,maize,"1,245",KG,1.2,acre
+HS24-01656,Kaduna,Zaria,EN16,2024-10-26,rice_paddy,22½,small bag,0.41,hectare
+HS24-01657,Kaduna,Kauru,EN07,2024-11-15,rice_paddy,7,bags,0.6,acre
+HS24-01658,Benue,Gboko,EN09,2024-12-09,maize,27,Bags,"17,500",sq m
+HS24-01659,Niger,Bida,EN08,2024-10-24,maize,22,bags,0.74,hectares
+HS24-01660,Kaduna,Kauru,EN07,2024-11-04,sorghum,17,bag,1.02,HA
+HS24-01661,Niger,Mokwa,EN05,2024-12-04,maize,1830,kg.,0.83,ha
+HS24-01662,Kaduna,Kachia,EN16,2024-11-05,maize,106,paint bucket,0.5,acre
+HS24-01663,Benue,Gboko,EN15,2024-11-15,sorghum,"1,455",kilos,2.6,ac
+HS24-01664,Kaduna,Giwa,EN10,2024-11-15,sorghum,9.5,bags,0.70,HA
+HS24-01665,Kaduna,Kauru,EN01,2024-11-28,sorghum,26.5,bag,1.70,hectare
+HS24-01666,Niger,Mokwa,EN05,2024-12-14,maize,43,Basin,2.5,ac
+HS24-01667,Niger,Bida,EN08,2024-10-27,maize,55,bags,2.06,ha
+HS24-01668,Kaduna,Kauru,EN16,2024-10-05,maize,40.5,bag,0.96,Ha
+HS24-01669,Benue,Katsina-Ala,EN03,2024-10-05,cowpea,5 1/2,big bag,0.79,HA
+HS24-01670,Benue,Gboko,EN03,2024-12-07,rice_paddy,69 1/2,basins,0.69,ha
+HS24-01671,Niger,Lapai,EN14,2024-12-11,maize,38,50kg bag,5.0,acre
+HS24-01672,Niger,Mokwa,EN05,2024-12-11,maize,10.5,100 kg bag,0.72,ha
+HS24-01673,Kaduna,Giwa,EN10,2024-11-10,maize,48,Basin,1.9,ac
+HS24-01674,Benue,Otukpo,EN03,2024-11-26,cowpea,7,50kg bags,0.67,HA
+HS24-01675,Kaduna,Kachia,EN01,2024-10-06,sorghum,8,bags,3.2,Acres
+HS24-01676,Niger,Shiroro,EN02,2024-12-10,maize,"1,430",kilo,1.11,hectares
+HS24-01677,Niger,Shiroro,EN11,2024-12-10,rice_paddy,,MT,1.2,acre
+HS24-01678,Benue,Gboko,EN12,2024-12-01,sorghum,21,Bags,1.69,ha
+HS24-01679,Niger,Bida,EN14,2024-10-11,rice_paddy,7,bag,0.18,hectare
+HS24-01680,Niger,Mokwa,EN14,2024-10-09,maize,152.5,kwano,2.5,Acres
+HS24-01681,Kaduna,Kachia,EN13,2024-12-01,maize,7,Bags,0.50,Ha
+HS24-01682,Kaduna,Zaria,EN04,2024-10-15,cowpea,60,kwano,1.37,Ha
+HS24-01683,Niger,Mokwa,EN05,2024-12-12,maize,30,Bags,1.35,Ha
+HS24-01684,Niger,Lapai,EN14,2024-12-05,maize,46,Bags,3.4,acres
+HS24-01685,Kaduna,Zaria,EN10,2024-12-08,rice_paddy,55,basin,0.55,HA
+HS24-01686,Benue,Makurdi,EN09,2024-10-04,maize,39½,bag,2.8,ac
+HS24-01687,Benue,Katsina-Ala,EN15,2024-11-09,cowpea,495,kgs,1.8,ac
+HS24-01688,Kaduna,Kachia,EN04,2024-12-04,cowpea,97,paint buckets,0.83,ha
+HS24-01689,Niger,Lapai,EN02,2024-10-04,maize,45,small bag,0.80,ha
+HS24-01690,Kaduna,Giwa,EN10,2024-10-14,maize,46½,100kg bag,1.77,ha
+HS24-01691,Benue,Otukpo,EN06,2024-11-04,rice_paddy,26,half bag,0.62,hectare
+HS24-01692,Niger,Shiroro,EN08,2024-12-01,maize,14,big bag,1.5,acre
+HS24-01693,Niger,Bida,EN14,2024-12-06,rice_paddy,13,heap,1.8,acre
+HS24-01694,Niger,Bida,EN02,2024-10-02,rice_paddy,56,big bag,2.2,Acres
+HS24-01695,Niger,Shiroro,EN08,2024-11-07,maize,14,bag (100kg),0.97,HA
+HS24-01696,Niger,Bida,EN08,2024-10-03,maize,5½,bag (100kg),1.4,ac
+HS24-01697,Kaduna,Zaria,EN04,2024-10-17,sorghum,9.5,50kg bag,0.69,hectares
+HS24-01698,Niger,Mokwa,EN08,2024-10-24,maize,1420,Kg,0.76,ha
+HS24-01699,Niger,Mokwa,EN05,2024-10-06,maize,44½,basins,0.77,HA
+HS24-01700,Kaduna,Giwa,EN10,2024-10-15,sorghum,3,bags,0.35,ha
+HS24-01701,Benue,Katsina-Ala,EN06,2024-11-23,sorghum,7,bag,0.81,ha
+HS24-01702,Niger,Lapai,EN08,2024-10-15,sorghum,10 1/2,big bag,0.84,HA
+HS24-01703,Benue,Makurdi,EN03,2024-12-14,sorghum,24,basin,0.42,hectare
+HS24-01704,Niger,Shiroro,EN14,2024-10-15,sorghum,"1,180",Kg,7500,m2
+HS24-01705,Kaduna,Zaria,EN10,2024-10-06,maize,5,Bags,0.26,ha
+HS24-01706,Benue,Makurdi,EN03,2024-11-15,rice_paddy,55,bags,"9,000",sq m
+HS24-01707,Benue,Makurdi,EN03,2024-12-07,maize,60,half bag,3.5,Acres
+HS24-01708,Benue,Katsina-Ala,EN09,2024-12-15,rice_paddy,121.5,small bag,1.59,Ha
+HS24-01709,Kaduna,Zaria,EN07,2024-10-27,maize,40½,kwano,0.81,ha
+HS24-01710,Benue,Katsina-Ala,EN15,2024-11-06,rice_paddy,16,bag,1.09,ha
+HS24-01711,Benue,Gboko,EN09,2024-12-12,rice_paddy,101,Basin,0.76,ha
+HS24-01712,Kaduna,Giwa,EN07,2024-12-10,sorghum,5½,100 kg bag,1.1,ac
+HS24-01713,Niger,Shiroro,EN11,2024-10-04,sorghum,184.5,basins,2.67,ha
+HS24-01714,Niger,Shiroro,EN08,2024-10-28,rice_paddy,1700,mudu,1.11,ha
+HS24-01715,Niger,Bida,EN08,2024-12-10,cowpea,610,kilos,3.4,acres
+HS24-01716,Niger,Bida,EN02,2024-12-04,sorghum,56.5,BASIN,5.9,acre
+HS24-01717,Niger,Shiroro,EN14,2024-11-11,maize,31 1/2,BAG,1.04,HA
+HS24-01718,Benue,Gboko,EN15,2024-12-10,cowpea,N/A,Mudu,0.64,HA
+HS24-01719,Kaduna,Kauru,EN01,2024-10-12,sorghum,860,kg,0.83,hectares
+HS24-01720,Niger,Bida,EN05,2024-10-11,maize,12 1/2,bag (50kg),0.60,Ha
+HS24-01721,Kaduna,Kauru,EN16,2024-10-23,sorghum,51.5,BASIN,1.10,HA
+HS24-01722,Benue,Katsina-Ala,EN12,2024-10-12,cowpea,12 1/2,50kg bags,0.64,hectares
+HS24-01723,Kaduna,Zaria,EN16,2024-10-13,rice_paddy,2355,Kilograms,1.09,Ha
+HS24-01724,Benue,Katsina-Ala,EN09,2024-11-01,cowpea,980,KG,3.8,ac
+HS24-01725,Niger,Lapai,EN08,2024-10-04,rice_paddy,159 1/2,basins,0.40,Ha
+HS24-01726,Kaduna,Giwa,EN04,2024-11-13,cowpea,80,mudus,0.35,hectare
+HS24-01727,Kaduna,Kauru,EN13,2024-12-04,maize,32,big bag,5.6,acre
+HS24-01728,Benue,Makurdi,EN03,2024-11-25,rice_paddy,29.5,half bag,0.50,hectares
+HS24-01729,Benue,Otukpo,EN12,2024-11-02,maize,288.5,small bag,11.6,ac
+HS24-01730,Kaduna,Kachia,EN10,2024-12-14,maize,1480,kilo,0.53,ha
+HS24-01731,Kaduna,Kachia,EN13,2024-11-16,sorghum,18,50kg bag,0.64,Ha
+HS24-01732,Niger,Lapai,EN14,2024-10-15,sorghum,5,pickup,0.75,HA
+HS24-01733,Niger,Shiroro,EN05,2024-12-06,sorghum,54,50kg bag,4.1,Acres
+HS24-01734,Kaduna,Zaria,EN13,2024-11-09,sorghum,9,basins,0.42,hectare
+HS24-01735,Benue,Makurdi,EN03,2024-11-23,maize,10,Bags,0.50,ha
+HS24-01736,Kaduna,Giwa,EN16,2024-11-01,sorghum,5,big bag,1.0,acre
+HS24-01737,Kaduna,Zaria,EN07,2024-12-06,cowpea,6.5,bag (100kg),0.80,ha
+HS24-01738,Benue,Gboko,EN15,2024-10-21,maize,3965,kg,1.93,hectare
+HS24-01739,Kaduna,Giwa,EN13,2024-10-12,maize,53,100 kg bag,3.07,Ha
+HS24-01740,Niger,Shiroro,EN08,2024-12-19,cowpea,"1,585",kilogram,2.05,ha
+HS24-01741,Niger,Lapai,EN02,2024-11-03,rice_paddy,81 1/2,50 kg bag,0.72,ha
+HS24-01742,Benue,Katsina-Ala,EN15,2024-10-23,maize,30,Bags,4.2,ac
+HS24-01743,Kaduna,Kachia,EN04,2024-10-25,cowpea,13,bag (50kg),1.6,acres
+HS24-01744,Kaduna,Kauru,EN13,2024-12-09,cowpea,47½,basins,1.15,Ha
+HS24-01745,Benue,Gboko,EN12,2024-12-12,maize,60,basins,0.69,HA
+HS24-01746,Niger,Shiroro,EN14,2024-12-20,sorghum,20.5,basins,0.62,HA
+HS24-01747,Kaduna,Kachia,EN16,2024-11-15,rice_paddy,"1,280",kg,0.91,ha
+HS24-01748,Niger,Lapai,EN05,2024-10-07,sorghum,50,basin,1.4,ac
+HS24-01749,Niger,Lapai,EN14,2024-12-14,sorghum,1095,Paint Bucket,10.2,acres
+HS24-01750,Kaduna,Kauru,EN16,2024-11-06,rice_paddy,31,half bag,0.48,HA
+HS24-01751,Niger,Bida,EN08,2024-12-06,sorghum,39.5,Basin,0.7,acre
+HS24-01752,Niger,Mokwa,EN05,2024-12-02,maize,11 1/2,bag (100kg),1.17,hectare
+HS24-01753,Benue,Gboko,EN09,2024-10-24,maize,7,heap,0.65,Ha
+HS24-01754,Kaduna,Kauru,EN13,2024-10-11,sorghum,"1,415",Kg,1.01,hectares
+HS24-01755,Benue,Katsina-Ala,EN09,2024-12-18,rice_paddy,69,50kg bags,1.88,hectare
+HS24-01756,Kaduna,Zaria,EN01,2024-11-13,maize,20,BAG,1.29,ha
+HS24-01757,Benue,Katsina-Ala,EN12,2024-11-19,cowpea,23½,bags,4.0,Acres
+HS24-01758,Kaduna,Kauru,EN10,2024-12-08,maize,25,bag (100kg),0.96,ha
+HS24-01759,Kaduna,Kachia,EN07,2024-11-16,maize,7 1/2,100 kg bag,0.63,hectares
+HS24-01760,Kaduna,Zaria,EN04,2024-10-03,maize,9.5,BAG,1.5,ac
+HS24-01761,Benue,Makurdi,EN09,2024-11-02,maize,402½,basins,2.43,Ha
+HS24-01762,Benue,Gboko,EN12,2024-10-15,rice_paddy,122 1/2,kwano,1.8,ac
+HS24-01763,Kaduna,Kauru,EN07,2024-12-01,rice_paddy,213.5,basin,1.8,acres
+HS24-01764,Kaduna,Kachia,EN10,2024-10-04,maize,6,bags,0.31,ha
+HS24-01765,Kaduna,Giwa,EN10,2024-12-02,cowpea,3.5,bag (50kg),0.27,hectares
+HS24-01766,Niger,Lapai,EN05,2024-11-25,maize,16.5,bag,0.89,hectares
+HS24-01767,Kaduna,Kauru,EN10,2024-10-28,cowpea,27.5,small bag,1.35,HA
+HS24-01768,Niger,Shiroro,EN05,2024-10-20,rice_paddy,32,bag,1.36,ha
+HS24-01769,Kaduna,Zaria,EN16,2024-11-13,maize,515,kilo,N/A,ha
+HS24-01770,Niger,Mokwa,EN05,2024-10-11,cowpea,5,bags,0.85,hectare
+HS24-01771,Kaduna,Zaria,EN04,2024-12-01,maize,30.5,Bags,0.73,ha
+HS24-01772,Kaduna,Zaria,EN13,2024-11-10,cowpea,194,MUDU,0.38,HA
+HS24-01773,Kaduna,Giwa,EN10,2024-10-07,maize,11½,BAG,0.98,hectare
+HS24-01774,Kaduna,Giwa,EN10,2024-12-11,sorghum,7½,big bag,0.47,hectares
+HS24-01775,Niger,Mokwa,EN02,2024-11-03,rice_paddy,35½,bag (50kg),0.9,Acres
+HS24-01776,Benue,Otukpo,EN12,2024-12-10,cowpea,117,mudu,0.42,HA
+HS24-01777,Niger,Bida,EN11,2024-12-18,maize,29.5,kgs,1.1,Acres
+HS24-01778,Benue,Makurdi,EN06,2024-12-18,sorghum,24,50 kg bag,1.7,acres
+HS24-01779,Kaduna,Kauru,EN04,2024-11-05,rice_paddy,33.5,bags,1.12,ha
+HS24-01780,Niger,Mokwa,EN14,2024-10-04,sorghum,7,bag,0.99,ha
+HS24-01781,Benue,Makurdi,EN09,2024-11-11,sorghum,15.5,bag,1.45,ha
+HS24-01782,Niger,Lapai,EN14,2024-10-21,maize,7,big bag,0.8,acres
+HS24-01783,Kaduna,Zaria,EN01,2024-10-09,cowpea,29,basins,2.05,hectare
+HS24-01784,Benue,Makurdi,EN12,2024-11-25,sorghum,4.5,50kg bags,0.9,acres
+HS24-01785,Niger,Mokwa,EN02,2024-12-13,cowpea,4,100 kg bag,1.4,Acres
+HS24-01786,Benue,Gboko,EN03,2024-11-20,rice_paddy,54.5,bag,1.68,HA
+HS24-01787,Niger,Shiroro,EN08,2024-10-16,maize,38,bag,1.61,ha
+HS24-01788,Niger,Bida,EN02,2024-11-08,cowpea,210,Mudu,0.36,ha
+HS24-01789,Benue,Makurdi,EN03,2024-10-09,cowpea,21,bag (50kg),0.73,hectares
+HS24-01790,Kaduna,Kauru,EN16,2024-10-02,cowpea,6.5,50kg bags,0.58,Ha
+HS24-01791,Benue,Makurdi,EN12,2024-11-16,rice_paddy,63½,basins,0.81,hectares
+HS24-01792,Niger,Bida,EN08,2024-11-15,cowpea,6½,bag,0.93,hectare
+HS24-01793,Kaduna,Kauru,EN07,2024-11-27,maize,9,cart,0.87,Ha
+HS24-01794,Kaduna,Zaria,EN01,2024-10-09,maize,13 1/2,big bag,0.96,ha
+HS24-01795,Benue,Otukpo,EN15,2024-12-08,maize,47.5,100 kg bag,2.01,HA
+HS24-01796,Kaduna,Giwa,EN16,2024-12-03,rice_paddy,26,big bag,1.4,acre
+HS24-01797,Benue,Gboko,EN12,2024-10-21,rice_paddy,33.5,50 kg bag,1.7,acres
+HS24-01798,Kaduna,Kauru,EN16,2024-10-03,cowpea,3,50kg bag,0.8,acres
+HS24-01799,Kaduna,Kachia,EN16,2024-12-16,rice_paddy,23.5,small bag,0.21,ha
+HS24-01800,Niger,Bida,EN11,2024-10-22,maize,24,kg,3.3,Acres
+HS24-01801,Niger,Shiroro,EN02,2024-12-03,cowpea,4 1/2,bag,0.38,HA
+HS24-01802,Niger,Lapai,EN14,2024-11-20,maize,23,basins,1.1,acre
+HS24-01803,Benue,Makurdi,EN09,2024-12-03,rice_paddy,18 1/2,big bag,1.42,ha
+HS24-01804,Niger,Mokwa,EN05,2024-10-10,maize,16½,kwano,0.28,ha
+HS24-01805,Kaduna,Kauru,EN10,2024-12-18,maize,24,BAG,1.54,hectares
+HS24-01806,Kaduna,Kachia,EN13,2024-12-17,cowpea,2.5,bag (50kg),0.4,Acres
+HS24-01807,Benue,Makurdi,EN03,2024-12-01,rice_paddy,32½,Bags,9500,m2
+HS24-01808,Kaduna,Kachia,EN04,2024-11-08,maize,13,Bags,1.5,ac
+HS24-01809,Niger,Mokwa,EN08,2024-10-09,maize,17.5,100 kg bag,0.90,ha
+HS24-01810,Niger,Bida,EN02,2024-10-04,maize,20,bag (100kg),  ,HA
+HS24-01811,Kaduna,Zaria,EN16,2024-12-20,sorghum,14.5,100kg bag,1.06,HA
+HS24-01812,Niger,Mokwa,EN05,2024-12-06,cowpea,725,kilogram,0.77,HA
+HS24-01813,Kaduna,Giwa,EN13,2024-11-12,maize,0,kg,7500,sq m
+HS24-01814,Kaduna,Giwa,EN16,2024-12-16,maize,39.5,50 kg bag,0.54,Ha
+HS24-01815,Benue,Otukpo,EN12,2024-11-08,rice_paddy,34 1/2,bag (100kg),3.1,acres
+HS24-01816,Niger,Bida,EN08,2024-12-16,sorghum,10,bag,1.29,hectare
+HS24-01817,Kaduna,Kauru,EN04,2024-12-13,sorghum,30,basins,0.96,ha
+HS24-01818,Benue,Katsina-Ala,EN09,2024-10-02,sorghum,9,Bags,0.79,Ha
+HS24-01819,Benue,Otukpo,EN03,2024-11-27,maize,2,bag,1.1,acre
+HS24-01820,Niger,Bida,EN08,2024-11-24,cowpea,3,bag (100kg),1.9,ac
+HS24-01821,Benue,Makurdi,EN09,2024-10-08,cowpea,35,Bags,6.9,acres
+HS24-01822,Benue,Katsina-Ala,EN09,2024-11-23,maize,15 1/2,Basin,3900,square metres
+HS24-01823,Kaduna,Kachia,EN04,2024-10-26,cowpea,22½,50 kg bag,0.95,ha
+HS24-01824,Kaduna,Giwa,EN13,2024-10-05,sorghum,3,Bags,0.55,hectare
+HS24-01825,Benue,Otukpo,EN03,2024-11-11,sorghum,7,100 kg bag,0.82,ha
+HS24-01826,Niger,Mokwa,EN08,2024-10-03,maize,3.5,bag (100kg),0.38,Ha
+HS24-01827,Niger,Mokwa,EN14,2024-11-25,maize,24,bag (100kg),2.23,hectares
+HS24-01828,Niger,Shiroro,EN05,2024-11-24,sorghum,4,big bag,1.08,HA
+HS24-01829,Niger,Lapai,EN08,2024-12-11,rice_paddy,70,bag (50kg),1.23,HA
+HS24-01830,Kaduna,Kachia,EN16,2024-12-01,maize,82.5,BASIN,1.32,hectare
+HS24-01831,Kaduna,Giwa,EN13,2024-10-02,maize,10,Bags,1.8,ac
+HS24-01832,Benue,Katsina-Ala,EN03,2024-11-26,rice_paddy,7 1/2,Bags,0.43,ha
+HS24-01833,Kaduna,Kauru,EN13,2024-11-08,sorghum,12.5,BAG,0.97,ha
+HS24-01834,Niger,Shiroro,EN02,2024-11-22,maize,251,mudu,0.32,ha
+HS24-01835,Niger,Shiroro,EN11,2024-11-07,rice_paddy,79½,kgs,5.9,acres
+HS24-01836,Benue,Makurdi,EN03,2024-11-03,maize,17.5,bag,1.39,ha
+HS24-01837,Kaduna,Zaria,EN13,2024-10-10,cowpea,24.5,bag (50kg),4.0,acre
+HS24-01838,Benue,Katsina-Ala,EN09,2024-11-19,rice_paddy,40,bags,0.96,HA
+HS24-01839,Kaduna,Kachia,EN04,2024-10-28,maize,25,BAG,0.88,ha
+HS24-01840,Kaduna,Kauru,EN16,2024-12-20,sorghum,13.5,50kg bags,1.5,Acres
+HS24-01841,Benue,Otukpo,EN06,2024-10-27,maize,7 1/2,100kg bag,0.59,ha
+HS24-01842,Kaduna,Kauru,EN16,2024-11-17,maize,115½,basin,1.55,ha
+HS24-01843,Kaduna,Kachia,EN04,2024-12-16,cowpea,1310,kg.,4.1,acres
+HS24-01844,Kaduna,Giwa,EN01,2024-11-07,maize,30 1/2,100kg bag,1.20,Ha
+HS24-01845,Niger,Bida,EN08,2024-12-02,cowpea,12.5,basin,0.43,ha
+HS24-01846,Kaduna,Zaria,EN07,2024-10-17,sorghum,300,kilo,0.42,Ha
+HS24-01847,Benue,Gboko,EN09,2024-12-05,cowpea,5,bag,1.17,hectares
+HS24-01848,Niger,Shiroro,EN14,2024-12-01,rice_paddy,23,half bag,0.72,ha
+HS24-01849,Benue,Gboko,EN15,2024-12-02,maize,13,Basin,0.27,hectares
+HS24-01850,Niger,Lapai,EN05,2024-12-15,sorghum,20,Bags,3.3,Acres
+HS24-01851,Benue,Katsina-Ala,EN09,2024-10-02,cowpea,1,big bag,0.6,Acres
+HS24-01852,Niger,Shiroro,EN08,2024-10-11,rice_paddy,46.5,small bag,0.93,Ha
+HS24-01853,Niger,Mokwa,EN02,2024-12-03,rice_paddy,116.5,BASIN,1.00,hectare
+HS24-01854,Kaduna,Giwa,EN01,2024-12-15,maize,18,50kg bags,7200,m2
+HS24-01855,Kaduna,Zaria,EN13,2024-10-07,maize,18 1/2,bag,3.1,Acres
+HS24-01856,Niger,Lapai,EN11,2024-10-01,sorghum,1100,Kilograms,0.85,hectares
+HS24-01857,Niger,Mokwa,EN14,2024-11-22,sorghum,10,pickup,"17,700",m²
+HS24-01858,Benue,Makurdi,EN12,2024-11-15,maize,173,kwano,0.93,Ha
+HS24-01859,Kaduna,Giwa,EN07,2024-12-14,maize,19.5,Bags,0.91,ha
+HS24-01860,Niger,Mokwa,EN05,2024-11-12,maize,10 1/2,100kg bag,9300,m2
+HS24-01861,Niger,Lapai,EN14,2024-10-11,rice_paddy,6.5,bag,0.38,hectares
+HS24-01862,Kaduna,Zaria,EN07,2024-10-11,cowpea,5.5,half bag,1.3,Acres
+HS24-01863,Benue,Katsina-Ala,EN12,2024-11-16,maize,1.67,ton,0.95,Ha
+HS24-01864,Benue,Makurdi,EN15,2024-12-17,maize,19½,bag,1.38,ha
+HS24-01865,Kaduna,Giwa,EN16,2024-10-24,sorghum,26.5,Basin,N/A,m²
+HS24-01866,Kaduna,Kauru,EN13,2024-12-19,sorghum,5,Bags,1.4,ac
+HS24-01867,Benue,Katsina-Ala,EN09,2024-12-05,maize,9,100kg bag,0.40,ha
+HS24-01868,Benue,Gboko,EN03,2024-11-08,maize,114½,basin,0.94,ha
+HS24-01869,Niger,Shiroro,EN11,2024-12-18,maize,254.5,kwano,2.33,ha
+HS24-01870,Benue,Otukpo,EN09,2024-10-07,cowpea,480,kg,1.9,Acres
+HS24-01871,Kaduna,Kauru,EN04,2024-11-05,maize,40,big bag,3.9,acre
+HS24-01872,Benue,Katsina-Ala,EN15,2024-10-22,cowpea,2,bag,0.7,ac
+HS24-01873,Kaduna,Kachia,EN04,2024-10-06,cowpea,37,basin,1.14,HA
+HS24-01874,Kaduna,Kachia,EN13,2024-12-05,sorghum,20.5,100kg bag,2.3,acres
+HS24-01875,Kaduna,Kauru,EN07,2024-12-17,maize,8 1/2,bag,0.36,ha
+HS24-01876,Niger,Bida,EN02,2024-10-21,sorghum,14.5,bags,0.97,hectares
+HS24-01877,Niger,Lapai,EN05,2024-10-12,sorghum,27 1/2,Basin,1.5,acre
+HS24-01878,Kaduna,Kauru,EN13,2024-10-19,maize,69½,basin,0.65,ha
+HS24-01879,Kaduna,Kauru,EN10,2024-12-14,maize,9,bags,1.14,HA
+HS24-01880,Niger,Shiroro,EN11,2024-10-12,cowpea,1140,kilogram,4.9,acres
+HS24-01881,Benue,Makurdi,EN06,2024-10-13,maize,"1,240",KG,0.46,ha
+HS24-01882,Niger,Shiroro,EN02,2024-10-27,maize,22,small bag,0.85,HA
+HS24-01883,Niger,Lapai,EN05,2024-12-09,cowpea,74,paint,1.0,Acres
+HS24-01884,Kaduna,Giwa,EN10,2024-10-28,maize,8,pickup,1.9,Acres
+HS24-01885,Niger,Shiroro,EN11,2024-11-26,rice_paddy,54,kwano,0.68,HA
+HS24-01886,Niger,Mokwa,EN08,2024-12-20,maize,11,bag (100kg),4900,m2
+HS24-01887,Kaduna,Giwa,EN16,2024-11-06,sorghum,9,Bags,1.06,Ha
+HS24-01888,Niger,Bida,EN05,2024-10-11,cowpea,6½,bag (50kg),0.67,HA
+HS24-01889,Benue,Gboko,EN06,2024-12-09,sorghum,9½,bag,1.03,ha
+HS24-01890,Benue,Gboko,EN12,2024-10-25,maize,8 1/2,bag,0.43,ha
+HS24-01891,Benue,Katsina-Ala,EN12,2024-11-03,rice_paddy,"2,475",Kg,1.08,hectare
+HS24-01892,Niger,Bida,EN08,2024-12-19,rice_paddy,7,small bag,0.15,HA
+HS24-01893,Benue,Gboko,EN06,2024-12-06,sorghum,108 1/2,Basin,2.05,hectare
+HS24-01894,Niger,Shiroro,EN14,2024-10-04,maize,21,basin,0.55,Ha
+HS24-01895,Kaduna,Kachia,EN16,2024-11-12,maize,3.5,big bag,2900,m²
+HS24-01896,Niger,Bida,EN08,2024-12-02,maize,21,BAG,0.92,ha
+HS24-01897,Kaduna,Kachia,EN01,2024-10-23,rice_paddy,3802,Mudu,2.4,acres
+HS24-01898,Benue,Otukpo,EN12,2024-10-06,maize,141,basin,1.94,ha
+HS24-01899,Benue,Otukpo,EN03,2024-10-26,maize,16,BAG,1.31,HA
+HS24-01900,Niger,Mokwa,EN08,2024-12-01,maize,18.5,100kg bag,2.2,ac
+HS24-01901,Kaduna,Kauru,EN13,2024-10-28,maize,12 1/2,bag (100kg),0.79,HA
+HS24-01902,Kaduna,Kauru,EN13,2024-10-26,sorghum,12,100 kg bag,10000,square metres
+HS24-01903,Kaduna,Kauru,EN01,2024-12-11,sorghum,20,half bag,1.8,acres
+HS24-01904,Benue,Gboko,EN03,2024-10-15,cowpea,17½,bags,"13,200",square metres
+HS24-01905,Kaduna,Kachia,EN13,2024-12-08,sorghum,29.5,50kg bags,1.22,ha
+HS24-01906,Niger,Shiroro,EN05,2024-11-08,rice_paddy,0,Basin,1.15,HA
+HS24-01907,Niger,Lapai,EN11,2024-11-26,rice_paddy,1180,Kg,1.2,acre
+HS24-01908,Kaduna,Giwa,EN13,2024-12-06,rice_paddy,"5,935",kilogram,4.0,acres
+HS24-01909,Kaduna,Kachia,EN10,2024-11-07,rice_paddy,106,basins,0.56,ha
+HS24-01910,Benue,Gboko,EN03,2024-11-23,cowpea,14,bag (50kg),2.5,acre
+HS24-01911,Benue,Gboko,EN12,2024-10-24,maize,1.1,ton,0.79,ha
+HS24-01912,Niger,Mokwa,EN11,2024-11-09,cowpea,9½,kgs,1.19,ha
+HS24-01913,Benue,Makurdi,EN12,2024-11-20,sorghum,10,half bag,2.3,Acres
+HS24-01914,Kaduna,Giwa,EN10,2024-11-04,maize,16,bags,2.0,acre
+HS24-01915,Kaduna,Kachia,EN04,2024-12-20,maize,132,basins,1.28,hectare
+HS24-01916,Kaduna,Zaria,EN16,2024-10-01,maize,5,big bag,0.9,ac
+HS24-01917,Niger,Mokwa,EN02,2024-10-03,cowpea,3½,big bag,0.98,Ha
+HS24-01918,Niger,Bida,EN02,2024-10-03,cowpea,6 1/2,50 kg bag,0.59,hectare
+HS24-01919,Benue,Otukpo,EN06,2024-10-06,sorghum,7,100 kg bag,0.78,Ha
+HS24-01920,Niger,Shiroro,EN05,2024-12-11,maize,10,heap,20200,sq m
+HS24-01921,Niger,Bida,EN14,2024-10-02,rice_paddy,161,Basin,0.98,ha
+HS24-01922,Kaduna,Giwa,EN07,2024-11-24,maize,9,big bag,1.1,Acres
+HS24-01923,Kaduna,Kachia,EN16,2024-12-15,maize,11.5,bags,2.7,Acres
+HS24-01924,Benue,Gboko,EN03,2024-10-06,maize,57,basins,1.35,Ha
+HS24-01925,Niger,Mokwa,EN14,2024-12-10,maize,101 1/2,BASIN,1.03,hectare
+HS24-01926,Kaduna,Zaria,EN16,2024-12-10,rice_paddy,161,bag,1.80,Ha
+HS24-01927,Benue,Makurdi,EN15,2024-12-11,maize,36,50 kg bag,0.99,ha
+HS24-01928,Niger,Lapai,EN08,2024-12-08,rice_paddy,129.5,small bag,1.24,hectares
+HS24-01929,Benue,Katsina-Ala,EN09,2024-10-19,maize,27,BASIN,0.50,Ha
+HS24-01930,Kaduna,Giwa,EN01,2024-10-08,sorghum,5.5,BAG,0.54,Ha
+HS24-01931,Benue,Gboko,EN03,2024-12-17,sorghum,885,kgs,0.54,hectare
+HS24-01932,Niger,Bida,EN02,2024-10-12,cowpea,  ,100kg bag,0.56,hectare
+HS24-01933,Benue,Makurdi,EN03,2024-11-12,sorghum,23.5,100 kg bag,1.16,ha
+HS24-01934,Niger,Lapai,EN11,2024-12-12,maize,22,kg,1.11,hectares
+HS24-01935,Benue,Katsina-Ala,EN06,2024-10-07,rice_paddy,834,paint buckets,2.2,ac
+HS24-01936,Niger,Mokwa,EN08,2024-10-16,cowpea,30,basin,1.9,ac
+HS24-01937,Niger,Mokwa,EN05,2024-10-01,rice_paddy,776,Mudu,2.2,acres
+HS24-01938,Niger,Lapai,EN11,2024-10-21,cowpea,7,kg,0.46,hectare
+HS24-01939,Benue,Katsina-Ala,EN09,2024-10-07,rice_paddy,30 1/2,100kg bag,0.81,hectare
+HS24-01940,Kaduna,Zaria,EN13,2024-11-28,maize,114.5,basins,0.91,ha
+HS24-01941,Kaduna,Kachia,EN04,2024-12-14,maize,31.5,small bag,2.1,ac
+HS24-01942,Niger,Shiroro,EN05,2024-11-25,maize,80.5,Basin,5300,hectares
+HS24-01943,Niger,Bida,EN05,2024-11-04,sorghum,11,kwano,0.29,hectare
+HS24-01944,Niger,Bida,EN14,2024-11-02,rice_paddy,737 1/2,Basin,1.42,HA
+HS24-01945,Benue,Gboko,EN15,2024-10-07,maize,8,Bags,0.9,acres
+HS24-01946,Benue,Gboko,EN06,2024-12-03,rice_paddy,6 1/2,bag (100kg),0.24,ha
+HS24-01947,Benue,Katsina-Ala,EN12,2024-11-28,rice_paddy,22,50 kg bag,1.1,acres
+HS24-01948,Niger,Lapai,EN14,2024-11-10,sorghum,26,100 kg bag,2.49,hectares
+HS24-01949,Kaduna,Kachia,EN16,2024-10-25,sorghum,9.5,bag,1.06,ha
+HS24-01950,Kaduna,Giwa,EN01,2024-11-20,maize,295,kilo,0.35,Ha
+HS24-01951,Kaduna,Kauru,EN13,2024-10-17,rice_paddy,"1,490",Kilograms,-,ha
+HS24-01952,Benue,Makurdi,EN15,2024-11-13,maize,4.04,tons,7.0,acre
+HS24-01953,Kaduna,Kauru,EN13,2024-10-06,cowpea,246,modu,0.71,HA
+HS24-01954,Kaduna,Zaria,EN01,2024-12-09,rice_paddy,51,bag,1.95,hectares
+HS24-01955,Benue,Makurdi,EN03,2024-10-17,cowpea,775,Kilograms,3.1,acres
+HS24-01956,Niger,Bida,EN05,2024-12-04,maize,"1,330",kilogram,0.8,acres
+HS24-01957,Kaduna,Giwa,EN10,2024-10-03,maize,7 1/2,100kg bag,2.8,acres
+HS24-01958,Benue,Gboko,EN12,2024-12-19,maize,4.5,bags,0.39,hectares
+HS24-01959,Niger,Shiroro,EN05,2024-11-15,rice_paddy,34,small bag,0.51,ha
+HS24-01960,Kaduna,Giwa,EN10,2024-12-08,maize,16,bags,0.81,HA
+HS24-01961,Niger,Mokwa,EN08,2024-11-01,maize,13.5,50kg bags,1.8,acre
+HS24-01962,Kaduna,Giwa,EN07,2024-10-07,maize,840,kg,0.58,ha
+HS24-01963,Kaduna,Giwa,EN10,2024-11-23,maize,1245,kilogram,1.08,ha
+HS24-01964,Benue,Gboko,EN09,2024-11-15,sorghum,2,100kg bag,0.7,Acres
+HS24-01965,Niger,Mokwa,EN05,2024-12-19,rice_paddy,1.54,tonnes,0.63,hectare
+HS24-01966,Benue,Makurdi,EN03,2024-12-07,maize,18 1/2,50 kg bag,0.58,Ha
+HS24-01967,Kaduna,Kachia,EN04,2024-11-16,sorghum,0,basin,1.02,ha
+HS24-01968,Kaduna,Giwa,EN13,2024-10-23,maize,35.5,bags,2.30,ha
+HS24-01969,Niger,Shiroro,EN02,2024-11-11,maize,56,basins,0.50,hectare
+HS24-01970,Niger,Bida,EN14,2024-11-26,maize,125,kwano,0.64,ha
+HS24-01971,Benue,Katsina-Ala,EN06,2024-12-16,maize,"1,110",kg,1.4,ac
+HS24-01972,Kaduna,Kachia,EN16,2024-12-07,sorghum,5,bag (100kg),0.35,ha
+HS24-01973,Niger,Lapai,EN05,2024-12-12,sorghum,4.5,100kg bag,2.4,acres
+HS24-01974,Kaduna,Zaria,EN04,2024-12-12,maize,11.5,BAG,0.65,hectares
+HS24-01975,Niger,Shiroro,EN11,2024-10-19,sorghum,71,Basin,0.68,hectare
+HS24-01976,Kaduna,Kauru,EN07,2024-10-28,cowpea,202,MUDU,"8,200",m²
+HS24-01977,Kaduna,Kachia,EN01,2024-12-20,cowpea,nil,mudu,0.9,acre
+HS24-01978,Kaduna,Giwa,EN16,2024-11-21,rice_paddy,46 1/2,half bag,1.6,Acres
+HS24-01979,Niger,Mokwa,EN05,2024-12-01,rice_paddy,96½,big bag,2.71,hectare
+HS24-01980,Benue,Makurdi,EN03,2024-11-25,cowpea,3,big bag,0.57,HA
+HS24-01981,Kaduna,Zaria,EN07,2024-11-18,maize,21,50 kg bag,6800,sq m
+HS24-01982,Kaduna,Kachia,EN04,2024-10-08,cowpea,18½,basin,0.72,hectares
+HS24-01983,Niger,Lapai,EN02,2024-12-20,sorghum,54½,basin,2.6,ac
+HS24-01984,Kaduna,Kauru,EN13,2024-12-18,maize,0,bags,24100,m²
+HS24-01985,Kaduna,Kauru,EN01,2024-10-26,maize,9 1/2,Bags,0.65,ha
+HS24-01986,Benue,Gboko,EN09,2024-12-20,sorghum,8,Bags,1.08,ha
+HS24-01987,Benue,Katsina-Ala,EN09,2024-10-01,sorghum,30½,bags,22800,square metres
+HS24-01988,Kaduna,Kauru,EN10,2024-11-20,rice_paddy,1895,kg.,0.81,ha
+HS24-01989,Kaduna,Zaria,EN07,2024-11-13,cowpea,11.5,bag (50kg),1.2,Acres
+HS24-01990,Niger,Bida,EN11,2024-12-14,sorghum,79 1/2,basins,1.33,ha
+HS24-01991,Benue,Katsina-Ala,EN03,2024-11-28,rice_paddy,152,paint buckets,0.19,ha
+HS24-01992,Kaduna,Kachia,EN07,2024-11-24,cowpea,8,100kg bag,1.7,acre
+HS24-01993,Benue,Gboko,EN03,2024-10-14,sorghum,0,basins,3.3,acres
+HS24-01994,Kaduna,Kauru,EN07,2024-11-11,maize,0,basin,0.46,ha
+HS24-01995,Kaduna,Giwa,EN04,2024-12-18,rice_paddy,2373,mudus,1.66,hectares
+HS24-01996,Kaduna,Zaria,EN10,2024-12-01,rice_paddy,14 1/2,50kg bag,0.28,Ha
+HS24-01997,Benue,Gboko,EN03,2024-12-04,rice_paddy,21,bag (100kg),1.21,HA
+HS24-01998,Benue,Makurdi,EN03,2024-12-08,sorghum,14,bag,3.6,ac
+HS24-01999,Niger,Lapai,EN02,2024-12-08,cowpea,14,metric tonne,76.3,acre
+HS24-02000,Kaduna,Kauru,EN04,2024-10-25,sorghum,17,100kg bag,1.84,ha
+HS24-02001,Benue,Gboko,EN03,2024-10-13,rice_paddy,22,BAG,-,
+HS24-02002,Niger,Mokwa,EN05,2024-11-08,maize,38,half bag,3.0,Acres
+HS24-02003,Benue,Katsina-Ala,EN15,2024-11-10,cowpea,23½,half bag,1.06,Ha
+HS24-02004,Benue,Gboko,EN12,2024-11-27,maize,12,100kg bag,0.70,ha
+HS24-02005,Benue,Katsina-Ala,EN15,2024-12-05,cowpea,6,BAG,2.8,Acres
+HS24-02006,Benue,Otukpo,EN09,2024-12-17,sorghum,7,100kg bag,2.3,ac
+HS24-02007,Kaduna,Zaria,EN07,2024-12-19,rice_paddy,37.5,small bag,0.47,hectares
+HS24-02008,Benue,Gboko,EN03,2024-10-19,cowpea,11,100kg bag,3.6,Acres
+HS24-02009,Benue,Gboko,EN06,2024-12-03,cowpea,3,half bag,0.63,Ha
+HS24-02010,Kaduna,Zaria,EN01,2024-10-14,maize,87.5,bags,3.80,ha
+HS24-02011,Niger,Bida,EN14,2024-10-12,rice_paddy,10,BAG,1.0,Acres
+HS24-02012,Kaduna,Kachia,EN04,2024-10-25,rice_paddy,136.5,50kg bags,1.95,ha
+HS24-02013,Benue,Gboko,EN09,2024-12-10,maize,11.5,bag (100kg),3.4,Acres
+HS24-02014,Niger,Bida,EN08,2024-10-07,maize,495,kilogram,0.60,hectares
+HS24-02015,Benue,Otukpo,EN12,2024-11-07,rice_paddy,52.5,Basin,0.33,hectares
+HS24-02016,Benue,Otukpo,EN12,2024-10-02,sorghum,3840,kg.,2.99,HA
+HS24-02017,Kaduna,Giwa,EN04,2024-10-28,maize,21,small bag,1.3,Acres
+HS24-02018,Niger,Bida,EN14,2024-12-08,cowpea,20.5,BAG,,
+HS24-02019,Niger,Lapai,EN11,2024-10-15,sorghum,13,Kg,3.0,acre
+HS24-02020,Kaduna,Zaria,EN13,2024-12-03,sorghum,22,bag,1.18,hectares
+HS24-02021,Kaduna,Zaria,EN04,2024-12-12,maize,860,kg.,0.50,hectares
+HS24-02022,Benue,Katsina-Ala,EN15,2024-12-03,maize,29½,small bag,1.64,Ha
+HS24-02023,Benue,Katsina-Ala,EN06,2024-12-16,rice_paddy,168.5,half bag,,
+HS24-02024,Benue,Katsina-Ala,EN12,2024-11-16,maize,37.5,BASIN,1.2,ac
+HS24-02025,Kaduna,Giwa,EN01,2024-12-20,sorghum,"2,240",Kg,2.15,hectare
+HS24-02026,Kaduna,Kachia,EN01,2024-10-22,sorghum,8,small bag,0.30,Ha
+HS24-02027,Benue,Katsina-Ala,EN12,2024-11-28,maize,5.5,100 kg bag,1.5,ac
+HS24-02028,Benue,Gboko,EN12,2024-11-03,sorghum,4½,big bag,0.57,ha
+HS24-02029,Niger,Bida,EN02,2024-12-08,sorghum,8.5,bags,4700,m2
+HS24-02030,Niger,Mokwa,EN05,2024-11-06,sorghum,19.5,100kg bag,,
+HS24-02031,Kaduna,Giwa,EN07,2024-10-19,cowpea,9.5,100 kg bag,  ,
+HS24-02032,Niger,Shiroro,EN05,2024-11-13,cowpea,14,basin,0.60,hectares
+HS24-02033,Niger,Bida,EN14,2024-11-21,maize,16.5,bags,0.87,ha
+HS24-02034,Niger,Shiroro,EN02,2024-10-24,maize,0.82,MT,3.4,Acres
+HS24-02035,Kaduna,Kauru,EN01,2024-10-05,rice_paddy,20,50kg bags,0.37,HA
+HS24-02036,Kaduna,Giwa,EN07,2024-10-06,rice_paddy,14,bag (100kg),0.30,hectares
+HS24-02037,Benue,Katsina-Ala,EN15,2024-11-18,maize,1035,Kilograms,"4,500",square metres
+HS24-02038,Niger,Shiroro,EN05,2024-10-15,cowpea,305,tons,1.2,Acres
+HS24-02039,Benue,Makurdi,EN15,2024-11-14,cowpea,6.5,bag (100kg),1.4,acres
+HS24-02040,Niger,Bida,EN08,2024-11-02,cowpea,1½,big bag,0.51,HA
+HS24-02041,Benue,Makurdi,EN03,2024-10-21,maize,89.5,basins,2.5,acre
+HS24-02042,Kaduna,Kauru,EN10,2024-12-15,maize,42.5,bag,3.20,hectares
+HS24-02043,Kaduna,Kauru,EN16,2024-11-09,maize,92.5,basins,0.86,HA
+HS24-02044,Niger,Shiroro,EN02,2024-11-03,rice_paddy,20.5,Bags,3500,m2
+HS24-02045,Benue,Makurdi,EN06,2024-11-03,maize,18½,50 kg bag,1.3,acres
+HS24-02046,Niger,Shiroro,EN11,2024-12-06,maize,11.5,kg,1.9,Acres
+HS24-02047,Kaduna,Kachia,EN04,2024-10-11,rice_paddy,61,basins,0.38,ha
+HS24-02048,Niger,Mokwa,EN14,2024-12-14,rice_paddy,99.5,basins,1.17,hectares
+HS24-02049,Benue,Makurdi,EN15,2024-11-25,rice_paddy,"1,760",kg,1.50,ha
+HS24-02050,Niger,Mokwa,EN11,2024-10-02,maize,13 1/2,kgs,1.8,acre
+HS24-02051,Kaduna,Kauru,EN10,2024-11-13,maize,45,kwano,0.50,Ha
+HS24-02052,Kaduna,Giwa,EN04,2024-11-02,rice_paddy,N/A,Basin,0.58,ha
+HS24-02053,Benue,Otukpo,EN12,2024-10-06,maize,42½,kwano,0.77,ha
+HS24-02054,Kaduna,Kachia,EN07,2024-11-14,cowpea,19,50kg bags,1.6,acre
+HS24-02055,Niger,Mokwa,EN02,2024-11-04,rice_paddy,89,BASIN,0.65,Ha
+HS24-02056,Benue,Otukpo,EN09,2024-11-05,maize,47½,big bag,1.48,Ha
+HS24-02057,Kaduna,Zaria,EN10,2024-11-25,rice_paddy,43.5,bag (100kg),0.93,Ha
+HS24-02058,Benue,Gboko,EN15,2024-11-09,sorghum,22 1/2,Bags,2.34,ha
+HS24-02059,Kaduna,Giwa,EN01,2024-12-08,maize,15,100 kg bag,3.4,acres
+HS24-02060,Niger,Bida,EN11,2024-12-03,maize,33 1/2,small bag,2.1,acres
+HS24-02061,Niger,Mokwa,EN14,2024-10-06,maize,20.5,BAG,1.68,hectares
+HS24-02062,Benue,Gboko,EN15,2024-12-10,sorghum,0,BASIN,0.28,HA
+HS24-02063,Niger,Mokwa,EN05,2024-11-23,maize,nil,bag,1.7,acre
+HS24-02064,Niger,Mokwa,EN14,2024-11-04,sorghum,7,50 kg bag,0.36,ha
+HS24-02065,Benue,Otukpo,EN09,2024-12-05,sorghum,10,bags,1.05,hectares
+HS24-02066,Kaduna,Kauru,EN07,2024-11-26,rice_paddy,23,100kg bag,0.78,ha
+HS24-02067,Niger,Shiroro,EN08,2024-10-05,rice_paddy,30 1/2,big bag,1.51,Ha
+HS24-02068,Kaduna,Giwa,EN10,2024-10-04,cowpea,22.5,50 kg bag,1.02,hectares
+HS24-02069,Kaduna,Giwa,EN10,2024-12-15,maize,N/A,BASIN,0.66,hectares
+HS24-02070,Kaduna,Zaria,EN10,2024-12-01,rice_paddy,"4,515",kg.,"25,900",square metres
+HS24-02071,Niger,Lapai,EN02,2024-12-19,sorghum,86½,basin,1.95,ha
+HS24-02072,Kaduna,Kachia,EN10,2024-12-20,rice_paddy,54,100 kg bag,1.58,hectares
+HS24-02073,Kaduna,Zaria,EN07,2024-12-01,cowpea,4½,big bag,2.3,Acres
+HS24-02074,Benue,Makurdi,EN06,2024-11-08,rice_paddy,13.5,bag,6600,m2
+HS24-02075,Benue,Katsina-Ala,EN09,2024-12-03,maize,27,kwano,0.41,ha
+HS24-02076,Kaduna,Giwa,EN10,2024-10-04,sorghum,7 1/2,bag (50kg),1.3,acre
+HS24-02077,Niger,Mokwa,EN02,2024-11-26,rice_paddy,37,big bag,8300,m²
+HS24-02078,Benue,Gboko,EN06,2024-11-05,rice_paddy,177.5,bag (50kg),1.82,ha
+HS24-02079,Benue,Katsina-Ala,EN03,2024-12-19,sorghum,599,paint,1.03,hectares
+HS24-02080,Kaduna,Kauru,EN13,2024-11-12,rice_paddy,360,kgs,0.36,hectares
+HS24-02081,Niger,Shiroro,EN11,2024-12-09,sorghum,28½,kg,1.29,ha
+HS24-02082,Kaduna,Kauru,EN04,2024-11-16,maize,42.5,basins,0.50,hectares
+HS24-02083,Benue,Makurdi,EN15,2024-12-11,rice_paddy,99½,basin,1.7,Acres
+HS24-02084,Kaduna,Zaria,EN04,2024-11-19,cowpea,5½,bags,0.70,Ha
+HS24-02085,Kaduna,Giwa,EN01,2024-12-08,maize,6,Bags,"4,700",m²
+HS24-02086,Benue,Gboko,EN03,2024-10-07,maize,25½,50kg bags,0.40,ha
+HS24-02087,Kaduna,Kauru,EN07,2024-12-02,rice_paddy,22,bag,0.92,hectare
+HS24-02088,Niger,Mokwa,EN08,2024-11-05,cowpea,375,kg,1.1,acre
+HS24-02089,Niger,Shiroro,EN02,2024-10-25,sorghum,5,BAG,nil,acres
+HS24-02090,Niger,Lapai,EN02,2024-10-27,sorghum,1875,t,5.9,acre
+HS24-02091,Kaduna,Kachia,EN13,2024-11-15,sorghum,360,kgs,0.71,HA
+HS24-02092,Niger,Bida,EN14,2024-11-02,sorghum,11,Bags,0.97,ha
+HS24-02093,Benue,Makurdi,EN06,2024-11-11,maize,6335,Kilograms,3.7,Acres
+HS24-02094,Kaduna,Kachia,EN10,2024-10-20,maize,31.5,50kg bag,-,
+HS24-02095,Niger,Shiroro,EN05,2024-12-04,rice_paddy,46,bag (100kg),2.2,acre
+HS24-02096,Niger,Lapai,EN05,2024-12-15,rice_paddy,129 1/2,50kg bags,1.70,ha
+HS24-02097,Niger,Lapai,EN08,2024-12-01,maize,1430,kgs,0.91,hectares
+HS24-02098,Benue,Otukpo,EN09,2024-11-11,maize,30 1/2,BAG,4.7,Acres
+HS24-02099,Benue,Gboko,EN06,2024-11-18,sorghum,1270,KG,3.6,Acres
+HS24-02100,Niger,Mokwa,EN05,2024-11-21,maize,275.5,kwano,2.02,ha
+HS24-02101,Benue,Otukpo,EN06,2024-11-04,rice_paddy,9,basins,0.13,ha
+HS24-02102,Niger,Lapai,EN11,2024-10-04,cowpea,185,mudus,3500,m²
+HS24-02103,Kaduna,Kachia,EN16,2024-12-03,maize,411.5,kwano,5.4,Acres
+HS24-02104,Benue,Gboko,EN09,2024-10-13,maize,31,kwano,3900,m²
+HS24-02105,Kaduna,Giwa,EN10,2024-10-01,sorghum,3,100 kg bag,0.34,ha
+HS24-02106,Benue,Gboko,EN12,2024-11-26,sorghum,55.5,100kg bag,1.79,Ha
+HS24-02107,Kaduna,Zaria,EN10,2024-11-08,rice_paddy,305.5,BASIN,2.22,hectare
+HS24-02108,Kaduna,Kachia,EN16,2024-11-16,sorghum,269,modu,0.24,ha
+HS24-02109,Niger,Lapai,EN02,2024-10-14,cowpea,14.5,half bag,2.6,acres
+HS24-02110,Kaduna,Kachia,EN01,2024-11-15,sorghum,8,bag,2.1,acre
+HS24-02111,Niger,Shiroro,EN14,2024-12-20,maize,29,50kg bags,1.2,Acres
+HS24-02112,Benue,Otukpo,EN09,2024-11-05,maize,89,kwano,1.19,ha
+HS24-02113,Kaduna,Zaria,EN13,2024-11-10,maize,153,Basin,1.6,Acres
+HS24-02114,Kaduna,Zaria,EN04,2024-11-01,cowpea,128,Mudu,0.29,hectares
+HS24-02115,Kaduna,Giwa,EN01,2024-12-13,maize,141,basins,1.43,ha
+HS24-02116,Benue,Makurdi,EN03,2024-12-08,sorghum,5,big bag,2.1,acres
+HS24-02117,Benue,Otukpo,EN03,2024-12-02,maize,28,50kg bags,"8,800",square metres
+HS24-02118,Niger,Bida,EN08,2024-12-07,maize,7½,big bag,0.64,hectares
+HS24-02119,Benue,Gboko,EN06,2024-11-07,maize,25,100 kg bag,2.1,acre
+HS24-02120,Benue,Gboko,EN15,2024-12-01,maize,13,bags,0.78,ha
+HS24-02121,Benue,Katsina-Ala,EN06,2024-10-07,sorghum,520,kg,0.57,ha
+HS24-02122,Kaduna,Kachia,EN13,2024-11-16,maize,11.5,50kg bags,0.40,Ha
+HS24-02123,Kaduna,Zaria,EN13,2024-10-02,maize,26,bag (100kg),3.2,acre
+HS24-02124,Kaduna,Kachia,EN16,2024-12-03,rice_paddy,327 1/2,basin,3.3,acres
+HS24-02125,Niger,Shiroro,EN02,2024-10-03,maize,70,50 kg bag,1.9,Acres
+HS24-02126,Benue,Gboko,EN03,2024-10-09,maize,181,basin,2.2,Acres
+HS24-02127,Kaduna,Kachia,EN13,2024-12-13,sorghum,24,basin,0.6,ac
+HS24-02128,Niger,Shiroro,EN02,2024-11-19,sorghum,24.5,50kg bags,1.16,Ha
+HS24-02129,Kaduna,Giwa,EN10,2024-10-16,sorghum,15,100kg bag,1.92,hectare
+HS24-02130,Benue,Otukpo,EN15,2024-12-03,rice_paddy,40,100 kg bag,1.14,Ha
+HS24-02131,Niger,Mokwa,EN14,2024-12-20,maize,18,Bags,1.07,ha
+HS24-02132,Benue,Gboko,EN15,2024-11-09,cowpea,17.5,100kg bag,1.98,ha
+HS24-02133,Kaduna,Kachia,EN07,2024-11-27,cowpea,18 1/2,Bags,7.9,acre
+HS24-02134,Niger,Mokwa,EN02,2024-11-17,sorghum,62 1/2,Basin,2.1,acres
+HS24-02135,Kaduna,Giwa,EN07,2024-11-01,rice_paddy,74.5,bag (100kg),1.32,hectares
+HS24-02136,Kaduna,Giwa,EN10,2024-10-23,rice_paddy,13½,bag,0.41,hectares
+HS24-02137,Kaduna,Kauru,EN07,2024-10-05,cowpea,23,Bags,3.12,hectare
+HS24-02138,Kaduna,Giwa,EN16,2024-11-10,cowpea,22,big bag,4.7,acres
+HS24-02139,Benue,Makurdi,EN12,2024-10-22,maize,15,Bags,2.1,acres
+HS24-02140,Niger,Bida,EN05,2024-10-07,maize,"1,140",Kilograms,0.37,HA
+HS24-02141,Benue,Katsina-Ala,EN12,2024-12-17,sorghum,7 1/2,bag,3.2,Acres
+HS24-02142,Benue,Gboko,EN06,2024-12-12,cowpea,4,BASIN,0.7,acres
+HS24-02143,Niger,Lapai,EN14,2024-11-16,maize,240.5,basins,2.45,ha
+HS24-02144,Niger,Lapai,EN11,2024-12-01,maize,6 1/2,kg,0.89,hectares
+HS24-02145,Niger,Lapai,EN02,2024-11-04,maize,1.25,t,0.58,HA
+HS24-02146,Niger,Mokwa,EN11,2024-12-15,sorghum,14,kgs,0.55,Ha
+HS24-02147,Niger,Shiroro,EN08,2024-12-07,sorghum,1765,kg,1.08,hectare
+HS24-02148,Niger,Mokwa,EN14,2024-11-08,maize,52,50 kg bag,3.7,Acres
+HS24-02149,Kaduna,Kauru,EN01,2024-11-02,maize,18.5,BAG,0.97,ha
+HS24-02150,Niger,Lapai,EN02,2024-10-19,sorghum,6,100 kg bag,0.69,ha
+HS24-02151,Niger,Lapai,EN08,2024-12-11,maize,45,bag,1.70,Ha
+HS24-02152,Kaduna,Giwa,EN16,2024-10-12,cowpea,7,100 kg bag,1.02,ha
+HS24-02153,Niger,Mokwa,EN02,2024-10-07,cowpea,13,BASIN,"4,300",m2
+HS24-02154,Niger,Shiroro,EN02,2024-12-01,sorghum,5,bag,0.57,HA
+HS24-02155,Kaduna,Kachia,EN16,2024-11-13,cowpea,5,bag,1.38,Ha
+HS24-02156,Niger,Lapai,EN02,2024-11-18,maize,90.5,kwano,N/A,ac
+HS24-02157,Niger,Shiroro,EN14,2024-11-26,maize,6 1/2,bag (100kg),1.6,acre
+HS24-02158,Kaduna,Kauru,EN07,2024-10-15,rice_paddy,18,bag,0.70,ha
+HS24-02159,Kaduna,Kachia,EN01,2024-10-14,sorghum,1325,t,1.27,Ha
+HS24-02160,Niger,Mokwa,EN11,2024-12-16,rice_paddy,2050,kg,8100,square metres
+HS24-02161,Benue,Makurdi,EN03,2024-12-13,maize,9½,bag,1.5,acre
+HS24-02162,Kaduna,Zaria,EN16,2024-11-01,maize,"1,890",MT,2.2,acres
+HS24-02163,Benue,Gboko,EN06,2024-12-05,sorghum,21,bag,3.2,acre
+HS24-02164,Benue,Makurdi,EN03,2024-10-16,maize,109,kwano,3.2,acre
+HS24-02165,Benue,Katsina-Ala,EN03,2024-12-05,maize,1670,kilo,2.6,ac
+HS24-02166,Niger,Shiroro,EN11,2024-10-28,maize,3,kgs,0.7,Acres
+HS24-02167,Kaduna,Kauru,EN10,2024-11-15,sorghum,"1,005",kilo,2.2,ac
+HS24-02168,Niger,Bida,EN11,2024-12-06,maize,2765,tonnes,0.77,hectares
+HS24-02169,Kaduna,Giwa,EN07,2024-11-09,sorghum,-,kg,2.09,hectares
+HS24-02170,Kaduna,Zaria,EN13,2024-10-21,sorghum,16.5,100kg bag,1.56,hectare
+HS24-02171,Kaduna,Kachia,EN10,2024-10-07,maize,17½,bag (100kg),0.57,ha
+HS24-02172,Benue,Gboko,EN09,2024-11-09,rice_paddy,53½,BAG,1.24,Ha
+HS24-02173,Kaduna,Kachia,EN01,2024-12-20,sorghum,2 1/2,bag (100kg),0.4,ac
+HS24-02174,Kaduna,Kachia,EN16,2024-11-15,sorghum,22,50kg bags,0.63,Ha
+HS24-02175,Niger,Lapai,EN14,2024-12-19,cowpea,11.5,Bags,0.61,ha
+HS24-02176,Kaduna,Zaria,EN04,2024-11-26,sorghum,29½,BASIN,3700,m²
+HS24-02177,Benue,Otukpo,EN06,2024-10-10,rice_paddy,"3,220",t,1.81,hectare
+HS24-02178,Niger,Shiroro,EN08,2024-11-12,maize,10.5,bag (100kg),0.90,HA
+HS24-02179,Niger,Mokwa,EN05,2024-11-23,maize,7.5,BAG,0.34,ha
+HS24-02180,Kaduna,Kauru,EN01,2024-12-11,cowpea,6½,50kg bags,1.2,acres
+HS24-02181,Niger,Lapai,EN11,2024-10-27,maize,100,BASIN,1.63,hectare
+HS24-02182,Kaduna,Zaria,EN13,2024-10-27,rice_paddy,0,kilogram,1.01,ha
+HS24-02183,Niger,Lapai,EN08,2024-10-12,sorghum,8,BAG,3.8,Acres
+HS24-02184,Kaduna,Kauru,EN07,2024-10-23,sorghum,6 1/2,bags,0.60,ha
+HS24-02185,Niger,Shiroro,EN11,2024-12-16,rice_paddy,2181,mudu,1.01,ha
+HS24-02186,Niger,Shiroro,EN05,2024-12-15,maize,1405,tons,2.7,acre
+HS24-02187,Niger,Shiroro,EN11,2024-10-21,maize,99½,Basin,1.78,HA
+HS24-02188,Benue,Otukpo,EN09,2024-10-13,sorghum,243,mudu,1.2,Acres
+HS24-02189,Benue,Otukpo,EN06,2024-11-10,maize,25.5,100 kg bag,2.8,acres
+HS24-02190,Benue,Katsina-Ala,EN12,2024-10-11,cowpea,15,50 kg bag,2.4,acres
+HS24-02191,Benue,Katsina-Ala,EN06,2024-11-20,maize,  ,half bag,0.81,ha
+HS24-02192,Benue,Makurdi,EN12,2024-10-06,maize,6.5,big bag,"2,900",m²
+HS24-02193,Benue,Katsina-Ala,EN12,2024-11-21,rice_paddy,0,basins,6.1,ac
+HS24-02194,Benue,Katsina-Ala,EN09,2024-12-10,rice_paddy,41.5,BASIN,0.61,ha
+HS24-02195,Kaduna,Zaria,EN13,2024-11-10,maize,12,100kg bag,1.6,acres
+HS24-02196,Niger,Mokwa,EN11,2024-11-16,rice_paddy,13,kgs,0.6,acre
+HS24-02197,Benue,Otukpo,EN12,2024-12-10,cowpea,315,Kilograms,0.38,Ha
+HS24-02198,Kaduna,Zaria,EN10,2024-10-03,rice_paddy,11.5,50kg bags,0.6,ac
+HS24-02199,Niger,Shiroro,EN08,2024-11-11,maize,23,bag,2.9,acre
+HS24-02200,Niger,Mokwa,EN08,2024-12-10,rice_paddy,16.5,bag,0.9,acres
+HS24-02201,Niger,Lapai,EN08,2024-12-20,maize,8,big bag,0.58,ha
+HS24-02202,Niger,Shiroro,EN08,2024-10-08,maize,42,kwano,0.42,HA
+HS24-02203,Kaduna,Giwa,EN04,2024-11-11,maize,155,kilogram,0.4,acres
+HS24-02204,Benue,Gboko,EN15,2024-12-13,cowpea,20½,50kg bag,2.04,ha
+HS24-02205,Niger,Lapai,EN08,2024-12-17,maize,18,100 kg bag,0.46,ha
+HS24-02206,Benue,Katsina-Ala,EN12,2024-10-02,maize,12.5,bag,0.52,hectares
+HS24-02207,Kaduna,Zaria,EN01,2024-12-19,maize,46 1/2,basin,1.9,acres
+HS24-02208,Kaduna,Kauru,EN16,2024-10-07,sorghum,72,kwano,0.63,ha
+HS24-02209,Benue,Otukpo,EN03,2024-12-03,maize,2290,kilo,0.59,hectares
+HS24-02210,Kaduna,Kachia,EN04,2024-10-16,sorghum,5.5,bag,0.60,hectares
+HS24-02211,Niger,Bida,EN05,2024-10-08,cowpea,"1,170",kg,2.00,ha
+HS24-02212,Benue,Otukpo,EN06,2024-10-20,maize,28,bag (100kg),2.65,HA
+HS24-02213,Niger,Bida,EN02,2024-11-08,rice_paddy,31.5,BAG,2.9,ac
+HS24-02214,Niger,Bida,EN02,2024-12-07,maize,8,Bags,1.3,acres
+HS24-02215,Kaduna,Giwa,EN04,2024-11-14,sorghum,145,kwano,22300,sq m
+HS24-02216,Benue,Otukpo,EN12,2024-12-11,rice_paddy,66,100 kg bag,2.31,ha
+HS24-02217,Kaduna,Giwa,EN07,2024-12-07,sorghum,90,kwano,1.90,ha
+HS24-02218,Niger,Lapai,EN14,2024-11-08,rice_paddy,30,bag (50kg),1.02,hectare
+HS24-02219,Benue,Makurdi,EN09,2024-12-11,maize,37 1/2,50kg bag,0.44,hectare
+HS24-02220,Niger,Lapai,EN14,2024-10-10,maize,24.5,bag,1.49,hectare
+HS24-02221,Kaduna,Kachia,EN04,2024-11-06,cowpea,216,mudus,0.36,hectares
+HS24-02222,Kaduna,Kauru,EN13,2024-10-11,maize,29,50 kg bag,1.7,ac
+HS24-02223,Benue,Gboko,EN15,2024-10-07,maize,157,BASIN,1.10,hectare
+HS24-02224,Niger,Mokwa,EN02,2024-10-23,maize,920,kgs,0.67,hectare
+HS24-02225,Benue,Gboko,EN03,2024-11-26,rice_paddy,41½,Basin,0.9,acre
+HS24-02226,Niger,Shiroro,EN02,2024-12-03,maize,16,heap,1.17,ha
+HS24-02227,Kaduna,Kauru,EN07,2024-12-01,maize,0,big bag,1.12,Ha
+HS24-02228,Kaduna,Giwa,EN04,2024-12-08,maize,29½,bags,4.4,Acres
+HS24-02229,Kaduna,Kachia,EN10,2024-10-15,maize,5,bag,0.41,hectares
+HS24-02230,Kaduna,Zaria,EN13,2024-10-20,maize,4,jerrycan,"4,600",square metres
+HS24-02231,Niger,Mokwa,EN08,2024-10-12,sorghum,103,Basin,4.2,acres
+HS24-02232,Kaduna,Giwa,EN13,2024-11-15,maize,14.5,big bag,0.55,HA
+HS24-02233,Kaduna,Kachia,EN16,2024-10-13,maize,55,basin,"21,000",sq m
+HS24-02234,Niger,Bida,EN11,2024-12-09,sorghum,5,Kg,1.3,acre
+HS24-02235,Kaduna,Zaria,EN07,2024-11-01,cowpea,4,Bags,0.75,Ha
+HS24-02236,Niger,Shiroro,EN08,2024-11-12,maize,64,kwano,1.8,acre
+HS24-02237,Kaduna,Kauru,EN10,2024-10-22,rice_paddy,49 1/2,bag (100kg),1.91,hectare
+HS24-02238,Kaduna,Giwa,EN10,2024-11-23,rice_paddy,549,Paint Bucket,0.73,ha
+HS24-02239,Benue,Otukpo,EN03,2024-11-03,maize,18 1/2,kwano,0.31,HA
+HS24-02240,Niger,Bida,EN02,2024-11-24,maize,67,Basin,0.99,ha
+HS24-02241,Niger,Shiroro,EN08,2024-10-07,maize,179,mudu,"3,300",sq m
+HS24-02242,Kaduna,Zaria,EN07,2024-11-02,rice_paddy,25.5,small bag,0.48,Ha
+HS24-02243,Benue,Makurdi,EN15,2024-11-21,maize,52,100 kg bag,1.10,ha
+HS24-02244,Niger,Shiroro,EN02,2024-10-16,sorghum,7.5,Bags,1.5,acre
+HS24-02245,Niger,Bida,EN14,2024-12-01,sorghum,6,bag,0.54,ha
+HS24-02246,Niger,Lapai,EN05,2024-11-13,maize,33,100 kg bag,1.3,Acres
+HS24-02247,Kaduna,Giwa,EN10,2024-12-04,maize,7,50 kg bag,0.26,ha
+HS24-02248,Niger,Bida,EN05,2024-10-22,sorghum,58½,bag,1.63,HA
+HS24-02249,Kaduna,Kachia,EN04,2024-12-12,maize,4,bag (100kg),  ,
+HS24-02250,Kaduna,Giwa,EN07,2024-10-06,rice_paddy,60,half bag,0.66,HA
+HS24-02251,Benue,Makurdi,EN15,2024-12-09,cowpea,8½,BAG,2.0,ac
+HS24-02252,Niger,Lapai,EN02,2024-12-16,maize,10,Bags,0.52,ha
+HS24-02253,Niger,Bida,EN08,2024-10-21,sorghum,6.5,100 kg bag,2.1,ac
+HS24-02254,Niger,Bida,EN02,2024-11-20,cowpea,6,100kg bag,0.68,hectares
+HS24-02255,Kaduna,Kachia,EN04,2024-12-03,maize,"1,635",kilos,3.4,Acres
+HS24-02256,Benue,Otukpo,EN12,2024-10-28,rice_paddy,52,bag (100kg),1.93,hectares
+HS24-02257,Benue,Katsina-Ala,EN06,2024-10-02,sorghum,9.5,bag,0.68,Ha
+HS24-02258,Niger,Shiroro,EN02,2024-10-23,maize,103.5,kwano,2.5,acres
+HS24-02259,Kaduna,Zaria,EN16,2024-12-01,maize,23 1/2,100 kg bag,6000,sq m
+HS24-02260,Benue,Gboko,EN12,2024-12-19,maize,40,small bag,1.6,Acres
+HS24-02261,Kaduna,Giwa,EN01,2024-12-12,maize,12,bag,0.77,Ha
+HS24-02262,Niger,Mokwa,EN14,2024-10-15,cowpea,5 1/2,Bags,2.6,ac
+HS24-02263,Kaduna,Kauru,EN01,2024-10-27,rice_paddy,28,half bag,0.66,Ha
+HS24-02264,Kaduna,Kachia,EN13,2024-11-19,rice_paddy,71,Basin,0.70,hectares
+HS24-02265,Kaduna,Giwa,EN13,2024-11-23,sorghum,21.5,bag,3.3,acres
+HS24-02266,Benue,Otukpo,EN03,2024-12-01,maize,116,BASIN,2.3,ac
+HS24-02267,Kaduna,Zaria,EN13,2024-10-17,rice_paddy,558,Paint Bucket,0.63,hectare
+HS24-02268,Kaduna,Kachia,EN13,2024-12-15,sorghum,9,bag (50kg),0.46,hectares
+HS24-02269,Kaduna,Zaria,EN10,2024-10-09,maize,755,tons,6700,m²
+HS24-02270,Benue,Katsina-Ala,EN03,2024-10-16,sorghum,8,jerrycan,13700,m²
+HS24-02271,Niger,Mokwa,EN02,2024-11-16,sorghum,1620,Kilograms,0.78,hectare
+HS24-02272,Kaduna,Kachia,EN04,2024-12-15,rice_paddy,74,BASIN,0.58,ha
+HS24-02273,Kaduna,Kachia,EN04,2024-12-05,rice_paddy,9,bag (100kg),1.6,acre
+HS24-02274,Niger,Shiroro,EN14,2024-10-14,cowpea,27,50kg bag,-,HA
+HS24-02275,Kaduna,Kauru,EN07,2024-11-27,maize,3.5,bag,0.17,ha
+HS24-02276,Kaduna,Zaria,EN16,2024-11-26,maize,54½,basins,0.41,hectare
+HS24-02277,Niger,Mokwa,EN11,2024-10-07,rice_paddy,46.5,kg,1.19,ha
+HS24-02278,Kaduna,Kachia,EN01,2024-12-10,maize,47,BASIN,1.03,hectare
+HS24-02279,Kaduna,Zaria,EN01,2024-11-19,cowpea,445,kilogram,2.14,Ha
+HS24-02280,Niger,Lapai,EN11,2024-11-09,maize,223,Mudu,1.2,ac
+HS24-02281,Benue,Gboko,EN12,2024-12-07,sorghum,90 1/2,BASIN,1.62,ha
+HS24-02282,Benue,Makurdi,EN09,2024-12-04,sorghum,5½,half bag,1.4,ac
+HS24-02283,Niger,Shiroro,EN08,2024-11-20,rice_paddy,0,kwano,1.01,hectares
+HS24-02284,Benue,Katsina-Ala,EN15,2024-10-07,cowpea,12.5,basin,1.1,Acres
+HS24-02285,Niger,Bida,EN08,2024-11-15,maize,28,small bag,1.2,ac
+HS24-02286,Niger,Shiroro,EN14,2024-10-24,maize,720,KG,0.50,HA
+HS24-02287,Kaduna,Zaria,EN10,2024-11-26,sorghum,6,bag,1.9,ac
+HS24-02288,Benue,Makurdi,EN12,2024-12-04,maize,5 1/2,bag,2900,square metres
+HS24-02289,Kaduna,Kauru,EN13,2024-12-05,sorghum,6,100kg bag,0.81,ha
+HS24-02290,Niger,Lapai,EN08,2024-10-04,sorghum,360,kgs,0.50,hectares
+HS24-02291,Niger,Lapai,EN11,2024-11-01,cowpea,7½,kgs,1.70,ha
+HS24-02292,Niger,Shiroro,EN14,2024-10-05,rice_paddy,42,big bag,0.96,HA
+HS24-02293,Kaduna,Giwa,EN07,2024-11-24,maize,5½,bag (100kg),1.6,Acres
+HS24-02294,Kaduna,Kachia,EN04,2024-11-26,maize,6,Bags,0.51,ha
+HS24-02295,Niger,Bida,EN14,2024-12-16,sorghum,32,Basin,0.71,ha
+HS24-02296,Kaduna,Kauru,EN01,2024-12-20,maize,110½,kwano,2.6,acres
+HS24-02297,Kaduna,Kauru,EN13,2024-11-19,maize,9.5,bag,0.37,ha
+HS24-02298,Kaduna,Zaria,EN16,2024-12-20,cowpea,3,heap,0.74,ha
+HS24-02299,Benue,Otukpo,EN09,2024-10-13,maize,0,bags,0.89,ha
+HS24-02300,Benue,Otukpo,EN03,2024-12-13,sorghum,11.5,bag,2.8,ac
+HS24-02301,Kaduna,Zaria,EN10,2024-11-16,sorghum,16,50 kg bag,2.0,ac
+HS24-02302,Niger,Bida,EN14,2024-12-06,cowpea,3,cart,8600,m²
+HS24-02303,Kaduna,Giwa,EN07,2024-10-14,maize,28.5,Basin,0.67,Ha
+HS24-02304,Niger,Shiroro,EN11,2024-10-06,rice_paddy,71,basin,1.1,acres
+HS24-02305,Benue,Makurdi,EN03,2024-11-26,sorghum,4.5,100kg bag,0.49,ha
+HS24-02306,Benue,Katsina-Ala,EN06,2024-10-08,sorghum,24½,basins,0.40,ha
+HS24-02307,Niger,Bida,EN14,2024-12-05,sorghum,N/A,modu,0.40,ha
+HS24-02308,Benue,Otukpo,EN03,2024-11-07,maize,6,bag,2.6,acres
+HS24-02309,Kaduna,Giwa,EN04,2024-12-07,rice_paddy,144 1/2,Basin,1.03,hectares
+HS24-02310,Kaduna,Kauru,EN07,2024-10-13,maize,39 1/2,bag,"23,900",square metres
+HS24-02311,Niger,Mokwa,EN02,2024-11-05,sorghum,22,bags,1.90,ha
+HS24-02312,Niger,Shiroro,EN02,2024-12-07,rice_paddy,139,Basin,2.1,Acres
+HS24-02313,Kaduna,Kauru,EN04,2024-11-25,cowpea,6½,100 kg bag,0.88,ha
+HS24-02314,Kaduna,Zaria,EN01,2024-12-03,cowpea,6,Basin,0.45,ha
+HS24-02315,Benue,Makurdi,EN12,2024-10-09,rice_paddy,161,kwano,1.26,ha
+HS24-02316,Kaduna,Kachia,EN10,2024-11-02,sorghum,18,kwano,1.5,ac
+HS24-02317,Niger,Lapai,EN11,2024-10-12,maize,21.5,kgs,"5,200",m²
+HS24-02318,Niger,Bida,EN14,2024-12-06,cowpea,1130,MT,1.16,hectare
+HS24-02319,Kaduna,Kachia,EN01,2024-10-25,cowpea,520,kgs,0.75,ha
+HS24-02320,Niger,Mokwa,EN11,2024-12-14,maize,19.5,bag,0.65,hectare
+HS24-02321,Niger,Mokwa,EN11,2024-12-14,maize,4,kg,0.27,hectare
+HS24-02322,Benue,Makurdi,EN12,2024-11-06,maize,19.5,Bags,0.93,ha
+HS24-02323,Kaduna,Kauru,EN07,2024-10-01,rice_paddy,85,Basin,2.5,acre
+HS24-02324,Kaduna,Kachia,EN16,2024-12-13,rice_paddy,78,100kg bag,3.02,hectares
+HS24-02325,Kaduna,Kachia,EN04,2024-10-20,cowpea,6.5,big bag,0.60,ha
+HS24-02326,Kaduna,Giwa,EN13,2024-12-15,rice_paddy,625,kg.,0.45,HA
+HS24-02327,Niger,Lapai,EN08,2024-10-26,cowpea,10,bags,1.04,ha
+HS24-02328,Benue,Makurdi,EN09,2024-11-19,maize,17,100kg bag,0.82,hectares
+HS24-02329,Kaduna,Giwa,EN04,2024-11-15,rice_paddy,47.5,50 kg bag,0.54,ha
+HS24-02330,Benue,Katsina-Ala,EN09,2024-11-06,rice_paddy,48.5,bags,2.3,Acres
+HS24-02331,Kaduna,Kachia,EN16,2024-11-11,maize,20,100kg bag,2.5,ac
+HS24-02332,Benue,Otukpo,EN06,2024-10-13,maize,21 1/2,Bags,1.05,HA
+HS24-02333,Niger,Shiroro,EN05,2024-11-04,maize,17½,big bag,0.76,ha
+HS24-02334,Benue,Otukpo,EN06,2024-12-14,maize,  ,bags,1.4,ac
+HS24-02335,Kaduna,Zaria,EN01,2024-12-08,cowpea,5,50kg bag,0.48,hectare
+HS24-02336,Benue,Otukpo,EN03,2024-11-04,maize,49,100kg bag,5.2,acres
+HS24-02337,Kaduna,Kauru,EN04,2024-12-14,sorghum,4,jerrycan,1.4,Acres
+HS24-02338,Benue,Makurdi,EN03,2024-12-02,maize,28.5,Basin,0.43,HA
+HS24-02339,Niger,Lapai,EN02,2024-12-12,maize,4 1/2,bag (100kg),0.42,HA
+HS24-02340,Kaduna,Zaria,EN10,2024-11-20,sorghum,6½,small bag,0.44,hectare
+HS24-02341,Benue,Otukpo,EN12,2024-10-12,rice_paddy,80,50kg bag,1.02,ha
+HS24-02342,Benue,Gboko,EN15,2024-10-08,maize,88,kwano,2.1,acre
+HS24-02343,Benue,Makurdi,EN09,2024-10-06,rice_paddy,15½,big bag,0.65,ha
+HS24-02344,Niger,Lapai,EN14,2024-10-05,sorghum,6,100kg bag,0.75,hectare
+HS24-02345,Niger,Bida,EN11,2024-12-01,cowpea,1.5,Kg,0.49,ha
+HS24-02346,Kaduna,Kauru,EN16,2024-11-18,maize,8,50kg bags,0.52,Ha
+HS24-02347,Kaduna,Zaria,EN07,2024-12-04,rice_paddy,440,paint buckets,0.68,ha
+HS24-02348,Benue,Katsina-Ala,EN12,2024-11-10,maize,9,50kg bag,0.8,ac
+HS24-02349,Kaduna,Giwa,EN13,2024-11-09,cowpea,"1,000",kgs,0.62,HA
+HS24-02350,Kaduna,Giwa,EN16,2024-10-01,maize,72,BASIN,0.68,ha
+HS24-02351,Benue,Katsina-Ala,EN09,2024-11-27,cowpea,7,bag (100kg),1.78,HA
+HS24-02352,Kaduna,Giwa,EN10,2024-11-25,maize,31½,basin,1.4,acre
+HS24-02353,Niger,Shiroro,EN08,2024-11-02,rice_paddy,89½,Basin,0.38,ha
+HS24-02354,Niger,Mokwa,EN02,2024-11-26,maize,10.5,big bag,0.77,Ha
+HS24-02355,Kaduna,Zaria,EN16,2024-12-12,maize,46.5,100kg bag,"32,700",m²
+HS24-02356,Kaduna,Giwa,EN16,2024-10-22,cowpea,6.5,bag (100kg),1.25,hectares
+HS24-02357,Benue,Otukpo,EN09,2024-12-12,maize,27½,100kg bag,  ,
+HS24-02358,Niger,Shiroro,EN02,2024-11-12,sorghum,27½,BASIN,1.3,ac
+HS24-02359,Kaduna,Kauru,EN04,2024-12-01,maize,49½,BAG,3.9,ac
+HS24-02360,Kaduna,Kachia,EN01,2024-12-18,maize,18,BAG,1.01,hectare
+HS24-02361,Benue,Makurdi,EN12,2024-10-27,cowpea,10,bag,nil,
+HS24-02362,Kaduna,Kachia,EN16,2024-11-25,sorghum,48.5,kwano,0.61,ha
+HS24-02363,Benue,Gboko,EN09,2024-12-02,maize,8.5,big bag,0.40,hectares
+HS24-02364,Niger,Mokwa,EN14,2024-11-27,maize,0,BASIN,0.7,acres
+HS24-02365,Niger,Mokwa,EN05,2024-11-20,sorghum,835,Kilograms,0.68,ha
+HS24-02366,Benue,Gboko,EN06,2024-10-19,maize,32 1/2,bags,2.1,acre
+HS24-02367,Benue,Gboko,EN06,2024-10-02,maize,7 1/2,Bags,0.46,ha
+HS24-02368,Benue,Makurdi,EN06,2024-10-24,sorghum,2.5,Bags,0.8,ac
+HS24-02369,Niger,Lapai,EN14,2024-10-26,cowpea,710,kilogram,3.7,Acres
+HS24-02370,Niger,Lapai,EN02,2024-11-11,rice_paddy,107½,small bag,3.4,Acres
+HS24-02371,Niger,Lapai,EN08,2024-12-19,cowpea,420,kilos,3.8,ac
+HS24-02372,Kaduna,Kauru,EN16,2024-11-02,maize,19½,Basin,0.29,ha
+HS24-02373,Benue,Gboko,EN03,2024-12-06,maize,7.5,bag (100kg),0.77,hectare
+HS24-02374,Kaduna,Kachia,EN16,2024-12-13,maize,6.5,100kg bag,0.56,ha
+HS24-02375,Benue,Otukpo,EN12,2024-12-06,cowpea,320,Kilograms,1.6,Acres
+HS24-02376,Niger,Bida,EN14,2024-12-12,maize,15,half bag,"8,500",sq m
+HS24-02377,Kaduna,Giwa,EN04,2024-11-12,cowpea,15.5,bag,1.32,HA
+HS24-02378,Benue,Otukpo,EN03,2024-10-06,maize,45,BAG,1.60,HA
+HS24-02379,Kaduna,Kauru,EN07,2024-11-26,cowpea,8,half bag,0.65,Ha
+HS24-02380,Niger,Bida,EN05,2024-11-27,maize,5½,bag,0.27,ha
+HS24-02381,Benue,Otukpo,EN12,2024-10-05,rice_paddy,132.5,basins,1.41,ha
+HS24-02382,Kaduna,Kauru,EN10,2024-11-28,sorghum,38,BAG,3.8,ac
+HS24-02383,Benue,Katsina-Ala,EN09,2024-12-01,rice_paddy,1.83,tons,N/A,Acres
+HS24-02384,Kaduna,Kachia,EN01,2024-10-02,maize,47,50 kg bag,1.52,HA
+HS24-02385,Kaduna,Zaria,EN16,2024-12-05,maize,27.5,bag,2.4,Acres
+HS24-02386,Kaduna,Zaria,EN04,2024-12-08,maize,507.5,100 kg bag,34.22,ha
+HS24-02387,Benue,Gboko,EN06,2024-11-21,sorghum,7,bag,0.52,ha
+HS24-02388,Niger,Shiroro,EN14,2024-12-04,sorghum,10,100kg bag,3.2,acre
+HS24-02389,Niger,Lapai,EN02,2024-12-10,sorghum,84.5,kwano,1.40,ha
+HS24-02390,Niger,Lapai,EN02,2024-10-23,maize,29,bag (100kg),1.16,hectare
+HS24-02391,Kaduna,Zaria,EN10,2024-11-01,sorghum,16½,basins,0.42,hectares
+HS24-02392,Niger,Bida,EN08,2024-12-04,rice_paddy,23½,bag (100kg),5900,m²
+HS24-02393,Niger,Mokwa,EN02,2024-10-23,sorghum,8,Bags,0.81,ha
+HS24-02394,Kaduna,Kauru,EN04,2024-11-11,maize,20 1/2,100 kg bag,"6,700",m²
+HS24-02395,Kaduna,Giwa,EN16,2024-11-27,rice_paddy,652,Paint Bucket,0.94,ha
+HS24-02396,Benue,Otukpo,EN03,2024-11-13,sorghum,19,BAG,0.76,HA
+HS24-02397,Niger,Shiroro,EN14,2024-10-13,maize,"1,330",kilos,7200,sq m
+HS24-02398,Niger,Lapai,EN08,2024-12-09,sorghum,6,bags,0.21,ha
+HS24-02399,Benue,Katsina-Ala,EN03,2024-12-09,cowpea,4 1/2,Bags,0.39,hectare
+HS24-02400,Kaduna,Kauru,EN07,2024-12-17,rice_paddy,80,50kg bag,0.73,hectare

@@ -1,0 +1,57 @@
+id: DS-T3-003
+title: "The Garden of Forking Paths: A Multiverse Study of Cleaning Choices"
+summary: >-
+  Specify the space of defensible cleaning and analysis choices for a messy three-round panel
+  evaluating solar mini-grids' effect on village enterprise revenue, run every universe
+  reproducibly, attribute variation to decisions, and report how robust the conclusion is.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-03
+format: open-ended
+secondary_formats: [investigation]
+domains: [energy, rural-electrification, programme-evaluation, small-business]
+technologies: [python, pandas, numpy, scipy, pyyaml, pytest, matplotlib]
+prerequisites:
+  knowledge:
+    - Fixed-effects and difference-in-differences regression
+    - Clustered standard errors
+    - Data cleaning at DS-T1/T2 level
+    - Reading methods papers
+  recommended_assessments: [DS-T2-005]
+competencies:
+  - Specifying estimands and recognising estimand-changing decisions
+  - Building and defending an explicit decision space
+  - Reproducible multiverse and specification-curve analysis
+  - Attributing variation in results to analytic decisions
+  - Robustness inference and ablation
+  - Threats-to-validity reasoning for analyses and for the multiverse itself
+  - Honest communication of fragile findings
+estimated_hours: {min: 35, max: 60}
+difficulty: {technical: 3, mathematical: 4, research: 4, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [multiverse-analysis, specification-curve, research-integrity, data-cleaning, energy, evaluation]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

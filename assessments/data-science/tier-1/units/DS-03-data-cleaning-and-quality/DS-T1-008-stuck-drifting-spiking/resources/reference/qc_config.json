@@ -1,0 +1,9 @@
+{
+  "expected_interval_s": 300,
+  "range": {"pm25": [0, 1000], "temp_c": [-10, 60], "rh_pct": [0, 100]},
+  "stuck_min_run": {"pm25": 12, "temp_c": 24, "rh_pct": 24},
+  "spike": {"half_window": 3, "k": 4.0, "min_abs": {"pm25": 25.0, "temp_c": 3.0, "rh_pct": 10.0}},
+  "humidity_suspect_rh": 85,
+  "clock": {"future_tolerance_s": 300, "drift_correct_min_s_per_day": 5.0, "offset_correct_min_s": 60.0},
+  "hourly_min_coverage": 0.75
+}

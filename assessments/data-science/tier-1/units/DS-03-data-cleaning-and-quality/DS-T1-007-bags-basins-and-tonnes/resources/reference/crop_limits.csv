@@ -1,0 +1,5 @@
+crop,max_plausible_kg_ha,note
+maize,12000,ceiling set well above high-input on-station yields reported for the Nigerian savanna; smallholder yields are typically far lower
+sorghum,8000,ceiling set well above improved-variety on-station yields
+cowpea,4000,ceiling set well above improved-variety on-station grain yields
+rice_paddy,10000,ceiling set well above irrigated lowland paddy yields

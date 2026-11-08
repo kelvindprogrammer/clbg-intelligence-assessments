@@ -1,0 +1,6 @@
+device_id,site,deployed_on,sensor_model
+LAG-01,Ikeja (roadside),2026-02-23,generic laser-scattering PM sensor + digital T/RH sensor
+LAG-02,Yaba (school roof),2026-02-23,generic laser-scattering PM sensor + digital T/RH sensor
+LAG-03,Apapa (port road),2026-02-23,generic laser-scattering PM sensor + digital T/RH sensor
+LAG-04,Lekki (residential),2026-02-23,generic laser-scattering PM sensor + digital T/RH sensor
+LAG-05,Agege (market),2026-02-23,generic laser-scattering PM sensor + digital T/RH sensor

@@ -1,0 +1,58 @@
+id: DS-T2-006
+title: "The Feed That Breaks: A Data Contract and Validation Framework for a Partner Feed"
+summary: >-
+  Design a data contract and a contract-driven validation framework for daily agent-banking
+  deliveries from a partner: schema, semantic, freshness, volume and distribution checks,
+  row and delivery quarantine, calendar-aware baselines and alerting, judged on unseen sequences.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-03
+format: system-design
+secondary_formats: [implementation]
+domains: [fintech, mobile-money, agent-banking, data-engineering]
+technologies: [python, pandas, pyyaml, pytest]
+prerequisites:
+  knowledge:
+    - Solid pandas
+    - Python packaging and pytest fixtures
+    - YAML or JSON configuration
+    - Medians, ratios and simple baselines
+  recommended_assessments: [DS-T1-008]
+competencies:
+  - Writing data contracts with owners, severities and justified thresholds
+  - Contract-driven schema and semantic validation
+  - Freshness, duplicate-delivery and manifest checks
+  - Calendar-aware volume and distribution baselines learned from trusted data
+  - Row-level versus delivery-level quarantine
+  - Alert severity and routing design
+  - Fault-injection testing
+  - Security and operational design for untrusted partner input
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 4, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [data-contracts, data-quality, validation, quarantine, fintech, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

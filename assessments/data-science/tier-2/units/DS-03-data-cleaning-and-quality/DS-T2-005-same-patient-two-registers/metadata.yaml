@@ -1,0 +1,58 @@
+id: DS-T2-005
+title: "Same Patient, Two Registers: Probabilistic vs Deterministic Record Linkage"
+summary: >-
+  Link a primary health centre register to a general hospital register with no shared ID.
+  Build a deterministic baseline and a Fellegi-Sunter linker with blocking, compare them on the
+  precision-recall trade-off using a clerical sample, and recommend an operating point.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-03
+format: comparative
+secondary_formats: [implementation]
+domains: [health, public-sector-records, health-information-systems]
+technologies: [python, pandas, numpy, pytest]
+prerequisites:
+  knowledge:
+    - pandas merges and groupby
+    - Conditional probability, likelihood ratios and logarithms
+    - Precision, recall and F1
+    - String similarity concepts (edit distance, Jaro-Winkler)
+  recommended_assessments: [DS-T1-006]
+competencies:
+  - Standardising heterogeneous registers for linkage
+  - Blocking design measured by pair completeness and reduction ratio
+  - Fellegi-Sunter comparison vectors, m/u probabilities and match weights
+  - Parameter estimation by EM and from a clerical sample
+  - Threshold and clerical-review band selection
+  - Fair comparison against a deterministic baseline with uncertainty
+  - Linkage error analysis
+  - Privacy safeguards for health-data linkage
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 3, mathematical: 3, research: 3, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [record-linkage, fellegi-sunter, entity-resolution, health, ndpa, kaduna]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

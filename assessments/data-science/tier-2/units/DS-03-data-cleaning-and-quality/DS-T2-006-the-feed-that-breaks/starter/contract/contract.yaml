@@ -1,0 +1,10 @@
+# Data contract for the super-agent transaction feed.
+#
+# This file is YOURS to design (README R1). The partner's interface document fixes only the
+# section below. Add semantic rules, delivery-level rules, freshness, volume and distribution
+# expectations, each with an owner and a severity, in whatever structure your validator reads.
+version: 1
+schema:
+  columns: [txn_id, agent_id, txn_time, txn_type, amount_ngn, fee_ngn, status, terminal_id, state]
+  delimiter: ","
+  encoding: utf-8

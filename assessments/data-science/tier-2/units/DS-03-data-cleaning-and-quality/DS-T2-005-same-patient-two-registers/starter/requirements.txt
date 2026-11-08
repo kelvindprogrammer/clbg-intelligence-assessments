@@ -1,0 +1,4 @@
+pandas>=2.0
+numpy>=1.26
+pytest>=7.4
+# optional: rapidfuzz, jellyfish, recordlinkage, splink (list what you use)

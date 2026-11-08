@@ -1,0 +1,19 @@
+# FORMAT EXAMPLE ONLY. Copy to multiverse/spec.yaml and replace with your own decision space.
+# The decision names, options and exclusions below are illustrative, not a recommendation.
+estimand: >-
+  One or two sentences: the population, the outcome, the contrast and the time point your
+  estimate refers to.
+model: >-
+  One sentence: the estimator applied in every universe.
+decisions:
+  example_decision_a:
+    options: [option_1, option_2]
+    rationale: Why each option is defensible, with a source or an argument.
+  example_decision_b:
+    options: [option_x, option_y, option_z]
+    rationale: Why each option is defensible.
+exclusions:            # combinations that are NOT defensible (each is a partial assignment)
+  - {example_decision_a: option_1, example_decision_b: option_z}
+default:               # the single analysis you would have run without a multiverse
+  example_decision_a: option_2
+  example_decision_b: option_x

@@ -1,0 +1,57 @@
+id: DS-T1-007
+title: "Bags, Basins and Tonnes: Harmonising a Smallholder Harvest Survey"
+summary: >-
+  Convert a smallholder harvest survey recorded in bags, basins, mudus and tonnes to kilograms
+  with crop-specific factors and uncertainty bounds, flag implausible yields with robust rules,
+  and investigate how much each cleaning decision changes the production total.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-03
+format: investigation
+secondary_formats: [implementation]
+domains: [agriculture, food-security, survey-data]
+technologies: [python, pandas, numpy, pytest]
+prerequisites:
+  knowledge:
+    - Python functions, modules and packages
+    - pandas groupby, merge and value_counts
+    - Medians, quartiles and logarithms
+    - Running pytest
+  recommended_assessments: [DS-T1-006]
+competencies:
+  - Unit-of-measure harmonisation with auditable mappings
+  - Conversion with crop-specific factors and uncertainty bounds
+  - Robust outlier rules (MAD modified z-score, Tukey IQR) on an appropriate scale
+  - Domain-limit plausibility checks
+  - Separating implausible values from unusual but genuine ones
+  - Quantifying the sensitivity of totals to cleaning decisions
+  - Investigating the source of systematic data-collection errors
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [data-quality, units-of-measure, outliers, robust-statistics, agriculture, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

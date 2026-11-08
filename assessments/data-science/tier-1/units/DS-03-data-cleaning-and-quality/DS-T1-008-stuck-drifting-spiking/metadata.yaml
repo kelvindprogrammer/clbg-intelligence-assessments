@@ -1,0 +1,58 @@
+id: DS-T1-008
+title: "Stuck, Drifting, Spiking: Validation Rules for a Low-Cost Air-Quality Network"
+summary: >-
+  Implement exactly specified validation rules for five low-cost PM2.5/temperature/humidity
+  monitors in Lagos: range, stuck-value and Hampel spike checks, robust clock-drift estimation,
+  gap detection, a bitmask quality-flag scheme and completeness-aware hourly means.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-03
+format: implementation
+secondary_formats: [debugging-forensics]
+domains: [environment, air-quality, iot-sensors, climate]
+technologies: [python, pandas, numpy, scipy, pytest]
+prerequisites:
+  knowledge:
+    - pandas time series (to_datetime, sorting, groupby)
+    - NumPy arrays
+    - Median and median absolute deviation
+    - Bitwise operators
+    - Running pytest
+  recommended_assessments: [DS-T1-006]
+competencies:
+  - Implementing time-series validation rules exactly to specification
+  - Robust spike detection with the Hampel rule
+  - Run-length detection of stuck sensors
+  - Robust clock offset and drift estimation (Theil-Sen)
+  - Distinguishing late uploads from clock faults
+  - Designing and applying a bitmask quality-flag scheme
+  - Completeness rules for aggregated data
+estimated_hours: {min: 12, max: 18}
+difficulty: {technical: 3, mathematical: 2, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [data-quality, sensors, time-series, validation, air-quality, lagos]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
