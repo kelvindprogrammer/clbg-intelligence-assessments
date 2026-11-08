@@ -244,7 +244,7 @@ See [assessment integrity](../../../../../../docs/assessment-integrity.md).
 | **Why it's interesting** | The answer depends on the regime. The bootstrap works well for the median but disappoints for a skewed mean at small n; Wald is fine at n = 160 but useless at n = 10 with a rare event. The manager's suspicion turns out to be justified, and quantifiable. |
 | **Evidence of competence** | Exact agreement with `scipy` on closed forms; agreement within Monte Carlo error on bootstrap endpoints; reproducible coverage tables; a defensible recommendation table; live computation at defence. |
 | **Misconceptions exposed** | "A 95% interval contains the truth 95% of the time, whatever the data." "The bootstrap fixes small samples." "0 events means a rate of 0." "Coverage 0.93 versus 0.94 is a real difference." "Interval failures are symmetric." |
-| **Preparation for later work** | DS-T2 shrinkage and small-area estimation, DS-08 A/B testing and power, simulation-based calibration in DS-T3-007, and evaluating ML metrics with bootstrap intervals. |
+| **Preparation for later work** | DS-T2 shrinkage and small-area estimation, DS-08 A/B testing and power, simulation-based calibration in DS-T3-008, and evaluating ML metrics with bootstrap intervals. |
 
 **Suggested approach** (optional):
 

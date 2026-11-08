@@ -250,7 +250,7 @@ See [assessment integrity](../../../../../../docs/assessment-integrity.md).
 | **Why it's interesting** | The data reveal a confounder, size against type, that makes the textbook grand-mean estimator biased in opposite directions for two groups of schools, and the "right" bottom-20 list depends on what the intervention is for. |
 | **Evidence of competence** | Hidden-truth MSE and calibration on three states; derivations reproduced live; a coherent evaluation design; an honest brief. |
 | **Misconceptions exposed** | "The top of a league table is the best schools." "Shrinkage is always towards the overall mean." "Held-out MSE differences directly measure estimator quality." "A Bayesian interval is automatically calibrated." "Ranking by posterior mean answers every selection question." |
-| **Preparation for later work** | Hierarchical models and MCMC (DS-T3-007, DS-T3-008), multilevel regression in causal inference, recommender-system cold start, and small-area estimation in official statistics. |
+| **Preparation for later work** | Hierarchical models and MCMC (DS-T3-008), multilevel regression in causal inference, recommender-system cold start, and small-area estimation in official statistics. |
 
 **Suggested approach** (optional): explore first (R3), above all a funnel plot coloured by school type. Then implement the common-prior estimator and test it on simulated data with known hyperparameters. Build the evaluation harness *before* trying improvements, so that every change is measured.
 

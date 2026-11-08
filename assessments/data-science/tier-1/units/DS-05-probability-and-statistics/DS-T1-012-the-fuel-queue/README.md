@@ -256,7 +256,7 @@ See [assessment integrity](../../../../../../docs/assessment-integrity.md).
 | **Why it's interesting** | A trusted formula gives a confidently wrong answer for a reason the data shows, and the "obvious" demand estimate is biased by the very congestion being studied. |
 | **Evidence of competence** | Exact agreement with independent recursions; validation intervals that cover theory; the correct decision on re-generated logs at other demand levels; derivations reproduced live. |
 | **Misconceptions exposed** | "Simulation output is i.i.d." "Served customers are the demand." "A finite simulated average wait means the system is stable." "If the mean is right, the model is right." "More replications remove all uncertainty." |
-| **Preparation for later work** | DS-T2 work on uncertainty and decision analysis, MCMC output analysis (ESS and autocorrelation reappear in DS-T3-007), capacity planning in ML serving systems, and A/B testing, where correlated observations break naive intervals. |
+| **Preparation for later work** | DS-T2 work on uncertainty and decision analysis, MCMC output analysis (ESS and autocorrelation reappear in later Tier 3 work), capacity planning in ML serving systems, and A/B testing, where correlated observations break naive intervals. |
 
 **Suggested approach**, if you want guidance (you may ignore it):
 
