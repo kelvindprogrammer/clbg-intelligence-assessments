@@ -1,0 +1,55 @@
+id: DS-T1-013
+title: "How Sure Are We? Bootstrap and Analytical Intervals Under a Coverage Experiment"
+summary: >-
+  Implement t, Wald, Wilson, exact and bootstrap (percentile, basic, BCa) intervals from scratch,
+  test their 95% promise with a Monte Carlo coverage experiment, and report honest intervals
+  for a skewed, rare-event survey of POS and mobile-money agents.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-05
+format: comparative
+secondary_formats: [implementation]
+domains: [fintech, mobile-money, survey-statistics]
+technologies: [python, numpy, scipy, pandas, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - Sampling distribution of the mean and the central limit theorem
+    - Normal and t quantiles
+    - NumPy broadcasting and numpy.random.Generator
+    - Running pytest
+  recommended_assessments: []
+competencies:
+  - Implementing and deriving analytical intervals for means and proportions
+  - Implementing the nonparametric bootstrap and the jackknife from scratch
+  - Designing Monte Carlo coverage experiments with their own error bars
+  - Comparing interval methods across regimes and choosing one with evidence
+  - Communicating uncertainty to a non-specialist decision-maker
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 2, mathematical: 3, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/generate_survey.py
+ci:
+  contract_tests: true
+  heavy: false
+tags: [bootstrap, confidence-intervals, coverage, monte-carlo, survey, fintech, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

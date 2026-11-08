@@ -1,0 +1,56 @@
+id: DS-T1-014
+title: "Collision Course: How Long Must a Booking Reference Be?"
+summary: >-
+  Derive and stably compute birthday-problem collision probabilities, verify them by simulation,
+  use two days of BRT booking references to show the generator's real code space is about 50
+  times smaller than designed, and recommend a reference length and design.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-05
+format: investigation
+secondary_formats: [implementation]
+domains: [transport, digital-ticketing, security]
+technologies: [python, numpy, scipy, pandas, pytest]
+prerequisites:
+  knowledge:
+    - Basic combinatorics and products of probabilities
+    - The Poisson distribution
+    - Logarithms and floating-point basics
+    - Python, NumPy and pytest
+  recommended_assessments: []
+competencies:
+  - Deriving collision probabilities with indicator variables and linearity of expectation
+  - Numerically stable computation of tiny probabilities
+  - Verifying probability formulas by Monte Carlo with stated tolerances
+  - Estimating a hidden population size from coincidences with an exact Poisson interval
+  - Designing tests for excess coincidences against a stated design
+  - Turning collision and guessing risks into an identifier-design requirement
+estimated_hours: {min: 8, max: 14}
+difficulty: {technical: 2, mathematical: 3, research: 1, engineering: 2, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [birthday-problem, collisions, identifiers, poisson, security, brt, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

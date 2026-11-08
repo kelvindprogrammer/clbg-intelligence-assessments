@@ -1,0 +1,57 @@
+id: DS-T1-012
+title: "The Fuel Queue: Simulating a Filling Station During Scarcity"
+summary: >-
+  Derive the M/M/c results, build and validate a queue simulator, estimate demand from a
+  filling-station log with balking, and decide how many pumps to staff when the exponential
+  textbook model is quietly optimistic.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-05
+format: implementation
+secondary_formats: [investigation]
+domains: [energy, transport, operations]
+technologies: [python, numpy, scipy, pandas, pytest]
+prerequisites:
+  knowledge:
+    - Python functions, modules and dataclasses
+    - NumPy arrays and numpy.random.Generator
+    - Exponential and Poisson distributions
+    - Confidence intervals at introductory level
+    - Running pytest
+  recommended_assessments: []
+competencies:
+  - Deriving M/M/c steady-state results from birth-death balance equations
+  - Implementing and verifying a discrete-event FCFS multi-server simulation
+  - Validating a simulator against analytical results
+  - Output analysis for autocorrelated simulation series (warm-up, batch means)
+  - Input modelling from operational logs, including censored demand (balking)
+  - Separating simulation uncertainty from input uncertainty in a decision
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 2, mathematical: 3, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [queueing, monte-carlo, erlang-c, simulation, fuel-scarcity, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

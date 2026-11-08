@@ -1,0 +1,56 @@
+id: DS-T2-009
+title: "Small Schools, Big Swings: Empirical Bayes for School Pass Rates"
+summary: >-
+  Build and compare shrinkage estimators of 600 schools' pass rates when cohorts range from 2
+  to 250, design an evaluation against noisy held-out data, and choose award and intervention
+  lists that reward excellence rather than luck.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-05
+format: comparative
+secondary_formats: [implementation]
+domains: [education, public-sector, small-area-estimation]
+technologies: [python, numpy, scipy, pandas, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - Binomial and beta distributions
+    - Maximum likelihood estimation
+    - Conjugate Bayesian updating
+    - pandas group-by and merges
+  recommended_assessments: [DS-T1-013]
+competencies:
+  - Formulating hierarchical models for many small binomial units
+  - Empirical Bayes estimation by marginal likelihood
+  - Covariate-informed priors and diagnosing prior misspecification
+  - Designing fair evaluations against latent targets and noisy held-out data
+  - Ranking and selection under uncertainty
+  - Communicating shrinkage and regression to the mean to decision-makers
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 3, mathematical: 4, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [empirical-bayes, shrinkage, small-area-estimation, ranking, education, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

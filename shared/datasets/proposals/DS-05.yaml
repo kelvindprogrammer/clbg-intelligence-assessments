@@ -1,0 +1,15 @@
+# Dataset proposals from unit DS-05 (Probability and Statistics). Reserved range DSET-140..149.
+- id: DSET-140
+  name: "NASA POWER daily point data (precipitation, PRECTOTCORR)"
+  provider: "NASA Langley Research Center, Prediction Of Worldwide Energy Resources (POWER) project"
+  url: "https://power.larc.nasa.gov/"
+  license: "Free access, no explicit licence stated. The POWER referencing page asks users to cite the POWER service reference and the data reference (with version and access date) in any work product, and to notify the project of publications (https://power.larc.nasa.gov/docs/referencing/)."
+  format: "CSV or JSON via the REST API, e.g. https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR&community=AG&longitude=7.0&latitude=4.8&start=19810101&end=20241231&format=CSV"
+  size: "About 16,000 daily values (about 0.3 MB) per point for 1981 to the present"
+  modality: tabular-time-series
+  domain: climate
+  limitations: "Gridded reanalysis (MERRA-2 based, about 0.5 x 0.625 degrees), not a rain gauge: it smooths convective extremes and typically underestimates point extremes. Missing values are coded -999. Values can be revised between POWER versions, so record the version and access date."
+  units: [DS-05]
+  verified: true
+  verified_on: 2026-11-03
+  notes: "Verified by fetching the POWER home page (describes the datasets as free), the referencing page (citation requirements; no licence text) and a live API request for PRECTOTCORR at 4.8N 7.0E, which returned CSV without registration or a key. Used as the optional real-data path in DS-T2-010."

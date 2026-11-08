@@ -1,0 +1,55 @@
+id: DS-T2-010
+title: "The 25-Year Storm: Extreme Value Analysis of Rainfall for Drainage Design"
+summary: >-
+  Estimate 25- and 100-year one-day rainfall for culvert design from a 44-year gauge record
+  with outages and clustered storms, using GEV and peaks-over-threshold models with calibrated
+  uncertainty, and decide what a weakly detectable trend means for a 40-year design life.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-05
+format: investigation
+secondary_formats: [comparative]
+domains: [climate, urban-infrastructure, hydrology]
+technologies: [python, numpy, scipy, pandas, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - Maximum likelihood estimation and likelihood-ratio tests
+    - Quantiles and the bootstrap
+    - pandas time-series handling
+  recommended_assessments: [DS-T1-013]
+competencies:
+  - Fitting GEV and GPD models with correct parameter conventions
+  - Return levels with calibrated uncertainty intervals
+  - Threshold choice, declustering and sensitivity analysis
+  - Testing and modelling non-stationary extremes, including power analysis
+  - Turning a statistical estimate into a design recommendation under uncertainty
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 3, mathematical: 4, research: 3, engineering: 2, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+  notes: "Internet is needed only for the optional NASA POWER real-data path (DSET-140)."
+collaboration: individual
+datasets: [synthetic, DSET-140]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [extreme-value-theory, gev, gpd, rainfall, non-stationarity, drainage, climate, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
