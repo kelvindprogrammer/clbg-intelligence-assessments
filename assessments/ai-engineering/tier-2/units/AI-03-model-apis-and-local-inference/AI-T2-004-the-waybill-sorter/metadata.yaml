@@ -1,0 +1,53 @@
+id: AI-T2-004
+title: "Six Hundred Waybills, Two Providers, One Outage: Batching, Caching and Failover for a Freight Classifier"
+summary: >-
+  Build a gateway over two deterministic mock model providers with sliding-window rate limits, an outage, malformed replies and batch-position quality decay: dedupe and cache, batch, fail over, enforce a budget and choose the batch size from labelled evidence, then beat a naive loop on cost and time at equal accuracy.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 2
+unit: AI-03
+format: optimization
+secondary_formats: [system-design]
+domains: [logistics, freight, model-apis, cost-engineering, nigeria]
+technologies: [python, json, pytest]
+prerequisites:
+  knowledge:
+    - "Python classes, exceptions and dictionaries"
+    - "Reading JSON replies"
+    - "Why APIs impose requests-per-minute and tokens-per-minute limits"
+competencies:
+  - "Mirroring a provider's sliding-window limits client-side so no request is ever rejected"
+  - "Choosing a batch size from measured accuracy rather than assumption"
+  - "Caching on a normalised key and quantifying the saving"
+  - "Designing failover with cooldown so a provider outage costs neither correctness nor money"
+  - "Enforcing a spend budget and reconciling it against provider billing"
+  - "Comparing a gateway with a naive baseline on cost, makespan and accuracy"
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/waybills.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [model-api, batching, caching, rate-limits, failover, cost-accounting, mock-provider, logistics, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

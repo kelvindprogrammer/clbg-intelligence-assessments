@@ -1,0 +1,53 @@
+id: AI-T3-002
+title: "Thirty Students, One Lab PC: A Quantisation and Batching Study for Local Inference"
+summary: >-
+  Implement low-bit quantisation and a static/continuous batching simulator for a toy language model with planted outlier channels and an analytic CPU cost model, then recommend, defend and stress-test a quantisation and batching configuration for a 30-student campus lab under a p95 latency SLO.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 3
+unit: AI-03
+format: investigation
+secondary_formats: [system-design]
+domains: [education, local-inference, quantisation, serving, nigeria]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - "Matrix multiplication and softmax in numpy"
+    - "Perplexity as exponentiated cross-entropy"
+    - "Queues: arrival rate, service time, tail latency"
+competencies:
+  - "Implementing symmetric round-to-nearest quantisation with per-tensor, per-channel and grouped scales"
+  - "Diagnosing why outlier channels break coarse quantisation and which scheme repairs it"
+  - "Simulating static and continuous batching exactly, including prefill stalls and memory limits"
+  - "Defining and computing capacity under a tail-latency SLO"
+  - "Designing sensitivity analyses and ablations for a simulated study and stating its threats to validity"
+  - "Arguing a local-versus-hosted inference strategy under cost and data-residency constraints"
+estimated_hours: {min: 26, max: 36}
+difficulty: {technical: 4, mathematical: 3, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/toylm.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [quantisation, local-inference, batching, continuous-batching, latency, capacity-planning, open-weight-models, data-residency, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

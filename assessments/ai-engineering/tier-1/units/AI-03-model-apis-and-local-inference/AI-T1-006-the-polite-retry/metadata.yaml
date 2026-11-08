@@ -1,0 +1,52 @@
+id: AI-T1-006
+title: "The Polite Retry: A Resilient Client for a Flaky Model API"
+summary: >-
+  Implement full-jitter backoff, a retrying client that honours rate-limit hints, a tolerant JSON reply parser, stream collection and a token cost ledger against a deterministic mock provider, then explain what each failure mode costs in time and money.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 1
+unit: AI-03
+format: implementation
+secondary_formats: [investigation]
+domains: [fintech, customer-support, reliability, nigeria]
+technologies: [python, json, pytest]
+prerequisites:
+  knowledge:
+    - "Raising and catching exceptions in Python"
+    - "Parsing JSON with the json module"
+    - "Running pytest and reading a failing assertion"
+competencies:
+  - "Implementing an exact retry policy against a written specification"
+  - "Separating retryable from non-retryable failures"
+  - "Parsing semi-structured model output defensively"
+  - "Accounting for token usage and cost in kobo, including billed failures"
+  - "Reasoning about retry storms and why jitter exists"
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/mockllm.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [model-api, retries, backoff, rate-limits, streaming, cost-accounting, mock-provider, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
