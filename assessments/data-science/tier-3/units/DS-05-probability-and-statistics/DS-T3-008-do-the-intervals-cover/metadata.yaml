@@ -1,0 +1,52 @@
+id: DS-T3-008
+title: "Do the Intervals Cover? A Simulation Study of Confidence Intervals for Clustered Claims"
+summary: >-
+  Implement and compare four interval methods for a mean under cooperative-level clustering with heavy-tailed claims, run a seeded Monte Carlo coverage study with honest Monte Carlo error, find the regime where the standard cluster bootstrap fails, and argue for a better interval.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-05
+format: comparative
+domains: [agriculture, insurance, nigeria]
+technologies: [python, numpy, scipy, monte-carlo, bootstrap]
+prerequisites:
+  knowledge:
+    - Confidence intervals and the bootstrap
+    - Intraclass correlation
+    - Basic Monte Carlo ideas
+competencies:
+  - Designing and running a Monte Carlo coverage experiment
+  - Monte Carlo standard error and choosing the number of replications
+  - Intraclass correlation and the design effect
+  - Cluster-level resampling
+  - Studentised (bootstrap-t) intervals and small-sample behaviour
+  - Reproducible stochastic code (seeded generators)
+  - Arguing from simulation evidence, with its limits
+estimated_hours: {min: 16, max: 24}
+difficulty: {technical: 3, mathematical: 4, research: 4, engineering: 2, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [bootstrap, coverage, monte-carlo, clustered-data, icc, insurance, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
