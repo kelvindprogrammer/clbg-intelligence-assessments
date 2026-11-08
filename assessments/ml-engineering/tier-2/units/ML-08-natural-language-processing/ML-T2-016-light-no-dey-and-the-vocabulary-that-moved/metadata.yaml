@@ -1,0 +1,53 @@
+id: ML-T2-016
+title: "Light No Dey: Complaint Triage When the Vocabulary Moves"
+summary: >-
+  Route synthetic mixed English and Pidgin power-utility complaints into five categories when training data come from before a tariff reform and test data after it, build a stress validation because the plain validation set is saturated, and defer the least confident messages to a human desk under a 15 percent review budget.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-08
+format: comparative
+secondary_formats: [system-design]
+domains: [nlp, energy, customer-service, pidgin]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - TF-IDF features and logistic regression in scikit-learn
+    - Macro-F1 for imbalanced classes
+    - Why a validation set must resemble deployment
+    - Probability outputs of classifiers
+competencies:
+  - Recognising a saturated validation set
+  - Constructing a stress validation for noisy text
+  - Comparing word and sub-word representations under drift
+  - Designing augmentation that simulates misspellings
+  - Routing by confidence under a review budget and checking that confidence is informative
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [text-classification, drift, tfidf, char-ngrams, human-in-the-loop, pidgin, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

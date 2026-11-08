@@ -1,0 +1,53 @@
+id: ML-T1-017
+title: "Which Language Is This SMS? A Tokenizer, Character N-Grams and Naive Bayes from Scratch"
+summary: >-
+  Implement a tokenizer, character n-gram features and a multinomial naive Bayes classifier from scratch, verify the classifier against scikit-learn, and use them to identify English, Nigerian Pidgin and Yoruba-style synthetic SMS despite typos and code-switching.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-08
+format: implementation
+secondary_formats: [investigation]
+domains: [nlp, languages, telecoms, banking]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Python Counter and dict
+    - Logarithms and probability
+    - Bayes' rule
+    - Accuracy on a held-out set
+competencies:
+  - Writing a deterministic tokenizer with explicit rules
+  - Generating character n-gram features
+  - Implementing multinomial naive Bayes with Laplace smoothing
+  - Computing normalised log-probabilities without underflow
+  - Explaining why sub-word features resist typos
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 3, mathematical: 3, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [naive-bayes, char-ngrams, language-identification, code-switching, pidgin, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

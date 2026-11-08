@@ -1,0 +1,55 @@
+id: ML-T3-015
+title: "The Scam Detector That Learned to Shout: Auditing and Hardening an SMS Filter Against Style Shortcuts"
+summary: >-
+  Audit a synthetic SMS scam filter that relies on an urgent writing style that scammers and genuine senders later stop using consistently, find the shortcut from data with counterfactual flips, measure false-positive and recall harm across English, Pidgin and Yoruba-style messages with intervals, and defend a hardened detector and its limits.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-08
+format: debugging-forensics
+secondary_formats: [open-ended]
+domains: [nlp, fintech, fraud, responsible-ai]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - TF-IDF and logistic regression
+    - ROC curves and operating thresholds
+    - Bootstrap confidence intervals
+    - Subgroup evaluation and fairness basics
+    - Distribution shift
+competencies:
+  - Detecting a spurious cue from data with counterfactual tests
+  - Choosing an operating threshold for a false-positive budget
+  - Measuring subgroup recall and false-positive rate with intervals
+  - Constructing a validation set that exposes a known failure mode
+  - Comparing mitigations and defending the trade-offs
+  - Writing a validity and harm analysis
+estimated_hours: {min: 24, max: 32}
+difficulty: {technical: 4, mathematical: 2, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [shortcut-learning, spurious-correlation, robustness, subgroup-evaluation, scam-detection, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
