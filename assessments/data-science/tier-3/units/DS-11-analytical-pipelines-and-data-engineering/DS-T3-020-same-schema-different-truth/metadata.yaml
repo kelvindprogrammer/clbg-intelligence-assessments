@@ -1,0 +1,54 @@
+id: DS-T3-020
+title: "Same Schema, Different Truth: A Data-Contract and Drift Gate for a Market-Price Feed"
+summary: >-
+  Design and implement a data-contract gate for a daily agricultural price feed: classify schema changes, enforce rate-based rules, detect same-schema semantic drift such as a naira-to-kobo unit change, and measure the gate's detection and false-alarm rates with your own fault-injection harness.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-11
+format: system-design
+secondary_formats: [implementation]
+domains: [agriculture, price-statistics]
+technologies: [python, pandas, pyyaml, pytest]
+prerequisites:
+  knowledge:
+    - "Validation rules and quarantine (DS-T1-027)"
+    - "Incremental pipelines (DS-T2-023)"
+    - "Robust statistics: medians, MAD, quantiles"
+    - "False-positive and false-negative trade-offs"
+  recommended_assessments: [DS-T1-027, DS-T2-023]
+competencies:
+  - "Classifying schema changes by consumer impact"
+  - "Expressing a data contract as rules with tolerated rates"
+  - "Detecting semantic drift that leaves the schema unchanged"
+  - "Calibrating thresholds against normal variation (inflation, weekly volume)"
+  - "Fault injection to estimate detection rate and false-alarm rate"
+  - "Designing an accept, quarantine or block policy with stated costs"
+estimated_hours: {min: 22, max: 34}
+difficulty: {technical: 4, mathematical: 3, research: 3, engineering: 5, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [data-contracts, drift, data-quality, fault-injection, agriculture, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

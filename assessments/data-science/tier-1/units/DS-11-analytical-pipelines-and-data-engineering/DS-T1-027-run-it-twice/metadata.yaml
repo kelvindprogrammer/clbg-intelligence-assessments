@@ -1,0 +1,53 @@
+id: DS-T1-027
+title: "Run It Twice: An Idempotent, Auditable Loader for Daily Market-Levy Files"
+summary: >-
+  Build a small SQLite loader for daily market-levy files that is safe to run twice, survives a crash mid-file, never drops a row silently, and can prove that every input row is accounted for.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-11
+format: implementation
+secondary_formats: [debugging-forensics]
+domains: [public-finance, local-government]
+technologies: [python, sqlite, csv, pytest]
+prerequisites:
+  knowledge:
+    - "Python functions and file I/O"
+    - "The csv module"
+    - "Basic SQL: tables, primary keys, insert and select"
+    - "Running pytest"
+  recommended_assessments: []
+competencies:
+  - "Idempotent file loading keyed on content"
+  - "Atomic transactions with rollback"
+  - "Row validation with explicit rejection reasons"
+  - "Quarantining rather than dropping bad rows"
+  - "Reconciliation invariants that prove no row was lost"
+estimated_hours: {min: 8, max: 14}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 3, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [pipelines, idempotency, sqlite, data-quality, public-finance, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

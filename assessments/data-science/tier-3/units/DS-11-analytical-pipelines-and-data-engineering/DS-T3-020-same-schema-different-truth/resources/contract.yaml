@@ -1,0 +1,34 @@
+# Data contract for the market-price feed (owner: National Agricultural Price Desk; consumers: price-index pipeline).
+# Rates are the largest share of a batch's rows allowed to violate a rule.
+dataset: market_prices
+key: [market_id, commodity, observed_on]
+max_key_duplicate_rate: 0.01
+columns:
+  market_id:
+    dtype: string
+    nullable: false
+  state:
+    dtype: string
+    nullable: true
+    max_null_rate: 0.30
+  commodity:
+    dtype: string
+    nullable: false
+    categories: ["Maize", "Rice (local)", "Garri", "Yam", "Beans"]
+    max_unknown_rate: 0.01
+  observed_on:
+    dtype: string
+    nullable: false
+    date_format: "%d/%m/%Y"
+    max_bad_rate: 0.01
+  price_ngn_per_kg:
+    dtype: float
+    nullable: false
+    min: 50
+    max: 200000
+    max_out_of_range_rate: 0.01
+  n_quotes:
+    dtype: int
+    nullable: false
+    min: 1
+    max: 50

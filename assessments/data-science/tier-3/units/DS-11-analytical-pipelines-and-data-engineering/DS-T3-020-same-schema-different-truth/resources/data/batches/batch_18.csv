@@ -1,0 +1,101 @@
+market_id,state,commodity,observed_on,price_ngn_per_kg,n_quotes
+M001,Kaduna,Maize,31/07/2026,634.26,6
+M001,Kaduna,Rice (local),31/07/2026,986.72,4
+M001,Kaduna,Garri (white),31/07/2026,723.37,3
+M001,Kaduna,Yam,31/07/2026,1345.41,8
+M001,Kaduna,Beans,31/07/2026,1715.72,10
+M002,Benue,Maize,31/07/2026,659.77,3
+M002,Benue,Rice (local),31/07/2026,1274.73,1
+M002,Benue,Garri (white),31/07/2026,825.73,3
+M002,Benue,Yam,31/07/2026,1376.83,6
+M002,Benue,Beans,31/07/2026,1854.19,2
+M003,Benue,Maize,31/07/2026,823.95,5
+M003,Benue,Rice (local),31/07/2026,1460.41,10
+M003,Benue,Garri (white),31/07/2026,1045.74,8
+M003,Benue,Yam,31/07/2026,1778.9,12
+M003,Benue,Beans (white),31/07/2026,2260.37,6
+M004,Oyo,Maize,31/07/2026,538.11,5
+M004,Oyo,Rice (local),31/07/2026,1134.19,6
+M004,Oyo,Garri (white),31/07/2026,686.63,8
+M004,Oyo,Yam,31/07/2026,1341.8,11
+M004,Oyo,Beans,31/07/2026,1521.4,9
+M005,Oyo,Maize,31/07/2026,638.16,5
+M005,Oyo,Rice (local) (white),31/07/2026,1214.16,5
+M005,Oyo,Garri (white),31/07/2026,927.22,5
+M005,Oyo,Yam,31/07/2026,1438.82,6
+M005,Oyo,Beans,31/07/2026,2114.32,6
+M006,Benue,Maize,31/07/2026,757.47,4
+M006,Benue,Rice (local) (white),31/07/2026,1736.39,1
+M006,Benue,Garri (white),31/07/2026,1069.93,6
+M006,Benue,Yam,31/07/2026,1947.93,10
+M006,Benue,Beans,31/07/2026,2374.71,3
+M007,Kaduna,Maize,31/07/2026,610.22,5
+M007,Kaduna,Rice (local),31/07/2026,1077.42,12
+M007,Kaduna,Garri (white),31/07/2026,749.39,11
+M007,Kaduna,Yam,31/07/2026,1390.69,2
+M007,Kaduna,Beans,31/07/2026,1722.42,5
+M008,Benue,Maize,31/07/2026,796.16,3
+M008,Benue,Rice (local),31/07/2026,1367.33,10
+M008,Benue,Garri (white),31/07/2026,956.08,10
+M008,Benue,Yam,31/07/2026,1779.98,5
+M008,Benue,Beans,31/07/2026,2640.41,8
+M009,Kaduna,Maize,31/07/2026,620.89,7
+M009,Kaduna,Rice (local),31/07/2026,1191.55,3
+M009,Kaduna,Garri (white),31/07/2026,849.27,1
+M009,Kaduna,Yam,31/07/2026,1605.54,3
+M009,Kaduna,Beans,31/07/2026,2080.83,6
+M010,Kaduna,Maize,31/07/2026,740.89,7
+M010,Kaduna,Rice (local),31/07/2026,1503.17,4
+M010,Kaduna,Garri (white),31/07/2026,919.7,12
+M010,Kaduna,Yam,31/07/2026,1817.43,8
+M010,Kaduna,Beans,31/07/2026,2152.93,1
+M011,Benue,Maize,31/07/2026,631.16,6
+M011,Benue,Rice (local),31/07/2026,1153.08,4
+M011,Benue,Garri (white),31/07/2026,790.13,1
+M011,Benue,Yam,31/07/2026,1577.65,11
+M011,Benue,Beans (white),31/07/2026,1518.13,2
+M012,Benue,Maize,31/07/2026,671.69,3
+M012,Benue,Rice (local),31/07/2026,1328.19,10
+M012,Benue,Garri (white),31/07/2026,799.32,2
+M012,Benue,Yam,31/07/2026,1419.58,12
+M012,Benue,Beans (white),31/07/2026,2149.67,3
+M013,Benue,Maize,31/07/2026,632.27,5
+M013,Benue,Rice (local),31/07/2026,1137.99,2
+M013,Benue,Garri (white),31/07/2026,818.02,2
+M013,Benue,Yam (white),31/07/2026,1427.01,9
+M013,Benue,Beans,31/07/2026,1855.67,8
+M014,Kaduna,Maize,31/07/2026,813.17,12
+M014,Kaduna,Rice (local),31/07/2026,1502.79,5
+M014,Kaduna,Garri (white),31/07/2026,978.0,12
+M014,Kaduna,Yam,31/07/2026,1878.16,9
+M014,Kaduna,Beans,31/07/2026,2258.84,6
+M015,Benue,Maize,31/07/2026,549.03,11
+M015,Benue,Rice (local),31/07/2026,926.18,2
+M015,Benue,Garri (white),31/07/2026,716.67,12
+M015,Benue,Yam,31/07/2026,1323.18,12
+M015,Benue,Beans,31/07/2026,1563.79,7
+M016,Oyo,Maize (white),31/07/2026,617.94,4
+M016,Oyo,Rice (local),31/07/2026,1301.23,7
+M016,Oyo,Garri (white),31/07/2026,917.7,9
+M016,Oyo,Yam,31/07/2026,1444.83,6
+M016,Oyo,Beans,31/07/2026,1992.25,4
+M017,Kaduna,Maize,31/07/2026,752.65,5
+M017,Kaduna,Rice (local),31/07/2026,1218.43,10
+M017,Kaduna,Garri (white),31/07/2026,917.69,8
+M017,Kaduna,Yam,31/07/2026,1831.12,7
+M017,Kaduna,Beans,31/07/2026,2033.62,8
+M018,Benue,Maize,31/07/2026,650.29,7
+M018,Benue,Rice (local),31/07/2026,1095.95,12
+M018,Benue,Garri (white),31/07/2026,784.62,10
+M018,Benue,Yam,31/07/2026,1470.88,9
+M018,Benue,Beans,31/07/2026,1704.51,8
+M019,Oyo,Maize,31/07/2026,644.1,4
+M019,Oyo,Rice (local),31/07/2026,1445.65,5
+M019,Oyo,Garri (white),31/07/2026,1010.71,8
+M019,Oyo,Yam (white),31/07/2026,1913.16,11
+M019,Oyo,Beans,31/07/2026,2148.84,9
+M020,Kaduna,Maize,31/07/2026,790.48,6
+M020,Kaduna,Rice (local) (white),31/07/2026,1305.42,10
+M020,Kaduna,Garri (white),31/07/2026,941.68,12
+M020,Kaduna,Yam,31/07/2026,1930.56,12
+M020,Kaduna,Beans,31/07/2026,2195.31,10
