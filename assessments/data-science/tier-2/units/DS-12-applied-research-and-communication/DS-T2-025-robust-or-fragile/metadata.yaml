@@ -1,0 +1,54 @@
+id: DS-T2-025
+title: "Robust or Fragile? A Specification-Curve and Sensitivity Analysis of a Mobile-Banking Training Programme"
+summary: >-
+  Investigate whether a mobile-banking training programme raised household savings in confounded survey data: implement the estimators, run a 48-specification curve, identify which controls are bad (mediator, collider) and why, quantify sensitivity to unmeasured confounding, and write a proportionate conclusion.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-12
+format: investigation
+secondary_formats: [replication]
+domains: [agriculture, financial-inclusion]
+technologies: [python, pandas, numpy, scipy, pytest]
+prerequisites:
+  knowledge:
+    - "Linear regression, residuals and robust (sandwich) standard errors"
+    - "Logistic regression"
+    - "Confounding, mediators and colliders"
+    - "Bootstrap standard errors"
+  recommended_assessments: [DS-T1-029]
+competencies:
+  - "Implementing OLS with robust errors and logistic regression from the equations"
+  - "Inverse-probability-weighted effect estimation"
+  - "Constructing and summarising a specification curve"
+  - "Distinguishing defensible from indefensible control sets by causal reasoning"
+  - "Quantifying how strong an unmeasured confounder must be (E-value)"
+  - "Reporting a conclusion that is proportionate to its robustness"
+estimated_hours: {min: 16, max: 26}
+difficulty: {technical: 3, mathematical: 4, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [robustness, sensitivity-analysis, causal-inference, specification-curve, e-value, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

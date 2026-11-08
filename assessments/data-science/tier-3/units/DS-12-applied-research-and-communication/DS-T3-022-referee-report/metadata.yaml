@@ -1,0 +1,54 @@
+id: DS-T3-022
+title: "Referee Report: Auditing an Industry Whitepaper's Causal Claim and Re-analysing the Data"
+summary: >-
+  Referee a fictional lender's whitepaper claiming its credit model halves defaults: build tools that expose cohort composition, censoring, subgroup fishing and a post-hoc threshold, re-analyse the loan data defensibly, and write a prioritised referee report with a proportionate recommendation.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-12
+format: open-ended
+secondary_formats: [replication]
+domains: [fintech, digital-lending]
+technologies: [python, pandas, numpy, pytest]
+prerequisites:
+  knowledge:
+    - "Two-proportion tests and confidence intervals"
+    - "Confounding, selection and censoring"
+    - "Multiple testing and false discovery rate"
+    - "Permutation tests"
+  recommended_assessments: [DS-T1-029, DS-T2-025]
+competencies:
+  - "Appraising a quantitative claim against its methods and data"
+  - "Detecting cohort composition differences and standardising for them"
+  - "Recognising and correcting right-censoring in outcome data"
+  - "Controlling false discoveries across many subgroup comparisons"
+  - "Adjusting for a post-hoc threshold search with a max-statistic permutation test"
+  - "Writing a prioritised, evidence-backed referee report"
+estimated_hours: {min: 22, max: 36}
+difficulty: {technical: 3, mathematical: 4, research: 5, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [peer-review, simpsons-paradox, censoring, multiple-testing, critical-appraisal, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

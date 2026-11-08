@@ -1,0 +1,54 @@
+id: DS-T1-029
+title: "The Claim in the Press Release: Auditing a School-Meals Attendance Claim with Honest Intervals"
+summary: >-
+  Audit a press release's claim that a school-meals programme raised attendance: implement interval methods from their formulas, estimate a difference-in-differences with a school-level bootstrap, show how pupil-level intervals overstate certainty, and record a reproducibility manifest.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-12
+format: replication
+secondary_formats: [investigation]
+domains: [education, public-policy]
+technologies: [python, pandas, numpy, pytest]
+prerequisites:
+  knowledge:
+    - "Proportions and standard errors"
+    - "Confidence intervals and what they mean"
+    - "NumPy random generators and indexing"
+    - "pandas groupby"
+  recommended_assessments: []
+competencies:
+  - "Wilson and Wald intervals for proportions"
+  - "Difference-in-differences for a before/after comparison with a control group"
+  - "Percentile bootstrap, including resampling clusters"
+  - "Recognising and quantifying the effect of clustering on uncertainty"
+  - "Judging a causal claim from an interval rather than a point estimate"
+  - "Producing a reproducibility manifest"
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 2, mathematical: 3, research: 3, engineering: 2, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [inference, bootstrap, difference-in-differences, clustering, reproducibility, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
