@@ -1,0 +1,52 @@
+id: ML-T3-027
+title: "Do the Explanations Tell the Truth? Faithfulness, Stability and Shortcut Audits for a Tuberculosis-Screening Model"
+summary: >-
+  Build permutation importance, sampled Shapley values, deletion-based faithfulness, stability and agreement measures and a deployment-shift shortcut audit, then study whether explanations expose a planted device shortcut across model classes, backgrounds and correlated features, and what they cannot prove.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-14
+format: investigation
+secondary_formats: [open-ended]
+domains: [health, interpretability, responsible-ml]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Training logistic regression, forests and small neural networks
+    - ROC-AUC and distribution shift
+    - Experimental design and uncertainty reporting
+competencies:
+  - Implementing attribution methods whose properties can be tested exactly
+  - Measuring explanation faithfulness, stability and agreement
+  - Auditing for shortcuts using a deployment-like sample
+  - Reasoning about baselines, correlated features and what attribution cannot show
+  - Writing a validity-aware interpretability study for a clinical audience
+estimated_hours: {min: 24, max: 32}
+difficulty: {technical: 4, mathematical: 4, research: 4, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/screening.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [interpretability, shapley, permutation-importance, faithfulness, shortcut-learning, distribution-shift, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

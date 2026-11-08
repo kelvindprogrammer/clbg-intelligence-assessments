@@ -1,0 +1,52 @@
+id: ML-T2-029
+title: "The Credit Score That Cannot Be Fair Three Ways: Fairness Metric Trade-offs and Mitigation in Micro-Lending"
+summary: >-
+  For a synthetic agent-banking micro-loan model with urban and rural traders, measure several fairness gaps, implement reweighing and constrained per-group thresholds, quantify the profit cost of each criterion, and defend a choice with an explicit account of what cannot be satisfied together.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-14
+format: comparative
+secondary_formats: [investigation]
+domains: [fintech, micro-lending, responsible-ml]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Logistic regression and thresholds
+    - TPR, FPR, PPV and selection rate
+    - Train, validation and test discipline
+competencies:
+  - Computing demographic parity, equal opportunity, equalized odds and predictive parity gaps
+  - Implementing reweighing and constrained threshold search
+  - Measuring the cost of a fairness constraint in profit
+  - Explaining why criteria conflict when base rates differ
+  - Defending a mitigation, including whether group may be used at decision time
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 3, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/lendgen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [fairness-metrics, equal-opportunity, reweighing, threshold-optimisation, impossibility, trade-offs, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

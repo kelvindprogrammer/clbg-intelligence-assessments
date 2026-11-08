@@ -1,0 +1,52 @@
+id: ML-T1-024
+title: "Who Does the Referral Model Miss? A Group-Wise Error Audit and Model Card for a Child-Health Screening Tool"
+summary: >-
+  Implement group-wise error rates, a small-group-safe disparity table, a group-stratified bootstrap interval for a gap, per-group calibration and a model card generator, then use them to decide which differences in a synthetic referral model are real.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-14
+format: implementation
+secondary_formats: [investigation]
+domains: [health, responsible-ml, public-health]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Confusion-matrix rates (TPR, FPR, PPV)
+    - Numpy boolean indexing and grouping
+    - What a confidence interval means
+competencies:
+  - Computing per-group error rates exactly, including undefined cases
+  - Guarding against reporting on groups that are too small
+  - Estimating the uncertainty of a group gap by bootstrap
+  - Checking calibration within groups
+  - Writing a model card that states what the numbers can and cannot support
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/referralgen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [fairness-audit, group-metrics, bootstrap, calibration, model-card, small-groups, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
