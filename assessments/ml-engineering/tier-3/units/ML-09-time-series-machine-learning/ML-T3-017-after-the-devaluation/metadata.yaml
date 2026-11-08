@@ -1,0 +1,53 @@
+id: ML-T3-017
+title: "After the Devaluation: Calibrated Price Forecasts Across a Structural Break"
+summary: >-
+  Forecast a weekly staple-food price series through a synthetic currency shock: detect the break, decide how much history to trust, build calibrated 13-week prediction intervals, and argue the policy for the weeks right after a shock when almost no post-break data exists.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-09
+format: open-ended
+secondary_formats: [investigation]
+domains: [agriculture, food-prices, macroeconomics, forecasting]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - Rolling-origin evaluation
+    - Prediction intervals and empirical coverage
+    - Log returns and variance scaling
+competencies:
+  - Detecting and dating a structural break in a short series
+  - Choosing between full-history, rolling-window and post-break training and defending the trade-off
+  - Building empirically calibrated multi-horizon intervals
+  - Scoring intervals with coverage and the interval score, not width or accuracy alone
+  - Designing controls (a no-shock series) and ablations
+  - Arguing a policy for the period when the new regime is barely observed
+estimated_hours: {min: 24, max: 34}
+difficulty: {technical: 3, mathematical: 3, research: 4, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [structural-break, prediction-intervals, conformal, interval-score, regime-shift, food-prices, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

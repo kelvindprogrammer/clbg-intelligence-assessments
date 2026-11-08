@@ -1,0 +1,53 @@
+id: ML-T2-018
+title: "Salary Day at the POS Agent: Forecasting Cash-Out Demand Around Paydays and Holiday Eves"
+summary: >-
+  Forecast weekly cash-out volumes for 30 synthetic mobile-money agents with a pooled, causally featured model that handles paydays, holiday eves and closed days, selected against a seasonal-naive baseline with time-ordered validation.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-09
+format: comparative
+secondary_formats: [investigation]
+domains: [fintech, mobile-money, forecasting]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Fitting and scoring scikit-learn regressors
+    - Why random splits mislead on time-ordered data
+    - Error metrics for non-negative quantities
+competencies:
+  - Designing causal lag, rolling and calendar features for a panel of series
+  - Choosing a metric that survives zero-volume days
+  - Pooling many series in one model with per-series normalisation
+  - Comparing a seasonal baseline, a linear model and boosting with rolling-origin validation
+  - Deciding what a four-origin validation can and cannot show
+  - Writing a decision memo for an operations lead
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [forecasting, panel-data, calendar-effects, rolling-origin, wape, mobile-money, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

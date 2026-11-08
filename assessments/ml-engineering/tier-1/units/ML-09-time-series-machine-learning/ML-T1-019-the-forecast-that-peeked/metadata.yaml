@@ -1,0 +1,52 @@
+id: ML-T1-019
+title: "The Forecast That Peeked: Building a Leak-Free Walk-Forward Backtest for Feeder Load"
+summary: >-
+  Implement lag features, expanding-window walk-forward splits, a seasonal-naive baseline, MASE and a closed-form ridge autoregression for a synthetic daily feeder-load series, then explain why a backtest that peeks at the future is worthless.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-09
+format: implementation
+secondary_formats: [debugging-forensics]
+domains: [energy, power-distribution, forecasting]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - Python functions and numpy indexing
+    - Least-squares regression
+    - Why test data must not influence training
+competencies:
+  - Building lagged design matrices without off-by-one errors
+  - Designing expanding-window backtests with no look-ahead
+  - Computing and interpreting MASE against a seasonal-naive baseline
+  - Implementing ridge regression in closed form with an unpenalised intercept
+  - Producing recursive multi-step forecasts from history only
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [forecasting, walk-forward, mase, ridge, autoregression, leakage, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
