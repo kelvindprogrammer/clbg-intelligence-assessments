@@ -25,6 +25,26 @@ Data scientists answer questions with data, and they're honest about what the da
 **Typical tools:** Python, Jupyter, pandas/Polars, NumPy, SciPy, statsmodels, DuckDB/SQL, Matplotlib/Seaborn/Plotly, pytest. All are free and run on a laptop.
 
 <!-- CATALOGUE:START -->
+
+## Assessment map
+
+| Unit | Tier 1 | Tier 2 | Tier 3 |
+|---|---|---|---|
+| **DS-01** Python and Data Wrangling | [3 assessments](tier-1/units/DS-01-python-and-data-wrangling/README.md) | [1 assessment](tier-2/units/DS-01-python-and-data-wrangling/README.md) | — |
+| **DS-02** Data Acquisition and Sourcing | [2 assessments](tier-1/units/DS-02-data-acquisition-and-sourcing/README.md) | [2 assessments](tier-2/units/DS-02-data-acquisition-and-sourcing/README.md) | in development |
+| **DS-03** Data Cleaning and Data Quality | [3 assessments](tier-1/units/DS-03-data-cleaning-and-quality/README.md) | [2 assessments](tier-2/units/DS-03-data-cleaning-and-quality/README.md) | [1 assessment](tier-3/units/DS-03-data-cleaning-and-quality/README.md) |
+| **DS-04** Exploratory Data Analysis | [3 assessments](tier-1/units/DS-04-exploratory-data-analysis/README.md) | [1 assessment](tier-2/units/DS-04-exploratory-data-analysis/README.md) | in development |
+| **DS-05** Probability and Statistics | [3 assessments](tier-1/units/DS-05-probability-and-statistics/README.md) | [2 assessments](tier-2/units/DS-05-probability-and-statistics/README.md) | in development |
+| **DS-06** Data Visualization and Storytelling | [3 assessments](tier-1/units/DS-06-visualization-and-storytelling/README.md) | [2 assessments](tier-2/units/DS-06-visualization-and-storytelling/README.md) | in development |
+| **DS-07** SQL and Database Analytics | in development | in development | in development |
+| **DS-08** Statistical Inference, Experimentation and Causal Thinking | in development | in development | in development |
+| **DS-09** Decision and Business Analytics | in development | in development | in development |
+| **DS-10** Time-Series Analysis and Forecasting | in development | in development | in development |
+| **DS-11** Analytical Pipelines and Data Engineering | in development | in development | in development |
+| **DS-12** Applied Research and Reproducible Communication | in development | in development | in development |
+
+**Capstones:** [in development](capstones/README.md)
+
 <!-- CATALOGUE:END -->
 
 ## Capstones

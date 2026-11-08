@@ -1,0 +1,1903 @@
+{
+  "generated_by": "tools/catalogue-generator/build_catalogue.py",
+  "count": 28,
+  "assessments": [
+    {
+      "id": "DS-T1-001",
+      "title": "The Price Watch Bulletin: From Spreadsheet Export to Tidy Data",
+      "summary": "Reshape a print-formatted, multi-table state food price bulletin (merged headers, page breaks, footnote notation, summary rows) into tested tidy data, then recompute every published average to discover how the national figure is really built and which averages are inconsistent.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-01",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "agriculture",
+        "food-security",
+        "official-statistics"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Reading irregular files without loss",
+        "Validating string parsers that fail loudly",
+        "Reshaping wide multi-header tables into tidy long data",
+        "Correct use of melt, merge, groupby and concat with row-count checks",
+        "Calendar-aware period arithmetic",
+        "Reconciling published aggregates with their inputs (mean of means vs pooled mean)",
+        "Unit testing of data-wrangling code"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "tidy-data",
+        "reshaping",
+        "pandas",
+        "food-prices",
+        "reconciliation",
+        "nigeria",
+        "entry-point"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-001-the-price-watch-bulletin"
+    },
+    {
+      "id": "DS-T1-002",
+      "title": "The Ledger That Double-Counts: Debugging a Mobile-Money Settlement Pipeline",
+      "summary": "A legacy POS agent-banking settlement script runs cleanly but pays the wrong commission. Find every defect against its docstring specification, prove each with a failing test, fix it, reconcile with the switch's control totals, and measure what each defect cost.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-01",
+      "format": "debugging-forensics",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "fintech",
+        "mobile-money",
+        "agent-banking"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Reading code against a written specification",
+        "Minimal reproducing examples and regression tests",
+        "Join cardinality, fan-out and effective-dated lookups",
+        "Deduplication on a business key with latest-message semantics",
+        "Time-zone-correct business dates",
+        "pandas copy semantics and chained assignment",
+        "Impact measurement of interacting defects",
+        "Reconciliation against independent control totals"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "debugging",
+        "pos-agents",
+        "settlement",
+        "reconciliation",
+        "pandas",
+        "timezones",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-002-the-ledger-that-double-counts"
+    },
+    {
+      "id": "DS-T1-003",
+      "title": "Rain Onset at Scale: Vectorising an Agro-Climate Pipeline Without Changing Its Answers",
+      "summary": "Profile a correct but loop-bound rainfall pipeline (monthly totals, dry spells, agronomic onset dates, anomalies), re-implement it with NumPy and pandas, prove equivalence against the legacy oracle on adversarial inputs, and measure the speed-up with a fair benchmark protocol.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-01",
+      "format": "optimization",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "climate",
+        "agriculture"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "pytest",
+        "cprofile"
+      ],
+      "competencies": [
+        "Profiling Python code to find bottlenecks",
+        "Vectorisation with masks, cumulative sums and run-length encoding",
+        "Complete-calendar reindexing of gappy time series",
+        "Preserving NaN, boundary and dtype semantics",
+        "Equivalence testing against an oracle with randomised inputs",
+        "Fair benchmarking of time and memory"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 18
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 2
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 8,
+        "notes": "8 GB is needed only for the full-size benchmark (about 4.3M rows); a free Google Colab or Kaggle notebook is a valid alternative for that step. Everything else runs in 4 GB."
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "vectorisation",
+        "numpy",
+        "performance",
+        "rainfall-onset",
+        "agro-climate",
+        "equivalence-testing",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-003-rain-onset-at-scale"
+    },
+    {
+      "id": "DS-T1-004",
+      "title": "Every Page, Exactly Once: A Resilient Client for the World Bank Indicators API",
+      "summary": "Build a paginated World Bank API client with retries, jittered backoff, an integrity-checked cache and a provenance log. It must survive the API's real traps (HTTP-200 errors, nulls, republished vintages) and is tested fully offline against recorded responses and a fault-injecting fake server.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-02",
+      "format": "implementation",
+      "secondary_formats": [],
+      "domains": [
+        "energy-access",
+        "development-indicators",
+        "open-government-data"
+      ],
+      "technologies": [
+        "python",
+        "urllib",
+        "pandas",
+        "pytest",
+        "http"
+      ],
+      "competencies": [
+        "Paginated API acquisition with completeness guarantees",
+        "Classifying transient and permanent failures",
+        "Exponential backoff with full jitter and Retry-After",
+        "Canonical, atomic, integrity-checked caching",
+        "Provenance logging and data-vintage awareness",
+        "Testing network code offline with injected transports, clocks and sleeps"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 3,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4,
+        "notes": "Internet is needed only for one short live run (deliverable 3). All tests run offline."
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "DSET-019"
+      ],
+      "tags": [
+        "api",
+        "pagination",
+        "retries",
+        "caching",
+        "provenance",
+        "world-bank",
+        "ecowas",
+        "electricity"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-02-data-acquisition-and-sourcing/DS-T1-004-every-page-exactly-once"
+    },
+    {
+      "id": "DS-T1-005",
+      "title": "Four Agencies, One Price: Parsing and Reconciling Heterogeneous Food-Price Files",
+      "summary": "Parse JSON, XML, a multi-sheet Excel workbook and a legacy fixed-width file describing the same staple-food prices into one canonical table. Then classify each surviving cross-agency anomaly as a parsing error, a source defect or a real market event, with evidence.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-02",
+      "format": "investigation",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "food-markets",
+        "agriculture",
+        "food-security"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "openpyxl",
+        "xml",
+        "json",
+        "pytest"
+      ],
+      "competencies": [
+        "Parsing JSON, XML, Excel and fixed-width formats",
+        "Unit, currency and time-key normalisation with reference tables",
+        "Explicit missingness and revision handling",
+        "Robust cross-source reconciliation and stale-value detection",
+        "Classifying anomalies as parsing errors, source defects or real events"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "file-formats",
+        "excel",
+        "xml",
+        "fixed-width",
+        "reconciliation",
+        "units",
+        "food-prices",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-02-data-acquisition-and-sourcing/DS-T1-005-four-agencies-one-price"
+    },
+    {
+      "id": "DS-T1-006",
+      "title": "The Registry That Lies: Forensic Cleaning of a Student Records Export",
+      "summary": "Profile and clean a deliberately corrupted university registry export. Recover what can be recovered, flag what cannot, consolidate duplicates without merging namesakes, and detect a hidden systemic grading-scale defect from data.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-03",
+      "format": "debugging-forensics",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "education",
+        "public-sector-records"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "pytest",
+        "regex"
+      ],
+      "competencies": [
+        "Systematic data profiling and defect inventory",
+        "Distinguishing missing, invalid, ambiguous and valid values",
+        "Canonicalisation of categorical values with auditable mappings",
+        "Parsing heterogeneous date and phone formats without guessing",
+        "Rule-based duplicate detection with false-merge awareness",
+        "Detecting systemic (non-random) defects from distributions",
+        "Unit testing of data-cleaning rules",
+        "Data-quality reporting for non-technical owners"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "data-quality",
+        "record-linkage",
+        "ndpa",
+        "forensics",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-006-the-registry-that-lies"
+    },
+    {
+      "id": "DS-T1-007",
+      "title": "Bags, Basins and Tonnes: Harmonising a Smallholder Harvest Survey",
+      "summary": "Convert a smallholder harvest survey recorded in bags, basins, mudus and tonnes to kilograms with crop-specific factors and uncertainty bounds, flag implausible yields with robust rules, and investigate how much each cleaning decision changes the production total.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-03",
+      "format": "investigation",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "agriculture",
+        "food-security",
+        "survey-data"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Unit-of-measure harmonisation with auditable mappings",
+        "Conversion with crop-specific factors and uncertainty bounds",
+        "Robust outlier rules (MAD modified z-score, Tukey IQR) on an appropriate scale",
+        "Domain-limit plausibility checks",
+        "Separating implausible values from unusual but genuine ones",
+        "Quantifying the sensitivity of totals to cleaning decisions",
+        "Investigating the source of systematic data-collection errors"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "data-quality",
+        "units-of-measure",
+        "outliers",
+        "robust-statistics",
+        "agriculture",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-007-bags-basins-and-tonnes"
+    },
+    {
+      "id": "DS-T1-008",
+      "title": "Stuck, Drifting, Spiking: Validation Rules for a Low-Cost Air-Quality Network",
+      "summary": "Implement exactly specified validation rules for five low-cost PM2.5/temperature/humidity monitors in Lagos: range, stuck-value and Hampel spike checks, robust clock-drift estimation, gap detection, a bitmask quality-flag scheme and completeness-aware hourly means.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-03",
+      "format": "implementation",
+      "secondary_formats": [
+        "debugging-forensics"
+      ],
+      "domains": [
+        "environment",
+        "air-quality",
+        "iot-sensors",
+        "climate"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "scipy",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing time-series validation rules exactly to specification",
+        "Robust spike detection with the Hampel rule",
+        "Run-length detection of stuck sensors",
+        "Robust clock offset and drift estimation (Theil-Sen)",
+        "Distinguishing late uploads from clock faults",
+        "Designing and applying a bitmask quality-flag scheme",
+        "Completeness rules for aggregated data"
+      ],
+      "estimated_hours": {
+        "min": 12,
+        "max": 18
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "data-quality",
+        "sensors",
+        "time-series",
+        "validation",
+        "air-quality",
+        "lagos"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-008-stuck-drifting-spiking"
+    },
+    {
+      "id": "DS-T1-009",
+      "title": "The Paradox Ward: Stratified Exploration of Hospital Outcome Rankings",
+      "summary": "A draft hospital league table ranks the network's referral centre last on crude 30-day mortality. Stratify, standardise and decompose the rates to discover a Simpson's reversal, tell confounders from proxies and non-confounders, and advise the Commissioner on what the data can and cannot show.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-04",
+      "format": "investigation",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "health",
+        "public-sector"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Building stratified rate tables with binomial uncertainty",
+        "Diagnosing case-mix (composition) differences between groups",
+        "Detecting and explaining Simpson's paradox systematically",
+        "Direct standardisation and Kitagawa rate-gap decomposition",
+        "Distinguishing confounders, proxies and non-confounders with evidence",
+        "Writing quantified, limitation-aware findings for a decision-maker"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "simpsons-paradox",
+        "standardisation",
+        "confounding",
+        "health",
+        "league-tables",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-009-the-paradox-ward"
+    },
+    {
+      "id": "DS-T1-010",
+      "title": "Hours on the Feeder: Supply-Hours Exploration of Electricity Outage Logs",
+      "summary": "Turn six months of messy control-room outage logs from a fictional Nigerian distribution company into defensible daily supply hours, then use dependence-aware bootstrap intervals to find which feeders are confidently failing their NERC service band and how naive processing distorts the answer.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-04",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "energy",
+        "power",
+        "regulation"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Converting event logs into regular time series with interval arithmetic",
+        "Detecting logging artefacts and representing missing coverage explicitly",
+        "Block and cluster bootstrap intervals under dependence",
+        "Answering stakeholder questions with quantified uncertainty",
+        "Testing data transformations with hand-worked edge cases"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "electricity",
+        "nerc",
+        "service-bands",
+        "event-logs",
+        "bootstrap",
+        "missing-data",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-010-hours-on-the-feeder"
+    },
+    {
+      "id": "DS-T1-011",
+      "title": "The Confident Notebook: Auditing the Claims of an Exploratory Analysis",
+      "summary": "Audit a polished but flawed exploratory notebook from a fictional mobile-money operator. For each of ten claims, decide whether the data supports it, name the flaw (survivorship, base rates, log scales, confounding, ecological fallacy, regression to the mean and more) and compute the correct figure.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-04",
+      "format": "debugging-forensics",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "mobile-money"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "scipy",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Separating correct computation from flawed inference in an analysis",
+        "Recognising and naming common analytical fallacies",
+        "Re-analysing data to quantify the correct answer",
+        "Identifying claims that do survive scrutiny",
+        "Writing a constructive, actionable audit for an executive"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "analytical-fallacies",
+        "survivorship-bias",
+        "base-rates",
+        "regression-to-the-mean",
+        "multiple-comparisons",
+        "mobile-money",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-011-the-confident-notebook"
+    },
+    {
+      "id": "DS-T1-012",
+      "title": "The Fuel Queue: Simulating a Filling Station During Scarcity",
+      "summary": "Derive the M/M/c results, build and validate a queue simulator, estimate demand from a filling-station log with balking, and decide how many pumps to staff when the exponential textbook model is quietly optimistic.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-05",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "energy",
+        "transport",
+        "operations"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scipy",
+        "pandas",
+        "pytest"
+      ],
+      "competencies": [
+        "Deriving M/M/c steady-state results from birth-death balance equations",
+        "Implementing and verifying a discrete-event FCFS multi-server simulation",
+        "Validating a simulator against analytical results",
+        "Output analysis for autocorrelated simulation series (warm-up, batch means)",
+        "Input modelling from operational logs, including censored demand (balking)",
+        "Separating simulation uncertainty from input uncertainty in a decision"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 3,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "queueing",
+        "monte-carlo",
+        "erlang-c",
+        "simulation",
+        "fuel-scarcity",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-012-the-fuel-queue"
+    },
+    {
+      "id": "DS-T1-013",
+      "title": "How Sure Are We? Bootstrap and Analytical Intervals Under a Coverage Experiment",
+      "summary": "Implement t, Wald, Wilson, exact and bootstrap (percentile, basic, BCa) intervals from scratch, test their 95% promise with a Monte Carlo coverage experiment, and report honest intervals for a skewed, rare-event survey of POS and mobile-money agents.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-05",
+      "format": "comparative",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "fintech",
+        "mobile-money",
+        "survey-statistics"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scipy",
+        "pandas",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing and deriving analytical intervals for means and proportions",
+        "Implementing the nonparametric bootstrap and the jackknife from scratch",
+        "Designing Monte Carlo coverage experiments with their own error bars",
+        "Comparing interval methods across regimes and choosing one with evidence",
+        "Communicating uncertainty to a non-specialist decision-maker"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 3,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "bootstrap",
+        "confidence-intervals",
+        "coverage",
+        "monte-carlo",
+        "survey",
+        "fintech",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-013-how-sure-are-we"
+    },
+    {
+      "id": "DS-T1-014",
+      "title": "Collision Course: How Long Must a Booking Reference Be?",
+      "summary": "Derive and stably compute birthday-problem collision probabilities, verify them by simulation, use two days of BRT booking references to show the generator's real code space is about 50 times smaller than designed, and recommend a reference length and design.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-05",
+      "format": "investigation",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "transport",
+        "digital-ticketing",
+        "security"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scipy",
+        "pandas",
+        "pytest"
+      ],
+      "competencies": [
+        "Deriving collision probabilities with indicator variables and linearity of expectation",
+        "Numerically stable computation of tiny probabilities",
+        "Verifying probability formulas by Monte Carlo with stated tolerances",
+        "Estimating a hidden population size from coincidences with an exact Poisson interval",
+        "Designing tests for excess coincidences against a stated design",
+        "Turning collision and guessing risks into an identifier-design requirement"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 3,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "birthday-problem",
+        "collisions",
+        "identifiers",
+        "poisson",
+        "security",
+        "brt",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-014-collision-course"
+    },
+    {
+      "id": "DS-T1-015",
+      "title": "The Truth Behind the Chart: Forensics of Misleading Graphics",
+      "summary": "Audit a gallery of published charts against an exact defect policy (truncated bars, dual axes, cherry-picked windows, area distortion, misleading colormaps, inverted axes, missing sources), compute Tufte's lie factor, and redraw each chart honestly as an inspectable matplotlib Figure.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-06",
+      "format": "debugging-forensics",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "media-literacy",
+        "fintech",
+        "energy",
+        "agriculture",
+        "public-communication"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Mapping visual channels (length, position, area, lightness) to the quantities they encode",
+        "Computing and interpreting Tufte's lie factor",
+        "Distinguishing legitimate emphasis from distortion (zero baselines, rank axes, windows, log scales)",
+        "Converting sRGB to CIELAB and auditing colormap lightness profiles",
+        "Building honest redraws whose properties are verified programmatically",
+        "Writing honest headlines and neutral critiques of published graphics"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "visualization",
+        "lie-factor",
+        "colormaps",
+        "cielab",
+        "chart-forensics",
+        "matplotlib"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-015-the-truth-behind-the-chart"
+    },
+    {
+      "id": "DS-T1-016",
+      "title": "Honest About Uncertainty: Interval Plots, Quantile Dotplots and Fan Charts",
+      "summary": "Build a tested library that turns survey estimates and quantile forecasts into honest displays (Wilson interval plots, threshold-aligned quantile dotplots, nested fan charts), refuse incoherent forecasts, and write a one-page market bulletin for a maize-storage decision.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-06",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "agriculture",
+        "food-prices",
+        "survey-statistics"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scipy",
+        "pandas",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Computing Wilson intervals and explaining Wald failures at small n",
+        "Building quantile dotplots with threshold-aligned bins and frequency framing",
+        "Building nested fan charts from quantile forecasts",
+        "Detecting and repairing crossing quantiles without silent fixes",
+        "Verifying chart geometry programmatically",
+        "Writing decision-oriented, non-prescriptive uncertainty communication"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 3,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "uncertainty",
+        "wilson-interval",
+        "quantile-dotplot",
+        "fan-chart",
+        "agriculture",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-016-honest-about-uncertainty"
+    },
+    {
+      "id": "DS-T1-017",
+      "title": "Hot Days, Six Cities: A Small-Multiples Climate Story from NASA POWER",
+      "summary": "Parse real NASA POWER reanalysis data for six Nigerian cities, compute hot-day indicators under fixed and city-relative thresholds with explicit missing-data rules, and tell an honest small-multiples story about whether hot days are becoming more common.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-06",
+      "format": "investigation",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "climate",
+        "journalism",
+        "public-communication"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "pytest",
+        "rest-api"
+      ],
+      "competencies": [
+        "Parsing a real scientific data product with a header block and fill values",
+        "Defining climate indicators with explicit threshold and completeness rules",
+        "Comparing periods and refusing unsupported comparisons",
+        "Designing small multiples (ordering, shared scales, annotation) verified programmatically",
+        "Writing an evidence-led visual story that states data limitations and avoids attribution claims"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4,
+        "notes": "About 1.5 MB downloaded once from the keyless NASA POWER API; a free Colab/Kaggle notebook can do the fetch step."
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "DSET-022"
+      ],
+      "tags": [
+        "small-multiples",
+        "climate",
+        "nasa-power",
+        "reanalysis",
+        "nigeria",
+        "data-journalism"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-017-hot-days-small-multiples"
+    },
+    {
+      "id": "DS-T2-001",
+      "title": "Feeder Hours, Out of Core: pandas vs Polars vs DuckDB on Smart-Meter Data",
+      "summary": "Compute feeder supply hours and tariff-band compliance from 8 million synthetic smart-meter readings four ways (pandas baseline, chunked pandas, Polars, DuckDB) with identical results, then benchmark time and memory under an 8 GB-laptop budget and recommend a tool for a DisCo team.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-01",
+      "format": "comparative",
+      "secondary_formats": [
+        "optimization"
+      ],
+      "domains": [
+        "power",
+        "energy",
+        "utilities"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "polars",
+        "duckdb",
+        "sql",
+        "psutil",
+        "pytest"
+      ],
+      "competencies": [
+        "Out-of-core and partition-aware pipeline design",
+        "Lazy query plans and embedded analytical SQL",
+        "Exact cross-engine equivalence testing",
+        "Benchmark design with fresh processes, repeats and peak-RSS measurement",
+        "Mechanistic explanation of performance differences",
+        "Evidence-based tooling recommendation under constraints",
+        "Validity and sensitivity analysis of a derived metric"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 3
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 8,
+        "free_alternative": "Google Colab or Kaggle free CPU notebook (state the RAM available in the report).",
+        "notes": "About 2 GB of free disk for the generated benchmark set and any converted copy."
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "out-of-core",
+        "polars",
+        "duckdb",
+        "benchmarking",
+        "smart-meters",
+        "nerc-bands",
+        "electricity",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-01-python-and-data-wrangling/DS-T2-001-feeder-hours-out-of-core"
+    },
+    {
+      "id": "DS-T2-003",
+      "title": "The Polite Collector: Ethical, Change-Aware Collection from a Public Procurement Portal",
+      "summary": "Design and build a web collector for a mock state e-procurement portal that honours RFC 9309 robots rules, crawl delays and the terms, detects amendments and withdrawals cheaply with conditional requests, raises schema-drift alarms instead of writing nulls, and is measured against a naive baseline.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-02",
+      "format": "system-design",
+      "secondary_formats": [
+        "implementation",
+        "comparative"
+      ],
+      "domains": [
+        "public-procurement",
+        "civic-technology",
+        "open-government-data"
+      ],
+      "technologies": [
+        "python",
+        "http",
+        "html-parsing",
+        "robots-txt",
+        "pytest"
+      ],
+      "competencies": [
+        "RFC 9309 robots semantics and crawl-delay compliance",
+        "Turning terms of use into design requirements",
+        "Crawl scoping, URL canonicalisation and request budgets",
+        "Change detection with conditional HTTP and sitemaps",
+        "Schema-drift detection that protects stored data",
+        "Data minimisation for personal data under NDPA 2023",
+        "Measured comparison of collection strategies against a baseline"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 1,
+        "research": 2,
+        "engineering": 4,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4,
+        "notes": "All work runs against a local mock portal on a virtual clock. A real-site pilot is an optional extension."
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "web-scraping",
+        "robots-txt",
+        "ethics",
+        "change-detection",
+        "schema-drift",
+        "procurement",
+        "ndpa"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-02-data-acquisition-and-sourcing/DS-T2-003-the-polite-collector"
+    },
+    {
+      "id": "DS-T2-004",
+      "title": "Rain, Grain and Granularity: Fusing Open Climate, Crop and Development Data at Mismatched Scales",
+      "summary": "Acquire NASA POWER daily climate, FAOSTAT national crop statistics and World Bank indicators for Nigeria, align them with tested rules for seasons, coverage, flags and trends, and compare at least four alignment designs against a baseline to show how robust any climate-yield conclusion really is.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-02",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "climate",
+        "agriculture",
+        "development-indicators"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "scipy",
+        "statsmodels",
+        "matplotlib",
+        "rest-api"
+      ],
+      "competencies": [
+        "Reproducible multi-source acquisition with manifests",
+        "Temporal and spatial aggregation with coverage accounting",
+        "Flag-aware use of official statistics",
+        "Sensitivity analysis across alignment designs against a baseline",
+        "Bootstrap uncertainty and honest null-result reporting",
+        "Source independence and metadata critique"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 3,
+        "engineering": 2,
+        "ambiguity": 4,
+        "resources": 2
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4,
+        "notes": "Downloads total under 10 MB. Tests use small recorded fixtures and run offline."
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "DSET-022",
+        "DSET-021",
+        "DSET-019"
+      ],
+      "tags": [
+        "data-fusion",
+        "granularity",
+        "nasa-power",
+        "faostat",
+        "world-bank",
+        "sensitivity-analysis",
+        "nigeria",
+        "cereals"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-02-data-acquisition-and-sourcing/DS-T2-004-rain-grain-and-granularity"
+    },
+    {
+      "id": "DS-T2-005",
+      "title": "Same Patient, Two Registers: Probabilistic vs Deterministic Record Linkage",
+      "summary": "Link a primary health centre register to a general hospital register with no shared ID. Build a deterministic baseline and a Fellegi-Sunter linker with blocking, compare them on the precision-recall trade-off using a clerical sample, and recommend an operating point.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-03",
+      "format": "comparative",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "health",
+        "public-sector-records",
+        "health-information-systems"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Standardising heterogeneous registers for linkage",
+        "Blocking design measured by pair completeness and reduction ratio",
+        "Fellegi-Sunter comparison vectors, m/u probabilities and match weights",
+        "Parameter estimation by EM and from a clerical sample",
+        "Threshold and clerical-review band selection",
+        "Fair comparison against a deterministic baseline with uncertainty",
+        "Linkage error analysis",
+        "Privacy safeguards for health-data linkage"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 3,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "record-linkage",
+        "fellegi-sunter",
+        "entity-resolution",
+        "health",
+        "ndpa",
+        "kaduna"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-005-same-patient-two-registers"
+    },
+    {
+      "id": "DS-T2-006",
+      "title": "The Feed That Breaks: A Data Contract and Validation Framework for a Partner Feed",
+      "summary": "Design a data contract and a contract-driven validation framework for daily agent-banking deliveries from a partner: schema, semantic, freshness, volume and distribution checks, row and delivery quarantine, calendar-aware baselines and alerting, judged on unseen sequences.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-03",
+      "format": "system-design",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "fintech",
+        "mobile-money",
+        "agent-banking",
+        "data-engineering"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "pyyaml",
+        "pytest"
+      ],
+      "competencies": [
+        "Writing data contracts with owners, severities and justified thresholds",
+        "Contract-driven schema and semantic validation",
+        "Freshness, duplicate-delivery and manifest checks",
+        "Calendar-aware volume and distribution baselines learned from trusted data",
+        "Row-level versus delivery-level quarantine",
+        "Alert severity and routing design",
+        "Fault-injection testing",
+        "Security and operational design for untrusted partner input"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 4,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "data-contracts",
+        "data-quality",
+        "validation",
+        "quarantine",
+        "fintech",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-006-the-feed-that-breaks"
+    },
+    {
+      "id": "DS-T2-007",
+      "title": "Rain Before the Price: Multi-Source EDA of Rainfall Anomalies and Food Prices",
+      "summary": "Explore 12 years of state rainfall, staple prices and national macro shocks across 18 Nigerian states (synthetic, stylised). Isolate local rainfall signals from national inflation, search lags without fooling yourself, control the false discovery rate, beat a naive baseline and deliver a hypothesis register.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-04",
+      "format": "investigation",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "agriculture",
+        "climate",
+        "food-security"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "scipy",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Aligning and exploring a multi-source panel, including missingness patterns",
+        "Separating common shocks from local signals",
+        "Valid inference under lag search, seasonality and autocorrelation",
+        "False discovery rate control across many hypotheses",
+        "Simulation-based validation of an analysis method against a baseline",
+        "Building a prioritised hypothesis register with follow-up actions"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic",
+        "DSET-022",
+        "DSET-027"
+      ],
+      "tags": [
+        "food-prices",
+        "rainfall",
+        "climate",
+        "multiple-comparisons",
+        "false-discovery-rate",
+        "permutation-tests",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-04-exploratory-data-analysis/DS-T2-007-rain-before-the-price"
+    },
+    {
+      "id": "DS-T2-009",
+      "title": "Small Schools, Big Swings: Empirical Bayes for School Pass Rates",
+      "summary": "Build and compare shrinkage estimators of 600 schools' pass rates when cohorts range from 2 to 250, design an evaluation against noisy held-out data, and choose award and intervention lists that reward excellence rather than luck.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-05",
+      "format": "comparative",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "education",
+        "public-sector",
+        "small-area-estimation"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scipy",
+        "pandas",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Formulating hierarchical models for many small binomial units",
+        "Empirical Bayes estimation by marginal likelihood",
+        "Covariate-informed priors and diagnosing prior misspecification",
+        "Designing fair evaluations against latent targets and noisy held-out data",
+        "Ranking and selection under uncertainty",
+        "Communicating shrinkage and regression to the mean to decision-makers"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 4,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "empirical-bayes",
+        "shrinkage",
+        "small-area-estimation",
+        "ranking",
+        "education",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-05-probability-and-statistics/DS-T2-009-small-schools-big-swings"
+    },
+    {
+      "id": "DS-T2-010",
+      "title": "The 25-Year Storm: Extreme Value Analysis of Rainfall for Drainage Design",
+      "summary": "Estimate 25- and 100-year one-day rainfall for culvert design from a 44-year gauge record with outages and clustered storms, using GEV and peaks-over-threshold models with calibrated uncertainty, and decide what a weakly detectable trend means for a 40-year design life.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-05",
+      "format": "investigation",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "climate",
+        "urban-infrastructure",
+        "hydrology"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scipy",
+        "pandas",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Fitting GEV and GPD models with correct parameter conventions",
+        "Return levels with calibrated uncertainty intervals",
+        "Threshold choice, declustering and sensitivity analysis",
+        "Testing and modelling non-stationary extremes, including power analysis",
+        "Turning a statistical estimate into a design recommendation under uncertainty"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 4,
+        "research": 3,
+        "engineering": 2,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4,
+        "notes": "Internet is needed only for the optional NASA POWER real-data path (DSET-140)."
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic",
+        "DSET-140"
+      ],
+      "tags": [
+        "extreme-value-theory",
+        "gev",
+        "gpd",
+        "rainfall",
+        "non-stationarity",
+        "drainage",
+        "climate",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-05-probability-and-statistics/DS-T2-010-the-25-year-storm"
+    },
+    {
+      "id": "DS-T2-011",
+      "title": "One House Style: An Accessible, Regression-Tested Chart Style System",
+      "summary": "Build a research desk's chart style system: implement CVD simulation, colour difference and WCAG contrast; design a palette that beats tab10 under an independent audit; provide a theme and annotation API; and calibrate a visual-regression check from measured benign and meaningful changes.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-06",
+      "format": "implementation",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "fintech",
+        "mobile-money",
+        "accessibility",
+        "research-publishing"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "matplotlib",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing published colour-vision-deficiency simulations and colour-difference formulas",
+        "Designing and auditing an accessible categorical palette against a baseline",
+        "Building a stateless theme and annotation API",
+        "Designing and calibrating visual-regression checks from measured perturbations",
+        "Writing a quantitative design rationale and a practical style guide"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 3,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "style-system",
+        "accessibility",
+        "colour-vision-deficiency",
+        "wcag",
+        "visual-regression",
+        "matplotlib"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-011-one-house-style"
+    },
+    {
+      "id": "DS-T2-012",
+      "title": "The Tariff Band Explorable: Explaining an Electricity Policy Trade-off to Households",
+      "summary": "Build a sourced, tested model and a phone-friendly explorable explanation of the trade-off between electricity tariff bands, supply hours and backup-power costs, then evaluate it with 3-5 consenting participants against a static baseline and revise it.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-06",
+      "format": "open-ended",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "energy",
+        "public-policy",
+        "consumer-advocacy",
+        "human-centred-design"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "jsonschema",
+        "pytest",
+        "html",
+        "javascript"
+      ],
+      "competencies": [
+        "Framing a policy trade-off as a small, transparent, tested model",
+        "Verifying and citing parameters from primary regulatory sources",
+        "Designing explorable explanations documented by machine-readable view specs",
+        "Running consented, pseudonymous small-sample usability studies against a baseline",
+        "Reporting findings honestly and revising a design in response"
+      ],
+      "estimated_hours": {
+        "min": 20,
+        "max": 35
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 3,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4,
+        "notes": "Internet is needed to research and cite tariff orders and fuel prices; the explorable and tests run offline."
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "member-sourced"
+      ],
+      "tags": [
+        "explorable-explanation",
+        "usability-testing",
+        "energy-policy",
+        "tariffs",
+        "nigeria",
+        "accessibility"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-012-the-tariff-band-explorable"
+    },
+    {
+      "id": "DS-T3-003",
+      "title": "The Garden of Forking Paths: A Multiverse Study of Cleaning Choices",
+      "summary": "Specify the space of defensible cleaning and analysis choices for a messy three-round panel evaluating solar mini-grids' effect on village enterprise revenue, run every universe reproducibly, attribute variation to decisions, and report how robust the conclusion is.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-03",
+      "format": "open-ended",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "energy",
+        "rural-electrification",
+        "programme-evaluation",
+        "small-business"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "scipy",
+        "pyyaml",
+        "pytest",
+        "matplotlib"
+      ],
+      "competencies": [
+        "Specifying estimands and recognising estimand-changing decisions",
+        "Building and defending an explicit decision space",
+        "Reproducible multiverse and specification-curve analysis",
+        "Attributing variation in results to analytic decisions",
+        "Robustness inference and ablation",
+        "Threats-to-validity reasoning for analyses and for the multiverse itself",
+        "Honest communication of fragile findings"
+      ],
+      "estimated_hours": {
+        "min": 35,
+        "max": 60
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "multiverse-analysis",
+        "specification-curve",
+        "research-integrity",
+        "data-cleaning",
+        "energy",
+        "evaluation"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-03-data-cleaning-and-quality/DS-T3-003-the-garden-of-forking-paths"
+    }
+  ]
+}

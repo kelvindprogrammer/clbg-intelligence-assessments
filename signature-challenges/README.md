@@ -30,4 +30,6 @@ Signature Challenges let members **compare solutions under a common protocol**, 
 Signature Challenges can also serve as placement evidence. A research-category challenge assessed at the M level counts toward Tier 3 ([placement framework](../docs/placement-framework.md#3-tier-placement)).
 
 <!-- CATALOGUE:START -->
+
+_In development._
 <!-- CATALOGUE:END -->

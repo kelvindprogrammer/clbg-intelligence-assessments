@@ -25,6 +25,28 @@ ML engineers build models that work **outside the notebook**. This subtrack asse
 **Typical tools:** Python, NumPy, pandas, scikit-learn, PyTorch, XGBoost/LightGBM, Hugging Face, MLflow, FastAPI, Docker, ONNX Runtime, pytest.
 
 <!-- CATALOGUE:START -->
+
+## Assessment map
+
+| Unit | Tier 1 | Tier 2 | Tier 3 |
+|---|---|---|---|
+| **ML-01** Mathematical and Computational Foundations | in development | in development | in development |
+| **ML-02** Supervised Learning and Ensembles | in development | in development | in development |
+| **ML-03** Unsupervised and Representation Learning | in development | in development | in development |
+| **ML-04** Feature Engineering and Data for ML | in development | in development | in development |
+| **ML-05** Evaluation, Validation and Model Selection | in development | in development | in development |
+| **ML-06** Neural Networks and Deep Learning | in development | in development | in development |
+| **ML-07** Computer Vision | in development | in development | in development |
+| **ML-08** Natural Language Processing | in development | in development | in development |
+| **ML-09** Time-Series Machine Learning | in development | in development | in development |
+| **ML-10** Recommender and Ranking Systems | in development | in development | in development |
+| **ML-11** Efficient ML and Model Optimization | — | in development | in development |
+| **ML-12** Model Deployment and Serving | in development | in development | in development |
+| **ML-13** ML Pipelines, MLOps and Monitoring | in development | in development | in development |
+| **ML-14** Responsible ML (Fairness, Interpretability and Robustness) | in development | in development | in development |
+
+**Capstones:** [in development](capstones/README.md)
+
 <!-- CATALOGUE:END -->
 
 ## Capstones

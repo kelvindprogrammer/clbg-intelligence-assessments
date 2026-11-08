@@ -31,6 +31,27 @@ AI engineers turn foundation models into **dependable software**. This subtrack 
 **Typical tools:** Python (TypeScript where justified), FastAPI, Pydantic, Ollama / Hugging Face Transformers, sentence-transformers, FAISS, PostgreSQL + pgvector, SQLite, OpenTelemetry-style tracing, pytest, Docker.
 
 <!-- CATALOGUE:START -->
+
+## Assessment map
+
+| Unit | Tier 1 | Tier 2 | Tier 3 |
+|---|---|---|---|
+| **AI-01** AI Engineering Foundations and Model Fundamentals | in development | in development | — |
+| **AI-02** Prompt Engineering and Structured Generation | in development | in development | in development |
+| **AI-03** Model APIs and Local Inference | in development | in development | in development |
+| **AI-04** Embeddings and Semantic Search | in development | in development | in development |
+| **AI-05** Retrieval-Augmented Generation and Knowledge Systems | in development | in development | in development |
+| **AI-06** AI Agents and Tool Calling | in development | in development | in development |
+| **AI-07** Agentic Workflows and Orchestration | in development | in development | in development |
+| **AI-08** Context Engineering and Memory Systems | in development | in development | in development |
+| **AI-09** Multimodal AI Engineering | in development | in development | in development |
+| **AI-10** AI Evaluation and Observability | in development | in development | in development |
+| **AI-11** AI Security and Responsible AI | in development | in development | in development |
+| **AI-12** Model Adaptation (Fine-tuning, PEFT and Distillation) | — | in development | in development |
+| **AI-13** Production AI Architecture, Cost and Reliability | in development | in development | in development |
+
+**Capstones:** [in development](capstones/README.md)
+
 <!-- CATALOGUE:END -->
 
 ## Capstones
