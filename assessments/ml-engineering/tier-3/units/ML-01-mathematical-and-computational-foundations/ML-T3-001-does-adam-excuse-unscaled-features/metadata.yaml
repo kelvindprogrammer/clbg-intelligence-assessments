@@ -1,0 +1,56 @@
+id: ML-T3-001
+title: "Does Adam Excuse Unscaled Features? An Experimental Study of Conditioning, Momentum and Second-Order Steps"
+summary: >-
+  Test the claim that an adaptive optimiser removes the need for feature scaling by implementing five optimisers on controlled ill-conditioned logistic problems, measuring iteration and cost scaling with condition number, separating scale from correlation effects, and defending the conclusion.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-01
+format: open-ended
+secondary_formats: [investigation]
+domains: [fintech, credit-scoring, optimisation]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Gradient descent, step-size rules and convergence rates (qualitatively)
+    - Hessian, eigenvalues and condition number
+    - Logistic regression and its loss
+    - Bootstrap confidence intervals
+    - Writing reproducible experiment code
+competencies:
+  - Turning a vague engineering claim into falsifiable hypotheses
+  - Implementing gradient descent, accelerated descent, damped Newton and Adam for logistic loss
+  - Defining cost fairly across first- and second-order methods
+  - Handling censored (non-converged) runs correctly
+  - Estimating a scaling exponent with a bootstrap interval
+  - Distinguishing scale-induced from correlation-induced ill-conditioning
+  - Stating the generalisation limits of a synthetic study
+estimated_hours: {min: 24, max: 36}
+difficulty: {technical: 4, mathematical: 4, research: 4, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [optimisation, conditioning, momentum, newton, experimental-design, censoring, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

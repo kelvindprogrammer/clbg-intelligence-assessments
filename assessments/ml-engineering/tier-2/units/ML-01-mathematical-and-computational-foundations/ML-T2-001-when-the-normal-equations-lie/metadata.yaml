@@ -1,0 +1,54 @@
+id: ML-T2-001
+title: "When the Normal Equations Lie: Fitting a Feeder-Load Model on Collinear Sensor Data"
+summary: >-
+  On synthetic hourly feeder data with near-duplicate sensor columns and a mid-year sensor vendor change, diagnose ill-conditioning, compare four least-squares solvers, select ridge strength by time-ordered validation and defend the final model.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-01
+format: comparative
+secondary_formats: [investigation]
+domains: [energy, power-distribution, numerical-linear-algebra]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Ordinary least squares and the normal equations
+    - Matrix rank, condition number and SVD (conceptually)
+    - numpy.linalg routines
+    - Train/validation splitting and cross-validation
+competencies:
+  - Diagnosing ill-conditioning and near-collinearity from singular values and correlations
+  - Implementing and comparing least-squares solvers
+  - Choosing regularisation without leaking future data
+  - Distinguishing numerical error from statistical (identifiability) error
+  - Justifying a method against a baseline with held-out evidence
+  - Reporting limits of a fitted model under sensor drift
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 3, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [least-squares, conditioning, ridge, svd, temporal-validation, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

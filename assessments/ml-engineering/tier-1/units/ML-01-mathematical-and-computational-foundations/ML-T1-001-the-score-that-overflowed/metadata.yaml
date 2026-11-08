@@ -1,0 +1,54 @@
+id: ML-T1-001
+title: "The Score That Overflowed: Numerically Stable Softmax and Logistic Loss from Scratch"
+summary: >-
+  Rebuild softmax, log-sum-exp, stable binary cross-entropy and softmax cross-entropy with verified gradients, then fit a logistic churn model on badly scaled telecom features without a single NaN.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-01
+format: implementation
+secondary_formats: [debugging-forensics]
+domains: [telecoms, numerical-computing]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - numpy arrays, broadcasting and axis reductions
+    - Definition of softmax, sigmoid and cross-entropy
+    - Chain rule for derivatives
+    - Running pytest
+competencies:
+  - Reasoning about overflow, underflow and cancellation in float64 and float32
+  - Implementing log-sum-exp, softmax and log-softmax stably
+  - Deriving and verifying analytic gradients
+  - Gradient-based fitting of logistic regression
+  - Writing tests that target numerical edge cases
+  - Explaining numerical failures in plain language
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 3, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [numerical-stability, softmax, logistic-regression, gradient-checking, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
