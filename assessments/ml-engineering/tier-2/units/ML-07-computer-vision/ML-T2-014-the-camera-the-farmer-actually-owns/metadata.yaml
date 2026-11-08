@@ -1,0 +1,53 @@
+id: ML-T2-014
+title: "The Camera the Farmer Actually Owns: Leaf-Disease Triage Under Camera Shift"
+summary: >-
+  Train a three-class maize-leaf classifier on clean lab photos so that it works on dim, colour-cast, blurred field-phone photos, using augmentation and robust features, a 90-image field validation set and an honest account of what that set can and cannot tell you.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-07
+format: investigation
+secondary_formats: [comparative]
+domains: [computer-vision, agriculture, plant-health]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Fitting and scoring scikit-learn classifiers
+    - Macro-F1 and per-class recall
+    - Image arrays as (n, h, w, 3) floats
+    - Why validation data should resemble deployment data
+competencies:
+  - Diagnosing a failure as camera shift rather than model weakness
+  - Designing augmentation that mimics a target device
+  - Engineering exposure- and colour-cast-robust features
+  - Selecting a model on 90 target-domain images and quantifying the uncertainty
+  - Reporting performance per camera and per class
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [domain-shift, augmentation, robustness, maize, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

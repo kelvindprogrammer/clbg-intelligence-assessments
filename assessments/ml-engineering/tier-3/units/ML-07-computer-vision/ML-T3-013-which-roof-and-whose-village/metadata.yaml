@@ -1,0 +1,55 @@
+id: ML-T3-013
+title: "Which Roof, and Whose Village? Label-Efficient Roof Mapping with Honest Spatial Validation"
+summary: >-
+  Classify roof material (metal, thatch, concrete tile) in synthetic aerial tiles from ten labelled villages and a pool of unlabelled tiles, quantify how much random splits overstate accuracy, compare supervised, patch-dictionary and normalised features across label budgets, and defend which claims the evidence supports.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-07
+format: open-ended
+secondary_formats: [investigation]
+domains: [computer-vision, energy, remote-sensing]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Fitting and scoring scikit-learn classifiers
+    - k-means clustering
+    - Grouped cross-validation
+    - Bootstrap confidence intervals
+    - Why autocorrelated data break random splits
+competencies:
+  - Designing and defending a spatially blocked evaluation
+  - Quantifying how far a random split overstates performance
+  - Using unlabelled images through learned patch features
+  - Isolating nuisance variation (village lighting and tint) from signal
+  - Planning a label budget with evidence and uncertainty
+  - Writing a validity argument for a synthetic study
+estimated_hours: {min: 24, max: 32}
+difficulty: {technical: 4, mathematical: 2, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [label-efficiency, spatial-validation, self-supervised-features, k-means, rural-electrification, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

@@ -1,0 +1,52 @@
+id: ML-T1-015
+title: "Reading the Prepaid Meter: Convolution, Pooling and Gradient Histograms from Scratch"
+summary: >-
+  Implement 2-D convolution, max pooling, Sobel gradients and a gradient-orientation histogram feature from scratch in numpy, then read noisy, shifted synthetic seven-segment meter digits with a nearest-centroid reader and explain why it beats raw pixels.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-07
+format: implementation
+secondary_formats: [investigation]
+domains: [computer-vision, energy, utilities]
+technologies: [python, numpy, pytest]
+prerequisites:
+  knowledge:
+    - Numpy indexing and broadcasting
+    - Matrix and vector norms
+    - Train/test evaluation with accuracy
+competencies:
+  - Implementing 2-D convolution, pooling and gradients without a vision library
+  - Deriving and checking output-size formulas
+  - Building shift-tolerant features
+  - Explaining why a representation generalises better than raw pixels
+  - Trading coverage for accuracy with a reject option
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 3, mathematical: 2, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [convolution, pooling, sobel, hog, image-features, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
