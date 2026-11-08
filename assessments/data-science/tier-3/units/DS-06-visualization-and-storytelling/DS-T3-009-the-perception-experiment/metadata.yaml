@@ -1,0 +1,52 @@
+id: DS-T3-009
+title: "The Perception Experiment: Which Chart Do People Read Most Accurately?"
+summary: >-
+  Replicate the logic of Cleveland and McGill's graphical perception experiment with simulated participants: render honest stimuli and measure their lie factor, design a balanced randomised study, analyse errors at the participant level with bootstrap intervals, and compute the power to recover the true ranking, including in a world where the literature is wrong.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-06
+format: replication
+domains: [visualization, human-perception, public-health-communication, nigeria]
+technologies: [python, matplotlib, pandas, numpy, pytest, experimental-design]
+prerequisites:
+  knowledge:
+    - matplotlib patches and axes
+    - pandas groupby and pivot
+    - Bootstrap confidence intervals
+competencies:
+  - Encoding magnitudes honestly (position, length, angle, area)
+  - Measuring graphical integrity with the lie factor
+  - Experimental design (balance, randomisation, counterbalancing, seeds)
+  - Participant-level analysis and bootstrap intervals
+  - Power by simulation
+  - Pre-registration and reporting a null or contrary result honestly
+  - Writing a design recommendation from perceptual evidence
+estimated_hours: {min: 16, max: 24}
+difficulty: {technical: 3, mathematical: 3, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [visualization, graphical-perception, experimental-design, replication, lie-factor, public-health, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
