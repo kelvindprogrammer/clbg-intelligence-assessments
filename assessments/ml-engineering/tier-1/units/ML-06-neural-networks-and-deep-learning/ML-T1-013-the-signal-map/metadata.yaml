@@ -1,0 +1,81 @@
+id: ML-T1-013
+title: 'The Signal Map: Backpropagation From Scratch for a 4G Coverage Classifier'
+summary: Implement a fully connected neural network, its backward pass, a gradient checker and momentum
+  SGD in numpy, then use it to classify 4G coverage from drive-test samples and explain what goes wrong
+  with zero initialisation.
+version: 1.0.0
+status: reviewed
+authors:
+- CLBG Intelligence Track Assessment Committee
+reviewers:
+- CLBG Intelligence Track Assessment Committee
+created: '2026-11-03'
+last_reviewed: '2026-11-03'
+next_review: '2027-08-01'
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-06
+format: implementation
+secondary_formats:
+- debugging-forensics
+domains:
+- telecoms
+- neural-networks
+technologies:
+- python
+- numpy
+- pandas
+- pytest
+prerequisites:
+  knowledge:
+  - 'Matrix calculus basics: chain rule and gradients of matrix products'
+  - numpy broadcasting and matrix multiplication
+  - Logistic regression and cross-entropy loss
+  - Running pytest
+competencies:
+- Deriving and implementing backpropagation for a ReLU network
+- Numerically stable softmax cross-entropy
+- Verifying gradients with finite differences
+- Implementing SGD with classical momentum
+- Explaining weight initialisation and symmetry breaking
+- Diagnosing training failures from loss curves
+- Writing tests for numerical code
+estimated_hours:
+  min: 10
+  max: 16
+difficulty:
+  technical: 3
+  mathematical: 3
+  research: 1
+  engineering: 2
+  ambiguity: 2
+  resources: 1
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets:
+- synthetic
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags:
+- backpropagation
+- mlp
+- gradient-checking
+- initialisation
+- telecoms
+- nigeria
+changelog:
+- version: 1.0.0
+  date: '2026-11-03'
+  change: Initial release.

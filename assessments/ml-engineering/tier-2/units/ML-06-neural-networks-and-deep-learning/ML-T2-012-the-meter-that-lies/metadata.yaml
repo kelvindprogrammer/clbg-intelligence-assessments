@@ -1,0 +1,84 @@
+id: ML-T2-012
+title: 'The Meter That Lies: Training a Neural Network to Catch Prepaid-Meter Tampering'
+summary: 'Design the training process around a provided numpy MLP to detect prepaid-meter tampering from
+  skewed, imbalanced tabular data: preprocessing, early stopping, imbalance handling and loss-curve diagnosis,
+  judged against a linear baseline on fresh meters.'
+version: 1.0.0
+status: reviewed
+authors:
+- CLBG Intelligence Track Assessment Committee
+reviewers:
+- CLBG Intelligence Track Assessment Committee
+created: '2026-11-03'
+last_reviewed: '2026-11-03'
+next_review: '2027-08-01'
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-06
+format: optimization
+secondary_formats:
+- comparative
+- debugging-forensics
+domains:
+- energy
+- power-utilities
+- neural-networks
+technologies:
+- python
+- numpy
+- pandas
+- scikit-learn
+- pytest
+prerequisites:
+  knowledge:
+  - Training a neural network with mini-batch gradient descent
+  - Train/validation splits and early stopping
+  - Precision-recall curves and class imbalance
+  - pandas feature preparation
+competencies:
+- Preprocessing skewed and wildly scaled features without leakage
+- Designing a training loop with early stopping and best-weight restoration
+- Handling class imbalance in a neural network
+- Diagnosing underfitting, overfitting and instability from loss curves
+- Comparing a network with a tuned linear baseline using precision-recall
+- Justifying hyperparameter choices from validation evidence
+- Testing a training pipeline
+estimated_hours:
+  min: 14
+  max: 22
+difficulty:
+  technical: 3
+  mathematical: 2
+  research: 2
+  engineering: 3
+  ambiguity: 3
+  resources: 1
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets:
+- synthetic
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags:
+- training-diagnostics
+- early-stopping
+- imbalance
+- tabular
+- energy
+- nigeria
+changelog:
+- version: 1.0.0
+  date: '2026-11-03'
+  change: Initial release.

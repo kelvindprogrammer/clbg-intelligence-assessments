@@ -1,0 +1,85 @@
+id: ML-T3-011
+title: When Does Depth Pay? A Controlled Study of Neural Networks Versus Boosted Trees on Small Agricultural
+  Tables
+summary: Run a controlled, seed-replicated study of when a small neural network matches or beats gradient-boosted
+  trees and logistic regression on small synthetic soil tables, and defend a recommendation for an agricultural
+  extension programme.
+version: 1.0.0
+status: reviewed
+authors:
+- CLBG Intelligence Track Assessment Committee
+reviewers:
+- CLBG Intelligence Track Assessment Committee
+created: '2026-11-03'
+last_reviewed: '2026-11-03'
+next_review: '2027-08-01'
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-06
+format: investigation
+secondary_formats:
+- comparative
+- open-ended
+domains:
+- agriculture
+- neural-networks
+- research-methods
+technologies:
+- python
+- numpy
+- pandas
+- scikit-learn
+- pytest
+prerequisites:
+  knowledge:
+  - Training small neural networks and gradient boosting
+  - Cross-validation, AUC and bootstrap intervals
+  - 'Experiment design: controls, seeds and confounds'
+  - Reading an empirical ML paper
+competencies:
+- Designing a controlled comparison with factors and confounds identified
+- Giving each model a fair tuning budget
+- Replicating over seeds and reporting paired uncertainty
+- Locating regime boundaries (crossovers)
+- Separating what the data support from what the generator builds in
+- Writing a recommendation with stated scope
+- Testing study code for determinism and pairing
+estimated_hours:
+  min: 24
+  max: 36
+difficulty:
+  technical: 4
+  mathematical: 3
+  research: 5
+  engineering: 3
+  ambiguity: 5
+  resources: 2
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets:
+- synthetic
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags:
+- tabular-deep-learning
+- experiment-design
+- gradient-boosting
+- agriculture
+- nigeria
+- research
+changelog:
+- version: 1.0.0
+  date: '2026-11-03'
+  change: Initial release.
