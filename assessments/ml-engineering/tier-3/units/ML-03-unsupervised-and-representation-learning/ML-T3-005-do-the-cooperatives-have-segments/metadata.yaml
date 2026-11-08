@@ -1,0 +1,53 @@
+id: ML-T3-005
+title: "Do the Cooperatives Have Segments? Testing for Structure Before Clustering"
+summary: >-
+  Decide whether a cooperative member population contains genuine segments and how many, through preprocessing ablations, null models, a gap statistic, stability analysis and a hidden-truth evaluation that includes populations with no structure.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-03
+format: investigation
+secondary_formats: [open-ended]
+domains: [fintech, cooperative-finance]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - k-means and Gaussian mixtures
+    - Silhouette, gap statistic or information criteria at the level of a textbook
+    - Adjusted Rand index
+    - Experimental design with ablations and seeds
+competencies:
+  - Testing the hypothesis that clusters exist before choosing k
+  - Designing null reference distributions and understanding how the choice of null changes the conclusion
+  - Preprocessing heterogeneous, heavy-tailed data for distance-based methods
+  - Cluster stability under resampling
+  - Building a decision procedure and calibrating it on simulated ground truth
+  - Communicating negative or ambiguous findings to a business audience
+estimated_hours: {min: 24, max: 40}
+difficulty: {technical: 4, mathematical: 3, research: 4, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [clustering, gap-statistic, null-model, stability, cooperatives, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
