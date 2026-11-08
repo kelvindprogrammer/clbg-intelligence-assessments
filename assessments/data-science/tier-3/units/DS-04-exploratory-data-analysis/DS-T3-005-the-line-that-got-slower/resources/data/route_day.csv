@@ -1,0 +1,2881 @@
+date,route,operator,trips,mean_delay_min
+2025-03-01,R1 Mile 12-CMS,Lagos Rapid,54,3.99
+2025-03-01,R1 Mile 12-CMS,Metro Link,53,3.79
+2025-03-01,R1 Mile 12-CMS,Eko Movers,53,4.29
+2025-03-01,R2 Ikorodu-TBS,Lagos Rapid,43,5.67
+2025-03-01,R2 Ikorodu-TBS,Metro Link,48,6.08
+2025-03-01,R2 Ikorodu-TBS,Eko Movers,47,5.5
+2025-03-01,R3 Oshodi-Abule Egba,Lagos Rapid,37,7.6
+2025-03-01,R3 Oshodi-Abule Egba,Metro Link,35,7.4
+2025-03-01,R3 Oshodi-Abule Egba,Eko Movers,32,8.51
+2025-03-01,R4 Ajah-Lekki,Lagos Rapid,34,8.88
+2025-03-01,R4 Ajah-Lekki,Metro Link,31,8.4
+2025-03-01,R4 Ajah-Lekki,Eko Movers,41,9.06
+2025-03-01,R5 Yaba-Ikeja,Lagos Rapid,28,10.03
+2025-03-01,R5 Yaba-Ikeja,Metro Link,32,11.32
+2025-03-01,R5 Yaba-Ikeja,Eko Movers,33,11.25
+2025-03-01,R6 Badagry-Mile 2,Lagos Rapid,24,12.51
+2025-03-01,R6 Badagry-Mile 2,Metro Link,22,11.48
+2025-03-01,R6 Badagry-Mile 2,Eko Movers,24,11.33
+2025-03-01,R7 Epe-Ajah,Lagos Rapid,25,13.55
+2025-03-01,R7 Epe-Ajah,Metro Link,18,14.58
+2025-03-01,R7 Epe-Ajah,Eko Movers,25,12.86
+2025-03-01,R8 Agege-Marina,Lagos Rapid,17,15.41
+2025-03-01,R8 Agege-Marina,Metro Link,20,16.82
+2025-03-01,R8 Agege-Marina,Eko Movers,17,14.8
+2025-03-02,R1 Mile 12-CMS,Lagos Rapid,46,4.92
+2025-03-02,R1 Mile 12-CMS,Metro Link,55,4.17
+2025-03-02,R1 Mile 12-CMS,Eko Movers,46,4.8
+2025-03-02,R2 Ikorodu-TBS,Lagos Rapid,46,5.46
+2025-03-02,R2 Ikorodu-TBS,Metro Link,47,6.52
+2025-03-02,R2 Ikorodu-TBS,Eko Movers,45,5.87
+2025-03-02,R3 Oshodi-Abule Egba,Lagos Rapid,41,7.17
+2025-03-02,R3 Oshodi-Abule Egba,Metro Link,44,7.51
+2025-03-02,R3 Oshodi-Abule Egba,Eko Movers,43,7.91
+2025-03-02,R4 Ajah-Lekki,Lagos Rapid,36,9.34
+2025-03-02,R4 Ajah-Lekki,Metro Link,37,10.13
+2025-03-02,R4 Ajah-Lekki,Eko Movers,31,8.42
+2025-03-02,R5 Yaba-Ikeja,Lagos Rapid,29,11.4
+2025-03-02,R5 Yaba-Ikeja,Metro Link,32,10.69
+2025-03-02,R5 Yaba-Ikeja,Eko Movers,32,10.88
+2025-03-02,R6 Badagry-Mile 2,Lagos Rapid,23,11.5
+2025-03-02,R6 Badagry-Mile 2,Metro Link,29,12.42
+2025-03-02,R6 Badagry-Mile 2,Eko Movers,30,12.12
+2025-03-02,R7 Epe-Ajah,Lagos Rapid,26,14.44
+2025-03-02,R7 Epe-Ajah,Metro Link,21,12.59
+2025-03-02,R7 Epe-Ajah,Eko Movers,19,13.73
+2025-03-02,R8 Agege-Marina,Lagos Rapid,20,15.2
+2025-03-02,R8 Agege-Marina,Metro Link,18,14.94
+2025-03-02,R8 Agege-Marina,Eko Movers,15,16.36
+2025-03-03,R1 Mile 12-CMS,Lagos Rapid,42,4.48
+2025-03-03,R1 Mile 12-CMS,Metro Link,45,5.51
+2025-03-03,R1 Mile 12-CMS,Eko Movers,50,5.62
+2025-03-03,R2 Ikorodu-TBS,Lagos Rapid,49,6.8
+2025-03-03,R2 Ikorodu-TBS,Metro Link,37,6.16
+2025-03-03,R2 Ikorodu-TBS,Eko Movers,49,7.19
+2025-03-03,R3 Oshodi-Abule Egba,Lagos Rapid,40,8.82
+2025-03-03,R3 Oshodi-Abule Egba,Metro Link,33,8.16
+2025-03-03,R3 Oshodi-Abule Egba,Eko Movers,43,9.07
+2025-03-03,R4 Ajah-Lekki,Lagos Rapid,28,11.03
+2025-03-03,R4 Ajah-Lekki,Metro Link,33,9.07
+2025-03-03,R4 Ajah-Lekki,Eko Movers,35,9.75
+2025-03-03,R5 Yaba-Ikeja,Lagos Rapid,26,12.23
+2025-03-03,R5 Yaba-Ikeja,Metro Link,31,12.21
+2025-03-03,R5 Yaba-Ikeja,Eko Movers,27,12.13
+2025-03-03,R6 Badagry-Mile 2,Lagos Rapid,21,13.06
+2025-03-03,R6 Badagry-Mile 2,Metro Link,28,12.52
+2025-03-03,R6 Badagry-Mile 2,Eko Movers,30,13.11
+2025-03-03,R7 Epe-Ajah,Lagos Rapid,24,16.46
+2025-03-03,R7 Epe-Ajah,Metro Link,22,15.44
+2025-03-03,R7 Epe-Ajah,Eko Movers,19,14.89
+2025-03-03,R8 Agege-Marina,Lagos Rapid,16,17.16
+2025-03-03,R8 Agege-Marina,Metro Link,17,18.04
+2025-03-03,R8 Agege-Marina,Eko Movers,20,18.13
+2025-03-04,R1 Mile 12-CMS,Lagos Rapid,48,4.87
+2025-03-04,R1 Mile 12-CMS,Metro Link,40,5.28
+2025-03-04,R1 Mile 12-CMS,Eko Movers,52,4.55
+2025-03-04,R2 Ikorodu-TBS,Lagos Rapid,40,7.72
+2025-03-04,R2 Ikorodu-TBS,Metro Link,35,7.24
+2025-03-04,R2 Ikorodu-TBS,Eko Movers,49,6.34
+2025-03-04,R3 Oshodi-Abule Egba,Lagos Rapid,45,8.95
+2025-03-04,R3 Oshodi-Abule Egba,Metro Link,41,8.54
+2025-03-04,R3 Oshodi-Abule Egba,Eko Movers,37,8.95
+2025-03-04,R4 Ajah-Lekki,Lagos Rapid,34,9.71
+2025-03-04,R4 Ajah-Lekki,Metro Link,36,10.34
+2025-03-04,R4 Ajah-Lekki,Eko Movers,30,10.67
+2025-03-04,R5 Yaba-Ikeja,Lagos Rapid,31,11.72
+2025-03-04,R5 Yaba-Ikeja,Metro Link,33,12.2
+2025-03-04,R5 Yaba-Ikeja,Eko Movers,31,12.86
+2025-03-04,R6 Badagry-Mile 2,Lagos Rapid,23,13.87
+2025-03-04,R6 Badagry-Mile 2,Metro Link,28,13.84
+2025-03-04,R6 Badagry-Mile 2,Eko Movers,30,13.6
+2025-03-04,R7 Epe-Ajah,Lagos Rapid,23,14.81
+2025-03-04,R7 Epe-Ajah,Metro Link,18,15.86
+2025-03-04,R7 Epe-Ajah,Eko Movers,23,16.0
+2025-03-04,R8 Agege-Marina,Lagos Rapid,21,19.15
+2025-03-04,R8 Agege-Marina,Metro Link,15,17.56
+2025-03-04,R8 Agege-Marina,Eko Movers,16,17.42
+2025-03-05,R1 Mile 12-CMS,Lagos Rapid,47,5.59
+2025-03-05,R1 Mile 12-CMS,Metro Link,40,4.96
+2025-03-05,R1 Mile 12-CMS,Eko Movers,40,3.55
+2025-03-05,R2 Ikorodu-TBS,Lagos Rapid,47,7.25
+2025-03-05,R2 Ikorodu-TBS,Metro Link,38,7.14
+2025-03-05,R2 Ikorodu-TBS,Eko Movers,41,7.38
+2025-03-05,R3 Oshodi-Abule Egba,Lagos Rapid,38,8.07
+2025-03-05,R3 Oshodi-Abule Egba,Metro Link,32,8.38
+2025-03-05,R3 Oshodi-Abule Egba,Eko Movers,34,8.68
+2025-03-05,R4 Ajah-Lekki,Lagos Rapid,33,10.03
+2025-03-05,R4 Ajah-Lekki,Metro Link,32,9.06
+2025-03-05,R4 Ajah-Lekki,Eko Movers,39,9.77
+2025-03-05,R5 Yaba-Ikeja,Lagos Rapid,26,13.22
+2025-03-05,R5 Yaba-Ikeja,Metro Link,28,12.29
+2025-03-05,R5 Yaba-Ikeja,Eko Movers,32,12.2
+2025-03-05,R6 Badagry-Mile 2,Lagos Rapid,27,13.29
+2025-03-05,R6 Badagry-Mile 2,Metro Link,24,13.68
+2025-03-05,R6 Badagry-Mile 2,Eko Movers,27,12.74
+2025-03-05,R7 Epe-Ajah,Lagos Rapid,23,15.59
+2025-03-05,R7 Epe-Ajah,Metro Link,24,15.46
+2025-03-05,R7 Epe-Ajah,Eko Movers,18,15.44
+2025-03-05,R8 Agege-Marina,Lagos Rapid,15,17.97
+2025-03-05,R8 Agege-Marina,Metro Link,17,18.16
+2025-03-05,R8 Agege-Marina,Eko Movers,15,16.77
+2025-03-06,R1 Mile 12-CMS,Lagos Rapid,43,5.16
+2025-03-06,R1 Mile 12-CMS,Metro Link,54,5.22
+2025-03-06,R1 Mile 12-CMS,Eko Movers,40,5.3
+2025-03-06,R2 Ikorodu-TBS,Lagos Rapid,48,6.95
+2025-03-06,R2 Ikorodu-TBS,Metro Link,49,6.83
+2025-03-06,R2 Ikorodu-TBS,Eko Movers,35,8.19
+2025-03-06,R3 Oshodi-Abule Egba,Lagos Rapid,34,8.37
+2025-03-06,R3 Oshodi-Abule Egba,Metro Link,39,8.65
+2025-03-06,R3 Oshodi-Abule Egba,Eko Movers,45,8.69
+2025-03-06,R4 Ajah-Lekki,Lagos Rapid,33,9.67
+2025-03-06,R4 Ajah-Lekki,Metro Link,36,9.99
+2025-03-06,R4 Ajah-Lekki,Eko Movers,33,9.88
+2025-03-06,R5 Yaba-Ikeja,Lagos Rapid,31,11.63
+2025-03-06,R5 Yaba-Ikeja,Metro Link,32,11.79
+2025-03-06,R5 Yaba-Ikeja,Eko Movers,25,11.6
+2025-03-06,R6 Badagry-Mile 2,Lagos Rapid,31,14.13
+2025-03-06,R6 Badagry-Mile 2,Metro Link,23,13.38
+2025-03-06,R6 Badagry-Mile 2,Eko Movers,21,14.84
+2025-03-06,R7 Epe-Ajah,Lagos Rapid,24,16.11
+2025-03-06,R7 Epe-Ajah,Metro Link,21,15.38
+2025-03-06,R7 Epe-Ajah,Eko Movers,24,15.91
+2025-03-06,R8 Agege-Marina,Lagos Rapid,17,16.22
+2025-03-06,R8 Agege-Marina,Metro Link,17,17.7
+2025-03-06,R8 Agege-Marina,Eko Movers,21,17.76
+2025-03-07,R1 Mile 12-CMS,Lagos Rapid,40,6.82
+2025-03-07,R1 Mile 12-CMS,Metro Link,40,5.86
+2025-03-07,R1 Mile 12-CMS,Eko Movers,39,5.87
+2025-03-07,R2 Ikorodu-TBS,Lagos Rapid,44,7.0
+2025-03-07,R2 Ikorodu-TBS,Metro Link,50,6.73
+2025-03-07,R2 Ikorodu-TBS,Eko Movers,36,7.37
+2025-03-07,R3 Oshodi-Abule Egba,Lagos Rapid,37,7.84
+2025-03-07,R3 Oshodi-Abule Egba,Metro Link,40,9.02
+2025-03-07,R3 Oshodi-Abule Egba,Eko Movers,42,8.5
+2025-03-07,R4 Ajah-Lekki,Lagos Rapid,37,10.13
+2025-03-07,R4 Ajah-Lekki,Metro Link,35,9.02
+2025-03-07,R4 Ajah-Lekki,Eko Movers,38,9.68
+2025-03-07,R5 Yaba-Ikeja,Lagos Rapid,27,12.82
+2025-03-07,R5 Yaba-Ikeja,Metro Link,29,12.17
+2025-03-07,R5 Yaba-Ikeja,Eko Movers,36,12.55
+2025-03-07,R6 Badagry-Mile 2,Lagos Rapid,22,14.36
+2025-03-07,R6 Badagry-Mile 2,Metro Link,23,14.89
+2025-03-07,R6 Badagry-Mile 2,Eko Movers,29,13.94
+2025-03-07,R7 Epe-Ajah,Lagos Rapid,25,15.36
+2025-03-07,R7 Epe-Ajah,Metro Link,24,16.38
+2025-03-07,R7 Epe-Ajah,Eko Movers,18,16.29
+2025-03-07,R8 Agege-Marina,Lagos Rapid,16,16.94
+2025-03-07,R8 Agege-Marina,Metro Link,15,17.99
+2025-03-07,R8 Agege-Marina,Eko Movers,15,18.73
+2025-03-08,R1 Mile 12-CMS,Lagos Rapid,51,5.06
+2025-03-08,R1 Mile 12-CMS,Metro Link,43,4.08
+2025-03-08,R1 Mile 12-CMS,Eko Movers,51,4.29
+2025-03-08,R2 Ikorodu-TBS,Lagos Rapid,48,5.87
+2025-03-08,R2 Ikorodu-TBS,Metro Link,40,5.49
+2025-03-08,R2 Ikorodu-TBS,Eko Movers,47,6.12
+2025-03-08,R3 Oshodi-Abule Egba,Lagos Rapid,44,7.22
+2025-03-08,R3 Oshodi-Abule Egba,Metro Link,33,7.0
+2025-03-08,R3 Oshodi-Abule Egba,Eko Movers,37,7.35
+2025-03-08,R4 Ajah-Lekki,Lagos Rapid,32,8.81
+2025-03-08,R4 Ajah-Lekki,Metro Link,40,8.32
+2025-03-08,R4 Ajah-Lekki,Eko Movers,28,8.72
+2025-03-08,R5 Yaba-Ikeja,Lagos Rapid,26,10.48
+2025-03-08,R5 Yaba-Ikeja,Metro Link,27,11.39
+2025-03-08,R5 Yaba-Ikeja,Eko Movers,33,11.61
+2025-03-08,R6 Badagry-Mile 2,Lagos Rapid,26,12.85
+2025-03-08,R6 Badagry-Mile 2,Metro Link,30,11.94
+2025-03-08,R6 Badagry-Mile 2,Eko Movers,21,11.57
+2025-03-08,R7 Epe-Ajah,Lagos Rapid,21,12.31
+2025-03-08,R7 Epe-Ajah,Metro Link,25,13.61
+2025-03-08,R7 Epe-Ajah,Eko Movers,23,14.29
+2025-03-08,R8 Agege-Marina,Lagos Rapid,15,15.82
+2025-03-08,R8 Agege-Marina,Metro Link,17,15.3
+2025-03-08,R8 Agege-Marina,Eko Movers,20,15.73
+2025-03-09,R1 Mile 12-CMS,Lagos Rapid,49,4.94
+2025-03-09,R1 Mile 12-CMS,Metro Link,42,5.52
+2025-03-09,R1 Mile 12-CMS,Eko Movers,42,4.91
+2025-03-09,R2 Ikorodu-TBS,Lagos Rapid,50,6.31
+2025-03-09,R2 Ikorodu-TBS,Metro Link,44,6.38
+2025-03-09,R2 Ikorodu-TBS,Eko Movers,49,5.49
+2025-03-09,R3 Oshodi-Abule Egba,Lagos Rapid,36,7.52
+2025-03-09,R3 Oshodi-Abule Egba,Metro Link,44,6.62
+2025-03-09,R3 Oshodi-Abule Egba,Eko Movers,39,7.38
+2025-03-09,R4 Ajah-Lekki,Lagos Rapid,31,8.67
+2025-03-09,R4 Ajah-Lekki,Metro Link,29,9.07
+2025-03-09,R4 Ajah-Lekki,Eko Movers,36,8.84
+2025-03-09,R5 Yaba-Ikeja,Lagos Rapid,32,10.81
+2025-03-09,R5 Yaba-Ikeja,Metro Link,25,9.55
+2025-03-09,R5 Yaba-Ikeja,Eko Movers,28,9.95
+2025-03-09,R6 Badagry-Mile 2,Lagos Rapid,23,11.93
+2025-03-09,R6 Badagry-Mile 2,Metro Link,22,11.96
+2025-03-09,R6 Badagry-Mile 2,Eko Movers,30,12.33
+2025-03-09,R7 Epe-Ajah,Lagos Rapid,18,13.95
+2025-03-09,R7 Epe-Ajah,Metro Link,19,14.58
+2025-03-09,R7 Epe-Ajah,Eko Movers,22,13.19
+2025-03-09,R8 Agege-Marina,Lagos Rapid,16,15.91
+2025-03-09,R8 Agege-Marina,Metro Link,17,16.55
+2025-03-09,R8 Agege-Marina,Eko Movers,17,14.41
+2025-03-10,R1 Mile 12-CMS,Lagos Rapid,38,6.17
+2025-03-10,R1 Mile 12-CMS,Metro Link,51,5.18
+2025-03-10,R1 Mile 12-CMS,Eko Movers,42,5.15
+2025-03-10,R2 Ikorodu-TBS,Lagos Rapid,41,6.63
+2025-03-10,R2 Ikorodu-TBS,Metro Link,43,6.44
+2025-03-10,R2 Ikorodu-TBS,Eko Movers,45,7.73
+2025-03-10,R3 Oshodi-Abule Egba,Lagos Rapid,38,8.32
+2025-03-10,R3 Oshodi-Abule Egba,Metro Link,37,8.75
+2025-03-10,R3 Oshodi-Abule Egba,Eko Movers,44,9.12
+2025-03-10,R4 Ajah-Lekki,Lagos Rapid,32,9.59
+2025-03-10,R4 Ajah-Lekki,Metro Link,39,9.74
+2025-03-10,R4 Ajah-Lekki,Eko Movers,33,9.83
+2025-03-10,R5 Yaba-Ikeja,Lagos Rapid,31,12.05
+2025-03-10,R5 Yaba-Ikeja,Metro Link,28,11.5
+2025-03-10,R5 Yaba-Ikeja,Eko Movers,25,11.98
+2025-03-10,R6 Badagry-Mile 2,Lagos Rapid,24,14.9
+2025-03-10,R6 Badagry-Mile 2,Metro Link,26,13.61
+2025-03-10,R6 Badagry-Mile 2,Eko Movers,22,14.25
+2025-03-10,R7 Epe-Ajah,Lagos Rapid,24,15.66
+2025-03-10,R7 Epe-Ajah,Metro Link,23,16.56
+2025-03-10,R7 Epe-Ajah,Eko Movers,21,15.19
+2025-03-10,R8 Agege-Marina,Lagos Rapid,17,17.63
+2025-03-10,R8 Agege-Marina,Metro Link,15,17.92
+2025-03-10,R8 Agege-Marina,Eko Movers,19,17.03
+2025-03-11,R1 Mile 12-CMS,Lagos Rapid,48,5.7
+2025-03-11,R1 Mile 12-CMS,Metro Link,46,4.67
+2025-03-11,R1 Mile 12-CMS,Eko Movers,45,5.21
+2025-03-11,R2 Ikorodu-TBS,Lagos Rapid,40,6.74
+2025-03-11,R2 Ikorodu-TBS,Metro Link,37,6.79
+2025-03-11,R2 Ikorodu-TBS,Eko Movers,36,7.65
+2025-03-11,R3 Oshodi-Abule Egba,Lagos Rapid,39,7.76
+2025-03-11,R3 Oshodi-Abule Egba,Metro Link,43,7.89
+2025-03-11,R3 Oshodi-Abule Egba,Eko Movers,43,8.38
+2025-03-11,R4 Ajah-Lekki,Lagos Rapid,37,10.03
+2025-03-11,R4 Ajah-Lekki,Metro Link,36,9.39
+2025-03-11,R4 Ajah-Lekki,Eko Movers,32,8.95
+2025-03-11,R5 Yaba-Ikeja,Lagos Rapid,33,12.26
+2025-03-11,R5 Yaba-Ikeja,Metro Link,31,11.47
+2025-03-11,R5 Yaba-Ikeja,Eko Movers,28,11.76
+2025-03-11,R6 Badagry-Mile 2,Lagos Rapid,29,13.55
+2025-03-11,R6 Badagry-Mile 2,Metro Link,31,14.48
+2025-03-11,R6 Badagry-Mile 2,Eko Movers,31,14.87
+2025-03-11,R7 Epe-Ajah,Lagos Rapid,19,15.25
+2025-03-11,R7 Epe-Ajah,Metro Link,18,14.77
+2025-03-11,R7 Epe-Ajah,Eko Movers,21,14.89
+2025-03-11,R8 Agege-Marina,Lagos Rapid,15,17.68
+2025-03-11,R8 Agege-Marina,Metro Link,15,18.04
+2025-03-11,R8 Agege-Marina,Eko Movers,18,17.75
+2025-03-12,R1 Mile 12-CMS,Lagos Rapid,46,5.42
+2025-03-12,R1 Mile 12-CMS,Metro Link,45,6.36
+2025-03-12,R1 Mile 12-CMS,Eko Movers,49,5.09
+2025-03-12,R2 Ikorodu-TBS,Lagos Rapid,42,7.21
+2025-03-12,R2 Ikorodu-TBS,Metro Link,42,6.71
+2025-03-12,R2 Ikorodu-TBS,Eko Movers,44,7.18
+2025-03-12,R3 Oshodi-Abule Egba,Lagos Rapid,32,7.95
+2025-03-12,R3 Oshodi-Abule Egba,Metro Link,43,8.5
+2025-03-12,R3 Oshodi-Abule Egba,Eko Movers,37,8.05
+2025-03-12,R4 Ajah-Lekki,Lagos Rapid,37,10.46
+2025-03-12,R4 Ajah-Lekki,Metro Link,31,9.16
+2025-03-12,R4 Ajah-Lekki,Eko Movers,39,9.59
+2025-03-12,R5 Yaba-Ikeja,Lagos Rapid,33,11.72
+2025-03-12,R5 Yaba-Ikeja,Metro Link,30,11.58
+2025-03-12,R5 Yaba-Ikeja,Eko Movers,34,12.81
+2025-03-12,R6 Badagry-Mile 2,Lagos Rapid,30,13.58
+2025-03-12,R6 Badagry-Mile 2,Metro Link,31,13.16
+2025-03-12,R6 Badagry-Mile 2,Eko Movers,28,13.3
+2025-03-12,R7 Epe-Ajah,Lagos Rapid,21,16.49
+2025-03-12,R7 Epe-Ajah,Metro Link,25,16.11
+2025-03-12,R7 Epe-Ajah,Eko Movers,24,17.27
+2025-03-12,R8 Agege-Marina,Lagos Rapid,18,17.42
+2025-03-12,R8 Agege-Marina,Metro Link,21,16.81
+2025-03-12,R8 Agege-Marina,Eko Movers,21,16.73
+2025-03-13,R1 Mile 12-CMS,Lagos Rapid,37,5.33
+2025-03-13,R1 Mile 12-CMS,Metro Link,53,5.74
+2025-03-13,R1 Mile 12-CMS,Eko Movers,39,5.53
+2025-03-13,R2 Ikorodu-TBS,Lagos Rapid,47,7.72
+2025-03-13,R2 Ikorodu-TBS,Metro Link,46,7.31
+2025-03-13,R2 Ikorodu-TBS,Eko Movers,48,7.37
+2025-03-13,R3 Oshodi-Abule Egba,Lagos Rapid,36,8.09
+2025-03-13,R3 Oshodi-Abule Egba,Metro Link,41,7.98
+2025-03-13,R3 Oshodi-Abule Egba,Eko Movers,33,7.81
+2025-03-13,R4 Ajah-Lekki,Lagos Rapid,29,9.48
+2025-03-13,R4 Ajah-Lekki,Metro Link,29,10.32
+2025-03-13,R4 Ajah-Lekki,Eko Movers,35,9.16
+2025-03-13,R5 Yaba-Ikeja,Lagos Rapid,34,12.38
+2025-03-13,R5 Yaba-Ikeja,Metro Link,28,11.76
+2025-03-13,R5 Yaba-Ikeja,Eko Movers,34,12.95
+2025-03-13,R6 Badagry-Mile 2,Lagos Rapid,28,14.79
+2025-03-13,R6 Badagry-Mile 2,Metro Link,22,14.16
+2025-03-13,R6 Badagry-Mile 2,Eko Movers,29,14.42
+2025-03-13,R7 Epe-Ajah,Lagos Rapid,24,15.02
+2025-03-13,R7 Epe-Ajah,Metro Link,26,16.17
+2025-03-13,R7 Epe-Ajah,Eko Movers,26,15.53
+2025-03-13,R8 Agege-Marina,Lagos Rapid,21,18.57
+2025-03-13,R8 Agege-Marina,Metro Link,15,17.49
+2025-03-13,R8 Agege-Marina,Eko Movers,21,17.22
+2025-03-14,R1 Mile 12-CMS,Lagos Rapid,39,4.76
+2025-03-14,R1 Mile 12-CMS,Metro Link,38,5.27
+2025-03-14,R1 Mile 12-CMS,Eko Movers,43,5.69
+2025-03-14,R2 Ikorodu-TBS,Lagos Rapid,47,6.31
+2025-03-14,R2 Ikorodu-TBS,Metro Link,39,7.43
+2025-03-14,R2 Ikorodu-TBS,Eko Movers,48,6.96
+2025-03-14,R3 Oshodi-Abule Egba,Lagos Rapid,32,8.27
+2025-03-14,R3 Oshodi-Abule Egba,Metro Link,43,8.19
+2025-03-14,R3 Oshodi-Abule Egba,Eko Movers,34,8.13
+2025-03-14,R4 Ajah-Lekki,Lagos Rapid,32,9.5
+2025-03-14,R4 Ajah-Lekki,Metro Link,34,10.59
+2025-03-14,R4 Ajah-Lekki,Eko Movers,33,9.42
+2025-03-14,R5 Yaba-Ikeja,Lagos Rapid,28,12.22
+2025-03-14,R5 Yaba-Ikeja,Metro Link,33,12.53
+2025-03-14,R5 Yaba-Ikeja,Eko Movers,35,11.56
+2025-03-14,R6 Badagry-Mile 2,Lagos Rapid,30,13.45
+2025-03-14,R6 Badagry-Mile 2,Metro Link,23,14.03
+2025-03-14,R6 Badagry-Mile 2,Eko Movers,24,14.64
+2025-03-14,R7 Epe-Ajah,Lagos Rapid,24,15.63
+2025-03-14,R7 Epe-Ajah,Metro Link,19,15.44
+2025-03-14,R7 Epe-Ajah,Eko Movers,21,17.12
+2025-03-14,R8 Agege-Marina,Lagos Rapid,17,16.71
+2025-03-14,R8 Agege-Marina,Metro Link,18,18.75
+2025-03-14,R8 Agege-Marina,Eko Movers,19,18.98
+2025-03-15,R1 Mile 12-CMS,Lagos Rapid,42,4.57
+2025-03-15,R1 Mile 12-CMS,Metro Link,46,4.16
+2025-03-15,R1 Mile 12-CMS,Eko Movers,45,4.54
+2025-03-15,R2 Ikorodu-TBS,Lagos Rapid,50,6.39
+2025-03-15,R2 Ikorodu-TBS,Metro Link,35,6.22
+2025-03-15,R2 Ikorodu-TBS,Eko Movers,40,6.26
+2025-03-15,R3 Oshodi-Abule Egba,Lagos Rapid,36,7.29
+2025-03-15,R3 Oshodi-Abule Egba,Metro Link,41,7.29
+2025-03-15,R3 Oshodi-Abule Egba,Eko Movers,39,7.44
+2025-03-15,R4 Ajah-Lekki,Lagos Rapid,28,7.32
+2025-03-15,R4 Ajah-Lekki,Metro Link,34,7.92
+2025-03-15,R4 Ajah-Lekki,Eko Movers,38,8.55
+2025-03-15,R5 Yaba-Ikeja,Lagos Rapid,35,10.87
+2025-03-15,R5 Yaba-Ikeja,Metro Link,25,10.24
+2025-03-15,R5 Yaba-Ikeja,Eko Movers,25,10.05
+2025-03-15,R6 Badagry-Mile 2,Lagos Rapid,22,11.98
+2025-03-15,R6 Badagry-Mile 2,Metro Link,29,12.54
+2025-03-15,R6 Badagry-Mile 2,Eko Movers,27,10.71
+2025-03-15,R7 Epe-Ajah,Lagos Rapid,22,14.32
+2025-03-15,R7 Epe-Ajah,Metro Link,18,14.51
+2025-03-15,R7 Epe-Ajah,Eko Movers,21,14.64
+2025-03-15,R8 Agege-Marina,Lagos Rapid,15,17.24
+2025-03-15,R8 Agege-Marina,Metro Link,15,17.17
+2025-03-15,R8 Agege-Marina,Eko Movers,18,15.68
+2025-03-16,R1 Mile 12-CMS,Lagos Rapid,50,4.84
+2025-03-16,R1 Mile 12-CMS,Metro Link,40,4.26
+2025-03-16,R1 Mile 12-CMS,Eko Movers,54,4.63
+2025-03-16,R2 Ikorodu-TBS,Lagos Rapid,41,6.74
+2025-03-16,R2 Ikorodu-TBS,Metro Link,38,6.07
+2025-03-16,R2 Ikorodu-TBS,Eko Movers,39,6.95
+2025-03-16,R3 Oshodi-Abule Egba,Lagos Rapid,31,7.4
+2025-03-16,R3 Oshodi-Abule Egba,Metro Link,33,7.73
+2025-03-16,R3 Oshodi-Abule Egba,Eko Movers,32,6.89
+2025-03-16,R4 Ajah-Lekki,Lagos Rapid,34,8.87
+2025-03-16,R4 Ajah-Lekki,Metro Link,34,8.96
+2025-03-16,R4 Ajah-Lekki,Eko Movers,34,9.62
+2025-03-16,R5 Yaba-Ikeja,Lagos Rapid,33,10.41
+2025-03-16,R5 Yaba-Ikeja,Metro Link,28,11.78
+2025-03-16,R5 Yaba-Ikeja,Eko Movers,33,11.15
+2025-03-16,R6 Badagry-Mile 2,Lagos Rapid,24,11.49
+2025-03-16,R6 Badagry-Mile 2,Metro Link,30,12.44
+2025-03-16,R6 Badagry-Mile 2,Eko Movers,27,12.71
+2025-03-16,R7 Epe-Ajah,Lagos Rapid,25,13.35
+2025-03-16,R7 Epe-Ajah,Metro Link,22,13.58
+2025-03-16,R7 Epe-Ajah,Eko Movers,25,14.35
+2025-03-16,R8 Agege-Marina,Lagos Rapid,17,14.65
+2025-03-16,R8 Agege-Marina,Metro Link,21,15.91
+2025-03-16,R8 Agege-Marina,Eko Movers,20,16.12
+2025-03-17,R1 Mile 12-CMS,Lagos Rapid,40,5.25
+2025-03-17,R1 Mile 12-CMS,Metro Link,41,5.75
+2025-03-17,R1 Mile 12-CMS,Eko Movers,54,5.92
+2025-03-17,R2 Ikorodu-TBS,Lagos Rapid,44,7.04
+2025-03-17,R2 Ikorodu-TBS,Metro Link,46,7.23
+2025-03-17,R2 Ikorodu-TBS,Eko Movers,45,7.2
+2025-03-17,R3 Oshodi-Abule Egba,Lagos Rapid,36,9.39
+2025-03-17,R3 Oshodi-Abule Egba,Metro Link,37,7.6
+2025-03-17,R3 Oshodi-Abule Egba,Eko Movers,45,8.37
+2025-03-17,R4 Ajah-Lekki,Lagos Rapid,40,9.93
+2025-03-17,R4 Ajah-Lekki,Metro Link,39,10.28
+2025-03-17,R4 Ajah-Lekki,Eko Movers,34,10.72
+2025-03-17,R5 Yaba-Ikeja,Lagos Rapid,27,12.2
+2025-03-17,R5 Yaba-Ikeja,Metro Link,26,12.29
+2025-03-17,R5 Yaba-Ikeja,Eko Movers,27,11.7
+2025-03-17,R6 Badagry-Mile 2,Lagos Rapid,23,13.11
+2025-03-17,R6 Badagry-Mile 2,Metro Link,30,13.63
+2025-03-17,R6 Badagry-Mile 2,Eko Movers,27,13.33
+2025-03-17,R7 Epe-Ajah,Lagos Rapid,23,15.84
+2025-03-17,R7 Epe-Ajah,Metro Link,22,16.93
+2025-03-17,R7 Epe-Ajah,Eko Movers,20,15.53
+2025-03-17,R8 Agege-Marina,Lagos Rapid,15,18.03
+2025-03-17,R8 Agege-Marina,Metro Link,17,17.09
+2025-03-17,R8 Agege-Marina,Eko Movers,19,17.57
+2025-03-18,R1 Mile 12-CMS,Lagos Rapid,40,5.46
+2025-03-18,R1 Mile 12-CMS,Metro Link,51,5.54
+2025-03-18,R1 Mile 12-CMS,Eko Movers,44,5.96
+2025-03-18,R2 Ikorodu-TBS,Lagos Rapid,41,6.8
+2025-03-18,R2 Ikorodu-TBS,Metro Link,34,7.64
+2025-03-18,R2 Ikorodu-TBS,Eko Movers,50,7.19
+2025-03-18,R3 Oshodi-Abule Egba,Lagos Rapid,39,8.09
+2025-03-18,R3 Oshodi-Abule Egba,Metro Link,43,8.41
+2025-03-18,R3 Oshodi-Abule Egba,Eko Movers,44,8.93
+2025-03-18,R4 Ajah-Lekki,Lagos Rapid,30,10.81
+2025-03-18,R4 Ajah-Lekki,Metro Link,35,10.62
+2025-03-18,R4 Ajah-Lekki,Eko Movers,28,10.82
+2025-03-18,R5 Yaba-Ikeja,Lagos Rapid,32,11.56
+2025-03-18,R5 Yaba-Ikeja,Metro Link,28,11.49
+2025-03-18,R5 Yaba-Ikeja,Eko Movers,35,12.76
+2025-03-18,R6 Badagry-Mile 2,Lagos Rapid,21,14.17
+2025-03-18,R6 Badagry-Mile 2,Metro Link,23,14.63
+2025-03-18,R6 Badagry-Mile 2,Eko Movers,31,14.41
+2025-03-18,R7 Epe-Ajah,Lagos Rapid,23,13.98
+2025-03-18,R7 Epe-Ajah,Metro Link,19,14.74
+2025-03-18,R7 Epe-Ajah,Eko Movers,24,15.9
+2025-03-18,R8 Agege-Marina,Lagos Rapid,21,17.84
+2025-03-18,R8 Agege-Marina,Metro Link,16,17.5
+2025-03-18,R8 Agege-Marina,Eko Movers,19,17.91
+2025-03-19,R1 Mile 12-CMS,Lagos Rapid,51,5.86
+2025-03-19,R1 Mile 12-CMS,Metro Link,54,6.15
+2025-03-19,R1 Mile 12-CMS,Eko Movers,46,5.34
+2025-03-19,R2 Ikorodu-TBS,Lagos Rapid,42,6.89
+2025-03-19,R2 Ikorodu-TBS,Metro Link,36,6.97
+2025-03-19,R2 Ikorodu-TBS,Eko Movers,44,6.84
+2025-03-19,R3 Oshodi-Abule Egba,Lagos Rapid,45,7.99
+2025-03-19,R3 Oshodi-Abule Egba,Metro Link,37,8.92
+2025-03-19,R3 Oshodi-Abule Egba,Eko Movers,32,8.52
+2025-03-19,R4 Ajah-Lekki,Lagos Rapid,38,10.45
+2025-03-19,R4 Ajah-Lekki,Metro Link,39,10.52
+2025-03-19,R4 Ajah-Lekki,Eko Movers,33,9.86
+2025-03-19,R5 Yaba-Ikeja,Lagos Rapid,35,11.94
+2025-03-19,R5 Yaba-Ikeja,Metro Link,31,12.66
+2025-03-19,R5 Yaba-Ikeja,Eko Movers,30,12.74
+2025-03-19,R6 Badagry-Mile 2,Lagos Rapid,22,12.77
+2025-03-19,R6 Badagry-Mile 2,Metro Link,26,14.17
+2025-03-19,R6 Badagry-Mile 2,Eko Movers,24,15.44
+2025-03-19,R7 Epe-Ajah,Lagos Rapid,26,16.17
+2025-03-19,R7 Epe-Ajah,Metro Link,24,15.74
+2025-03-19,R7 Epe-Ajah,Eko Movers,20,15.9
+2025-03-19,R8 Agege-Marina,Lagos Rapid,15,17.29
+2025-03-19,R8 Agege-Marina,Metro Link,17,17.34
+2025-03-19,R8 Agege-Marina,Eko Movers,18,17.72
+2025-03-20,R1 Mile 12-CMS,Lagos Rapid,54,4.91
+2025-03-20,R1 Mile 12-CMS,Metro Link,42,5.19
+2025-03-20,R1 Mile 12-CMS,Eko Movers,53,5.06
+2025-03-20,R2 Ikorodu-TBS,Lagos Rapid,39,6.96
+2025-03-20,R2 Ikorodu-TBS,Metro Link,46,7.04
+2025-03-20,R2 Ikorodu-TBS,Eko Movers,48,6.55
+2025-03-20,R3 Oshodi-Abule Egba,Lagos Rapid,41,9.42
+2025-03-20,R3 Oshodi-Abule Egba,Metro Link,40,9.44
+2025-03-20,R3 Oshodi-Abule Egba,Eko Movers,41,7.86
+2025-03-20,R4 Ajah-Lekki,Lagos Rapid,38,9.51
+2025-03-20,R4 Ajah-Lekki,Metro Link,34,9.12
+2025-03-20,R4 Ajah-Lekki,Eko Movers,30,9.63
+2025-03-20,R5 Yaba-Ikeja,Lagos Rapid,32,12.91
+2025-03-20,R5 Yaba-Ikeja,Metro Link,35,11.39
+2025-03-20,R5 Yaba-Ikeja,Eko Movers,30,12.43
+2025-03-20,R6 Badagry-Mile 2,Lagos Rapid,27,12.64
+2025-03-20,R6 Badagry-Mile 2,Metro Link,24,14.69
+2025-03-20,R6 Badagry-Mile 2,Eko Movers,26,13.61
+2025-03-20,R7 Epe-Ajah,Lagos Rapid,18,15.06
+2025-03-20,R7 Epe-Ajah,Metro Link,25,15.65
+2025-03-20,R7 Epe-Ajah,Eko Movers,21,16.21
+2025-03-20,R8 Agege-Marina,Lagos Rapid,19,17.65
+2025-03-20,R8 Agege-Marina,Metro Link,17,17.76
+2025-03-20,R8 Agege-Marina,Eko Movers,15,16.26
+2025-03-21,R1 Mile 12-CMS,Lagos Rapid,41,4.83
+2025-03-21,R1 Mile 12-CMS,Metro Link,55,5.32
+2025-03-21,R1 Mile 12-CMS,Eko Movers,40,4.84
+2025-03-21,R2 Ikorodu-TBS,Lagos Rapid,43,6.84
+2025-03-21,R2 Ikorodu-TBS,Metro Link,50,7.19
+2025-03-21,R2 Ikorodu-TBS,Eko Movers,41,7.19
+2025-03-21,R3 Oshodi-Abule Egba,Lagos Rapid,36,7.42
+2025-03-21,R3 Oshodi-Abule Egba,Metro Link,32,8.34
+2025-03-21,R3 Oshodi-Abule Egba,Eko Movers,34,8.43
+2025-03-21,R4 Ajah-Lekki,Lagos Rapid,39,10.06
+2025-03-21,R4 Ajah-Lekki,Metro Link,38,9.73
+2025-03-21,R4 Ajah-Lekki,Eko Movers,33,9.54
+2025-03-21,R5 Yaba-Ikeja,Lagos Rapid,32,12.26
+2025-03-21,R5 Yaba-Ikeja,Metro Link,34,11.8
+2025-03-21,R5 Yaba-Ikeja,Eko Movers,34,11.92
+2025-03-21,R6 Badagry-Mile 2,Lagos Rapid,22,14.02
+2025-03-21,R6 Badagry-Mile 2,Metro Link,23,12.24
+2025-03-21,R6 Badagry-Mile 2,Eko Movers,30,14.14
+2025-03-21,R7 Epe-Ajah,Lagos Rapid,26,14.17
+2025-03-21,R7 Epe-Ajah,Metro Link,24,15.21
+2025-03-21,R7 Epe-Ajah,Eko Movers,19,16.51
+2025-03-21,R8 Agege-Marina,Lagos Rapid,21,17.92
+2025-03-21,R8 Agege-Marina,Metro Link,15,16.98
+2025-03-21,R8 Agege-Marina,Eko Movers,17,17.84
+2025-03-22,R1 Mile 12-CMS,Lagos Rapid,39,4.89
+2025-03-22,R1 Mile 12-CMS,Metro Link,49,4.68
+2025-03-22,R1 Mile 12-CMS,Eko Movers,42,4.26
+2025-03-22,R2 Ikorodu-TBS,Lagos Rapid,35,5.89
+2025-03-22,R2 Ikorodu-TBS,Metro Link,50,6.23
+2025-03-22,R2 Ikorodu-TBS,Eko Movers,44,6.02
+2025-03-22,R3 Oshodi-Abule Egba,Lagos Rapid,35,7.49
+2025-03-22,R3 Oshodi-Abule Egba,Metro Link,32,6.84
+2025-03-22,R3 Oshodi-Abule Egba,Eko Movers,34,7.59
+2025-03-22,R4 Ajah-Lekki,Lagos Rapid,39,8.72
+2025-03-22,R4 Ajah-Lekki,Metro Link,28,8.85
+2025-03-22,R4 Ajah-Lekki,Eko Movers,33,8.39
+2025-03-22,R5 Yaba-Ikeja,Lagos Rapid,31,10.35
+2025-03-22,R5 Yaba-Ikeja,Metro Link,34,10.52
+2025-03-22,R5 Yaba-Ikeja,Eko Movers,30,10.29
+2025-03-22,R6 Badagry-Mile 2,Lagos Rapid,27,12.02
+2025-03-22,R6 Badagry-Mile 2,Metro Link,23,11.47
+2025-03-22,R6 Badagry-Mile 2,Eko Movers,30,12.24
+2025-03-22,R7 Epe-Ajah,Lagos Rapid,20,13.7
+2025-03-22,R7 Epe-Ajah,Metro Link,23,12.96
+2025-03-22,R7 Epe-Ajah,Eko Movers,19,14.23
+2025-03-22,R8 Agege-Marina,Lagos Rapid,16,15.31
+2025-03-22,R8 Agege-Marina,Metro Link,15,15.86
+2025-03-22,R8 Agege-Marina,Eko Movers,16,15.87
+2025-03-23,R1 Mile 12-CMS,Lagos Rapid,48,4.37
+2025-03-23,R1 Mile 12-CMS,Metro Link,54,3.98
+2025-03-23,R1 Mile 12-CMS,Eko Movers,39,4.24
+2025-03-23,R2 Ikorodu-TBS,Lagos Rapid,44,6.56
+2025-03-23,R2 Ikorodu-TBS,Metro Link,44,5.44
+2025-03-23,R2 Ikorodu-TBS,Eko Movers,48,4.95
+2025-03-23,R3 Oshodi-Abule Egba,Lagos Rapid,45,7.42
+2025-03-23,R3 Oshodi-Abule Egba,Metro Link,35,6.84
+2025-03-23,R3 Oshodi-Abule Egba,Eko Movers,36,7.87
+2025-03-23,R4 Ajah-Lekki,Lagos Rapid,37,8.84
+2025-03-23,R4 Ajah-Lekki,Metro Link,38,8.81
+2025-03-23,R4 Ajah-Lekki,Eko Movers,33,8.73
+2025-03-23,R5 Yaba-Ikeja,Lagos Rapid,25,11.63
+2025-03-23,R5 Yaba-Ikeja,Metro Link,30,10.82
+2025-03-23,R5 Yaba-Ikeja,Eko Movers,31,11.57
+2025-03-23,R6 Badagry-Mile 2,Lagos Rapid,25,12.45
+2025-03-23,R6 Badagry-Mile 2,Metro Link,25,13.37
+2025-03-23,R6 Badagry-Mile 2,Eko Movers,23,11.31
+2025-03-23,R7 Epe-Ajah,Lagos Rapid,19,14.46
+2025-03-23,R7 Epe-Ajah,Metro Link,18,14.18
+2025-03-23,R7 Epe-Ajah,Eko Movers,21,14.62
+2025-03-23,R8 Agege-Marina,Lagos Rapid,18,15.18
+2025-03-23,R8 Agege-Marina,Metro Link,19,14.95
+2025-03-23,R8 Agege-Marina,Eko Movers,15,15.65
+2025-03-24,R1 Mile 12-CMS,Lagos Rapid,39,5.54
+2025-03-24,R1 Mile 12-CMS,Metro Link,50,5.08
+2025-03-24,R1 Mile 12-CMS,Eko Movers,38,5.98
+2025-03-24,R2 Ikorodu-TBS,Lagos Rapid,50,7.34
+2025-03-24,R2 Ikorodu-TBS,Metro Link,48,6.85
+2025-03-24,R2 Ikorodu-TBS,Eko Movers,41,6.75
+2025-03-24,R3 Oshodi-Abule Egba,Lagos Rapid,43,8.38
+2025-03-24,R3 Oshodi-Abule Egba,Metro Link,44,7.69
+2025-03-24,R3 Oshodi-Abule Egba,Eko Movers,37,7.94
+2025-03-24,R4 Ajah-Lekki,Lagos Rapid,38,10.55
+2025-03-24,R4 Ajah-Lekki,Metro Link,30,10.47
+2025-03-24,R4 Ajah-Lekki,Eko Movers,31,10.17
+2025-03-24,R5 Yaba-Ikeja,Lagos Rapid,35,11.43
+2025-03-24,R5 Yaba-Ikeja,Metro Link,33,11.94
+2025-03-24,R5 Yaba-Ikeja,Eko Movers,25,12.7
+2025-03-24,R6 Badagry-Mile 2,Lagos Rapid,26,13.55
+2025-03-24,R6 Badagry-Mile 2,Metro Link,27,13.69
+2025-03-24,R6 Badagry-Mile 2,Eko Movers,29,13.69
+2025-03-24,R7 Epe-Ajah,Lagos Rapid,18,16.07
+2025-03-24,R7 Epe-Ajah,Metro Link,26,16.03
+2025-03-24,R7 Epe-Ajah,Eko Movers,22,15.44
+2025-03-24,R8 Agege-Marina,Lagos Rapid,16,17.47
+2025-03-24,R8 Agege-Marina,Metro Link,20,17.43
+2025-03-24,R8 Agege-Marina,Eko Movers,16,19.33
+2025-03-25,R1 Mile 12-CMS,Lagos Rapid,44,4.55
+2025-03-25,R1 Mile 12-CMS,Metro Link,53,6.13
+2025-03-25,R1 Mile 12-CMS,Eko Movers,37,5.11
+2025-03-25,R2 Ikorodu-TBS,Lagos Rapid,43,6.78
+2025-03-25,R2 Ikorodu-TBS,Metro Link,37,6.86
+2025-03-25,R2 Ikorodu-TBS,Eko Movers,43,7.26
+2025-03-25,R3 Oshodi-Abule Egba,Lagos Rapid,43,8.74
+2025-03-25,R3 Oshodi-Abule Egba,Metro Link,39,8.6
+2025-03-25,R3 Oshodi-Abule Egba,Eko Movers,42,8.64
+2025-03-25,R4 Ajah-Lekki,Lagos Rapid,30,9.78
+2025-03-25,R4 Ajah-Lekki,Metro Link,31,10.32
+2025-03-25,R4 Ajah-Lekki,Eko Movers,36,10.28
+2025-03-25,R5 Yaba-Ikeja,Lagos Rapid,28,12.24
+2025-03-25,R5 Yaba-Ikeja,Metro Link,28,12.43
+2025-03-25,R5 Yaba-Ikeja,Eko Movers,25,11.89
+2025-03-25,R6 Badagry-Mile 2,Lagos Rapid,31,13.45
+2025-03-25,R6 Badagry-Mile 2,Metro Link,29,13.73
+2025-03-25,R6 Badagry-Mile 2,Eko Movers,27,13.5
+2025-03-25,R7 Epe-Ajah,Lagos Rapid,25,15.82
+2025-03-25,R7 Epe-Ajah,Metro Link,23,16.25
+2025-03-25,R7 Epe-Ajah,Eko Movers,18,15.56
+2025-03-25,R8 Agege-Marina,Lagos Rapid,17,18.37
+2025-03-25,R8 Agege-Marina,Metro Link,20,18.13
+2025-03-25,R8 Agege-Marina,Eko Movers,17,17.76
+2025-03-26,R1 Mile 12-CMS,Lagos Rapid,42,5.09
+2025-03-26,R1 Mile 12-CMS,Metro Link,46,4.89
+2025-03-26,R1 Mile 12-CMS,Eko Movers,42,6.05
+2025-03-26,R2 Ikorodu-TBS,Lagos Rapid,49,7.62
+2025-03-26,R2 Ikorodu-TBS,Metro Link,34,7.66
+2025-03-26,R2 Ikorodu-TBS,Eko Movers,35,7.23
+2025-03-26,R3 Oshodi-Abule Egba,Lagos Rapid,33,8.64
+2025-03-26,R3 Oshodi-Abule Egba,Metro Link,31,9.09
+2025-03-26,R3 Oshodi-Abule Egba,Eko Movers,35,9.41
+2025-03-26,R4 Ajah-Lekki,Lagos Rapid,28,10.21
+2025-03-26,R4 Ajah-Lekki,Metro Link,34,9.5
+2025-03-26,R4 Ajah-Lekki,Eko Movers,32,9.95
+2025-03-26,R5 Yaba-Ikeja,Lagos Rapid,33,12.2
+2025-03-26,R5 Yaba-Ikeja,Metro Link,32,12.59
+2025-03-26,R5 Yaba-Ikeja,Eko Movers,33,12.66
+2025-03-26,R6 Badagry-Mile 2,Lagos Rapid,25,13.41
+2025-03-26,R6 Badagry-Mile 2,Metro Link,27,13.37
+2025-03-26,R6 Badagry-Mile 2,Eko Movers,26,14.14
+2025-03-26,R7 Epe-Ajah,Lagos Rapid,20,15.34
+2025-03-26,R7 Epe-Ajah,Metro Link,21,15.3
+2025-03-26,R7 Epe-Ajah,Eko Movers,25,16.51
+2025-03-26,R8 Agege-Marina,Lagos Rapid,20,18.3
+2025-03-26,R8 Agege-Marina,Metro Link,15,16.68
+2025-03-26,R8 Agege-Marina,Eko Movers,19,18.05
+2025-03-27,R1 Mile 12-CMS,Lagos Rapid,38,5.74
+2025-03-27,R1 Mile 12-CMS,Metro Link,44,5.83
+2025-03-27,R1 Mile 12-CMS,Eko Movers,50,5.06
+2025-03-27,R2 Ikorodu-TBS,Lagos Rapid,36,6.5
+2025-03-27,R2 Ikorodu-TBS,Metro Link,36,6.24
+2025-03-27,R2 Ikorodu-TBS,Eko Movers,38,7.2
+2025-03-27,R3 Oshodi-Abule Egba,Lagos Rapid,34,8.52
+2025-03-27,R3 Oshodi-Abule Egba,Metro Link,31,8.43
+2025-03-27,R3 Oshodi-Abule Egba,Eko Movers,45,8.18
+2025-03-27,R4 Ajah-Lekki,Lagos Rapid,39,10.07
+2025-03-27,R4 Ajah-Lekki,Metro Link,40,10.24
+2025-03-27,R4 Ajah-Lekki,Eko Movers,35,10.27
+2025-03-27,R5 Yaba-Ikeja,Lagos Rapid,26,12.1
+2025-03-27,R5 Yaba-Ikeja,Metro Link,34,11.68
+2025-03-27,R5 Yaba-Ikeja,Eko Movers,31,12.26
+2025-03-27,R6 Badagry-Mile 2,Lagos Rapid,30,14.2
+2025-03-27,R6 Badagry-Mile 2,Metro Link,30,12.98
+2025-03-27,R6 Badagry-Mile 2,Eko Movers,27,13.08
+2025-03-27,R7 Epe-Ajah,Lagos Rapid,24,14.7
+2025-03-27,R7 Epe-Ajah,Metro Link,26,15.82
+2025-03-27,R7 Epe-Ajah,Eko Movers,20,16.59
+2025-03-27,R8 Agege-Marina,Lagos Rapid,20,17.11
+2025-03-27,R8 Agege-Marina,Metro Link,18,18.54
+2025-03-27,R8 Agege-Marina,Eko Movers,16,16.86
+2025-03-28,R1 Mile 12-CMS,Lagos Rapid,45,5.44
+2025-03-28,R1 Mile 12-CMS,Metro Link,54,5.99
+2025-03-28,R1 Mile 12-CMS,Eko Movers,48,4.83
+2025-03-28,R2 Ikorodu-TBS,Lagos Rapid,49,6.97
+2025-03-28,R2 Ikorodu-TBS,Metro Link,48,6.73
+2025-03-28,R2 Ikorodu-TBS,Eko Movers,45,6.06
+2025-03-28,R3 Oshodi-Abule Egba,Lagos Rapid,40,8.29
+2025-03-28,R3 Oshodi-Abule Egba,Metro Link,37,9.47
+2025-03-28,R3 Oshodi-Abule Egba,Eko Movers,41,8.87
+2025-03-28,R4 Ajah-Lekki,Lagos Rapid,34,10.23
+2025-03-28,R4 Ajah-Lekki,Metro Link,33,9.93
+2025-03-28,R4 Ajah-Lekki,Eko Movers,37,10.22
+2025-03-28,R5 Yaba-Ikeja,Lagos Rapid,27,11.91
+2025-03-28,R5 Yaba-Ikeja,Metro Link,26,11.41
+2025-03-28,R5 Yaba-Ikeja,Eko Movers,35,12.51
+2025-03-28,R6 Badagry-Mile 2,Lagos Rapid,31,12.57
+2025-03-28,R6 Badagry-Mile 2,Metro Link,24,13.63
+2025-03-28,R6 Badagry-Mile 2,Eko Movers,24,13.59
+2025-03-28,R7 Epe-Ajah,Lagos Rapid,19,16.83
+2025-03-28,R7 Epe-Ajah,Metro Link,20,15.26
+2025-03-28,R7 Epe-Ajah,Eko Movers,26,15.76
+2025-03-28,R8 Agege-Marina,Lagos Rapid,15,15.32
+2025-03-28,R8 Agege-Marina,Metro Link,18,17.77
+2025-03-28,R8 Agege-Marina,Eko Movers,14,18.45
+2025-03-29,R1 Mile 12-CMS,Lagos Rapid,44,4.96
+2025-03-29,R1 Mile 12-CMS,Metro Link,51,4.82
+2025-03-29,R1 Mile 12-CMS,Eko Movers,49,4.6
+2025-03-29,R2 Ikorodu-TBS,Lagos Rapid,35,5.98
+2025-03-29,R2 Ikorodu-TBS,Metro Link,34,5.85
+2025-03-29,R2 Ikorodu-TBS,Eko Movers,44,5.38
+2025-03-29,R3 Oshodi-Abule Egba,Lagos Rapid,31,6.48
+2025-03-29,R3 Oshodi-Abule Egba,Metro Link,39,7.45
+2025-03-29,R3 Oshodi-Abule Egba,Eko Movers,32,7.44
+2025-03-29,R4 Ajah-Lekki,Lagos Rapid,38,8.48
+2025-03-29,R4 Ajah-Lekki,Metro Link,29,8.92
+2025-03-29,R4 Ajah-Lekki,Eko Movers,32,9.16
+2025-03-29,R5 Yaba-Ikeja,Lagos Rapid,24,11.43
+2025-03-29,R5 Yaba-Ikeja,Metro Link,30,10.85
+2025-03-29,R5 Yaba-Ikeja,Eko Movers,29,9.76
+2025-03-29,R6 Badagry-Mile 2,Lagos Rapid,30,11.93
+2025-03-29,R6 Badagry-Mile 2,Metro Link,31,11.92
+2025-03-29,R6 Badagry-Mile 2,Eko Movers,22,12.25
+2025-03-29,R7 Epe-Ajah,Lagos Rapid,21,13.84
+2025-03-29,R7 Epe-Ajah,Metro Link,19,14.22
+2025-03-29,R7 Epe-Ajah,Eko Movers,20,14.01
+2025-03-29,R8 Agege-Marina,Lagos Rapid,21,16.08
+2025-03-29,R8 Agege-Marina,Metro Link,14,16.43
+2025-03-29,R8 Agege-Marina,Eko Movers,17,17.61
+2025-03-30,R1 Mile 12-CMS,Lagos Rapid,44,4.64
+2025-03-30,R1 Mile 12-CMS,Metro Link,53,3.54
+2025-03-30,R1 Mile 12-CMS,Eko Movers,46,4.39
+2025-03-30,R2 Ikorodu-TBS,Lagos Rapid,47,6.35
+2025-03-30,R2 Ikorodu-TBS,Metro Link,38,6.98
+2025-03-30,R2 Ikorodu-TBS,Eko Movers,36,6.29
+2025-03-30,R3 Oshodi-Abule Egba,Lagos Rapid,37,7.18
+2025-03-30,R3 Oshodi-Abule Egba,Metro Link,33,7.38
+2025-03-30,R3 Oshodi-Abule Egba,Eko Movers,40,7.61
+2025-03-30,R4 Ajah-Lekki,Lagos Rapid,39,8.3
+2025-03-30,R4 Ajah-Lekki,Metro Link,38,8.56
+2025-03-30,R4 Ajah-Lekki,Eko Movers,37,8.62
+2025-03-30,R5 Yaba-Ikeja,Lagos Rapid,26,10.12
+2025-03-30,R5 Yaba-Ikeja,Metro Link,33,10.35
+2025-03-30,R5 Yaba-Ikeja,Eko Movers,35,10.76
+2025-03-30,R6 Badagry-Mile 2,Lagos Rapid,22,12.32
+2025-03-30,R6 Badagry-Mile 2,Metro Link,26,12.55
+2025-03-30,R6 Badagry-Mile 2,Eko Movers,22,11.51
+2025-03-30,R7 Epe-Ajah,Lagos Rapid,23,14.83
+2025-03-30,R7 Epe-Ajah,Metro Link,25,14.75
+2025-03-30,R7 Epe-Ajah,Eko Movers,23,14.41
+2025-03-30,R8 Agege-Marina,Lagos Rapid,18,16.26
+2025-03-30,R8 Agege-Marina,Metro Link,15,14.72
+2025-03-30,R8 Agege-Marina,Eko Movers,17,16.68
+2025-03-31,R1 Mile 12-CMS,Lagos Rapid,47,5.12
+2025-03-31,R1 Mile 12-CMS,Metro Link,55,5.69
+2025-03-31,R1 Mile 12-CMS,Eko Movers,41,5.07
+2025-03-31,R2 Ikorodu-TBS,Lagos Rapid,41,7.29
+2025-03-31,R2 Ikorodu-TBS,Metro Link,48,7.44
+2025-03-31,R2 Ikorodu-TBS,Eko Movers,39,7.7
+2025-03-31,R3 Oshodi-Abule Egba,Lagos Rapid,37,8.43
+2025-03-31,R3 Oshodi-Abule Egba,Metro Link,32,9.3
+2025-03-31,R3 Oshodi-Abule Egba,Eko Movers,32,9.33
+2025-03-31,R4 Ajah-Lekki,Lagos Rapid,41,9.41
+2025-03-31,R4 Ajah-Lekki,Metro Link,37,9.77
+2025-03-31,R4 Ajah-Lekki,Eko Movers,41,10.26
+2025-03-31,R5 Yaba-Ikeja,Lagos Rapid,36,11.87
+2025-03-31,R5 Yaba-Ikeja,Metro Link,34,12.28
+2025-03-31,R5 Yaba-Ikeja,Eko Movers,31,13.16
+2025-03-31,R6 Badagry-Mile 2,Lagos Rapid,29,13.63
+2025-03-31,R6 Badagry-Mile 2,Metro Link,23,12.37
+2025-03-31,R6 Badagry-Mile 2,Eko Movers,31,13.48
+2025-03-31,R7 Epe-Ajah,Lagos Rapid,24,15.43
+2025-03-31,R7 Epe-Ajah,Metro Link,18,16.68
+2025-03-31,R7 Epe-Ajah,Eko Movers,20,15.08
+2025-03-31,R8 Agege-Marina,Lagos Rapid,21,18.28
+2025-03-31,R8 Agege-Marina,Metro Link,19,19.22
+2025-03-31,R8 Agege-Marina,Eko Movers,20,18.04
+2025-04-01,R1 Mile 12-CMS,Lagos Rapid,48,5.02
+2025-04-01,R1 Mile 12-CMS,Metro Link,53,5.6
+2025-04-01,R1 Mile 12-CMS,Eko Movers,49,4.8
+2025-04-01,R2 Ikorodu-TBS,Lagos Rapid,45,6.73
+2025-04-01,R2 Ikorodu-TBS,Metro Link,41,6.75
+2025-04-01,R2 Ikorodu-TBS,Eko Movers,41,7.26
+2025-04-01,R3 Oshodi-Abule Egba,Lagos Rapid,39,8.6
+2025-04-01,R3 Oshodi-Abule Egba,Metro Link,42,8.15
+2025-04-01,R3 Oshodi-Abule Egba,Eko Movers,33,8.79
+2025-04-01,R4 Ajah-Lekki,Lagos Rapid,32,9.64
+2025-04-01,R4 Ajah-Lekki,Metro Link,37,9.98
+2025-04-01,R4 Ajah-Lekki,Eko Movers,36,9.7
+2025-04-01,R5 Yaba-Ikeja,Lagos Rapid,30,12.24
+2025-04-01,R5 Yaba-Ikeja,Metro Link,30,11.83
+2025-04-01,R5 Yaba-Ikeja,Eko Movers,32,11.92
+2025-04-01,R6 Badagry-Mile 2,Lagos Rapid,28,13.44
+2025-04-01,R6 Badagry-Mile 2,Metro Link,27,13.43
+2025-04-01,R6 Badagry-Mile 2,Eko Movers,23,13.39
+2025-04-01,R7 Epe-Ajah,Lagos Rapid,26,15.22
+2025-04-01,R7 Epe-Ajah,Metro Link,18,16.2
+2025-04-01,R7 Epe-Ajah,Eko Movers,19,13.56
+2025-04-01,R8 Agege-Marina,Lagos Rapid,19,17.21
+2025-04-01,R8 Agege-Marina,Metro Link,17,18.23
+2025-04-01,R8 Agege-Marina,Eko Movers,16,17.53
+2025-04-02,R1 Mile 12-CMS,Lagos Rapid,46,5.45
+2025-04-02,R1 Mile 12-CMS,Metro Link,53,4.48
+2025-04-02,R1 Mile 12-CMS,Eko Movers,37,5.66
+2025-04-02,R2 Ikorodu-TBS,Lagos Rapid,40,7.96
+2025-04-02,R2 Ikorodu-TBS,Metro Link,34,6.61
+2025-04-02,R2 Ikorodu-TBS,Eko Movers,41,6.07
+2025-04-02,R3 Oshodi-Abule Egba,Lagos Rapid,44,8.22
+2025-04-02,R3 Oshodi-Abule Egba,Metro Link,41,7.25
+2025-04-02,R3 Oshodi-Abule Egba,Eko Movers,44,8.47
+2025-04-02,R4 Ajah-Lekki,Lagos Rapid,36,9.83
+2025-04-02,R4 Ajah-Lekki,Metro Link,29,10.39
+2025-04-02,R4 Ajah-Lekki,Eko Movers,30,9.79
+2025-04-02,R5 Yaba-Ikeja,Lagos Rapid,28,11.47
+2025-04-02,R5 Yaba-Ikeja,Metro Link,24,12.48
+2025-04-02,R5 Yaba-Ikeja,Eko Movers,34,11.29
+2025-04-02,R6 Badagry-Mile 2,Lagos Rapid,21,12.15
+2025-04-02,R6 Badagry-Mile 2,Metro Link,22,13.67
+2025-04-02,R6 Badagry-Mile 2,Eko Movers,22,13.98
+2025-04-02,R7 Epe-Ajah,Lagos Rapid,19,15.64
+2025-04-02,R7 Epe-Ajah,Metro Link,19,15.64
+2025-04-02,R7 Epe-Ajah,Eko Movers,18,16.8
+2025-04-02,R8 Agege-Marina,Lagos Rapid,14,18.8
+2025-04-02,R8 Agege-Marina,Metro Link,21,18.21
+2025-04-02,R8 Agege-Marina,Eko Movers,21,18.18
+2025-04-03,R1 Mile 12-CMS,Lagos Rapid,48,5.3
+2025-04-03,R1 Mile 12-CMS,Metro Link,46,5.52
+2025-04-03,R1 Mile 12-CMS,Eko Movers,41,5.37
+2025-04-03,R2 Ikorodu-TBS,Lagos Rapid,42,6.93
+2025-04-03,R2 Ikorodu-TBS,Metro Link,47,7.32
+2025-04-03,R2 Ikorodu-TBS,Eko Movers,44,6.85
+2025-04-03,R3 Oshodi-Abule Egba,Lagos Rapid,43,8.28
+2025-04-03,R3 Oshodi-Abule Egba,Metro Link,32,8.65
+2025-04-03,R3 Oshodi-Abule Egba,Eko Movers,41,8.89
+2025-04-03,R4 Ajah-Lekki,Lagos Rapid,37,11.1
+2025-04-03,R4 Ajah-Lekki,Metro Link,38,10.59
+2025-04-03,R4 Ajah-Lekki,Eko Movers,30,9.47
+2025-04-03,R5 Yaba-Ikeja,Lagos Rapid,34,12.69
+2025-04-03,R5 Yaba-Ikeja,Metro Link,30,11.85
+2025-04-03,R5 Yaba-Ikeja,Eko Movers,25,11.97
+2025-04-03,R6 Badagry-Mile 2,Lagos Rapid,30,13.17
+2025-04-03,R6 Badagry-Mile 2,Metro Link,24,12.96
+2025-04-03,R6 Badagry-Mile 2,Eko Movers,24,14.28
+2025-04-03,R7 Epe-Ajah,Lagos Rapid,19,16.23
+2025-04-03,R7 Epe-Ajah,Metro Link,20,16.31
+2025-04-03,R7 Epe-Ajah,Eko Movers,26,15.52
+2025-04-03,R8 Agege-Marina,Lagos Rapid,20,17.53
+2025-04-03,R8 Agege-Marina,Metro Link,21,18.25
+2025-04-03,R8 Agege-Marina,Eko Movers,20,17.44
+2025-04-04,R1 Mile 12-CMS,Lagos Rapid,45,5.01
+2025-04-04,R1 Mile 12-CMS,Metro Link,55,5.49
+2025-04-04,R1 Mile 12-CMS,Eko Movers,51,5.79
+2025-04-04,R2 Ikorodu-TBS,Lagos Rapid,40,7.22
+2025-04-04,R2 Ikorodu-TBS,Metro Link,34,6.81
+2025-04-04,R2 Ikorodu-TBS,Eko Movers,43,6.95
+2025-04-04,R3 Oshodi-Abule Egba,Lagos Rapid,36,7.83
+2025-04-04,R3 Oshodi-Abule Egba,Metro Link,31,8.65
+2025-04-04,R3 Oshodi-Abule Egba,Eko Movers,37,8.33
+2025-04-04,R4 Ajah-Lekki,Lagos Rapid,34,9.68
+2025-04-04,R4 Ajah-Lekki,Metro Link,40,10.39
+2025-04-04,R4 Ajah-Lekki,Eko Movers,32,9.43
+2025-04-04,R5 Yaba-Ikeja,Lagos Rapid,34,12.03
+2025-04-04,R5 Yaba-Ikeja,Metro Link,33,12.12
+2025-04-04,R5 Yaba-Ikeja,Eko Movers,31,12.01
+2025-04-04,R6 Badagry-Mile 2,Lagos Rapid,29,14.12
+2025-04-04,R6 Badagry-Mile 2,Metro Link,24,14.18
+2025-04-04,R6 Badagry-Mile 2,Eko Movers,26,12.57
+2025-04-04,R7 Epe-Ajah,Lagos Rapid,18,15.29
+2025-04-04,R7 Epe-Ajah,Metro Link,25,15.97
+2025-04-04,R7 Epe-Ajah,Eko Movers,19,13.92
+2025-04-04,R8 Agege-Marina,Lagos Rapid,21,18.77
+2025-04-04,R8 Agege-Marina,Metro Link,18,17.1
+2025-04-04,R8 Agege-Marina,Eko Movers,17,18.45
+2025-04-05,R1 Mile 12-CMS,Lagos Rapid,38,4.51
+2025-04-05,R1 Mile 12-CMS,Metro Link,46,4.05
+2025-04-05,R1 Mile 12-CMS,Eko Movers,46,5.63
+2025-04-05,R2 Ikorodu-TBS,Lagos Rapid,38,6.32
+2025-04-05,R2 Ikorodu-TBS,Metro Link,41,6.04
+2025-04-05,R2 Ikorodu-TBS,Eko Movers,44,5.89
+2025-04-05,R3 Oshodi-Abule Egba,Lagos Rapid,44,7.06
+2025-04-05,R3 Oshodi-Abule Egba,Metro Link,41,7.63
+2025-04-05,R3 Oshodi-Abule Egba,Eko Movers,46,7.26
+2025-04-05,R4 Ajah-Lekki,Lagos Rapid,27,8.63
+2025-04-05,R4 Ajah-Lekki,Metro Link,38,7.95
+2025-04-05,R4 Ajah-Lekki,Eko Movers,33,8.7
+2025-04-05,R5 Yaba-Ikeja,Lagos Rapid,24,11.03
+2025-04-05,R5 Yaba-Ikeja,Metro Link,26,11.33
+2025-04-05,R5 Yaba-Ikeja,Eko Movers,34,10.76
+2025-04-05,R6 Badagry-Mile 2,Lagos Rapid,22,12.01
+2025-04-05,R6 Badagry-Mile 2,Metro Link,30,11.43
+2025-04-05,R6 Badagry-Mile 2,Eko Movers,31,12.44
+2025-04-05,R7 Epe-Ajah,Lagos Rapid,22,13.26
+2025-04-05,R7 Epe-Ajah,Metro Link,22,15.78
+2025-04-05,R7 Epe-Ajah,Eko Movers,18,12.6
+2025-04-05,R8 Agege-Marina,Lagos Rapid,16,17.31
+2025-04-05,R8 Agege-Marina,Metro Link,21,16.16
+2025-04-05,R8 Agege-Marina,Eko Movers,20,17.17
+2025-04-06,R1 Mile 12-CMS,Lagos Rapid,42,5.02
+2025-04-06,R1 Mile 12-CMS,Metro Link,41,4.42
+2025-04-06,R1 Mile 12-CMS,Eko Movers,48,5.11
+2025-04-06,R2 Ikorodu-TBS,Lagos Rapid,49,6.43
+2025-04-06,R2 Ikorodu-TBS,Metro Link,41,6.21
+2025-04-06,R2 Ikorodu-TBS,Eko Movers,45,6.31
+2025-04-06,R3 Oshodi-Abule Egba,Lagos Rapid,43,7.71
+2025-04-06,R3 Oshodi-Abule Egba,Metro Link,46,8.79
+2025-04-06,R3 Oshodi-Abule Egba,Eko Movers,35,6.97
+2025-04-06,R4 Ajah-Lekki,Lagos Rapid,36,8.27
+2025-04-06,R4 Ajah-Lekki,Metro Link,33,8.15
+2025-04-06,R4 Ajah-Lekki,Eko Movers,28,7.92
+2025-04-06,R5 Yaba-Ikeja,Lagos Rapid,35,9.89
+2025-04-06,R5 Yaba-Ikeja,Metro Link,27,10.23
+2025-04-06,R5 Yaba-Ikeja,Eko Movers,25,10.58
+2025-04-06,R6 Badagry-Mile 2,Lagos Rapid,26,11.19
+2025-04-06,R6 Badagry-Mile 2,Metro Link,31,12.71
+2025-04-06,R6 Badagry-Mile 2,Eko Movers,26,13.11
+2025-04-06,R7 Epe-Ajah,Lagos Rapid,18,12.21
+2025-04-06,R7 Epe-Ajah,Metro Link,19,13.71
+2025-04-06,R7 Epe-Ajah,Eko Movers,25,13.8
+2025-04-06,R8 Agege-Marina,Lagos Rapid,15,17.66
+2025-04-06,R8 Agege-Marina,Metro Link,19,16.7
+2025-04-06,R8 Agege-Marina,Eko Movers,19,15.26
+2025-04-07,R1 Mile 12-CMS,Lagos Rapid,51,4.89
+2025-04-07,R1 Mile 12-CMS,Metro Link,38,5.78
+2025-04-07,R1 Mile 12-CMS,Eko Movers,42,4.7
+2025-04-07,R2 Ikorodu-TBS,Lagos Rapid,42,7.87
+2025-04-07,R2 Ikorodu-TBS,Metro Link,42,6.35
+2025-04-07,R2 Ikorodu-TBS,Eko Movers,40,6.98
+2025-04-07,R3 Oshodi-Abule Egba,Lagos Rapid,35,9.04
+2025-04-07,R3 Oshodi-Abule Egba,Metro Link,31,9.32
+2025-04-07,R3 Oshodi-Abule Egba,Eko Movers,37,8.37
+2025-04-07,R4 Ajah-Lekki,Lagos Rapid,41,9.63
+2025-04-07,R4 Ajah-Lekki,Metro Link,28,9.82
+2025-04-07,R4 Ajah-Lekki,Eko Movers,37,10.68
+2025-04-07,R5 Yaba-Ikeja,Lagos Rapid,29,12.44
+2025-04-07,R5 Yaba-Ikeja,Metro Link,36,11.52
+2025-04-07,R5 Yaba-Ikeja,Eko Movers,34,11.65
+2025-04-07,R6 Badagry-Mile 2,Lagos Rapid,29,13.57
+2025-04-07,R6 Badagry-Mile 2,Metro Link,21,13.18
+2025-04-07,R6 Badagry-Mile 2,Eko Movers,26,13.8
+2025-04-07,R7 Epe-Ajah,Lagos Rapid,19,15.68
+2025-04-07,R7 Epe-Ajah,Metro Link,18,16.09
+2025-04-07,R7 Epe-Ajah,Eko Movers,19,15.84
+2025-04-07,R8 Agege-Marina,Lagos Rapid,17,19.13
+2025-04-07,R8 Agege-Marina,Metro Link,15,17.84
+2025-04-07,R8 Agege-Marina,Eko Movers,20,17.66
+2025-04-08,R1 Mile 12-CMS,Lagos Rapid,40,4.55
+2025-04-08,R1 Mile 12-CMS,Metro Link,38,5.48
+2025-04-08,R1 Mile 12-CMS,Eko Movers,43,4.86
+2025-04-08,R2 Ikorodu-TBS,Lagos Rapid,44,6.32
+2025-04-08,R2 Ikorodu-TBS,Metro Link,35,7.07
+2025-04-08,R2 Ikorodu-TBS,Eko Movers,36,6.86
+2025-04-08,R3 Oshodi-Abule Egba,Lagos Rapid,41,8.81
+2025-04-08,R3 Oshodi-Abule Egba,Metro Link,44,8.23
+2025-04-08,R3 Oshodi-Abule Egba,Eko Movers,35,8.41
+2025-04-08,R4 Ajah-Lekki,Lagos Rapid,32,10.54
+2025-04-08,R4 Ajah-Lekki,Metro Link,41,10.43
+2025-04-08,R4 Ajah-Lekki,Eko Movers,36,9.85
+2025-04-08,R5 Yaba-Ikeja,Lagos Rapid,31,11.5
+2025-04-08,R5 Yaba-Ikeja,Metro Link,25,11.34
+2025-04-08,R5 Yaba-Ikeja,Eko Movers,26,11.81
+2025-04-08,R6 Badagry-Mile 2,Lagos Rapid,21,14.92
+2025-04-08,R6 Badagry-Mile 2,Metro Link,27,13.79
+2025-04-08,R6 Badagry-Mile 2,Eko Movers,28,13.36
+2025-04-08,R7 Epe-Ajah,Lagos Rapid,18,15.13
+2025-04-08,R7 Epe-Ajah,Metro Link,26,15.11
+2025-04-08,R7 Epe-Ajah,Eko Movers,18,15.21
+2025-04-08,R8 Agege-Marina,Lagos Rapid,21,17.52
+2025-04-08,R8 Agege-Marina,Metro Link,20,18.16
+2025-04-08,R8 Agege-Marina,Eko Movers,16,18.61
+2025-04-09,R1 Mile 12-CMS,Lagos Rapid,49,4.86
+2025-04-09,R1 Mile 12-CMS,Metro Link,47,4.72
+2025-04-09,R1 Mile 12-CMS,Eko Movers,53,5.71
+2025-04-09,R2 Ikorodu-TBS,Lagos Rapid,49,7.17
+2025-04-09,R2 Ikorodu-TBS,Metro Link,38,6.83
+2025-04-09,R2 Ikorodu-TBS,Eko Movers,49,7.24
+2025-04-09,R3 Oshodi-Abule Egba,Lagos Rapid,38,8.26
+2025-04-09,R3 Oshodi-Abule Egba,Metro Link,40,8.77
+2025-04-09,R3 Oshodi-Abule Egba,Eko Movers,31,8.08
+2025-04-09,R4 Ajah-Lekki,Lagos Rapid,39,10.34
+2025-04-09,R4 Ajah-Lekki,Metro Link,40,10.02
+2025-04-09,R4 Ajah-Lekki,Eko Movers,37,9.17
+2025-04-09,R5 Yaba-Ikeja,Lagos Rapid,26,11.87
+2025-04-09,R5 Yaba-Ikeja,Metro Link,29,13.65
+2025-04-09,R5 Yaba-Ikeja,Eko Movers,36,12.27
+2025-04-09,R6 Badagry-Mile 2,Lagos Rapid,23,13.06
+2025-04-09,R6 Badagry-Mile 2,Metro Link,21,13.52
+2025-04-09,R6 Badagry-Mile 2,Eko Movers,25,13.88
+2025-04-09,R7 Epe-Ajah,Lagos Rapid,25,16.54
+2025-04-09,R7 Epe-Ajah,Metro Link,20,15.88
+2025-04-09,R7 Epe-Ajah,Eko Movers,21,15.06
+2025-04-09,R8 Agege-Marina,Lagos Rapid,19,18.46
+2025-04-09,R8 Agege-Marina,Metro Link,19,17.54
+2025-04-09,R8 Agege-Marina,Eko Movers,18,17.38
+2025-04-10,R1 Mile 12-CMS,Lagos Rapid,54,5.58
+2025-04-10,R1 Mile 12-CMS,Metro Link,50,5.47
+2025-04-10,R1 Mile 12-CMS,Eko Movers,46,4.84
+2025-04-10,R2 Ikorodu-TBS,Lagos Rapid,37,7.01
+2025-04-10,R2 Ikorodu-TBS,Metro Link,49,6.3
+2025-04-10,R2 Ikorodu-TBS,Eko Movers,45,6.66
+2025-04-10,R3 Oshodi-Abule Egba,Lagos Rapid,31,9.33
+2025-04-10,R3 Oshodi-Abule Egba,Metro Link,43,8.5
+2025-04-10,R3 Oshodi-Abule Egba,Eko Movers,35,7.51
+2025-04-10,R4 Ajah-Lekki,Lagos Rapid,40,9.92
+2025-04-10,R4 Ajah-Lekki,Metro Link,30,10.44
+2025-04-10,R4 Ajah-Lekki,Eko Movers,41,10.0
+2025-04-10,R5 Yaba-Ikeja,Lagos Rapid,34,11.76
+2025-04-10,R5 Yaba-Ikeja,Metro Link,35,11.81
+2025-04-10,R5 Yaba-Ikeja,Eko Movers,25,11.96
+2025-04-10,R6 Badagry-Mile 2,Lagos Rapid,28,14.72
+2025-04-10,R6 Badagry-Mile 2,Metro Link,29,14.53
+2025-04-10,R6 Badagry-Mile 2,Eko Movers,31,13.41
+2025-04-10,R7 Epe-Ajah,Lagos Rapid,19,16.45
+2025-04-10,R7 Epe-Ajah,Metro Link,24,16.0
+2025-04-10,R7 Epe-Ajah,Eko Movers,21,14.31
+2025-04-10,R8 Agege-Marina,Lagos Rapid,15,17.48
+2025-04-10,R8 Agege-Marina,Metro Link,19,17.6
+2025-04-10,R8 Agege-Marina,Eko Movers,15,17.09
+2025-04-11,R1 Mile 12-CMS,Lagos Rapid,53,6.18
+2025-04-11,R1 Mile 12-CMS,Metro Link,37,5.26
+2025-04-11,R1 Mile 12-CMS,Eko Movers,46,5.25
+2025-04-11,R2 Ikorodu-TBS,Lagos Rapid,45,7.28
+2025-04-11,R2 Ikorodu-TBS,Metro Link,39,6.05
+2025-04-11,R2 Ikorodu-TBS,Eko Movers,45,6.61
+2025-04-11,R3 Oshodi-Abule Egba,Lagos Rapid,44,7.84
+2025-04-11,R3 Oshodi-Abule Egba,Metro Link,41,8.59
+2025-04-11,R3 Oshodi-Abule Egba,Eko Movers,39,8.68
+2025-04-11,R4 Ajah-Lekki,Lagos Rapid,34,9.59
+2025-04-11,R4 Ajah-Lekki,Metro Link,34,9.41
+2025-04-11,R4 Ajah-Lekki,Eko Movers,33,9.72
+2025-04-11,R5 Yaba-Ikeja,Lagos Rapid,32,11.51
+2025-04-11,R5 Yaba-Ikeja,Metro Link,34,12.14
+2025-04-11,R5 Yaba-Ikeja,Eko Movers,32,11.9
+2025-04-11,R6 Badagry-Mile 2,Lagos Rapid,25,14.17
+2025-04-11,R6 Badagry-Mile 2,Metro Link,29,13.08
+2025-04-11,R6 Badagry-Mile 2,Eko Movers,27,14.43
+2025-04-11,R7 Epe-Ajah,Lagos Rapid,19,16.56
+2025-04-11,R7 Epe-Ajah,Metro Link,24,14.69
+2025-04-11,R7 Epe-Ajah,Eko Movers,26,15.69
+2025-04-11,R8 Agege-Marina,Lagos Rapid,18,16.82
+2025-04-11,R8 Agege-Marina,Metro Link,18,17.69
+2025-04-11,R8 Agege-Marina,Eko Movers,16,16.95
+2025-04-12,R1 Mile 12-CMS,Lagos Rapid,44,4.9
+2025-04-12,R1 Mile 12-CMS,Metro Link,53,5.26
+2025-04-12,R1 Mile 12-CMS,Eko Movers,45,4.25
+2025-04-12,R2 Ikorodu-TBS,Lagos Rapid,49,6.02
+2025-04-12,R2 Ikorodu-TBS,Metro Link,37,5.9
+2025-04-12,R2 Ikorodu-TBS,Eko Movers,37,5.89
+2025-04-12,R3 Oshodi-Abule Egba,Lagos Rapid,31,6.87
+2025-04-12,R3 Oshodi-Abule Egba,Metro Link,43,7.2
+2025-04-12,R3 Oshodi-Abule Egba,Eko Movers,40,7.52
+2025-04-12,R4 Ajah-Lekki,Lagos Rapid,32,9.25
+2025-04-12,R4 Ajah-Lekki,Metro Link,31,9.76
+2025-04-12,R4 Ajah-Lekki,Eko Movers,34,9.05
+2025-04-12,R5 Yaba-Ikeja,Lagos Rapid,36,10.93
+2025-04-12,R5 Yaba-Ikeja,Metro Link,28,9.87
+2025-04-12,R5 Yaba-Ikeja,Eko Movers,31,12.15
+2025-04-12,R6 Badagry-Mile 2,Lagos Rapid,30,12.37
+2025-04-12,R6 Badagry-Mile 2,Metro Link,27,10.95
+2025-04-12,R6 Badagry-Mile 2,Eko Movers,23,11.45
+2025-04-12,R7 Epe-Ajah,Lagos Rapid,24,13.67
+2025-04-12,R7 Epe-Ajah,Metro Link,18,13.93
+2025-04-12,R7 Epe-Ajah,Eko Movers,22,14.48
+2025-04-12,R8 Agege-Marina,Lagos Rapid,15,15.55
+2025-04-12,R8 Agege-Marina,Metro Link,20,16.22
+2025-04-12,R8 Agege-Marina,Eko Movers,15,17.39
+2025-04-13,R1 Mile 12-CMS,Lagos Rapid,47,4.07
+2025-04-13,R1 Mile 12-CMS,Metro Link,40,4.6
+2025-04-13,R1 Mile 12-CMS,Eko Movers,44,4.71
+2025-04-13,R2 Ikorodu-TBS,Lagos Rapid,50,5.26
+2025-04-13,R2 Ikorodu-TBS,Metro Link,42,5.82
+2025-04-13,R2 Ikorodu-TBS,Eko Movers,36,6.53
+2025-04-13,R3 Oshodi-Abule Egba,Lagos Rapid,32,7.81
+2025-04-13,R3 Oshodi-Abule Egba,Metro Link,32,7.32
+2025-04-13,R3 Oshodi-Abule Egba,Eko Movers,45,7.46
+2025-04-13,R4 Ajah-Lekki,Lagos Rapid,40,8.2
+2025-04-13,R4 Ajah-Lekki,Metro Link,34,8.92
+2025-04-13,R4 Ajah-Lekki,Eko Movers,31,9.66
+2025-04-13,R5 Yaba-Ikeja,Lagos Rapid,34,10.82
+2025-04-13,R5 Yaba-Ikeja,Metro Link,34,10.29
+2025-04-13,R5 Yaba-Ikeja,Eko Movers,31,10.41
+2025-04-13,R6 Badagry-Mile 2,Lagos Rapid,22,12.3
+2025-04-13,R6 Badagry-Mile 2,Metro Link,31,12.38
+2025-04-13,R6 Badagry-Mile 2,Eko Movers,22,11.82
+2025-04-13,R7 Epe-Ajah,Lagos Rapid,20,14.14
+2025-04-13,R7 Epe-Ajah,Metro Link,18,14.62
+2025-04-13,R7 Epe-Ajah,Eko Movers,25,14.33
+2025-04-13,R8 Agege-Marina,Lagos Rapid,18,15.62
+2025-04-13,R8 Agege-Marina,Metro Link,19,15.3
+2025-04-13,R8 Agege-Marina,Eko Movers,20,14.26
+2025-04-14,R1 Mile 12-CMS,Lagos Rapid,42,5.31
+2025-04-14,R1 Mile 12-CMS,Metro Link,51,4.95
+2025-04-14,R1 Mile 12-CMS,Eko Movers,43,4.85
+2025-04-14,R2 Ikorodu-TBS,Lagos Rapid,48,6.78
+2025-04-14,R2 Ikorodu-TBS,Metro Link,42,7.31
+2025-04-14,R2 Ikorodu-TBS,Eko Movers,50,6.82
+2025-04-14,R3 Oshodi-Abule Egba,Lagos Rapid,31,8.37
+2025-04-14,R3 Oshodi-Abule Egba,Metro Link,33,8.02
+2025-04-14,R3 Oshodi-Abule Egba,Eko Movers,36,9.29
+2025-04-14,R4 Ajah-Lekki,Lagos Rapid,36,10.42
+2025-04-14,R4 Ajah-Lekki,Metro Link,39,9.66
+2025-04-14,R4 Ajah-Lekki,Eko Movers,38,10.34
+2025-04-14,R5 Yaba-Ikeja,Lagos Rapid,36,11.91
+2025-04-14,R5 Yaba-Ikeja,Metro Link,35,12.41
+2025-04-14,R5 Yaba-Ikeja,Eko Movers,33,12.39
+2025-04-14,R6 Badagry-Mile 2,Lagos Rapid,29,13.51
+2025-04-14,R6 Badagry-Mile 2,Metro Link,21,13.59
+2025-04-14,R6 Badagry-Mile 2,Eko Movers,30,13.38
+2025-04-14,R7 Epe-Ajah,Lagos Rapid,21,15.72
+2025-04-14,R7 Epe-Ajah,Metro Link,18,15.15
+2025-04-14,R7 Epe-Ajah,Eko Movers,21,16.66
+2025-04-14,R8 Agege-Marina,Lagos Rapid,16,17.64
+2025-04-14,R8 Agege-Marina,Metro Link,15,17.94
+2025-04-14,R8 Agege-Marina,Eko Movers,15,17.65
+2025-04-15,R1 Mile 12-CMS,Lagos Rapid,52,5.12
+2025-04-15,R1 Mile 12-CMS,Metro Link,43,5.69
+2025-04-15,R1 Mile 12-CMS,Eko Movers,51,5.22
+2025-04-15,R2 Ikorodu-TBS,Lagos Rapid,38,6.56
+2025-04-15,R2 Ikorodu-TBS,Metro Link,43,7.01
+2025-04-15,R2 Ikorodu-TBS,Eko Movers,46,6.82
+2025-04-15,R3 Oshodi-Abule Egba,Lagos Rapid,33,8.37
+2025-04-15,R3 Oshodi-Abule Egba,Metro Link,43,8.11
+2025-04-15,R3 Oshodi-Abule Egba,Eko Movers,38,8.11
+2025-04-15,R4 Ajah-Lekki,Lagos Rapid,34,9.97
+2025-04-15,R4 Ajah-Lekki,Metro Link,31,11.7
+2025-04-15,R4 Ajah-Lekki,Eko Movers,39,10.03
+2025-04-15,R5 Yaba-Ikeja,Lagos Rapid,31,12.27
+2025-04-15,R5 Yaba-Ikeja,Metro Link,25,11.2
+2025-04-15,R5 Yaba-Ikeja,Eko Movers,31,12.46
+2025-04-15,R6 Badagry-Mile 2,Lagos Rapid,24,14.19
+2025-04-15,R6 Badagry-Mile 2,Metro Link,30,13.28
+2025-04-15,R6 Badagry-Mile 2,Eko Movers,29,14.66
+2025-04-15,R7 Epe-Ajah,Lagos Rapid,20,15.63
+2025-04-15,R7 Epe-Ajah,Metro Link,18,16.78
+2025-04-15,R7 Epe-Ajah,Eko Movers,26,14.59
+2025-04-15,R8 Agege-Marina,Lagos Rapid,20,17.26
+2025-04-15,R8 Agege-Marina,Metro Link,21,17.52
+2025-04-15,R8 Agege-Marina,Eko Movers,19,17.52
+2025-04-16,R1 Mile 12-CMS,Lagos Rapid,40,6.22
+2025-04-16,R1 Mile 12-CMS,Metro Link,38,4.59
+2025-04-16,R1 Mile 12-CMS,Eko Movers,38,5.26
+2025-04-16,R2 Ikorodu-TBS,Lagos Rapid,35,6.08
+2025-04-16,R2 Ikorodu-TBS,Metro Link,37,6.56
+2025-04-16,R2 Ikorodu-TBS,Eko Movers,45,6.77
+2025-04-16,R3 Oshodi-Abule Egba,Lagos Rapid,37,9.13
+2025-04-16,R3 Oshodi-Abule Egba,Metro Link,38,9.29
+2025-04-16,R3 Oshodi-Abule Egba,Eko Movers,35,7.94
+2025-04-16,R4 Ajah-Lekki,Lagos Rapid,32,9.95
+2025-04-16,R4 Ajah-Lekki,Metro Link,37,10.91
+2025-04-16,R4 Ajah-Lekki,Eko Movers,35,9.89
+2025-04-16,R5 Yaba-Ikeja,Lagos Rapid,33,12.48
+2025-04-16,R5 Yaba-Ikeja,Metro Link,25,11.58
+2025-04-16,R5 Yaba-Ikeja,Eko Movers,28,11.47
+2025-04-16,R6 Badagry-Mile 2,Lagos Rapid,31,13.34
+2025-04-16,R6 Badagry-Mile 2,Metro Link,23,13.37
+2025-04-16,R6 Badagry-Mile 2,Eko Movers,23,14.14
+2025-04-16,R7 Epe-Ajah,Lagos Rapid,18,15.72
+2025-04-16,R7 Epe-Ajah,Metro Link,22,15.33
+2025-04-16,R7 Epe-Ajah,Eko Movers,23,14.2
+2025-04-16,R8 Agege-Marina,Lagos Rapid,18,17.4
+2025-04-16,R8 Agege-Marina,Metro Link,16,16.6
+2025-04-16,R8 Agege-Marina,Eko Movers,17,18.47
+2025-04-17,R1 Mile 12-CMS,Lagos Rapid,46,5.76
+2025-04-17,R1 Mile 12-CMS,Metro Link,47,5.22
+2025-04-17,R1 Mile 12-CMS,Eko Movers,37,5.34
+2025-04-17,R2 Ikorodu-TBS,Lagos Rapid,45,7.01
+2025-04-17,R2 Ikorodu-TBS,Metro Link,35,7.0
+2025-04-17,R2 Ikorodu-TBS,Eko Movers,45,7.04
+2025-04-17,R3 Oshodi-Abule Egba,Lagos Rapid,32,7.67
+2025-04-17,R3 Oshodi-Abule Egba,Metro Link,45,9.55
+2025-04-17,R3 Oshodi-Abule Egba,Eko Movers,33,9.88
+2025-04-17,R4 Ajah-Lekki,Lagos Rapid,32,10.78
+2025-04-17,R4 Ajah-Lekki,Metro Link,33,10.0
+2025-04-17,R4 Ajah-Lekki,Eko Movers,40,9.58
+2025-04-17,R5 Yaba-Ikeja,Lagos Rapid,26,11.63
+2025-04-17,R5 Yaba-Ikeja,Metro Link,32,12.38
+2025-04-17,R5 Yaba-Ikeja,Eko Movers,33,11.49
+2025-04-17,R6 Badagry-Mile 2,Lagos Rapid,24,13.56
+2025-04-17,R6 Badagry-Mile 2,Metro Link,29,13.76
+2025-04-17,R6 Badagry-Mile 2,Eko Movers,29,13.01
+2025-04-17,R7 Epe-Ajah,Lagos Rapid,23,15.59
+2025-04-17,R7 Epe-Ajah,Metro Link,22,14.05
+2025-04-17,R7 Epe-Ajah,Eko Movers,18,17.18
+2025-04-17,R8 Agege-Marina,Lagos Rapid,18,18.8
+2025-04-17,R8 Agege-Marina,Metro Link,18,19.21
+2025-04-17,R8 Agege-Marina,Eko Movers,15,17.23
+2025-04-18,R1 Mile 12-CMS,Lagos Rapid,44,4.93
+2025-04-18,R1 Mile 12-CMS,Metro Link,44,5.66
+2025-04-18,R1 Mile 12-CMS,Eko Movers,53,5.8
+2025-04-18,R2 Ikorodu-TBS,Lagos Rapid,49,6.62
+2025-04-18,R2 Ikorodu-TBS,Metro Link,38,6.29
+2025-04-18,R2 Ikorodu-TBS,Eko Movers,47,7.12
+2025-04-18,R3 Oshodi-Abule Egba,Lagos Rapid,32,8.38
+2025-04-18,R3 Oshodi-Abule Egba,Metro Link,41,7.72
+2025-04-18,R3 Oshodi-Abule Egba,Eko Movers,33,8.38
+2025-04-18,R4 Ajah-Lekki,Lagos Rapid,32,10.29
+2025-04-18,R4 Ajah-Lekki,Metro Link,41,8.98
+2025-04-18,R4 Ajah-Lekki,Eko Movers,32,9.4
+2025-04-18,R5 Yaba-Ikeja,Lagos Rapid,26,11.89
+2025-04-18,R5 Yaba-Ikeja,Metro Link,29,11.73
+2025-04-18,R5 Yaba-Ikeja,Eko Movers,27,11.84
+2025-04-18,R6 Badagry-Mile 2,Lagos Rapid,31,13.74
+2025-04-18,R6 Badagry-Mile 2,Metro Link,26,13.47
+2025-04-18,R6 Badagry-Mile 2,Eko Movers,23,13.3
+2025-04-18,R7 Epe-Ajah,Lagos Rapid,20,15.51
+2025-04-18,R7 Epe-Ajah,Metro Link,26,15.38
+2025-04-18,R7 Epe-Ajah,Eko Movers,21,15.8
+2025-04-18,R8 Agege-Marina,Lagos Rapid,20,17.73
+2025-04-18,R8 Agege-Marina,Metro Link,17,17.09
+2025-04-18,R8 Agege-Marina,Eko Movers,15,18.44
+2025-04-19,R1 Mile 12-CMS,Lagos Rapid,52,4.73
+2025-04-19,R1 Mile 12-CMS,Metro Link,39,4.28
+2025-04-19,R1 Mile 12-CMS,Eko Movers,47,4.91
+2025-04-19,R2 Ikorodu-TBS,Lagos Rapid,34,5.74
+2025-04-19,R2 Ikorodu-TBS,Metro Link,46,5.63
+2025-04-19,R2 Ikorodu-TBS,Eko Movers,40,5.52
+2025-04-19,R3 Oshodi-Abule Egba,Lagos Rapid,33,6.87
+2025-04-19,R3 Oshodi-Abule Egba,Metro Link,31,7.72
+2025-04-19,R3 Oshodi-Abule Egba,Eko Movers,38,7.41
+2025-04-19,R4 Ajah-Lekki,Lagos Rapid,40,8.43
+2025-04-19,R4 Ajah-Lekki,Metro Link,30,9.16
+2025-04-19,R4 Ajah-Lekki,Eko Movers,33,8.02
+2025-04-19,R5 Yaba-Ikeja,Lagos Rapid,29,10.46
+2025-04-19,R5 Yaba-Ikeja,Metro Link,26,10.73
+2025-04-19,R5 Yaba-Ikeja,Eko Movers,33,10.39
+2025-04-19,R6 Badagry-Mile 2,Lagos Rapid,24,12.11
+2025-04-19,R6 Badagry-Mile 2,Metro Link,24,12.74
+2025-04-19,R6 Badagry-Mile 2,Eko Movers,22,12.0
+2025-04-19,R7 Epe-Ajah,Lagos Rapid,20,12.92
+2025-04-19,R7 Epe-Ajah,Metro Link,25,14.01
+2025-04-19,R7 Epe-Ajah,Eko Movers,18,14.21
+2025-04-19,R8 Agege-Marina,Lagos Rapid,20,16.02
+2025-04-19,R8 Agege-Marina,Metro Link,17,16.65
+2025-04-19,R8 Agege-Marina,Eko Movers,18,15.66
+2025-04-20,R1 Mile 12-CMS,Lagos Rapid,44,4.35
+2025-04-20,R1 Mile 12-CMS,Metro Link,45,4.23
+2025-04-20,R1 Mile 12-CMS,Eko Movers,46,5.16
+2025-04-20,R2 Ikorodu-TBS,Lagos Rapid,42,5.8
+2025-04-20,R2 Ikorodu-TBS,Metro Link,37,5.44
+2025-04-20,R2 Ikorodu-TBS,Eko Movers,47,6.24
+2025-04-20,R3 Oshodi-Abule Egba,Lagos Rapid,39,6.7
+2025-04-20,R3 Oshodi-Abule Egba,Metro Link,31,5.89
+2025-04-20,R3 Oshodi-Abule Egba,Eko Movers,43,7.58
+2025-04-20,R4 Ajah-Lekki,Lagos Rapid,38,9.58
+2025-04-20,R4 Ajah-Lekki,Metro Link,35,9.69
+2025-04-20,R4 Ajah-Lekki,Eko Movers,31,8.46
+2025-04-20,R5 Yaba-Ikeja,Lagos Rapid,29,10.95
+2025-04-20,R5 Yaba-Ikeja,Metro Link,33,11.08
+2025-04-20,R5 Yaba-Ikeja,Eko Movers,31,11.26
+2025-04-20,R6 Badagry-Mile 2,Lagos Rapid,31,12.26
+2025-04-20,R6 Badagry-Mile 2,Metro Link,27,11.52
+2025-04-20,R6 Badagry-Mile 2,Eko Movers,27,11.35
+2025-04-20,R7 Epe-Ajah,Lagos Rapid,22,13.37
+2025-04-20,R7 Epe-Ajah,Metro Link,26,13.81
+2025-04-20,R7 Epe-Ajah,Eko Movers,21,13.89
+2025-04-20,R8 Agege-Marina,Lagos Rapid,16,16.06
+2025-04-20,R8 Agege-Marina,Metro Link,20,14.49
+2025-04-20,R8 Agege-Marina,Eko Movers,16,15.94
+2025-04-21,R1 Mile 12-CMS,Lagos Rapid,37,5.48
+2025-04-21,R1 Mile 12-CMS,Metro Link,47,5.51
+2025-04-21,R1 Mile 12-CMS,Eko Movers,38,4.96
+2025-04-21,R2 Ikorodu-TBS,Lagos Rapid,49,7.0
+2025-04-21,R2 Ikorodu-TBS,Metro Link,39,6.45
+2025-04-21,R2 Ikorodu-TBS,Eko Movers,48,7.42
+2025-04-21,R3 Oshodi-Abule Egba,Lagos Rapid,35,9.31
+2025-04-21,R3 Oshodi-Abule Egba,Metro Link,37,8.71
+2025-04-21,R3 Oshodi-Abule Egba,Eko Movers,37,8.76
+2025-04-21,R4 Ajah-Lekki,Lagos Rapid,32,10.23
+2025-04-21,R4 Ajah-Lekki,Metro Link,31,10.09
+2025-04-21,R4 Ajah-Lekki,Eko Movers,34,9.26
+2025-04-21,R5 Yaba-Ikeja,Lagos Rapid,34,12.35
+2025-04-21,R5 Yaba-Ikeja,Metro Link,32,12.3
+2025-04-21,R5 Yaba-Ikeja,Eko Movers,36,11.97
+2025-04-21,R6 Badagry-Mile 2,Lagos Rapid,23,13.18
+2025-04-21,R6 Badagry-Mile 2,Metro Link,28,13.7
+2025-04-21,R6 Badagry-Mile 2,Eko Movers,27,13.54
+2025-04-21,R7 Epe-Ajah,Lagos Rapid,22,15.17
+2025-04-21,R7 Epe-Ajah,Metro Link,20,15.77
+2025-04-21,R7 Epe-Ajah,Eko Movers,24,16.36
+2025-04-21,R8 Agege-Marina,Lagos Rapid,19,18.57
+2025-04-21,R8 Agege-Marina,Metro Link,21,18.54
+2025-04-21,R8 Agege-Marina,Eko Movers,15,16.98
+2025-04-22,R1 Mile 12-CMS,Lagos Rapid,40,4.62
+2025-04-22,R1 Mile 12-CMS,Metro Link,48,4.49
+2025-04-22,R1 Mile 12-CMS,Eko Movers,55,5.3
+2025-04-22,R2 Ikorodu-TBS,Lagos Rapid,48,6.69
+2025-04-22,R2 Ikorodu-TBS,Metro Link,41,7.02
+2025-04-22,R2 Ikorodu-TBS,Eko Movers,38,6.52
+2025-04-22,R3 Oshodi-Abule Egba,Lagos Rapid,39,8.56
+2025-04-22,R3 Oshodi-Abule Egba,Metro Link,32,8.16
+2025-04-22,R3 Oshodi-Abule Egba,Eko Movers,44,8.67
+2025-04-22,R4 Ajah-Lekki,Lagos Rapid,32,10.72
+2025-04-22,R4 Ajah-Lekki,Metro Link,34,10.69
+2025-04-22,R4 Ajah-Lekki,Eko Movers,41,9.53
+2025-04-22,R5 Yaba-Ikeja,Lagos Rapid,36,12.18
+2025-04-22,R5 Yaba-Ikeja,Metro Link,30,12.15
+2025-04-22,R5 Yaba-Ikeja,Eko Movers,25,13.05
+2025-04-22,R6 Badagry-Mile 2,Lagos Rapid,24,13.11
+2025-04-22,R6 Badagry-Mile 2,Metro Link,26,13.57
+2025-04-22,R6 Badagry-Mile 2,Eko Movers,24,13.8
+2025-04-22,R7 Epe-Ajah,Lagos Rapid,19,15.51
+2025-04-22,R7 Epe-Ajah,Metro Link,23,15.06
+2025-04-22,R7 Epe-Ajah,Eko Movers,25,14.44
+2025-04-22,R8 Agege-Marina,Lagos Rapid,18,18.29
+2025-04-22,R8 Agege-Marina,Metro Link,18,17.53
+2025-04-22,R8 Agege-Marina,Eko Movers,19,17.85
+2025-04-23,R1 Mile 12-CMS,Lagos Rapid,37,5.51
+2025-04-23,R1 Mile 12-CMS,Metro Link,40,5.45
+2025-04-23,R1 Mile 12-CMS,Eko Movers,37,5.61
+2025-04-23,R2 Ikorodu-TBS,Lagos Rapid,41,6.76
+2025-04-23,R2 Ikorodu-TBS,Metro Link,47,7.39
+2025-04-23,R2 Ikorodu-TBS,Eko Movers,49,6.82
+2025-04-23,R3 Oshodi-Abule Egba,Lagos Rapid,32,8.93
+2025-04-23,R3 Oshodi-Abule Egba,Metro Link,37,8.09
+2025-04-23,R3 Oshodi-Abule Egba,Eko Movers,44,9.12
+2025-04-23,R4 Ajah-Lekki,Lagos Rapid,39,9.78
+2025-04-23,R4 Ajah-Lekki,Metro Link,40,10.37
+2025-04-23,R4 Ajah-Lekki,Eko Movers,32,10.74
+2025-04-23,R5 Yaba-Ikeja,Lagos Rapid,34,12.45
+2025-04-23,R5 Yaba-Ikeja,Metro Link,29,13.32
+2025-04-23,R5 Yaba-Ikeja,Eko Movers,30,12.89
+2025-04-23,R6 Badagry-Mile 2,Lagos Rapid,24,14.28
+2025-04-23,R6 Badagry-Mile 2,Metro Link,23,12.61
+2025-04-23,R6 Badagry-Mile 2,Eko Movers,21,14.09
+2025-04-23,R7 Epe-Ajah,Lagos Rapid,26,15.95
+2025-04-23,R7 Epe-Ajah,Metro Link,26,15.61
+2025-04-23,R7 Epe-Ajah,Eko Movers,18,14.66
+2025-04-23,R8 Agege-Marina,Lagos Rapid,15,18.96
+2025-04-23,R8 Agege-Marina,Metro Link,20,16.58
+2025-04-23,R8 Agege-Marina,Eko Movers,21,16.21
+2025-04-24,R1 Mile 12-CMS,Lagos Rapid,48,5.63
+2025-04-24,R1 Mile 12-CMS,Metro Link,47,4.7
+2025-04-24,R1 Mile 12-CMS,Eko Movers,43,5.55
+2025-04-24,R2 Ikorodu-TBS,Lagos Rapid,46,6.42
+2025-04-24,R2 Ikorodu-TBS,Metro Link,34,6.87
+2025-04-24,R2 Ikorodu-TBS,Eko Movers,41,7.32
+2025-04-24,R3 Oshodi-Abule Egba,Lagos Rapid,32,8.84
+2025-04-24,R3 Oshodi-Abule Egba,Metro Link,32,8.14
+2025-04-24,R3 Oshodi-Abule Egba,Eko Movers,39,8.66
+2025-04-24,R4 Ajah-Lekki,Lagos Rapid,29,10.8
+2025-04-24,R4 Ajah-Lekki,Metro Link,31,10.55
+2025-04-24,R4 Ajah-Lekki,Eko Movers,39,10.0
+2025-04-24,R5 Yaba-Ikeja,Lagos Rapid,33,12.4
+2025-04-24,R5 Yaba-Ikeja,Metro Link,35,12.18
+2025-04-24,R5 Yaba-Ikeja,Eko Movers,33,12.96
+2025-04-24,R6 Badagry-Mile 2,Lagos Rapid,23,13.48
+2025-04-24,R6 Badagry-Mile 2,Metro Link,22,15.22
+2025-04-24,R6 Badagry-Mile 2,Eko Movers,29,14.62
+2025-04-24,R7 Epe-Ajah,Lagos Rapid,19,15.98
+2025-04-24,R7 Epe-Ajah,Metro Link,20,15.46
+2025-04-24,R7 Epe-Ajah,Eko Movers,18,16.63
+2025-04-24,R8 Agege-Marina,Lagos Rapid,20,18.08
+2025-04-24,R8 Agege-Marina,Metro Link,16,17.73
+2025-04-24,R8 Agege-Marina,Eko Movers,15,18.27
+2025-04-25,R1 Mile 12-CMS,Lagos Rapid,42,5.54
+2025-04-25,R1 Mile 12-CMS,Metro Link,54,5.5
+2025-04-25,R1 Mile 12-CMS,Eko Movers,50,5.34
+2025-04-25,R2 Ikorodu-TBS,Lagos Rapid,47,6.94
+2025-04-25,R2 Ikorodu-TBS,Metro Link,50,6.9
+2025-04-25,R2 Ikorodu-TBS,Eko Movers,39,7.64
+2025-04-25,R3 Oshodi-Abule Egba,Lagos Rapid,42,7.89
+2025-04-25,R3 Oshodi-Abule Egba,Metro Link,44,8.22
+2025-04-25,R3 Oshodi-Abule Egba,Eko Movers,36,9.41
+2025-04-25,R4 Ajah-Lekki,Lagos Rapid,32,9.84
+2025-04-25,R4 Ajah-Lekki,Metro Link,28,10.36
+2025-04-25,R4 Ajah-Lekki,Eko Movers,41,9.68
+2025-04-25,R5 Yaba-Ikeja,Lagos Rapid,35,12.27
+2025-04-25,R5 Yaba-Ikeja,Metro Link,25,12.25
+2025-04-25,R5 Yaba-Ikeja,Eko Movers,30,11.86
+2025-04-25,R6 Badagry-Mile 2,Lagos Rapid,24,12.95
+2025-04-25,R6 Badagry-Mile 2,Metro Link,21,13.3
+2025-04-25,R6 Badagry-Mile 2,Eko Movers,26,12.48
+2025-04-25,R7 Epe-Ajah,Lagos Rapid,19,14.02
+2025-04-25,R7 Epe-Ajah,Metro Link,18,16.68
+2025-04-25,R7 Epe-Ajah,Eko Movers,19,16.72
+2025-04-25,R8 Agege-Marina,Lagos Rapid,15,18.62
+2025-04-25,R8 Agege-Marina,Metro Link,21,17.42
+2025-04-25,R8 Agege-Marina,Eko Movers,17,18.18
+2025-04-26,R1 Mile 12-CMS,Lagos Rapid,47,5.43
+2025-04-26,R1 Mile 12-CMS,Metro Link,48,4.26
+2025-04-26,R1 Mile 12-CMS,Eko Movers,48,4.08
+2025-04-26,R2 Ikorodu-TBS,Lagos Rapid,37,6.04
+2025-04-26,R2 Ikorodu-TBS,Metro Link,47,5.77
+2025-04-26,R2 Ikorodu-TBS,Eko Movers,49,5.8
+2025-04-26,R3 Oshodi-Abule Egba,Lagos Rapid,44,7.72
+2025-04-26,R3 Oshodi-Abule Egba,Metro Link,45,7.35
+2025-04-26,R3 Oshodi-Abule Egba,Eko Movers,35,6.69
+2025-04-26,R4 Ajah-Lekki,Lagos Rapid,40,8.15
+2025-04-26,R4 Ajah-Lekki,Metro Link,35,8.61
+2025-04-26,R4 Ajah-Lekki,Eko Movers,31,8.81
+2025-04-26,R5 Yaba-Ikeja,Lagos Rapid,31,10.1
+2025-04-26,R5 Yaba-Ikeja,Metro Link,26,10.29
+2025-04-26,R5 Yaba-Ikeja,Eko Movers,35,10.67
+2025-04-26,R6 Badagry-Mile 2,Lagos Rapid,31,12.23
+2025-04-26,R6 Badagry-Mile 2,Metro Link,28,10.79
+2025-04-26,R6 Badagry-Mile 2,Eko Movers,21,11.13
+2025-04-26,R7 Epe-Ajah,Lagos Rapid,24,14.14
+2025-04-26,R7 Epe-Ajah,Metro Link,18,15.46
+2025-04-26,R7 Epe-Ajah,Eko Movers,23,14.57
+2025-04-26,R8 Agege-Marina,Lagos Rapid,17,14.81
+2025-04-26,R8 Agege-Marina,Metro Link,15,15.91
+2025-04-26,R8 Agege-Marina,Eko Movers,18,16.49
+2025-04-27,R1 Mile 12-CMS,Lagos Rapid,40,4.95
+2025-04-27,R1 Mile 12-CMS,Metro Link,51,4.41
+2025-04-27,R1 Mile 12-CMS,Eko Movers,44,4.79
+2025-04-27,R2 Ikorodu-TBS,Lagos Rapid,43,6.14
+2025-04-27,R2 Ikorodu-TBS,Metro Link,48,6.31
+2025-04-27,R2 Ikorodu-TBS,Eko Movers,40,6.05
+2025-04-27,R3 Oshodi-Abule Egba,Lagos Rapid,36,8.22
+2025-04-27,R3 Oshodi-Abule Egba,Metro Link,31,7.19
+2025-04-27,R3 Oshodi-Abule Egba,Eko Movers,32,7.95
+2025-04-27,R4 Ajah-Lekki,Lagos Rapid,33,9.18
+2025-04-27,R4 Ajah-Lekki,Metro Link,40,9.89
+2025-04-27,R4 Ajah-Lekki,Eko Movers,37,9.12
+2025-04-27,R5 Yaba-Ikeja,Lagos Rapid,33,10.55
+2025-04-27,R5 Yaba-Ikeja,Metro Link,28,9.9
+2025-04-27,R5 Yaba-Ikeja,Eko Movers,27,8.97
+2025-04-27,R6 Badagry-Mile 2,Lagos Rapid,22,10.62
+2025-04-27,R6 Badagry-Mile 2,Metro Link,22,12.59
+2025-04-27,R6 Badagry-Mile 2,Eko Movers,29,12.57
+2025-04-27,R7 Epe-Ajah,Lagos Rapid,19,13.8
+2025-04-27,R7 Epe-Ajah,Metro Link,23,14.52
+2025-04-27,R7 Epe-Ajah,Eko Movers,23,13.03
+2025-04-27,R8 Agege-Marina,Lagos Rapid,16,15.41
+2025-04-27,R8 Agege-Marina,Metro Link,15,15.65
+2025-04-27,R8 Agege-Marina,Eko Movers,20,14.95
+2025-04-28,R1 Mile 12-CMS,Lagos Rapid,38,5.19
+2025-04-28,R1 Mile 12-CMS,Metro Link,49,5.25
+2025-04-28,R1 Mile 12-CMS,Eko Movers,50,4.68
+2025-04-28,R2 Ikorodu-TBS,Lagos Rapid,34,7.24
+2025-04-28,R2 Ikorodu-TBS,Metro Link,43,6.26
+2025-04-28,R2 Ikorodu-TBS,Eko Movers,44,6.79
+2025-04-28,R3 Oshodi-Abule Egba,Lagos Rapid,36,9.29
+2025-04-28,R3 Oshodi-Abule Egba,Metro Link,42,7.96
+2025-04-28,R3 Oshodi-Abule Egba,Eko Movers,32,8.64
+2025-04-28,R4 Ajah-Lekki,Lagos Rapid,37,10.37
+2025-04-28,R4 Ajah-Lekki,Metro Link,38,9.32
+2025-04-28,R4 Ajah-Lekki,Eko Movers,38,9.28
+2025-04-28,R5 Yaba-Ikeja,Lagos Rapid,32,11.89
+2025-04-28,R5 Yaba-Ikeja,Metro Link,28,11.39
+2025-04-28,R5 Yaba-Ikeja,Eko Movers,25,11.52
+2025-04-28,R6 Badagry-Mile 2,Lagos Rapid,23,13.41
+2025-04-28,R6 Badagry-Mile 2,Metro Link,22,13.55
+2025-04-28,R6 Badagry-Mile 2,Eko Movers,26,12.99
+2025-04-28,R7 Epe-Ajah,Lagos Rapid,26,15.6
+2025-04-28,R7 Epe-Ajah,Metro Link,22,15.21
+2025-04-28,R7 Epe-Ajah,Eko Movers,25,15.93
+2025-04-28,R8 Agege-Marina,Lagos Rapid,15,17.8
+2025-04-28,R8 Agege-Marina,Metro Link,20,17.65
+2025-04-28,R8 Agege-Marina,Eko Movers,16,17.76
+2025-04-29,R1 Mile 12-CMS,Lagos Rapid,44,4.94
+2025-04-29,R1 Mile 12-CMS,Metro Link,48,5.12
+2025-04-29,R1 Mile 12-CMS,Eko Movers,55,5.42
+2025-04-29,R2 Ikorodu-TBS,Lagos Rapid,41,6.87
+2025-04-29,R2 Ikorodu-TBS,Metro Link,37,6.54
+2025-04-29,R2 Ikorodu-TBS,Eko Movers,34,6.65
+2025-04-29,R3 Oshodi-Abule Egba,Lagos Rapid,32,8.39
+2025-04-29,R3 Oshodi-Abule Egba,Metro Link,36,7.85
+2025-04-29,R3 Oshodi-Abule Egba,Eko Movers,37,9.21
+2025-04-29,R4 Ajah-Lekki,Lagos Rapid,28,9.72
+2025-04-29,R4 Ajah-Lekki,Metro Link,37,10.16
+2025-04-29,R4 Ajah-Lekki,Eko Movers,32,10.0
+2025-04-29,R5 Yaba-Ikeja,Lagos Rapid,26,12.64
+2025-04-29,R5 Yaba-Ikeja,Metro Link,24,11.57
+2025-04-29,R5 Yaba-Ikeja,Eko Movers,33,12.63
+2025-04-29,R6 Badagry-Mile 2,Lagos Rapid,29,13.49
+2025-04-29,R6 Badagry-Mile 2,Metro Link,30,13.72
+2025-04-29,R6 Badagry-Mile 2,Eko Movers,23,14.28
+2025-04-29,R7 Epe-Ajah,Lagos Rapid,25,15.47
+2025-04-29,R7 Epe-Ajah,Metro Link,24,16.86
+2025-04-29,R7 Epe-Ajah,Eko Movers,22,16.77
+2025-04-29,R8 Agege-Marina,Lagos Rapid,19,17.63
+2025-04-29,R8 Agege-Marina,Metro Link,18,18.0
+2025-04-29,R8 Agege-Marina,Eko Movers,15,17.99
+2025-04-30,R1 Mile 12-CMS,Lagos Rapid,13,4.05
+2025-04-30,R1 Mile 12-CMS,Metro Link,11,3.95
+2025-04-30,R1 Mile 12-CMS,Eko Movers,13,5.6
+2025-04-30,R2 Ikorodu-TBS,Lagos Rapid,22,5.62
+2025-04-30,R2 Ikorodu-TBS,Metro Link,27,5.57
+2025-04-30,R2 Ikorodu-TBS,Eko Movers,21,5.36
+2025-04-30,R3 Oshodi-Abule Egba,Lagos Rapid,34,6.23
+2025-04-30,R3 Oshodi-Abule Egba,Metro Link,31,6.52
+2025-04-30,R3 Oshodi-Abule Egba,Eko Movers,28,6.28
+2025-04-30,R4 Ajah-Lekki,Lagos Rapid,34,8.52
+2025-04-30,R4 Ajah-Lekki,Metro Link,46,7.31
+2025-04-30,R4 Ajah-Lekki,Eko Movers,43,8.02
+2025-04-30,R5 Yaba-Ikeja,Lagos Rapid,39,10.31
+2025-04-30,R5 Yaba-Ikeja,Metro Link,41,9.09
+2025-04-30,R5 Yaba-Ikeja,Eko Movers,49,9.23
+2025-04-30,R6 Badagry-Mile 2,Lagos Rapid,40,11.59
+2025-04-30,R6 Badagry-Mile 2,Metro Link,52,10.36
+2025-04-30,R6 Badagry-Mile 2,Eko Movers,49,10.62
+2025-04-30,R7 Epe-Ajah,Lagos Rapid,53,13.01
+2025-04-30,R7 Epe-Ajah,Metro Link,39,13.22
+2025-04-30,R7 Epe-Ajah,Eko Movers,53,12.12
+2025-04-30,R8 Agege-Marina,Lagos Rapid,35,13.8
+2025-04-30,R8 Agege-Marina,Metro Link,36,13.74
+2025-04-30,R8 Agege-Marina,Eko Movers,35,14.26
+2025-05-01,R1 Mile 12-CMS,Lagos Rapid,9,4.24
+2025-05-01,R1 Mile 12-CMS,Metro Link,10,5.03
+2025-05-01,R1 Mile 12-CMS,Eko Movers,12,3.47
+2025-05-01,R2 Ikorodu-TBS,Lagos Rapid,24,5.62
+2025-05-01,R2 Ikorodu-TBS,Metro Link,26,6.49
+2025-05-01,R2 Ikorodu-TBS,Eko Movers,25,5.22
+2025-05-01,R3 Oshodi-Abule Egba,Lagos Rapid,36,6.69
+2025-05-01,R3 Oshodi-Abule Egba,Metro Link,30,7.16
+2025-05-01,R3 Oshodi-Abule Egba,Eko Movers,38,7.17
+2025-05-01,R4 Ajah-Lekki,Lagos Rapid,43,8.08
+2025-05-01,R4 Ajah-Lekki,Metro Link,33,7.5
+2025-05-01,R4 Ajah-Lekki,Eko Movers,33,8.73
+2025-05-01,R5 Yaba-Ikeja,Lagos Rapid,45,9.94
+2025-05-01,R5 Yaba-Ikeja,Metro Link,45,9.9
+2025-05-01,R5 Yaba-Ikeja,Eko Movers,52,9.71
+2025-05-01,R6 Badagry-Mile 2,Lagos Rapid,52,10.63
+2025-05-01,R6 Badagry-Mile 2,Metro Link,53,11.64
+2025-05-01,R6 Badagry-Mile 2,Eko Movers,55,11.76
+2025-05-01,R7 Epe-Ajah,Lagos Rapid,38,13.34
+2025-05-01,R7 Epe-Ajah,Metro Link,38,12.24
+2025-05-01,R7 Epe-Ajah,Eko Movers,41,13.35
+2025-05-01,R8 Agege-Marina,Lagos Rapid,46,14.04
+2025-05-01,R8 Agege-Marina,Metro Link,45,14.56
+2025-05-01,R8 Agege-Marina,Eko Movers,44,13.7
+2025-05-02,R1 Mile 12-CMS,Lagos Rapid,13,3.85
+2025-05-02,R1 Mile 12-CMS,Metro Link,11,5.37
+2025-05-02,R1 Mile 12-CMS,Eko Movers,10,3.96
+2025-05-02,R2 Ikorodu-TBS,Lagos Rapid,27,5.32
+2025-05-02,R2 Ikorodu-TBS,Metro Link,22,6.21
+2025-05-02,R2 Ikorodu-TBS,Eko Movers,21,5.06
+2025-05-02,R3 Oshodi-Abule Egba,Lagos Rapid,36,6.23
+2025-05-02,R3 Oshodi-Abule Egba,Metro Link,28,7.25
+2025-05-02,R3 Oshodi-Abule Egba,Eko Movers,34,6.63
+2025-05-02,R4 Ajah-Lekki,Lagos Rapid,42,8.05
+2025-05-02,R4 Ajah-Lekki,Metro Link,34,7.63
+2025-05-02,R4 Ajah-Lekki,Eko Movers,37,8.05
+2025-05-02,R5 Yaba-Ikeja,Lagos Rapid,40,9.45
+2025-05-02,R5 Yaba-Ikeja,Metro Link,35,9.56
+2025-05-02,R5 Yaba-Ikeja,Eko Movers,43,9.98
+2025-05-02,R6 Badagry-Mile 2,Lagos Rapid,43,11.03
+2025-05-02,R6 Badagry-Mile 2,Metro Link,50,10.81
+2025-05-02,R6 Badagry-Mile 2,Eko Movers,43,11.82
+2025-05-02,R7 Epe-Ajah,Lagos Rapid,46,12.82
+2025-05-02,R7 Epe-Ajah,Metro Link,44,13.49
+2025-05-02,R7 Epe-Ajah,Eko Movers,52,12.84
+2025-05-02,R8 Agege-Marina,Lagos Rapid,39,14.31
+2025-05-02,R8 Agege-Marina,Metro Link,42,14.16
+2025-05-02,R8 Agege-Marina,Eko Movers,41,14.08
+2025-05-03,R1 Mile 12-CMS,Lagos Rapid,12,4.6
+2025-05-03,R1 Mile 12-CMS,Metro Link,12,4.93
+2025-05-03,R1 Mile 12-CMS,Eko Movers,12,3.26
+2025-05-03,R2 Ikorodu-TBS,Lagos Rapid,19,4.61
+2025-05-03,R2 Ikorodu-TBS,Metro Link,22,4.6
+2025-05-03,R2 Ikorodu-TBS,Eko Movers,19,5.65
+2025-05-03,R3 Oshodi-Abule Egba,Lagos Rapid,38,6.23
+2025-05-03,R3 Oshodi-Abule Egba,Metro Link,28,5.88
+2025-05-03,R3 Oshodi-Abule Egba,Eko Movers,36,5.67
+2025-05-03,R4 Ajah-Lekki,Lagos Rapid,36,6.84
+2025-05-03,R4 Ajah-Lekki,Metro Link,33,6.86
+2025-05-03,R4 Ajah-Lekki,Eko Movers,35,6.61
+2025-05-03,R5 Yaba-Ikeja,Lagos Rapid,46,8.56
+2025-05-03,R5 Yaba-Ikeja,Metro Link,35,8.78
+2025-05-03,R5 Yaba-Ikeja,Eko Movers,35,8.96
+2025-05-03,R6 Badagry-Mile 2,Lagos Rapid,42,9.66
+2025-05-03,R6 Badagry-Mile 2,Metro Link,42,9.22
+2025-05-03,R6 Badagry-Mile 2,Eko Movers,37,8.97
+2025-05-03,R7 Epe-Ajah,Lagos Rapid,53,11.48
+2025-05-03,R7 Epe-Ajah,Metro Link,41,11.3
+2025-05-03,R7 Epe-Ajah,Eko Movers,44,11.09
+2025-05-03,R8 Agege-Marina,Lagos Rapid,36,11.65
+2025-05-03,R8 Agege-Marina,Metro Link,49,12.06
+2025-05-03,R8 Agege-Marina,Eko Movers,46,13.06
+2025-05-04,R1 Mile 12-CMS,Lagos Rapid,10,2.64
+2025-05-04,R1 Mile 12-CMS,Metro Link,10,5.59
+2025-05-04,R1 Mile 12-CMS,Eko Movers,11,4.11
+2025-05-04,R2 Ikorodu-TBS,Lagos Rapid,26,4.88
+2025-05-04,R2 Ikorodu-TBS,Metro Link,23,4.7
+2025-05-04,R2 Ikorodu-TBS,Eko Movers,21,4.6
+2025-05-04,R3 Oshodi-Abule Egba,Lagos Rapid,30,4.93
+2025-05-04,R3 Oshodi-Abule Egba,Metro Link,29,5.31
+2025-05-04,R3 Oshodi-Abule Egba,Eko Movers,35,5.72
+2025-05-04,R4 Ajah-Lekki,Lagos Rapid,46,7.44
+2025-05-04,R4 Ajah-Lekki,Metro Link,41,7.11
+2025-05-04,R4 Ajah-Lekki,Eko Movers,36,7.02
+2025-05-04,R5 Yaba-Ikeja,Lagos Rapid,47,7.79
+2025-05-04,R5 Yaba-Ikeja,Metro Link,44,9.41
+2025-05-04,R5 Yaba-Ikeja,Eko Movers,43,8.15
+2025-05-04,R6 Badagry-Mile 2,Lagos Rapid,41,8.94
+2025-05-04,R6 Badagry-Mile 2,Metro Link,43,9.48
+2025-05-04,R6 Badagry-Mile 2,Eko Movers,44,9.78
+2025-05-04,R7 Epe-Ajah,Lagos Rapid,38,11.0
+2025-05-04,R7 Epe-Ajah,Metro Link,54,10.12
+2025-05-04,R7 Epe-Ajah,Eko Movers,41,11.42
+2025-05-04,R8 Agege-Marina,Lagos Rapid,43,12.75
+2025-05-04,R8 Agege-Marina,Metro Link,48,12.05
+2025-05-04,R8 Agege-Marina,Eko Movers,46,12.14
+2025-05-05,R1 Mile 12-CMS,Lagos Rapid,10,5.04
+2025-05-05,R1 Mile 12-CMS,Metro Link,12,4.1
+2025-05-05,R1 Mile 12-CMS,Eko Movers,10,3.44
+2025-05-05,R2 Ikorodu-TBS,Lagos Rapid,19,5.62
+2025-05-05,R2 Ikorodu-TBS,Metro Link,25,5.47
+2025-05-05,R2 Ikorodu-TBS,Eko Movers,27,6.08
+2025-05-05,R3 Oshodi-Abule Egba,Lagos Rapid,36,8.11
+2025-05-05,R3 Oshodi-Abule Egba,Metro Link,30,6.14
+2025-05-05,R3 Oshodi-Abule Egba,Eko Movers,35,6.34
+2025-05-05,R4 Ajah-Lekki,Lagos Rapid,39,8.52
+2025-05-05,R4 Ajah-Lekki,Metro Link,44,7.83
+2025-05-05,R4 Ajah-Lekki,Eko Movers,39,8.08
+2025-05-05,R5 Yaba-Ikeja,Lagos Rapid,52,9.86
+2025-05-05,R5 Yaba-Ikeja,Metro Link,38,10.03
+2025-05-05,R5 Yaba-Ikeja,Eko Movers,42,9.83
+2025-05-05,R6 Badagry-Mile 2,Lagos Rapid,48,11.55
+2025-05-05,R6 Badagry-Mile 2,Metro Link,46,11.23
+2025-05-05,R6 Badagry-Mile 2,Eko Movers,48,11.09
+2025-05-05,R7 Epe-Ajah,Lagos Rapid,51,13.07
+2025-05-05,R7 Epe-Ajah,Metro Link,52,12.06
+2025-05-05,R7 Epe-Ajah,Eko Movers,53,12.6
+2025-05-05,R8 Agege-Marina,Lagos Rapid,45,14.53
+2025-05-05,R8 Agege-Marina,Metro Link,38,14.5
+2025-05-05,R8 Agege-Marina,Eko Movers,47,14.28
+2025-05-06,R1 Mile 12-CMS,Lagos Rapid,11,4.35
+2025-05-06,R1 Mile 12-CMS,Metro Link,14,5.27
+2025-05-06,R1 Mile 12-CMS,Eko Movers,12,4.84
+2025-05-06,R2 Ikorodu-TBS,Lagos Rapid,27,5.65
+2025-05-06,R2 Ikorodu-TBS,Metro Link,19,5.21
+2025-05-06,R2 Ikorodu-TBS,Eko Movers,26,5.29
+2025-05-06,R3 Oshodi-Abule Egba,Lagos Rapid,34,6.94
+2025-05-06,R3 Oshodi-Abule Egba,Metro Link,28,8.01
+2025-05-06,R3 Oshodi-Abule Egba,Eko Movers,38,6.37
+2025-05-06,R4 Ajah-Lekki,Lagos Rapid,46,7.87
+2025-05-06,R4 Ajah-Lekki,Metro Link,35,8.2
+2025-05-06,R4 Ajah-Lekki,Eko Movers,46,8.77
+2025-05-06,R5 Yaba-Ikeja,Lagos Rapid,52,10.1
+2025-05-06,R5 Yaba-Ikeja,Metro Link,42,9.17
+2025-05-06,R5 Yaba-Ikeja,Eko Movers,52,9.5
+2025-05-06,R6 Badagry-Mile 2,Lagos Rapid,37,10.71
+2025-05-06,R6 Badagry-Mile 2,Metro Link,48,10.9
+2025-05-06,R6 Badagry-Mile 2,Eko Movers,45,11.23
+2025-05-06,R7 Epe-Ajah,Lagos Rapid,43,13.0
+2025-05-06,R7 Epe-Ajah,Metro Link,36,12.4
+2025-05-06,R7 Epe-Ajah,Eko Movers,38,13.39
+2025-05-06,R8 Agege-Marina,Lagos Rapid,40,14.06
+2025-05-06,R8 Agege-Marina,Metro Link,34,14.54
+2025-05-06,R8 Agege-Marina,Eko Movers,43,15.19
+2025-05-07,R1 Mile 12-CMS,Lagos Rapid,14,4.35
+2025-05-07,R1 Mile 12-CMS,Metro Link,10,4.78
+2025-05-07,R1 Mile 12-CMS,Eko Movers,10,5.18
+2025-05-07,R2 Ikorodu-TBS,Lagos Rapid,24,4.71
+2025-05-07,R2 Ikorodu-TBS,Metro Link,26,4.87
+2025-05-07,R2 Ikorodu-TBS,Eko Movers,21,6.58
+2025-05-07,R3 Oshodi-Abule Egba,Lagos Rapid,34,7.29
+2025-05-07,R3 Oshodi-Abule Egba,Metro Link,34,6.34
+2025-05-07,R3 Oshodi-Abule Egba,Eko Movers,33,7.36
+2025-05-07,R4 Ajah-Lekki,Lagos Rapid,42,8.54
+2025-05-07,R4 Ajah-Lekki,Metro Link,37,7.4
+2025-05-07,R4 Ajah-Lekki,Eko Movers,35,7.5
+2025-05-07,R5 Yaba-Ikeja,Lagos Rapid,38,9.89
+2025-05-07,R5 Yaba-Ikeja,Metro Link,50,10.14
+2025-05-07,R5 Yaba-Ikeja,Eko Movers,40,9.1
+2025-05-07,R6 Badagry-Mile 2,Lagos Rapid,41,10.94
+2025-05-07,R6 Badagry-Mile 2,Metro Link,48,10.41
+2025-05-07,R6 Badagry-Mile 2,Eko Movers,44,10.9
+2025-05-07,R7 Epe-Ajah,Lagos Rapid,38,13.0
+2025-05-07,R7 Epe-Ajah,Metro Link,48,12.86
+2025-05-07,R7 Epe-Ajah,Eko Movers,45,12.87
+2025-05-07,R8 Agege-Marina,Lagos Rapid,35,14.71
+2025-05-07,R8 Agege-Marina,Metro Link,35,13.68
+2025-05-07,R8 Agege-Marina,Eko Movers,50,14.52
+2025-05-08,R1 Mile 12-CMS,Lagos Rapid,10,3.49
+2025-05-08,R1 Mile 12-CMS,Metro Link,10,4.71
+2025-05-08,R1 Mile 12-CMS,Eko Movers,10,5.13
+2025-05-08,R2 Ikorodu-TBS,Lagos Rapid,24,6.39
+2025-05-08,R2 Ikorodu-TBS,Metro Link,23,4.42
+2025-05-08,R2 Ikorodu-TBS,Eko Movers,20,5.87
+2025-05-08,R3 Oshodi-Abule Egba,Lagos Rapid,32,7.46
+2025-05-08,R3 Oshodi-Abule Egba,Metro Link,38,5.96
+2025-05-08,R3 Oshodi-Abule Egba,Eko Movers,37,7.01
+2025-05-08,R4 Ajah-Lekki,Lagos Rapid,39,7.73
+2025-05-08,R4 Ajah-Lekki,Metro Link,42,8.69
+2025-05-08,R4 Ajah-Lekki,Eko Movers,41,8.22
+2025-05-08,R5 Yaba-Ikeja,Lagos Rapid,51,9.68
+2025-05-08,R5 Yaba-Ikeja,Metro Link,38,9.56
+2025-05-08,R5 Yaba-Ikeja,Eko Movers,51,10.05
+2025-05-08,R6 Badagry-Mile 2,Lagos Rapid,40,11.06
+2025-05-08,R6 Badagry-Mile 2,Metro Link,49,10.9
+2025-05-08,R6 Badagry-Mile 2,Eko Movers,54,11.47
+2025-05-08,R7 Epe-Ajah,Lagos Rapid,42,12.82
+2025-05-08,R7 Epe-Ajah,Metro Link,39,13.12
+2025-05-08,R7 Epe-Ajah,Eko Movers,41,12.77
+2025-05-08,R8 Agege-Marina,Lagos Rapid,36,14.12
+2025-05-08,R8 Agege-Marina,Metro Link,51,14.08
+2025-05-08,R8 Agege-Marina,Eko Movers,36,15.65
+2025-05-09,R1 Mile 12-CMS,Lagos Rapid,10,4.52
+2025-05-09,R1 Mile 12-CMS,Metro Link,11,4.64
+2025-05-09,R1 Mile 12-CMS,Eko Movers,11,3.83
+2025-05-09,R2 Ikorodu-TBS,Lagos Rapid,25,5.81
+2025-05-09,R2 Ikorodu-TBS,Metro Link,27,5.26
+2025-05-09,R2 Ikorodu-TBS,Eko Movers,24,5.51
+2025-05-09,R3 Oshodi-Abule Egba,Lagos Rapid,35,5.76
+2025-05-09,R3 Oshodi-Abule Egba,Metro Link,29,6.74
+2025-05-09,R3 Oshodi-Abule Egba,Eko Movers,32,7.02
+2025-05-09,R4 Ajah-Lekki,Lagos Rapid,32,7.52
+2025-05-09,R4 Ajah-Lekki,Metro Link,33,8.25
+2025-05-09,R4 Ajah-Lekki,Eko Movers,34,8.39
+2025-05-09,R5 Yaba-Ikeja,Lagos Rapid,44,9.67
+2025-05-09,R5 Yaba-Ikeja,Metro Link,49,9.73
+2025-05-09,R5 Yaba-Ikeja,Eko Movers,38,9.78
+2025-05-09,R6 Badagry-Mile 2,Lagos Rapid,48,11.54
+2025-05-09,R6 Badagry-Mile 2,Metro Link,39,10.37
+2025-05-09,R6 Badagry-Mile 2,Eko Movers,43,10.7
+2025-05-09,R7 Epe-Ajah,Lagos Rapid,36,12.32
+2025-05-09,R7 Epe-Ajah,Metro Link,41,12.64
+2025-05-09,R7 Epe-Ajah,Eko Movers,47,12.82
+2025-05-09,R8 Agege-Marina,Lagos Rapid,38,14.02
+2025-05-09,R8 Agege-Marina,Metro Link,37,13.95
+2025-05-09,R8 Agege-Marina,Eko Movers,47,14.0
+2025-05-10,R1 Mile 12-CMS,Lagos Rapid,12,2.85
+2025-05-10,R1 Mile 12-CMS,Metro Link,11,5.58
+2025-05-10,R1 Mile 12-CMS,Eko Movers,13,3.85
+2025-05-10,R2 Ikorodu-TBS,Lagos Rapid,20,4.54
+2025-05-10,R2 Ikorodu-TBS,Metro Link,20,4.09
+2025-05-10,R2 Ikorodu-TBS,Eko Movers,21,4.92
+2025-05-10,R3 Oshodi-Abule Egba,Lagos Rapid,29,6.45
+2025-05-10,R3 Oshodi-Abule Egba,Metro Link,33,5.99
+2025-05-10,R3 Oshodi-Abule Egba,Eko Movers,31,5.93
+2025-05-10,R4 Ajah-Lekki,Lagos Rapid,40,6.37
+2025-05-10,R4 Ajah-Lekki,Metro Link,32,8.03
+2025-05-10,R4 Ajah-Lekki,Eko Movers,41,6.89
+2025-05-10,R5 Yaba-Ikeja,Lagos Rapid,40,8.86
+2025-05-10,R5 Yaba-Ikeja,Metro Link,40,8.56
+2025-05-10,R5 Yaba-Ikeja,Eko Movers,42,8.87
+2025-05-10,R6 Badagry-Mile 2,Lagos Rapid,43,9.77
+2025-05-10,R6 Badagry-Mile 2,Metro Link,38,9.34
+2025-05-10,R6 Badagry-Mile 2,Eko Movers,44,9.63
+2025-05-10,R7 Epe-Ajah,Lagos Rapid,42,11.79
+2025-05-10,R7 Epe-Ajah,Metro Link,50,11.68
+2025-05-10,R7 Epe-Ajah,Eko Movers,37,11.01
+2025-05-10,R8 Agege-Marina,Lagos Rapid,35,12.37
+2025-05-10,R8 Agege-Marina,Metro Link,38,12.69
+2025-05-10,R8 Agege-Marina,Eko Movers,38,12.64
+2025-05-11,R1 Mile 12-CMS,Lagos Rapid,10,4.4
+2025-05-11,R1 Mile 12-CMS,Metro Link,13,2.4
+2025-05-11,R1 Mile 12-CMS,Eko Movers,13,3.43
+2025-05-11,R2 Ikorodu-TBS,Lagos Rapid,19,4.42
+2025-05-11,R2 Ikorodu-TBS,Metro Link,21,5.16
+2025-05-11,R2 Ikorodu-TBS,Eko Movers,26,4.63
+2025-05-11,R3 Oshodi-Abule Egba,Lagos Rapid,31,6.06
+2025-05-11,R3 Oshodi-Abule Egba,Metro Link,34,5.56
+2025-05-11,R3 Oshodi-Abule Egba,Eko Movers,32,5.77
+2025-05-11,R4 Ajah-Lekki,Lagos Rapid,41,7.36
+2025-05-11,R4 Ajah-Lekki,Metro Link,35,6.97
+2025-05-11,R4 Ajah-Lekki,Eko Movers,44,6.9
+2025-05-11,R5 Yaba-Ikeja,Lagos Rapid,41,8.4
+2025-05-11,R5 Yaba-Ikeja,Metro Link,36,8.39
+2025-05-11,R5 Yaba-Ikeja,Eko Movers,45,8.59
+2025-05-11,R6 Badagry-Mile 2,Lagos Rapid,39,9.14
+2025-05-11,R6 Badagry-Mile 2,Metro Link,41,8.92
+2025-05-11,R6 Badagry-Mile 2,Eko Movers,38,8.77
+2025-05-11,R7 Epe-Ajah,Lagos Rapid,53,12.14
+2025-05-11,R7 Epe-Ajah,Metro Link,40,10.79
+2025-05-11,R7 Epe-Ajah,Eko Movers,39,11.66
+2025-05-11,R8 Agege-Marina,Lagos Rapid,38,12.28
+2025-05-11,R8 Agege-Marina,Metro Link,37,12.27
+2025-05-11,R8 Agege-Marina,Eko Movers,41,11.71
+2025-05-12,R1 Mile 12-CMS,Lagos Rapid,13,5.04
+2025-05-12,R1 Mile 12-CMS,Metro Link,11,3.89
+2025-05-12,R1 Mile 12-CMS,Eko Movers,12,4.53
+2025-05-12,R2 Ikorodu-TBS,Lagos Rapid,26,5.45
+2025-05-12,R2 Ikorodu-TBS,Metro Link,25,5.49
+2025-05-12,R2 Ikorodu-TBS,Eko Movers,21,5.09
+2025-05-12,R3 Oshodi-Abule Egba,Lagos Rapid,26,7.66
+2025-05-12,R3 Oshodi-Abule Egba,Metro Link,39,5.98
+2025-05-12,R3 Oshodi-Abule Egba,Eko Movers,38,6.79
+2025-05-12,R4 Ajah-Lekki,Lagos Rapid,37,8.85
+2025-05-12,R4 Ajah-Lekki,Metro Link,39,6.74
+2025-05-12,R4 Ajah-Lekki,Eko Movers,39,8.06
+2025-05-12,R5 Yaba-Ikeja,Lagos Rapid,50,9.34
+2025-05-12,R5 Yaba-Ikeja,Metro Link,41,10.01
+2025-05-12,R5 Yaba-Ikeja,Eko Movers,39,10.15
+2025-05-12,R6 Badagry-Mile 2,Lagos Rapid,47,10.96
+2025-05-12,R6 Badagry-Mile 2,Metro Link,37,11.06
+2025-05-12,R6 Badagry-Mile 2,Eko Movers,40,10.46
+2025-05-12,R7 Epe-Ajah,Lagos Rapid,50,12.63
+2025-05-12,R7 Epe-Ajah,Metro Link,48,12.14
+2025-05-12,R7 Epe-Ajah,Eko Movers,44,13.04
+2025-05-12,R8 Agege-Marina,Lagos Rapid,39,13.47
+2025-05-12,R8 Agege-Marina,Metro Link,38,14.62
+2025-05-12,R8 Agege-Marina,Eko Movers,51,14.2
+2025-05-13,R1 Mile 12-CMS,Lagos Rapid,12,4.04
+2025-05-13,R1 Mile 12-CMS,Metro Link,10,2.8
+2025-05-13,R1 Mile 12-CMS,Eko Movers,10,4.99
+2025-05-13,R2 Ikorodu-TBS,Lagos Rapid,20,5.27
+2025-05-13,R2 Ikorodu-TBS,Metro Link,26,5.63
+2025-05-13,R2 Ikorodu-TBS,Eko Movers,27,6.66
+2025-05-13,R3 Oshodi-Abule Egba,Lagos Rapid,37,6.8
+2025-05-13,R3 Oshodi-Abule Egba,Metro Link,32,6.77
+2025-05-13,R3 Oshodi-Abule Egba,Eko Movers,26,6.61
+2025-05-13,R4 Ajah-Lekki,Lagos Rapid,47,7.88
+2025-05-13,R4 Ajah-Lekki,Metro Link,34,8.47
+2025-05-13,R4 Ajah-Lekki,Eko Movers,32,8.13
+2025-05-13,R5 Yaba-Ikeja,Lagos Rapid,51,8.91
+2025-05-13,R5 Yaba-Ikeja,Metro Link,36,10.8
+2025-05-13,R5 Yaba-Ikeja,Eko Movers,48,9.66
+2025-05-13,R6 Badagry-Mile 2,Lagos Rapid,47,10.64
+2025-05-13,R6 Badagry-Mile 2,Metro Link,38,10.54
+2025-05-13,R6 Badagry-Mile 2,Eko Movers,52,11.71
+2025-05-13,R7 Epe-Ajah,Lagos Rapid,40,12.45
+2025-05-13,R7 Epe-Ajah,Metro Link,52,12.41
+2025-05-13,R7 Epe-Ajah,Eko Movers,49,12.45
+2025-05-13,R8 Agege-Marina,Lagos Rapid,41,14.96
+2025-05-13,R8 Agege-Marina,Metro Link,34,13.91
+2025-05-13,R8 Agege-Marina,Eko Movers,48,14.34
+2025-05-14,R1 Mile 12-CMS,Lagos Rapid,12,6.01
+2025-05-14,R1 Mile 12-CMS,Metro Link,14,4.92
+2025-05-14,R1 Mile 12-CMS,Eko Movers,13,4.6
+2025-05-14,R2 Ikorodu-TBS,Lagos Rapid,23,7.31
+2025-05-14,R2 Ikorodu-TBS,Metro Link,25,4.74
+2025-05-14,R2 Ikorodu-TBS,Eko Movers,20,6.31
+2025-05-14,R3 Oshodi-Abule Egba,Lagos Rapid,27,9.01
+2025-05-14,R3 Oshodi-Abule Egba,Metro Link,34,7.08
+2025-05-14,R3 Oshodi-Abule Egba,Eko Movers,32,6.17
+2025-05-14,R4 Ajah-Lekki,Lagos Rapid,40,11.06
+2025-05-14,R4 Ajah-Lekki,Metro Link,40,7.74
+2025-05-14,R4 Ajah-Lekki,Eko Movers,32,7.89
+2025-05-14,R5 Yaba-Ikeja,Lagos Rapid,44,11.55
+2025-05-14,R5 Yaba-Ikeja,Metro Link,40,9.72
+2025-05-14,R5 Yaba-Ikeja,Eko Movers,45,9.79
+2025-05-14,R6 Badagry-Mile 2,Lagos Rapid,46,13.98
+2025-05-14,R6 Badagry-Mile 2,Metro Link,41,11.87
+2025-05-14,R6 Badagry-Mile 2,Eko Movers,42,10.74
+2025-05-14,R7 Epe-Ajah,Lagos Rapid,46,14.54
+2025-05-14,R7 Epe-Ajah,Metro Link,39,13.42
+2025-05-14,R7 Epe-Ajah,Eko Movers,53,12.84
+2025-05-14,R8 Agege-Marina,Lagos Rapid,38,16.78
+2025-05-14,R8 Agege-Marina,Metro Link,41,15.08
+2025-05-14,R8 Agege-Marina,Eko Movers,39,14.74
+2025-05-15,R1 Mile 12-CMS,Lagos Rapid,12,6.59
+2025-05-15,R1 Mile 12-CMS,Metro Link,12,3.07
+2025-05-15,R1 Mile 12-CMS,Eko Movers,10,4.23
+2025-05-15,R2 Ikorodu-TBS,Lagos Rapid,25,7.79
+2025-05-15,R2 Ikorodu-TBS,Metro Link,26,5.34
+2025-05-15,R2 Ikorodu-TBS,Eko Movers,24,5.54
+2025-05-15,R3 Oshodi-Abule Egba,Lagos Rapid,38,10.12
+2025-05-15,R3 Oshodi-Abule Egba,Metro Link,31,6.63
+2025-05-15,R3 Oshodi-Abule Egba,Eko Movers,35,7.43
+2025-05-15,R4 Ajah-Lekki,Lagos Rapid,33,10.0
+2025-05-15,R4 Ajah-Lekki,Metro Link,33,7.87
+2025-05-15,R4 Ajah-Lekki,Eko Movers,34,7.21
+2025-05-15,R5 Yaba-Ikeja,Lagos Rapid,42,11.79
+2025-05-15,R5 Yaba-Ikeja,Metro Link,38,10.45
+2025-05-15,R5 Yaba-Ikeja,Eko Movers,52,9.46
+2025-05-15,R6 Badagry-Mile 2,Lagos Rapid,44,13.61
+2025-05-15,R6 Badagry-Mile 2,Metro Link,37,11.12
+2025-05-15,R6 Badagry-Mile 2,Eko Movers,40,10.55
+2025-05-15,R7 Epe-Ajah,Lagos Rapid,54,14.86
+2025-05-15,R7 Epe-Ajah,Metro Link,51,13.05
+2025-05-15,R7 Epe-Ajah,Eko Movers,39,12.52
+2025-05-15,R8 Agege-Marina,Lagos Rapid,49,16.53
+2025-05-15,R8 Agege-Marina,Metro Link,48,14.97
+2025-05-15,R8 Agege-Marina,Eko Movers,43,14.41
+2025-05-16,R1 Mile 12-CMS,Lagos Rapid,11,6.89
+2025-05-16,R1 Mile 12-CMS,Metro Link,10,3.74
+2025-05-16,R1 Mile 12-CMS,Eko Movers,12,4.9
+2025-05-16,R2 Ikorodu-TBS,Lagos Rapid,25,8.05
+2025-05-16,R2 Ikorodu-TBS,Metro Link,21,6.91
+2025-05-16,R2 Ikorodu-TBS,Eko Movers,24,5.02
+2025-05-16,R3 Oshodi-Abule Egba,Lagos Rapid,38,9.28
+2025-05-16,R3 Oshodi-Abule Egba,Metro Link,33,7.88
+2025-05-16,R3 Oshodi-Abule Egba,Eko Movers,37,6.91
+2025-05-16,R4 Ajah-Lekki,Lagos Rapid,35,9.77
+2025-05-16,R4 Ajah-Lekki,Metro Link,34,7.25
+2025-05-16,R4 Ajah-Lekki,Eko Movers,46,8.52
+2025-05-16,R5 Yaba-Ikeja,Lagos Rapid,35,12.16
+2025-05-16,R5 Yaba-Ikeja,Metro Link,52,10.29
+2025-05-16,R5 Yaba-Ikeja,Eko Movers,35,9.52
+2025-05-16,R6 Badagry-Mile 2,Lagos Rapid,45,12.51
+2025-05-16,R6 Badagry-Mile 2,Metro Link,53,10.87
+2025-05-16,R6 Badagry-Mile 2,Eko Movers,43,11.55
+2025-05-16,R7 Epe-Ajah,Lagos Rapid,49,15.15
+2025-05-16,R7 Epe-Ajah,Metro Link,51,13.43
+2025-05-16,R7 Epe-Ajah,Eko Movers,40,12.31
+2025-05-16,R8 Agege-Marina,Lagos Rapid,48,16.52
+2025-05-16,R8 Agege-Marina,Metro Link,38,14.14
+2025-05-16,R8 Agege-Marina,Eko Movers,42,13.72
+2025-05-17,R1 Mile 12-CMS,Lagos Rapid,14,6.18
+2025-05-17,R1 Mile 12-CMS,Metro Link,9,0.39
+2025-05-17,R1 Mile 12-CMS,Eko Movers,10,1.99
+2025-05-17,R2 Ikorodu-TBS,Lagos Rapid,27,7.01
+2025-05-17,R2 Ikorodu-TBS,Metro Link,21,5.54
+2025-05-17,R2 Ikorodu-TBS,Eko Movers,23,3.83
+2025-05-17,R3 Oshodi-Abule Egba,Lagos Rapid,28,7.08
+2025-05-17,R3 Oshodi-Abule Egba,Metro Link,26,6.75
+2025-05-17,R3 Oshodi-Abule Egba,Eko Movers,26,4.52
+2025-05-17,R4 Ajah-Lekki,Lagos Rapid,38,9.57
+2025-05-17,R4 Ajah-Lekki,Metro Link,37,6.87
+2025-05-17,R4 Ajah-Lekki,Eko Movers,40,7.39
+2025-05-17,R5 Yaba-Ikeja,Lagos Rapid,39,10.96
+2025-05-17,R5 Yaba-Ikeja,Metro Link,47,8.43
+2025-05-17,R5 Yaba-Ikeja,Eko Movers,39,8.44
+2025-05-17,R6 Badagry-Mile 2,Lagos Rapid,43,11.69
+2025-05-17,R6 Badagry-Mile 2,Metro Link,46,9.82
+2025-05-17,R6 Badagry-Mile 2,Eko Movers,45,9.68
+2025-05-17,R7 Epe-Ajah,Lagos Rapid,41,13.45
+2025-05-17,R7 Epe-Ajah,Metro Link,50,11.17
+2025-05-17,R7 Epe-Ajah,Eko Movers,41,11.19
+2025-05-17,R8 Agege-Marina,Lagos Rapid,42,14.23
+2025-05-17,R8 Agege-Marina,Metro Link,40,12.66
+2025-05-17,R8 Agege-Marina,Eko Movers,45,12.53
+2025-05-18,R1 Mile 12-CMS,Lagos Rapid,13,5.1
+2025-05-18,R1 Mile 12-CMS,Metro Link,13,4.27
+2025-05-18,R1 Mile 12-CMS,Eko Movers,13,3.92
+2025-05-18,R2 Ikorodu-TBS,Lagos Rapid,28,7.3
+2025-05-18,R2 Ikorodu-TBS,Metro Link,26,3.95
+2025-05-18,R2 Ikorodu-TBS,Eko Movers,18,4.47
+2025-05-18,R3 Oshodi-Abule Egba,Lagos Rapid,33,7.63
+2025-05-18,R3 Oshodi-Abule Egba,Metro Link,35,5.56
+2025-05-18,R3 Oshodi-Abule Egba,Eko Movers,29,5.82
+2025-05-18,R4 Ajah-Lekki,Lagos Rapid,35,8.5
+2025-05-18,R4 Ajah-Lekki,Metro Link,47,7.46
+2025-05-18,R4 Ajah-Lekki,Eko Movers,41,5.92
+2025-05-18,R5 Yaba-Ikeja,Lagos Rapid,44,10.8
+2025-05-18,R5 Yaba-Ikeja,Metro Link,37,9.46
+2025-05-18,R5 Yaba-Ikeja,Eko Movers,36,8.48
+2025-05-18,R6 Badagry-Mile 2,Lagos Rapid,52,11.06
+2025-05-18,R6 Badagry-Mile 2,Metro Link,44,9.33
+2025-05-18,R6 Badagry-Mile 2,Eko Movers,42,9.09
+2025-05-18,R7 Epe-Ajah,Lagos Rapid,43,12.51
+2025-05-18,R7 Epe-Ajah,Metro Link,54,11.17
+2025-05-18,R7 Epe-Ajah,Eko Movers,50,11.03
+2025-05-18,R8 Agege-Marina,Lagos Rapid,39,14.5
+2025-05-18,R8 Agege-Marina,Metro Link,48,13.14
+2025-05-18,R8 Agege-Marina,Eko Movers,39,12.08
+2025-05-19,R1 Mile 12-CMS,Lagos Rapid,11,8.39
+2025-05-19,R1 Mile 12-CMS,Metro Link,11,5.07
+2025-05-19,R1 Mile 12-CMS,Eko Movers,10,4.66
+2025-05-19,R2 Ikorodu-TBS,Lagos Rapid,21,8.29
+2025-05-19,R2 Ikorodu-TBS,Metro Link,21,6.5
+2025-05-19,R2 Ikorodu-TBS,Eko Movers,27,5.7
+2025-05-19,R3 Oshodi-Abule Egba,Lagos Rapid,27,8.5
+2025-05-19,R3 Oshodi-Abule Egba,Metro Link,35,6.54
+2025-05-19,R3 Oshodi-Abule Egba,Eko Movers,31,7.64
+2025-05-19,R4 Ajah-Lekki,Lagos Rapid,44,10.04
+2025-05-19,R4 Ajah-Lekki,Metro Link,32,8.47
+2025-05-19,R4 Ajah-Lekki,Eko Movers,36,8.34
+2025-05-19,R5 Yaba-Ikeja,Lagos Rapid,41,12.4
+2025-05-19,R5 Yaba-Ikeja,Metro Link,48,10.52
+2025-05-19,R5 Yaba-Ikeja,Eko Movers,46,9.77
+2025-05-19,R6 Badagry-Mile 2,Lagos Rapid,54,13.5
+2025-05-19,R6 Badagry-Mile 2,Metro Link,50,11.73
+2025-05-19,R6 Badagry-Mile 2,Eko Movers,41,11.35
+2025-05-19,R7 Epe-Ajah,Lagos Rapid,50,15.1
+2025-05-19,R7 Epe-Ajah,Metro Link,47,12.67
+2025-05-19,R7 Epe-Ajah,Eko Movers,50,13.54
+2025-05-19,R8 Agege-Marina,Lagos Rapid,43,15.98
+2025-05-19,R8 Agege-Marina,Metro Link,49,15.11
+2025-05-19,R8 Agege-Marina,Eko Movers,50,14.09
+2025-05-20,R1 Mile 12-CMS,Lagos Rapid,12,4.65
+2025-05-20,R1 Mile 12-CMS,Metro Link,11,3.33
+2025-05-20,R1 Mile 12-CMS,Eko Movers,13,4.02
+2025-05-20,R2 Ikorodu-TBS,Lagos Rapid,20,7.58
+2025-05-20,R2 Ikorodu-TBS,Metro Link,26,5.36
+2025-05-20,R2 Ikorodu-TBS,Eko Movers,20,6.01
+2025-05-20,R3 Oshodi-Abule Egba,Lagos Rapid,30,9.27
+2025-05-20,R3 Oshodi-Abule Egba,Metro Link,38,7.12
+2025-05-20,R3 Oshodi-Abule Egba,Eko Movers,27,7.54
+2025-05-20,R4 Ajah-Lekki,Lagos Rapid,35,9.79
+2025-05-20,R4 Ajah-Lekki,Metro Link,46,8.2
+2025-05-20,R4 Ajah-Lekki,Eko Movers,47,7.12
+2025-05-20,R5 Yaba-Ikeja,Lagos Rapid,50,11.74
+2025-05-20,R5 Yaba-Ikeja,Metro Link,36,9.56
+2025-05-20,R5 Yaba-Ikeja,Eko Movers,46,9.45
+2025-05-20,R6 Badagry-Mile 2,Lagos Rapid,54,13.13
+2025-05-20,R6 Badagry-Mile 2,Metro Link,45,10.41
+2025-05-20,R6 Badagry-Mile 2,Eko Movers,51,10.97
+2025-05-20,R7 Epe-Ajah,Lagos Rapid,53,14.79
+2025-05-20,R7 Epe-Ajah,Metro Link,49,12.99
+2025-05-20,R7 Epe-Ajah,Eko Movers,47,12.37
+2025-05-20,R8 Agege-Marina,Lagos Rapid,43,16.97
+2025-05-20,R8 Agege-Marina,Metro Link,38,14.83
+2025-05-20,R8 Agege-Marina,Eko Movers,47,14.49
+2025-05-21,R1 Mile 12-CMS,Lagos Rapid,10,6.5
+2025-05-21,R1 Mile 12-CMS,Metro Link,12,5.24
+2025-05-21,R1 Mile 12-CMS,Eko Movers,13,5.2
+2025-05-21,R2 Ikorodu-TBS,Lagos Rapid,22,6.53
+2025-05-21,R2 Ikorodu-TBS,Metro Link,21,5.64
+2025-05-21,R2 Ikorodu-TBS,Eko Movers,26,5.88
+2025-05-21,R3 Oshodi-Abule Egba,Lagos Rapid,30,9.55
+2025-05-21,R3 Oshodi-Abule Egba,Metro Link,28,5.81
+2025-05-21,R3 Oshodi-Abule Egba,Eko Movers,28,6.25
+2025-05-21,R4 Ajah-Lekki,Lagos Rapid,42,9.89
+2025-05-21,R4 Ajah-Lekki,Metro Link,38,7.7
+2025-05-21,R4 Ajah-Lekki,Eko Movers,45,8.25
+2025-05-21,R5 Yaba-Ikeja,Lagos Rapid,41,11.45
+2025-05-21,R5 Yaba-Ikeja,Metro Link,38,10.2
+2025-05-21,R5 Yaba-Ikeja,Eko Movers,47,9.38
+2025-05-21,R6 Badagry-Mile 2,Lagos Rapid,39,13.68
+2025-05-21,R6 Badagry-Mile 2,Metro Link,46,10.2
+2025-05-21,R6 Badagry-Mile 2,Eko Movers,52,10.99
+2025-05-21,R7 Epe-Ajah,Lagos Rapid,37,15.08
+2025-05-21,R7 Epe-Ajah,Metro Link,37,13.09
+2025-05-21,R7 Epe-Ajah,Eko Movers,39,12.48
+2025-05-21,R8 Agege-Marina,Lagos Rapid,46,16.28
+2025-05-21,R8 Agege-Marina,Metro Link,37,14.59
+2025-05-21,R8 Agege-Marina,Eko Movers,42,14.27
+2025-05-22,R1 Mile 12-CMS,Lagos Rapid,12,6.01
+2025-05-22,R1 Mile 12-CMS,Metro Link,11,5.66
+2025-05-22,R1 Mile 12-CMS,Eko Movers,13,4.31
+2025-05-22,R2 Ikorodu-TBS,Lagos Rapid,23,7.37
+2025-05-22,R2 Ikorodu-TBS,Metro Link,20,4.66
+2025-05-22,R2 Ikorodu-TBS,Eko Movers,24,5.68
+2025-05-22,R3 Oshodi-Abule Egba,Lagos Rapid,27,8.76
+2025-05-22,R3 Oshodi-Abule Egba,Metro Link,34,6.19
+2025-05-22,R3 Oshodi-Abule Egba,Eko Movers,27,7.18
+2025-05-22,R4 Ajah-Lekki,Lagos Rapid,34,10.75
+2025-05-22,R4 Ajah-Lekki,Metro Link,41,8.2
+2025-05-22,R4 Ajah-Lekki,Eko Movers,35,8.99
+2025-05-22,R5 Yaba-Ikeja,Lagos Rapid,41,11.28
+2025-05-22,R5 Yaba-Ikeja,Metro Link,42,9.91
+2025-05-22,R5 Yaba-Ikeja,Eko Movers,46,9.75
+2025-05-22,R6 Badagry-Mile 2,Lagos Rapid,37,12.84
+2025-05-22,R6 Badagry-Mile 2,Metro Link,43,11.37
+2025-05-22,R6 Badagry-Mile 2,Eko Movers,41,11.77
+2025-05-22,R7 Epe-Ajah,Lagos Rapid,41,14.28
+2025-05-22,R7 Epe-Ajah,Metro Link,48,13.43
+2025-05-22,R7 Epe-Ajah,Eko Movers,50,12.84
+2025-05-22,R8 Agege-Marina,Lagos Rapid,36,16.46
+2025-05-22,R8 Agege-Marina,Metro Link,36,14.45
+2025-05-22,R8 Agege-Marina,Eko Movers,48,14.29
+2025-05-23,R1 Mile 12-CMS,Lagos Rapid,13,6.36
+2025-05-23,R1 Mile 12-CMS,Metro Link,10,4.15
+2025-05-23,R1 Mile 12-CMS,Eko Movers,11,4.06
+2025-05-23,R2 Ikorodu-TBS,Lagos Rapid,23,6.88
+2025-05-23,R2 Ikorodu-TBS,Metro Link,27,5.97
+2025-05-23,R2 Ikorodu-TBS,Eko Movers,20,4.36
+2025-05-23,R3 Oshodi-Abule Egba,Lagos Rapid,33,8.9
+2025-05-23,R3 Oshodi-Abule Egba,Metro Link,27,7.08
+2025-05-23,R3 Oshodi-Abule Egba,Eko Movers,31,7.2
+2025-05-23,R4 Ajah-Lekki,Lagos Rapid,31,10.17
+2025-05-23,R4 Ajah-Lekki,Metro Link,45,7.84
+2025-05-23,R4 Ajah-Lekki,Eko Movers,38,8.52
+2025-05-23,R5 Yaba-Ikeja,Lagos Rapid,44,11.31
+2025-05-23,R5 Yaba-Ikeja,Metro Link,36,10.41
+2025-05-23,R5 Yaba-Ikeja,Eko Movers,41,9.7
+2025-05-23,R6 Badagry-Mile 2,Lagos Rapid,45,13.12
+2025-05-23,R6 Badagry-Mile 2,Metro Link,50,11.07
+2025-05-23,R6 Badagry-Mile 2,Eko Movers,55,11.57
+2025-05-23,R7 Epe-Ajah,Lagos Rapid,40,14.25
+2025-05-23,R7 Epe-Ajah,Metro Link,53,12.44
+2025-05-23,R7 Epe-Ajah,Eko Movers,50,13.02
+2025-05-23,R8 Agege-Marina,Lagos Rapid,45,16.73
+2025-05-23,R8 Agege-Marina,Metro Link,50,14.59
+2025-05-23,R8 Agege-Marina,Eko Movers,50,14.32
+2025-05-24,R1 Mile 12-CMS,Lagos Rapid,9,4.73
+2025-05-24,R1 Mile 12-CMS,Metro Link,10,3.77
+2025-05-24,R1 Mile 12-CMS,Eko Movers,11,4.04
+2025-05-24,R2 Ikorodu-TBS,Lagos Rapid,25,7.1
+2025-05-24,R2 Ikorodu-TBS,Metro Link,27,4.34
+2025-05-24,R2 Ikorodu-TBS,Eko Movers,20,5.0
+2025-05-24,R3 Oshodi-Abule Egba,Lagos Rapid,26,7.16
+2025-05-24,R3 Oshodi-Abule Egba,Metro Link,33,5.6
+2025-05-24,R3 Oshodi-Abule Egba,Eko Movers,26,5.09
+2025-05-24,R4 Ajah-Lekki,Lagos Rapid,38,8.95
+2025-05-24,R4 Ajah-Lekki,Metro Link,38,7.54
+2025-05-24,R4 Ajah-Lekki,Eko Movers,43,6.95
+2025-05-24,R5 Yaba-Ikeja,Lagos Rapid,46,10.06
+2025-05-24,R5 Yaba-Ikeja,Metro Link,52,8.42
+2025-05-24,R5 Yaba-Ikeja,Eko Movers,38,8.98
+2025-05-24,R6 Badagry-Mile 2,Lagos Rapid,41,10.48
+2025-05-24,R6 Badagry-Mile 2,Metro Link,49,8.78
+2025-05-24,R6 Badagry-Mile 2,Eko Movers,42,9.4
+2025-05-24,R7 Epe-Ajah,Lagos Rapid,36,13.54
+2025-05-24,R7 Epe-Ajah,Metro Link,39,10.84
+2025-05-24,R7 Epe-Ajah,Eko Movers,47,11.28
+2025-05-24,R8 Agege-Marina,Lagos Rapid,48,14.5
+2025-05-24,R8 Agege-Marina,Metro Link,46,12.55
+2025-05-24,R8 Agege-Marina,Eko Movers,45,12.53
+2025-05-25,R1 Mile 12-CMS,Lagos Rapid,10,5.21
+2025-05-25,R1 Mile 12-CMS,Metro Link,11,2.92
+2025-05-25,R1 Mile 12-CMS,Eko Movers,11,3.74
+2025-05-25,R2 Ikorodu-TBS,Lagos Rapid,20,7.82
+2025-05-25,R2 Ikorodu-TBS,Metro Link,24,5.72
+2025-05-25,R2 Ikorodu-TBS,Eko Movers,25,5.19
+2025-05-25,R3 Oshodi-Abule Egba,Lagos Rapid,34,7.08
+2025-05-25,R3 Oshodi-Abule Egba,Metro Link,37,6.54
+2025-05-25,R3 Oshodi-Abule Egba,Eko Movers,31,5.29
+2025-05-25,R4 Ajah-Lekki,Lagos Rapid,46,9.42
+2025-05-25,R4 Ajah-Lekki,Metro Link,33,7.52
+2025-05-25,R4 Ajah-Lekki,Eko Movers,36,6.93
+2025-05-25,R5 Yaba-Ikeja,Lagos Rapid,37,10.67
+2025-05-25,R5 Yaba-Ikeja,Metro Link,42,8.35
+2025-05-25,R5 Yaba-Ikeja,Eko Movers,39,8.01
+2025-05-25,R6 Badagry-Mile 2,Lagos Rapid,51,10.47
+2025-05-25,R6 Badagry-Mile 2,Metro Link,50,9.54
+2025-05-25,R6 Badagry-Mile 2,Eko Movers,37,10.34
+2025-05-25,R7 Epe-Ajah,Lagos Rapid,47,12.0
+2025-05-25,R7 Epe-Ajah,Metro Link,45,10.71
+2025-05-25,R7 Epe-Ajah,Eko Movers,45,11.29
+2025-05-25,R8 Agege-Marina,Lagos Rapid,41,14.86
+2025-05-25,R8 Agege-Marina,Metro Link,41,12.37
+2025-05-25,R8 Agege-Marina,Eko Movers,47,12.25
+2025-05-26,R1 Mile 12-CMS,Lagos Rapid,11,6.7
+2025-05-26,R1 Mile 12-CMS,Metro Link,12,4.39
+2025-05-26,R1 Mile 12-CMS,Eko Movers,10,5.79
+2025-05-26,R2 Ikorodu-TBS,Lagos Rapid,23,8.05
+2025-05-26,R2 Ikorodu-TBS,Metro Link,26,6.19
+2025-05-26,R2 Ikorodu-TBS,Eko Movers,19,4.8
+2025-05-26,R3 Oshodi-Abule Egba,Lagos Rapid,27,8.29
+2025-05-26,R3 Oshodi-Abule Egba,Metro Link,28,7.48
+2025-05-26,R3 Oshodi-Abule Egba,Eko Movers,35,7.31
+2025-05-26,R4 Ajah-Lekki,Lagos Rapid,35,10.8
+2025-05-26,R4 Ajah-Lekki,Metro Link,36,8.19
+2025-05-26,R4 Ajah-Lekki,Eko Movers,39,8.72
+2025-05-26,R5 Yaba-Ikeja,Lagos Rapid,52,11.5
+2025-05-26,R5 Yaba-Ikeja,Metro Link,37,9.52
+2025-05-26,R5 Yaba-Ikeja,Eko Movers,49,10.17
+2025-05-26,R6 Badagry-Mile 2,Lagos Rapid,45,12.75
+2025-05-26,R6 Badagry-Mile 2,Metro Link,45,11.45
+2025-05-26,R6 Badagry-Mile 2,Eko Movers,39,11.49
+2025-05-26,R7 Epe-Ajah,Lagos Rapid,43,15.08
+2025-05-26,R7 Epe-Ajah,Metro Link,42,12.83
+2025-05-26,R7 Epe-Ajah,Eko Movers,41,12.9
+2025-05-26,R8 Agege-Marina,Lagos Rapid,45,16.54
+2025-05-26,R8 Agege-Marina,Metro Link,37,14.39
+2025-05-26,R8 Agege-Marina,Eko Movers,40,14.08
+2025-05-27,R1 Mile 12-CMS,Lagos Rapid,11,6.79
+2025-05-27,R1 Mile 12-CMS,Metro Link,14,5.66
+2025-05-27,R1 Mile 12-CMS,Eko Movers,13,4.39
+2025-05-27,R2 Ikorodu-TBS,Lagos Rapid,19,7.62
+2025-05-27,R2 Ikorodu-TBS,Metro Link,26,5.86
+2025-05-27,R2 Ikorodu-TBS,Eko Movers,27,6.5
+2025-05-27,R3 Oshodi-Abule Egba,Lagos Rapid,29,8.46
+2025-05-27,R3 Oshodi-Abule Egba,Metro Link,32,6.49
+2025-05-27,R3 Oshodi-Abule Egba,Eko Movers,32,6.67
+2025-05-27,R4 Ajah-Lekki,Lagos Rapid,44,11.0
+2025-05-27,R4 Ajah-Lekki,Metro Link,47,7.6
+2025-05-27,R4 Ajah-Lekki,Eko Movers,36,7.97
+2025-05-27,R5 Yaba-Ikeja,Lagos Rapid,43,12.41
+2025-05-27,R5 Yaba-Ikeja,Metro Link,45,9.21
+2025-05-27,R5 Yaba-Ikeja,Eko Movers,49,10.39
+2025-05-27,R6 Badagry-Mile 2,Lagos Rapid,42,13.28
+2025-05-27,R6 Badagry-Mile 2,Metro Link,52,10.51
+2025-05-27,R6 Badagry-Mile 2,Eko Movers,41,10.71
+2025-05-27,R7 Epe-Ajah,Lagos Rapid,46,15.36
+2025-05-27,R7 Epe-Ajah,Metro Link,49,12.73
+2025-05-27,R7 Epe-Ajah,Eko Movers,53,12.35
+2025-05-27,R8 Agege-Marina,Lagos Rapid,39,16.63
+2025-05-27,R8 Agege-Marina,Metro Link,41,14.6
+2025-05-27,R8 Agege-Marina,Eko Movers,39,14.4
+2025-05-28,R1 Mile 12-CMS,Lagos Rapid,13,5.63
+2025-05-28,R1 Mile 12-CMS,Metro Link,12,3.16
+2025-05-28,R1 Mile 12-CMS,Eko Movers,11,5.15
+2025-05-28,R2 Ikorodu-TBS,Lagos Rapid,20,7.65
+2025-05-28,R2 Ikorodu-TBS,Metro Link,21,5.51
+2025-05-28,R2 Ikorodu-TBS,Eko Movers,22,5.67
+2025-05-28,R3 Oshodi-Abule Egba,Lagos Rapid,33,9.02
+2025-05-28,R3 Oshodi-Abule Egba,Metro Link,35,6.45
+2025-05-28,R3 Oshodi-Abule Egba,Eko Movers,35,6.72
+2025-05-28,R4 Ajah-Lekki,Lagos Rapid,46,9.74
+2025-05-28,R4 Ajah-Lekki,Metro Link,38,8.69
+2025-05-28,R4 Ajah-Lekki,Eko Movers,42,8.36
+2025-05-28,R5 Yaba-Ikeja,Lagos Rapid,39,12.88
+2025-05-28,R5 Yaba-Ikeja,Metro Link,35,10.43
+2025-05-28,R5 Yaba-Ikeja,Eko Movers,39,9.56
+2025-05-28,R6 Badagry-Mile 2,Lagos Rapid,53,12.91
+2025-05-28,R6 Badagry-Mile 2,Metro Link,39,12.25
+2025-05-28,R6 Badagry-Mile 2,Eko Movers,44,11.91
+2025-05-28,R7 Epe-Ajah,Lagos Rapid,48,14.31
+2025-05-28,R7 Epe-Ajah,Metro Link,37,12.88
+2025-05-28,R7 Epe-Ajah,Eko Movers,40,12.73
+2025-05-28,R8 Agege-Marina,Lagos Rapid,34,16.54
+2025-05-28,R8 Agege-Marina,Metro Link,49,14.42
+2025-05-28,R8 Agege-Marina,Eko Movers,49,15.04
+2025-05-29,R1 Mile 12-CMS,Lagos Rapid,12,6.41
+2025-05-29,R1 Mile 12-CMS,Metro Link,13,5.02
+2025-05-29,R1 Mile 12-CMS,Eko Movers,10,5.47
+2025-05-29,R2 Ikorodu-TBS,Lagos Rapid,19,6.8
+2025-05-29,R2 Ikorodu-TBS,Metro Link,26,4.41
+2025-05-29,R2 Ikorodu-TBS,Eko Movers,21,5.81
+2025-05-29,R3 Oshodi-Abule Egba,Lagos Rapid,38,9.09
+2025-05-29,R3 Oshodi-Abule Egba,Metro Link,36,6.51
+2025-05-29,R3 Oshodi-Abule Egba,Eko Movers,37,6.13
+2025-05-29,R4 Ajah-Lekki,Lagos Rapid,37,10.79
+2025-05-29,R4 Ajah-Lekki,Metro Link,37,8.33
+2025-05-29,R4 Ajah-Lekki,Eko Movers,46,8.89
+2025-05-29,R5 Yaba-Ikeja,Lagos Rapid,36,11.55
+2025-05-29,R5 Yaba-Ikeja,Metro Link,36,9.41
+2025-05-29,R5 Yaba-Ikeja,Eko Movers,42,10.88
+2025-05-29,R6 Badagry-Mile 2,Lagos Rapid,38,12.7
+2025-05-29,R6 Badagry-Mile 2,Metro Link,37,11.95
+2025-05-29,R6 Badagry-Mile 2,Eko Movers,54,10.87
+2025-05-29,R7 Epe-Ajah,Lagos Rapid,47,14.53
+2025-05-29,R7 Epe-Ajah,Metro Link,50,12.3
+2025-05-29,R7 Epe-Ajah,Eko Movers,38,11.99
+2025-05-29,R8 Agege-Marina,Lagos Rapid,35,16.28
+2025-05-29,R8 Agege-Marina,Metro Link,37,14.58
+2025-05-29,R8 Agege-Marina,Eko Movers,45,14.62
+2025-05-30,R1 Mile 12-CMS,Lagos Rapid,10,6.31
+2025-05-30,R1 Mile 12-CMS,Metro Link,11,4.06
+2025-05-30,R1 Mile 12-CMS,Eko Movers,12,3.44
+2025-05-30,R2 Ikorodu-TBS,Lagos Rapid,21,6.55
+2025-05-30,R2 Ikorodu-TBS,Metro Link,24,4.99
+2025-05-30,R2 Ikorodu-TBS,Eko Movers,20,6.73
+2025-05-30,R3 Oshodi-Abule Egba,Lagos Rapid,35,7.95
+2025-05-30,R3 Oshodi-Abule Egba,Metro Link,29,8.15
+2025-05-30,R3 Oshodi-Abule Egba,Eko Movers,33,6.94
+2025-05-30,R4 Ajah-Lekki,Lagos Rapid,32,10.52
+2025-05-30,R4 Ajah-Lekki,Metro Link,43,8.41
+2025-05-30,R4 Ajah-Lekki,Eko Movers,46,8.89
+2025-05-30,R5 Yaba-Ikeja,Lagos Rapid,51,12.05
+2025-05-30,R5 Yaba-Ikeja,Metro Link,47,9.71
+2025-05-30,R5 Yaba-Ikeja,Eko Movers,42,8.99
+2025-05-30,R6 Badagry-Mile 2,Lagos Rapid,45,12.38
+2025-05-30,R6 Badagry-Mile 2,Metro Link,45,11.11
+2025-05-30,R6 Badagry-Mile 2,Eko Movers,38,11.73
+2025-05-30,R7 Epe-Ajah,Lagos Rapid,39,14.72
+2025-05-30,R7 Epe-Ajah,Metro Link,45,12.49
+2025-05-30,R7 Epe-Ajah,Eko Movers,51,13.17
+2025-05-30,R8 Agege-Marina,Lagos Rapid,51,16.26
+2025-05-30,R8 Agege-Marina,Metro Link,45,14.22
+2025-05-30,R8 Agege-Marina,Eko Movers,43,14.99
+2025-05-31,R1 Mile 12-CMS,Lagos Rapid,14,4.54
+2025-05-31,R1 Mile 12-CMS,Metro Link,11,2.12
+2025-05-31,R1 Mile 12-CMS,Eko Movers,10,4.78
+2025-05-31,R2 Ikorodu-TBS,Lagos Rapid,20,6.28
+2025-05-31,R2 Ikorodu-TBS,Metro Link,26,4.02
+2025-05-31,R2 Ikorodu-TBS,Eko Movers,25,4.99
+2025-05-31,R3 Oshodi-Abule Egba,Lagos Rapid,27,7.73
+2025-05-31,R3 Oshodi-Abule Egba,Metro Link,26,6.47
+2025-05-31,R3 Oshodi-Abule Egba,Eko Movers,27,6.04
+2025-05-31,R4 Ajah-Lekki,Lagos Rapid,34,8.96
+2025-05-31,R4 Ajah-Lekki,Metro Link,40,6.98
+2025-05-31,R4 Ajah-Lekki,Eko Movers,33,5.95
+2025-05-31,R5 Yaba-Ikeja,Lagos Rapid,47,11.03
+2025-05-31,R5 Yaba-Ikeja,Metro Link,37,8.57
+2025-05-31,R5 Yaba-Ikeja,Eko Movers,47,8.24
+2025-05-31,R6 Badagry-Mile 2,Lagos Rapid,53,11.35
+2025-05-31,R6 Badagry-Mile 2,Metro Link,44,9.23
+2025-05-31,R6 Badagry-Mile 2,Eko Movers,53,10.19
+2025-05-31,R7 Epe-Ajah,Lagos Rapid,44,12.94
+2025-05-31,R7 Epe-Ajah,Metro Link,39,10.56
+2025-05-31,R7 Epe-Ajah,Eko Movers,48,10.65
+2025-05-31,R8 Agege-Marina,Lagos Rapid,38,14.58
+2025-05-31,R8 Agege-Marina,Metro Link,39,11.99
+2025-05-31,R8 Agege-Marina,Eko Movers,35,12.49
+2025-06-01,R1 Mile 12-CMS,Lagos Rapid,12,4.39
+2025-06-01,R1 Mile 12-CMS,Metro Link,12,4.47
+2025-06-01,R1 Mile 12-CMS,Eko Movers,11,5.14
+2025-06-01,R2 Ikorodu-TBS,Lagos Rapid,21,7.45
+2025-06-01,R2 Ikorodu-TBS,Metro Link,28,5.8
+2025-06-01,R2 Ikorodu-TBS,Eko Movers,19,3.39
+2025-06-01,R3 Oshodi-Abule Egba,Lagos Rapid,26,7.52
+2025-06-01,R3 Oshodi-Abule Egba,Metro Link,28,5.79
+2025-06-01,R3 Oshodi-Abule Egba,Eko Movers,30,4.93
+2025-06-01,R4 Ajah-Lekki,Lagos Rapid,37,8.46
+2025-06-01,R4 Ajah-Lekki,Metro Link,32,7.19
+2025-06-01,R4 Ajah-Lekki,Eko Movers,40,6.27
+2025-06-01,R5 Yaba-Ikeja,Lagos Rapid,37,10.48
+2025-06-01,R5 Yaba-Ikeja,Metro Link,38,8.18
+2025-06-01,R5 Yaba-Ikeja,Eko Movers,41,8.71
+2025-06-01,R6 Badagry-Mile 2,Lagos Rapid,46,11.64
+2025-06-01,R6 Badagry-Mile 2,Metro Link,54,9.6
+2025-06-01,R6 Badagry-Mile 2,Eko Movers,54,9.53
+2025-06-01,R7 Epe-Ajah,Lagos Rapid,42,13.24
+2025-06-01,R7 Epe-Ajah,Metro Link,46,10.76
+2025-06-01,R7 Epe-Ajah,Eko Movers,42,10.97
+2025-06-01,R8 Agege-Marina,Lagos Rapid,48,14.45
+2025-06-01,R8 Agege-Marina,Metro Link,48,12.82
+2025-06-01,R8 Agege-Marina,Eko Movers,45,13.03
+2025-06-02,R1 Mile 12-CMS,Lagos Rapid,13,5.97
+2025-06-02,R1 Mile 12-CMS,Metro Link,13,3.06
+2025-06-02,R1 Mile 12-CMS,Eko Movers,13,4.72
+2025-06-02,R2 Ikorodu-TBS,Lagos Rapid,20,7.32
+2025-06-02,R2 Ikorodu-TBS,Metro Link,24,4.97
+2025-06-02,R2 Ikorodu-TBS,Eko Movers,24,4.79
+2025-06-02,R3 Oshodi-Abule Egba,Lagos Rapid,31,9.13
+2025-06-02,R3 Oshodi-Abule Egba,Metro Link,37,6.6
+2025-06-02,R3 Oshodi-Abule Egba,Eko Movers,30,6.33
+2025-06-02,R4 Ajah-Lekki,Lagos Rapid,44,10.51
+2025-06-02,R4 Ajah-Lekki,Metro Link,36,8.43
+2025-06-02,R4 Ajah-Lekki,Eko Movers,45,8.21
+2025-06-02,R5 Yaba-Ikeja,Lagos Rapid,40,11.98
+2025-06-02,R5 Yaba-Ikeja,Metro Link,45,9.29
+2025-06-02,R5 Yaba-Ikeja,Eko Movers,47,10.05
+2025-06-02,R6 Badagry-Mile 2,Lagos Rapid,41,13.43
+2025-06-02,R6 Badagry-Mile 2,Metro Link,38,11.72
+2025-06-02,R6 Badagry-Mile 2,Eko Movers,50,10.36
+2025-06-02,R7 Epe-Ajah,Lagos Rapid,42,14.85
+2025-06-02,R7 Epe-Ajah,Metro Link,52,12.82
+2025-06-02,R7 Epe-Ajah,Eko Movers,50,12.34
+2025-06-02,R8 Agege-Marina,Lagos Rapid,35,16.07
+2025-06-02,R8 Agege-Marina,Metro Link,35,14.94
+2025-06-02,R8 Agege-Marina,Eko Movers,36,13.94
+2025-06-03,R1 Mile 12-CMS,Lagos Rapid,13,7.08
+2025-06-03,R1 Mile 12-CMS,Metro Link,12,5.07
+2025-06-03,R1 Mile 12-CMS,Eko Movers,12,5.56
+2025-06-03,R2 Ikorodu-TBS,Lagos Rapid,25,7.28
+2025-06-03,R2 Ikorodu-TBS,Metro Link,25,5.78
+2025-06-03,R2 Ikorodu-TBS,Eko Movers,25,6.16
+2025-06-03,R3 Oshodi-Abule Egba,Lagos Rapid,29,9.7
+2025-06-03,R3 Oshodi-Abule Egba,Metro Link,26,7.69
+2025-06-03,R3 Oshodi-Abule Egba,Eko Movers,27,6.54
+2025-06-03,R4 Ajah-Lekki,Lagos Rapid,37,9.82
+2025-06-03,R4 Ajah-Lekki,Metro Link,33,8.66
+2025-06-03,R4 Ajah-Lekki,Eko Movers,37,8.02
+2025-06-03,R5 Yaba-Ikeja,Lagos Rapid,49,11.82
+2025-06-03,R5 Yaba-Ikeja,Metro Link,49,10.14
+2025-06-03,R5 Yaba-Ikeja,Eko Movers,47,10.19
+2025-06-03,R6 Badagry-Mile 2,Lagos Rapid,50,13.08
+2025-06-03,R6 Badagry-Mile 2,Metro Link,42,11.34
+2025-06-03,R6 Badagry-Mile 2,Eko Movers,42,10.46
+2025-06-03,R7 Epe-Ajah,Lagos Rapid,54,14.61
+2025-06-03,R7 Epe-Ajah,Metro Link,44,12.39
+2025-06-03,R7 Epe-Ajah,Eko Movers,44,12.78
+2025-06-03,R8 Agege-Marina,Lagos Rapid,40,16.1
+2025-06-03,R8 Agege-Marina,Metro Link,43,14.92
+2025-06-03,R8 Agege-Marina,Eko Movers,38,13.9
+2025-06-04,R1 Mile 12-CMS,Lagos Rapid,13,6.16
+2025-06-04,R1 Mile 12-CMS,Metro Link,14,4.14
+2025-06-04,R1 Mile 12-CMS,Eko Movers,11,4.23
+2025-06-04,R2 Ikorodu-TBS,Lagos Rapid,21,8.73
+2025-06-04,R2 Ikorodu-TBS,Metro Link,20,5.14
+2025-06-04,R2 Ikorodu-TBS,Eko Movers,26,6.13
+2025-06-04,R3 Oshodi-Abule Egba,Lagos Rapid,29,9.29
+2025-06-04,R3 Oshodi-Abule Egba,Metro Link,30,7.45
+2025-06-04,R3 Oshodi-Abule Egba,Eko Movers,28,7.48
+2025-06-04,R4 Ajah-Lekki,Lagos Rapid,35,10.61
+2025-06-04,R4 Ajah-Lekki,Metro Link,35,8.09
+2025-06-04,R4 Ajah-Lekki,Eko Movers,42,8.63
+2025-06-04,R5 Yaba-Ikeja,Lagos Rapid,46,11.52
+2025-06-04,R5 Yaba-Ikeja,Metro Link,41,10.24
+2025-06-04,R5 Yaba-Ikeja,Eko Movers,51,9.55
+2025-06-04,R6 Badagry-Mile 2,Lagos Rapid,49,12.9
+2025-06-04,R6 Badagry-Mile 2,Metro Link,37,11.56
+2025-06-04,R6 Badagry-Mile 2,Eko Movers,44,11.53
+2025-06-04,R7 Epe-Ajah,Lagos Rapid,38,14.69
+2025-06-04,R7 Epe-Ajah,Metro Link,39,12.74
+2025-06-04,R7 Epe-Ajah,Eko Movers,37,13.21
+2025-06-04,R8 Agege-Marina,Lagos Rapid,42,16.97
+2025-06-04,R8 Agege-Marina,Metro Link,51,14.63
+2025-06-04,R8 Agege-Marina,Eko Movers,45,14.12
+2025-06-05,R1 Mile 12-CMS,Lagos Rapid,10,6.18
+2025-06-05,R1 Mile 12-CMS,Metro Link,13,4.5
+2025-06-05,R1 Mile 12-CMS,Eko Movers,10,4.97
+2025-06-05,R2 Ikorodu-TBS,Lagos Rapid,20,6.35
+2025-06-05,R2 Ikorodu-TBS,Metro Link,21,4.84
+2025-06-05,R2 Ikorodu-TBS,Eko Movers,26,5.17
+2025-06-05,R3 Oshodi-Abule Egba,Lagos Rapid,32,7.63
+2025-06-05,R3 Oshodi-Abule Egba,Metro Link,37,6.51
+2025-06-05,R3 Oshodi-Abule Egba,Eko Movers,27,6.8
+2025-06-05,R4 Ajah-Lekki,Lagos Rapid,33,9.82
+2025-06-05,R4 Ajah-Lekki,Metro Link,35,8.56
+2025-06-05,R4 Ajah-Lekki,Eko Movers,47,7.64
+2025-06-05,R5 Yaba-Ikeja,Lagos Rapid,52,11.17
+2025-06-05,R5 Yaba-Ikeja,Metro Link,46,10.01
+2025-06-05,R5 Yaba-Ikeja,Eko Movers,48,10.27
+2025-06-05,R6 Badagry-Mile 2,Lagos Rapid,43,13.16
+2025-06-05,R6 Badagry-Mile 2,Metro Link,53,10.02
+2025-06-05,R6 Badagry-Mile 2,Eko Movers,40,11.45
+2025-06-05,R7 Epe-Ajah,Lagos Rapid,41,15.19
+2025-06-05,R7 Epe-Ajah,Metro Link,48,12.47
+2025-06-05,R7 Epe-Ajah,Eko Movers,51,12.97
+2025-06-05,R8 Agege-Marina,Lagos Rapid,48,16.47
+2025-06-05,R8 Agege-Marina,Metro Link,36,14.49
+2025-06-05,R8 Agege-Marina,Eko Movers,48,13.65
+2025-06-06,R1 Mile 12-CMS,Lagos Rapid,12,6.28
+2025-06-06,R1 Mile 12-CMS,Metro Link,12,3.66
+2025-06-06,R1 Mile 12-CMS,Eko Movers,10,5.55
+2025-06-06,R2 Ikorodu-TBS,Lagos Rapid,21,8.25
+2025-06-06,R2 Ikorodu-TBS,Metro Link,27,5.78
+2025-06-06,R2 Ikorodu-TBS,Eko Movers,28,5.93
+2025-06-06,R3 Oshodi-Abule Egba,Lagos Rapid,29,9.88
+2025-06-06,R3 Oshodi-Abule Egba,Metro Link,32,7.0
+2025-06-06,R3 Oshodi-Abule Egba,Eko Movers,33,6.71
+2025-06-06,R4 Ajah-Lekki,Lagos Rapid,45,9.96
+2025-06-06,R4 Ajah-Lekki,Metro Link,38,8.16
+2025-06-06,R4 Ajah-Lekki,Eko Movers,41,7.97
+2025-06-06,R5 Yaba-Ikeja,Lagos Rapid,49,10.79
+2025-06-06,R5 Yaba-Ikeja,Metro Link,45,10.19
+2025-06-06,R5 Yaba-Ikeja,Eko Movers,49,10.7
+2025-06-06,R6 Badagry-Mile 2,Lagos Rapid,37,13.44
+2025-06-06,R6 Badagry-Mile 2,Metro Link,38,11.41
+2025-06-06,R6 Badagry-Mile 2,Eko Movers,46,10.16
+2025-06-06,R7 Epe-Ajah,Lagos Rapid,45,14.81
+2025-06-06,R7 Epe-Ajah,Metro Link,42,12.5
+2025-06-06,R7 Epe-Ajah,Eko Movers,40,12.71
+2025-06-06,R8 Agege-Marina,Lagos Rapid,46,17.18
+2025-06-06,R8 Agege-Marina,Metro Link,45,14.14
+2025-06-06,R8 Agege-Marina,Eko Movers,41,14.29
+2025-06-07,R1 Mile 12-CMS,Lagos Rapid,11,5.03
+2025-06-07,R1 Mile 12-CMS,Metro Link,10,3.06
+2025-06-07,R1 Mile 12-CMS,Eko Movers,11,2.52
+2025-06-07,R2 Ikorodu-TBS,Lagos Rapid,21,5.94
+2025-06-07,R2 Ikorodu-TBS,Metro Link,21,5.64
+2025-06-07,R2 Ikorodu-TBS,Eko Movers,27,4.44
+2025-06-07,R3 Oshodi-Abule Egba,Lagos Rapid,34,8.57
+2025-06-07,R3 Oshodi-Abule Egba,Metro Link,31,4.69
+2025-06-07,R3 Oshodi-Abule Egba,Eko Movers,32,5.89
+2025-06-07,R4 Ajah-Lekki,Lagos Rapid,42,8.88
+2025-06-07,R4 Ajah-Lekki,Metro Link,33,7.12
+2025-06-07,R4 Ajah-Lekki,Eko Movers,39,7.34
+2025-06-07,R5 Yaba-Ikeja,Lagos Rapid,52,10.72
+2025-06-07,R5 Yaba-Ikeja,Metro Link,45,8.64
+2025-06-07,R5 Yaba-Ikeja,Eko Movers,47,8.37
+2025-06-07,R6 Badagry-Mile 2,Lagos Rapid,44,10.95
+2025-06-07,R6 Badagry-Mile 2,Metro Link,54,9.84
+2025-06-07,R6 Badagry-Mile 2,Eko Movers,38,9.53
+2025-06-07,R7 Epe-Ajah,Lagos Rapid,49,12.53
+2025-06-07,R7 Epe-Ajah,Metro Link,53,10.67
+2025-06-07,R7 Epe-Ajah,Eko Movers,53,11.01
+2025-06-07,R8 Agege-Marina,Lagos Rapid,49,14.77
+2025-06-07,R8 Agege-Marina,Metro Link,40,12.11
+2025-06-07,R8 Agege-Marina,Eko Movers,40,11.11
+2025-06-08,R1 Mile 12-CMS,Lagos Rapid,11,4.85
+2025-06-08,R1 Mile 12-CMS,Metro Link,10,4.0
+2025-06-08,R1 Mile 12-CMS,Eko Movers,10,3.66
+2025-06-08,R2 Ikorodu-TBS,Lagos Rapid,24,6.48
+2025-06-08,R2 Ikorodu-TBS,Metro Link,22,4.98
+2025-06-08,R2 Ikorodu-TBS,Eko Movers,26,5.16
+2025-06-08,R3 Oshodi-Abule Egba,Lagos Rapid,38,7.58
+2025-06-08,R3 Oshodi-Abule Egba,Metro Link,36,5.11
+2025-06-08,R3 Oshodi-Abule Egba,Eko Movers,36,5.88
+2025-06-08,R4 Ajah-Lekki,Lagos Rapid,47,8.76
+2025-06-08,R4 Ajah-Lekki,Metro Link,47,6.37
+2025-06-08,R4 Ajah-Lekki,Eko Movers,46,6.65
+2025-06-08,R5 Yaba-Ikeja,Lagos Rapid,49,10.53
+2025-06-08,R5 Yaba-Ikeja,Metro Link,38,8.04
+2025-06-08,R5 Yaba-Ikeja,Eko Movers,43,8.38
+2025-06-08,R6 Badagry-Mile 2,Lagos Rapid,48,11.82
+2025-06-08,R6 Badagry-Mile 2,Metro Link,52,9.16
+2025-06-08,R6 Badagry-Mile 2,Eko Movers,50,9.41
+2025-06-08,R7 Epe-Ajah,Lagos Rapid,51,13.6
+2025-06-08,R7 Epe-Ajah,Metro Link,43,10.93
+2025-06-08,R7 Epe-Ajah,Eko Movers,50,10.93
+2025-06-08,R8 Agege-Marina,Lagos Rapid,35,15.37
+2025-06-08,R8 Agege-Marina,Metro Link,49,12.5
+2025-06-08,R8 Agege-Marina,Eko Movers,46,11.68
+2025-06-09,R1 Mile 12-CMS,Lagos Rapid,13,6.01
+2025-06-09,R1 Mile 12-CMS,Metro Link,13,2.55
+2025-06-09,R1 Mile 12-CMS,Eko Movers,13,4.4
+2025-06-09,R2 Ikorodu-TBS,Lagos Rapid,23,7.71
+2025-06-09,R2 Ikorodu-TBS,Metro Link,27,5.33
+2025-06-09,R2 Ikorodu-TBS,Eko Movers,19,5.59
+2025-06-09,R3 Oshodi-Abule Egba,Lagos Rapid,36,8.11
+2025-06-09,R3 Oshodi-Abule Egba,Metro Link,35,7.33
+2025-06-09,R3 Oshodi-Abule Egba,Eko Movers,35,7.25
+2025-06-09,R4 Ajah-Lekki,Lagos Rapid,37,10.6
+2025-06-09,R4 Ajah-Lekki,Metro Link,43,8.22
+2025-06-09,R4 Ajah-Lekki,Eko Movers,37,8.35
+2025-06-09,R5 Yaba-Ikeja,Lagos Rapid,48,11.61
+2025-06-09,R5 Yaba-Ikeja,Metro Link,44,9.91
+2025-06-09,R5 Yaba-Ikeja,Eko Movers,52,10.5
+2025-06-09,R6 Badagry-Mile 2,Lagos Rapid,47,13.24
+2025-06-09,R6 Badagry-Mile 2,Metro Link,52,11.07
+2025-06-09,R6 Badagry-Mile 2,Eko Movers,46,11.12
+2025-06-09,R7 Epe-Ajah,Lagos Rapid,53,14.9
+2025-06-09,R7 Epe-Ajah,Metro Link,41,12.77
+2025-06-09,R7 Epe-Ajah,Eko Movers,48,12.47
+2025-06-09,R8 Agege-Marina,Lagos Rapid,48,15.94
+2025-06-09,R8 Agege-Marina,Metro Link,34,15.05
+2025-06-09,R8 Agege-Marina,Eko Movers,36,14.51
+2025-06-10,R1 Mile 12-CMS,Lagos Rapid,13,7.99
+2025-06-10,R1 Mile 12-CMS,Metro Link,10,6.57
+2025-06-10,R1 Mile 12-CMS,Eko Movers,10,4.06
+2025-06-10,R2 Ikorodu-TBS,Lagos Rapid,24,9.12
+2025-06-10,R2 Ikorodu-TBS,Metro Link,21,5.79
+2025-06-10,R2 Ikorodu-TBS,Eko Movers,20,5.41
+2025-06-10,R3 Oshodi-Abule Egba,Lagos Rapid,30,8.48
+2025-06-10,R3 Oshodi-Abule Egba,Metro Link,34,7.4
+2025-06-10,R3 Oshodi-Abule Egba,Eko Movers,35,6.02
+2025-06-10,R4 Ajah-Lekki,Lagos Rapid,34,10.11
+2025-06-10,R4 Ajah-Lekki,Metro Link,46,8.56
+2025-06-10,R4 Ajah-Lekki,Eko Movers,39,7.84
+2025-06-10,R5 Yaba-Ikeja,Lagos Rapid,43,11.94
+2025-06-10,R5 Yaba-Ikeja,Metro Link,35,9.95
+2025-06-10,R5 Yaba-Ikeja,Eko Movers,41,9.81
+2025-06-10,R6 Badagry-Mile 2,Lagos Rapid,54,13.07
+2025-06-10,R6 Badagry-Mile 2,Metro Link,41,11.7
+2025-06-10,R6 Badagry-Mile 2,Eko Movers,52,11.15
+2025-06-10,R7 Epe-Ajah,Lagos Rapid,51,14.85
+2025-06-10,R7 Epe-Ajah,Metro Link,47,12.78
+2025-06-10,R7 Epe-Ajah,Eko Movers,40,12.82
+2025-06-10,R8 Agege-Marina,Lagos Rapid,35,16.29
+2025-06-10,R8 Agege-Marina,Metro Link,46,14.17
+2025-06-10,R8 Agege-Marina,Eko Movers,49,13.82
+2025-06-11,R1 Mile 12-CMS,Lagos Rapid,13,6.51
+2025-06-11,R1 Mile 12-CMS,Metro Link,12,5.55
+2025-06-11,R1 Mile 12-CMS,Eko Movers,13,3.56
+2025-06-11,R2 Ikorodu-TBS,Lagos Rapid,20,7.1
+2025-06-11,R2 Ikorodu-TBS,Metro Link,25,5.02
+2025-06-11,R2 Ikorodu-TBS,Eko Movers,23,5.37
+2025-06-11,R3 Oshodi-Abule Egba,Lagos Rapid,36,8.14
+2025-06-11,R3 Oshodi-Abule Egba,Metro Link,37,7.23
+2025-06-11,R3 Oshodi-Abule Egba,Eko Movers,35,6.84
+2025-06-11,R4 Ajah-Lekki,Lagos Rapid,33,10.64
+2025-06-11,R4 Ajah-Lekki,Metro Link,33,8.02
+2025-06-11,R4 Ajah-Lekki,Eko Movers,45,8.22
+2025-06-11,R5 Yaba-Ikeja,Lagos Rapid,35,12.23
+2025-06-11,R5 Yaba-Ikeja,Metro Link,50,10.17
+2025-06-11,R5 Yaba-Ikeja,Eko Movers,40,9.96
+2025-06-11,R6 Badagry-Mile 2,Lagos Rapid,38,13.5
+2025-06-11,R6 Badagry-Mile 2,Metro Link,52,10.95
+2025-06-11,R6 Badagry-Mile 2,Eko Movers,43,11.93
+2025-06-11,R7 Epe-Ajah,Lagos Rapid,46,15.29
+2025-06-11,R7 Epe-Ajah,Metro Link,44,13.29
+2025-06-11,R7 Epe-Ajah,Eko Movers,38,13.97
+2025-06-11,R8 Agege-Marina,Lagos Rapid,45,15.63
+2025-06-11,R8 Agege-Marina,Metro Link,40,13.75
+2025-06-11,R8 Agege-Marina,Eko Movers,34,14.24
+2025-06-12,R1 Mile 12-CMS,Lagos Rapid,10,5.88
+2025-06-12,R1 Mile 12-CMS,Metro Link,13,3.85
+2025-06-12,R1 Mile 12-CMS,Eko Movers,13,4.78
+2025-06-12,R2 Ikorodu-TBS,Lagos Rapid,21,8.03
+2025-06-12,R2 Ikorodu-TBS,Metro Link,20,6.75
+2025-06-12,R2 Ikorodu-TBS,Eko Movers,23,5.8
+2025-06-12,R3 Oshodi-Abule Egba,Lagos Rapid,36,9.17
+2025-06-12,R3 Oshodi-Abule Egba,Metro Link,30,7.06
+2025-06-12,R3 Oshodi-Abule Egba,Eko Movers,35,6.65
+2025-06-12,R4 Ajah-Lekki,Lagos Rapid,40,9.59
+2025-06-12,R4 Ajah-Lekki,Metro Link,33,8.46
+2025-06-12,R4 Ajah-Lekki,Eko Movers,34,9.57
+2025-06-12,R5 Yaba-Ikeja,Lagos Rapid,38,12.37
+2025-06-12,R5 Yaba-Ikeja,Metro Link,47,9.46
+2025-06-12,R5 Yaba-Ikeja,Eko Movers,49,9.65
+2025-06-12,R6 Badagry-Mile 2,Lagos Rapid,52,13.1
+2025-06-12,R6 Badagry-Mile 2,Metro Link,37,11.1
+2025-06-12,R6 Badagry-Mile 2,Eko Movers,37,11.31
+2025-06-12,R7 Epe-Ajah,Lagos Rapid,40,14.65
+2025-06-12,R7 Epe-Ajah,Metro Link,42,13.16
+2025-06-12,R7 Epe-Ajah,Eko Movers,43,12.18
+2025-06-12,R8 Agege-Marina,Lagos Rapid,41,17.1
+2025-06-12,R8 Agege-Marina,Metro Link,39,14.26
+2025-06-12,R8 Agege-Marina,Eko Movers,39,14.43
+2025-06-13,R1 Mile 12-CMS,Lagos Rapid,9,7.37
+2025-06-13,R1 Mile 12-CMS,Metro Link,10,4.63
+2025-06-13,R1 Mile 12-CMS,Eko Movers,11,3.87
+2025-06-13,R2 Ikorodu-TBS,Lagos Rapid,25,7.68
+2025-06-13,R2 Ikorodu-TBS,Metro Link,26,5.47
+2025-06-13,R2 Ikorodu-TBS,Eko Movers,21,6.39
+2025-06-13,R3 Oshodi-Abule Egba,Lagos Rapid,38,8.83
+2025-06-13,R3 Oshodi-Abule Egba,Metro Link,26,6.49
+2025-06-13,R3 Oshodi-Abule Egba,Eko Movers,38,7.33
+2025-06-13,R4 Ajah-Lekki,Lagos Rapid,33,9.76
+2025-06-13,R4 Ajah-Lekki,Metro Link,45,9.01
+2025-06-13,R4 Ajah-Lekki,Eko Movers,41,8.06
+2025-06-13,R5 Yaba-Ikeja,Lagos Rapid,50,11.8
+2025-06-13,R5 Yaba-Ikeja,Metro Link,49,9.56
+2025-06-13,R5 Yaba-Ikeja,Eko Movers,35,9.75
+2025-06-13,R6 Badagry-Mile 2,Lagos Rapid,39,13.25
+2025-06-13,R6 Badagry-Mile 2,Metro Link,53,10.98
+2025-06-13,R6 Badagry-Mile 2,Eko Movers,41,11.1
+2025-06-13,R7 Epe-Ajah,Lagos Rapid,49,15.12
+2025-06-13,R7 Epe-Ajah,Metro Link,51,13.17
+2025-06-13,R7 Epe-Ajah,Eko Movers,40,11.76
+2025-06-13,R8 Agege-Marina,Lagos Rapid,49,16.16
+2025-06-13,R8 Agege-Marina,Metro Link,38,14.48
+2025-06-13,R8 Agege-Marina,Eko Movers,49,15.08
+2025-06-14,R1 Mile 12-CMS,Lagos Rapid,12,6.22
+2025-06-14,R1 Mile 12-CMS,Metro Link,13,5.28
+2025-06-14,R1 Mile 12-CMS,Eko Movers,12,4.04
+2025-06-14,R2 Ikorodu-TBS,Lagos Rapid,22,6.73
+2025-06-14,R2 Ikorodu-TBS,Metro Link,21,5.12
+2025-06-14,R2 Ikorodu-TBS,Eko Movers,24,3.75
+2025-06-14,R3 Oshodi-Abule Egba,Lagos Rapid,30,7.53
+2025-06-14,R3 Oshodi-Abule Egba,Metro Link,38,6.12
+2025-06-14,R3 Oshodi-Abule Egba,Eko Movers,38,6.04
+2025-06-14,R4 Ajah-Lekki,Lagos Rapid,45,8.13
+2025-06-14,R4 Ajah-Lekki,Metro Link,41,6.76
+2025-06-14,R4 Ajah-Lekki,Eko Movers,35,6.48
+2025-06-14,R5 Yaba-Ikeja,Lagos Rapid,36,10.82
+2025-06-14,R5 Yaba-Ikeja,Metro Link,46,7.96
+2025-06-14,R5 Yaba-Ikeja,Eko Movers,36,8.23
+2025-06-14,R6 Badagry-Mile 2,Lagos Rapid,44,11.86
+2025-06-14,R6 Badagry-Mile 2,Metro Link,45,9.55
+2025-06-14,R6 Badagry-Mile 2,Eko Movers,46,9.15
+2025-06-14,R7 Epe-Ajah,Lagos Rapid,37,13.48
+2025-06-14,R7 Epe-Ajah,Metro Link,41,11.21
+2025-06-14,R7 Epe-Ajah,Eko Movers,43,10.74
+2025-06-14,R8 Agege-Marina,Lagos Rapid,47,15.58
+2025-06-14,R8 Agege-Marina,Metro Link,36,11.85
+2025-06-14,R8 Agege-Marina,Eko Movers,45,12.95
+2025-06-15,R1 Mile 12-CMS,Lagos Rapid,13,6.22
+2025-06-15,R1 Mile 12-CMS,Metro Link,13,2.62
+2025-06-15,R1 Mile 12-CMS,Eko Movers,10,3.92
+2025-06-15,R2 Ikorodu-TBS,Lagos Rapid,23,6.47
+2025-06-15,R2 Ikorodu-TBS,Metro Link,25,4.58
+2025-06-15,R2 Ikorodu-TBS,Eko Movers,19,4.2
+2025-06-15,R3 Oshodi-Abule Egba,Lagos Rapid,32,7.1
+2025-06-15,R3 Oshodi-Abule Egba,Metro Link,38,5.89
+2025-06-15,R3 Oshodi-Abule Egba,Eko Movers,35,5.86
+2025-06-15,R4 Ajah-Lekki,Lagos Rapid,43,9.39
+2025-06-15,R4 Ajah-Lekki,Metro Link,46,6.98
+2025-06-15,R4 Ajah-Lekki,Eko Movers,46,6.69
+2025-06-15,R5 Yaba-Ikeja,Lagos Rapid,39,10.88
+2025-06-15,R5 Yaba-Ikeja,Metro Link,37,8.58
+2025-06-15,R5 Yaba-Ikeja,Eko Movers,51,8.21
+2025-06-15,R6 Badagry-Mile 2,Lagos Rapid,53,11.29
+2025-06-15,R6 Badagry-Mile 2,Metro Link,42,9.77
+2025-06-15,R6 Badagry-Mile 2,Eko Movers,50,8.29
+2025-06-15,R7 Epe-Ajah,Lagos Rapid,44,13.46
+2025-06-15,R7 Epe-Ajah,Metro Link,54,10.82
+2025-06-15,R7 Epe-Ajah,Eko Movers,43,10.79
+2025-06-15,R8 Agege-Marina,Lagos Rapid,45,14.18
+2025-06-15,R8 Agege-Marina,Metro Link,37,12.77
+2025-06-15,R8 Agege-Marina,Eko Movers,45,13.15
+2025-06-16,R1 Mile 12-CMS,Lagos Rapid,11,3.96
+2025-06-16,R1 Mile 12-CMS,Metro Link,14,3.75
+2025-06-16,R1 Mile 12-CMS,Eko Movers,13,4.67
+2025-06-16,R2 Ikorodu-TBS,Lagos Rapid,26,6.2
+2025-06-16,R2 Ikorodu-TBS,Metro Link,22,4.66
+2025-06-16,R2 Ikorodu-TBS,Eko Movers,26,6.17
+2025-06-16,R3 Oshodi-Abule Egba,Lagos Rapid,37,8.98
+2025-06-16,R3 Oshodi-Abule Egba,Metro Link,33,5.91
+2025-06-16,R3 Oshodi-Abule Egba,Eko Movers,39,7.09
+2025-06-16,R4 Ajah-Lekki,Lagos Rapid,39,9.43
+2025-06-16,R4 Ajah-Lekki,Metro Link,36,7.06
+2025-06-16,R4 Ajah-Lekki,Eko Movers,44,8.3
+2025-06-16,R5 Yaba-Ikeja,Lagos Rapid,49,11.82
+2025-06-16,R5 Yaba-Ikeja,Metro Link,37,9.91
+2025-06-16,R5 Yaba-Ikeja,Eko Movers,45,9.53
+2025-06-16,R6 Badagry-Mile 2,Lagos Rapid,52,12.66
+2025-06-16,R6 Badagry-Mile 2,Metro Link,37,11.26
+2025-06-16,R6 Badagry-Mile 2,Eko Movers,52,11.25
+2025-06-16,R7 Epe-Ajah,Lagos Rapid,49,15.27
+2025-06-16,R7 Epe-Ajah,Metro Link,44,12.22
+2025-06-16,R7 Epe-Ajah,Eko Movers,42,12.15
+2025-06-16,R8 Agege-Marina,Lagos Rapid,50,17.09
+2025-06-16,R8 Agege-Marina,Metro Link,51,13.8
+2025-06-16,R8 Agege-Marina,Eko Movers,42,13.51
+2025-06-17,R1 Mile 12-CMS,Lagos Rapid,11,5.43
+2025-06-17,R1 Mile 12-CMS,Metro Link,11,5.18
+2025-06-17,R1 Mile 12-CMS,Eko Movers,10,4.51
+2025-06-17,R2 Ikorodu-TBS,Lagos Rapid,20,6.66
+2025-06-17,R2 Ikorodu-TBS,Metro Link,23,4.8
+2025-06-17,R2 Ikorodu-TBS,Eko Movers,23,6.69
+2025-06-17,R3 Oshodi-Abule Egba,Lagos Rapid,36,8.34
+2025-06-17,R3 Oshodi-Abule Egba,Metro Link,29,7.87
+2025-06-17,R3 Oshodi-Abule Egba,Eko Movers,36,7.16
+2025-06-17,R4 Ajah-Lekki,Lagos Rapid,40,10.53
+2025-06-17,R4 Ajah-Lekki,Metro Link,34,8.2
+2025-06-17,R4 Ajah-Lekki,Eko Movers,42,8.21
+2025-06-17,R5 Yaba-Ikeja,Lagos Rapid,45,11.62
+2025-06-17,R5 Yaba-Ikeja,Metro Link,38,10.04
+2025-06-17,R5 Yaba-Ikeja,Eko Movers,50,10.22
+2025-06-17,R6 Badagry-Mile 2,Lagos Rapid,51,13.84
+2025-06-17,R6 Badagry-Mile 2,Metro Link,43,10.94
+2025-06-17,R6 Badagry-Mile 2,Eko Movers,37,10.6
+2025-06-17,R7 Epe-Ajah,Lagos Rapid,40,15.52
+2025-06-17,R7 Epe-Ajah,Metro Link,39,12.24
+2025-06-17,R7 Epe-Ajah,Eko Movers,44,13.24
+2025-06-17,R8 Agege-Marina,Lagos Rapid,47,16.47
+2025-06-17,R8 Agege-Marina,Metro Link,41,14.86
+2025-06-17,R8 Agege-Marina,Eko Movers,47,13.57
+2025-06-18,R1 Mile 12-CMS,Lagos Rapid,11,6.47
+2025-06-18,R1 Mile 12-CMS,Metro Link,12,3.8
+2025-06-18,R1 Mile 12-CMS,Eko Movers,13,5.1
+2025-06-18,R2 Ikorodu-TBS,Lagos Rapid,26,6.58
+2025-06-18,R2 Ikorodu-TBS,Metro Link,25,5.92
+2025-06-18,R2 Ikorodu-TBS,Eko Movers,18,5.48
+2025-06-18,R3 Oshodi-Abule Egba,Lagos Rapid,32,8.81
+2025-06-18,R3 Oshodi-Abule Egba,Metro Link,26,7.5
+2025-06-18,R3 Oshodi-Abule Egba,Eko Movers,34,7.68
+2025-06-18,R4 Ajah-Lekki,Lagos Rapid,40,9.8
+2025-06-18,R4 Ajah-Lekki,Metro Link,33,7.68
+2025-06-18,R4 Ajah-Lekki,Eko Movers,39,7.9
+2025-06-18,R5 Yaba-Ikeja,Lagos Rapid,39,11.4
+2025-06-18,R5 Yaba-Ikeja,Metro Link,37,9.95
+2025-06-18,R5 Yaba-Ikeja,Eko Movers,41,8.94
+2025-06-18,R6 Badagry-Mile 2,Lagos Rapid,50,13.63
+2025-06-18,R6 Badagry-Mile 2,Metro Link,43,10.49
+2025-06-18,R6 Badagry-Mile 2,Eko Movers,40,10.44
+2025-06-18,R7 Epe-Ajah,Lagos Rapid,50,14.85
+2025-06-18,R7 Epe-Ajah,Metro Link,43,12.2
+2025-06-18,R7 Epe-Ajah,Eko Movers,38,12.89
+2025-06-18,R8 Agege-Marina,Lagos Rapid,34,15.81
+2025-06-18,R8 Agege-Marina,Metro Link,41,14.61
+2025-06-18,R8 Agege-Marina,Eko Movers,40,14.95
+2025-06-19,R1 Mile 12-CMS,Lagos Rapid,11,7.55
+2025-06-19,R1 Mile 12-CMS,Metro Link,12,4.06
+2025-06-19,R1 Mile 12-CMS,Eko Movers,10,4.39
+2025-06-19,R2 Ikorodu-TBS,Lagos Rapid,27,7.18
+2025-06-19,R2 Ikorodu-TBS,Metro Link,22,6.21
+2025-06-19,R2 Ikorodu-TBS,Eko Movers,25,5.94
+2025-06-19,R3 Oshodi-Abule Egba,Lagos Rapid,32,9.57
+2025-06-19,R3 Oshodi-Abule Egba,Metro Link,29,5.79
+2025-06-19,R3 Oshodi-Abule Egba,Eko Movers,31,7.15
+2025-06-19,R4 Ajah-Lekki,Lagos Rapid,35,10.51
+2025-06-19,R4 Ajah-Lekki,Metro Link,41,7.51
+2025-06-19,R4 Ajah-Lekki,Eko Movers,41,7.94
+2025-06-19,R5 Yaba-Ikeja,Lagos Rapid,41,11.42
+2025-06-19,R5 Yaba-Ikeja,Metro Link,38,9.7
+2025-06-19,R5 Yaba-Ikeja,Eko Movers,48,10.94
+2025-06-19,R6 Badagry-Mile 2,Lagos Rapid,47,13.62
+2025-06-19,R6 Badagry-Mile 2,Metro Link,54,10.48
+2025-06-19,R6 Badagry-Mile 2,Eko Movers,39,11.35
+2025-06-19,R7 Epe-Ajah,Lagos Rapid,39,14.29
+2025-06-19,R7 Epe-Ajah,Metro Link,52,13.26
+2025-06-19,R7 Epe-Ajah,Eko Movers,40,11.86
+2025-06-19,R8 Agege-Marina,Lagos Rapid,48,16.65
+2025-06-19,R8 Agege-Marina,Metro Link,50,14.6
+2025-06-19,R8 Agege-Marina,Eko Movers,46,14.47
+2025-06-20,R1 Mile 12-CMS,Lagos Rapid,12,6.09
+2025-06-20,R1 Mile 12-CMS,Metro Link,11,4.4
+2025-06-20,R1 Mile 12-CMS,Eko Movers,10,3.61
+2025-06-20,R2 Ikorodu-TBS,Lagos Rapid,26,7.47
+2025-06-20,R2 Ikorodu-TBS,Metro Link,25,5.42
+2025-06-20,R2 Ikorodu-TBS,Eko Movers,26,6.91
+2025-06-20,R3 Oshodi-Abule Egba,Lagos Rapid,37,9.3
+2025-06-20,R3 Oshodi-Abule Egba,Metro Link,32,6.32
+2025-06-20,R3 Oshodi-Abule Egba,Eko Movers,36,7.09
+2025-06-20,R4 Ajah-Lekki,Lagos Rapid,41,10.51
+2025-06-20,R4 Ajah-Lekki,Metro Link,37,8.04
+2025-06-20,R4 Ajah-Lekki,Eko Movers,42,7.31
+2025-06-20,R5 Yaba-Ikeja,Lagos Rapid,47,11.6
+2025-06-20,R5 Yaba-Ikeja,Metro Link,41,9.15
+2025-06-20,R5 Yaba-Ikeja,Eko Movers,42,10.23
+2025-06-20,R6 Badagry-Mile 2,Lagos Rapid,40,12.07
+2025-06-20,R6 Badagry-Mile 2,Metro Link,44,11.08
+2025-06-20,R6 Badagry-Mile 2,Eko Movers,53,11.06
+2025-06-20,R7 Epe-Ajah,Lagos Rapid,37,15.77
+2025-06-20,R7 Epe-Ajah,Metro Link,53,12.16
+2025-06-20,R7 Epe-Ajah,Eko Movers,38,12.76
+2025-06-20,R8 Agege-Marina,Lagos Rapid,49,16.04
+2025-06-20,R8 Agege-Marina,Metro Link,34,14.53
+2025-06-20,R8 Agege-Marina,Eko Movers,42,14.04
+2025-06-21,R1 Mile 12-CMS,Lagos Rapid,12,6.6
+2025-06-21,R1 Mile 12-CMS,Metro Link,13,3.12
+2025-06-21,R1 Mile 12-CMS,Eko Movers,11,4.42
+2025-06-21,R2 Ikorodu-TBS,Lagos Rapid,27,6.63
+2025-06-21,R2 Ikorodu-TBS,Metro Link,25,4.1
+2025-06-21,R2 Ikorodu-TBS,Eko Movers,22,4.5
+2025-06-21,R3 Oshodi-Abule Egba,Lagos Rapid,35,8.05
+2025-06-21,R3 Oshodi-Abule Egba,Metro Link,27,7.3
+2025-06-21,R3 Oshodi-Abule Egba,Eko Movers,32,5.78
+2025-06-21,R4 Ajah-Lekki,Lagos Rapid,40,9.07
+2025-06-21,R4 Ajah-Lekki,Metro Link,33,7.17
+2025-06-21,R4 Ajah-Lekki,Eko Movers,34,7.02
+2025-06-21,R5 Yaba-Ikeja,Lagos Rapid,44,9.83
+2025-06-21,R5 Yaba-Ikeja,Metro Link,38,8.14
+2025-06-21,R5 Yaba-Ikeja,Eko Movers,47,7.77
+2025-06-21,R6 Badagry-Mile 2,Lagos Rapid,53,11.55
+2025-06-21,R6 Badagry-Mile 2,Metro Link,49,8.5
+2025-06-21,R6 Badagry-Mile 2,Eko Movers,41,9.79
+2025-06-21,R7 Epe-Ajah,Lagos Rapid,51,13.21
+2025-06-21,R7 Epe-Ajah,Metro Link,44,11.53
+2025-06-21,R7 Epe-Ajah,Eko Movers,40,10.87
+2025-06-21,R8 Agege-Marina,Lagos Rapid,37,14.8
+2025-06-21,R8 Agege-Marina,Metro Link,50,12.19
+2025-06-21,R8 Agege-Marina,Eko Movers,41,12.91
+2025-06-22,R1 Mile 12-CMS,Lagos Rapid,12,6.64
+2025-06-22,R1 Mile 12-CMS,Metro Link,10,3.75
+2025-06-22,R1 Mile 12-CMS,Eko Movers,13,4.93
+2025-06-22,R2 Ikorodu-TBS,Lagos Rapid,26,7.21
+2025-06-22,R2 Ikorodu-TBS,Metro Link,25,4.31
+2025-06-22,R2 Ikorodu-TBS,Eko Movers,24,4.5
+2025-06-22,R3 Oshodi-Abule Egba,Lagos Rapid,28,7.26
+2025-06-22,R3 Oshodi-Abule Egba,Metro Link,27,4.91
+2025-06-22,R3 Oshodi-Abule Egba,Eko Movers,33,5.84
+2025-06-22,R4 Ajah-Lekki,Lagos Rapid,45,8.73
+2025-06-22,R4 Ajah-Lekki,Metro Link,43,7.56
+2025-06-22,R4 Ajah-Lekki,Eko Movers,34,6.86
+2025-06-22,R5 Yaba-Ikeja,Lagos Rapid,42,9.77
+2025-06-22,R5 Yaba-Ikeja,Metro Link,37,8.34
+2025-06-22,R5 Yaba-Ikeja,Eko Movers,51,8.72
+2025-06-22,R6 Badagry-Mile 2,Lagos Rapid,40,10.97
+2025-06-22,R6 Badagry-Mile 2,Metro Link,40,9.76
+2025-06-22,R6 Badagry-Mile 2,Eko Movers,40,9.77
+2025-06-22,R7 Epe-Ajah,Lagos Rapid,39,13.49
+2025-06-22,R7 Epe-Ajah,Metro Link,45,11.38
+2025-06-22,R7 Epe-Ajah,Eko Movers,39,10.71
+2025-06-22,R8 Agege-Marina,Lagos Rapid,44,15.19
+2025-06-22,R8 Agege-Marina,Metro Link,50,12.79
+2025-06-22,R8 Agege-Marina,Eko Movers,48,13.91
+2025-06-23,R1 Mile 12-CMS,Lagos Rapid,9,7.15
+2025-06-23,R1 Mile 12-CMS,Metro Link,13,3.82
+2025-06-23,R1 Mile 12-CMS,Eko Movers,11,3.69
+2025-06-23,R2 Ikorodu-TBS,Lagos Rapid,23,8.33
+2025-06-23,R2 Ikorodu-TBS,Metro Link,21,5.98
+2025-06-23,R2 Ikorodu-TBS,Eko Movers,26,6.72
+2025-06-23,R3 Oshodi-Abule Egba,Lagos Rapid,26,7.99
+2025-06-23,R3 Oshodi-Abule Egba,Metro Link,27,7.36
+2025-06-23,R3 Oshodi-Abule Egba,Eko Movers,36,6.99
+2025-06-23,R4 Ajah-Lekki,Lagos Rapid,45,9.99
+2025-06-23,R4 Ajah-Lekki,Metro Link,39,7.95
+2025-06-23,R4 Ajah-Lekki,Eko Movers,37,8.03
+2025-06-23,R5 Yaba-Ikeja,Lagos Rapid,36,11.4
+2025-06-23,R5 Yaba-Ikeja,Metro Link,52,9.55
+2025-06-23,R5 Yaba-Ikeja,Eko Movers,44,9.61
+2025-06-23,R6 Badagry-Mile 2,Lagos Rapid,47,13.89
+2025-06-23,R6 Badagry-Mile 2,Metro Link,41,11.6
+2025-06-23,R6 Badagry-Mile 2,Eko Movers,45,10.62
+2025-06-23,R7 Epe-Ajah,Lagos Rapid,39,13.84
+2025-06-23,R7 Epe-Ajah,Metro Link,42,12.35
+2025-06-23,R7 Epe-Ajah,Eko Movers,48,13.56
+2025-06-23,R8 Agege-Marina,Lagos Rapid,34,16.77
+2025-06-23,R8 Agege-Marina,Metro Link,38,14.33
+2025-06-23,R8 Agege-Marina,Eko Movers,35,13.97
+2025-06-24,R1 Mile 12-CMS,Lagos Rapid,10,6.29
+2025-06-24,R1 Mile 12-CMS,Metro Link,13,4.81
+2025-06-24,R1 Mile 12-CMS,Eko Movers,12,3.66
+2025-06-24,R2 Ikorodu-TBS,Lagos Rapid,23,7.27
+2025-06-24,R2 Ikorodu-TBS,Metro Link,24,5.51
+2025-06-24,R2 Ikorodu-TBS,Eko Movers,21,4.97
+2025-06-24,R3 Oshodi-Abule Egba,Lagos Rapid,32,9.19
+2025-06-24,R3 Oshodi-Abule Egba,Metro Link,29,7.36
+2025-06-24,R3 Oshodi-Abule Egba,Eko Movers,36,6.48
+2025-06-24,R4 Ajah-Lekki,Lagos Rapid,44,10.8
+2025-06-24,R4 Ajah-Lekki,Metro Link,44,8.03
+2025-06-24,R4 Ajah-Lekki,Eko Movers,36,7.17
+2025-06-24,R5 Yaba-Ikeja,Lagos Rapid,43,11.82
+2025-06-24,R5 Yaba-Ikeja,Metro Link,51,9.21
+2025-06-24,R5 Yaba-Ikeja,Eko Movers,37,10.57
+2025-06-24,R6 Badagry-Mile 2,Lagos Rapid,45,13.46
+2025-06-24,R6 Badagry-Mile 2,Metro Link,54,11.28
+2025-06-24,R6 Badagry-Mile 2,Eko Movers,37,11.23
+2025-06-24,R7 Epe-Ajah,Lagos Rapid,41,14.91
+2025-06-24,R7 Epe-Ajah,Metro Link,52,12.91
+2025-06-24,R7 Epe-Ajah,Eko Movers,49,13.03
+2025-06-24,R8 Agege-Marina,Lagos Rapid,49,16.23
+2025-06-24,R8 Agege-Marina,Metro Link,47,13.96
+2025-06-24,R8 Agege-Marina,Eko Movers,49,15.1
+2025-06-25,R1 Mile 12-CMS,Lagos Rapid,13,6.04
+2025-06-25,R1 Mile 12-CMS,Metro Link,11,3.33
+2025-06-25,R1 Mile 12-CMS,Eko Movers,10,3.01
+2025-06-25,R2 Ikorodu-TBS,Lagos Rapid,22,8.2
+2025-06-25,R2 Ikorodu-TBS,Metro Link,27,5.72
+2025-06-25,R2 Ikorodu-TBS,Eko Movers,22,5.5
+2025-06-25,R3 Oshodi-Abule Egba,Lagos Rapid,34,8.47
+2025-06-25,R3 Oshodi-Abule Egba,Metro Link,26,6.52
+2025-06-25,R3 Oshodi-Abule Egba,Eko Movers,36,6.34
+2025-06-25,R4 Ajah-Lekki,Lagos Rapid,38,10.39
+2025-06-25,R4 Ajah-Lekki,Metro Link,44,8.14
+2025-06-25,R4 Ajah-Lekki,Eko Movers,47,7.83
+2025-06-25,R5 Yaba-Ikeja,Lagos Rapid,45,12.2
+2025-06-25,R5 Yaba-Ikeja,Metro Link,44,9.7
+2025-06-25,R5 Yaba-Ikeja,Eko Movers,36,9.58
+2025-06-25,R6 Badagry-Mile 2,Lagos Rapid,43,12.81
+2025-06-25,R6 Badagry-Mile 2,Metro Link,41,11.84
+2025-06-25,R6 Badagry-Mile 2,Eko Movers,44,10.97
+2025-06-25,R7 Epe-Ajah,Lagos Rapid,44,14.37
+2025-06-25,R7 Epe-Ajah,Metro Link,52,12.23
+2025-06-25,R7 Epe-Ajah,Eko Movers,48,12.89
+2025-06-25,R8 Agege-Marina,Lagos Rapid,35,16.62
+2025-06-25,R8 Agege-Marina,Metro Link,47,14.48
+2025-06-25,R8 Agege-Marina,Eko Movers,47,14.52
+2025-06-26,R1 Mile 12-CMS,Lagos Rapid,9,5.92
+2025-06-26,R1 Mile 12-CMS,Metro Link,10,4.08
+2025-06-26,R1 Mile 12-CMS,Eko Movers,10,2.01
+2025-06-26,R2 Ikorodu-TBS,Lagos Rapid,19,7.06
+2025-06-26,R2 Ikorodu-TBS,Metro Link,21,5.78
+2025-06-26,R2 Ikorodu-TBS,Eko Movers,23,4.96
+2025-06-26,R3 Oshodi-Abule Egba,Lagos Rapid,36,8.44
+2025-06-26,R3 Oshodi-Abule Egba,Metro Link,37,6.83
+2025-06-26,R3 Oshodi-Abule Egba,Eko Movers,37,7.09
+2025-06-26,R4 Ajah-Lekki,Lagos Rapid,40,9.01
+2025-06-26,R4 Ajah-Lekki,Metro Link,45,7.59
+2025-06-26,R4 Ajah-Lekki,Eko Movers,36,7.79
+2025-06-26,R5 Yaba-Ikeja,Lagos Rapid,43,12.02
+2025-06-26,R5 Yaba-Ikeja,Metro Link,40,9.9
+2025-06-26,R5 Yaba-Ikeja,Eko Movers,47,9.94
+2025-06-26,R6 Badagry-Mile 2,Lagos Rapid,42,13.05
+2025-06-26,R6 Badagry-Mile 2,Metro Link,39,10.91
+2025-06-26,R6 Badagry-Mile 2,Eko Movers,39,10.6
+2025-06-26,R7 Epe-Ajah,Lagos Rapid,39,14.25
+2025-06-26,R7 Epe-Ajah,Metro Link,40,13.05
+2025-06-26,R7 Epe-Ajah,Eko Movers,43,11.96
+2025-06-26,R8 Agege-Marina,Lagos Rapid,46,16.68
+2025-06-26,R8 Agege-Marina,Metro Link,49,13.87
+2025-06-26,R8 Agege-Marina,Eko Movers,39,15.18
+2025-06-27,R1 Mile 12-CMS,Lagos Rapid,13,7.78
+2025-06-27,R1 Mile 12-CMS,Metro Link,12,5.56
+2025-06-27,R1 Mile 12-CMS,Eko Movers,11,5.98
+2025-06-27,R2 Ikorodu-TBS,Lagos Rapid,25,7.15
+2025-06-27,R2 Ikorodu-TBS,Metro Link,27,6.06
+2025-06-27,R2 Ikorodu-TBS,Eko Movers,27,5.92
+2025-06-27,R3 Oshodi-Abule Egba,Lagos Rapid,33,9.16
+2025-06-27,R3 Oshodi-Abule Egba,Metro Link,37,6.67
+2025-06-27,R3 Oshodi-Abule Egba,Eko Movers,28,5.94
+2025-06-27,R4 Ajah-Lekki,Lagos Rapid,39,10.23
+2025-06-27,R4 Ajah-Lekki,Metro Link,42,8.1
+2025-06-27,R4 Ajah-Lekki,Eko Movers,40,8.34
+2025-06-27,R5 Yaba-Ikeja,Lagos Rapid,37,11.67
+2025-06-27,R5 Yaba-Ikeja,Metro Link,38,10.29
+2025-06-27,R5 Yaba-Ikeja,Eko Movers,46,9.27
+2025-06-27,R6 Badagry-Mile 2,Lagos Rapid,52,13.43
+2025-06-27,R6 Badagry-Mile 2,Metro Link,43,10.67
+2025-06-27,R6 Badagry-Mile 2,Eko Movers,52,11.61
+2025-06-27,R7 Epe-Ajah,Lagos Rapid,49,15.18
+2025-06-27,R7 Epe-Ajah,Metro Link,47,12.58
+2025-06-27,R7 Epe-Ajah,Eko Movers,44,11.83
+2025-06-27,R8 Agege-Marina,Lagos Rapid,50,15.45
+2025-06-27,R8 Agege-Marina,Metro Link,46,14.55
+2025-06-27,R8 Agege-Marina,Eko Movers,43,14.22
+2025-06-28,R1 Mile 12-CMS,Lagos Rapid,11,4.79
+2025-06-28,R1 Mile 12-CMS,Metro Link,9,3.6
+2025-06-28,R1 Mile 12-CMS,Eko Movers,10,3.24
+2025-06-28,R2 Ikorodu-TBS,Lagos Rapid,19,6.11
+2025-06-28,R2 Ikorodu-TBS,Metro Link,26,5.6
+2025-06-28,R2 Ikorodu-TBS,Eko Movers,23,4.41
+2025-06-28,R3 Oshodi-Abule Egba,Lagos Rapid,29,7.81
+2025-06-28,R3 Oshodi-Abule Egba,Metro Link,33,5.29
+2025-06-28,R3 Oshodi-Abule Egba,Eko Movers,27,5.82
+2025-06-28,R4 Ajah-Lekki,Lagos Rapid,35,8.95
+2025-06-28,R4 Ajah-Lekki,Metro Link,41,6.66
+2025-06-28,R4 Ajah-Lekki,Eko Movers,36,6.6
+2025-06-28,R5 Yaba-Ikeja,Lagos Rapid,36,10.35
+2025-06-28,R5 Yaba-Ikeja,Metro Link,39,8.02
+2025-06-28,R5 Yaba-Ikeja,Eko Movers,48,9.42
+2025-06-28,R6 Badagry-Mile 2,Lagos Rapid,48,12.01
+2025-06-28,R6 Badagry-Mile 2,Metro Link,46,8.87
+2025-06-28,R6 Badagry-Mile 2,Eko Movers,53,9.58
+2025-06-28,R7 Epe-Ajah,Lagos Rapid,46,12.11
+2025-06-28,R7 Epe-Ajah,Metro Link,36,10.59
+2025-06-28,R7 Epe-Ajah,Eko Movers,38,9.98
+2025-06-28,R8 Agege-Marina,Lagos Rapid,36,15.09
+2025-06-28,R8 Agege-Marina,Metro Link,43,12.85
+2025-06-28,R8 Agege-Marina,Eko Movers,35,11.7

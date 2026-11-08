@@ -1,0 +1,21 @@
+{
+ "headline": 0.045458422298394724,
+ "kitagawa": {
+  "total": 0.44110676268861404,
+  "within": -1.5723537302983233,
+  "mix": 2.013460492986937
+ },
+ "reversal": [
+  "R1 Mile 12-CMS",
+  "R2 Ikorodu-TBS",
+  "R3 Oshodi-Abule Egba",
+  "R4 Ajah-Lekki",
+  "R5 Yaba-Ikeja",
+  "R6 Badagry-Mile 2",
+  "R7 Epe-Ajah",
+  "R8 Agege-Marina"
+ ],
+ "operator": "Lagos Rapid",
+ "break_date": "2025-05-14",
+ "clean_headline": -0.007253867547579558
+}

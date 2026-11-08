@@ -1,0 +1,51 @@
+id: DS-T3-005
+title: "The Line That Got Slower: Decomposing a Headline and Finding the Instrument Break"
+summary: >-
+  Explore a bus rapid transit delay dataset in which a headline worsening coexists with improvement on every route. Implement an exact rate-versus-mix decomposition, detect a hidden measurement-instrument break in one operator's tracker, correct the headline, and keep a hypothesis ledger that includes refuted ideas.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-04
+format: open-ended
+domains: [transport, urban-mobility, nigeria]
+technologies: [python, pandas, numpy, pytest, changepoint-detection]
+prerequisites:
+  knowledge:
+    - pandas groupby and pivot
+    - Weighted averages
+    - Basic hypothesis-driven analysis
+competencies:
+  - Hypothesis-driven exploration with a written ledger
+  - Rate/mix (Kitagawa) decomposition of a change in an aggregate
+  - Detecting Simpson-style reversals
+  - Detecting measurement-instrument changes by differencing against peers
+  - Estimating and removing a level shift, and quantifying how much a headline depends on it
+  - Honest communication of what an exploration can and cannot establish
+estimated_hours: {min: 14, max: 22}
+difficulty: {technical: 3, mathematical: 3, research: 4, engineering: 2, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [eda, simpsons-paradox, decomposition, measurement-error, transport, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
