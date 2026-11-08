@@ -1,0 +1,83 @@
+id: ML-T2-009
+title: Which Loan Model Ships? Time-Aware Model Selection for Mobile-Money Micro-Loans
+summary: Choose between candidate default models for a mobile-money micro-lender using forward-chaining
+  validation, a label-maturity embargo, a leak audit and a cost-based threshold, and defend the estimate
+  against what actually happens next quarter.
+version: 1.0.0
+status: reviewed
+authors:
+- CLBG Intelligence Track Assessment Committee
+reviewers:
+- CLBG Intelligence Track Assessment Committee
+created: '2026-11-03'
+last_reviewed: '2026-11-03'
+next_review: '2027-08-01'
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-05
+format: comparative
+secondary_formats:
+- investigation
+domains:
+- fintech
+- mobile-money
+- credit-risk
+technologies:
+- python
+- numpy
+- pandas
+- scikit-learn
+- pytest
+prerequisites:
+  knowledge:
+  - scikit-learn estimators and pipelines
+  - Train/validation/test split and cross-validation
+  - Precision, recall and cost-sensitive decisions
+  - Bootstrap resampling basics
+competencies:
+- Designing forward-chaining validation for time-ordered data
+- Handling right-censored labels (loans that have not matured)
+- Auditing features for post-outcome leakage
+- Selecting an operating threshold from a cost matrix
+- Comparing candidate models with uncertainty estimates
+- Reporting an honest estimate of future performance
+- Testing evaluation code
+estimated_hours:
+  min: 14
+  max: 22
+difficulty:
+  technical: 3
+  mathematical: 2
+  research: 2
+  engineering: 3
+  ambiguity: 3
+  resources: 2
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets:
+- synthetic
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags:
+- validation
+- time-series-split
+- leakage
+- cost-sensitive
+- fintech
+- nigeria
+changelog:
+- version: 1.0.0
+  date: '2026-11-03'
+  change: Initial release.

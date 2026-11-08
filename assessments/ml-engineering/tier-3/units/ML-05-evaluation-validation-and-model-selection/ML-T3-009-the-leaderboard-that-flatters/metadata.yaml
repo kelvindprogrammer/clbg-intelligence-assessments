@@ -1,0 +1,85 @@
+id: ML-T3-009
+title: 'The Leaderboard That Flatters: Winner''s Curse and Valid Selection in a Fraud Hackathon'
+summary: Quantify the winner's curse on a small public leaderboard, build a leakage-free nested validation
+  procedure, and design and defend the evaluation protocol for the private phase of a fraud-detection
+  hackathon.
+version: 1.0.0
+status: reviewed
+authors:
+- CLBG Intelligence Track Assessment Committee
+reviewers:
+- CLBG Intelligence Track Assessment Committee
+created: '2026-11-03'
+last_reviewed: '2026-11-03'
+next_review: '2027-08-01'
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-05
+format: investigation
+secondary_formats:
+- open-ended
+- implementation
+domains:
+- fintech
+- fraud-detection
+- evaluation-methodology
+technologies:
+- python
+- numpy
+- scipy
+- scikit-learn
+- pandas
+- pytest
+prerequisites:
+  knowledge:
+  - ROC AUC and its sampling variability
+  - Cross-validation and hyperparameter search
+  - Bootstrap resampling
+  - Basic hypothesis testing and power
+competencies:
+- Quantifying the winner's curse by simulation
+- Implementing nested cross-validation without leakage
+- Comparing models with paired resampling
+- Planning evaluation-set size from effect size and power
+- Shrinking noisy leaderboard scores
+- Designing and defending an evaluation protocol
+- Reporting experiments with ablations and honest uncertainty
+estimated_hours:
+  min: 24
+  max: 36
+difficulty:
+  technical: 4
+  mathematical: 4
+  research: 4
+  engineering: 3
+  ambiguity: 4
+  resources: 2
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets:
+- synthetic
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags:
+- winner-curse
+- nested-cv
+- leaderboard
+- statistics
+- fraud
+- nigeria
+changelog:
+- version: 1.0.0
+  date: '2026-11-03'
+  change: Initial release.

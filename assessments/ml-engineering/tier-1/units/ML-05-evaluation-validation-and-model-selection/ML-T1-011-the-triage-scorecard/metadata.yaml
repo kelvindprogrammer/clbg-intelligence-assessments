@@ -1,0 +1,80 @@
+id: ML-T1-011
+title: 'The Triage Scorecard: Building an Honest Evaluation Kit for a Malaria Risk Score'
+summary: Implement classification metrics, a household-aware stratified cross-validation splitter, a recall-targeted
+  threshold and a calibration error from scratch, and use them to audit a clinic risk score.
+version: 1.0.0
+status: reviewed
+authors:
+- CLBG Intelligence Track Assessment Committee
+reviewers:
+- CLBG Intelligence Track Assessment Committee
+created: '2026-11-03'
+last_reviewed: '2026-11-03'
+next_review: '2027-08-01'
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-05
+format: implementation
+secondary_formats:
+- investigation
+domains:
+- health
+- evaluation
+technologies:
+- python
+- numpy
+- pandas
+- pytest
+prerequisites:
+  knowledge:
+  - Python functions and modules
+  - numpy array operations
+  - Confusion matrix and precision/recall definitions
+  - Running pytest
+competencies:
+- Implementing classification metrics from their definitions
+- Handling ties in ranking metrics (AUC, average precision)
+- Preventing leakage with group-aware, stratified splitting
+- Choosing an operating threshold from a clinical constraint
+- Measuring calibration
+- Explaining why accuracy misleads on imbalanced data
+- Testing numerical code against an oracle
+estimated_hours:
+  min: 8
+  max: 14
+difficulty:
+  technical: 2
+  mathematical: 2
+  research: 1
+  engineering: 2
+  ambiguity: 2
+  resources: 1
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets:
+- synthetic
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags:
+- metrics
+- cross-validation
+- calibration
+- imbalance
+- health
+- nigeria
+changelog:
+- version: 1.0.0
+  date: '2026-11-03'
+  change: Initial release.
