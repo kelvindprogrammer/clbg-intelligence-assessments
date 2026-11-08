@@ -1,0 +1,54 @@
+id: ML-T3-003
+title: "Do Ensembles Cure Overfitting? A Bias-Variance Replication Study with Bagging and Boosting"
+summary: >-
+  Build and validate a Monte Carlo bias-variance decomposition on a synthetic cocoa-yield problem with known truth, then use it to test whether bagging and boosting reduce variance, when boosting overfits, and how noise, sample size and irrelevant features change the answer.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-02
+format: replication
+secondary_formats: [open-ended]
+domains: [agriculture, cocoa, statistical-learning-theory]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Fitting scikit-learn tree, bagging and boosting regressors
+    - Expectation, variance and the squared-error decomposition
+    - Monte Carlo estimation and bootstrap standard errors
+    - Writing reproducible experiment code
+competencies:
+  - Estimating bias, variance and noise by repeated resampling with a known truth
+  - Correcting the finite-round bias of the squared-bias estimate
+  - Validating an instrument with known-answer models
+  - Designing ablations over depth, ensemble size, learning rate, sample size, noise and irrelevant features
+  - Attaching bootstrap standard errors to decomposition terms
+  - Turning folklore into testable claims and reporting verdicts with scope
+estimated_hours: {min: 24, max: 36}
+difficulty: {technical: 4, mathematical: 4, research: 4, engineering: 3, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [bias-variance, bagging, gradient-boosting, monte-carlo, replication, uncertainty, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

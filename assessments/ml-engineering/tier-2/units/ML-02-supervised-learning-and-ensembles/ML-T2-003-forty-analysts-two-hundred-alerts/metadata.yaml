@@ -1,0 +1,54 @@
+id: ML-T2-003
+title: "Forty Analysts, Two Hundred Alerts: Choosing Between Linear Models, Forests and Boosting Under an Alert Budget"
+summary: >-
+  On synthetic mobile-money transactions with extreme imbalance, a leaky post-hoc column and mid-period fraud-pattern drift, build a leak-free pipeline, choose between logistic regression, random forest and boosting under a daily alert budget, and defend the training window.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-02
+format: comparative
+secondary_formats: [investigation]
+domains: [fintech, mobile-money, fraud-detection]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Fitting and scoring scikit-learn classifiers
+    - Precision, recall and PR curves
+    - Why random splits can mislead on time-ordered data
+    - Class imbalance and its usual remedies
+competencies:
+  - Detecting target leakage from data alone
+  - Splitting time-ordered data without look-ahead
+  - Choosing a metric that matches an operational constraint (alert budget)
+  - Comparing linear, bagged and boosted models against a baseline
+  - Handling class imbalance and concept drift deliberately
+  - Justifying model selection with validation evidence and reporting uncertainty
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [imbalanced-classification, random-forest, gradient-boosting, leakage, temporal-validation, concept-drift, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

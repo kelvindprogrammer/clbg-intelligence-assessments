@@ -1,0 +1,54 @@
+id: ML-T1-004
+title: "The Field Officer's Decision Tree: A CART Classifier from Scratch for Cassava Disease Triage"
+summary: >-
+  Implement a Gini CART classifier with an efficient split search, importances and rule export; verify it against scikit-learn on synthetic cassava-disease data and show where greedy splitting struggles.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-02
+format: implementation
+secondary_formats: [replication]
+domains: [agriculture, plant-health, interpretable-ml]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Python classes and recursion
+    - numpy sorting, cumsum and boolean indexing
+    - Basic probability (class proportions)
+    - Running pytest
+competencies:
+  - Computing impurity and gain exactly
+  - Searching splits efficiently with sorting and cumulative class counts
+  - Building and querying a recursive tree with stopping rules
+  - Verifying a from-scratch model against a reference library
+  - Extracting human-readable rules and checking them against the model
+  - Diagnosing overfitting and the limits of greedy splitting (XOR)
+estimated_hours: {min: 10, max: 14}
+difficulty: {technical: 3, mathematical: 2, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/datagen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [decision-tree, cart, gini, overfitting, interpretability, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
