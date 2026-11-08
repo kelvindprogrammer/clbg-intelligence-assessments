@@ -1,0 +1,11 @@
+market_id,name,state,aliases
+KN-DAW,Dawanau,Kano,DAWANAU/KANO|Dawanau (Kano)|KANDAW
+KD-BAR,Kasuwan Barci,Kaduna,KASUWAN BARCI/KADUNA|Kasuwan Barci (Kaduna)|KADBAR
+BO-MON,Monday Market,Borno,MONDAY MKT/MAIDUGURI|Monday Market (Maiduguri)|BORMON
+FC-WUS,Wuse,FCT,"WUSE/ABUJA|Wuse Market, Abuja|Wuse (Abuja)|FCTWUS"
+KW-OJA,Oja-Oba,Kwara,"OJA OBA/ILORIN|Oja-Oba Market, Ilorin|Oja-Oba (Ilorin)|KWAOJA"
+LA-M12,Mile 12,Lagos,"Mile 12 Market, Lagos|Mile 12 (Lagos)|LAGM12"
+OY-BOD,Bodija,Oyo,"Bodija Market, Ibadan|Bodija (Ibadan)|OYOBOD"
+EN-OGB,Ogbete,Enugu,"Ogbete Main Market, Enugu|Ogbete (Enugu)|ENUOGB"
+AB-ARI,Ariaria,Abia,"Ariaria International Market, Aba|Ariaria (Aba)|ABIARI"
+RI-MLM,Mile One,Rivers,"Mile One Market, Port Harcourt|Mile One (Port Harcourt)|RIVMLO"

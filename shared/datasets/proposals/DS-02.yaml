@@ -1,0 +1,62 @@
+# Dataset proposals from unit DS-02 (Data Acquisition and Sourcing). Reserved range DSET-110 to DSET-119.
+# Every entry was verified by fetching it on the date given. Sources already in registry.yaml are referenced
+# by their registry IDs instead (WDI DSET-019, FAOSTAT DSET-021, NASA POWER DSET-022, GRID3 health DSET-028,
+# Healthsites/OSM DSET-030, COD-AB DSET-026).
+- id: DSET-110
+  name: GBIF occurrence search API (records for Nigeria)
+  provider: Global Biodiversity Information Facility (GBIF)
+  url: https://api.gbif.org/v1/occurrence/search?country=NG
+  license: Per record CC0 1.0, CC BY 4.0 or CC BY-NC 4.0 (GBIF data user agreement); attribution by dataset and download DOI
+  format: JSON REST API with facets; bulk downloads as DwC-A or CSV (free account required for downloads, not for search)
+  size: About 1.35 million occurrence records for Nigeria (2026-11-03); facet queries are a few KB each
+  modality: tabular
+  domain: biodiversity
+  limitations: >-
+    Opportunistic, unevenly sampled records. Dominated by a few bird-atlas datasets. stateProvince is often just "Nigeria".
+    The licence mix includes non-commercial records. Absence of records is not absence of species.
+  units: [DS-02]
+  verified: true
+  verified_on: 2026-11-03
+  notes: >-
+    Facet queries confirmed: count 1,353,307; basisOfRecord HUMAN_OBSERVATION 909,392 and PRESERVED_SPECIMEN 265,376;
+    publishingCountry NG 868,232 and GB 146,107; licence facet CC_BY_4_0 1,127,254, CC_BY_NC_4_0 137,675 and CC0_1_0 88,378; the
+    top datasets are Nigerian Bird Atlas Project collections. The gbif.org terms page blocked scripted access (bot protection),
+    so per-record licences were verified through the API licence facet and dataset metadata (/v1/dataset/{key}). Members
+    should read https://www.gbif.org/terms in a browser.
+- id: DSET-111
+  name: WorldPop Nigeria population counts (unconstrained, 2000-2020; 1 km and 100 m)
+  provider: WorldPop, University of Southampton
+  url: https://hub.worldpop.org/rest/data/pop/wpgp?iso3=NGA
+  license: CC BY 4.0
+  format: GeoTIFF
+  size: About 5 MB per year at 1 km; about 495 MB per year at 100 m
+  modality: geospatial
+  domain: demography
+  limitations: >-
+    A modelled (random-forest dasymetric) estimate, not a census. No per-pixel uncertainty is shipped. Nigeria's last census was
+    2006, so the model inputs are dated.
+  units: [DS-02]
+  verified: true
+  verified_on: 2026-11-03
+  notes: >-
+    The REST listing returned 21 years (DOI 10.5258/SOTON/WP00645). The licence text at https://hub.worldpop.org/data/licence.txt
+    states CC BY 4.0. The 1 km file nga_ppp_2020_1km_Aggregated.tif (5.1 MB) and the 100 m file nga_ppp_2020.tif (495 MB) were
+    confirmed by HEAD requests.
+- id: DSET-112
+  name: OpenStreetMap Nigeria extract (Geofabrik)
+  provider: OpenStreetMap contributors; extracts by Geofabrik GmbH
+  url: https://download.geofabrik.de/africa/nigeria.html
+  license: ODbL 1.0 (share-alike for publicly used derived databases)
+  format: OSM PBF; zipped shapefiles
+  size: The shapefile bundle is about 2.1 GB; a single state is better queried through the Overpass API under its usage policy
+  modality: geospatial
+  domain: infrastructure
+  limitations: >-
+    Volunteered data with very uneven completeness (urban areas and humanitarian-mapping campaigns are over-represented).
+    Tags are inconsistent. Derived databases that are publicly used must be offered under ODbL.
+  units: [DS-02]
+  verified: true
+  verified_on: 2026-11-03
+  notes: >-
+    Licence confirmed at https://www.openstreetmap.org/copyright. The nigeria-latest redirect resolved to the 2026-11-02 build.
+    The shapefile bundle size was confirmed by a HEAD request.

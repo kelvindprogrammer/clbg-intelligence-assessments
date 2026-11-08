@@ -1,0 +1,57 @@
+id: DS-T1-004
+title: "Every Page, Exactly Once: A Resilient Client for the World Bank Indicators API"
+summary: >-
+  Build a paginated World Bank API client with retries, jittered backoff, an integrity-checked cache
+  and a provenance log. It must survive the API's real traps (HTTP-200 errors, nulls, republished
+  vintages) and is tested fully offline against recorded responses and a fault-injecting fake server.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-02
+format: implementation
+secondary_formats: []
+domains: [energy-access, development-indicators, open-government-data]
+technologies: [python, urllib, pandas, pytest, http]
+prerequisites:
+  knowledge:
+    - Python classes, dataclasses and exceptions
+    - Reading JSON
+    - HTTP methods, status codes and headers
+    - pandas DataFrame basics
+    - Running pytest
+  recommended_assessments: [DS-T1-001]
+competencies:
+  - Paginated API acquisition with completeness guarantees
+  - Classifying transient and permanent failures
+  - Exponential backoff with full jitter and Retry-After
+  - Canonical, atomic, integrity-checked caching
+  - Provenance logging and data-vintage awareness
+  - Testing network code offline with injected transports, clocks and sleeps
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 3, mathematical: 1, research: 1, engineering: 3, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+  notes: "Internet is needed only for one short live run (deliverable 3). All tests run offline."
+collaboration: individual
+datasets: [DSET-019]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [api, pagination, retries, caching, provenance, world-bank, ecowas, electricity]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

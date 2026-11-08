@@ -1,0 +1,58 @@
+id: DS-T2-003
+title: "The Polite Collector: Ethical, Change-Aware Collection from a Public Procurement Portal"
+summary: >-
+  Design and build a web collector for a mock state e-procurement portal that honours RFC 9309 robots
+  rules, crawl delays and the terms, detects amendments and withdrawals cheaply with conditional requests,
+  raises schema-drift alarms instead of writing nulls, and is measured against a naive baseline.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-02
+format: system-design
+secondary_formats: [implementation, comparative]
+domains: [public-procurement, civic-technology, open-government-data]
+technologies: [python, http, html-parsing, robots-txt, pytest]
+prerequisites:
+  knowledge:
+    - HTTP requests, status codes and headers
+    - HTML document structure
+    - Python packages, modules and pytest
+    - JSON or SQLite storage
+  recommended_assessments: [DS-T1-004]
+competencies:
+  - RFC 9309 robots semantics and crawl-delay compliance
+  - Turning terms of use into design requirements
+  - Crawl scoping, URL canonicalisation and request budgets
+  - Change detection with conditional HTTP and sitemaps
+  - Schema-drift detection that protects stored data
+  - Data minimisation for personal data under NDPA 2023
+  - Measured comparison of collection strategies against a baseline
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 3, mathematical: 1, research: 2, engineering: 4, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+  notes: "All work runs against a local mock portal on a virtual clock. A real-site pilot is an optional extension."
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: tests/mocksite.py
+ci:
+  contract_tests: true
+  heavy: false
+tags: [web-scraping, robots-txt, ethics, change-detection, schema-drift, procurement, ndpa]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

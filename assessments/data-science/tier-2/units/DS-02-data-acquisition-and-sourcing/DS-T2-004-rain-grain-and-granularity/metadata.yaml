@@ -1,0 +1,55 @@
+id: DS-T2-004
+title: "Rain, Grain and Granularity: Fusing Open Climate, Crop and Development Data at Mismatched Scales"
+summary: >-
+  Acquire NASA POWER daily climate, FAOSTAT national crop statistics and World Bank indicators for Nigeria,
+  align them with tested rules for seasons, coverage, flags and trends, and compare at least four alignment
+  designs against a baseline to show how robust any climate-yield conclusion really is.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-02
+format: comparative
+secondary_formats: [investigation]
+domains: [climate, agriculture, development-indicators]
+technologies: [python, pandas, numpy, scipy, statsmodels, matplotlib, rest-api]
+prerequisites:
+  knowledge:
+    - Calling REST APIs and handling JSON
+    - pandas time-series grouping and resampling
+    - Correlation, simple regression and confidence intervals
+  recommended_assessments: [DS-T1-004]
+competencies:
+  - Reproducible multi-source acquisition with manifests
+  - Temporal and spatial aggregation with coverage accounting
+  - Flag-aware use of official statistics
+  - Sensitivity analysis across alignment designs against a baseline
+  - Bootstrap uncertainty and honest null-result reporting
+  - Source independence and metadata critique
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 3, mathematical: 3, research: 3, engineering: 2, ambiguity: 4, resources: 2}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+  notes: "Downloads total under 10 MB. Tests use small recorded fixtures and run offline."
+collaboration: individual
+datasets: [DSET-022, DSET-021, DSET-019]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [data-fusion, granularity, nasa-power, faostat, world-bank, sensitivity-analysis, nigeria, cereals]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

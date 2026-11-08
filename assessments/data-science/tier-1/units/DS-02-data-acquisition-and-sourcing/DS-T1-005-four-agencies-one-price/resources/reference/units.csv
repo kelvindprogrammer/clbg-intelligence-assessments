@@ -1,0 +1,21 @@
+commodity_id,unit,kg_per_unit
+maize_white,kg,1
+maize_white,mudu,1.40
+maize_white,50 kg bag,50
+maize_white,100 kg bag,100
+rice_local,kg,1
+rice_local,mudu,1.60
+rice_local,50 kg bag,50
+rice_local,100 kg bag,100
+sorghum,kg,1
+sorghum,mudu,1.40
+sorghum,50 kg bag,50
+sorghum,100 kg bag,100
+garri_yellow,kg,1
+garri_yellow,mudu,1.20
+garri_yellow,50 kg bag,50
+garri_yellow,100 kg bag,100
+beans_brown,kg,1
+beans_brown,mudu,1.50
+beans_brown,50 kg bag,50
+beans_brown,100 kg bag,100

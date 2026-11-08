@@ -1,0 +1,2 @@
+pytest>=7.4
+# The reference needs only the standard library. Add what you choose to use, with bounds.

@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PriceBulletin agency="Coastal Markets Bureau" currency="NGN" dateFormat="DD/MM/YYYY">
+  <!-- Each Obs is dated by the Monday the survey week starts. uom="mudu": see the desk conversion table. -->
+  <Market name="Wuse Market, Abuja">
+    <Obs date="06/01/2025" item="Maize (White)" uom="mudu" price="904.38" revision="1"/>
+    <Obs date="06/01/2025" item="Rice (Local)" uom="mudu" price="2,050.42" revision="1"/>
+    <Obs date="06/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="873.89" revision="1"/>
+    <Obs date="06/01/2025" item="Garri (Yellow)" uom="mudu" price="989.10" revision="1"/>
+    <Obs date="06/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,284.12" revision="1"/>
+    <Obs date="13/01/2025" item="Maize (White)" uom="mudu" price="994.84" revision="1"/>
+    <Obs date="13/01/2025" item="Rice (Local)" uom="mudu" price="2,143.04" revision="1"/>
+    <Obs date="13/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="834.15" revision="1"/>
+    <Obs date="13/01/2025" item="Garri (Yellow)" uom="mudu" price="1,030.65" revision="1"/>
+    <Obs date="13/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,287.32" revision="1"/>
+    <Obs date="20/01/2025" item="Maize (White)" uom="mudu" price="964.85" revision="1"/>
+    <Obs date="20/01/2025" item="Rice (Local)" uom="mudu" price="2,118.12" revision="1"/>
+    <Obs date="20/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="921.14" revision="1"/>
+    <Obs date="20/01/2025" item="Garri (Yellow)" uom="mudu" price="990.41" revision="1"/>
+    <Obs date="20/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,238.30" revision="1"/>
+    <Obs date="27/01/2025" item="Maize (White)" uom="mudu" price="946.62" revision="1"/>
+    <Obs date="27/01/2025" item="Rice (Local)" uom="mudu" price="2,169.38" revision="1"/>
+    <Obs date="27/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="884.43" revision="1"/>
+    <Obs date="27/01/2025" item="Garri (Yellow)" uom="mudu" price="1,033.43" revision="1"/>
+    <Obs date="27/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,389.28" revision="1"/>
+    <Obs date="03/02/2025" item="Maize (White)" uom="mudu" price="1,219.19" revision="1"/>
+    <Obs date="03/02/2025" item="Rice (Local)" uom="mudu" price="2,166.37" revision="1"/>
+    <Obs date="03/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="889.78" revision="1"/>
+    <Obs date="03/02/2025" item="Garri (Yellow)" uom="mudu" price="1,030.58" revision="1"/>
+    <Obs date="03/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,292.78" revision="1"/>
+    <Obs date="10/02/2025" item="Maize (White)" uom="mudu" price="973.50" revision="1"/>
+    <Obs date="10/02/2025" item="Rice (Local)" uom="mudu" price="2,172.91" revision="1"/>
+    <Obs date="10/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="886.42" revision="1"/>
+    <Obs date="10/02/2025" item="Garri (Yellow)" uom="mudu" price="1,096.42" revision="1"/>
+    <Obs date="10/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="1,840.94" revision="1"/>
+    <Obs date="17/02/2025" item="Maize (White)" uom="mudu" price="984.84" revision="1"/>
+    <Obs date="17/02/2025" item="Rice (Local)" uom="mudu" price="2,149.39" revision="1"/>
+    <Obs date="17/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="925.77" revision="1"/>
+    <Obs date="17/02/2025" item="Garri (Yellow)" uom="mudu" price="1,038.69" revision="1"/>
+    <Obs date="17/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,307.82" revision="1"/>
+    <Obs date="24/02/2025" item="Maize (White)" uom="mudu" price="991.94" revision="1"/>
+    <Obs date="24/02/2025" item="Rice (Local)" uom="mudu" price="2,363.00" revision="1"/>
+    <Obs date="24/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="933.79" revision="1"/>
+    <Obs date="24/02/2025" item="Garri (Yellow)" uom="mudu" price="1,031.74" revision="1"/>
+    <Obs date="24/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,324.14" revision="1"/>
+    <Obs date="03/03/2025" item="Maize (White)" uom="mudu" price="1,026.20" revision="1"/>
+    <Obs date="03/03/2025" item="Rice (Local)" uom="mudu" price="2,287.63" revision="1"/>
+    <Obs date="03/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="880.97" revision="1"/>
+    <Obs date="03/03/2025" item="Garri (Yellow)" uom="mudu" price="1,027.46" revision="1"/>
+    <Obs date="03/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,270.25" revision="1"/>
+    <Obs date="10/03/2025" item="Maize (White)" uom="mudu" price="964.88" revision="1"/>
+    <Obs date="10/03/2025" item="Rice (Local)" uom="mudu" price="2,184.96" revision="1"/>
+    <Obs date="10/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="878.57" revision="1"/>
+    <Obs date="10/03/2025" item="Garri (Yellow)" uom="mudu" price="1,013.61" revision="1"/>
+    <Obs date="10/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,314.66" revision="1"/>
+    <Obs date="17/03/2025" item="Maize (White)" uom="mudu" price="1,025.19" revision="1"/>
+    <Obs date="17/03/2025" item="Rice (Local)" uom="mudu" price="2,219.61" revision="1"/>
+    <Obs date="17/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="898.10" revision="1"/>
+    <Obs date="17/03/2025" item="Garri (Yellow)" uom="mudu" price="1,013.70" revision="1"/>
+    <Obs date="17/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,334.37" revision="1"/>
+    <Obs date="24/03/2025" item="Maize (White)" uom="mudu" price="1,027.59" revision="1"/>
+    <Obs date="24/03/2025" item="Rice (Local)" uom="mudu" price="2,287.63" revision="1"/>
+    <Obs date="24/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="912.28" revision="1"/>
+    <Obs date="24/03/2025" item="Garri (Yellow)" uom="mudu" price="1,016.68" revision="1"/>
+    <Obs date="24/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,414.83" revision="1"/>
+    <Obs date="31/03/2025" item="Maize (White)" uom="mudu" price="1,003.61" revision="1"/>
+    <Obs date="31/03/2025" item="Rice (Local)" uom="mudu" price="2,313.52" revision="1"/>
+    <Obs date="31/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="892.47" revision="1"/>
+    <Obs date="31/03/2025" item="Garri (Yellow)" uom="mudu" price="1,027.20" revision="1"/>
+    <Obs date="31/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="1,950.11" revision="1"/>
+    <Obs date="07/04/2025" item="Maize (White)" uom="mudu" price="1,012.79" revision="1"/>
+    <Obs date="07/04/2025" item="Rice (Local)" uom="mudu" price="2,316.92" revision="1"/>
+    <Obs date="07/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="931.92" revision="1"/>
+    <Obs date="07/04/2025" item="Garri (Yellow)" uom="mudu" price="1,076.27" revision="1"/>
+    <Obs date="07/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,412.08" revision="1"/>
+    <Obs date="14/04/2025" item="Maize (White)" uom="mudu" price="998.40" revision="1"/>
+    <Obs date="14/04/2025" item="Rice (Local)" uom="mudu" price="2,342.64" revision="1"/>
+    <Obs date="14/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="974.21" revision="1"/>
+    <Obs date="14/04/2025" item="Garri (Yellow)" uom="mudu" price="1,044.86" revision="1"/>
+    <Obs date="14/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,381.78" revision="1"/>
+    <Obs date="21/04/2025" item="Maize (White)" uom="mudu" price="1,064.11" revision="1"/>
+    <Obs date="21/04/2025" item="Rice (Local)" uom="mudu" price="2,417.86" revision="1"/>
+    <Obs date="21/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="949.91" revision="1"/>
+    <Obs date="21/04/2025" item="Garri (Yellow)" uom="mudu" price="1,078.98" revision="1"/>
+    <Obs date="21/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,579.22" revision="1"/>
+    <Obs date="28/04/2025" item="Maize (White)" uom="mudu" price="1,012.49" revision="1"/>
+    <Obs date="28/04/2025" item="Rice (Local)" uom="mudu" price="2,394.30" revision="1"/>
+    <Obs date="28/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="922.45" revision="1"/>
+    <Obs date="28/04/2025" item="Garri (Yellow)" uom="mudu" price="1,129.05" revision="1"/>
+    <Obs date="28/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,485.14" revision="1"/>
+    <Obs date="05/05/2025" item="Maize (White)" uom="mudu" price="1,069.68" revision="1"/>
+    <Obs date="05/05/2025" item="Rice (Local)" uom="mudu" price="2,428.82" revision="1"/>
+    <Obs date="05/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="912.84" revision="1"/>
+    <Obs date="05/05/2025" item="Garri (Yellow)" uom="mudu" price="1,048.95" revision="1"/>
+    <Obs date="05/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,643.06" revision="1"/>
+    <Obs date="12/05/2025" item="Maize (White)" uom="mudu" price="1,015.14" revision="1"/>
+    <Obs date="12/05/2025" item="Rice (Local)" uom="mudu" price="2,303.71" revision="1"/>
+    <Obs date="12/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="943.74" revision="1"/>
+    <Obs date="12/05/2025" item="Garri (Yellow)" uom="mudu" price="1,143.67" revision="1"/>
+    <Obs date="12/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,503.39" revision="1"/>
+    <Obs date="19/05/2025" item="Maize (White)" uom="mudu" price="1,016.86" revision="1"/>
+    <Obs date="19/05/2025" item="Rice (Local)" uom="mudu" price="2,467.48" revision="1"/>
+    <Obs date="19/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="916.97" revision="1"/>
+    <Obs date="19/05/2025" item="Garri (Yellow)" uom="mudu" price="1,075.98" revision="1"/>
+    <Obs date="19/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,515.58" revision="1"/>
+    <Obs date="26/05/2025" item="Maize (White)" uom="mudu" price="1,009.26" revision="1"/>
+    <Obs date="26/05/2025" item="Rice (Local)" uom="mudu" price="2,409.34" revision="1"/>
+    <Obs date="26/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="959.88" revision="1"/>
+    <Obs date="26/05/2025" item="Garri (Yellow)" uom="mudu" price="1,109.95" revision="1"/>
+    <Obs date="26/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,681.88" revision="1"/>
+    <Obs date="02/06/2025" item="Maize (White)" uom="mudu" price="1,035.03" revision="1"/>
+    <Obs date="02/06/2025" item="Rice (Local)" uom="mudu" price="2,434.86" revision="1"/>
+    <Obs date="02/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="1,013.97" revision="1"/>
+    <Obs date="02/06/2025" item="Garri (Yellow)" uom="mudu" price="1,070.99" revision="1"/>
+    <Obs date="02/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,524.04" revision="1"/>
+    <Obs date="09/06/2025" item="Maize (White)" uom="mudu" price="1,074.10" revision="1"/>
+    <Obs date="09/06/2025" item="Rice (Local)" uom="mudu" price="2,428.79" revision="1"/>
+    <Obs date="09/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="950.74" revision="1"/>
+    <Obs date="09/06/2025" item="Garri (Yellow)" uom="mudu" price="1,158.55" revision="1"/>
+    <Obs date="09/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,657.77" revision="1"/>
+    <Obs date="16/06/2025" item="Maize (White)" uom="mudu" price="1,073.90" revision="1"/>
+    <Obs date="16/06/2025" item="Rice (Local)" uom="mudu" price="2,368.44" revision="1"/>
+    <Obs date="16/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="949.54" revision="1"/>
+    <Obs date="16/06/2025" item="Garri (Yellow)" uom="mudu" price="1,188.50" revision="1"/>
+    <Obs date="16/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,580.00" revision="1"/>
+    <Obs date="23/06/2025" item="Maize (White)" uom="mudu" price="1,008.23" revision="1"/>
+    <Obs date="23/06/2025" item="Rice (Local)" uom="mudu" price="2,475.18" revision="1"/>
+    <Obs date="23/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="978.87" revision="1"/>
+    <Obs date="23/06/2025" item="Garri (Yellow)" uom="mudu" price="1,081.64" revision="1"/>
+    <Obs date="23/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,815.35" revision="1"/>
+    <Obs date="30/06/2025" item="Maize (White)" uom="mudu" price="1,016.04" revision="1"/>
+    <Obs date="30/06/2025" item="Rice (Local)" uom="mudu" price="2,555.45" revision="1"/>
+    <Obs date="30/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="1,010.92" revision="1"/>
+    <Obs date="30/06/2025" item="Garri (Yellow)" uom="mudu" price="1,169.28" revision="1"/>
+    <Obs date="30/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,222.87" revision="1"/>
+    <!-- Corrections issued after publication -->
+    <Obs date="03/02/2025" item="Maize (White)" uom="mudu" price="975.35" revision="2"/>
+    <Obs date="10/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,301.18" revision="2"/>
+    <Obs date="31/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,437.64" revision="2"/>
+    <Obs date="30/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,778.59" revision="2"/>
+  </Market>
+  <Market name="Oja-Oba Market, Ilorin">
+    <Obs date="06/01/2025" item="Maize (White)" uom="mudu" price="870.01" revision="1"/>
+    <Obs date="06/01/2025" item="Rice (Local)" uom="mudu" price="2,002.44" revision="1"/>
+    <Obs date="06/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="800.33" revision="1"/>
+    <Obs date="06/01/2025" item="Garri (Yellow)" uom="mudu" price="1,023.71" revision="1"/>
+    <Obs date="06/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,088.46" revision="1"/>
+    <Obs date="13/01/2025" item="Maize (White)" uom="mudu" price="903.94" revision="1"/>
+    <Obs date="13/01/2025" item="Rice (Local)" uom="mudu" price="1,944.41" revision="1"/>
+    <Obs date="13/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="825.10" revision="1"/>
+    <Obs date="13/01/2025" item="Garri (Yellow)" uom="mudu" price="1,048.65" revision="1"/>
+    <Obs date="13/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,042.24" revision="1"/>
+    <Obs date="20/01/2025" item="Maize (White)" uom="mudu" price="876.62" revision="1"/>
+    <Obs date="20/01/2025" item="Rice (Local)" uom="mudu" price="2,427.96" revision="1"/>
+    <Obs date="20/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="823.35" revision="1"/>
+    <Obs date="20/01/2025" item="Garri (Yellow)" uom="mudu" price="1,060.17" revision="1"/>
+    <Obs date="27/01/2025" item="Maize (White)" uom="mudu" price="870.27" revision="1"/>
+    <Obs date="27/01/2025" item="Rice (Local)" uom="mudu" price="2,126.11" revision="1"/>
+    <Obs date="27/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="752.60" revision="1"/>
+    <Obs date="27/01/2025" item="Garri (Yellow)" uom="mudu" price="1,046.44" revision="1"/>
+    <Obs date="27/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,172.29" revision="1"/>
+    <Obs date="03/02/2025" item="Maize (White)" uom="mudu" price="870.92" revision="1"/>
+    <Obs date="03/02/2025" item="Rice (Local)" uom="mudu" price="2,028.32" revision="1"/>
+    <Obs date="03/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="812.01" revision="1"/>
+    <Obs date="03/02/2025" item="Garri (Yellow)" uom="mudu" price="1,104.38" revision="1"/>
+    <Obs date="03/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,278.20" revision="1"/>
+    <Obs date="10/02/2025" item="Maize (White)" uom="mudu" price="871.89" revision="1"/>
+    <Obs date="10/02/2025" item="Rice (Local)" uom="mudu" price="2,138.39" revision="1"/>
+    <Obs date="10/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="814.38" revision="1"/>
+    <Obs date="10/02/2025" item="Garri (Yellow)" uom="mudu" price="1,130.32" revision="1"/>
+    <Obs date="10/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,195.25" revision="1"/>
+    <Obs date="17/02/2025" item="Maize (White)" uom="mudu" price="908.87" revision="1"/>
+    <Obs date="17/02/2025" item="Rice (Local)" uom="mudu" price="2,172.30" revision="1"/>
+    <Obs date="17/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="762.46" revision="1"/>
+    <Obs date="17/02/2025" item="Garri (Yellow)" uom="mudu" price="1,020.68" revision="1"/>
+    <Obs date="17/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,216.82" revision="1"/>
+    <Obs date="24/02/2025" item="Maize (White)" uom="mudu" price="926.92" revision="1"/>
+    <Obs date="24/02/2025" item="Rice (Local)" uom="mudu" price="2,154.12" revision="1"/>
+    <Obs date="24/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="788.94" revision="1"/>
+    <Obs date="24/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,303.22" revision="1"/>
+    <Obs date="03/03/2025" item="Maize (White)" uom="mudu" price="931.74" revision="1"/>
+    <Obs date="03/03/2025" item="Rice (Local)" uom="mudu" price="2,037.88" revision="1"/>
+    <Obs date="03/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="811.78" revision="1"/>
+    <Obs date="03/03/2025" item="Garri (Yellow)" uom="mudu" price="1,062.87" revision="1"/>
+    <Obs date="03/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,281.30" revision="1"/>
+    <Obs date="10/03/2025" item="Maize (White)" uom="mudu" price="935.67" revision="1"/>
+    <Obs date="10/03/2025" item="Rice (Local)" uom="mudu" price="2,163.32" revision="1"/>
+    <Obs date="10/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="815.73" revision="1"/>
+    <Obs date="10/03/2025" item="Garri (Yellow)" uom="mudu" price="1,104.29" revision="1"/>
+    <Obs date="10/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,424.54" revision="1"/>
+    <Obs date="17/03/2025" item="Maize (White)" uom="mudu" price="918.69" revision="1"/>
+    <Obs date="17/03/2025" item="Rice (Local)" uom="mudu" price="2,137.71" revision="1"/>
+    <Obs date="17/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="838.26" revision="1"/>
+    <Obs date="17/03/2025" item="Garri (Yellow)" uom="mudu" price="1,064.41" revision="1"/>
+    <Obs date="17/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,407.46" revision="1"/>
+    <Obs date="24/03/2025" item="Maize (White)" uom="mudu" price="899.57" revision="1"/>
+    <Obs date="24/03/2025" item="Rice (Local)" uom="mudu" price="1,754.33" revision="1"/>
+    <Obs date="24/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="808.97" revision="1"/>
+    <Obs date="24/03/2025" item="Garri (Yellow)" uom="mudu" price="1,138.51" revision="1"/>
+    <Obs date="24/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,311.14" revision="1"/>
+    <Obs date="31/03/2025" item="Maize (White)" uom="mudu" price="880.64" revision="1"/>
+    <Obs date="31/03/2025" item="Rice (Local)" uom="mudu" price="2,170.51" revision="1"/>
+    <Obs date="31/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="874.34" revision="1"/>
+    <Obs date="31/03/2025" item="Garri (Yellow)" uom="mudu" price="1,105.61" revision="1"/>
+    <Obs date="31/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,441.30" revision="1"/>
+    <Obs date="07/04/2025" item="Maize (White)" uom="mudu" price="924.09" revision="1"/>
+    <Obs date="07/04/2025" item="Rice (Local)" uom="mudu" price="2,173.13" revision="1"/>
+    <Obs date="07/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="840.48" revision="1"/>
+    <Obs date="07/04/2025" item="Garri (Yellow)" uom="mudu" price="1,110.22" revision="1"/>
+    <Obs date="07/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,449.99" revision="1"/>
+    <Obs date="14/04/2025" item="Maize (White)" uom="mudu" price="909.83" revision="1"/>
+    <Obs date="14/04/2025" item="Rice (Local)" uom="mudu" price="2,181.30" revision="1"/>
+    <Obs date="14/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="859.81" revision="1"/>
+    <Obs date="14/04/2025" item="Garri (Yellow)" uom="mudu" price="1,078.50" revision="1"/>
+    <Obs date="14/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,538.91" revision="1"/>
+    <Obs date="21/04/2025" item="Maize (White)" uom="mudu" price="949.03" revision="1"/>
+    <Obs date="21/04/2025" item="Rice (Local)" uom="mudu" price="2,151.06" revision="1"/>
+    <Obs date="21/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="854.89" revision="1"/>
+    <Obs date="21/04/2025" item="Garri (Yellow)" uom="mudu" price="1,139.16" revision="1"/>
+    <Obs date="21/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,489.03" revision="1"/>
+    <Obs date="28/04/2025" item="Maize (White)" uom="mudu" price="966.87" revision="1"/>
+    <Obs date="28/04/2025" item="Rice (Local)" uom="mudu" price="2,188.35" revision="1"/>
+    <Obs date="28/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="850.49" revision="1"/>
+    <Obs date="28/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,452.05" revision="1"/>
+    <Obs date="05/05/2025" item="Maize (White)" uom="mudu" price="927.28" revision="1"/>
+    <Obs date="05/05/2025" item="Rice (Local)" uom="mudu" price="2,088.27" revision="1"/>
+    <Obs date="05/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="858.40" revision="1"/>
+    <Obs date="05/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,692.15" revision="1"/>
+    <Obs date="12/05/2025" item="Maize (White)" uom="mudu" price="926.56" revision="1"/>
+    <Obs date="12/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="886.14" revision="1"/>
+    <Obs date="12/05/2025" item="Garri (Yellow)" uom="mudu" price="1,205.10" revision="1"/>
+    <Obs date="12/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,649.26" revision="1"/>
+    <Obs date="19/05/2025" item="Maize (White)" uom="mudu" price="950.02" revision="1"/>
+    <Obs date="19/05/2025" item="Rice (Local)" uom="mudu" price="2,159.19" revision="1"/>
+    <Obs date="19/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="892.89" revision="1"/>
+    <Obs date="19/05/2025" item="Garri (Yellow)" uom="mudu" price="1,263.77" revision="1"/>
+    <Obs date="19/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,511.39" revision="1"/>
+    <Obs date="26/05/2025" item="Maize (White)" uom="mudu" price="1,035.03" revision="1"/>
+    <Obs date="26/05/2025" item="Rice (Local)" uom="mudu" price="2,302.98" revision="1"/>
+    <Obs date="26/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="919.80" revision="1"/>
+    <Obs date="26/05/2025" item="Garri (Yellow)" uom="mudu" price="1,275.78" revision="1"/>
+    <Obs date="26/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,598.21" revision="1"/>
+    <Obs date="02/06/2025" item="Maize (White)" uom="mudu" price="1,007.07" revision="1"/>
+    <Obs date="02/06/2025" item="Rice (Local)" uom="mudu" price="2,307.10" revision="1"/>
+    <Obs date="02/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="923.92" revision="1"/>
+    <Obs date="02/06/2025" item="Garri (Yellow)" uom="mudu" price="1,224.92" revision="1"/>
+    <Obs date="02/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,601.01" revision="1"/>
+    <Obs date="09/06/2025" item="Maize (White)" uom="mudu" price="998.34" revision="1"/>
+    <Obs date="09/06/2025" item="Rice (Local)" uom="mudu" price="2,233.34" revision="1"/>
+    <Obs date="09/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="1,096.19" revision="1"/>
+    <Obs date="09/06/2025" item="Garri (Yellow)" uom="mudu" price="1,230.48" revision="1"/>
+    <Obs date="09/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,724.49" revision="1"/>
+    <Obs date="16/06/2025" item="Maize (White)" uom="mudu" price="1,009.18" revision="1"/>
+    <Obs date="16/06/2025" item="Rice (Local)" uom="mudu" price="2,097.35" revision="1"/>
+    <Obs date="16/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="872.68" revision="1"/>
+    <Obs date="16/06/2025" item="Garri (Yellow)" uom="mudu" price="1,201.33" revision="1"/>
+    <Obs date="16/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,759.73" revision="1"/>
+    <Obs date="23/06/2025" item="Maize (White)" uom="mudu" price="1,024.10" revision="1"/>
+    <Obs date="23/06/2025" item="Rice (Local)" uom="mudu" price="2,125.13" revision="1"/>
+    <Obs date="23/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="906.31" revision="1"/>
+    <Obs date="23/06/2025" item="Garri (Yellow)" uom="mudu" price="1,245.20" revision="1"/>
+    <Obs date="23/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,709.96" revision="1"/>
+    <Obs date="30/06/2025" item="Maize (White)" uom="mudu" price="1,034.13" revision="1"/>
+    <Obs date="30/06/2025" item="Rice (Local)" uom="mudu" price="2,228.68" revision="1"/>
+    <Obs date="30/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="903.06" revision="1"/>
+    <Obs date="30/06/2025" item="Garri (Yellow)" uom="mudu" price="1,232.05" revision="1"/>
+    <Obs date="30/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,736.94" revision="1"/>
+    <!-- Corrections issued after publication -->
+    <Obs date="20/01/2025" item="Rice (Local)" uom="mudu" price="1,942.37" revision="2"/>
+    <Obs date="24/03/2025" item="Rice (Local)" uom="mudu" price="2,192.91" revision="2"/>
+    <Obs date="09/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="876.95" revision="2"/>
+  </Market>
+  <Market name="Mile 12 Market, Lagos">
+    <Obs date="06/01/2025" item="Maize (White)" uom="mudu" price="856.61" revision="1"/>
+    <Obs date="06/01/2025" item="Rice (Local)" uom="mudu" price="2,066.72" revision="1"/>
+    <Obs date="06/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="688.61" revision="1"/>
+    <Obs date="06/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,475.64" revision="1"/>
+    <Obs date="13/01/2025" item="Maize (White)" uom="mudu" price="927.56" revision="1"/>
+    <Obs date="13/01/2025" item="Rice (Local)" uom="mudu" price="2,177.59" revision="1"/>
+    <Obs date="13/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="874.29" revision="1"/>
+    <Obs date="13/01/2025" item="Garri (Yellow)" uom="mudu" price="1,119.13" revision="1"/>
+    <Obs date="13/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,332.24" revision="1"/>
+    <Obs date="20/01/2025" item="Maize (White)" uom="mudu" price="879.57" revision="1"/>
+    <Obs date="20/01/2025" item="Rice (Local)" uom="mudu" price="1,947.44" revision="1"/>
+    <Obs date="20/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="806.61" revision="1"/>
+    <Obs date="20/01/2025" item="Garri (Yellow)" uom="mudu" price="1,108.20" revision="1"/>
+    <Obs date="20/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,331.02" revision="1"/>
+    <Obs date="27/01/2025" item="Maize (White)" uom="mudu" price="896.38" revision="1"/>
+    <Obs date="27/01/2025" item="Rice (Local)" uom="mudu" price="2,037.26" revision="1"/>
+    <Obs date="27/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="838.76" revision="1"/>
+    <Obs date="27/01/2025" item="Garri (Yellow)" uom="mudu" price="1,080.26" revision="1"/>
+    <Obs date="27/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,457.09" revision="1"/>
+    <Obs date="03/02/2025" item="Maize (White)" uom="mudu" price="870.09" revision="1"/>
+    <Obs date="03/02/2025" item="Rice (Local)" uom="mudu" price="2,040.81" revision="1"/>
+    <Obs date="03/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="828.40" revision="1"/>
+    <Obs date="03/02/2025" item="Garri (Yellow)" uom="mudu" price="1,108.53" revision="1"/>
+    <Obs date="03/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,440.32" revision="1"/>
+    <Obs date="10/02/2025" item="Maize (White)" uom="mudu" price="874.41" revision="1"/>
+    <Obs date="10/02/2025" item="Rice (Local)" uom="mudu" price="2,116.04" revision="1"/>
+    <Obs date="10/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="871.02" revision="1"/>
+    <Obs date="10/02/2025" item="Garri (Yellow)" uom="mudu" price="1,116.32" revision="1"/>
+    <Obs date="10/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,537.10" revision="1"/>
+    <Obs date="17/02/2025" item="Maize (White)" uom="mudu" price="931.93" revision="1"/>
+    <Obs date="17/02/2025" item="Rice (Local)" uom="mudu" price="2,038.92" revision="1"/>
+    <Obs date="17/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="848.70" revision="1"/>
+    <Obs date="17/02/2025" item="Garri (Yellow)" uom="mudu" price="1,116.89" revision="1"/>
+    <Obs date="17/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,374.79" revision="1"/>
+    <Obs date="24/02/2025" item="Maize (White)" uom="mudu" price="938.29" revision="1"/>
+    <Obs date="24/02/2025" item="Rice (Local)" uom="mudu" price="2,100.75" revision="1"/>
+    <Obs date="24/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="900.79" revision="1"/>
+    <Obs date="24/02/2025" item="Garri (Yellow)" uom="mudu" price="1,100.61" revision="1"/>
+    <Obs date="24/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,545.78" revision="1"/>
+    <Obs date="03/03/2025" item="Maize (White)" uom="mudu" price="898.63" revision="1"/>
+    <Obs date="03/03/2025" item="Rice (Local)" uom="mudu" price="2,077.82" revision="1"/>
+    <Obs date="03/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="881.79" revision="1"/>
+    <Obs date="03/03/2025" item="Garri (Yellow)" uom="mudu" price="1,161.76" revision="1"/>
+    <Obs date="03/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,639.24" revision="1"/>
+    <Obs date="10/03/2025" item="Maize (White)" uom="mudu" price="886.99" revision="1"/>
+    <Obs date="10/03/2025" item="Rice (Local)" uom="mudu" price="2,128.48" revision="1"/>
+    <Obs date="10/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="849.58" revision="1"/>
+    <Obs date="10/03/2025" item="Garri (Yellow)" uom="mudu" price="1,211.01" revision="1"/>
+    <Obs date="10/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,562.40" revision="1"/>
+    <Obs date="17/03/2025" item="Maize (White)" uom="mudu" price="930.40" revision="1"/>
+    <Obs date="17/03/2025" item="Rice (Local)" uom="mudu" price="2,070.18" revision="1"/>
+    <Obs date="17/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="901.31" revision="1"/>
+    <Obs date="17/03/2025" item="Garri (Yellow)" uom="mudu" price="1,176.25" revision="1"/>
+    <Obs date="17/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,503.27" revision="1"/>
+    <Obs date="24/03/2025" item="Maize (White)" uom="mudu" price="873.03" revision="1"/>
+    <Obs date="24/03/2025" item="Rice (Local)" uom="mudu" price="2,306.16" revision="1"/>
+    <Obs date="24/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="916.09" revision="1"/>
+    <Obs date="24/03/2025" item="Garri (Yellow)" uom="mudu" price="1,197.65" revision="1"/>
+    <Obs date="24/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,420.39" revision="1"/>
+    <Obs date="31/03/2025" item="Maize (White)" uom="mudu" price="875.81" revision="1"/>
+    <Obs date="31/03/2025" item="Rice (Local)" uom="mudu" price="2,319.12" revision="1"/>
+    <Obs date="31/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="879.10" revision="1"/>
+    <Obs date="31/03/2025" item="Garri (Yellow)" uom="mudu" price="1,233.57" revision="1"/>
+    <Obs date="31/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,554.59" revision="1"/>
+    <Obs date="07/04/2025" item="Maize (White)" uom="mudu" price="918.21" revision="1"/>
+    <Obs date="07/04/2025" item="Rice (Local)" uom="mudu" price="2,419.79" revision="1"/>
+    <Obs date="07/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="918.95" revision="1"/>
+    <Obs date="07/04/2025" item="Garri (Yellow)" uom="mudu" price="1,257.05" revision="1"/>
+    <Obs date="07/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,392.98" revision="1"/>
+    <Obs date="14/04/2025" item="Maize (White)" uom="mudu" price="925.28" revision="1"/>
+    <Obs date="14/04/2025" item="Rice (Local)" uom="mudu" price="2,369.26" revision="1"/>
+    <Obs date="14/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="919.10" revision="1"/>
+    <Obs date="14/04/2025" item="Garri (Yellow)" uom="mudu" price="1,234.85" revision="1"/>
+    <Obs date="14/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,485.49" revision="1"/>
+    <Obs date="21/04/2025" item="Maize (White)" uom="mudu" price="903.78" revision="1"/>
+    <Obs date="21/04/2025" item="Rice (Local)" uom="mudu" price="2,502.48" revision="1"/>
+    <Obs date="21/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="936.48" revision="1"/>
+    <Obs date="21/04/2025" item="Garri (Yellow)" uom="mudu" price="1,222.85" revision="1"/>
+    <Obs date="21/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,604.68" revision="1"/>
+    <Obs date="28/04/2025" item="Maize (White)" uom="mudu" price="913.64" revision="1"/>
+    <Obs date="28/04/2025" item="Rice (Local)" uom="mudu" price="2,486.21" revision="1"/>
+    <Obs date="28/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="941.87" revision="1"/>
+    <Obs date="28/04/2025" item="Garri (Yellow)" uom="mudu" price="1,211.59" revision="1"/>
+    <Obs date="28/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,540.38" revision="1"/>
+    <Obs date="05/05/2025" item="Maize (White)" uom="mudu" price="924.04" revision="1"/>
+    <Obs date="05/05/2025" item="Rice (Local)" uom="mudu" price="2,365.88" revision="1"/>
+    <Obs date="05/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="900.28" revision="1"/>
+    <Obs date="05/05/2025" item="Garri (Yellow)" uom="mudu" price="990.42" revision="1"/>
+    <Obs date="05/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,551.07" revision="1"/>
+    <Obs date="12/05/2025" item="Maize (White)" uom="mudu" price="916.13" revision="1"/>
+    <Obs date="12/05/2025" item="Rice (Local)" uom="mudu" price="2,440.06" revision="1"/>
+    <Obs date="12/05/2025" item="Garri (Yellow)" uom="mudu" price="1,317.32" revision="1"/>
+    <Obs date="12/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,470.31" revision="1"/>
+    <Obs date="19/05/2025" item="Maize (White)" uom="mudu" price="937.21" revision="1"/>
+    <Obs date="19/05/2025" item="Rice (Local)" uom="mudu" price="2,364.05" revision="1"/>
+    <Obs date="19/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="924.07" revision="1"/>
+    <Obs date="19/05/2025" item="Garri (Yellow)" uom="mudu" price="1,269.70" revision="1"/>
+    <Obs date="19/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,587.95" revision="1"/>
+    <Obs date="26/05/2025" item="Maize (White)" uom="mudu" price="990.92" revision="1"/>
+    <Obs date="26/05/2025" item="Rice (Local)" uom="mudu" price="2,460.78" revision="1"/>
+    <Obs date="26/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="761.91" revision="1"/>
+    <Obs date="26/05/2025" item="Garri (Yellow)" uom="mudu" price="1,330.74" revision="1"/>
+    <Obs date="26/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,570.76" revision="1"/>
+    <Obs date="02/06/2025" item="Maize (White)" uom="mudu" price="933.88" revision="1"/>
+    <Obs date="02/06/2025" item="Rice (Local)" uom="mudu" price="2,344.52" revision="1"/>
+    <Obs date="02/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="887.99" revision="1"/>
+    <Obs date="02/06/2025" item="Garri (Yellow)" uom="mudu" price="1,300.30" revision="1"/>
+    <Obs date="02/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,594.73" revision="1"/>
+    <Obs date="09/06/2025" item="Maize (White)" uom="mudu" price="1,059.02" revision="1"/>
+    <Obs date="09/06/2025" item="Rice (Local)" uom="mudu" price="2,399.30" revision="1"/>
+    <Obs date="09/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="937.20" revision="1"/>
+    <Obs date="09/06/2025" item="Garri (Yellow)" uom="mudu" price="1,395.11" revision="1"/>
+    <Obs date="09/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,727.19" revision="1"/>
+    <Obs date="16/06/2025" item="Maize (White)" uom="mudu" price="1,029.30" revision="1"/>
+    <Obs date="16/06/2025" item="Rice (Local)" uom="mudu" price="2,474.49" revision="1"/>
+    <Obs date="16/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="930.45" revision="1"/>
+    <Obs date="16/06/2025" item="Garri (Yellow)" uom="mudu" price="1,359.18" revision="1"/>
+    <Obs date="16/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,582.78" revision="1"/>
+    <Obs date="23/06/2025" item="Maize (White)" uom="mudu" price="1,000.72" revision="1"/>
+    <Obs date="23/06/2025" item="Rice (Local)" uom="mudu" price="2,426.92" revision="1"/>
+    <Obs date="23/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="995.81" revision="1"/>
+    <Obs date="23/06/2025" item="Garri (Yellow)" uom="mudu" price="1,376.72" revision="1"/>
+    <Obs date="23/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,494.24" revision="1"/>
+    <Obs date="30/06/2025" item="Maize (White)" uom="mudu" price="1,022.17" revision="1"/>
+    <Obs date="30/06/2025" item="Rice (Local)" uom="mudu" price="2,514.96" revision="1"/>
+    <Obs date="30/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="963.82" revision="1"/>
+    <Obs date="30/06/2025" item="Garri (Yellow)" uom="mudu" price="1,369.30" revision="1"/>
+    <Obs date="30/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,560.25" revision="1"/>
+    <!-- Corrections issued after publication -->
+    <Obs date="06/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="860.76" revision="2"/>
+    <Obs date="05/05/2025" item="Garri (Yellow)" uom="mudu" price="1,238.03" revision="2"/>
+    <Obs date="26/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="952.39" revision="2"/>
+  </Market>
+  <Market name="Bodija Market, Ibadan">
+    <Obs date="06/01/2025" item="Maize (White)" uom="mudu" price="970.99" revision="1"/>
+    <Obs date="06/01/2025" item="Rice (Local)" uom="mudu" price="2,158.95" revision="1"/>
+    <Obs date="06/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="843.17" revision="1"/>
+    <Obs date="06/01/2025" item="Garri (Yellow)" uom="mudu" price="1,096.70" revision="1"/>
+    <Obs date="06/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,307.14" revision="1"/>
+    <Obs date="13/01/2025" item="Maize (White)" uom="mudu" price="913.16" revision="1"/>
+    <Obs date="13/01/2025" item="Rice (Local)" uom="mudu" price="2,184.42" revision="1"/>
+    <Obs date="13/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="799.86" revision="1"/>
+    <Obs date="13/01/2025" item="Garri (Yellow)" uom="mudu" price="1,095.92" revision="1"/>
+    <Obs date="13/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,299.39" revision="1"/>
+    <Obs date="20/01/2025" item="Maize (White)" uom="mudu" price="952.11" revision="1"/>
+    <Obs date="20/01/2025" item="Rice (Local)" uom="mudu" price="2,244.32" revision="1"/>
+    <Obs date="20/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="812.36" revision="1"/>
+    <Obs date="20/01/2025" item="Garri (Yellow)" uom="mudu" price="1,113.83" revision="1"/>
+    <Obs date="20/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,279.11" revision="1"/>
+    <Obs date="27/01/2025" item="Maize (White)" uom="mudu" price="941.45" revision="1"/>
+    <Obs date="27/01/2025" item="Rice (Local)" uom="mudu" price="2,302.54" revision="1"/>
+    <Obs date="27/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="828.27" revision="1"/>
+    <Obs date="27/01/2025" item="Garri (Yellow)" uom="mudu" price="1,105.88" revision="1"/>
+    <Obs date="27/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,319.67" revision="1"/>
+    <Obs date="03/02/2025" item="Maize (White)" uom="mudu" price="912.83" revision="1"/>
+    <Obs date="03/02/2025" item="Rice (Local)" uom="mudu" price="2,222.50" revision="1"/>
+    <Obs date="03/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="822.42" revision="1"/>
+    <Obs date="03/02/2025" item="Garri (Yellow)" uom="mudu" price="1,102.87" revision="1"/>
+    <Obs date="03/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,371.00" revision="1"/>
+    <Obs date="10/02/2025" item="Maize (White)" uom="mudu" price="919.61" revision="1"/>
+    <Obs date="10/02/2025" item="Rice (Local)" uom="mudu" price="2,215.66" revision="1"/>
+    <Obs date="10/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="875.36" revision="1"/>
+    <Obs date="10/02/2025" item="Garri (Yellow)" uom="mudu" price="1,158.20" revision="1"/>
+    <Obs date="10/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,397.54" revision="1"/>
+    <Obs date="17/02/2025" item="Maize (White)" uom="mudu" price="951.25" revision="1"/>
+    <Obs date="17/02/2025" item="Rice (Local)" uom="mudu" price="2,330.87" revision="1"/>
+    <Obs date="17/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="929.40" revision="1"/>
+    <Obs date="17/02/2025" item="Garri (Yellow)" uom="mudu" price="1,052.52" revision="1"/>
+    <Obs date="17/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,549.39" revision="1"/>
+    <Obs date="24/02/2025" item="Maize (White)" uom="mudu" price="992.26" revision="1"/>
+    <Obs date="24/02/2025" item="Rice (Local)" uom="mudu" price="2,147.40" revision="1"/>
+    <Obs date="24/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="880.59" revision="1"/>
+    <Obs date="24/02/2025" item="Garri (Yellow)" uom="mudu" price="1,110.75" revision="1"/>
+    <Obs date="24/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,535.20" revision="1"/>
+    <Obs date="03/03/2025" item="Maize (White)" uom="mudu" price="950.22" revision="1"/>
+    <Obs date="03/03/2025" item="Rice (Local)" uom="mudu" price="2,156.19" revision="1"/>
+    <Obs date="03/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="912.11" revision="1"/>
+    <Obs date="03/03/2025" item="Garri (Yellow)" uom="mudu" price="1,120.01" revision="1"/>
+    <Obs date="03/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,467.02" revision="1"/>
+    <Obs date="10/03/2025" item="Maize (White)" uom="mudu" price="997.68" revision="1"/>
+    <Obs date="10/03/2025" item="Rice (Local)" uom="mudu" price="2,174.10" revision="1"/>
+    <Obs date="10/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="898.61" revision="1"/>
+    <Obs date="10/03/2025" item="Garri (Yellow)" uom="mudu" price="1,101.48" revision="1"/>
+    <Obs date="10/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,525.65" revision="1"/>
+    <Obs date="17/03/2025" item="Maize (White)" uom="mudu" price="1,028.29" revision="1"/>
+    <Obs date="17/03/2025" item="Rice (Local)" uom="mudu" price="2,248.41" revision="1"/>
+    <Obs date="17/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="899.00" revision="1"/>
+    <Obs date="17/03/2025" item="Garri (Yellow)" uom="mudu" price="1,150.56" revision="1"/>
+    <Obs date="17/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,598.67" revision="1"/>
+    <Obs date="24/03/2025" item="Maize (White)" uom="mudu" price="1,056.54" revision="1"/>
+    <Obs date="24/03/2025" item="Rice (Local)" uom="mudu" price="2,279.57" revision="1"/>
+    <Obs date="24/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="863.14" revision="1"/>
+    <Obs date="24/03/2025" item="Garri (Yellow)" uom="mudu" price="1,115.18" revision="1"/>
+    <Obs date="31/03/2025" item="Maize (White)" uom="mudu" price="1,082.28" revision="1"/>
+    <Obs date="31/03/2025" item="Rice (Local)" uom="mudu" price="2,235.45" revision="1"/>
+    <Obs date="31/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="951.51" revision="1"/>
+    <Obs date="31/03/2025" item="Garri (Yellow)" uom="mudu" price="1,157.46" revision="1"/>
+    <Obs date="31/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,555.29" revision="1"/>
+    <Obs date="07/04/2025" item="Maize (White)" uom="mudu" price="1,065.37" revision="1"/>
+    <Obs date="07/04/2025" item="Rice (Local)" uom="mudu" price="2,141.22" revision="1"/>
+    <Obs date="07/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="942.05" revision="1"/>
+    <Obs date="07/04/2025" item="Garri (Yellow)" uom="mudu" price="1,103.53" revision="1"/>
+    <Obs date="07/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,485.55" revision="1"/>
+    <Obs date="14/04/2025" item="Maize (White)" uom="mudu" price="1,090.93" revision="1"/>
+    <Obs date="14/04/2025" item="Rice (Local)" uom="mudu" price="2,331.27" revision="1"/>
+    <Obs date="14/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="942.66" revision="1"/>
+    <Obs date="14/04/2025" item="Garri (Yellow)" uom="mudu" price="1,100.97" revision="1"/>
+    <Obs date="14/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,483.23" revision="1"/>
+    <Obs date="21/04/2025" item="Maize (White)" uom="mudu" price="1,105.41" revision="1"/>
+    <Obs date="21/04/2025" item="Rice (Local)" uom="mudu" price="2,359.18" revision="1"/>
+    <Obs date="21/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="945.45" revision="1"/>
+    <Obs date="21/04/2025" item="Garri (Yellow)" uom="mudu" price="1,105.32" revision="1"/>
+    <Obs date="21/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,510.10" revision="1"/>
+    <Obs date="28/04/2025" item="Maize (White)" uom="mudu" price="1,064.02" revision="1"/>
+    <Obs date="28/04/2025" item="Rice (Local)" uom="mudu" price="2,352.56" revision="1"/>
+    <Obs date="28/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="907.80" revision="1"/>
+    <Obs date="28/04/2025" item="Garri (Yellow)" uom="mudu" price="1,127.97" revision="1"/>
+    <Obs date="28/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,420.45" revision="1"/>
+    <Obs date="05/05/2025" item="Maize (White)" uom="mudu" price="1,063.23" revision="1"/>
+    <Obs date="05/05/2025" item="Rice (Local)" uom="mudu" price="2,316.70" revision="1"/>
+    <Obs date="05/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="975.18" revision="1"/>
+    <Obs date="05/05/2025" item="Garri (Yellow)" uom="mudu" price="1,200.28" revision="1"/>
+    <Obs date="05/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,545.12" revision="1"/>
+    <Obs date="12/05/2025" item="Maize (White)" uom="mudu" price="1,031.08" revision="1"/>
+    <Obs date="12/05/2025" item="Rice (Local)" uom="mudu" price="2,374.19" revision="1"/>
+    <Obs date="12/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="720.18" revision="1"/>
+    <Obs date="12/05/2025" item="Garri (Yellow)" uom="mudu" price="1,164.58" revision="1"/>
+    <Obs date="12/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,548.64" revision="1"/>
+    <Obs date="19/05/2025" item="Maize (White)" uom="mudu" price="1,039.30" revision="1"/>
+    <Obs date="19/05/2025" item="Rice (Local)" uom="mudu" price="2,235.48" revision="1"/>
+    <Obs date="19/05/2025" item="Garri (Yellow)" uom="mudu" price="1,124.38" revision="1"/>
+    <Obs date="19/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,636.41" revision="1"/>
+    <Obs date="26/05/2025" item="Maize (White)" uom="mudu" price="1,067.36" revision="1"/>
+    <Obs date="26/05/2025" item="Rice (Local)" uom="mudu" price="2,314.25" revision="1"/>
+    <Obs date="26/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="923.19" revision="1"/>
+    <Obs date="26/05/2025" item="Garri (Yellow)" uom="mudu" price="1,125.94" revision="1"/>
+    <Obs date="26/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,567.46" revision="1"/>
+    <Obs date="02/06/2025" item="Maize (White)" uom="mudu" price="1,045.68" revision="1"/>
+    <Obs date="02/06/2025" item="Rice (Local)" uom="mudu" price="2,310.75" revision="1"/>
+    <Obs date="02/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="971.81" revision="1"/>
+    <Obs date="02/06/2025" item="Garri (Yellow)" uom="mudu" price="1,230.37" revision="1"/>
+    <Obs date="02/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,467.61" revision="1"/>
+    <Obs date="09/06/2025" item="Maize (White)" uom="mudu" price="1,071.19" revision="1"/>
+    <Obs date="09/06/2025" item="Rice (Local)" uom="mudu" price="2,208.77" revision="1"/>
+    <Obs date="09/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="994.38" revision="1"/>
+    <Obs date="09/06/2025" item="Garri (Yellow)" uom="mudu" price="1,247.17" revision="1"/>
+    <Obs date="09/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,679.08" revision="1"/>
+    <Obs date="16/06/2025" item="Maize (White)" uom="mudu" price="1,062.80" revision="1"/>
+    <Obs date="16/06/2025" item="Rice (Local)" uom="mudu" price="2,230.31" revision="1"/>
+    <Obs date="16/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="942.16" revision="1"/>
+    <Obs date="16/06/2025" item="Garri (Yellow)" uom="mudu" price="1,264.34" revision="1"/>
+    <Obs date="16/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,691.84" revision="1"/>
+    <Obs date="23/06/2025" item="Maize (White)" uom="mudu" price="1,086.18" revision="1"/>
+    <Obs date="23/06/2025" item="Rice (Local)" uom="mudu" price="2,247.22" revision="1"/>
+    <Obs date="23/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="972.21" revision="1"/>
+    <Obs date="23/06/2025" item="Garri (Yellow)" uom="mudu" price="1,289.59" revision="1"/>
+    <Obs date="23/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,759.03" revision="1"/>
+    <Obs date="30/06/2025" item="Rice (Local)" uom="mudu" price="2,302.56" revision="1"/>
+    <Obs date="30/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="986.44" revision="1"/>
+    <Obs date="30/06/2025" item="Garri (Yellow)" uom="mudu" price="1,251.20" revision="1"/>
+    <Obs date="30/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,711.63" revision="1"/>
+    <!-- Corrections issued after publication -->
+    <Obs date="12/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="900.22" revision="2"/>
+  </Market>
+  <Market name="Ogbete Main Market, Enugu">
+    <Obs date="06/01/2025" item="Maize (White)" uom="mudu" price="1,035.89" revision="1"/>
+    <Obs date="06/01/2025" item="Rice (Local)" uom="mudu" price="2,092.29" revision="1"/>
+    <Obs date="06/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="839.59" revision="1"/>
+    <Obs date="06/01/2025" item="Garri (Yellow)" uom="mudu" price="1,118.94" revision="1"/>
+    <Obs date="06/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,420.00" revision="1"/>
+    <Obs date="13/01/2025" item="Maize (White)" uom="mudu" price="957.56" revision="1"/>
+    <Obs date="13/01/2025" item="Rice (Local)" uom="mudu" price="2,036.49" revision="1"/>
+    <Obs date="13/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="804.31" revision="1"/>
+    <Obs date="13/01/2025" item="Garri (Yellow)" uom="mudu" price="1,098.98" revision="1"/>
+    <Obs date="13/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,435.53" revision="1"/>
+    <Obs date="20/01/2025" item="Maize (White)" uom="mudu" price="972.77" revision="1"/>
+    <Obs date="20/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="814.08" revision="1"/>
+    <Obs date="20/01/2025" item="Garri (Yellow)" uom="mudu" price="1,179.92" revision="1"/>
+    <Obs date="20/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,354.57" revision="1"/>
+    <Obs date="27/01/2025" item="Maize (White)" uom="mudu" price="980.02" revision="1"/>
+    <Obs date="27/01/2025" item="Rice (Local)" uom="mudu" price="2,080.31" revision="1"/>
+    <Obs date="27/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="876.10" revision="1"/>
+    <Obs date="27/01/2025" item="Garri (Yellow)" uom="mudu" price="1,203.07" revision="1"/>
+    <Obs date="27/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,420.14" revision="1"/>
+    <Obs date="03/02/2025" item="Maize (White)" uom="mudu" price="1,009.11" revision="1"/>
+    <Obs date="03/02/2025" item="Rice (Local)" uom="mudu" price="2,366.45" revision="1"/>
+    <Obs date="03/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="895.86" revision="1"/>
+    <Obs date="03/02/2025" item="Garri (Yellow)" uom="mudu" price="1,211.67" revision="1"/>
+    <Obs date="10/02/2025" item="Rice (Local)" uom="mudu" price="2,224.03" revision="1"/>
+    <Obs date="10/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="880.40" revision="1"/>
+    <Obs date="10/02/2025" item="Garri (Yellow)" uom="mudu" price="1,167.14" revision="1"/>
+    <Obs date="10/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,481.39" revision="1"/>
+    <Obs date="17/02/2025" item="Maize (White)" uom="mudu" price="972.90" revision="1"/>
+    <Obs date="17/02/2025" item="Rice (Local)" uom="mudu" price="2,261.30" revision="1"/>
+    <Obs date="17/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="912.24" revision="1"/>
+    <Obs date="17/02/2025" item="Garri (Yellow)" uom="mudu" price="1,139.08" revision="1"/>
+    <Obs date="17/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,470.83" revision="1"/>
+    <Obs date="24/02/2025" item="Maize (White)" uom="mudu" price="1,021.20" revision="1"/>
+    <Obs date="24/02/2025" item="Rice (Local)" uom="mudu" price="2,207.23" revision="1"/>
+    <Obs date="24/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="910.88" revision="1"/>
+    <Obs date="24/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,361.00" revision="1"/>
+    <Obs date="03/03/2025" item="Maize (White)" uom="mudu" price="984.84" revision="1"/>
+    <Obs date="03/03/2025" item="Rice (Local)" uom="mudu" price="2,153.31" revision="1"/>
+    <Obs date="03/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="845.00" revision="1"/>
+    <Obs date="03/03/2025" item="Garri (Yellow)" uom="mudu" price="1,177.54" revision="1"/>
+    <Obs date="03/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,389.09" revision="1"/>
+    <Obs date="10/03/2025" item="Maize (White)" uom="mudu" price="1,095.88" revision="1"/>
+    <Obs date="10/03/2025" item="Rice (Local)" uom="mudu" price="2,227.70" revision="1"/>
+    <Obs date="10/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="836.73" revision="1"/>
+    <Obs date="10/03/2025" item="Garri (Yellow)" uom="mudu" price="1,202.39" revision="1"/>
+    <Obs date="10/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,359.22" revision="1"/>
+    <Obs date="17/03/2025" item="Maize (White)" uom="mudu" price="1,028.67" revision="1"/>
+    <Obs date="17/03/2025" item="Rice (Local)" uom="mudu" price="2,222.49" revision="1"/>
+    <Obs date="17/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="920.65" revision="1"/>
+    <Obs date="17/03/2025" item="Garri (Yellow)" uom="mudu" price="1,174.70" revision="1"/>
+    <Obs date="17/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,483.32" revision="1"/>
+    <Obs date="24/03/2025" item="Maize (White)" uom="mudu" price="1,023.20" revision="1"/>
+    <Obs date="24/03/2025" item="Rice (Local)" uom="mudu" price="2,283.36" revision="1"/>
+    <Obs date="24/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="919.85" revision="1"/>
+    <Obs date="24/03/2025" item="Garri (Yellow)" uom="mudu" price="1,129.46" revision="1"/>
+    <Obs date="24/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,487.73" revision="1"/>
+    <Obs date="31/03/2025" item="Maize (White)" uom="mudu" price="1,081.36" revision="1"/>
+    <Obs date="31/03/2025" item="Rice (Local)" uom="mudu" price="2,207.99" revision="1"/>
+    <Obs date="31/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="865.20" revision="1"/>
+    <Obs date="31/03/2025" item="Garri (Yellow)" uom="mudu" price="1,231.19" revision="1"/>
+    <Obs date="31/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,430.85" revision="1"/>
+    <Obs date="07/04/2025" item="Maize (White)" uom="mudu" price="1,061.53" revision="1"/>
+    <Obs date="07/04/2025" item="Rice (Local)" uom="mudu" price="2,274.16" revision="1"/>
+    <Obs date="07/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="882.44" revision="1"/>
+    <Obs date="07/04/2025" item="Garri (Yellow)" uom="mudu" price="1,242.49" revision="1"/>
+    <Obs date="07/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,416.59" revision="1"/>
+    <Obs date="14/04/2025" item="Maize (White)" uom="mudu" price="1,104.01" revision="1"/>
+    <Obs date="14/04/2025" item="Rice (Local)" uom="mudu" price="2,311.44" revision="1"/>
+    <Obs date="14/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="837.24" revision="1"/>
+    <Obs date="14/04/2025" item="Garri (Yellow)" uom="mudu" price="1,259.07" revision="1"/>
+    <Obs date="14/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,417.75" revision="1"/>
+    <Obs date="21/04/2025" item="Maize (White)" uom="mudu" price="1,084.37" revision="1"/>
+    <Obs date="21/04/2025" item="Rice (Local)" uom="mudu" price="2,168.34" revision="1"/>
+    <Obs date="21/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="883.70" revision="1"/>
+    <Obs date="21/04/2025" item="Garri (Yellow)" uom="mudu" price="1,275.47" revision="1"/>
+    <Obs date="21/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,414.30" revision="1"/>
+    <Obs date="28/04/2025" item="Maize (White)" uom="mudu" price="1,107.98" revision="1"/>
+    <Obs date="28/04/2025" item="Rice (Local)" uom="mudu" price="2,324.81" revision="1"/>
+    <Obs date="28/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="914.38" revision="1"/>
+    <Obs date="28/04/2025" item="Garri (Yellow)" uom="mudu" price="1,196.08" revision="1"/>
+    <Obs date="28/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,579.18" revision="1"/>
+    <Obs date="05/05/2025" item="Maize (White)" uom="mudu" price="1,116.05" revision="1"/>
+    <Obs date="05/05/2025" item="Rice (Local)" uom="mudu" price="2,370.84" revision="1"/>
+    <Obs date="05/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="930.53" revision="1"/>
+    <Obs date="05/05/2025" item="Garri (Yellow)" uom="mudu" price="1,192.21" revision="1"/>
+    <Obs date="05/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,642.08" revision="1"/>
+    <Obs date="12/05/2025" item="Maize (White)" uom="mudu" price="1,158.62" revision="1"/>
+    <Obs date="12/05/2025" item="Rice (Local)" uom="mudu" price="2,388.27" revision="1"/>
+    <Obs date="12/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="900.01" revision="1"/>
+    <Obs date="12/05/2025" item="Garri (Yellow)" uom="mudu" price="1,172.88" revision="1"/>
+    <Obs date="12/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,519.13" revision="1"/>
+    <Obs date="19/05/2025" item="Maize (White)" uom="mudu" price="1,128.11" revision="1"/>
+    <Obs date="19/05/2025" item="Rice (Local)" uom="mudu" price="2,242.94" revision="1"/>
+    <Obs date="19/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="932.33" revision="1"/>
+    <Obs date="19/05/2025" item="Garri (Yellow)" uom="mudu" price="1,194.95" revision="1"/>
+    <Obs date="19/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,488.04" revision="1"/>
+    <Obs date="26/05/2025" item="Maize (White)" uom="mudu" price="1,070.87" revision="1"/>
+    <Obs date="26/05/2025" item="Rice (Local)" uom="mudu" price="2,510.16" revision="1"/>
+    <Obs date="26/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="887.80" revision="1"/>
+    <Obs date="26/05/2025" item="Garri (Yellow)" uom="mudu" price="1,286.01" revision="1"/>
+    <Obs date="26/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,491.71" revision="1"/>
+    <Obs date="02/06/2025" item="Maize (White)" uom="mudu" price="1,086.94" revision="1"/>
+    <Obs date="02/06/2025" item="Rice (Local)" uom="mudu" price="2,369.96" revision="1"/>
+    <Obs date="02/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="910.75" revision="1"/>
+    <Obs date="02/06/2025" item="Garri (Yellow)" uom="mudu" price="1,316.16" revision="1"/>
+    <Obs date="02/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,472.55" revision="1"/>
+    <Obs date="09/06/2025" item="Maize (White)" uom="mudu" price="1,053.22" revision="1"/>
+    <Obs date="09/06/2025" item="Rice (Local)" uom="mudu" price="2,296.09" revision="1"/>
+    <Obs date="09/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="903.20" revision="1"/>
+    <Obs date="09/06/2025" item="Garri (Yellow)" uom="mudu" price="1,316.13" revision="1"/>
+    <Obs date="09/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,469.21" revision="1"/>
+    <Obs date="16/06/2025" item="Maize (White)" uom="mudu" price="1,099.67" revision="1"/>
+    <Obs date="16/06/2025" item="Rice (Local)" uom="mudu" price="2,412.38" revision="1"/>
+    <Obs date="16/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="885.46" revision="1"/>
+    <Obs date="16/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,565.74" revision="1"/>
+    <Obs date="23/06/2025" item="Maize (White)" uom="mudu" price="1,037.51" revision="1"/>
+    <Obs date="23/06/2025" item="Rice (Local)" uom="mudu" price="2,402.64" revision="1"/>
+    <Obs date="23/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="879.08" revision="1"/>
+    <Obs date="23/06/2025" item="Garri (Yellow)" uom="mudu" price="1,261.04" revision="1"/>
+    <Obs date="23/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,658.40" revision="1"/>
+    <Obs date="30/06/2025" item="Maize (White)" uom="mudu" price="1,085.89" revision="1"/>
+    <Obs date="30/06/2025" item="Rice (Local)" uom="mudu" price="2,423.97" revision="1"/>
+    <Obs date="30/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="924.42" revision="1"/>
+    <Obs date="30/06/2025" item="Garri (Yellow)" uom="mudu" price="1,350.97" revision="1"/>
+    <Obs date="30/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,645.20" revision="1"/>
+  </Market>
+  <Market name="Ariaria International Market, Aba">
+    <Obs date="06/01/2025" item="Maize (White)" uom="mudu" price="870.31" revision="1"/>
+    <Obs date="06/01/2025" item="Rice (Local)" uom="mudu" price="1,933.16" revision="1"/>
+    <Obs date="06/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="810.42" revision="1"/>
+    <Obs date="06/01/2025" item="Garri (Yellow)" uom="mudu" price="1,043.37" revision="1"/>
+    <Obs date="06/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,328.80" revision="1"/>
+    <Obs date="13/01/2025" item="Maize (White)" uom="mudu" price="861.12" revision="1"/>
+    <Obs date="13/01/2025" item="Rice (Local)" uom="mudu" price="1,926.50" revision="1"/>
+    <Obs date="13/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="808.24" revision="1"/>
+    <Obs date="13/01/2025" item="Garri (Yellow)" uom="mudu" price="1,072.97" revision="1"/>
+    <Obs date="13/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,063.41" revision="1"/>
+    <Obs date="20/01/2025" item="Maize (White)" uom="mudu" price="877.62" revision="1"/>
+    <Obs date="20/01/2025" item="Rice (Local)" uom="mudu" price="1,976.97" revision="1"/>
+    <Obs date="20/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="816.54" revision="1"/>
+    <Obs date="20/01/2025" item="Garri (Yellow)" uom="mudu" price="1,069.58" revision="1"/>
+    <Obs date="20/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,332.66" revision="1"/>
+    <Obs date="27/01/2025" item="Maize (White)" uom="mudu" price="812.83" revision="1"/>
+    <Obs date="27/01/2025" item="Rice (Local)" uom="mudu" price="1,959.03" revision="1"/>
+    <Obs date="27/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="829.20" revision="1"/>
+    <Obs date="27/01/2025" item="Garri (Yellow)" uom="mudu" price="1,078.97" revision="1"/>
+    <Obs date="27/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,198.59" revision="1"/>
+    <Obs date="03/02/2025" item="Maize (White)" uom="mudu" price="888.40" revision="1"/>
+    <Obs date="03/02/2025" item="Rice (Local)" uom="mudu" price="1,902.68" revision="1"/>
+    <Obs date="03/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="849.20" revision="1"/>
+    <Obs date="03/02/2025" item="Garri (Yellow)" uom="mudu" price="1,088.49" revision="1"/>
+    <Obs date="03/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,309.73" revision="1"/>
+    <Obs date="10/02/2025" item="Maize (White)" uom="mudu" price="890.72" revision="1"/>
+    <Obs date="10/02/2025" item="Rice (Local)" uom="mudu" price="2,029.44" revision="1"/>
+    <Obs date="10/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="828.11" revision="1"/>
+    <Obs date="10/02/2025" item="Garri (Yellow)" uom="mudu" price="1,048.97" revision="1"/>
+    <Obs date="10/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,306.07" revision="1"/>
+    <Obs date="17/02/2025" item="Maize (White)" uom="mudu" price="954.31" revision="1"/>
+    <Obs date="17/02/2025" item="Rice (Local)" uom="mudu" price="2,143.62" revision="1"/>
+    <Obs date="17/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="839.33" revision="1"/>
+    <Obs date="17/02/2025" item="Garri (Yellow)" uom="mudu" price="1,094.57" revision="1"/>
+    <Obs date="17/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,332.65" revision="1"/>
+    <Obs date="24/02/2025" item="Maize (White)" uom="mudu" price="849.35" revision="1"/>
+    <Obs date="24/02/2025" item="Rice (Local)" uom="mudu" price="2,078.48" revision="1"/>
+    <Obs date="24/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="844.30" revision="1"/>
+    <Obs date="24/02/2025" item="Garri (Yellow)" uom="mudu" price="1,081.09" revision="1"/>
+    <Obs date="24/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,419.70" revision="1"/>
+    <Obs date="03/03/2025" item="Maize (White)" uom="mudu" price="922.69" revision="1"/>
+    <Obs date="03/03/2025" item="Rice (Local)" uom="mudu" price="1,976.67" revision="1"/>
+    <Obs date="03/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="808.86" revision="1"/>
+    <Obs date="03/03/2025" item="Garri (Yellow)" uom="mudu" price="1,064.29" revision="1"/>
+    <Obs date="03/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,361.93" revision="1"/>
+    <Obs date="10/03/2025" item="Maize (White)" uom="mudu" price="931.72" revision="1"/>
+    <Obs date="10/03/2025" item="Rice (Local)" uom="mudu" price="2,068.53" revision="1"/>
+    <Obs date="10/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="895.20" revision="1"/>
+    <Obs date="10/03/2025" item="Garri (Yellow)" uom="mudu" price="1,000.95" revision="1"/>
+    <Obs date="17/03/2025" item="Maize (White)" uom="mudu" price="946.10" revision="1"/>
+    <Obs date="17/03/2025" item="Rice (Local)" uom="mudu" price="2,045.45" revision="1"/>
+    <Obs date="17/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="846.18" revision="1"/>
+    <Obs date="17/03/2025" item="Garri (Yellow)" uom="mudu" price="1,079.73" revision="1"/>
+    <Obs date="17/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,486.89" revision="1"/>
+    <Obs date="24/03/2025" item="Maize (White)" uom="mudu" price="936.07" revision="1"/>
+    <Obs date="24/03/2025" item="Rice (Local)" uom="mudu" price="1,921.50" revision="1"/>
+    <Obs date="24/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="837.96" revision="1"/>
+    <Obs date="24/03/2025" item="Garri (Yellow)" uom="mudu" price="1,024.65" revision="1"/>
+    <Obs date="24/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,532.21" revision="1"/>
+    <Obs date="31/03/2025" item="Maize (White)" uom="mudu" price="920.61" revision="1"/>
+    <Obs date="31/03/2025" item="Rice (Local)" uom="mudu" price="2,044.38" revision="1"/>
+    <Obs date="31/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="896.54" revision="1"/>
+    <Obs date="31/03/2025" item="Garri (Yellow)" uom="mudu" price="1,064.58" revision="1"/>
+    <Obs date="31/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,402.93" revision="1"/>
+    <Obs date="07/04/2025" item="Maize (White)" uom="mudu" price="892.93" revision="1"/>
+    <Obs date="07/04/2025" item="Rice (Local)" uom="mudu" price="2,050.99" revision="1"/>
+    <Obs date="07/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="923.42" revision="1"/>
+    <Obs date="07/04/2025" item="Garri (Yellow)" uom="mudu" price="1,043.42" revision="1"/>
+    <Obs date="07/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,527.98" revision="1"/>
+    <Obs date="14/04/2025" item="Maize (White)" uom="mudu" price="954.31" revision="1"/>
+    <Obs date="14/04/2025" item="Rice (Local)" uom="mudu" price="1,940.92" revision="1"/>
+    <Obs date="14/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="902.52" revision="1"/>
+    <Obs date="14/04/2025" item="Garri (Yellow)" uom="mudu" price="1,020.17" revision="1"/>
+    <Obs date="14/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,532.39" revision="1"/>
+    <Obs date="21/04/2025" item="Maize (White)" uom="mudu" price="897.27" revision="1"/>
+    <Obs date="21/04/2025" item="Rice (Local)" uom="mudu" price="2,114.55" revision="1"/>
+    <Obs date="21/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="902.72" revision="1"/>
+    <Obs date="21/04/2025" item="Garri (Yellow)" uom="mudu" price="1,112.01" revision="1"/>
+    <Obs date="28/04/2025" item="Maize (White)" uom="mudu" price="924.41" revision="1"/>
+    <Obs date="28/04/2025" item="Rice (Local)" uom="mudu" price="2,032.23" revision="1"/>
+    <Obs date="28/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="895.41" revision="1"/>
+    <Obs date="28/04/2025" item="Garri (Yellow)" uom="mudu" price="1,059.38" revision="1"/>
+    <Obs date="28/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,488.49" revision="1"/>
+    <Obs date="05/05/2025" item="Maize (White)" uom="mudu" price="875.25" revision="1"/>
+    <Obs date="05/05/2025" item="Rice (Local)" uom="mudu" price="2,033.22" revision="1"/>
+    <Obs date="05/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="949.05" revision="1"/>
+    <Obs date="05/05/2025" item="Garri (Yellow)" uom="mudu" price="844.13" revision="1"/>
+    <Obs date="05/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,392.40" revision="1"/>
+    <Obs date="12/05/2025" item="Rice (Local)" uom="mudu" price="2,145.81" revision="1"/>
+    <Obs date="12/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="902.77" revision="1"/>
+    <Obs date="12/05/2025" item="Garri (Yellow)" uom="mudu" price="1,069.92" revision="1"/>
+    <Obs date="12/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,508.06" revision="1"/>
+    <Obs date="19/05/2025" item="Maize (White)" uom="mudu" price="994.31" revision="1"/>
+    <Obs date="19/05/2025" item="Rice (Local)" uom="mudu" price="2,168.55" revision="1"/>
+    <Obs date="19/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="967.70" revision="1"/>
+    <Obs date="19/05/2025" item="Garri (Yellow)" uom="mudu" price="1,074.78" revision="1"/>
+    <Obs date="19/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,455.98" revision="1"/>
+    <Obs date="26/05/2025" item="Maize (White)" uom="mudu" price="1,102.36" revision="1"/>
+    <Obs date="26/05/2025" item="Rice (Local)" uom="mudu" price="2,104.37" revision="1"/>
+    <Obs date="26/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="970.23" revision="1"/>
+    <Obs date="26/05/2025" item="Garri (Yellow)" uom="mudu" price="1,114.04" revision="1"/>
+    <Obs date="26/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,512.68" revision="1"/>
+    <Obs date="02/06/2025" item="Maize (White)" uom="mudu" price="1,008.75" revision="1"/>
+    <Obs date="02/06/2025" item="Rice (Local)" uom="mudu" price="1,940.46" revision="1"/>
+    <Obs date="02/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="986.66" revision="1"/>
+    <Obs date="02/06/2025" item="Garri (Yellow)" uom="mudu" price="1,085.84" revision="1"/>
+    <Obs date="02/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,647.69" revision="1"/>
+    <Obs date="09/06/2025" item="Maize (White)" uom="mudu" price="1,099.72" revision="1"/>
+    <Obs date="09/06/2025" item="Rice (Local)" uom="mudu" price="2,021.02" revision="1"/>
+    <Obs date="09/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="981.41" revision="1"/>
+    <Obs date="09/06/2025" item="Garri (Yellow)" uom="mudu" price="1,117.60" revision="1"/>
+    <Obs date="09/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,694.20" revision="1"/>
+    <Obs date="16/06/2025" item="Maize (White)" uom="mudu" price="1,060.94" revision="1"/>
+    <Obs date="16/06/2025" item="Rice (Local)" uom="mudu" price="2,126.91" revision="1"/>
+    <Obs date="16/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="929.83" revision="1"/>
+    <Obs date="16/06/2025" item="Garri (Yellow)" uom="mudu" price="1,124.42" revision="1"/>
+    <Obs date="16/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,623.71" revision="1"/>
+    <Obs date="23/06/2025" item="Maize (White)" uom="mudu" price="1,102.80" revision="1"/>
+    <Obs date="23/06/2025" item="Rice (Local)" uom="mudu" price="2,002.04" revision="1"/>
+    <Obs date="23/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="924.18" revision="1"/>
+    <Obs date="23/06/2025" item="Garri (Yellow)" uom="mudu" price="1,095.77" revision="1"/>
+    <Obs date="23/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,654.12" revision="1"/>
+    <Obs date="30/06/2025" item="Maize (White)" uom="mudu" price="1,065.46" revision="1"/>
+    <Obs date="30/06/2025" item="Rice (Local)" uom="mudu" price="2,105.19" revision="1"/>
+    <Obs date="30/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="1,006.00" revision="1"/>
+    <Obs date="30/06/2025" item="Garri (Yellow)" uom="mudu" price="1,131.22" revision="1"/>
+    <Obs date="30/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,663.11" revision="1"/>
+    <!-- Corrections issued after publication -->
+    <Obs date="05/05/2025" item="Garri (Yellow)" uom="mudu" price="1,055.16" revision="2"/>
+  </Market>
+  <Market name="Mile One Market, Port Harcourt">
+    <Obs date="06/01/2025" item="Maize (White)" uom="mudu" price="992.30" revision="1"/>
+    <Obs date="06/01/2025" item="Rice (Local)" uom="mudu" price="2,325.87" revision="1"/>
+    <Obs date="06/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="827.04" revision="1"/>
+    <Obs date="06/01/2025" item="Garri (Yellow)" uom="mudu" price="1,220.71" revision="1"/>
+    <Obs date="06/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,471.40" revision="1"/>
+    <Obs date="13/01/2025" item="Maize (White)" uom="mudu" price="978.67" revision="1"/>
+    <Obs date="13/01/2025" item="Rice (Local)" uom="mudu" price="2,349.31" revision="1"/>
+    <Obs date="13/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="839.53" revision="1"/>
+    <Obs date="13/01/2025" item="Garri (Yellow)" uom="mudu" price="1,160.69" revision="1"/>
+    <Obs date="13/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="3,146.45" revision="1"/>
+    <Obs date="20/01/2025" item="Maize (White)" uom="mudu" price="977.67" revision="1"/>
+    <Obs date="20/01/2025" item="Rice (Local)" uom="mudu" price="2,352.15" revision="1"/>
+    <Obs date="20/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="852.70" revision="1"/>
+    <Obs date="20/01/2025" item="Garri (Yellow)" uom="mudu" price="1,220.61" revision="1"/>
+    <Obs date="20/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,451.28" revision="1"/>
+    <Obs date="27/01/2025" item="Maize (White)" uom="mudu" price="1,309.84" revision="1"/>
+    <Obs date="27/01/2025" item="Rice (Local)" uom="mudu" price="2,262.04" revision="1"/>
+    <Obs date="27/01/2025" item="Sorghum (Guinea corn)" uom="mudu" price="878.02" revision="1"/>
+    <Obs date="27/01/2025" item="Garri (Yellow)" uom="mudu" price="1,271.38" revision="1"/>
+    <Obs date="27/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,396.70" revision="1"/>
+    <Obs date="03/02/2025" item="Maize (White)" uom="mudu" price="979.47" revision="1"/>
+    <Obs date="03/02/2025" item="Rice (Local)" uom="mudu" price="2,322.71" revision="1"/>
+    <Obs date="03/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="867.25" revision="1"/>
+    <Obs date="03/02/2025" item="Garri (Yellow)" uom="mudu" price="1,220.06" revision="1"/>
+    <Obs date="03/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,571.24" revision="1"/>
+    <Obs date="10/02/2025" item="Maize (White)" uom="mudu" price="939.16" revision="1"/>
+    <Obs date="10/02/2025" item="Rice (Local)" uom="mudu" price="2,320.19" revision="1"/>
+    <Obs date="10/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="851.83" revision="1"/>
+    <Obs date="10/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,404.68" revision="1"/>
+    <Obs date="17/02/2025" item="Maize (White)" uom="mudu" price="986.45" revision="1"/>
+    <Obs date="17/02/2025" item="Rice (Local)" uom="mudu" price="2,315.59" revision="1"/>
+    <Obs date="17/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="896.54" revision="1"/>
+    <Obs date="17/02/2025" item="Garri (Yellow)" uom="mudu" price="1,256.15" revision="1"/>
+    <Obs date="17/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,392.00" revision="1"/>
+    <Obs date="24/02/2025" item="Maize (White)" uom="mudu" price="1,001.24" revision="1"/>
+    <Obs date="24/02/2025" item="Rice (Local)" uom="mudu" price="2,307.83" revision="1"/>
+    <Obs date="24/02/2025" item="Sorghum (Guinea corn)" uom="mudu" price="857.22" revision="1"/>
+    <Obs date="24/02/2025" item="Garri (Yellow)" uom="mudu" price="1,272.94" revision="1"/>
+    <Obs date="24/02/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,505.08" revision="1"/>
+    <Obs date="03/03/2025" item="Maize (White)" uom="mudu" price="983.02" revision="1"/>
+    <Obs date="03/03/2025" item="Rice (Local)" uom="mudu" price="2,426.50" revision="1"/>
+    <Obs date="03/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="867.18" revision="1"/>
+    <Obs date="03/03/2025" item="Garri (Yellow)" uom="mudu" price="1,283.02" revision="1"/>
+    <Obs date="03/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,389.60" revision="1"/>
+    <Obs date="10/03/2025" item="Maize (White)" uom="mudu" price="916.32" revision="1"/>
+    <Obs date="10/03/2025" item="Rice (Local)" uom="mudu" price="2,439.59" revision="1"/>
+    <Obs date="10/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="862.53" revision="1"/>
+    <Obs date="10/03/2025" item="Garri (Yellow)" uom="mudu" price="1,241.72" revision="1"/>
+    <Obs date="10/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,499.35" revision="1"/>
+    <Obs date="17/03/2025" item="Maize (White)" uom="mudu" price="904.19" revision="1"/>
+    <Obs date="17/03/2025" item="Rice (Local)" uom="mudu" price="2,507.45" revision="1"/>
+    <Obs date="17/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="909.93" revision="1"/>
+    <Obs date="17/03/2025" item="Garri (Yellow)" uom="mudu" price="1,251.28" revision="1"/>
+    <Obs date="17/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,493.44" revision="1"/>
+    <Obs date="24/03/2025" item="Maize (White)" uom="mudu" price="1,028.28" revision="1"/>
+    <Obs date="24/03/2025" item="Rice (Local)" uom="mudu" price="2,402.58" revision="1"/>
+    <Obs date="24/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="881.34" revision="1"/>
+    <Obs date="24/03/2025" item="Garri (Yellow)" uom="mudu" price="1,202.56" revision="1"/>
+    <Obs date="24/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,352.26" revision="1"/>
+    <Obs date="31/03/2025" item="Maize (White)" uom="mudu" price="970.46" revision="1"/>
+    <Obs date="31/03/2025" item="Rice (Local)" uom="mudu" price="2,468.11" revision="1"/>
+    <Obs date="31/03/2025" item="Sorghum (Guinea corn)" uom="mudu" price="872.66" revision="1"/>
+    <Obs date="31/03/2025" item="Garri (Yellow)" uom="mudu" price="1,236.04" revision="1"/>
+    <Obs date="31/03/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,454.25" revision="1"/>
+    <Obs date="07/04/2025" item="Maize (White)" uom="mudu" price="966.92" revision="1"/>
+    <Obs date="07/04/2025" item="Rice (Local)" uom="mudu" price="2,433.74" revision="1"/>
+    <Obs date="07/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="896.64" revision="1"/>
+    <Obs date="07/04/2025" item="Garri (Yellow)" uom="mudu" price="1,243.39" revision="1"/>
+    <Obs date="07/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,611.82" revision="1"/>
+    <Obs date="14/04/2025" item="Maize (White)" uom="mudu" price="993.24" revision="1"/>
+    <Obs date="14/04/2025" item="Rice (Local)" uom="mudu" price="2,515.03" revision="1"/>
+    <Obs date="14/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="873.83" revision="1"/>
+    <Obs date="14/04/2025" item="Garri (Yellow)" uom="mudu" price="1,358.20" revision="1"/>
+    <Obs date="14/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,503.31" revision="1"/>
+    <Obs date="21/04/2025" item="Maize (White)" uom="mudu" price="965.30" revision="1"/>
+    <Obs date="21/04/2025" item="Rice (Local)" uom="mudu" price="2,529.10" revision="1"/>
+    <Obs date="21/04/2025" item="Sorghum (Guinea corn)" uom="mudu" price="923.23" revision="1"/>
+    <Obs date="21/04/2025" item="Garri (Yellow)" uom="mudu" price="1,283.66" revision="1"/>
+    <Obs date="21/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,533.52" revision="1"/>
+    <Obs date="28/04/2025" item="Maize (White)" uom="mudu" price="1,056.22" revision="1"/>
+    <Obs date="28/04/2025" item="Rice (Local)" uom="mudu" price="2,431.69" revision="1"/>
+    <Obs date="28/04/2025" item="Garri (Yellow)" uom="mudu" price="1,265.03" revision="1"/>
+    <Obs date="28/04/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,679.62" revision="1"/>
+    <Obs date="05/05/2025" item="Maize (White)" uom="mudu" price="1,007.67" revision="1"/>
+    <Obs date="05/05/2025" item="Rice (Local)" uom="mudu" price="2,387.49" revision="1"/>
+    <Obs date="05/05/2025" item="Garri (Yellow)" uom="mudu" price="1,331.98" revision="1"/>
+    <Obs date="05/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="3,409.31" revision="1"/>
+    <Obs date="12/05/2025" item="Maize (White)" uom="mudu" price="1,035.14" revision="1"/>
+    <Obs date="12/05/2025" item="Rice (Local)" uom="mudu" price="2,514.96" revision="1"/>
+    <Obs date="12/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="927.33" revision="1"/>
+    <Obs date="12/05/2025" item="Garri (Yellow)" uom="mudu" price="1,254.50" revision="1"/>
+    <Obs date="12/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,726.23" revision="1"/>
+    <Obs date="19/05/2025" item="Maize (White)" uom="mudu" price="1,018.66" revision="1"/>
+    <Obs date="19/05/2025" item="Rice (Local)" uom="mudu" price="2,466.75" revision="1"/>
+    <Obs date="19/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="996.58" revision="1"/>
+    <Obs date="19/05/2025" item="Garri (Yellow)" uom="mudu" price="1,346.37" revision="1"/>
+    <Obs date="19/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,757.29" revision="1"/>
+    <Obs date="26/05/2025" item="Maize (White)" uom="mudu" price="983.27" revision="1"/>
+    <Obs date="26/05/2025" item="Rice (Local)" uom="mudu" price="2,464.35" revision="1"/>
+    <Obs date="26/05/2025" item="Sorghum (Guinea corn)" uom="mudu" price="957.82" revision="1"/>
+    <Obs date="26/05/2025" item="Garri (Yellow)" uom="mudu" price="1,324.46" revision="1"/>
+    <Obs date="26/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,797.43" revision="1"/>
+    <Obs date="02/06/2025" item="Maize (White)" uom="mudu" price="1,020.30" revision="1"/>
+    <Obs date="02/06/2025" item="Rice (Local)" uom="mudu" price="2,331.33" revision="1"/>
+    <Obs date="02/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="969.54" revision="1"/>
+    <Obs date="02/06/2025" item="Garri (Yellow)" uom="mudu" price="1,280.82" revision="1"/>
+    <Obs date="02/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,824.71" revision="1"/>
+    <Obs date="09/06/2025" item="Maize (White)" uom="mudu" price="992.60" revision="1"/>
+    <Obs date="09/06/2025" item="Rice (Local)" uom="mudu" price="2,563.44" revision="1"/>
+    <Obs date="09/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="949.77" revision="1"/>
+    <Obs date="09/06/2025" item="Garri (Yellow)" uom="mudu" price="1,349.31" revision="1"/>
+    <Obs date="09/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,880.18" revision="1"/>
+    <Obs date="16/06/2025" item="Maize (White)" uom="mudu" price="1,053.66" revision="1"/>
+    <Obs date="16/06/2025" item="Rice (Local)" uom="mudu" price="2,481.33" revision="1"/>
+    <Obs date="16/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="984.37" revision="1"/>
+    <Obs date="16/06/2025" item="Garri (Yellow)" uom="mudu" price="1,406.21" revision="1"/>
+    <Obs date="16/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,877.69" revision="1"/>
+    <Obs date="23/06/2025" item="Maize (White)" uom="mudu" price="991.60" revision="1"/>
+    <Obs date="23/06/2025" item="Rice (Local)" uom="mudu" price="2,435.40" revision="1"/>
+    <Obs date="23/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="1,025.23" revision="1"/>
+    <Obs date="23/06/2025" item="Garri (Yellow)" uom="mudu" price="1,299.62" revision="1"/>
+    <Obs date="23/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,905.93" revision="1"/>
+    <Obs date="30/06/2025" item="Maize (White)" uom="mudu" price="1,022.55" revision="1"/>
+    <Obs date="30/06/2025" item="Rice (Local)" uom="mudu" price="2,661.11" revision="1"/>
+    <Obs date="30/06/2025" item="Sorghum (Guinea corn)" uom="mudu" price="984.87" revision="1"/>
+    <Obs date="30/06/2025" item="Garri (Yellow)" uom="mudu" price="1,334.10" revision="1"/>
+    <Obs date="30/06/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,796.97" revision="1"/>
+    <!-- Corrections issued after publication -->
+    <Obs date="13/01/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,517.16" revision="2"/>
+    <Obs date="27/01/2025" item="Maize (White)" uom="mudu" price="1,047.87" revision="2"/>
+    <Obs date="05/05/2025" item="Beans (Brown/Oloyin)" uom="mudu" price="2,727.45" revision="2"/>
+  </Market>
+</PriceBulletin>

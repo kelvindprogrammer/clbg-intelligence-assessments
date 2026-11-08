@@ -1,0 +1,4038 @@
+{
+ "agency": "Northern Grain Monitor",
+ "currency": "NGN",
+ "price_field": "price_kobo",
+ "note": "Prices are in kobo (1/100 naira) per unit. Weeks run Monday to Saturday and are labelled by their last day.",
+ "reports": [
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-01-11",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": null
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 115764
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 51090
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 73320
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 128017
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-01-18",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 57407
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 120843
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 50625
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 76635
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 127845
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-01-25",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 54365
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 117684
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": null
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 80709
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 133342
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-02-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 57911
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 118237
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 52990
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 78652
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 134664
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-02-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 58704
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 114914
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 58663
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 83355
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 131532
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-02-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 54813
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 116635
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 53646
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 78803
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 129757
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-02-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 58457
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 116388
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 50405
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 80546
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 139108
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-03-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 58732
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 119667
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 54841
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 86654
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 130417
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-03-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 56287
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 119589
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 54632
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 80685
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 138204
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-03-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 58293
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 56431
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 119362
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 79335
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 132893
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-03-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 60088
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 54026
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 119017
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 85999
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 137934
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-03-29",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 55058
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 52841
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 117078
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": null
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 137587
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-04-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 56395
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 123954
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 55971
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 79725
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 143474
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-04-12",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 57417
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 117689
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 60063
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 82392
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 136920
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-04-19",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": null
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 119673
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 56369
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 79374
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 139458
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-04-26",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 59344
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 125770
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 54329
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 74201
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 141211
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-05-03",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 59395
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 121866
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 56104
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 78404
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 135370
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-05-10",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 60108
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 123095
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 56139
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 77708
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 135397
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-05-17",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 61418
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 123479
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 54925
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 81214
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 144500
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-05-24",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 61826
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 123688
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 58341
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 78527
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 132931
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-05-31",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 62448
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 126942
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 55084
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 78366
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 135411
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-06-07",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 59687
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 123082
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 53746
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 84662
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 141725
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-06-14",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 62053
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 122516
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 52605
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 84741
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 145604
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-06-21",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 64944
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 125815
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 54628
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 82901
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 143941
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-06-28",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 65283
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 122954
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 55326
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 81941
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 144220
+    }
+   ]
+  },
+  {
+   "market": "DAWANAU/KANO",
+   "week_ending": "2025-07-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 59892
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 115075
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 55314
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 80703
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": null
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-01-11",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 62565
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 125641
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 55038
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 86292
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 142633
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-01-18",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 64275
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 125285
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 56029
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 85133
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 135840
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-01-25",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 61957
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 121691
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 57740
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 85442
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 131902
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-02-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 62219
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 125958
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 57780
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 88531
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 138674
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-02-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 58934
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 123930
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 58088
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 85107
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 140007
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-02-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 60813
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 125741
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 57956
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 90098
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 139335
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-02-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 59612
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": null
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 54944
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 87099
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 138279
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-03-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 60787
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 121323
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 56905
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 88059
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 144591
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-03-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 59070
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 125935
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 59572
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 86505
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 136914
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-03-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 59931
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 128716
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 56931
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": null
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 147425
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-03-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 60826
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 133390
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 61917
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 85476
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 141725
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-03-29",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 61911
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 130529
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 58450
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 88602
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 140363
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-04-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 62810
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 131519
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 60634
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 90238
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 144890
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-04-12",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 62198
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 133588
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 62492
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 88013
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 145316
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-04-19",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 65555
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 139057
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 62370
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 86461
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 146647
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-04-26",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 66471
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 144799
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 60680
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89654
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 138635
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-05-03",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 65626
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 143462
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63555
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 93793
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 146867
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-05-10",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 64913
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 143292
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 60137
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 92293
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 143324
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-05-17",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 62769
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 146798
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 61115
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 96954
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 142125
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-05-24",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 65200
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 137962
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 62581
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 87610
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 142457
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-05-31",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 66299
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 140153
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63675
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 95265
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 139988
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-06-07",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 64934
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 137458
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 65706
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94146
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 150938
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-06-14",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 67656
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": null
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 58807
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 92810
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 160884
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-06-21",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 67801
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 143409
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 64917
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 96603
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 157374
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-06-28",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 68676
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 138317
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 66353
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94299
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 153571
+    }
+   ]
+  },
+  {
+   "market": "KASUWAN BARCI/KADUNA",
+   "week_ending": "2025-07-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 68088
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 141938
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 62711
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 99447
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 150166
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-01-11",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 70925
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 142023
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 61881
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 102480
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 164568
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-01-18",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 71547
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 139641
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63916
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 88493
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 163859
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-01-25",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 70192
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 144206
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63358
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 97196
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 172385
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-02-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 74088
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 142299
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 67560
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 90302
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 168475
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-02-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 74838
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 148914
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 67007
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94536
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 161086
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-02-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 70434
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 148529
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 66276
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89577
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 161577
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-02-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 71207
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 141563
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 67052
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 90961
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 173024
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-03-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 70689
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 147817
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 66355
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 93202
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 186953
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-03-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 76450
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 143393
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 68967
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 88346
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 167250
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-03-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 77136
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 149977
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 67568
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 93859
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 177545
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-03-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 78199
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 154188
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 72807
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94049
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 171982
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-03-29",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 80222
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 146235
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 69096
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94057
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 180711
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-04-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 77619
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 146455
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 72494
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 95367
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 189327
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-04-12",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 79543
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 140254
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 70126
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 95428
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 177364
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-04-19",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 81903
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 152198
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 75705
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 100945
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 181977
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-04-26",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 79175
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 156909
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 72260
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 101410
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 186827
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-05-03",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 79016
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 154426
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 75990
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 100749
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 169685
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-05-10",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 78096
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 153399
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 74215
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 95228
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 192781
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-05-17",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 79086
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 141550
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 78203
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 99596
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 196795
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-05-24",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 112845
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 219413
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 106884
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 138220
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 274424
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-05-31",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 113629
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 226586
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 104644
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 147183
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 292125
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-06-07",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 114333
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 219519
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 104620
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 144810
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": null
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-06-14",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 86945
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 158258
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 73484
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 109080
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 194777
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-06-21",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 84040
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 152430
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 70974
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 103299
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 200607
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-06-28",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 86977
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 161859
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 71972
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 106669
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 203776
+    }
+   ]
+  },
+  {
+   "market": "MONDAY MKT/MAIDUGURI",
+   "week_ending": "2025-07-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 85020
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 156485
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 78086
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 99753
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 212646
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-01-11",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 67576
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 129784
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 61173
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89072
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 150123
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-01-18",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 67865
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 132135
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 64548
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 85930
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 146767
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-01-25",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 70467
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 140203
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 64688
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89461
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 149523
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-02-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 66040
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 141272
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63221
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 88757
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 149707
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-02-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 69317
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 132225
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 64878
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 85105
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 151702
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-02-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 71237
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 143003
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63985
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 87453
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 157598
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-02-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 73156
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 135828
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 66940
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 84090
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 151830
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-03-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 71989
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 135724
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63665
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89883
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 143480
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-03-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 68730
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 139535
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63845
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 86269
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": null
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-03-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 69774
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 141772
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": null
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 85878
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 162538
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-03-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 74260
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 139014
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 65879
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 87241
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 158462
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-03-29",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 73884
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 137635
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 66667
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 86647
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 160751
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-04-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 72298
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 147689
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 69444
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89953
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 168723
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-04-12",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 70838
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 142261
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 66553
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94217
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 165088
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-04-19",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 76609
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 150266
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 68071
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89287
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 164625
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-04-26",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 71011
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 143251
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 62023
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89405
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 168358
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-05-03",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 71066
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 148975
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 68565
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94429
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 166774
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-05-10",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 75697
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 152814
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 66249
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 93008
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 175245
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-05-17",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 72594
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 145690
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 69035
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89195
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 160984
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-05-24",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 72420
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 152813
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 69010
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94775
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 170316
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-05-31",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 72551
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 156664
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 67552
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 91482
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 177844
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-06-07",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 71194
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 147654
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 65820
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 93894
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 181720
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-06-14",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 72000
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 155040
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 67988
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 93589
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 181466
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-06-21",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 71915
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 161090
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 70394
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94589
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 171090
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-06-28",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 73830
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 153709
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 67746
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 95235
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 183021
+    }
+   ]
+  },
+  {
+   "market": "WUSE/ABUJA",
+   "week_ending": "2025-07-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 75016
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 146656
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 68386
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 97399
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 179714
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-01-11",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 64014
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 123364
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 57751
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 84794
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 138429
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-01-18",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 61939
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 123293
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 59580
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 84087
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 136769
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-01-25",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 61011
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 125154
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 57503
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 90865
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 141362
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-02-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 65433
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 126712
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 55690
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89344
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 142448
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-02-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": null
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 133812
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 58907
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 86378
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 155134
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-02-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 64991
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 124263
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 55086
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 83098
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 141809
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-02-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 63050
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 142406
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 56319
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89261
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 147104
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-03-01",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 65533
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 139190
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 59337
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94877
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 150368
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-03-08",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 69967
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 136642
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 57708
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 87214
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 154890
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-03-15",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 65896
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 137563
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 59956
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 95003
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 147387
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-03-22",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 61064
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 131769
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 59930
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 86802
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 162828
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-03-29",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 67786
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 134693
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 60301
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 89420
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 154261
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-04-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 63953
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 138321
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 57826
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 92758
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 150742
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-04-12",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 67772
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 133835
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 60529
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 93536
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 165534
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-04-19",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 63639
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 135015
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 64515
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 94299
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 172535
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-04-26",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 66127
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 132425
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 64089
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 96846
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 167835
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-05-03",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 68101
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 136869
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 60424
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 96532
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 165784
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-05-10",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 66502
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 141792
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 64842
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 92280
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 161855
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-05-17",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 67521
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 134321
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 64357
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 99858
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 174556
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-05-24",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 66534
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 140409
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63102
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 97247
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 165942
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-05-31",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 68844
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 139015
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 59828
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 98001
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 182389
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-06-07",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 75597
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 139442
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 62846
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 108326
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 179726
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-06-14",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 71558
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 137860
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 65140
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 105964
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 179412
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-06-21",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 70518
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 132540
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 65854
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 99664
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 173761
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-06-28",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 72527
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 133711
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 68101
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 108922
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 167779
+    }
+   ]
+  },
+  {
+   "market": "OJA OBA/ILORIN",
+   "week_ending": "2025-07-05",
+   "items": [
+    {
+     "commodity": "maize_white",
+     "unit": "kg",
+     "price_kobo": 69191
+    },
+    {
+     "commodity": "rice_local",
+     "unit": "kg",
+     "price_kobo": 138320
+    },
+    {
+     "commodity": "sorghum",
+     "unit": "kg",
+     "price_kobo": 63891
+    },
+    {
+     "commodity": "garri_yellow",
+     "unit": "kg",
+     "price_kobo": 100516
+    },
+    {
+     "commodity": "beans_brown",
+     "unit": "kg",
+     "price_kobo": 181707
+    }
+   ]
+  }
+ ]
+}
