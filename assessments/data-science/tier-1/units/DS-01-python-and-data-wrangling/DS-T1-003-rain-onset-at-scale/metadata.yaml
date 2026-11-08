@@ -1,0 +1,57 @@
+id: DS-T1-003
+title: "Rain Onset at Scale: Vectorising an Agro-Climate Pipeline Without Changing Its Answers"
+summary: >-
+  Profile a correct but loop-bound rainfall pipeline (monthly totals, dry spells, agronomic onset
+  dates, anomalies), re-implement it with NumPy and pandas, prove equivalence against the legacy
+  oracle on adversarial inputs, and measure the speed-up with a fair benchmark protocol.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-01
+format: optimization
+secondary_formats: [implementation]
+domains: [climate, agriculture]
+technologies: [python, numpy, pandas, pytest, cprofile]
+prerequisites:
+  knowledge:
+    - NumPy arrays, boolean masks and cumulative sums
+    - pandas groupby and merge
+    - Dates and times in pandas
+    - Running pytest
+  recommended_assessments: [DS-T1-001]
+competencies:
+  - Profiling Python code to find bottlenecks
+  - Vectorisation with masks, cumulative sums and run-length encoding
+  - Complete-calendar reindexing of gappy time series
+  - Preserving NaN, boundary and dtype semantics
+  - Equivalence testing against an oracle with randomised inputs
+  - Fair benchmarking of time and memory
+estimated_hours: {min: 10, max: 18}
+difficulty: {technical: 3, mathematical: 2, research: 1, engineering: 2, ambiguity: 1, resources: 2}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 8
+  notes: "8 GB is needed only for the full-size benchmark (about 4.3M rows); a free Google Colab or Kaggle notebook is a valid alternative for that step. Everything else runs in 4 GB."
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/generate_rainfall.py
+ci:
+  contract_tests: true
+  heavy: false
+tags: [vectorisation, numpy, performance, rainfall-onset, agro-climate, equivalence-testing, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

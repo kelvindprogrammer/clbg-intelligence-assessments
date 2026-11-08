@@ -1,0 +1,58 @@
+id: DS-T2-001
+title: "Feeder Hours, Out of Core: pandas vs Polars vs DuckDB on Smart-Meter Data"
+summary: >-
+  Compute feeder supply hours and tariff-band compliance from 8 million synthetic smart-meter
+  readings four ways (pandas baseline, chunked pandas, Polars, DuckDB) with identical results, then
+  benchmark time and memory under an 8 GB-laptop budget and recommend a tool for a DisCo team.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-01
+format: comparative
+secondary_formats: [optimization]
+domains: [power, energy, utilities]
+technologies: [python, pandas, polars, duckdb, sql, psutil, pytest]
+prerequisites:
+  knowledge:
+    - Fluent pandas (groupby, merge, dtypes)
+    - Basic SQL (GROUP BY, JOIN, DISTINCT)
+    - Command-line use and virtual environments
+  recommended_assessments: [DS-T1-001, DS-T1-003]
+competencies:
+  - Out-of-core and partition-aware pipeline design
+  - Lazy query plans and embedded analytical SQL
+  - Exact cross-engine equivalence testing
+  - Benchmark design with fresh processes, repeats and peak-RSS measurement
+  - Mechanistic explanation of performance differences
+  - Evidence-based tooling recommendation under constraints
+  - Validity and sensitivity analysis of a derived metric
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 4, mathematical: 2, research: 2, engineering: 3, ambiguity: 3, resources: 3}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 8
+  free_alternative: "Google Colab or Kaggle free CPU notebook (state the RAM available in the report)."
+  notes: "About 2 GB of free disk for the generated benchmark set and any converted copy."
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/generate_meters.py
+ci:
+  contract_tests: true
+  heavy: true
+tags: [out-of-core, polars, duckdb, benchmarking, smart-meters, nerc-bands, electricity, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

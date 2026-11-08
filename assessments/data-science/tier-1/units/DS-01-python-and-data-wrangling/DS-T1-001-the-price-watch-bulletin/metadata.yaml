@@ -1,0 +1,56 @@
+id: DS-T1-001
+title: "The Price Watch Bulletin: From Spreadsheet Export to Tidy Data"
+summary: >-
+  Reshape a print-formatted, multi-table state food price bulletin (merged headers, page breaks,
+  footnote notation, summary rows) into tested tidy data, then recompute every published average
+  to discover how the national figure is really built and which averages are inconsistent.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-01
+format: implementation
+secondary_formats: [investigation]
+domains: [agriculture, food-security, official-statistics]
+technologies: [python, pandas, numpy, pytest]
+prerequisites:
+  knowledge:
+    - Python functions, strings, lists, dictionaries and exceptions
+    - Loading a CSV with pandas and selecting columns
+    - Running pytest
+  recommended_assessments: []
+competencies:
+  - Reading irregular files without loss
+  - Validating string parsers that fail loudly
+  - Reshaping wide multi-header tables into tidy long data
+  - Correct use of melt, merge, groupby and concat with row-count checks
+  - Calendar-aware period arithmetic
+  - Reconciling published aggregates with their inputs (mean of means vs pooled mean)
+  - Unit testing of data-wrangling code
+estimated_hours: {min: 8, max: 14}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [tidy-data, reshaping, pandas, food-prices, reconciliation, nigeria, entry-point]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

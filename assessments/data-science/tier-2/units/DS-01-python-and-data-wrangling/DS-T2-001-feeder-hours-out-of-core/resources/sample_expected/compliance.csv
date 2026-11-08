@@ -1,0 +1,5 @@
+feeder_id,band,band_min_hours,days,mean_supply_hours,share_days_meeting_band,compliant
+FDR-001,A,20,7,21.928571,1.000000,True
+FDR-002,C,12,7,6.071429,0.000000,False
+FDR-003,B,16,7,18.571429,1.000000,True
+FDR-004,B,16,7,11.857143,0.142857,False
