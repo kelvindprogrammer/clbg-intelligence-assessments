@@ -1,0 +1,51 @@
+id: DS-T1-018
+title: "The Thrift Book: Ten Questions for a Market Cooperative"
+summary: >-
+  Answer ten specified business questions about a market thrift (ajo/esusu) cooperative with SQL. The data hides a join fan-out, NULL channels, double postings and overpaid loans that make natural-looking queries wrong.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-07
+format: implementation
+domains: [fintech, cooperative-finance, nigeria]
+technologies: [sql, sqlite, python, pytest]
+prerequisites:
+  knowledge:
+    - Basic SELECT, WHERE and ORDER BY
+    - Running pytest
+competencies:
+  - Joins and anti-joins
+  - Aggregation with GROUP BY and HAVING
+  - NULL semantics and COALESCE
+  - Avoiding join fan-out with pre-aggregation
+  - Date bucketing in SQLite
+  - Correlated subqueries and NOT EXISTS
+  - Reading query results critically against the data
+estimated_hours: {min: 6, max: 10}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 1, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [sql, sqlite, joins, fan-out, null-handling, cooperative, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

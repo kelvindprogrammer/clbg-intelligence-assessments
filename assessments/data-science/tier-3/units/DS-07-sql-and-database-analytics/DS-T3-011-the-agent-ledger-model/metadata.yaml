@@ -1,0 +1,52 @@
+id: DS-T3-011
+title: "The Agent Ledger Model: Point-in-Time Analytics for a Mobile-Money Network"
+summary: >-
+  Design and build a DuckDB analytical model over an event-sourced mobile-money ledger: SCD2 agent dimension, latest-version facts with reversals netted, as-of FX conversion, explicit exceptions and a reconciliation that closes. Defend the design with trade-off records.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-07
+format: system-design
+domains: [fintech, mobile-money, nigeria, west-africa]
+technologies: [sql, duckdb, python, pytest, data-modelling]
+prerequisites:
+  knowledge:
+    - Window functions
+    - Joins and CTEs
+    - Star-schema basics
+competencies:
+  - Declaring grain and keys before writing SQL
+  - SCD Type 2 construction and validation
+  - Event-sourced facts (latest-version resolution, reversals, duplicate deliveries)
+  - As-of (temporal) joins for FX
+  - Exception tables and reconciliation controls
+  - Idempotent, re-runnable model builds
+  - Documenting architecture trade-offs and their cost
+estimated_hours: {min: 18, max: 28}
+difficulty: {technical: 4, mathematical: 1, research: 3, engineering: 4, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [sql, duckdb, dimensional-modelling, scd2, reconciliation, mobile-money, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

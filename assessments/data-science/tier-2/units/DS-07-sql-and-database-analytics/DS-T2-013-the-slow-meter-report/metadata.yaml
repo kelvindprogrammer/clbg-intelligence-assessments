@@ -1,0 +1,51 @@
+id: DS-T2-013
+title: "The Slow Meter Report: Making Five Analytical Queries Fast Without Making Them Wrong"
+summary: >-
+  Rewrite five slow, correlated-subquery reports over a prepaid-electricity vend database using window functions and well-chosen indexes. Prove identical results and measure deterministic work, then show how cost scales with data size.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-07
+format: optimization
+domains: [energy, power-utilities, nigeria]
+technologies: [sql, sqlite, window-functions, python, pytest]
+prerequisites:
+  knowledge:
+    - Joins and GROUP BY
+    - Basic familiarity with window functions
+    - Reading EXPLAIN QUERY PLAN
+competencies:
+  - Window functions (ROW_NUMBER, LAG, running SUM, RANGE frames)
+  - Rewriting correlated subqueries
+  - Index design and its write-path cost
+  - Reading query plans
+  - Deterministic performance measurement
+  - Scaling analysis and honest reporting
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 3, mathematical: 1, research: 2, engineering: 3, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [sql, sqlite, window-functions, query-performance, indexing, energy, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
