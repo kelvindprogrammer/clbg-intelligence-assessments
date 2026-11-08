@@ -1,6 +1,6 @@
 {
   "generated_by": "tools/catalogue-generator/build_catalogue.py",
-  "count": 28,
+  "count": 50,
   "assessments": [
     {
       "id": "DS-T1-001",
@@ -1138,6 +1138,387 @@
       "path": "assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-017-hot-days-small-multiples"
     },
     {
+      "id": "DS-T1-018",
+      "title": "The Thrift Book: Ten Questions for a Market Cooperative",
+      "summary": "Answer ten specified business questions about a market thrift (ajo/esusu) cooperative with SQL. The data hides a join fan-out, NULL channels, double postings and overpaid loans that make natural-looking queries wrong.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-07",
+      "format": "implementation",
+      "secondary_formats": null,
+      "domains": [
+        "fintech",
+        "cooperative-finance",
+        "nigeria"
+      ],
+      "technologies": [
+        "sql",
+        "sqlite",
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Joins and anti-joins",
+        "Aggregation with GROUP BY and HAVING",
+        "NULL semantics and COALESCE",
+        "Avoiding join fan-out with pre-aggregation",
+        "Date bucketing in SQLite",
+        "Correlated subqueries and NOT EXISTS",
+        "Reading query results critically against the data"
+      ],
+      "estimated_hours": {
+        "min": 6,
+        "max": 10
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 1,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "sql",
+        "sqlite",
+        "joins",
+        "fan-out",
+        "null-handling",
+        "cooperative",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-07-sql-and-database-analytics/DS-T1-018-the-thrift-book"
+    },
+    {
+      "id": "DS-T1-021",
+      "title": "How Sure Is the Average? Confidence Intervals for Mobile-Money Cash-Outs",
+      "summary": "Implement t and percentile-bootstrap intervals, a coverage simulator and a regional summary for skewed mobile-money cash-out data, then show by simulation when the textbook interval fails.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-08",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "statistics"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "scipy",
+        "pytest"
+      ],
+      "competencies": [
+        "Confidence interval construction",
+        "Reproducible bootstrap resampling",
+        "Coverage simulation",
+        "Sample size planning",
+        "Communicating uncertainty"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "confidence-intervals",
+        "bootstrap",
+        "simulation",
+        "fintech",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-08-inference-experimentation-and-causality/DS-T1-021-how-sure-is-the-average"
+    },
+    {
+      "id": "DS-T1-023",
+      "title": "How Many Crates? Inventory Decisions with Censored Demand at Mile 12",
+      "summary": "Implement the newsvendor rule and a censored-Poisson maximum-likelihood demand estimate for a Lagos tomato trader, then quantify the profit lost by planning around average sales.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-09",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "agriculture",
+        "retail",
+        "operations-research"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "scipy",
+        "pytest"
+      ],
+      "competencies": [
+        "Newsvendor expected profit and critical ratio",
+        "Recognising censored data",
+        "Maximum likelihood with censoring",
+        "Comparing decision rules by realised profit"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "inventory",
+        "newsvendor",
+        "censoring",
+        "mle",
+        "retail",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-09-decision-and-business-analytics/DS-T1-023-how-many-crates"
+    },
+    {
+      "id": "DS-T1-025",
+      "title": "The Agent Who Went Quiet: Baseline Forecasts from a Gappy Mobile-Money Ledger",
+      "summary": "Turn a duplicated, gappy mobile-money agent ledger into regular daily series, implement the two baseline forecasters and the MASE metric, and choose a baseline per agent with a leak-free rolling-origin backtest.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-10",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "mobile-money"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Regularising an irregular daily series without inventing data",
+        "Seasonal-naive and moving-average baselines",
+        "Scale-free error metrics (MASE)",
+        "Rolling-origin backtesting without leakage",
+        "Choosing a baseline per series from evidence"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "time-series",
+        "baselines",
+        "backtesting",
+        "mobile-money",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-10-time-series-and-forecasting/DS-T1-025-the-agent-who-went-quiet"
+    },
+    {
+      "id": "DS-T1-027",
+      "title": "Run It Twice: An Idempotent, Auditable Loader for Daily Market-Levy Files",
+      "summary": "Build a small SQLite loader for daily market-levy files that is safe to run twice, survives a crash mid-file, never drops a row silently, and can prove that every input row is accounted for.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-11",
+      "format": "implementation",
+      "secondary_formats": [
+        "debugging-forensics"
+      ],
+      "domains": [
+        "public-finance",
+        "local-government"
+      ],
+      "technologies": [
+        "python",
+        "sqlite",
+        "csv",
+        "pytest"
+      ],
+      "competencies": [
+        "Idempotent file loading keyed on content",
+        "Atomic transactions with rollback",
+        "Row validation with explicit rejection reasons",
+        "Quarantining rather than dropping bad rows",
+        "Reconciliation invariants that prove no row was lost"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 14
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 3,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "pipelines",
+        "idempotency",
+        "sqlite",
+        "data-quality",
+        "public-finance",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-11-analytical-pipelines-and-data-engineering/DS-T1-027-run-it-twice"
+    },
+    {
+      "id": "DS-T1-029",
+      "title": "The Claim in the Press Release: Auditing a School-Meals Attendance Claim with Honest Intervals",
+      "summary": "Audit a press release's claim that a school-meals programme raised attendance: implement interval methods from their formulas, estimate a difference-in-differences with a school-level bootstrap, show how pupil-level intervals overstate certainty, and record a reproducibility manifest.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 1,
+      "unit": "DS-12",
+      "format": "replication",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "education",
+        "public-policy"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Wilson and Wald intervals for proportions",
+        "Difference-in-differences for a before/after comparison with a control group",
+        "Percentile bootstrap, including resampling clusters",
+        "Recognising and quantifying the effect of clustering on uncertainty",
+        "Judging a causal claim from an interval rather than a point estimate",
+        "Producing a reproducibility manifest"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 3,
+        "research": 3,
+        "engineering": 2,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "inference",
+        "bootstrap",
+        "difference-in-differences",
+        "clustering",
+        "reproducibility",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-1/units/DS-12-applied-research-and-communication/DS-T1-029-the-claim-in-the-press-release"
+    },
+    {
       "id": "DS-T2-001",
       "title": "Feeder Hours, Out of Core: pandas vs Polars vs DuckDB on Smart-Meter Data",
       "summary": "Compute feeder supply hours and tariff-band compliance from 8 million synthetic smart-meter readings four ways (pandas baseline, chunked pandas, Polars, DuckDB) with identical results, then benchmark time and memory under an 8 GB-laptop budget and recommend a tool for a DisCo team.",
@@ -1830,6 +2211,459 @@
       "path": "assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-012-the-tariff-band-explorable"
     },
     {
+      "id": "DS-T2-013",
+      "title": "The Slow Meter Report: Making Five Analytical Queries Fast Without Making Them Wrong",
+      "summary": "Rewrite five slow, correlated-subquery reports over a prepaid-electricity vend database using window functions and well-chosen indexes. Prove identical results and measure deterministic work, then show how cost scales with data size.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-07",
+      "format": "optimization",
+      "secondary_formats": null,
+      "domains": [
+        "energy",
+        "power-utilities",
+        "nigeria"
+      ],
+      "technologies": [
+        "sql",
+        "sqlite",
+        "window-functions",
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Window functions (ROW_NUMBER, LAG, running SUM, RANGE frames)",
+        "Rewriting correlated subqueries",
+        "Index design and its write-path cost",
+        "Reading query plans",
+        "Deterministic performance measurement",
+        "Scaling analysis and honest reporting"
+      ],
+      "estimated_hours": {
+        "min": 10,
+        "max": 16
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 1,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "sql",
+        "sqlite",
+        "window-functions",
+        "query-performance",
+        "indexing",
+        "energy",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-07-sql-and-database-analytics/DS-T2-013-the-slow-meter-report"
+    },
+    {
+      "id": "DS-T2-015",
+      "title": "Ship It or Shelve It? Auditing a Fintech A/B Test with Traps",
+      "summary": "Audit and analyse a mobile-app A/B test containing sample-ratio mismatch, user contamination, heavy-tailed revenue, multiple metrics and peeking, and deliver a defensible ship decision on several scenarios.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-08",
+      "format": "investigation",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "fintech",
+        "experimentation"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "scipy",
+        "pytest"
+      ],
+      "competencies": [
+        "Experiment validity auditing",
+        "Robust effect estimation",
+        "Multiple-testing control",
+        "Simulation of peeking",
+        "Decision rules under uncertainty",
+        "Experiment memo writing"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 2,
+        "engineering": 2,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "ab-testing",
+        "experimentation",
+        "srm",
+        "multiple-testing",
+        "fintech",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-08-inference-experimentation-and-causality/DS-T2-015-ship-it-or-shelve-it"
+    },
+    {
+      "id": "DS-T2-018",
+      "title": "Diesel or Sun? A Ten-Year Power Decision for a Rural Health Centre",
+      "summary": "Fit a fuel-price model, simulate ten-year futures with parameter uncertainty, compare diesel, solar and hybrid power on expected cost and tail risk, and write a board memo with sensitivity analysis.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-09",
+      "format": "comparative",
+      "secondary_formats": [
+        "optimization"
+      ],
+      "domains": [
+        "energy",
+        "health-infrastructure",
+        "decision-analysis"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "scipy",
+        "pytest"
+      ],
+      "competencies": [
+        "Stochastic price modelling",
+        "Monte Carlo cost simulation",
+        "Parameter-uncertainty propagation",
+        "Risk measures (CVaR)",
+        "Sensitivity and break-even analysis",
+        "Decision memo writing"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 2,
+        "engineering": 2,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "monte-carlo",
+        "decision-analysis",
+        "energy",
+        "cvar",
+        "sensitivity-analysis",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-09-decision-and-business-analytics/DS-T2-018-diesel-or-sun"
+    },
+    {
+      "id": "DS-T2-020",
+      "title": "Which Forecast Do You Trust? Benchmarking Load Forecasts with Honest Intervals on Power Feeders",
+      "summary": "Build a benchmark harness and your own forecaster for eight synthetic power-feeder load series, then show with leak-free rolling-origin evidence that it beats a seasonal-naive baseline in accuracy while its 80% intervals are honestly calibrated.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-10",
+      "format": "comparative",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "power-energy",
+        "utilities"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "scipy",
+        "pytest"
+      ],
+      "competencies": [
+        "Designing and justifying a forecasting method for trend, weekly and annual seasonality",
+        "Leak-free benchmarking against a baseline",
+        "Calibrating prediction intervals empirically",
+        "Scoring intervals with coverage and the interval score",
+        "Detecting and handling non-forecastable outage days",
+        "Arguing from per-series evidence rather than averages"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "forecasting",
+        "prediction-intervals",
+        "backtesting",
+        "power",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-10-time-series-and-forecasting/DS-T2-020-which-forecast-do-you-trust"
+    },
+    {
+      "id": "DS-T2-023",
+      "title": "Late Arrivals: Incremental Revenue Aggregation with Watermarks, Corrections and Bounded Memory",
+      "summary": "Implement an incremental daily-revenue aggregator for an airtime top-up event stream that handles late events, redeliveries and versioned corrections, keeps memory bounded, restarts from a JSON checkpoint, and quantifies what each lateness setting costs.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-11",
+      "format": "implementation",
+      "secondary_formats": [
+        "system-design"
+      ],
+      "domains": [
+        "telecoms",
+        "fintech"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "pytest"
+      ],
+      "competencies": [
+        "Maintaining an aggregate incrementally and proving it equals a full recompute",
+        "Event-time watermarks and allowed lateness",
+        "Deduplication and versioned corrections with retraction",
+        "Bounding state without changing results",
+        "Checkpointing and restoring pipeline state",
+        "Quantifying the accuracy cost of a lateness policy"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 4,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "streaming",
+        "incremental-processing",
+        "watermarks",
+        "checkpointing",
+        "telecoms",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-11-analytical-pipelines-and-data-engineering/DS-T2-023-late-arrivals"
+    },
+    {
+      "id": "DS-T2-025",
+      "title": "Robust or Fragile? A Specification-Curve and Sensitivity Analysis of a Mobile-Banking Training Programme",
+      "summary": "Investigate whether a mobile-banking training programme raised household savings in confounded survey data: implement the estimators, run a 48-specification curve, identify which controls are bad (mediator, collider) and why, quantify sensitivity to unmeasured confounding, and write a proportionate conclusion.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 2,
+      "unit": "DS-12",
+      "format": "investigation",
+      "secondary_formats": [
+        "replication"
+      ],
+      "domains": [
+        "agriculture",
+        "financial-inclusion"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "scipy",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing OLS with robust errors and logistic regression from the equations",
+        "Inverse-probability-weighted effect estimation",
+        "Constructing and summarising a specification curve",
+        "Distinguishing defensible from indefensible control sets by causal reasoning",
+        "Quantifying how strong an unmeasured confounder must be (E-value)",
+        "Reporting a conclusion that is proportionate to its robustness"
+      ],
+      "estimated_hours": {
+        "min": 16,
+        "max": 26
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "robustness",
+        "sensitivity-analysis",
+        "causal-inference",
+        "specification-curve",
+        "e-value",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-2/units/DS-12-applied-research-and-communication/DS-T2-025-robust-or-fragile"
+    },
+    {
+      "id": "DS-T3-001",
+      "title": "The Dataset Worth Citing: A Provenance and Licence Audit of a Data Catalogue",
+      "summary": "Audit a synthetic 24-dataset catalogue for licence laundering, share-alike violations, incompatible mixes, unlicensed upstreams, missing attribution, checksum and row-count drift and provenance cycles. Implement the audit, argue where a simple licence model stops matching the law, and decide what may be reused.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-02",
+      "format": "investigation",
+      "secondary_formats": null,
+      "domains": [
+        "research-data",
+        "open-data",
+        "licensing",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pytest",
+        "json",
+        "graph-algorithms"
+      ],
+      "competencies": [
+        "Provenance graph construction and traversal (DAG, cycles)",
+        "Licence propagation and compatibility reasoning",
+        "Share-alike, non-commercial and attribution obligations",
+        "Integrity verification with checksums and row counts",
+        "Distinguishing what a tool can decide from what needs a lawyer",
+        "Writing a defensible reuse decision memo",
+        "Citing data correctly"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 1,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "provenance",
+        "licensing",
+        "open-data",
+        "data-integrity",
+        "citation",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-02-data-acquisition-and-sourcing/DS-T3-001-the-dataset-worth-citing"
+    },
+    {
       "id": "DS-T3-003",
       "title": "The Garden of Forking Paths: A Multiverse Study of Cleaning Choices",
       "summary": "Specify the space of defensible cleaning and analysis choices for a messy three-round panel evaluating solar mini-grids' effect on village enterprise revenue, run every universe reproducibly, attribute variation to decisions, and report how robust the conclusion is.",
@@ -1898,6 +2732,595 @@
         "evaluation"
       ],
       "path": "assessments/data-science/tier-3/units/DS-03-data-cleaning-and-quality/DS-T3-003-the-garden-of-forking-paths"
+    },
+    {
+      "id": "DS-T3-005",
+      "title": "The Line That Got Slower: Decomposing a Headline and Finding the Instrument Break",
+      "summary": "Explore a bus rapid transit delay dataset in which a headline worsening coexists with improvement on every route. Implement an exact rate-versus-mix decomposition, detect a hidden measurement-instrument break in one operator's tracker, correct the headline, and keep a hypothesis ledger that includes refuted ideas.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-04",
+      "format": "open-ended",
+      "secondary_formats": null,
+      "domains": [
+        "transport",
+        "urban-mobility",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "pytest",
+        "changepoint-detection"
+      ],
+      "competencies": [
+        "Hypothesis-driven exploration with a written ledger",
+        "Rate/mix (Kitagawa) decomposition of a change in an aggregate",
+        "Detecting Simpson-style reversals",
+        "Detecting measurement-instrument changes by differencing against peers",
+        "Estimating and removing a level shift, and quantifying how much a headline depends on it",
+        "Honest communication of what an exploration can and cannot establish"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 22
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 2,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "eda",
+        "simpsons-paradox",
+        "decomposition",
+        "measurement-error",
+        "transport",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-04-exploratory-data-analysis/DS-T3-005-the-line-that-got-slower"
+    },
+    {
+      "id": "DS-T3-008",
+      "title": "Do the Intervals Cover? A Simulation Study of Confidence Intervals for Clustered Claims",
+      "summary": "Implement and compare four interval methods for a mean under cooperative-level clustering with heavy-tailed claims, run a seeded Monte Carlo coverage study with honest Monte Carlo error, find the regime where the standard cluster bootstrap fails, and argue for a better interval.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-05",
+      "format": "comparative",
+      "secondary_formats": null,
+      "domains": [
+        "agriculture",
+        "insurance",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scipy",
+        "monte-carlo",
+        "bootstrap"
+      ],
+      "competencies": [
+        "Designing and running a Monte Carlo coverage experiment",
+        "Monte Carlo standard error and choosing the number of replications",
+        "Intraclass correlation and the design effect",
+        "Cluster-level resampling",
+        "Studentised (bootstrap-t) intervals and small-sample behaviour",
+        "Reproducible stochastic code (seeded generators)",
+        "Arguing from simulation evidence, with its limits"
+      ],
+      "estimated_hours": {
+        "min": 16,
+        "max": 24
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 2,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "bootstrap",
+        "coverage",
+        "monte-carlo",
+        "clustered-data",
+        "icc",
+        "insurance",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-05-probability-and-statistics/DS-T3-008-do-the-intervals-cover"
+    },
+    {
+      "id": "DS-T3-009",
+      "title": "The Perception Experiment: Which Chart Do People Read Most Accurately?",
+      "summary": "Replicate the logic of Cleveland and McGill's graphical perception experiment with simulated participants: render honest stimuli and measure their lie factor, design a balanced randomised study, analyse errors at the participant level with bootstrap intervals, and compute the power to recover the true ranking, including in a world where the literature is wrong.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-06",
+      "format": "replication",
+      "secondary_formats": null,
+      "domains": [
+        "visualization",
+        "human-perception",
+        "public-health-communication",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "matplotlib",
+        "pandas",
+        "numpy",
+        "pytest",
+        "experimental-design"
+      ],
+      "competencies": [
+        "Encoding magnitudes honestly (position, length, angle, area)",
+        "Measuring graphical integrity with the lie factor",
+        "Experimental design (balance, randomisation, counterbalancing, seeds)",
+        "Participant-level analysis and bootstrap intervals",
+        "Power by simulation",
+        "Pre-registration and reporting a null or contrary result honestly",
+        "Writing a design recommendation from perceptual evidence"
+      ],
+      "estimated_hours": {
+        "min": 16,
+        "max": 24
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "visualization",
+        "graphical-perception",
+        "experimental-design",
+        "replication",
+        "lie-factor",
+        "public-health",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-06-visualization-and-storytelling/DS-T3-009-the-perception-experiment"
+    },
+    {
+      "id": "DS-T3-011",
+      "title": "The Agent Ledger Model: Point-in-Time Analytics for a Mobile-Money Network",
+      "summary": "Design and build a DuckDB analytical model over an event-sourced mobile-money ledger: SCD2 agent dimension, latest-version facts with reversals netted, as-of FX conversion, explicit exceptions and a reconciliation that closes. Defend the design with trade-off records.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-07",
+      "format": "system-design",
+      "secondary_formats": null,
+      "domains": [
+        "fintech",
+        "mobile-money",
+        "nigeria",
+        "west-africa"
+      ],
+      "technologies": [
+        "sql",
+        "duckdb",
+        "python",
+        "pytest",
+        "data-modelling"
+      ],
+      "competencies": [
+        "Declaring grain and keys before writing SQL",
+        "SCD Type 2 construction and validation",
+        "Event-sourced facts (latest-version resolution, reversals, duplicate deliveries)",
+        "As-of (temporal) joins for FX",
+        "Exception tables and reconciliation controls",
+        "Idempotent, re-runnable model builds",
+        "Documenting architecture trade-offs and their cost"
+      ],
+      "estimated_hours": {
+        "min": 18,
+        "max": 28
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 1,
+        "research": 3,
+        "engineering": 4,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "sql",
+        "duckdb",
+        "dimensional-modelling",
+        "scd2",
+        "reconciliation",
+        "mobile-money",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-07-sql-and-database-analytics/DS-T3-011-the-agent-ledger-model"
+    },
+    {
+      "id": "DS-T3-013",
+      "title": "The Minister Wants a Number: Auditing a Staggered Solar Mini-Grid Evaluation",
+      "summary": "Audit a two-way fixed-effects evaluation of a staggered rollout by building group-time difference-in-differences estimators, cluster-bootstrap inference, pre-trend diagnostics and ablations, and write a validity argument.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-08",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "energy",
+        "policy-evaluation",
+        "causal-inference"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "scipy",
+        "pytest"
+      ],
+      "competencies": [
+        "Estimand definition for staggered adoption",
+        "Group-time difference-in-differences",
+        "Cluster bootstrap inference",
+        "Pre-trend diagnostics",
+        "Ablation design",
+        "Causal validity argumentation"
+      ],
+      "estimated_hours": {
+        "min": 25,
+        "max": 40
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "causal-inference",
+        "difference-in-differences",
+        "policy-evaluation",
+        "energy",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-08-inference-experimentation-and-causality/DS-T3-013-the-minister-wants-a-number"
+    },
+    {
+      "id": "DS-T3-016",
+      "title": "Lower the Cut-off? A Credit Decision Where Outcomes Exist Only for the Approved",
+      "summary": "Decide whether a digital lender should lower its approval cut-off when defaults are observed only for approved loans, using a randomised exploration sample, inverse-propensity weighting, decision-level bootstrap uncertainty and minimax-regret robustness, and write the recommendation memo.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-09",
+      "format": "open-ended",
+      "secondary_formats": [
+        "optimization"
+      ],
+      "domains": [
+        "fintech",
+        "credit-risk",
+        "decision-analysis"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pandas",
+        "scipy",
+        "pytest"
+      ],
+      "competencies": [
+        "Sample-selection and reject-inference reasoning",
+        "Inverse-propensity weighting",
+        "Profit-based threshold optimisation",
+        "Decision-level uncertainty quantification",
+        "Minimax-regret robust choice",
+        "Experiment ethics in lending"
+      ],
+      "estimated_hours": {
+        "min": 25,
+        "max": 40
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "credit-risk",
+        "selection-bias",
+        "ipw",
+        "decision-analysis",
+        "robustness",
+        "fintech",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-09-decision-and-business-analytics/DS-T3-016-lower-the-cutoff"
+    },
+    {
+      "id": "DS-T3-018",
+      "title": "One Number, Many Clinics: Reconciling Hierarchical Forecasts Across a Health Network",
+      "summary": "Reconcile incoherent forecasts for a three-level health-network hierarchy with five methods implemented from first principles, evaluate them by level, detect a hidden patient-transfer event that breaks top-down logic, and argue honestly what reconciliation does and does not buy.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-10",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "health",
+        "public-health-planning"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Constructing a summing matrix for a hierarchy",
+        "Implementing reconciliation as a projection and deriving its properties",
+        "Estimating covariance with shrinkage when the dimension is large relative to the sample",
+        "Evaluating forecasts by hierarchy level without leakage",
+        "Detecting structural change in compositional shares",
+        "Arguing whether a small, noisy improvement is real"
+      ],
+      "estimated_hours": {
+        "min": 22,
+        "max": 34
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "hierarchical-forecasting",
+        "reconciliation",
+        "mint",
+        "structural-change",
+        "health",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-10-time-series-and-forecasting/DS-T3-018-one-number-many-clinics"
+    },
+    {
+      "id": "DS-T3-020",
+      "title": "Same Schema, Different Truth: A Data-Contract and Drift Gate for a Market-Price Feed",
+      "summary": "Design and implement a data-contract gate for a daily agricultural price feed: classify schema changes, enforce rate-based rules, detect same-schema semantic drift such as a naira-to-kobo unit change, and measure the gate's detection and false-alarm rates with your own fault-injection harness.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-11",
+      "format": "system-design",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "agriculture",
+        "price-statistics"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "pyyaml",
+        "pytest"
+      ],
+      "competencies": [
+        "Classifying schema changes by consumer impact",
+        "Expressing a data contract as rules with tolerated rates",
+        "Detecting semantic drift that leaves the schema unchanged",
+        "Calibrating thresholds against normal variation (inflation, weekly volume)",
+        "Fault injection to estimate detection rate and false-alarm rate",
+        "Designing an accept, quarantine or block policy with stated costs"
+      ],
+      "estimated_hours": {
+        "min": 22,
+        "max": 34
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 3,
+        "engineering": 5,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "data-contracts",
+        "drift",
+        "data-quality",
+        "fault-injection",
+        "agriculture",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-11-analytical-pipelines-and-data-engineering/DS-T3-020-same-schema-different-truth"
+    },
+    {
+      "id": "DS-T3-022",
+      "title": "Referee Report: Auditing an Industry Whitepaper's Causal Claim and Re-analysing the Data",
+      "summary": "Referee a fictional lender's whitepaper claiming its credit model halves defaults: build tools that expose cohort composition, censoring, subgroup fishing and a post-hoc threshold, re-analyse the loan data defensibly, and write a prioritised referee report with a proportionate recommendation.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "data-science",
+      "tier": 3,
+      "unit": "DS-12",
+      "format": "open-ended",
+      "secondary_formats": [
+        "replication"
+      ],
+      "domains": [
+        "fintech",
+        "digital-lending"
+      ],
+      "technologies": [
+        "python",
+        "pandas",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Appraising a quantitative claim against its methods and data",
+        "Detecting cohort composition differences and standardising for them",
+        "Recognising and correcting right-censoring in outcome data",
+        "Controlling false discoveries across many subgroup comparisons",
+        "Adjusting for a post-hoc threshold search with a max-statistic permutation test",
+        "Writing a prioritised, evidence-backed referee report"
+      ],
+      "estimated_hours": {
+        "min": 22,
+        "max": 36
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 4,
+        "research": 5,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "peer-review",
+        "simpsons-paradox",
+        "censoring",
+        "multiple-testing",
+        "critical-appraisal",
+        "nigeria"
+      ],
+      "path": "assessments/data-science/tier-3/units/DS-12-applied-research-and-communication/DS-T3-022-referee-report"
     }
   ]
 }

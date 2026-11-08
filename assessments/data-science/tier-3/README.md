@@ -11,11 +11,13 @@ See [tier definitions](../../../docs/tier-definitions.md) for the full competenc
 
 _Not offered at this tier._ Tier 3 is not offered. Advanced wrangling is assessed inside DS-11 (pipelines) and DS-12 (research), where it serves a purpose instead of being an end in itself.
 
-### DS-02: Data Acquisition and Sourcing
+### [DS-02: Data Acquisition and Sourcing](units/DS-02-data-acquisition-and-sourcing/README.md)
 
 APIs, open-data portals, ethical web collection, file formats, provenance and licensing.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-001`](units/DS-02-data-acquisition-and-sourcing/DS-T3-001-the-dataset-worth-citing/README.md) | The Dataset Worth Citing: A Provenance and Licence Audit of a Data Catalogue | Investigation | 14–22 h | reviewed |
 
 ### [DS-03: Data Cleaning and Data Quality](units/DS-03-data-cleaning-and-quality/README.md)
 
@@ -25,57 +27,75 @@ Missingness, inconsistency, deduplication, record linkage, validation rules and 
 |---|---|---|---|---|
 | [`DS-T3-003`](units/DS-03-data-cleaning-and-quality/DS-T3-003-the-garden-of-forking-paths/README.md) | The Garden of Forking Paths: A Multiverse Study of Cleaning Choices | Open-Ended | 35–60 h | reviewed |
 
-### DS-04: Exploratory Data Analysis
+### [DS-04: Exploratory Data Analysis](units/DS-04-exploratory-data-analysis/README.md)
 
 Systematic exploration, hypothesis generation, pitfalls such as Simpson's paradox, and documenting what the data can and cannot say.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-005`](units/DS-04-exploratory-data-analysis/DS-T3-005-the-line-that-got-slower/README.md) | The Line That Got Slower: Decomposing a Headline and Finding the Instrument Break | Open-Ended | 14–22 h | reviewed |
 
-### DS-05: Probability and Statistics
+### [DS-05: Probability and Statistics](units/DS-05-probability-and-statistics/README.md)
 
 Distributions, simulation, estimation, sampling, the bootstrap and Bayesian reasoning.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-008`](units/DS-05-probability-and-statistics/DS-T3-008-do-the-intervals-cover/README.md) | Do the Intervals Cover? A Simulation Study of Confidence Intervals for Clustered Claims | Comparative | 16–24 h | reviewed |
 
-### DS-06: Data Visualization and Storytelling
+### [DS-06: Data Visualization and Storytelling](units/DS-06-visualization-and-storytelling/README.md)
 
 Perceptual principles, honest encodings, uncertainty visualisation, narrative and audience-aware communication.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-009`](units/DS-06-visualization-and-storytelling/DS-T3-009-the-perception-experiment/README.md) | The Perception Experiment: Which Chart Do People Read Most Accurately? | Research Replication | 16–24 h | reviewed |
 
-### DS-07: SQL and Database Analytics
+### [DS-07: SQL and Database Analytics](units/DS-07-sql-and-database-analytics/README.md)
 
 Relational modelling, joins, window functions, analytical SQL, query performance and analytical databases.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-011`](units/DS-07-sql-and-database-analytics/DS-T3-011-the-agent-ledger-model/README.md) | The Agent Ledger Model: Point-in-Time Analytics for a Mobile-Money Network | System Design | 18–28 h | reviewed |
 
-### DS-08: Statistical Inference, Experimentation and Causal Thinking
+### [DS-08: Statistical Inference, Experimentation and Causal Thinking](units/DS-08-inference-experimentation-and-causality/README.md)
 
 Hypothesis testing, power, multiple comparisons, A/B testing, observational causal inference and its assumptions.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-013`](units/DS-08-inference-experimentation-and-causality/DS-T3-013-the-minister-wants-a-number/README.md) | The Minister Wants a Number: Auditing a Staggered Solar Mini-Grid Evaluation | Comparative | 25–40 h | reviewed |
 
-### DS-09: Decision and Business Analytics
+### [DS-09: Decision and Business Analytics](units/DS-09-decision-and-business-analytics/README.md)
 
 Metric design, cohort and funnel analysis, segmentation, optimisation and decision-making under uncertainty.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-016`](units/DS-09-decision-and-business-analytics/DS-T3-016-lower-the-cutoff/README.md) | Lower the Cut-off? A Credit Decision Where Outcomes Exist Only for the Approved | Open-Ended | 25–40 h | reviewed |
 
-### DS-10: Time-Series Analysis and Forecasting
+### [DS-10: Time-Series Analysis and Forecasting](units/DS-10-time-series-and-forecasting/README.md)
 
 Decomposition, stationarity, statistical forecasting, backtesting, forecast uncertainty and hierarchical forecasts.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-018`](units/DS-10-time-series-and-forecasting/DS-T3-018-one-number-many-clinics/README.md) | One Number, Many Clinics: Reconciling Hierarchical Forecasts Across a Health Network | Comparative | 22–34 h | reviewed |
 
-### DS-11: Analytical Pipelines and Data Engineering
+### [DS-11: Analytical Pipelines and Data Engineering](units/DS-11-analytical-pipelines-and-data-engineering/README.md)
 
 Reproducible ELT, orchestration, data contracts, incremental processing and testing of data pipelines.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-020`](units/DS-11-analytical-pipelines-and-data-engineering/DS-T3-020-same-schema-different-truth/README.md) | Same Schema, Different Truth: A Data-Contract and Drift Gate for a Market-Price Feed | System Design | 22–34 h | reviewed |
 
-### DS-12: Applied Research and Reproducible Communication
+### [DS-12: Applied Research and Reproducible Communication](units/DS-12-applied-research-and-communication/README.md)
 
 Research design, robustness and sensitivity analysis, reproducible reports, peer review and communication to decision-makers.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T3-022`](units/DS-12-applied-research-and-communication/DS-T3-022-referee-report/README.md) | Referee Report: Auditing an Industry Whitepaper's Causal Claim and Re-analysing the Data | Open-Ended | 22–36 h | reviewed |
 

@@ -59,39 +59,51 @@ Perceptual principles, honest encodings, uncertainty visualisation, narrative an
 | [`DS-T2-011`](units/DS-06-visualization-and-storytelling/DS-T2-011-one-house-style/README.md) | One House Style: An Accessible, Regression-Tested Chart Style System | Implementation | 20–35 h | reviewed |
 | [`DS-T2-012`](units/DS-06-visualization-and-storytelling/DS-T2-012-the-tariff-band-explorable/README.md) | The Tariff Band Explorable: Explaining an Electricity Policy Trade-off to Households | Open-Ended | 20–35 h | reviewed |
 
-### DS-07: SQL and Database Analytics
+### [DS-07: SQL and Database Analytics](units/DS-07-sql-and-database-analytics/README.md)
 
 Relational modelling, joins, window functions, analytical SQL, query performance and analytical databases.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T2-013`](units/DS-07-sql-and-database-analytics/DS-T2-013-the-slow-meter-report/README.md) | The Slow Meter Report: Making Five Analytical Queries Fast Without Making Them Wrong | Optimization | 10–16 h | reviewed |
 
-### DS-08: Statistical Inference, Experimentation and Causal Thinking
+### [DS-08: Statistical Inference, Experimentation and Causal Thinking](units/DS-08-inference-experimentation-and-causality/README.md)
 
 Hypothesis testing, power, multiple comparisons, A/B testing, observational causal inference and its assumptions.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T2-015`](units/DS-08-inference-experimentation-and-causality/DS-T2-015-ship-it-or-shelve-it/README.md) | Ship It or Shelve It? Auditing a Fintech A/B Test with Traps | Investigation | 14–22 h | reviewed |
 
-### DS-09: Decision and Business Analytics
+### [DS-09: Decision and Business Analytics](units/DS-09-decision-and-business-analytics/README.md)
 
 Metric design, cohort and funnel analysis, segmentation, optimisation and decision-making under uncertainty.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T2-018`](units/DS-09-decision-and-business-analytics/DS-T2-018-diesel-or-sun/README.md) | Diesel or Sun? A Ten-Year Power Decision for a Rural Health Centre | Comparative | 14–22 h | reviewed |
 
-### DS-10: Time-Series Analysis and Forecasting
+### [DS-10: Time-Series Analysis and Forecasting](units/DS-10-time-series-and-forecasting/README.md)
 
 Decomposition, stationarity, statistical forecasting, backtesting, forecast uncertainty and hierarchical forecasts.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T2-020`](units/DS-10-time-series-and-forecasting/DS-T2-020-which-forecast-do-you-trust/README.md) | Which Forecast Do You Trust? Benchmarking Load Forecasts with Honest Intervals on Power Feeders | Comparative | 14–22 h | reviewed |
 
-### DS-11: Analytical Pipelines and Data Engineering
+### [DS-11: Analytical Pipelines and Data Engineering](units/DS-11-analytical-pipelines-and-data-engineering/README.md)
 
 Reproducible ELT, orchestration, data contracts, incremental processing and testing of data pipelines.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T2-023`](units/DS-11-analytical-pipelines-and-data-engineering/DS-T2-023-late-arrivals/README.md) | Late Arrivals: Incremental Revenue Aggregation with Watermarks, Corrections and Bounded Memory | Implementation | 14–22 h | reviewed |
 
-### DS-12: Applied Research and Reproducible Communication
+### [DS-12: Applied Research and Reproducible Communication](units/DS-12-applied-research-and-communication/README.md)
 
 Research design, robustness and sensitivity analysis, reproducible reports, peer review and communication to decision-makers.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T2-025`](units/DS-12-applied-research-and-communication/DS-T2-025-robust-or-fragile/README.md) | Robust or Fragile? A Specification-Curve and Sensitivity Analysis of a Mobile-Banking Training Programme | Investigation | 16–26 h | reviewed |
 

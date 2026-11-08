@@ -31,17 +31,17 @@ Data scientists answer questions with data, and they're honest about what the da
 | Unit | Tier 1 | Tier 2 | Tier 3 |
 |---|---|---|---|
 | **DS-01** Python and Data Wrangling | [3 assessments](tier-1/units/DS-01-python-and-data-wrangling/README.md) | [1 assessment](tier-2/units/DS-01-python-and-data-wrangling/README.md) | — |
-| **DS-02** Data Acquisition and Sourcing | [2 assessments](tier-1/units/DS-02-data-acquisition-and-sourcing/README.md) | [2 assessments](tier-2/units/DS-02-data-acquisition-and-sourcing/README.md) | in development |
+| **DS-02** Data Acquisition and Sourcing | [2 assessments](tier-1/units/DS-02-data-acquisition-and-sourcing/README.md) | [2 assessments](tier-2/units/DS-02-data-acquisition-and-sourcing/README.md) | [1 assessment](tier-3/units/DS-02-data-acquisition-and-sourcing/README.md) |
 | **DS-03** Data Cleaning and Data Quality | [3 assessments](tier-1/units/DS-03-data-cleaning-and-quality/README.md) | [2 assessments](tier-2/units/DS-03-data-cleaning-and-quality/README.md) | [1 assessment](tier-3/units/DS-03-data-cleaning-and-quality/README.md) |
-| **DS-04** Exploratory Data Analysis | [3 assessments](tier-1/units/DS-04-exploratory-data-analysis/README.md) | [1 assessment](tier-2/units/DS-04-exploratory-data-analysis/README.md) | in development |
-| **DS-05** Probability and Statistics | [3 assessments](tier-1/units/DS-05-probability-and-statistics/README.md) | [2 assessments](tier-2/units/DS-05-probability-and-statistics/README.md) | in development |
-| **DS-06** Data Visualization and Storytelling | [3 assessments](tier-1/units/DS-06-visualization-and-storytelling/README.md) | [2 assessments](tier-2/units/DS-06-visualization-and-storytelling/README.md) | in development |
-| **DS-07** SQL and Database Analytics | in development | in development | in development |
-| **DS-08** Statistical Inference, Experimentation and Causal Thinking | in development | in development | in development |
-| **DS-09** Decision and Business Analytics | in development | in development | in development |
-| **DS-10** Time-Series Analysis and Forecasting | in development | in development | in development |
-| **DS-11** Analytical Pipelines and Data Engineering | in development | in development | in development |
-| **DS-12** Applied Research and Reproducible Communication | in development | in development | in development |
+| **DS-04** Exploratory Data Analysis | [3 assessments](tier-1/units/DS-04-exploratory-data-analysis/README.md) | [1 assessment](tier-2/units/DS-04-exploratory-data-analysis/README.md) | [1 assessment](tier-3/units/DS-04-exploratory-data-analysis/README.md) |
+| **DS-05** Probability and Statistics | [3 assessments](tier-1/units/DS-05-probability-and-statistics/README.md) | [2 assessments](tier-2/units/DS-05-probability-and-statistics/README.md) | [1 assessment](tier-3/units/DS-05-probability-and-statistics/README.md) |
+| **DS-06** Data Visualization and Storytelling | [3 assessments](tier-1/units/DS-06-visualization-and-storytelling/README.md) | [2 assessments](tier-2/units/DS-06-visualization-and-storytelling/README.md) | [1 assessment](tier-3/units/DS-06-visualization-and-storytelling/README.md) |
+| **DS-07** SQL and Database Analytics | [1 assessment](tier-1/units/DS-07-sql-and-database-analytics/README.md) | [1 assessment](tier-2/units/DS-07-sql-and-database-analytics/README.md) | [1 assessment](tier-3/units/DS-07-sql-and-database-analytics/README.md) |
+| **DS-08** Statistical Inference, Experimentation and Causal Thinking | [1 assessment](tier-1/units/DS-08-inference-experimentation-and-causality/README.md) | [1 assessment](tier-2/units/DS-08-inference-experimentation-and-causality/README.md) | [1 assessment](tier-3/units/DS-08-inference-experimentation-and-causality/README.md) |
+| **DS-09** Decision and Business Analytics | [1 assessment](tier-1/units/DS-09-decision-and-business-analytics/README.md) | [1 assessment](tier-2/units/DS-09-decision-and-business-analytics/README.md) | [1 assessment](tier-3/units/DS-09-decision-and-business-analytics/README.md) |
+| **DS-10** Time-Series Analysis and Forecasting | [1 assessment](tier-1/units/DS-10-time-series-and-forecasting/README.md) | [1 assessment](tier-2/units/DS-10-time-series-and-forecasting/README.md) | [1 assessment](tier-3/units/DS-10-time-series-and-forecasting/README.md) |
+| **DS-11** Analytical Pipelines and Data Engineering | [1 assessment](tier-1/units/DS-11-analytical-pipelines-and-data-engineering/README.md) | [1 assessment](tier-2/units/DS-11-analytical-pipelines-and-data-engineering/README.md) | [1 assessment](tier-3/units/DS-11-analytical-pipelines-and-data-engineering/README.md) |
+| **DS-12** Applied Research and Reproducible Communication | [1 assessment](tier-1/units/DS-12-applied-research-and-communication/README.md) | [1 assessment](tier-2/units/DS-12-applied-research-and-communication/README.md) | [1 assessment](tier-3/units/DS-12-applied-research-and-communication/README.md) |
 
 **Capstones:** [in development](capstones/README.md)
 

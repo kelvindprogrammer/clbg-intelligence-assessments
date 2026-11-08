@@ -66,39 +66,51 @@ Perceptual principles, honest encodings, uncertainty visualisation, narrative an
 | [`DS-T1-016`](units/DS-06-visualization-and-storytelling/DS-T1-016-honest-about-uncertainty/README.md) | Honest About Uncertainty: Interval Plots, Quantile Dotplots and Fan Charts | Implementation | 10–16 h | reviewed |
 | [`DS-T1-017`](units/DS-06-visualization-and-storytelling/DS-T1-017-hot-days-small-multiples/README.md) | Hot Days, Six Cities: A Small-Multiples Climate Story from NASA POWER | Investigation | 10–16 h | reviewed |
 
-### DS-07: SQL and Database Analytics
+### [DS-07: SQL and Database Analytics](units/DS-07-sql-and-database-analytics/README.md)
 
 Relational modelling, joins, window functions, analytical SQL, query performance and analytical databases.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T1-018`](units/DS-07-sql-and-database-analytics/DS-T1-018-the-thrift-book/README.md) | The Thrift Book: Ten Questions for a Market Cooperative | Implementation | 6–10 h | reviewed |
 
-### DS-08: Statistical Inference, Experimentation and Causal Thinking
+### [DS-08: Statistical Inference, Experimentation and Causal Thinking](units/DS-08-inference-experimentation-and-causality/README.md)
 
 Hypothesis testing, power, multiple comparisons, A/B testing, observational causal inference and its assumptions.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T1-021`](units/DS-08-inference-experimentation-and-causality/DS-T1-021-how-sure-is-the-average/README.md) | How Sure Is the Average? Confidence Intervals for Mobile-Money Cash-Outs | Implementation | 8–14 h | reviewed |
 
-### DS-09: Decision and Business Analytics
+### [DS-09: Decision and Business Analytics](units/DS-09-decision-and-business-analytics/README.md)
 
 Metric design, cohort and funnel analysis, segmentation, optimisation and decision-making under uncertainty.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T1-023`](units/DS-09-decision-and-business-analytics/DS-T1-023-how-many-crates/README.md) | How Many Crates? Inventory Decisions with Censored Demand at Mile 12 | Implementation | 8–14 h | reviewed |
 
-### DS-10: Time-Series Analysis and Forecasting
+### [DS-10: Time-Series Analysis and Forecasting](units/DS-10-time-series-and-forecasting/README.md)
 
 Decomposition, stationarity, statistical forecasting, backtesting, forecast uncertainty and hierarchical forecasts.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T1-025`](units/DS-10-time-series-and-forecasting/DS-T1-025-the-agent-who-went-quiet/README.md) | The Agent Who Went Quiet: Baseline Forecasts from a Gappy Mobile-Money Ledger | Implementation | 8–14 h | reviewed |
 
-### DS-11: Analytical Pipelines and Data Engineering
+### [DS-11: Analytical Pipelines and Data Engineering](units/DS-11-analytical-pipelines-and-data-engineering/README.md)
 
 Reproducible ELT, orchestration, data contracts, incremental processing and testing of data pipelines.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T1-027`](units/DS-11-analytical-pipelines-and-data-engineering/DS-T1-027-run-it-twice/README.md) | Run It Twice: An Idempotent, Auditable Loader for Daily Market-Levy Files | Implementation | 8–14 h | reviewed |
 
-### DS-12: Applied Research and Reproducible Communication
+### [DS-12: Applied Research and Reproducible Communication](units/DS-12-applied-research-and-communication/README.md)
 
 Research design, robustness and sensitivity analysis, reproducible reports, peer review and communication to decision-makers.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`DS-T1-029`](units/DS-12-applied-research-and-communication/DS-T1-029-the-claim-in-the-press-release/README.md) | The Claim in the Press Release: Auditing a School-Meals Attendance Claim with Honest Intervals | Research Replication | 10–16 h | reviewed |
 

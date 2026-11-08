@@ -8,17 +8,17 @@ Built assessments versus the planned target, per unit and tier, from `shared/uni
 | Unit | T1 built/target | T2 built/target | T3 built/target |
 |---|---|---|---|
 | DS-01 Python and Data Wrangling | 3/3 ✅ | 1/2 | — |
-| DS-02 Data Acquisition and Sourcing | 2/2 ✅ | 2/2 ✅ | 0/2 |
+| DS-02 Data Acquisition and Sourcing | 2/2 ✅ | 2/2 ✅ | 1/2 |
 | DS-03 Data Cleaning and Data Quality | 3/3 ✅ | 2/2 ✅ | 1/2 |
-| DS-04 Exploratory Data Analysis | 3/3 ✅ | 1/2 | 0/2 |
-| DS-05 Probability and Statistics | 3/3 ✅ | 2/2 ✅ | 0/2 |
-| DS-06 Data Visualization and Storytelling | 3/3 ✅ | 2/2 ✅ | 0/2 |
-| DS-07 SQL and Database Analytics | 0/3 | 0/2 | 0/2 |
-| DS-08 Statistical Inference, Experimentation and Causal Thinking | 0/2 | 0/3 | 0/3 |
-| DS-09 Decision and Business Analytics | 0/2 | 0/2 | 0/2 |
-| DS-10 Time-Series Analysis and Forecasting | 0/2 | 0/3 | 0/2 |
-| DS-11 Analytical Pipelines and Data Engineering | 0/2 | 0/2 | 0/2 |
-| DS-12 Applied Research and Reproducible Communication | 0/2 | 0/2 | 0/3 |
+| DS-04 Exploratory Data Analysis | 3/3 ✅ | 1/2 | 1/2 |
+| DS-05 Probability and Statistics | 3/3 ✅ | 2/2 ✅ | 1/2 |
+| DS-06 Data Visualization and Storytelling | 3/3 ✅ | 2/2 ✅ | 1/2 |
+| DS-07 SQL and Database Analytics | 1/3 | 1/2 | 1/2 |
+| DS-08 Statistical Inference, Experimentation and Causal Thinking | 1/2 | 1/3 | 1/3 |
+| DS-09 Decision and Business Analytics | 1/2 | 1/2 | 1/2 |
+| DS-10 Time-Series Analysis and Forecasting | 1/2 | 1/3 | 1/2 |
+| DS-11 Analytical Pipelines and Data Engineering | 1/2 | 1/2 | 1/2 |
+| DS-12 Applied Research and Reproducible Communication | 1/2 | 1/2 | 1/3 |
 
 ## Machine Learning Engineering
 
@@ -59,10 +59,10 @@ Built assessments versus the planned target, per unit and tier, from `shared/uni
 
 ## Totals
 
-- Unit assessments built against target: **28/232**
-- Unit assessments (all): 28
+- Unit assessments built against target: **50/232**
+- Unit assessments (all): 50
 - Capstones: 0
 - Cross-disciplinary: 0
 - Signature challenges: 0
-- **Total assessments: 28**
+- **Total assessments: 50**
 

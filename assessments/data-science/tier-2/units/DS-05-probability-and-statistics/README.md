@@ -19,3 +19,4 @@ Pick **any one**. Every assessment here is an independent, complete demonstratio
 ## Same unit, other tiers
 
 - [Tier 1](../../../tier-1/units/DS-05-probability-and-statistics/README.md)
+- [Tier 3](../../../tier-3/units/DS-05-probability-and-statistics/README.md)

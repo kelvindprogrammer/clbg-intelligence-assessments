@@ -20,7 +20,7 @@
 | **Estimated time** | 14–22 hours over 2 weeks |
 | **Collaboration** | Individual |
 | **Compute** | Any laptop with 4 GB RAM. No GPU, no paid services, no internet after setup |
-| **Recommended prerequisites** | Hypothesis tests and confidence intervals for proportions; bootstrap or robust statistics; pandas; `pytest`. Helpful: [DS-T1-021](../DS-T1-021-how-sure-is-the-average/README.md) |
+| **Recommended prerequisites** | Hypothesis tests and confidence intervals for proportions; bootstrap or robust statistics; pandas; `pytest`. Helpful: [DS-T1-021](../../../../tier-1/units/DS-08-inference-experimentation-and-causality/DS-T1-021-how-sure-is-the-average/README.md) |
 | **Skills developed** | Experiment validity auditing; Robust effect estimation; Multiple-testing control; Simulation of peeking; Decision rules under uncertainty; Experiment memo writing |
 | **Technologies** | Python 3.10+, numpy, pandas, scipy, pytest |
 

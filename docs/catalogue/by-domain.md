@@ -14,7 +14,7 @@
 | [`DS-T1-002`](../../assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-002-the-ledger-that-double-counts/README.md) | The Ledger That Double-Counts: Debugging a Mobile-Money Settlement Pipeline | data-science | 1 | 8–14 h |
 | [`DS-T2-006`](../../assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-006-the-feed-that-breaks/README.md) | The Feed That Breaks: A Data Contract and Validation Framework for a Partner Feed | data-science | 2 | 20–35 h |
 
-## Agriculture (8)
+## Agriculture (12)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
@@ -24,14 +24,24 @@
 | [`DS-T1-007`](../../assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-007-bags-basins-and-tonnes/README.md) | Bags, Basins and Tonnes: Harmonising a Smallholder Harvest Survey | data-science | 1 | 10–16 h |
 | [`DS-T1-015`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-015-the-truth-behind-the-chart/README.md) | The Truth Behind the Chart: Forensics of Misleading Graphics | data-science | 1 | 10–16 h |
 | [`DS-T1-016`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-016-honest-about-uncertainty/README.md) | Honest About Uncertainty: Interval Plots, Quantile Dotplots and Fan Charts | data-science | 1 | 10–16 h |
+| [`DS-T1-023`](../../assessments/data-science/tier-1/units/DS-09-decision-and-business-analytics/DS-T1-023-how-many-crates/README.md) | How Many Crates? Inventory Decisions with Censored Demand at Mile 12 | data-science | 1 | 8–14 h |
 | [`DS-T2-004`](../../assessments/data-science/tier-2/units/DS-02-data-acquisition-and-sourcing/DS-T2-004-rain-grain-and-granularity/README.md) | Rain, Grain and Granularity: Fusing Open Climate, Crop and Development Data at Mismatched Scales | data-science | 2 | 20–35 h |
 | [`DS-T2-007`](../../assessments/data-science/tier-2/units/DS-04-exploratory-data-analysis/DS-T2-007-rain-before-the-price/README.md) | Rain Before the Price: Multi-Source EDA of Rainfall Anomalies and Food Prices | data-science | 2 | 20–35 h |
+| [`DS-T2-025`](../../assessments/data-science/tier-2/units/DS-12-applied-research-and-communication/DS-T2-025-robust-or-fragile/README.md) | Robust or Fragile? A Specification-Curve and Sensitivity Analysis of a Mobile-Banking Training Programme | data-science | 2 | 16–26 h |
+| [`DS-T3-008`](../../assessments/data-science/tier-3/units/DS-05-probability-and-statistics/DS-T3-008-do-the-intervals-cover/README.md) | Do the Intervals Cover? A Simulation Study of Confidence Intervals for Clustered Claims | data-science | 3 | 16–24 h |
+| [`DS-T3-020`](../../assessments/data-science/tier-3/units/DS-11-analytical-pipelines-and-data-engineering/DS-T3-020-same-schema-different-truth/README.md) | Same Schema, Different Truth: A Data-Contract and Drift Gate for a Market-Price Feed | data-science | 3 | 22–34 h |
 
 ## Air Quality (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-008`](../../assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-008-stuck-drifting-spiking/README.md) | Stuck, Drifting, Spiking: Validation Rules for a Low-Cost Air-Quality Network | data-science | 1 | 12–18 h |
+
+## Causal Inference (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-013`](../../assessments/data-science/tier-3/units/DS-08-inference-experimentation-and-causality/DS-T3-013-the-minister-wants-a-number/README.md) | The Minister Wants a Number: Auditing a Staggered Solar Mini-Grid Evaluation | data-science | 3 | 25–40 h |
 
 ## Civic Technology (1)
 
@@ -56,11 +66,30 @@
 |---|---|---|---|---|
 | [`DS-T2-012`](../../assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-012-the-tariff-band-explorable/README.md) | The Tariff Band Explorable: Explaining an Electricity Policy Trade-off to Households | data-science | 2 | 20–35 h |
 
+## Cooperative Finance (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T1-018`](../../assessments/data-science/tier-1/units/DS-07-sql-and-database-analytics/DS-T1-018-the-thrift-book/README.md) | The Thrift Book: Ten Questions for a Market Cooperative | data-science | 1 | 6–10 h |
+
+## Credit Risk (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-016`](../../assessments/data-science/tier-3/units/DS-09-decision-and-business-analytics/DS-T3-016-lower-the-cutoff/README.md) | Lower the Cut-off? A Credit Decision Where Outcomes Exist Only for the Approved | data-science | 3 | 25–40 h |
+
 ## Data Engineering (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T2-006`](../../assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-006-the-feed-that-breaks/README.md) | The Feed That Breaks: A Data Contract and Validation Framework for a Partner Feed | data-science | 2 | 20–35 h |
+
+## Decision Analysis (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T2-018`](../../assessments/data-science/tier-2/units/DS-09-decision-and-business-analytics/DS-T2-018-diesel-or-sun/README.md) | Diesel or Sun? A Ten-Year Power Decision for a Rural Health Centre | data-science | 2 | 14–22 h |
+| [`DS-T3-016`](../../assessments/data-science/tier-3/units/DS-09-decision-and-business-analytics/DS-T3-016-lower-the-cutoff/README.md) | Lower the Cut-off? A Credit Decision Where Outcomes Exist Only for the Approved | data-science | 3 | 25–40 h |
 
 ## Development Indicators (2)
 
@@ -69,20 +98,27 @@
 | [`DS-T1-004`](../../assessments/data-science/tier-1/units/DS-02-data-acquisition-and-sourcing/DS-T1-004-every-page-exactly-once/README.md) | Every Page, Exactly Once: A Resilient Client for the World Bank Indicators API | data-science | 1 | 10–16 h |
 | [`DS-T2-004`](../../assessments/data-science/tier-2/units/DS-02-data-acquisition-and-sourcing/DS-T2-004-rain-grain-and-granularity/README.md) | Rain, Grain and Granularity: Fusing Open Climate, Crop and Development Data at Mismatched Scales | data-science | 2 | 20–35 h |
 
+## Digital Lending (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-022`](../../assessments/data-science/tier-3/units/DS-12-applied-research-and-communication/DS-T3-022-referee-report/README.md) | Referee Report: Auditing an Industry Whitepaper's Causal Claim and Re-analysing the Data | data-science | 3 | 22–36 h |
+
 ## Digital Ticketing (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-014`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-014-collision-course/README.md) | Collision Course: How Long Must a Booking Reference Be? | data-science | 1 | 8–14 h |
 
-## Education (2)
+## Education (3)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-006`](../../assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-006-the-registry-that-lies/README.md) | The Registry That Lies: Forensic Cleaning of a Student Records Export | data-science | 1 | 10–16 h |
+| [`DS-T1-029`](../../assessments/data-science/tier-1/units/DS-12-applied-research-and-communication/DS-T1-029-the-claim-in-the-press-release/README.md) | The Claim in the Press Release: Auditing a School-Meals Attendance Claim with Honest Intervals | data-science | 1 | 10–16 h |
 | [`DS-T2-009`](../../assessments/data-science/tier-2/units/DS-05-probability-and-statistics/DS-T2-009-small-schools-big-swings/README.md) | Small Schools, Big Swings: Empirical Bayes for School Pass Rates | data-science | 2 | 20–35 h |
 
-## Energy (6)
+## Energy (9)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
@@ -91,7 +127,10 @@
 | [`DS-T1-015`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-015-the-truth-behind-the-chart/README.md) | The Truth Behind the Chart: Forensics of Misleading Graphics | data-science | 1 | 10–16 h |
 | [`DS-T2-001`](../../assessments/data-science/tier-2/units/DS-01-python-and-data-wrangling/DS-T2-001-feeder-hours-out-of-core/README.md) | Feeder Hours, Out of Core: pandas vs Polars vs DuckDB on Smart-Meter Data | data-science | 2 | 20–35 h |
 | [`DS-T2-012`](../../assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-012-the-tariff-band-explorable/README.md) | The Tariff Band Explorable: Explaining an Electricity Policy Trade-off to Households | data-science | 2 | 20–35 h |
+| [`DS-T2-013`](../../assessments/data-science/tier-2/units/DS-07-sql-and-database-analytics/DS-T2-013-the-slow-meter-report/README.md) | The Slow Meter Report: Making Five Analytical Queries Fast Without Making Them Wrong | data-science | 2 | 10–16 h |
+| [`DS-T2-018`](../../assessments/data-science/tier-2/units/DS-09-decision-and-business-analytics/DS-T2-018-diesel-or-sun/README.md) | Diesel or Sun? A Ten-Year Power Decision for a Rural Health Centre | data-science | 2 | 14–22 h |
 | [`DS-T3-003`](../../assessments/data-science/tier-3/units/DS-03-data-cleaning-and-quality/DS-T3-003-the-garden-of-forking-paths/README.md) | The Garden of Forking Paths: A Multiverse Study of Cleaning Choices | data-science | 3 | 35–60 h |
+| [`DS-T3-013`](../../assessments/data-science/tier-3/units/DS-08-inference-experimentation-and-causality/DS-T3-013-the-minister-wants-a-number/README.md) | The Minister Wants a Number: Auditing a Staggered Solar Mini-Grid Evaluation | data-science | 3 | 25–40 h |
 
 ## Energy Access (1)
 
@@ -105,7 +144,19 @@
 |---|---|---|---|---|
 | [`DS-T1-008`](../../assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-008-stuck-drifting-spiking/README.md) | Stuck, Drifting, Spiking: Validation Rules for a Low-Cost Air-Quality Network | data-science | 1 | 12–18 h |
 
-## Fintech (6)
+## Experimentation (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T2-015`](../../assessments/data-science/tier-2/units/DS-08-inference-experimentation-and-causality/DS-T2-015-ship-it-or-shelve-it/README.md) | Ship It or Shelve It? Auditing a Fintech A/B Test with Traps | data-science | 2 | 14–22 h |
+
+## Financial Inclusion (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T2-025`](../../assessments/data-science/tier-2/units/DS-12-applied-research-and-communication/DS-T2-025-robust-or-fragile/README.md) | Robust or Fragile? A Specification-Curve and Sensitivity Analysis of a Mobile-Banking Training Programme | data-science | 2 | 16–26 h |
+
+## Fintech (14)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
@@ -113,8 +164,16 @@
 | [`DS-T1-011`](../../assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-011-the-confident-notebook/README.md) | The Confident Notebook: Auditing the Claims of an Exploratory Analysis | data-science | 1 | 10–16 h |
 | [`DS-T1-013`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-013-how-sure-are-we/README.md) | How Sure Are We? Bootstrap and Analytical Intervals Under a Coverage Experiment | data-science | 1 | 10–16 h |
 | [`DS-T1-015`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-015-the-truth-behind-the-chart/README.md) | The Truth Behind the Chart: Forensics of Misleading Graphics | data-science | 1 | 10–16 h |
+| [`DS-T1-018`](../../assessments/data-science/tier-1/units/DS-07-sql-and-database-analytics/DS-T1-018-the-thrift-book/README.md) | The Thrift Book: Ten Questions for a Market Cooperative | data-science | 1 | 6–10 h |
+| [`DS-T1-021`](../../assessments/data-science/tier-1/units/DS-08-inference-experimentation-and-causality/DS-T1-021-how-sure-is-the-average/README.md) | How Sure Is the Average? Confidence Intervals for Mobile-Money Cash-Outs | data-science | 1 | 8–14 h |
+| [`DS-T1-025`](../../assessments/data-science/tier-1/units/DS-10-time-series-and-forecasting/DS-T1-025-the-agent-who-went-quiet/README.md) | The Agent Who Went Quiet: Baseline Forecasts from a Gappy Mobile-Money Ledger | data-science | 1 | 8–14 h |
 | [`DS-T2-006`](../../assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-006-the-feed-that-breaks/README.md) | The Feed That Breaks: A Data Contract and Validation Framework for a Partner Feed | data-science | 2 | 20–35 h |
 | [`DS-T2-011`](../../assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-011-one-house-style/README.md) | One House Style: An Accessible, Regression-Tested Chart Style System | data-science | 2 | 20–35 h |
+| [`DS-T2-015`](../../assessments/data-science/tier-2/units/DS-08-inference-experimentation-and-causality/DS-T2-015-ship-it-or-shelve-it/README.md) | Ship It or Shelve It? Auditing a Fintech A/B Test with Traps | data-science | 2 | 14–22 h |
+| [`DS-T2-023`](../../assessments/data-science/tier-2/units/DS-11-analytical-pipelines-and-data-engineering/DS-T2-023-late-arrivals/README.md) | Late Arrivals: Incremental Revenue Aggregation with Watermarks, Corrections and Bounded Memory | data-science | 2 | 14–22 h |
+| [`DS-T3-011`](../../assessments/data-science/tier-3/units/DS-07-sql-and-database-analytics/DS-T3-011-the-agent-ledger-model/README.md) | The Agent Ledger Model: Point-in-Time Analytics for a Mobile-Money Network | data-science | 3 | 18–28 h |
+| [`DS-T3-016`](../../assessments/data-science/tier-3/units/DS-09-decision-and-business-analytics/DS-T3-016-lower-the-cutoff/README.md) | Lower the Cut-off? A Credit Decision Where Outcomes Exist Only for the Approved | data-science | 3 | 25–40 h |
+| [`DS-T3-022`](../../assessments/data-science/tier-3/units/DS-12-applied-research-and-communication/DS-T3-022-referee-report/README.md) | Referee Report: Auditing an Industry Whitepaper's Causal Claim and Re-analysing the Data | data-science | 3 | 22–36 h |
 
 ## Food Markets (1)
 
@@ -137,12 +196,13 @@
 | [`DS-T1-007`](../../assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-007-bags-basins-and-tonnes/README.md) | Bags, Basins and Tonnes: Harmonising a Smallholder Harvest Survey | data-science | 1 | 10–16 h |
 | [`DS-T2-007`](../../assessments/data-science/tier-2/units/DS-04-exploratory-data-analysis/DS-T2-007-rain-before-the-price/README.md) | Rain Before the Price: Multi-Source EDA of Rainfall Anomalies and Food Prices | data-science | 2 | 20–35 h |
 
-## Health (2)
+## Health (3)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-009`](../../assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-009-the-paradox-ward/README.md) | The Paradox Ward: Stratified Exploration of Hospital Outcome Rankings | data-science | 1 | 8–14 h |
 | [`DS-T2-005`](../../assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-005-same-patient-two-registers/README.md) | Same Patient, Two Registers: Probabilistic vs Deterministic Record Linkage | data-science | 2 | 20–35 h |
+| [`DS-T3-018`](../../assessments/data-science/tier-3/units/DS-10-time-series-and-forecasting/DS-T3-018-one-number-many-clinics/README.md) | One Number, Many Clinics: Reconciling Hierarchical Forecasts Across a Health Network | data-science | 3 | 22–34 h |
 
 ## Health Information Systems (1)
 
@@ -150,17 +210,35 @@
 |---|---|---|---|---|
 | [`DS-T2-005`](../../assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-005-same-patient-two-registers/README.md) | Same Patient, Two Registers: Probabilistic vs Deterministic Record Linkage | data-science | 2 | 20–35 h |
 
+## Health Infrastructure (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T2-018`](../../assessments/data-science/tier-2/units/DS-09-decision-and-business-analytics/DS-T2-018-diesel-or-sun/README.md) | Diesel or Sun? A Ten-Year Power Decision for a Rural Health Centre | data-science | 2 | 14–22 h |
+
 ## Human Centred Design (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T2-012`](../../assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-012-the-tariff-band-explorable/README.md) | The Tariff Band Explorable: Explaining an Electricity Policy Trade-off to Households | data-science | 2 | 20–35 h |
 
+## Human Perception (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-009`](../../assessments/data-science/tier-3/units/DS-06-visualization-and-storytelling/DS-T3-009-the-perception-experiment/README.md) | The Perception Experiment: Which Chart Do People Read Most Accurately? | data-science | 3 | 16–24 h |
+
 ## Hydrology (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T2-010`](../../assessments/data-science/tier-2/units/DS-05-probability-and-statistics/DS-T2-010-the-25-year-storm/README.md) | The 25-Year Storm: Extreme Value Analysis of Rainfall for Drainage Design | data-science | 2 | 20–35 h |
+
+## Insurance (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-008`](../../assessments/data-science/tier-3/units/DS-05-probability-and-statistics/DS-T3-008-do-the-intervals-cover/README.md) | Do the Intervals Cover? A Simulation Study of Confidence Intervals for Clustered Claims | data-science | 3 | 16–24 h |
 
 ## Iot Sensors (1)
 
@@ -174,27 +252,59 @@
 |---|---|---|---|---|
 | [`DS-T1-017`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-017-hot-days-small-multiples/README.md) | Hot Days, Six Cities: A Small-Multiples Climate Story from NASA POWER | data-science | 1 | 10–16 h |
 
+## Licensing (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-001`](../../assessments/data-science/tier-3/units/DS-02-data-acquisition-and-sourcing/DS-T3-001-the-dataset-worth-citing/README.md) | The Dataset Worth Citing: A Provenance and Licence Audit of a Data Catalogue | data-science | 3 | 14–22 h |
+
+## Local Government (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T1-027`](../../assessments/data-science/tier-1/units/DS-11-analytical-pipelines-and-data-engineering/DS-T1-027-run-it-twice/README.md) | Run It Twice: An Idempotent, Auditable Loader for Daily Market-Levy Files | data-science | 1 | 8–14 h |
+
 ## Media Literacy (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-015`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-015-the-truth-behind-the-chart/README.md) | The Truth Behind the Chart: Forensics of Misleading Graphics | data-science | 1 | 10–16 h |
 
-## Mobile Money (5)
+## Mobile Money (7)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-002`](../../assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-002-the-ledger-that-double-counts/README.md) | The Ledger That Double-Counts: Debugging a Mobile-Money Settlement Pipeline | data-science | 1 | 8–14 h |
 | [`DS-T1-011`](../../assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-011-the-confident-notebook/README.md) | The Confident Notebook: Auditing the Claims of an Exploratory Analysis | data-science | 1 | 10–16 h |
 | [`DS-T1-013`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-013-how-sure-are-we/README.md) | How Sure Are We? Bootstrap and Analytical Intervals Under a Coverage Experiment | data-science | 1 | 10–16 h |
+| [`DS-T1-025`](../../assessments/data-science/tier-1/units/DS-10-time-series-and-forecasting/DS-T1-025-the-agent-who-went-quiet/README.md) | The Agent Who Went Quiet: Baseline Forecasts from a Gappy Mobile-Money Ledger | data-science | 1 | 8–14 h |
 | [`DS-T2-006`](../../assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-006-the-feed-that-breaks/README.md) | The Feed That Breaks: A Data Contract and Validation Framework for a Partner Feed | data-science | 2 | 20–35 h |
 | [`DS-T2-011`](../../assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-011-one-house-style/README.md) | One House Style: An Accessible, Regression-Tested Chart Style System | data-science | 2 | 20–35 h |
+| [`DS-T3-011`](../../assessments/data-science/tier-3/units/DS-07-sql-and-database-analytics/DS-T3-011-the-agent-ledger-model/README.md) | The Agent Ledger Model: Point-in-Time Analytics for a Mobile-Money Network | data-science | 3 | 18–28 h |
+
+## Nigeria (7)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T1-018`](../../assessments/data-science/tier-1/units/DS-07-sql-and-database-analytics/DS-T1-018-the-thrift-book/README.md) | The Thrift Book: Ten Questions for a Market Cooperative | data-science | 1 | 6–10 h |
+| [`DS-T2-013`](../../assessments/data-science/tier-2/units/DS-07-sql-and-database-analytics/DS-T2-013-the-slow-meter-report/README.md) | The Slow Meter Report: Making Five Analytical Queries Fast Without Making Them Wrong | data-science | 2 | 10–16 h |
+| [`DS-T3-001`](../../assessments/data-science/tier-3/units/DS-02-data-acquisition-and-sourcing/DS-T3-001-the-dataset-worth-citing/README.md) | The Dataset Worth Citing: A Provenance and Licence Audit of a Data Catalogue | data-science | 3 | 14–22 h |
+| [`DS-T3-005`](../../assessments/data-science/tier-3/units/DS-04-exploratory-data-analysis/DS-T3-005-the-line-that-got-slower/README.md) | The Line That Got Slower: Decomposing a Headline and Finding the Instrument Break | data-science | 3 | 14–22 h |
+| [`DS-T3-008`](../../assessments/data-science/tier-3/units/DS-05-probability-and-statistics/DS-T3-008-do-the-intervals-cover/README.md) | Do the Intervals Cover? A Simulation Study of Confidence Intervals for Clustered Claims | data-science | 3 | 16–24 h |
+| [`DS-T3-009`](../../assessments/data-science/tier-3/units/DS-06-visualization-and-storytelling/DS-T3-009-the-perception-experiment/README.md) | The Perception Experiment: Which Chart Do People Read Most Accurately? | data-science | 3 | 16–24 h |
+| [`DS-T3-011`](../../assessments/data-science/tier-3/units/DS-07-sql-and-database-analytics/DS-T3-011-the-agent-ledger-model/README.md) | The Agent Ledger Model: Point-in-Time Analytics for a Mobile-Money Network | data-science | 3 | 18–28 h |
 
 ## Official Statistics (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-001`](../../assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-001-the-price-watch-bulletin/README.md) | The Price Watch Bulletin: From Spreadsheet Export to Tidy Data | data-science | 1 | 8–14 h |
+
+## Open Data (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-001`](../../assessments/data-science/tier-3/units/DS-02-data-acquisition-and-sourcing/DS-T3-001-the-dataset-worth-citing/README.md) | The Dataset Worth Citing: A Provenance and Licence Audit of a Data Catalogue | data-science | 3 | 14–22 h |
 
 ## Open Government Data (2)
 
@@ -209,12 +319,42 @@
 |---|---|---|---|---|
 | [`DS-T1-012`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-012-the-fuel-queue/README.md) | The Fuel Queue: Simulating a Filling Station During Scarcity | data-science | 1 | 10–16 h |
 
+## Operations Research (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T1-023`](../../assessments/data-science/tier-1/units/DS-09-decision-and-business-analytics/DS-T1-023-how-many-crates/README.md) | How Many Crates? Inventory Decisions with Censored Demand at Mile 12 | data-science | 1 | 8–14 h |
+
+## Policy Evaluation (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-013`](../../assessments/data-science/tier-3/units/DS-08-inference-experimentation-and-causality/DS-T3-013-the-minister-wants-a-number/README.md) | The Minister Wants a Number: Auditing a Staggered Solar Mini-Grid Evaluation | data-science | 3 | 25–40 h |
+
 ## Power (2)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-010`](../../assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-010-hours-on-the-feeder/README.md) | Hours on the Feeder: Supply-Hours Exploration of Electricity Outage Logs | data-science | 1 | 10–16 h |
 | [`DS-T2-001`](../../assessments/data-science/tier-2/units/DS-01-python-and-data-wrangling/DS-T2-001-feeder-hours-out-of-core/README.md) | Feeder Hours, Out of Core: pandas vs Polars vs DuckDB on Smart-Meter Data | data-science | 2 | 20–35 h |
+
+## Power Energy (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T2-020`](../../assessments/data-science/tier-2/units/DS-10-time-series-and-forecasting/DS-T2-020-which-forecast-do-you-trust/README.md) | Which Forecast Do You Trust? Benchmarking Load Forecasts with Honest Intervals on Power Feeders | data-science | 2 | 14–22 h |
+
+## Power Utilities (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T2-013`](../../assessments/data-science/tier-2/units/DS-07-sql-and-database-analytics/DS-T2-013-the-slow-meter-report/README.md) | The Slow Meter Report: Making Five Analytical Queries Fast Without Making Them Wrong | data-science | 2 | 10–16 h |
+
+## Price Statistics (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-020`](../../assessments/data-science/tier-3/units/DS-11-analytical-pipelines-and-data-engineering/DS-T3-020-same-schema-different-truth/README.md) | Same Schema, Different Truth: A Data-Contract and Drift Gate for a Market-Price Feed | data-science | 3 | 22–34 h |
 
 ## Programme Evaluation (1)
 
@@ -229,10 +369,29 @@
 | [`DS-T1-015`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-015-the-truth-behind-the-chart/README.md) | The Truth Behind the Chart: Forensics of Misleading Graphics | data-science | 1 | 10–16 h |
 | [`DS-T1-017`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-017-hot-days-small-multiples/README.md) | Hot Days, Six Cities: A Small-Multiples Climate Story from NASA POWER | data-science | 1 | 10–16 h |
 
-## Public Policy (1)
+## Public Finance (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`DS-T1-027`](../../assessments/data-science/tier-1/units/DS-11-analytical-pipelines-and-data-engineering/DS-T1-027-run-it-twice/README.md) | Run It Twice: An Idempotent, Auditable Loader for Daily Market-Levy Files | data-science | 1 | 8–14 h |
+
+## Public Health Communication (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-009`](../../assessments/data-science/tier-3/units/DS-06-visualization-and-storytelling/DS-T3-009-the-perception-experiment/README.md) | The Perception Experiment: Which Chart Do People Read Most Accurately? | data-science | 3 | 16–24 h |
+
+## Public Health Planning (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-018`](../../assessments/data-science/tier-3/units/DS-10-time-series-and-forecasting/DS-T3-018-one-number-many-clinics/README.md) | One Number, Many Clinics: Reconciling Hierarchical Forecasts Across a Health Network | data-science | 3 | 22–34 h |
+
+## Public Policy (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T1-029`](../../assessments/data-science/tier-1/units/DS-12-applied-research-and-communication/DS-T1-029-the-claim-in-the-press-release/README.md) | The Claim in the Press Release: Auditing a School-Meals Attendance Claim with Honest Intervals | data-science | 1 | 10–16 h |
 | [`DS-T2-012`](../../assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-012-the-tariff-band-explorable/README.md) | The Tariff Band Explorable: Explaining an Electricity Policy Trade-off to Households | data-science | 2 | 20–35 h |
 
 ## Public Procurement (1)
@@ -261,11 +420,23 @@
 |---|---|---|---|---|
 | [`DS-T1-010`](../../assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-010-hours-on-the-feeder/README.md) | Hours on the Feeder: Supply-Hours Exploration of Electricity Outage Logs | data-science | 1 | 10–16 h |
 
+## Research Data (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-001`](../../assessments/data-science/tier-3/units/DS-02-data-acquisition-and-sourcing/DS-T3-001-the-dataset-worth-citing/README.md) | The Dataset Worth Citing: A Provenance and Licence Audit of a Data Catalogue | data-science | 3 | 14–22 h |
+
 ## Research Publishing (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T2-011`](../../assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-011-one-house-style/README.md) | One House Style: An Accessible, Regression-Tested Chart Style System | data-science | 2 | 20–35 h |
+
+## Retail (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T1-023`](../../assessments/data-science/tier-1/units/DS-09-decision-and-business-analytics/DS-T1-023-how-many-crates/README.md) | How Many Crates? Inventory Decisions with Censored Demand at Mile 12 | data-science | 1 | 8–14 h |
 
 ## Rural Electrification (1)
 
@@ -291,6 +462,12 @@
 |---|---|---|---|---|
 | [`DS-T3-003`](../../assessments/data-science/tier-3/units/DS-03-data-cleaning-and-quality/DS-T3-003-the-garden-of-forking-paths/README.md) | The Garden of Forking Paths: A Multiverse Study of Cleaning Choices | data-science | 3 | 35–60 h |
 
+## Statistics (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T1-021`](../../assessments/data-science/tier-1/units/DS-08-inference-experimentation-and-causality/DS-T1-021-how-sure-is-the-average/README.md) | How Sure Is the Average? Confidence Intervals for Mobile-Money Cash-Outs | data-science | 1 | 8–14 h |
+
 ## Survey Data (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
@@ -304,12 +481,19 @@
 | [`DS-T1-013`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-013-how-sure-are-we/README.md) | How Sure Are We? Bootstrap and Analytical Intervals Under a Coverage Experiment | data-science | 1 | 10–16 h |
 | [`DS-T1-016`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-016-honest-about-uncertainty/README.md) | Honest About Uncertainty: Interval Plots, Quantile Dotplots and Fan Charts | data-science | 1 | 10–16 h |
 
-## Transport (2)
+## Telecoms (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T2-023`](../../assessments/data-science/tier-2/units/DS-11-analytical-pipelines-and-data-engineering/DS-T2-023-late-arrivals/README.md) | Late Arrivals: Incremental Revenue Aggregation with Watermarks, Corrections and Bounded Memory | data-science | 2 | 14–22 h |
+
+## Transport (3)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-012`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-012-the-fuel-queue/README.md) | The Fuel Queue: Simulating a Filling Station During Scarcity | data-science | 1 | 10–16 h |
 | [`DS-T1-014`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-014-collision-course/README.md) | Collision Course: How Long Must a Booking Reference Be? | data-science | 1 | 8–14 h |
+| [`DS-T3-005`](../../assessments/data-science/tier-3/units/DS-04-exploratory-data-analysis/DS-T3-005-the-line-that-got-slower/README.md) | The Line That Got Slower: Decomposing a Headline and Finding the Instrument Break | data-science | 3 | 14–22 h |
 
 ## Urban Infrastructure (1)
 
@@ -317,9 +501,28 @@
 |---|---|---|---|---|
 | [`DS-T2-010`](../../assessments/data-science/tier-2/units/DS-05-probability-and-statistics/DS-T2-010-the-25-year-storm/README.md) | The 25-Year Storm: Extreme Value Analysis of Rainfall for Drainage Design | data-science | 2 | 20–35 h |
 
-## Utilities (1)
+## Urban Mobility (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-005`](../../assessments/data-science/tier-3/units/DS-04-exploratory-data-analysis/DS-T3-005-the-line-that-got-slower/README.md) | The Line That Got Slower: Decomposing a Headline and Finding the Instrument Break | data-science | 3 | 14–22 h |
+
+## Utilities (2)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T2-001`](../../assessments/data-science/tier-2/units/DS-01-python-and-data-wrangling/DS-T2-001-feeder-hours-out-of-core/README.md) | Feeder Hours, Out of Core: pandas vs Polars vs DuckDB on Smart-Meter Data | data-science | 2 | 20–35 h |
+| [`DS-T2-020`](../../assessments/data-science/tier-2/units/DS-10-time-series-and-forecasting/DS-T2-020-which-forecast-do-you-trust/README.md) | Which Forecast Do You Trust? Benchmarking Load Forecasts with Honest Intervals on Power Feeders | data-science | 2 | 14–22 h |
+
+## Visualization (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-009`](../../assessments/data-science/tier-3/units/DS-06-visualization-and-storytelling/DS-T3-009-the-perception-experiment/README.md) | The Perception Experiment: Which Chart Do People Read Most Accurately? | data-science | 3 | 16–24 h |
+
+## West Africa (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`DS-T3-011`](../../assessments/data-science/tier-3/units/DS-07-sql-and-database-analytics/DS-T3-011-the-agent-ledger-model/README.md) | The Agent Ledger Model: Point-in-Time Analytics for a Mobile-Money Network | data-science | 3 | 18–28 h |
 
