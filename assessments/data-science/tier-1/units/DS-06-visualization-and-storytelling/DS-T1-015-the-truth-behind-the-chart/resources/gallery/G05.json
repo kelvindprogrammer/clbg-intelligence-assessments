@@ -1,0 +1,26 @@
+{
+  "data": "G05.csv",
+  "id": "G05",
+  "title": "Rainfall anomalies, Jos plateau stations",
+  "claim": "The 2020s show a clear new rainfall regime.",
+  "mark": "heatmap",
+  "x": {
+    "field": "month",
+    "type": "ordinal",
+    "label": "Month"
+  },
+  "y": {
+    "field": "year",
+    "type": "ordinal",
+    "label": "Year",
+    "domain": null,
+    "reverse": false
+  },
+  "color": {
+    "field": "rain_anomaly_pct",
+    "scheme": "jet",
+    "scale": "diverging",
+    "label": "Rainfall anomaly (% of 1991-2020 mean)"
+  },
+  "source": "State agro-met unit (fictional)"
+}

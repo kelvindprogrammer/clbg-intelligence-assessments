@@ -1,0 +1,23 @@
+{
+  "data": "G09.csv",
+  "id": "G09",
+  "title": "Kwara United's climb up the league table",
+  "claim": "The club rose from 14th to 1st in eight seasons.",
+  "mark": "line",
+  "x": {
+    "field": "season",
+    "type": "ordinal",
+    "label": "Season"
+  },
+  "y": {
+    "field": "league_position",
+    "type": "rank",
+    "label": "League position (1 = top)",
+    "domain": [
+      1,
+      20
+    ],
+    "reverse": true
+  },
+  "source": "League tables (fictional club)"
+}

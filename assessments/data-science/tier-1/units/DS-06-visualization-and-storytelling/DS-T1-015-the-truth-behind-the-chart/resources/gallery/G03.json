@@ -1,0 +1,28 @@
+{
+  "data": "G03.csv",
+  "id": "G03",
+  "title": "Grid supply is finally improving",
+  "claim": "Average daily supply hours are rising under the new distribution company.",
+  "mark": "line",
+  "x": {
+    "field": "month",
+    "type": "temporal",
+    "label": "Month"
+  },
+  "y": {
+    "field": "supply_hours",
+    "type": "quantitative",
+    "label": "Average daily supply hours",
+    "domain": [
+      7,
+      11.5
+    ],
+    "reverse": false
+  },
+  "filter": {
+    "field": "month",
+    "from": "2024-11",
+    "to": "2025-06"
+  },
+  "source": "Distribution company (fictional) monthly bulletin"
+}

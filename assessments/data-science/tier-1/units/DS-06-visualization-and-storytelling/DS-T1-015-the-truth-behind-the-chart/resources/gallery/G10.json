@@ -1,0 +1,28 @@
+{
+  "data": "G10.csv",
+  "id": "G10",
+  "title": "Credit pass rates soar",
+  "claim": "Five-credit pass rates rose sharply between 2021 and 2024.",
+  "mark": "bar",
+  "x": {
+    "field": "year",
+    "type": "temporal",
+    "label": "Exam year"
+  },
+  "y": {
+    "field": "pass_rate_pct",
+    "type": "quantitative",
+    "label": "Candidates with five credits (%)",
+    "domain": [
+      55,
+      80
+    ],
+    "reverse": false
+  },
+  "filter": {
+    "field": "year",
+    "from": 2021,
+    "to": 2024
+  },
+  "source": "  "
+}

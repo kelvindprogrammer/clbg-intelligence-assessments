@@ -1,0 +1,54 @@
+id: DS-T2-012
+title: "The Tariff Band Explorable: Explaining an Electricity Policy Trade-off to Households"
+summary: >-
+  Build a sourced, tested model and a phone-friendly explorable explanation of the trade-off between
+  electricity tariff bands, supply hours and backup-power costs, then evaluate it with 3-5 consenting
+  participants against a static baseline and revise it.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-06
+format: open-ended
+secondary_formats: [investigation]
+domains: [energy, public-policy, consumer-advocacy, human-centred-design]
+technologies: [python, pandas, jsonschema, pytest, html, javascript]
+prerequisites:
+  knowledge:
+    - Python and pandas
+    - Basic HTML, CSS and JavaScript
+    - Honest encodings and uncertainty display at DS-06 Tier 1 level
+  recommended_assessments: [DS-T1-016]
+competencies:
+  - Framing a policy trade-off as a small, transparent, tested model
+  - Verifying and citing parameters from primary regulatory sources
+  - Designing explorable explanations documented by machine-readable view specs
+  - Running consented, pseudonymous small-sample usability studies against a baseline
+  - Reporting findings honestly and revising a design in response
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 3, mathematical: 2, research: 3, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+  notes: "Internet is needed to research and cite tariff orders and fuel prices; the explorable and tests run offline."
+collaboration: individual
+datasets: [member-sourced]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [explorable-explanation, usability-testing, energy-policy, tariffs, nigeria, accessibility]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

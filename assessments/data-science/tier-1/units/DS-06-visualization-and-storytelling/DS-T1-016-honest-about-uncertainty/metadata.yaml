@@ -1,0 +1,56 @@
+id: DS-T1-016
+title: "Honest About Uncertainty: Interval Plots, Quantile Dotplots and Fan Charts"
+summary: >-
+  Build a tested library that turns survey estimates and quantile forecasts into honest displays
+  (Wilson interval plots, threshold-aligned quantile dotplots, nested fan charts), refuse incoherent
+  forecasts, and write a one-page market bulletin for a maize-storage decision.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-06
+format: implementation
+secondary_formats: [investigation]
+domains: [agriculture, food-prices, survey-statistics]
+technologies: [python, numpy, scipy, pandas, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - Python and pandas basics
+    - matplotlib line, scatter and fill_between
+    - Quantiles and confidence intervals at an introductory level
+    - Running pytest
+  recommended_assessments: [DS-T1-015]
+competencies:
+  - Computing Wilson intervals and explaining Wald failures at small n
+  - Building quantile dotplots with threshold-aligned bins and frequency framing
+  - Building nested fan charts from quantile forecasts
+  - Detecting and repairing crossing quantiles without silent fixes
+  - Verifying chart geometry programmatically
+  - Writing decision-oriented, non-prescriptive uncertainty communication
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 2, mathematical: 3, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/generate_data.py
+ci:
+  contract_tests: true
+  heavy: false
+tags: [uncertainty, wilson-interval, quantile-dotplot, fan-chart, agriculture, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

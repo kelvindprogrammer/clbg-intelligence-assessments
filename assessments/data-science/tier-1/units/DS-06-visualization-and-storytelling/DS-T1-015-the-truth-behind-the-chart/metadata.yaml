@@ -1,0 +1,56 @@
+id: DS-T1-015
+title: "The Truth Behind the Chart: Forensics of Misleading Graphics"
+summary: >-
+  Audit a gallery of published charts against an exact defect policy (truncated bars, dual axes,
+  cherry-picked windows, area distortion, misleading colormaps, inverted axes, missing sources),
+  compute Tufte's lie factor, and redraw each chart honestly as an inspectable matplotlib Figure.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-06
+format: debugging-forensics
+secondary_formats: [implementation]
+domains: [media-literacy, fintech, energy, agriculture, public-communication]
+technologies: [python, pandas, numpy, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - Python functions, modules and packages
+    - pandas DataFrame basics
+    - matplotlib subplots, bar and line charts, axis limits
+    - Percentages and a least-squares slope
+    - Running pytest
+competencies:
+  - Mapping visual channels (length, position, area, lightness) to the quantities they encode
+  - Computing and interpreting Tufte's lie factor
+  - Distinguishing legitimate emphasis from distortion (zero baselines, rank axes, windows, log scales)
+  - Converting sRGB to CIELAB and auditing colormap lightness profiles
+  - Building honest redraws whose properties are verified programmatically
+  - Writing honest headlines and neutral critiques of published graphics
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [visualization, lie-factor, colormaps, cielab, chart-forensics, matplotlib]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

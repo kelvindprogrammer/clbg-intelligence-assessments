@@ -1,0 +1,23 @@
+{
+  "data": "G07.csv",
+  "id": "G07",
+  "title": "Mean annual temperature, Ibadan",
+  "claim": "Ibadan's mean temperature has risen by roughly 0.7 C over 30 years.",
+  "mark": "line",
+  "x": {
+    "field": "year",
+    "type": "temporal",
+    "label": "Year"
+  },
+  "y": {
+    "field": "mean_temp_c",
+    "type": "quantitative",
+    "label": "Mean annual temperature (C)",
+    "domain": [
+      26,
+      28
+    ],
+    "reverse": false
+  },
+  "source": "Synthetic series for CLBG training, modelled on reanalysis data"
+}

@@ -1,0 +1,18 @@
+{
+  "data": "G04.csv",
+  "id": "G04",
+  "title": "Kano cooperatives dwarf the rest",
+  "claim": "Kano's farmer cooperatives are four times the size of Oyo's.",
+  "mark": "bubble",
+  "x": {
+    "field": "state",
+    "type": "nominal",
+    "label": "State"
+  },
+  "y": null,
+  "size": {
+    "field": "members",
+    "scale": "radius"
+  },
+  "source": "Cooperative federation (fictional) census, 2024"
+}

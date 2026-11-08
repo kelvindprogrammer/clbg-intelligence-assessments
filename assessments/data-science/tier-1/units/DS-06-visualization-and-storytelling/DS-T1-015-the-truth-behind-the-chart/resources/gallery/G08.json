@@ -1,0 +1,21 @@
+{
+  "data": "G08.csv",
+  "id": "G08",
+  "title": "Instant transfer value, 2012-2024 (log scale)",
+  "claim": "Instant-transfer value grew at a fairly steady rate of about 60% a year.",
+  "mark": "line",
+  "x": {
+    "field": "year",
+    "type": "temporal",
+    "label": "Year"
+  },
+  "y": {
+    "field": "value_tn_ngn",
+    "type": "quantitative",
+    "label": "Annual value (NGN trillion, log scale)",
+    "domain": null,
+    "reverse": false,
+    "scale": "log"
+  },
+  "source": "Synthetic series for CLBG training"
+}

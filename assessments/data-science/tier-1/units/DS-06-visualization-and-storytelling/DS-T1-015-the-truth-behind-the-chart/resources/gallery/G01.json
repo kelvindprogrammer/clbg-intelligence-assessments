@@ -1,0 +1,23 @@
+{
+  "data": "G01.csv",
+  "id": "G01",
+  "title": "PayLink agent network: explosive growth",
+  "claim": "Our agent network more than tripled in two years.",
+  "mark": "bar",
+  "x": {
+    "field": "quarter",
+    "type": "ordinal",
+    "label": "Quarter"
+  },
+  "y": {
+    "field": "active_agents",
+    "type": "quantitative",
+    "label": "Active agents",
+    "domain": [
+      480000,
+      520000
+    ],
+    "reverse": false
+  },
+  "source": "PayLink (fictional) investor presentation, 2025"
+}

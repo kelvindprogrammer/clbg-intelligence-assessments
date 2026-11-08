@@ -1,0 +1,55 @@
+id: DS-T2-011
+title: "One House Style: An Accessible, Regression-Tested Chart Style System"
+summary: >-
+  Build a research desk's chart style system: implement CVD simulation, colour difference and WCAG
+  contrast; design a palette that beats tab10 under an independent audit; provide a theme and
+  annotation API; and calibrate a visual-regression check from measured benign and meaningful changes.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 2
+unit: DS-06
+format: implementation
+secondary_formats: [comparative]
+domains: [fintech, mobile-money, accessibility, research-publishing]
+technologies: [python, numpy, pandas, matplotlib, pytest]
+prerequisites:
+  knowledge:
+    - matplotlib rcParams, artists and savefig
+    - numpy array programming
+    - sRGB, CIELAB and colour difference at an introductory level
+    - pytest fixtures and parametrisation
+  recommended_assessments: [DS-T1-015]
+competencies:
+  - Implementing published colour-vision-deficiency simulations and colour-difference formulas
+  - Designing and auditing an accessible categorical palette against a baseline
+  - Building a stateless theme and annotation API
+  - Designing and calibrating visual-regression checks from measured perturbations
+  - Writing a quantitative design rationale and a practical style guide
+estimated_hours: {min: 20, max: 35}
+difficulty: {technical: 3, mathematical: 3, research: 3, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/generate_data.py
+ci:
+  contract_tests: true
+  heavy: false
+tags: [style-system, accessibility, colour-vision-deficiency, wcag, visual-regression, matplotlib]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

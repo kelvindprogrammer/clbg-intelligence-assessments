@@ -1,0 +1,31 @@
+{
+  "data": "G02.csv",
+  "id": "G02",
+  "title": "As data got cheaper, smartphones took over",
+  "claim": "Cheaper data caused smartphone adoption to overtake feature phones in 2020.",
+  "mark": "line",
+  "x": {
+    "field": "year",
+    "type": "temporal",
+    "label": "Year"
+  },
+  "y": {
+    "field": "price_per_gb_ngn",
+    "type": "quantitative",
+    "label": "Average price per GB (NGN)",
+    "domain": [
+      200,
+      1100
+    ],
+    "reverse": false
+  },
+  "y2": {
+    "field": "smartphone_share_pct",
+    "label": "Smartphone share of handsets (%)",
+    "domain": [
+      0,
+      60
+    ]
+  },
+  "source": null
+}

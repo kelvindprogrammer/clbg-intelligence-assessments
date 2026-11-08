@@ -1,0 +1,55 @@
+id: DS-T1-017
+title: "Hot Days, Six Cities: A Small-Multiples Climate Story from NASA POWER"
+summary: >-
+  Parse real NASA POWER reanalysis data for six Nigerian cities, compute hot-day indicators under
+  fixed and city-relative thresholds with explicit missing-data rules, and tell an honest
+  small-multiples story about whether hot days are becoming more common.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 1
+unit: DS-06
+format: investigation
+secondary_formats: [implementation]
+domains: [climate, journalism, public-communication]
+technologies: [python, pandas, numpy, matplotlib, pytest, rest-api]
+prerequisites:
+  knowledge:
+    - pandas datetime columns and groupby
+    - matplotlib subplots
+    - Percentiles
+    - Running pytest
+  recommended_assessments: [DS-T1-015]
+competencies:
+  - Parsing a real scientific data product with a header block and fill values
+  - Defining climate indicators with explicit threshold and completeness rules
+  - Comparing periods and refusing unsupported comparisons
+  - Designing small multiples (ordering, shared scales, annotation) verified programmatically
+  - Writing an evidence-led visual story that states data limitations and avoids attribution claims
+estimated_hours: {min: 10, max: 16}
+difficulty: {technical: 2, mathematical: 2, research: 2, engineering: 2, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+  notes: "About 1.5 MB downloaded once from the keyless NASA POWER API; a free Colab/Kaggle notebook can do the fetch step."
+collaboration: individual
+datasets: [DSET-022]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [small-multiples, climate, nasa-power, reanalysis, nigeria, data-journalism]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

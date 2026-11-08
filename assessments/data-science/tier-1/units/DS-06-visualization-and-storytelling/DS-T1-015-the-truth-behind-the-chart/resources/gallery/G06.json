@@ -1,0 +1,23 @@
+{
+  "data": "G06.csv",
+  "id": "G06",
+  "title": "Speed limiters are saving lives",
+  "claim": "Road deaths have fallen every year since speed limiters were introduced in 2020.",
+  "mark": "line",
+  "x": {
+    "field": "year",
+    "type": "temporal",
+    "label": "Year"
+  },
+  "y": {
+    "field": "road_deaths",
+    "type": "quantitative",
+    "label": "Road crash deaths",
+    "domain": [
+      180,
+      300
+    ],
+    "reverse": true
+  },
+  "source": "State road safety office (fictional) press release"
+}
