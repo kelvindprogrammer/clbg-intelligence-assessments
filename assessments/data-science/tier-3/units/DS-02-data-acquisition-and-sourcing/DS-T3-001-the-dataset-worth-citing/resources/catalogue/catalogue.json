@@ -1,0 +1,309 @@
+{
+ "datasets": [
+  {
+   "id": "DS104",
+   "title": "Ibadan School Enrolment",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS108"
+   ],
+   "file": "files/DS104.csv",
+   "sha256": "eb7595f0581e1d1e2102a4eb66a63e05770ec3b3d536bb14860a3a840788bfd8",
+   "rows": 7,
+   "attribution": "Contains data from: Port Harcourt Market Price Survey"
+  },
+  {
+   "id": "DS106",
+   "title": "Maiduguri Livestock Census",
+   "publisher": "Open data NGO",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [],
+   "file": "files/DS106.csv",
+   "sha256": "fbfdf7ff2a3d87443e004060ae922077253f38efea09a3166250cab9f16545e1",
+   "rows": 9,
+   "attribution": ""
+  },
+  {
+   "id": "DS123",
+   "title": "Accra Meter Readings",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS111"
+   ],
+   "file": "files/DS123.csv",
+   "sha256": "fd6d36fd2cfb082f864726180480cc098592eb93ad2ac1dcdb5b72adf0f9ee63",
+   "rows": 8,
+   "attribution": "Contains data from: Enugu Clinic Attendance"
+  },
+  {
+   "id": "DS110",
+   "title": "Ibadan Livestock Census",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC0-1.0",
+   "derived_from": [
+    "DS116",
+    "DS124"
+   ],
+   "file": "files/DS110.csv",
+   "sha256": "efa83a8cfc9b53b4c457943ca3f9ed4190f0ebf46c44e1baf87244cf4aa83dbd",
+   "rows": 12,
+   "attribution": "Contains data from: "
+  },
+  {
+   "id": "DS116",
+   "title": "Kano Clinic Attendance",
+   "publisher": "Open data NGO",
+   "declared_license": "CC0-1.0",
+   "derived_from": [],
+   "file": "files/DS116.csv",
+   "sha256": "c08c5a8a5030b85b1fbd00dc185931db72d21a240a0d311eb72194a5a9b5a40b",
+   "rows": 5,
+   "attribution": ""
+  },
+  {
+   "id": "DS109",
+   "title": "Accra Clinic Attendance",
+   "publisher": "State ministry portal",
+   "declared_license": "ODbL-1.0",
+   "derived_from": [],
+   "file": "files/DS109.csv",
+   "sha256": "5663a39a146b6bb119d0740df33c07d68de1452044c7f1394da3a213b0805cb0",
+   "rows": 9,
+   "attribution": ""
+  },
+  {
+   "id": "DS119",
+   "title": "Calabar Meter Readings",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS123",
+    "DS122"
+   ],
+   "file": "files/DS119.csv",
+   "sha256": "4aa4d6ae738a63ce3b362c2d5218b54eb98cbcd4f042238750c05869ad6e3818",
+   "rows": 7,
+   "attribution": "Contains data from: Accra Meter Readings; Maiduguri Rainfall Gauges"
+  },
+  {
+   "id": "DS120",
+   "title": "Dakar Clinic Attendance",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS117"
+   ],
+   "file": "files/DS120.csv",
+   "sha256": "dbb51aa6d7230699b50dbe954230e0ab3e77744d2c22d719b1957861e8f39942",
+   "rows": 10,
+   "attribution": "Contains data from: Onitsha Transport Fares"
+  },
+  {
+   "id": "DS103",
+   "title": "Kano Transport Fares",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS110",
+    "DS111"
+   ],
+   "file": "files/DS103.csv",
+   "sha256": "cd6b729f2f978668bf0d1091c807256d6db1c9b00bc307433abab7c1640373b3",
+   "rows": 9,
+   "attribution": "Contains data from: Ibadan Livestock Census; Enugu Clinic Attendance"
+  },
+  {
+   "id": "DS114",
+   "title": "Kisumu Transport Fares",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS107"
+   ],
+   "file": "files/DS114.csv",
+   "sha256": "49e340851d57826732fe66363027d7d58c9ad002a7a7778a880036e7a112a6df",
+   "rows": 6,
+   "attribution": "Contains data from: Kisumu Mobile Coverage"
+  },
+  {
+   "id": "DS124",
+   "title": "Ibadan Rainfall Gauges",
+   "publisher": "Telecom research unit",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [],
+   "file": "files/DS124.csv",
+   "sha256": "de91ee2639f5073bc30fbcbf949a4323a96fffdb4ea3626c1956f5cb5b479df5",
+   "rows": 5,
+   "attribution": ""
+  },
+  {
+   "id": "DS121",
+   "title": "Dakar Rainfall Gauges",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS119",
+    "DS104",
+    "DS106"
+   ],
+   "file": "files/DS121.csv",
+   "sha256": "e3978b087c5f2ddae842cec05e6940196e0c1248742bd88503c037b80feb3f2c",
+   "rows": 12,
+   "attribution": "Contains data from: Calabar Meter Readings; Ibadan School Enrolment"
+  },
+  {
+   "id": "DS107",
+   "title": "Kisumu Mobile Coverage",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC0-1.0",
+   "derived_from": [
+    "DS114"
+   ],
+   "file": "files/DS107.csv",
+   "sha256": "f3a8130f430405468f22921233d2483435b292d9470b80e9f2dbe1830deb14e6",
+   "rows": 6,
+   "attribution": "Contains data from: Kisumu Transport Fares"
+  },
+  {
+   "id": "DS102",
+   "title": "Dakar Market Price Survey",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS112",
+    "DS109"
+   ],
+   "file": "files/DS102.csv",
+   "sha256": "c8f6e66f837ee9acc00268851ff603351f57046f7fd1fa264aad312a7fe8c1b6",
+   "rows": 12,
+   "attribution": "Contains data from: Kano Livestock Census; Accra Clinic Attendance"
+  },
+  {
+   "id": "DS115",
+   "title": "Dakar Meter Readings",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-SA-4.0",
+   "derived_from": [
+    "DS113"
+   ],
+   "file": "files/DS115.csv",
+   "sha256": "bddfec0033702a11f7690e409036d4d35b30c3eb0e4c516fbd9f2b592c8f9462",
+   "rows": 6,
+   "attribution": "Contains data from: Enugu Mobile Coverage"
+  },
+  {
+   "id": "DS101",
+   "title": "Calabar Clinic Attendance",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS121",
+    "DS118",
+    "DS110"
+   ],
+   "file": "files/DS101.csv",
+   "sha256": "9a48e5d52b17e927a00149523949a29c917044f2656c0ef4eea2ef34b504d073",
+   "rows": 8,
+   "attribution": "Contains data from: Dakar Rainfall Gauges; Onitsha Market Price Survey; Ibadan Livestock Census"
+  },
+  {
+   "id": "DS117",
+   "title": "Onitsha Transport Fares",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS108",
+    "DS112"
+   ],
+   "file": "files/DS117.csv",
+   "sha256": "228e461b9f3b80fd6fb74b730b3b3119c3f5c1c645f59adf9cc9f8cb9f14fd00",
+   "rows": 5,
+   "attribution": "Contains data from: Port Harcourt Market Price Survey; Kano Livestock Census"
+  },
+  {
+   "id": "DS105",
+   "title": "Kano School Enrolment",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS109",
+    "DS118",
+    "DS119"
+   ],
+   "file": "files/DS105.csv",
+   "sha256": "a46ac9244a834d0097af882feb4985f2f457545e37d0cd5cf410f95522aca51c",
+   "rows": 7,
+   "attribution": "Contains data from: Accra Clinic Attendance; Onitsha Market Price Survey; Calabar Meter Readings"
+  },
+  {
+   "id": "DS122",
+   "title": "Maiduguri Rainfall Gauges",
+   "publisher": "University lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [],
+   "file": "files/DS122.csv",
+   "sha256": "e534d05120bf022db2cf0050e4b3c460506a1c5f515febd6461a36c05679897a",
+   "rows": 7,
+   "attribution": ""
+  },
+  {
+   "id": "DS111",
+   "title": "Enugu Clinic Attendance",
+   "publisher": "Telecom research unit",
+   "declared_license": "PROPRIETARY",
+   "derived_from": [],
+   "file": "files/DS111.csv",
+   "sha256": "bbf8cacc61fffad918d3cbbec0b251ab1f72de97bac1e84fe5239191642c674f",
+   "rows": 5,
+   "attribution": ""
+  },
+  {
+   "id": "DS112",
+   "title": "Kano Livestock Census",
+   "publisher": "NBS-style statistics office",
+   "declared_license": "CC-BY-SA-4.0",
+   "derived_from": [],
+   "file": "files/DS112.csv",
+   "sha256": "c028c5f304836c6d737e4ccb59940e60060d3a5478074f4b8e64bc12c9d1e17c",
+   "rows": 9,
+   "attribution": ""
+  },
+  {
+   "id": "DS108",
+   "title": "Port Harcourt Market Price Survey",
+   "publisher": "NBS-style statistics office",
+   "declared_license": "CC-BY-NC-4.0",
+   "derived_from": [],
+   "file": "files/DS108.csv",
+   "sha256": "371621216f5a90fd6398091a396a74e0172a36e410fad949542849243d344696",
+   "rows": 8,
+   "attribution": ""
+  },
+  {
+   "id": "DS113",
+   "title": "Enugu Mobile Coverage",
+   "publisher": "CLBG partner lab",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [
+    "DS112"
+   ],
+   "file": "files/DS113.csv",
+   "sha256": "9b169a20320ef29fa9aadb9710ff11fb3075e71f2b1564305fba2c8c9c093cac",
+   "rows": 11,
+   "attribution": "Contains data from: Kano Livestock Census"
+  },
+  {
+   "id": "DS118",
+   "title": "Onitsha Market Price Survey",
+   "publisher": "State ministry portal",
+   "declared_license": "CC-BY-4.0",
+   "derived_from": [],
+   "file": "files/DS118.csv",
+   "sha256": "eead1b7f7cf0386b4fe39b06be38d666aba5829e092ac5b3c73cd03085cbf44c",
+   "rows": 12,
+   "attribution": ""
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+"effective": {
+"DS108": "CC-BY-NC-4.0",
+"DS104": "CC-BY-NC-4.0",
+"DS106": "CC-BY-4.0",
+"DS111": "BLOCKED",
+"DS123": "BLOCKED",
+"DS116": "CC0-1.0",
+"DS124": "CC-BY-4.0",
+"DS110": "CC-BY-4.0",
+"DS109": "ODbL-1.0",
+"DS122": "CC-BY-4.0",
+"DS119": "BLOCKED",
+"DS112": "CC-BY-SA-4.0",
+"DS117": "CONFLICT",
+"DS120": "CONFLICT",
+"DS103": "BLOCKED",
+"DS114": "UNRESOLVED",
+"DS121": "BLOCKED",
+"DS107": "UNRESOLVED",
+"DS102": "CONFLICT",
+"DS113": "CC-BY-SA-4.0",
+"DS115": "CC-BY-SA-4.0",
+"DS118": "CC-BY-4.0",
+"DS101": "BLOCKED",
+"DS105": "BLOCKED"
+},
+"findings": [
+[
+"DS101",
+"ROW_COUNT_MISMATCH"
+],
+[
+"DS102",
+"LICENSE_CONFLICT"
+],
+[
+"DS103",
+"CHECKSUM_MISMATCH"
+],
+[
+"DS103",
+"UPSTREAM_UNLICENSED"
+],
+[
+"DS104",
+"LICENSE_NC_STRIPPED"
+],
+[
+"DS107",
+"PROVENANCE_CYCLE"
+],
+[
+"DS110",
+"LICENSE_BY_STRIPPED"
+],
+[
+"DS110",
+"MISSING_ATTRIBUTION"
+],
+[
+"DS113",
+"LICENSE_SA_VIOLATION"
+],
+[
+"DS114",
+"PROVENANCE_CYCLE"
+],
+[
+"DS115",
+"CHECKSUM_MISMATCH"
+],
+[
+"DS117",
+"LICENSE_CONFLICT"
+],
+[
+"DS119",
+"ROW_COUNT_MISMATCH"
+],
+[
+"DS121",
+"MISSING_ATTRIBUTION"
+],
+[
+"DS123",
+"UPSTREAM_UNLICENSED"
+]
+],
+"required_attribution": {
+"DS104": [
+"Port Harcourt Market Price Survey"
+],
+"DS106": [],
+"DS123": [
+"Enugu Clinic Attendance"
+],
+"DS110": [
+"Ibadan Rainfall Gauges"
+],
+"DS116": [],
+"DS109": [],
+"DS119": [
+"Accra Meter Readings",
+"Enugu Clinic Attendance",
+"Maiduguri Rainfall Gauges"
+],
+"DS120": [
+"Kano Livestock Census",
+"Onitsha Transport Fares",
+"Port Harcourt Market Price Survey"
+],
+"DS103": [
+"Enugu Clinic Attendance",
+"Ibadan Rainfall Gauges"
+],
+"DS114": [],
+"DS124": [],
+"DS121": [
+"Accra Meter Readings",
+"Calabar Meter Readings",
+"Enugu Clinic Attendance",
+"Ibadan School Enrolment",
+"Maiduguri Livestock Census",
+"Maiduguri Rainfall Gauges",
+"Port Harcourt Market Price Survey"
+],
+"DS107": [],
+"DS102": [
+"Accra Clinic Attendance",
+"Kano Livestock Census"
+],
+"DS115": [
+"Enugu Mobile Coverage",
+"Kano Livestock Census"
+],
+"DS101": [
+"Accra Meter Readings",
+"Calabar Meter Readings",
+"Dakar Rainfall Gauges",
+"Enugu Clinic Attendance",
+"Ibadan Rainfall Gauges",
+"Ibadan School Enrolment",
+"Maiduguri Livestock Census",
+"Maiduguri Rainfall Gauges",
+"Onitsha Market Price Survey",
+"Port Harcourt Market Price Survey"
+],
+"DS117": [
+"Kano Livestock Census",
+"Port Harcourt Market Price Survey"
+],
+"DS105": [
+"Accra Clinic Attendance",
+"Accra Meter Readings",
+"Calabar Meter Readings",
+"Enugu Clinic Attendance",
+"Maiduguri Rainfall Gauges",
+"Onitsha Market Price Survey"
+],
+"DS122": [],
+"DS111": [],
+"DS112": [],
+"DS108": [],
+"DS113": [
+"Kano Livestock Census"
+],
+"DS118": []
+}
+}

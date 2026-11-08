@@ -1,0 +1,52 @@
+id: DS-T3-001
+title: "The Dataset Worth Citing: A Provenance and Licence Audit of a Data Catalogue"
+summary: >-
+  Audit a synthetic 24-dataset catalogue for licence laundering, share-alike violations, incompatible mixes, unlicensed upstreams, missing attribution, checksum and row-count drift and provenance cycles. Implement the audit, argue where a simple licence model stops matching the law, and decide what may be reused.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: data-science
+tier: 3
+unit: DS-02
+format: investigation
+domains: [research-data, open-data, licensing, nigeria]
+technologies: [python, pytest, json, graph-algorithms]
+prerequisites:
+  knowledge:
+    - Python dataclasses and graph traversal
+    - Basic understanding of Creative Commons licences
+    - Hashing with hashlib
+competencies:
+  - Provenance graph construction and traversal (DAG, cycles)
+  - Licence propagation and compatibility reasoning
+  - Share-alike, non-commercial and attribution obligations
+  - Integrity verification with checksums and row counts
+  - Distinguishing what a tool can decide from what needs a lawyer
+  - Writing a defensible reuse decision memo
+  - Citing data correctly
+estimated_hours: {min: 14, max: 22}
+difficulty: {technical: 3, mathematical: 1, research: 4, engineering: 3, ambiguity: 4, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [provenance, licensing, open-data, data-integrity, citation, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
