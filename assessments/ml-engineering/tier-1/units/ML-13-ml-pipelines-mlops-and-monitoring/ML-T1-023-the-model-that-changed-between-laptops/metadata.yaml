@@ -1,0 +1,52 @@
+id: ML-T1-023
+title: "The Model That Changed Between Laptops: Fingerprints, Seeds and a Versioned Artifact Store"
+summary: >-
+  Build the smallest honest reproducibility layer for a mini-grid churn model: canonical data and config fingerprints, a seeded split and training run, a tamper-evident artifact store, and a run-diff that says why two models differ.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 1
+unit: ML-13
+format: implementation
+secondary_formats: [debugging-forensics]
+domains: [energy, mini-grid, mlops]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Fitting a scikit-learn logistic regression
+    - Train/test splits and standardisation
+    - Basic file I/O and JSON in Python
+competencies:
+  - Hashing data and configuration canonically
+  - Making a training run bit-for-bit repeatable
+  - Storing model artifacts so tampering is detectable
+  - Explaining why two model versions differ
+  - Recognising hidden sources of non-determinism
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 3, ambiguity: 2, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/gridgen.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [reproducibility, data-versioning, model-versioning, hashing, seeds, mlops, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

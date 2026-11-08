@@ -1,0 +1,52 @@
+id: ML-T2-026
+title: "Payday Is Not Drift: Designing a Feature-Drift Monitor for a Digital Lender's Application Stream"
+summary: >-
+  Implement PSI and KS drift statistics, then design a streaming monitor that stays quiet through predictable month-end seasonality and low-volume days yet catches a new acquisition channel within days, under a stated false-alarm budget.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 2
+unit: ML-13
+format: system-design
+secondary_formats: [investigation]
+domains: [fintech, digital-lending, monitoring]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Distributions, quantiles and empirical CDFs
+    - Hypothesis tests and multiple-comparison correction at a conceptual level
+    - Writing and testing numpy code
+competencies:
+  - Implementing PSI and the two-sample KS statistic exactly
+  - Calibrating alarm thresholds to a false-alarm budget
+  - Separating benign seasonality from real covariate drift
+  - Making thresholds depend on batch size
+  - Evaluating a monitor on detection delay and false alarms
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 3, research: 2, engineering: 3, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/lendstream.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [drift-detection, psi, kolmogorov-smirnov, seasonality, false-alarm-budget, monitoring, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

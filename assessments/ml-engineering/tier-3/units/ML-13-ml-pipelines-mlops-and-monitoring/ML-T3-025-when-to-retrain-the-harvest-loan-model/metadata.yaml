@@ -1,0 +1,52 @@
+id: ML-T3-025
+title: "When to Retrain the Harvest-Loan Model: Cost, Label Delay and Drift Regimes in a Retraining-Policy Study"
+summary: >-
+  Build a delayed-label retraining simulator, design competing retraining policies, and defend a recommendation across abrupt, gradual and seasonal drift under explicit retraining and error costs, including how the answer changes with the cost and the label delay.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ml-engineering
+tier: 3
+unit: ML-13
+format: open-ended
+secondary_formats: [comparative]
+domains: [agriculture, fintech, mlops]
+technologies: [python, numpy, scikit-learn, pytest]
+prerequisites:
+  knowledge:
+    - Concept drift versus covariate drift
+    - Training a logistic regression and measuring error
+    - Designing simulation experiments and reporting uncertainty
+competencies:
+  - Building a simulator that enforces label delay and cost accounting
+  - Designing retraining triggers and training-window rules
+  - Choosing among policies under uncertainty about the drift regime
+  - Quantifying how a recommendation depends on cost and delay assumptions
+  - Arguing the validity and limits of a synthetic policy study
+estimated_hours: {min: 24, max: 32}
+difficulty: {technical: 4, mathematical: 3, research: 4, engineering: 4, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: setup-only
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  data_generator: resources/regimes.py
+  generator_in_assessor_kit: true
+ci:
+  contract_tests: true
+  heavy: false
+tags: [retraining-policy, label-delay, concept-drift, seasonality, minimax-regret, cost-sensitive, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
