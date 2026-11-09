@@ -15,9 +15,9 @@ Welcome to the CLBG Intelligence Track. This handbook tells you how to use this 
 - **Three subtracks:** [Data Science](../assessments/data-science/README.md), [ML Engineering](../assessments/ml-engineering/README.md) and [AI Engineering](../assessments/ai-engineering/README.md). Each one is a different discipline. See the [competency framework](competency-framework.md) for how they differ.
 - **Three tiers per subtrack:** Foundation, Applied, Advanced. See [tier definitions](tier-definitions.md). Tiers are about the *kind* of thinking required, not about how big the project is.
 - **Units** split each subtrack into coherent technical areas, for example *DS-03 Data Cleaning and Data Quality*.
-- **Assessments** are complete, independent projects. Pick **one** from any unit you like.
+- **Assessments** are complete, independent projects. Pick **one** unit and **one** assessment within it.
 
-**You do not have to go in order.** You can begin at any tier in any subtrack. Prerequisites tell you what you'll need to know. They're advice, not gates.
+**For this placement window, you choose one subtrack and one tier, then one assessment within it.** That single choice is your attempt. Prerequisites tell you what you'll need to know; they're advice, not gates.
 
 ## 2. What an assessment looks like
 
@@ -72,25 +72,17 @@ Follow the [submission guidelines](submission-guidelines.md). The defence is a c
 - being ready to trace any input through your system;
 - knowing your biggest limitation, and what you'd do next.
 
-See the [technical defence guide](../assessment-operations/oral-defense/technical-defence-guide.md).
-
-## 6. Feedback and growth
+## 6. Feedback
 
 Every outcome comes with specific feedback.
-- **Requires revision** means you're close: fix the listed points and resubmit.
-- **Does not yet demonstrate competence** means you should build the missing foundations and try a *different* assessment in the same unit later.
-
-Nobody is labelled permanently. Your placement updates as your evidence grows.
+- **Requires revision** means you're close: the feedback lists exactly what fell short.
+- **Does not yet demonstrate competence** means that tier isn't shown yet at this attempt.
 
 ## 7. Turning assessments into portfolio evidence
 
 Completed assessments make strong portfolio pieces if you:
 - write a short public README (problem, approach, results, limitations) **without** revealing assessment-specific answers;
-- make the repository public **only after** you've been assessed, and only if the assessment's section K allows it. Some assessments ask you to keep solutions private to protect future cohorts;
+- make the repository public **only after** you've been assessed, and only if the assessment's section K allows it;
 - link to it from your CV or GitHub profile, and be ready to discuss it in interviews. Your defence was practice.
 
 A polished README isn't competence. The work and your understanding of it are what count.
-
-## 8. Contributing back
-
-Found an ambiguity, a broken link, or a better idea for an assessment? Open an **Assessment feedback** issue, or propose a new assessment. See [CONTRIBUTING.md](../CONTRIBUTING.md). Members who have reached Tier 2 or above in a subtrack can join the review panel for that subtrack.

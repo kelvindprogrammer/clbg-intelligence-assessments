@@ -1,7 +1,1188 @@
 {
   "generated_by": "tools/catalogue-generator/build_catalogue.py",
-  "count": 85,
+  "count": 109,
   "assessments": [
+    {
+      "id": "AI-T1-001",
+      "title": "Kobo per Token: Building a Byte-Pair Tokeniser for a Lagos SMS Assistant",
+      "summary": "Implement a byte-pair-encoding trainer, encoder, decoder, vocabulary and token-cost calculator with exact tie-breaking, then measure and explain how an English-first tokeniser taxes Yoruba and Pidgin users.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 1,
+      "unit": "AI-01",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "telecoms",
+        "languages",
+        "nlp-fundamentals",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing byte-pair encoding exactly to a written specification",
+        "Reasoning about deterministic tie-breaking and edge cases",
+        "Verifying an encoder with round-trip and monotonicity properties",
+        "Computing token-based cost and fertility",
+        "Explaining why tokenisation affects cost and quality across languages"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "tokenisation",
+        "bpe",
+        "multilingual",
+        "pricing",
+        "yoruba",
+        "pidgin",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-1/units/AI-01-ai-engineering-foundations/AI-T1-001-kobo-per-token"
+    },
+    {
+      "id": "AI-T1-004",
+      "title": "The Maize SMS Prompt Kit: Templates, Few-Shot Selection, Fencing and Strict Parsing",
+      "summary": "Implement a strict prompt template renderer, an injection-resistant fence, deterministic few-shot selection with a word budget, a robust JSON extractor and a schema validator, and wire them into a triage function that survives a mock model's formatting failures and a prompt-injection attempt.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 1,
+      "unit": "AI-02",
+      "format": "implementation",
+      "secondary_formats": [],
+      "domains": [
+        "agriculture",
+        "nlp-applications",
+        "prompt-engineering",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "json",
+        "pytest"
+      ],
+      "competencies": [
+        "Building prompts from a strict template without silent substitution errors",
+        "Selecting few-shot examples deterministically and fitting a prompt to a budget",
+        "Delimiting untrusted text so it cannot forge the prompt's structure",
+        "Extracting and validating structured output without trusting its format",
+        "Writing an end-to-end wrapper that returns a result instead of raising on model misbehaviour"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "prompt-templates",
+        "few-shot",
+        "json-parsing",
+        "schema-validation",
+        "prompt-injection",
+        "agriculture",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-1/units/AI-02-prompt-engineering-and-structured-generation/AI-T1-004-maize-sms-prompt-kit"
+    },
+    {
+      "id": "AI-T1-006",
+      "title": "The Polite Retry: A Resilient Client for a Flaky Model API",
+      "summary": "Implement full-jitter backoff, a retrying client that honours rate-limit hints, a tolerant JSON reply parser, stream collection and a token cost ledger against a deterministic mock provider, then explain what each failure mode costs in time and money.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 1,
+      "unit": "AI-03",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "customer-support",
+        "reliability",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "json",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing an exact retry policy against a written specification",
+        "Separating retryable from non-retryable failures",
+        "Parsing semi-structured model output defensively",
+        "Accounting for token usage and cost in kobo, including billed failures",
+        "Reasoning about retry storms and why jitter exists"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "model-api",
+        "retries",
+        "backoff",
+        "rate-limits",
+        "streaming",
+        "cost-accounting",
+        "mock-provider",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-1/units/AI-03-model-apis-and-local-inference/AI-T1-006-the-polite-retry"
+    },
+    {
+      "id": "AI-T1-008",
+      "title": "The Longer Complaint Wins: Building and Evaluating Similarity Search from Scratch",
+      "summary": "Implement row normalisation, dot, cosine and L2 scoring, deterministic top-k, recall@k, MRR and nDCG@k from scratch on a deterministic toy embedder, then show and explain why dot-product search is captured by long boilerplate documents while cosine search is not.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 1,
+      "unit": "AI-04",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "customer-support",
+        "information-retrieval",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing similarity metrics and exact top-k search exactly to a specification",
+        "Handling zero vectors, ties and short corpora correctly",
+        "Computing recall@k, MRR and nDCG@k with the right conventions",
+        "Diagnosing why unnormalised dot-product search favours long documents",
+        "Reporting retrieval quality honestly on a labelled set"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "embeddings",
+        "similarity-search",
+        "cosine",
+        "dot-product",
+        "recall",
+        "mrr",
+        "ndcg",
+        "evaluation",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-1/units/AI-04-embeddings-and-semantic-search/AI-T1-008-the-longer-complaint-wins"
+    },
+    {
+      "id": "AI-T1-010",
+      "title": "Ask the Ajo Handbook: Chunk, Retrieve, Cite",
+      "summary": "Build the smallest honest RAG pipeline by hand: word-window chunking, a BM25 index from the formula, a budgeted context, citation extraction and checking against what was actually retrieved, abstention, and recall and MRR, all against a deterministic mock answerer.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 1,
+      "unit": "AI-05",
+      "format": "implementation",
+      "secondary_formats": null,
+      "domains": [
+        "fintech",
+        "cooperative-finance",
+        "retrieval",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Chunking documents with overlap and reasoning about where facts are cut",
+        "Implementing BM25 from its formula and checking it by hand",
+        "Assembling a bounded context and verifying that cited sources were really supplied",
+        "Measuring retrieval with recall at k and mean reciprocal rank"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "rag",
+        "chunking",
+        "bm25",
+        "citations",
+        "grounding",
+        "cooperative",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-1/units/AI-05-rag-and-knowledge-systems/AI-T1-010-ask-the-ajo-handbook"
+    },
+    {
+      "id": "AI-T1-012",
+      "title": "The Wallet Assistant Dispatcher: Typed Tools, Parsed Calls and a Bounded Loop",
+      "summary": "Build the plumbing under every tool-calling agent: argument validation against a typed schema, a tool registry that never raises, a parser for messy model output, redaction of sensitive fields, and a step-bounded agent loop, all against a deterministic scripted model.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 1,
+      "unit": "AI-06",
+      "format": "implementation",
+      "secondary_formats": null,
+      "domains": [
+        "fintech",
+        "mobile-money",
+        "agents",
+        "tool-calling",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Validating tool arguments against a declared schema and reporting precise errors",
+        "Containing tool failures so that the loop continues",
+        "Parsing a tool call out of free text without being fooled by braces inside strings",
+        "Keeping sensitive fields out of the model context and the trace",
+        "Bounding an agent loop so a stuck model cannot run forever"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 3,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "agents",
+        "tool-calling",
+        "json-schema",
+        "parsing",
+        "redaction",
+        "fintech",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-1/units/AI-06-agents-and-tool-calling/AI-T1-012-the-wallet-assistant-dispatcher"
+    },
+    {
+      "id": "AI-T1-014",
+      "title": "Mama Nkechi's Order Desk: A Workflow Engine with Explicit State",
+      "summary": "Implement a small workflow engine (routing by label, step retries, loop guards, human pause and resume, static graph validation) and an order-desk graph around a deterministic mock model, then explain why a fixed workflow suits this job better than an agent.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 1,
+      "unit": "AI-07",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "commerce",
+        "workflow-orchestration",
+        "customer-support",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing a workflow engine with explicit state, labelled edges and a trace",
+        "Retrying only transient failures at the step level",
+        "Preventing infinite loops with visit and step budgets",
+        "Pausing at a human checkpoint and resuming from serialisable state",
+        "Validating a workflow graph statically"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 3,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "workflow",
+        "state-machine",
+        "orchestration",
+        "human-in-the-loop",
+        "checkpoint",
+        "retries",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-1/units/AI-07-agentic-workflows-and-orchestration/AI-T1-014-mama-nkechis-order-desk"
+    },
+    {
+      "id": "AI-T1-015",
+      "title": "The Forgotten Account Number: Context Budgeting for a Bank Support Chat",
+      "summary": "Implement a token counter, a window fitter with pinned messages and a reply reserve, a summary-based compaction step, a fact-retention metric and a budget report, then measure what each strategy forgets in a synthetic bank-support chat.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 1,
+      "unit": "AI-08",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "customer-support",
+        "context-engineering",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Counting tokens by an explicit rule and budgeting a window with a reply reserve",
+        "Dropping history without leaving holes and without losing pinned messages",
+        "Replacing dropped history by a bounded summary inside the budget",
+        "Measuring what a context strategy forgets",
+        "Explaining the trade-off between truncation, summarisation and pinning"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 1,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "context-window",
+        "token-budget",
+        "summarisation",
+        "compaction",
+        "pinning",
+        "context-engineering",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-1/units/AI-08-context-engineering-and-memory/AI-T1-015-the-forgotten-account-number"
+    },
+    {
+      "id": "AI-T2-001",
+      "title": "Sharp Sharp or Safe: Choosing Decoding Settings for a USSD Banking Assistant",
+      "summary": "Implement softmax with temperature, top-k, top-p, repetition penalty, seeded sampling and beam search against a deterministic mock language model, then choose decoding settings that meet a validity bar and a diversity bar and still hold on held-out seeds.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 2,
+      "unit": "AI-01",
+      "format": "comparative",
+      "secondary_formats": [
+        "implementation"
+      ],
+      "domains": [
+        "fintech",
+        "ussd",
+        "llm-fundamentals",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing temperature, top-k, top-p and repetition penalty correctly, including tie and boundary cases",
+        "Seeded, replayable sampling from a next-token distribution",
+        "Explaining where beam search beats greedy decoding and where it cannot help",
+        "Defining generation metrics (validity, uniqueness, repetition) that match a product requirement",
+        "Choosing decoding parameters under competing constraints and checking they generalise to unseen seeds"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "sampling",
+        "temperature",
+        "top-p",
+        "beam-search",
+        "decoding",
+        "evaluation",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-2/units/AI-01-ai-engineering-foundations/AI-T2-001-sharp-sharp-or-safe"
+    },
+    {
+      "id": "AI-T2-002",
+      "title": "Waybills at Scale: A Retrying, Validating, Cost-Aware Extraction Harness",
+      "summary": "Engineer the harness around a mock extraction model with timeouts, rate limits, refusals, malformed and wrong JSON and prompt injection: retries with a virtual clock, grounded validation, repair loops, human routing, cost accounting, and a policy chosen against a success bar.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 2,
+      "unit": "AI-02",
+      "format": "optimization",
+      "secondary_formats": [
+        "system-design"
+      ],
+      "domains": [
+        "logistics",
+        "document-processing",
+        "reliability-engineering",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "json",
+        "pytest"
+      ],
+      "competencies": [
+        "Designing retry policies that distinguish transient from permanent failures",
+        "Validating model output against the source document, not only against a schema",
+        "Building repair and escalation logic with explicit call budgets",
+        "Accounting for token cost and latency in a batch pipeline",
+        "Choosing a configuration against a success bar and checking it on unseen data"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 4,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "retries",
+        "backoff",
+        "structured-output",
+        "grounding",
+        "prompt-injection",
+        "cost-control",
+        "logistics",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-2/units/AI-02-prompt-engineering-and-structured-generation/AI-T2-002-waybills-at-scale"
+    },
+    {
+      "id": "AI-T2-004",
+      "title": "Six Hundred Waybills, Two Providers, One Outage: Batching, Caching and Failover for a Freight Classifier",
+      "summary": "Build a gateway over two deterministic mock model providers with sliding-window rate limits, an outage, malformed replies and batch-position quality decay: dedupe and cache, batch, fail over, enforce a budget and choose the batch size from labelled evidence, then beat a naive loop on cost and time at equal accuracy.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 2,
+      "unit": "AI-03",
+      "format": "optimization",
+      "secondary_formats": [
+        "system-design"
+      ],
+      "domains": [
+        "logistics",
+        "freight",
+        "model-apis",
+        "cost-engineering",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "json",
+        "pytest"
+      ],
+      "competencies": [
+        "Mirroring a provider's sliding-window limits client-side so no request is ever rejected",
+        "Choosing a batch size from measured accuracy rather than assumption",
+        "Caching on a normalised key and quantifying the saving",
+        "Designing failover with cooldown so a provider outage costs neither correctness nor money",
+        "Enforcing a spend budget and reconciling it against provider billing",
+        "Comparing a gateway with a naive baseline on cost, makespan and accuracy"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "model-api",
+        "batching",
+        "caching",
+        "rate-limits",
+        "failover",
+        "cost-accounting",
+        "mock-provider",
+        "logistics",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-2/units/AI-03-model-apis-and-local-inference/AI-T2-004-the-waybill-sorter"
+    },
+    {
+      "id": "AI-T2-006",
+      "title": "Needles in the Circular: Chunking and Hybrid Search for a Compliance Desk",
+      "summary": "Implement chunking, BM25 and rank fusion from scratch, then build and tune a hybrid retriever over long synthetic regulatory circulars with exact-code and topic queries, and defend it against whole-document lexical and dense baselines on held-out queries.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 2,
+      "unit": "AI-04",
+      "format": "comparative",
+      "secondary_formats": [
+        "optimization"
+      ],
+      "domains": [
+        "finance",
+        "regulation",
+        "information-retrieval",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing BM25 and reciprocal rank fusion exactly",
+        "Choosing chunk size and overlap from evidence rather than habit",
+        "Designing a fusion rule that serves exact-identifier queries and paraphrase queries",
+        "Separating development tuning from held-out evaluation",
+        "Analysing retrieval quality per query type",
+        "Comparing a hybrid retriever against lexical and dense baselines fairly"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "hybrid-search",
+        "bm25",
+        "chunking",
+        "rank-fusion",
+        "rrf",
+        "dense-retrieval",
+        "evaluation",
+        "regulation",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-2/units/AI-04-embeddings-and-semantic-search/AI-T2-006-needles-in-the-circular"
+    },
+    {
+      "id": "AI-T2-008",
+      "title": "The Advisory That Obeyed: Hybrid Retrieval, Hijacked Documents and Knowing When to Abstain",
+      "summary": "Engineer a farm-advisory question-answering pipeline over a mock model: hybrid lexical and dense retrieval, removal of instructions hidden in bulletins, superseded-bulletin resolution, an evidence-sufficiency gate for unanswerable and wrong-place questions, output verification, and a configuration chosen against stated quality bars.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 2,
+      "unit": "AI-05",
+      "format": "system-design",
+      "secondary_formats": [
+        "optimization"
+      ],
+      "domains": [
+        "agriculture",
+        "rag",
+        "prompt-injection",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Combining lexical and dense rankings and checking that the combination earns its complexity",
+        "Treating retrieved documents as untrusted input and removing hijack text without deleting legitimate text",
+        "Resolving conflicting versions of the same fact using metadata",
+        "Deciding when evidence is insufficient and abstaining",
+        "Choosing a configuration against explicit bars and testing it on unseen corpora"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 2,
+        "research": 2,
+        "engineering": 4,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "rag",
+        "hybrid-retrieval",
+        "prompt-injection",
+        "abstention",
+        "agriculture",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-2/units/AI-05-rag-and-knowledge-systems/AI-T2-008-the-advisory-that-obeyed"
+    },
+    {
+      "id": "AI-T2-013",
+      "title": "The Double Credit: A Compensating Orchestrator for AI-Planned Loan Disbursement",
+      "summary": "Engineer an orchestrator for a mock-LLM-generated disbursement plan: static plan validation and repair, dependency waves with a parallel makespan, retries with idempotency keys against timeouts that applied the effect, reverse-order compensation including the failed step, an approval gate, and a consistency audit of the simulated ledger.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 2,
+      "unit": "AI-07",
+      "format": "system-design",
+      "secondary_formats": [
+        "debugging-forensics"
+      ],
+      "domains": [
+        "fintech",
+        "cooperatives",
+        "workflow-orchestration",
+        "reliability-engineering",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Validating a model-generated plan statically before executing any step",
+        "Running independent steps in parallel on a virtual clock and measuring the makespan",
+        "Using idempotency keys so that ambiguous timeouts cannot cause double effects",
+        "Compensating completed and possibly-completed steps in reverse order",
+        "Gating consequential actions behind human approval and proving it with tests"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 1,
+        "research": 2,
+        "engineering": 4,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "saga",
+        "compensation",
+        "idempotency",
+        "plan-validation",
+        "human-in-the-loop",
+        "orchestration",
+        "fintech",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-2/units/AI-07-agentic-workflows-and-orchestration/AI-T2-013-the-double-credit"
+    },
+    {
+      "id": "AI-T3-001",
+      "title": "Is Prompt B Really Better? A Regression Gate for Prompts in a Multilingual Care Bot",
+      "summary": "Design and implement a statistically defensible regression gate for prompt changes in a multilingual care bot, measure its false-block and detection rates by simulation against a prompt-sensitive mock, and argue what the protocol can and cannot establish.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 3,
+      "unit": "AI-02",
+      "format": "open-ended",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "telecoms",
+        "evaluation",
+        "prompt-engineering",
+        "statistics",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Choosing the unit of resampling and pairing for LLM evaluation with item difficulty and sampling noise",
+        "Controlling error across language and attack slices",
+        "Planning evaluation set size from effect size and variance",
+        "Estimating a gate's false-block and detection rates by simulation",
+        "Detecting contamination between prompts and evaluation sets",
+        "Writing a validity argument that separates what the mock shows from what real deployments need"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 34
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "prompt-evaluation",
+        "regression-testing",
+        "bootstrap",
+        "multiple-comparisons",
+        "power",
+        "subgroup-analysis",
+        "prompt-injection",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-3/units/AI-02-prompt-engineering-and-structured-generation/AI-T3-001-is-prompt-b-really-better"
+    },
+    {
+      "id": "AI-T3-002",
+      "title": "Thirty Students, One Lab PC: A Quantisation and Batching Study for Local Inference",
+      "summary": "Implement low-bit quantisation and a static/continuous batching simulator for a toy language model with planted outlier channels and an analytic CPU cost model, then recommend, defend and stress-test a quantisation and batching configuration for a 30-student campus lab under a p95 latency SLO.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 3,
+      "unit": "AI-03",
+      "format": "investigation",
+      "secondary_formats": [
+        "system-design"
+      ],
+      "domains": [
+        "education",
+        "local-inference",
+        "quantisation",
+        "serving",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing symmetric round-to-nearest quantisation with per-tensor, per-channel and grouped scales",
+        "Diagnosing why outlier channels break coarse quantisation and which scheme repairs it",
+        "Simulating static and continuous batching exactly, including prefill stalls and memory limits",
+        "Defining and computing capacity under a tail-latency SLO",
+        "Designing sensitivity analyses and ablations for a simulated study and stating its threats to validity",
+        "Arguing a local-versus-hosted inference strategy under cost and data-residency constraints"
+      ],
+      "estimated_hours": {
+        "min": 26,
+        "max": 36
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "quantisation",
+        "local-inference",
+        "batching",
+        "continuous-batching",
+        "latency",
+        "capacity-planning",
+        "open-weight-models",
+        "data-residency",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-3/units/AI-03-model-apis-and-local-inference/AI-T3-002-thirty-students-one-lab-pc"
+    },
+    {
+      "id": "AI-T3-003",
+      "title": "The Stale Index: Approximate Nearest-Neighbour Search for a Marketplace Whose Catalogue Keeps Moving",
+      "summary": "Implement k-means and an inverted-file ANN index with exact distance accounting on a synthetic marketplace catalogue with head and tail queries and distribution drift, then choose a recall-versus-cost configuration, measure the harm of a stale index, and design and calibrate a rebuild policy with a threats-to-validity analysis.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 3,
+      "unit": "AI-04",
+      "format": "investigation",
+      "secondary_formats": [
+        "system-design"
+      ],
+      "domains": [
+        "e-commerce",
+        "marketplace",
+        "approximate-nearest-neighbour",
+        "monitoring",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing k-means and an inverted-file index with exact cost accounting",
+        "Measuring the recall-versus-cost frontier and choosing a configuration under a budget",
+        "Decomposing quality by query segment and explaining why averages hide failures",
+        "Quantifying how appends without retraining degrade an index and detecting it from unlabelled signals",
+        "Designing and calibrating a rebuild policy against a stated definition of harm",
+        "Arguing what a synthetic generator can and cannot support"
+      ],
+      "estimated_hours": {
+        "min": 26,
+        "max": 36
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 4,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "ann",
+        "ivf",
+        "kmeans",
+        "recall",
+        "drift",
+        "monitoring",
+        "index-maintenance",
+        "tail-queries",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-3/units/AI-04-embeddings-and-semantic-search/AI-T3-003-the-stale-index"
+    },
+    {
+      "id": "AI-T3-005",
+      "title": "The Audit That Finds the Flaw: Validating a RAG Evaluation Harness with Planted Faults",
+      "summary": "Design and validate an evaluation harness for retrieval-augmented systems: retrieval, faithfulness, citation, abstention and rank-sensitivity metrics with bootstrap intervals, then prove by planted-fault experiments that it diagnoses the right flaw, avoids false alarms under background noise, and has quantified power.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ai-engineering",
+      "tier": 3,
+      "unit": "AI-05",
+      "format": "investigation",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "legal-aid",
+        "evaluation",
+        "rag",
+        "measurement-validity",
+        "nigeria"
+      ],
+      "technologies": [
+        "python",
+        "pytest"
+      ],
+      "competencies": [
+        "Separating retrieval failure from generation failure in an evaluation design",
+        "Choosing metrics whose conditioning populations make attribution possible",
+        "Using bootstrap intervals to control false alarms at small sample sizes",
+        "Validating an evaluator with planted faults and reporting detection power",
+        "Arguing the limits of a synthetic validity study"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 34
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 5,
+        "engineering": 4,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "none",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "rag-evaluation",
+        "faithfulness",
+        "citations",
+        "bootstrap",
+        "validity",
+        "fault-injection",
+        "legal-aid",
+        "nigeria"
+      ],
+      "path": "assessments/ai-engineering/tier-3/units/AI-05-rag-and-knowledge-systems/AI-T3-005-the-audit-that-finds-the-flaw"
+    },
     {
       "id": "DS-T1-001",
       "title": "The Price Watch Bulletin: From Spreadsheet Export to Tidy Data",
@@ -4027,6 +5208,136 @@
       "path": "assessments/ml-engineering/tier-1/units/ML-12-model-deployment-and-serving/ML-T1-021-the-meter-token-gatekeeper"
     },
     {
+      "id": "ML-T1-023",
+      "title": "The Model That Changed Between Laptops: Fingerprints, Seeds and a Versioned Artifact Store",
+      "summary": "Build the smallest honest reproducibility layer for a mini-grid churn model: canonical data and config fingerprints, a seeded split and training run, a tamper-evident artifact store, and a run-diff that says why two models differ.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-13",
+      "format": "implementation",
+      "secondary_formats": [
+        "debugging-forensics"
+      ],
+      "domains": [
+        "energy",
+        "mini-grid",
+        "mlops"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Hashing data and configuration canonically",
+        "Making a training run bit-for-bit repeatable",
+        "Storing model artifacts so tampering is detectable",
+        "Explaining why two model versions differ",
+        "Recognising hidden sources of non-determinism"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 1,
+        "research": 1,
+        "engineering": 3,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "reproducibility",
+        "data-versioning",
+        "model-versioning",
+        "hashing",
+        "seeds",
+        "mlops",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T1-023-the-model-that-changed-between-laptops"
+    },
+    {
+      "id": "ML-T1-024",
+      "title": "Who Does the Referral Model Miss? A Group-Wise Error Audit and Model Card for a Child-Health Screening Tool",
+      "summary": "Implement group-wise error rates, a small-group-safe disparity table, a group-stratified bootstrap interval for a gap, per-group calibration and a model card generator, then use them to decide which differences in a synthetic referral model are real.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 1,
+      "unit": "ML-14",
+      "format": "implementation",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "health",
+        "responsible-ml",
+        "public-health"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Computing per-group error rates exactly, including undefined cases",
+        "Guarding against reporting on groups that are too small",
+        "Estimating the uncertainty of a group gap by bootstrap",
+        "Checking calibration within groups",
+        "Writing a model card that states what the numbers can and cannot support"
+      ],
+      "estimated_hours": {
+        "min": 8,
+        "max": 12
+      },
+      "difficulty": {
+        "technical": 2,
+        "mathematical": 2,
+        "research": 1,
+        "engineering": 2,
+        "ambiguity": 2,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "fairness-audit",
+        "group-metrics",
+        "bootstrap",
+        "calibration",
+        "model-card",
+        "small-groups",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-1/units/ML-14-responsible-ml/ML-T1-024-who-does-the-referral-model-miss"
+    },
+    {
       "id": "ML-T2-001",
       "title": "When the Normal Equations Lie: Fitting a Feeder-Load Model on Collinear Sensor Data",
       "summary": "On synthetic hourly feeder data with near-duplicate sensor columns and a mid-year sensor vendor change, diagnose ill-conditioning, compare four least-squares solvers, select ridge strength by time-ordered validation and defend the final model.",
@@ -4808,6 +6119,136 @@
         "nigeria"
       ],
       "path": "assessments/ml-engineering/tier-2/units/ML-12-model-deployment-and-serving/ML-T2-024-salary-day-at-the-loan-desk"
+    },
+    {
+      "id": "ML-T2-026",
+      "title": "Payday Is Not Drift: Designing a Feature-Drift Monitor for a Digital Lender's Application Stream",
+      "summary": "Implement PSI and KS drift statistics, then design a streaming monitor that stays quiet through predictable month-end seasonality and low-volume days yet catches a new acquisition channel within days, under a stated false-alarm budget.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-13",
+      "format": "system-design",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "digital-lending",
+        "monitoring"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing PSI and the two-sample KS statistic exactly",
+        "Calibrating alarm thresholds to a false-alarm budget",
+        "Separating benign seasonality from real covariate drift",
+        "Making thresholds depend on batch size",
+        "Evaluating a monitor on detection delay and false alarms"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "drift-detection",
+        "psi",
+        "kolmogorov-smirnov",
+        "seasonality",
+        "false-alarm-budget",
+        "monitoring",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T2-026-payday-is-not-drift"
+    },
+    {
+      "id": "ML-T2-029",
+      "title": "The Credit Score That Cannot Be Fair Three Ways: Fairness Metric Trade-offs and Mitigation in Micro-Lending",
+      "summary": "For a synthetic agent-banking micro-loan model with urban and rural traders, measure several fairness gaps, implement reweighing and constrained per-group thresholds, quantify the profit cost of each criterion, and defend a choice with an explicit account of what cannot be satisfied together.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 2,
+      "unit": "ML-14",
+      "format": "comparative",
+      "secondary_formats": [
+        "investigation"
+      ],
+      "domains": [
+        "fintech",
+        "micro-lending",
+        "responsible-ml"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Computing demographic parity, equal opportunity, equalized odds and predictive parity gaps",
+        "Implementing reweighing and constrained threshold search",
+        "Measuring the cost of a fairness constraint in profit",
+        "Explaining why criteria conflict when base rates differ",
+        "Defending a mitigation, including whether group may be used at decision time"
+      ],
+      "estimated_hours": {
+        "min": 14,
+        "max": 20
+      },
+      "difficulty": {
+        "technical": 3,
+        "mathematical": 3,
+        "research": 2,
+        "engineering": 3,
+        "ambiguity": 3,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "fairness-metrics",
+        "equal-opportunity",
+        "reweighing",
+        "threshold-optimisation",
+        "impossibility",
+        "trade-offs",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-2/units/ML-14-responsible-ml/ML-T2-029-the-credit-score-that-cannot-be-fair-three-ways"
     },
     {
       "id": "ML-T3-001",
@@ -5605,6 +7046,136 @@
         "nigeria"
       ],
       "path": "assessments/ml-engineering/tier-3/units/ML-12-model-deployment-and-serving/ML-T3-023-the-month-before-the-labels-arrive"
+    },
+    {
+      "id": "ML-T3-025",
+      "title": "When to Retrain the Harvest-Loan Model: Cost, Label Delay and Drift Regimes in a Retraining-Policy Study",
+      "summary": "Build a delayed-label retraining simulator, design competing retraining policies, and defend a recommendation across abrupt, gradual and seasonal drift under explicit retraining and error costs, including how the answer changes with the cost and the label delay.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-13",
+      "format": "open-ended",
+      "secondary_formats": [
+        "comparative"
+      ],
+      "domains": [
+        "agriculture",
+        "fintech",
+        "mlops"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Building a simulator that enforces label delay and cost accounting",
+        "Designing retraining triggers and training-window rules",
+        "Choosing among policies under uncertainty about the drift regime",
+        "Quantifying how a recommendation depends on cost and delay assumptions",
+        "Arguing the validity and limits of a synthetic policy study"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 32
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 3,
+        "research": 4,
+        "engineering": 4,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "retraining-policy",
+        "label-delay",
+        "concept-drift",
+        "seasonality",
+        "minimax-regret",
+        "cost-sensitive",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T3-025-when-to-retrain-the-harvest-loan-model"
+    },
+    {
+      "id": "ML-T3-027",
+      "title": "Do the Explanations Tell the Truth? Faithfulness, Stability and Shortcut Audits for a Tuberculosis-Screening Model",
+      "summary": "Build permutation importance, sampled Shapley values, deletion-based faithfulness, stability and agreement measures and a deployment-shift shortcut audit, then study whether explanations expose a planted device shortcut across model classes, backgrounds and correlated features, and what they cannot prove.",
+      "version": "1.0.0",
+      "status": "reviewed",
+      "collection": "unit",
+      "subtrack": "ml-engineering",
+      "tier": 3,
+      "unit": "ML-14",
+      "format": "investigation",
+      "secondary_formats": [
+        "open-ended"
+      ],
+      "domains": [
+        "health",
+        "interpretability",
+        "responsible-ml"
+      ],
+      "technologies": [
+        "python",
+        "numpy",
+        "scikit-learn",
+        "pytest"
+      ],
+      "competencies": [
+        "Implementing attribution methods whose properties can be tested exactly",
+        "Measuring explanation faithfulness, stability and agreement",
+        "Auditing for shortcuts using a deployment-like sample",
+        "Reasoning about baselines, correlated features and what attribution cannot show",
+        "Writing a validity-aware interpretability study for a clinical audience"
+      ],
+      "estimated_hours": {
+        "min": 24,
+        "max": 32
+      },
+      "difficulty": {
+        "technical": 4,
+        "mathematical": 4,
+        "research": 4,
+        "engineering": 3,
+        "ambiguity": 5,
+        "resources": 1
+      },
+      "compute": {
+        "gpu": "none",
+        "internet": "setup-only",
+        "paid_api": "none",
+        "min_ram_gb": 4
+      },
+      "collaboration": "individual",
+      "datasets": [
+        "synthetic"
+      ],
+      "tags": [
+        "interpretability",
+        "shapley",
+        "permutation-importance",
+        "faithfulness",
+        "shortcut-learning",
+        "distribution-shift",
+        "nigeria"
+      ],
+      "path": "assessments/ml-engineering/tier-3/units/ML-14-responsible-ml/ML-T3-027-do-the-explanations-tell-the-truth"
     }
   ]
 }

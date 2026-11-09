@@ -175,7 +175,7 @@ The outcome is decided by the score **and** the gates: a passing defence, a repr
 2. Commit as you work. Your commit history is part of the evidence (see §K); a single "final" commit will be questioned at defence.
 3. Add your outputs and `REPORT.md`, then run `pytest` from a clean environment built from your `requirements.txt`.
 4. **Submit** by adding the CLBG assessor account as a read-only collaborator and filing a submission issue in the CLBG assessments repository, using the **Assessment submission** template. Include the repository URL and the exact commit SHA.
-5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see the [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines-extensions-and-late-work). General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
+5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see the [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines). General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
 
 ---
 

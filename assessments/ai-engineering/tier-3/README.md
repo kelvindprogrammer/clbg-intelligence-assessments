@@ -11,29 +11,37 @@ See [tier definitions](../../../docs/tier-definitions.md) for the full competenc
 
 _Not offered at this tier._ This is a foundational unit. Tier 2 has one assessment on tokenizer and sampling internals. Tier 3 is not offered because deeper model-internals work is assessed in AI-12 and ML-08.
 
-### AI-02: Prompt Engineering and Structured Generation
+### [AI-02: Prompt Engineering and Structured Generation](units/AI-02-prompt-engineering-and-structured-generation/README.md)
 
 Prompt design as specification, few-shot design, schema-constrained output, prompt testing and regression.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T3-001`](units/AI-02-prompt-engineering-and-structured-generation/AI-T3-001-is-prompt-b-really-better/README.md) | Is Prompt B Really Better? A Regression Gate for Prompts in a Multilingual Care Bot | Open-Ended | 24–34 h | reviewed |
 
-### AI-03: Model APIs and Local Inference
+### [AI-03: Model APIs and Local Inference](units/AI-03-model-apis-and-local-inference/README.md)
 
 Provider APIs, streaming, retries and rate limits, provider abstraction and running open-weight models locally.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T3-002`](units/AI-03-model-apis-and-local-inference/AI-T3-002-thirty-students-one-lab-pc/README.md) | Thirty Students, One Lab PC: A Quantisation and Batching Study for Local Inference | Investigation | 26–36 h | reviewed |
 
-### AI-04: Embeddings and Semantic Search
+### [AI-04: Embeddings and Semantic Search](units/AI-04-embeddings-and-semantic-search/README.md)
 
 Embedding models, similarity metrics, approximate nearest-neighbour indexes, hybrid lexical-semantic search and retrieval evaluation.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T3-003`](units/AI-04-embeddings-and-semantic-search/AI-T3-003-the-stale-index/README.md) | The Stale Index: Approximate Nearest-Neighbour Search for a Marketplace Whose Catalogue Keeps Moving | Investigation | 26–36 h | reviewed |
 
-### AI-05: Retrieval-Augmented Generation and Knowledge Systems
+### [AI-05: Retrieval-Augmented Generation and Knowledge Systems](units/AI-05-rag-and-knowledge-systems/README.md)
 
 Chunking, indexing, vector stores, reranking, grounding and citations, RAG evaluation and knowledge-base maintenance.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T3-005`](units/AI-05-rag-and-knowledge-systems/AI-T3-005-the-audit-that-finds-the-flaw/README.md) | The Audit That Finds the Flaw: Validating a RAG Evaluation Harness with Planted Faults | Investigation | 24–34 h | reviewed |
 
 ### AI-06: AI Agents and Tool Calling
 

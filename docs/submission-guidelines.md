@@ -61,10 +61,9 @@ If you accidentally commit a secret, **revoke it immediately**. Deleting the com
 
 ## 7. The technical defence
 
-You'll be invited to a defence (5–10 minutes at Tier 1, 10–20 at Tier 2, 20–40 at Tier 3). Bring a machine with your repository ready to run. See [technical defence guide](../assessment-operations/oral-defense/technical-defence-guide.md) for what to expect and how to prepare.
+You'll be invited to a defence (5–10 minutes at Tier 1, 10–20 at Tier 2, 20–40 at Tier 3). Bring a machine with your repository ready to run. Be ready to trace any input through your system, explain your decisions and make a small live modification.
 
 ## 8. After feedback
 
 - **M / M−:** well done. With your consent, your project may be featured in a CLBG showcase. Consider polishing it into a portfolio piece (see the [member handbook](member-handbook.md#7-turning-assessments-into-portfolio-evidence)).
-- **R:** address the listed deficiencies on a new branch, then resubmit in the same issue with a short change log.
-- **N:** read the feedback, use the suggested preparation, and choose another assessment in the unit after the cooling-off period.
+- **R / N:** read the feedback. It lists exactly what fell short of the chosen tier.

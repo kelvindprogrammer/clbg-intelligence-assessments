@@ -192,7 +192,7 @@ The outcome is decided by the score **and** the gates in the rubric. See the [pl
    ```
 3. **Commit as you work.** Commit `PROTOCOL.md` **before** your first session. The timestamp is evidence of pre-planning.
 4. **Submit** by adding the CLBG assessor account as a read-only collaborator and filing an **Assessment submission** issue with the repository URL and commit SHA.
-5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines-extensions-and-late-work).
+5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines).
 6. General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
 
 ---

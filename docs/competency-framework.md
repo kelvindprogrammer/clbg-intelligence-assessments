@@ -8,8 +8,6 @@ This framework states **what a member can be observed doing** at each tier, in e
 | **Owner** | CLBG Intelligence Track Assessment Committee |
 | **Unit source of truth** | [shared/units.yaml](../shared/units.yaml) |
 | **Tier source of truth** | [tier-definitions.md](tier-definitions.md) |
-| **Evidence base** | [Research and Standards Report](research/RESEARCH_AND_STANDARDS_REPORT.md), [Elite Educational Benchmarks](research/ELITE_EDUCATIONAL_BENCHMARKS.md), [references](research/references.md) |
-| **Rationale** | [Architecture decisions](research/architecture-decisions.md), especially ADR-002 and ADR-003 |
 
 ---
 
@@ -38,7 +36,7 @@ This framework states **what a member can be observed doing** at each tier, in e
 
 ## 2. Cognitive level by tier (Bloom and SOLO)
 
-The revised Bloom taxonomy (Anderson and Krathwohl, 2001) describes the **cognitive process** a task demands. The SOLO taxonomy (Biggs and Collis, 1982) describes the **structure of the response** a member gives. CLBG uses Bloom when writing objectives and acceptance criteria, and SOLO when writing rubric performance descriptors. Sources are listed in [references §11](research/references.md#11-assessment-design-and-rubrics).
+The revised Bloom taxonomy (Anderson and Krathwohl, 2001) describes the **cognitive process** a task demands. The SOLO taxonomy (Biggs and Collis, 1982) describes the **structure of the response** a member gives. CLBG uses Bloom when writing objectives and acceptance criteria, and SOLO when writing rubric performance descriptors.
 
 | | Tier 1 | Tier 2 | Tier 3 |
 |---|---|---|---|
@@ -82,7 +80,7 @@ These eight competencies are assessed in **every** subtrack. They are not separa
 
 ## 4. Data Science units
 
-**Subtrack focus:** turning raw data into trustworthy evidence, insight and decisions. Data Science rewards question framing, inference, causal caution, data quality and communication. Deployment engineering belongs to ML Engineering (see the [Research and Standards Report §6](research/RESEARCH_AND_STANDARDS_REPORT.md#6-overlaps-and-distinctions-between-the-three-subtracks)).
+**Subtrack focus:** turning raw data into trustworthy evidence, insight and decisions. Data Science rewards question framing, inference, causal caution, data quality and communication. Deployment engineering belongs to ML Engineering.
 
 | Unit | Tier 1: the member… | Tier 2: the member… | Tier 3: the member… |
 |---|---|---|---|
@@ -179,10 +177,10 @@ Legend: **●** primary owner (assessed in depth) · **◐** secondary (assessed
 
 ## 8. Using the framework
 
-**Authors.** The `competencies` field of `metadata.yaml` needs at least three entries ([schema](../shared/schemas/assessment.schema.json)). Write them as specific, observable behaviours derived from the cell for the assessment's unit and tier, and name the cell (for example "DS-03.T1: reports a count for every change made to the registry"). Section C objectives and section G acceptance criteria must collect evidence for those behaviours. See the [authoring guide](contributing/AUTHORING_GUIDE.md).
+**Authors.** The `competencies` field of `metadata.yaml` needs at least three entries ([schema](../shared/schemas/assessment.schema.json)). Write them as specific, observable behaviours derived from the cell for the assessment's unit and tier, and name the cell (for example "DS-03.T1: reports a count for every change made to the registry"). Section C objectives and section G acceptance criteria must collect evidence for those behaviours.
 
 **Assessors.** The performance-level descriptors of each rubric dimension should match the SOLO levels in §2.1. When an attempt at Tier 2 or Tier 3 does not meet that tier, the lower tier's cell in this framework is the reference for recording lower-tier competence ([placement framework §3](placement-framework.md#3-tier-placement)).
 
-**Members.** Use the tables to choose where to start, and to understand what feedback refers to. Placement is per subtrack, so a member can match Tier 3 cells in one subtrack and Tier 1 cells in another.
+**Members.** Use the tables to choose where to start, and to understand what feedback refers to. Placement is per subtrack; for this window, each member is placed in the one subtrack and tier they chose.
 
-**Changes.** The framework changes only with a change to [shared/units.yaml](../shared/units.yaml) and an entry in the [architecture decisions](research/architecture-decisions.md), and takes effect at the start of the next cohort ([assessment policy §1](assessment-policy.md#1-scope-and-authority)).
+**Changes.** The framework changes only with a change to [shared/units.yaml](../shared/units.yaml).

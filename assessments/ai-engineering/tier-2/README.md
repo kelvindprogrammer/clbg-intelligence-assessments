@@ -7,35 +7,45 @@ See [tier definitions](../../../docs/tier-definitions.md) for the full competenc
 
 ## Units at this tier
 
-### AI-01: AI Engineering Foundations and Model Fundamentals
+### [AI-01: AI Engineering Foundations and Model Fundamentals](units/AI-01-ai-engineering-foundations/README.md)
 
 Tokens, sampling, context windows, model families and capabilities, async I/O and the engineering basics of AI applications.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T2-001`](units/AI-01-ai-engineering-foundations/AI-T2-001-sharp-sharp-or-safe/README.md) | Sharp Sharp or Safe: Choosing Decoding Settings for a USSD Banking Assistant | Comparative | 14–20 h | reviewed |
 
-### AI-02: Prompt Engineering and Structured Generation
+### [AI-02: Prompt Engineering and Structured Generation](units/AI-02-prompt-engineering-and-structured-generation/README.md)
 
 Prompt design as specification, few-shot design, schema-constrained output, prompt testing and regression.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T2-002`](units/AI-02-prompt-engineering-and-structured-generation/AI-T2-002-waybills-at-scale/README.md) | Waybills at Scale: A Retrying, Validating, Cost-Aware Extraction Harness | Optimization | 14–20 h | reviewed |
 
-### AI-03: Model APIs and Local Inference
+### [AI-03: Model APIs and Local Inference](units/AI-03-model-apis-and-local-inference/README.md)
 
 Provider APIs, streaming, retries and rate limits, provider abstraction and running open-weight models locally.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T2-004`](units/AI-03-model-apis-and-local-inference/AI-T2-004-the-waybill-sorter/README.md) | Six Hundred Waybills, Two Providers, One Outage: Batching, Caching and Failover for a Freight Classifier | Optimization | 14–20 h | reviewed |
 
-### AI-04: Embeddings and Semantic Search
+### [AI-04: Embeddings and Semantic Search](units/AI-04-embeddings-and-semantic-search/README.md)
 
 Embedding models, similarity metrics, approximate nearest-neighbour indexes, hybrid lexical-semantic search and retrieval evaluation.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T2-006`](units/AI-04-embeddings-and-semantic-search/AI-T2-006-needles-in-the-circular/README.md) | Needles in the Circular: Chunking and Hybrid Search for a Compliance Desk | Comparative | 14–20 h | reviewed |
 
-### AI-05: Retrieval-Augmented Generation and Knowledge Systems
+### [AI-05: Retrieval-Augmented Generation and Knowledge Systems](units/AI-05-rag-and-knowledge-systems/README.md)
 
 Chunking, indexing, vector stores, reranking, grounding and citations, RAG evaluation and knowledge-base maintenance.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T2-008`](units/AI-05-rag-and-knowledge-systems/AI-T2-008-the-advisory-that-obeyed/README.md) | The Advisory That Obeyed: Hybrid Retrieval, Hijacked Documents and Knowing When to Abstain | System Design | 14–20 h | reviewed |
 
 ### AI-06: AI Agents and Tool Calling
 
@@ -43,11 +53,13 @@ Tool schemas, the agent loop, error recovery, permissioning, sandboxing and huma
 
 _Assessments for this unit are in development._
 
-### AI-07: Agentic Workflows and Orchestration
+### [AI-07: Agentic Workflows and Orchestration](units/AI-07-agentic-workflows-and-orchestration/README.md)
 
 Workflow versus agent patterns, multi-step pipelines, Model Context Protocol, multi-agent coordination and durable execution.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T2-013`](units/AI-07-agentic-workflows-and-orchestration/AI-T2-013-the-double-credit/README.md) | The Double Credit: A Compensating Orchestrator for AI-Planned Loan Disbursement | System Design | 14–20 h | reviewed |
 
 ### AI-08: Context Engineering and Memory Systems
 

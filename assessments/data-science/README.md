@@ -43,10 +43,4 @@ Data scientists answer questions with data, and they're honest about what the da
 | **DS-11** Analytical Pipelines and Data Engineering | [1 assessment](tier-1/units/DS-11-analytical-pipelines-and-data-engineering/README.md) | [1 assessment](tier-2/units/DS-11-analytical-pipelines-and-data-engineering/README.md) | [1 assessment](tier-3/units/DS-11-analytical-pipelines-and-data-engineering/README.md) |
 | **DS-12** Applied Research and Reproducible Communication | [1 assessment](tier-1/units/DS-12-applied-research-and-communication/README.md) | [1 assessment](tier-2/units/DS-12-applied-research-and-communication/README.md) | [1 assessment](tier-3/units/DS-12-applied-research-and-communication/README.md) |
 
-**Capstones:** [in development](capstones/README.md)
-
 <!-- CATALOGUE:END -->
-
-## Capstones
-
-Capstones integrate several units into one substantial project, and they're strong placement evidence. See [capstones](capstones/README.md) once they're published, and the [cross-disciplinary challenges](../../cross-disciplinary/README.md) for projects that combine subtracks.

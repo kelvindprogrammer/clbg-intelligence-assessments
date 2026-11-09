@@ -42,13 +42,7 @@ ML engineers build models that work **outside the notebook**. This subtrack asse
 | **ML-10** Recommender and Ranking Systems | [1 assessment](tier-1/units/ML-10-recommender-and-ranking-systems/README.md) | [1 assessment](tier-2/units/ML-10-recommender-and-ranking-systems/README.md) | [1 assessment](tier-3/units/ML-10-recommender-and-ranking-systems/README.md) |
 | **ML-11** Efficient ML and Model Optimization | — | [1 assessment](tier-2/units/ML-11-efficient-ml-and-optimization/README.md) | [1 assessment](tier-3/units/ML-11-efficient-ml-and-optimization/README.md) |
 | **ML-12** Model Deployment and Serving | [1 assessment](tier-1/units/ML-12-model-deployment-and-serving/README.md) | [1 assessment](tier-2/units/ML-12-model-deployment-and-serving/README.md) | [1 assessment](tier-3/units/ML-12-model-deployment-and-serving/README.md) |
-| **ML-13** ML Pipelines, MLOps and Monitoring | in development | in development | in development |
-| **ML-14** Responsible ML (Fairness, Interpretability and Robustness) | in development | in development | in development |
-
-**Capstones:** [in development](capstones/README.md)
+| **ML-13** ML Pipelines, MLOps and Monitoring | [1 assessment](tier-1/units/ML-13-ml-pipelines-mlops-and-monitoring/README.md) | [1 assessment](tier-2/units/ML-13-ml-pipelines-mlops-and-monitoring/README.md) | [1 assessment](tier-3/units/ML-13-ml-pipelines-mlops-and-monitoring/README.md) |
+| **ML-14** Responsible ML (Fairness, Interpretability and Robustness) | [1 assessment](tier-1/units/ML-14-responsible-ml/README.md) | [1 assessment](tier-2/units/ML-14-responsible-ml/README.md) | [1 assessment](tier-3/units/ML-14-responsible-ml/README.md) |
 
 <!-- CATALOGUE:END -->
-
-## Capstones
-
-See [capstones](capstones/README.md) once they're published, and the [cross-disciplinary challenges](../../cross-disciplinary/README.md).

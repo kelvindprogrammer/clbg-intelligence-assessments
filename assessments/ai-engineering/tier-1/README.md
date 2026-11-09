@@ -7,53 +7,69 @@ See [tier definitions](../../../docs/tier-definitions.md) for the full competenc
 
 ## Units at this tier
 
-### AI-01: AI Engineering Foundations and Model Fundamentals
+### [AI-01: AI Engineering Foundations and Model Fundamentals](units/AI-01-ai-engineering-foundations/README.md)
 
 Tokens, sampling, context windows, model families and capabilities, async I/O and the engineering basics of AI applications.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T1-001`](units/AI-01-ai-engineering-foundations/AI-T1-001-kobo-per-token/README.md) | Kobo per Token: Building a Byte-Pair Tokeniser for a Lagos SMS Assistant | Implementation | 8–12 h | reviewed |
 
-### AI-02: Prompt Engineering and Structured Generation
+### [AI-02: Prompt Engineering and Structured Generation](units/AI-02-prompt-engineering-and-structured-generation/README.md)
 
 Prompt design as specification, few-shot design, schema-constrained output, prompt testing and regression.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T1-004`](units/AI-02-prompt-engineering-and-structured-generation/AI-T1-004-maize-sms-prompt-kit/README.md) | The Maize SMS Prompt Kit: Templates, Few-Shot Selection, Fencing and Strict Parsing | Implementation | 8–12 h | reviewed |
 
-### AI-03: Model APIs and Local Inference
+### [AI-03: Model APIs and Local Inference](units/AI-03-model-apis-and-local-inference/README.md)
 
 Provider APIs, streaming, retries and rate limits, provider abstraction and running open-weight models locally.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T1-006`](units/AI-03-model-apis-and-local-inference/AI-T1-006-the-polite-retry/README.md) | The Polite Retry: A Resilient Client for a Flaky Model API | Implementation | 8–12 h | reviewed |
 
-### AI-04: Embeddings and Semantic Search
+### [AI-04: Embeddings and Semantic Search](units/AI-04-embeddings-and-semantic-search/README.md)
 
 Embedding models, similarity metrics, approximate nearest-neighbour indexes, hybrid lexical-semantic search and retrieval evaluation.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T1-008`](units/AI-04-embeddings-and-semantic-search/AI-T1-008-the-longer-complaint-wins/README.md) | The Longer Complaint Wins: Building and Evaluating Similarity Search from Scratch | Implementation | 8–12 h | reviewed |
 
-### AI-05: Retrieval-Augmented Generation and Knowledge Systems
+### [AI-05: Retrieval-Augmented Generation and Knowledge Systems](units/AI-05-rag-and-knowledge-systems/README.md)
 
 Chunking, indexing, vector stores, reranking, grounding and citations, RAG evaluation and knowledge-base maintenance.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T1-010`](units/AI-05-rag-and-knowledge-systems/AI-T1-010-ask-the-ajo-handbook/README.md) | Ask the Ajo Handbook: Chunk, Retrieve, Cite | Implementation | 8–12 h | reviewed |
 
-### AI-06: AI Agents and Tool Calling
+### [AI-06: AI Agents and Tool Calling](units/AI-06-agents-and-tool-calling/README.md)
 
 Tool schemas, the agent loop, error recovery, permissioning, sandboxing and human-in-the-loop controls.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T1-012`](units/AI-06-agents-and-tool-calling/AI-T1-012-the-wallet-assistant-dispatcher/README.md) | The Wallet Assistant Dispatcher: Typed Tools, Parsed Calls and a Bounded Loop | Implementation | 8–12 h | reviewed |
 
-### AI-07: Agentic Workflows and Orchestration
+### [AI-07: Agentic Workflows and Orchestration](units/AI-07-agentic-workflows-and-orchestration/README.md)
 
 Workflow versus agent patterns, multi-step pipelines, Model Context Protocol, multi-agent coordination and durable execution.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T1-014`](units/AI-07-agentic-workflows-and-orchestration/AI-T1-014-mama-nkechis-order-desk/README.md) | Mama Nkechi's Order Desk: A Workflow Engine with Explicit State | Implementation | 8–12 h | reviewed |
 
-### AI-08: Context Engineering and Memory Systems
+### [AI-08: Context Engineering and Memory Systems](units/AI-08-context-engineering-and-memory/README.md)
 
 Context budgeting, summarisation and compaction, long-term memory stores, memory retrieval and memory evaluation.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`AI-T1-015`](units/AI-08-context-engineering-and-memory/AI-T1-015-the-forgotten-account-number/README.md) | The Forgotten Account Number: Context Budgeting for a Bank Support Chat | Implementation | 8–12 h | reviewed |
 
 ### AI-09: Multimodal AI Engineering
 

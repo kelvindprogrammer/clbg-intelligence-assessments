@@ -103,15 +103,19 @@ Model packaging, REST serving, containers, input validation, batch versus online
 |---|---|---|---|---|
 | [`ML-T2-024`](units/ML-12-model-deployment-and-serving/ML-T2-024-salary-day-at-the-loan-desk/README.md) | Salary Day at the Loan Desk: Micro-Batching a Scoring Service Under a Latency SLO | Optimization | 14–20 h | reviewed |
 
-### ML-13: ML Pipelines, MLOps and Monitoring
+### [ML-13: ML Pipelines, MLOps and Monitoring](units/ML-13-ml-pipelines-mlops-and-monitoring/README.md)
 
 Experiment tracking, reproducible pipelines, CI for ML, model registries, drift detection and retraining policy.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-026`](units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T2-026-payday-is-not-drift/README.md) | Payday Is Not Drift: Designing a Feature-Drift Monitor for a Digital Lender's Application Stream | System Design | 14–20 h | reviewed |
 
-### ML-14: Responsible ML (Fairness, Interpretability and Robustness)
+### [ML-14: Responsible ML (Fairness, Interpretability and Robustness)](units/ML-14-responsible-ml/README.md)
 
 Fairness metrics and trade-offs, explainability methods and their limits, adversarial and distributional robustness, model cards.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T2-029`](units/ML-14-responsible-ml/ML-T2-029-the-credit-score-that-cannot-be-fair-three-ways/README.md) | The Credit Score That Cannot Be Fair Three Ways: Fairness Metric Trade-offs and Mitigation in Micro-Lending | Comparative | 14–20 h | reviewed |
 

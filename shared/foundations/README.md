@@ -1,6 +1,6 @@
 # Foundations and Prerequisite Refreshers
 
-Use these free resources to fill gaps **before** attempting an assessment whose prerequisites you don't yet meet. None of them is graded. The assessed foundations live in [cross-disciplinary/foundations](../../cross-disciplinary/README.md).
+Use these free resources to fill gaps **before** attempting an assessment whose prerequisites you don't yet meet. None of them is graded.
 
 | Area | You should be able to… | Free resources |
 |---|---|---|

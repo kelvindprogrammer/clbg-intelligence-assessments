@@ -36,24 +36,18 @@ AI engineers turn foundation models into **dependable software**. This subtrack 
 
 | Unit | Tier 1 | Tier 2 | Tier 3 |
 |---|---|---|---|
-| **AI-01** AI Engineering Foundations and Model Fundamentals | in development | in development | — |
-| **AI-02** Prompt Engineering and Structured Generation | in development | in development | in development |
-| **AI-03** Model APIs and Local Inference | in development | in development | in development |
-| **AI-04** Embeddings and Semantic Search | in development | in development | in development |
-| **AI-05** Retrieval-Augmented Generation and Knowledge Systems | in development | in development | in development |
-| **AI-06** AI Agents and Tool Calling | in development | in development | in development |
-| **AI-07** Agentic Workflows and Orchestration | in development | in development | in development |
-| **AI-08** Context Engineering and Memory Systems | in development | in development | in development |
+| **AI-01** AI Engineering Foundations and Model Fundamentals | [1 assessment](tier-1/units/AI-01-ai-engineering-foundations/README.md) | [1 assessment](tier-2/units/AI-01-ai-engineering-foundations/README.md) | — |
+| **AI-02** Prompt Engineering and Structured Generation | [1 assessment](tier-1/units/AI-02-prompt-engineering-and-structured-generation/README.md) | [1 assessment](tier-2/units/AI-02-prompt-engineering-and-structured-generation/README.md) | [1 assessment](tier-3/units/AI-02-prompt-engineering-and-structured-generation/README.md) |
+| **AI-03** Model APIs and Local Inference | [1 assessment](tier-1/units/AI-03-model-apis-and-local-inference/README.md) | [1 assessment](tier-2/units/AI-03-model-apis-and-local-inference/README.md) | [1 assessment](tier-3/units/AI-03-model-apis-and-local-inference/README.md) |
+| **AI-04** Embeddings and Semantic Search | [1 assessment](tier-1/units/AI-04-embeddings-and-semantic-search/README.md) | [1 assessment](tier-2/units/AI-04-embeddings-and-semantic-search/README.md) | [1 assessment](tier-3/units/AI-04-embeddings-and-semantic-search/README.md) |
+| **AI-05** Retrieval-Augmented Generation and Knowledge Systems | [1 assessment](tier-1/units/AI-05-rag-and-knowledge-systems/README.md) | [1 assessment](tier-2/units/AI-05-rag-and-knowledge-systems/README.md) | [1 assessment](tier-3/units/AI-05-rag-and-knowledge-systems/README.md) |
+| **AI-06** AI Agents and Tool Calling | [1 assessment](tier-1/units/AI-06-agents-and-tool-calling/README.md) | in development | in development |
+| **AI-07** Agentic Workflows and Orchestration | [1 assessment](tier-1/units/AI-07-agentic-workflows-and-orchestration/README.md) | [1 assessment](tier-2/units/AI-07-agentic-workflows-and-orchestration/README.md) | in development |
+| **AI-08** Context Engineering and Memory Systems | [1 assessment](tier-1/units/AI-08-context-engineering-and-memory/README.md) | in development | in development |
 | **AI-09** Multimodal AI Engineering | in development | in development | in development |
 | **AI-10** AI Evaluation and Observability | in development | in development | in development |
 | **AI-11** AI Security and Responsible AI | in development | in development | in development |
 | **AI-12** Model Adaptation (Fine-tuning, PEFT and Distillation) | — | in development | in development |
 | **AI-13** Production AI Architecture, Cost and Reliability | in development | in development | in development |
 
-**Capstones:** [in development](capstones/README.md)
-
 <!-- CATALOGUE:END -->
-
-## Capstones
-
-See [capstones](capstones/README.md) once they're published, and the [cross-disciplinary challenges](../../cross-disciplinary/README.md).

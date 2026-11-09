@@ -42,7 +42,6 @@ resources:
   tests: true
   submission_template: true
   assessor_kit: true
-  data_generator: resources/mock_llm.py
   generator_in_assessor_kit: false
 ci:
   contract_tests: true

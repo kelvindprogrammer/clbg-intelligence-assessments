@@ -15,10 +15,18 @@
 | [`DS-T2-006`](../../assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-006-the-feed-that-breaks/README.md) | The Feed That Breaks: A Data Contract and Validation Framework for a Partner Feed | data-science | 2 | 20–35 h |
 | [`ML-T3-023`](../../assessments/ml-engineering/tier-3/units/ML-12-model-deployment-and-serving/ML-T3-023-the-month-before-the-labels-arrive/README.md) | The Month Before the Labels Arrive: Designing a Safe Rollout for a Replacement Credit Model | ml-engineering | 3 | 24–36 h |
 
-## Agriculture (21)
+## Agents (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T1-012`](../../assessments/ai-engineering/tier-1/units/AI-06-agents-and-tool-calling/AI-T1-012-the-wallet-assistant-dispatcher/README.md) | The Wallet Assistant Dispatcher: Typed Tools, Parsed Calls and a Bounded Loop | ai-engineering | 1 | 8–12 h |
+
+## Agriculture (24)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-004`](../../assessments/ai-engineering/tier-1/units/AI-02-prompt-engineering-and-structured-generation/AI-T1-004-maize-sms-prompt-kit/README.md) | The Maize SMS Prompt Kit: Templates, Few-Shot Selection, Fencing and Strict Parsing | ai-engineering | 1 | 8–12 h |
+| [`AI-T2-008`](../../assessments/ai-engineering/tier-2/units/AI-05-rag-and-knowledge-systems/AI-T2-008-the-advisory-that-obeyed/README.md) | The Advisory That Obeyed: Hybrid Retrieval, Hijacked Documents and Knowing When to Abstain | ai-engineering | 2 | 14–20 h |
 | [`DS-T1-001`](../../assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-001-the-price-watch-bulletin/README.md) | The Price Watch Bulletin: From Spreadsheet Export to Tidy Data | data-science | 1 | 8–14 h |
 | [`DS-T1-003`](../../assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-003-rain-onset-at-scale/README.md) | Rain Onset at Scale: Vectorising an Agro-Climate Pipeline Without Changing Its Answers | data-science | 1 | 10–18 h |
 | [`DS-T1-005`](../../assessments/data-science/tier-1/units/DS-02-data-acquisition-and-sourcing/DS-T1-005-four-agencies-one-price/README.md) | Four Agencies, One Price: Parsing and Reconciling Heterogeneous Food-Price Files | data-science | 1 | 10–16 h |
@@ -40,6 +48,7 @@
 | [`ML-T3-007`](../../assessments/ml-engineering/tier-3/units/ML-04-feature-engineering-and-data-for-ml/ML-T3-007-whose-label-is-it-anyway/README.md) | Whose Label Is It Anyway? Spending a Relabelling Budget on Noisy Cassava Disease Annotations | ml-engineering | 3 | 24–40 h |
 | [`ML-T3-011`](../../assessments/ml-engineering/tier-3/units/ML-06-neural-networks-and-deep-learning/ML-T3-011-when-does-depth-pay/README.md) | When Does Depth Pay? A Controlled Study of Neural Networks Versus Boosted Trees on Small Agricultural Tables | ml-engineering | 3 | 24–36 h |
 | [`ML-T3-017`](../../assessments/ml-engineering/tier-3/units/ML-09-time-series-machine-learning/ML-T3-017-after-the-devaluation/README.md) | After the Devaluation: Calibrated Price Forecasts Across a Structural Break | ml-engineering | 3 | 24–34 h |
+| [`ML-T3-025`](../../assessments/ml-engineering/tier-3/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T3-025-when-to-retrain-the-harvest-loan-model/README.md) | When to Retrain the Harvest-Loan Model: Cost, Label Delay and Drift Regimes in a Retraining-Policy Study | ml-engineering | 3 | 24–32 h |
 
 ## Agritech (1)
 
@@ -52,6 +61,12 @@
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-008`](../../assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-008-stuck-drifting-spiking/README.md) | Stuck, Drifting, Spiking: Validation Rules for a Low-Cost Air-Quality Network | data-science | 1 | 12–18 h |
+
+## Approximate Nearest Neighbour (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T3-003`](../../assessments/ai-engineering/tier-3/units/AI-04-embeddings-and-semantic-search/AI-T3-003-the-stale-index/README.md) | The Stale Index: Approximate Nearest-Neighbour Search for a Marketplace Whose Catalogue Keeps Moving | ai-engineering | 3 | 26–36 h |
 
 ## Banking (1)
 
@@ -88,6 +103,12 @@
 |---|---|---|---|---|
 | [`ML-T3-003`](../../assessments/ml-engineering/tier-3/units/ML-02-supervised-learning-and-ensembles/ML-T3-003-do-ensembles-cure-overfitting/README.md) | Do Ensembles Cure Overfitting? A Bias-Variance Replication Study with Bagging and Boosting | ml-engineering | 3 | 24–36 h |
 
+## Commerce (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-014`](../../assessments/ai-engineering/tier-1/units/AI-07-agentic-workflows-and-orchestration/AI-T1-014-mama-nkechis-order-desk/README.md) | Mama Nkechi's Order Desk: A Workflow Engine with Explicit State | ai-engineering | 1 | 8–12 h |
+
 ## Computer Vision (3)
 
 | ID | Title | Subtrack | Tier | Est. time |
@@ -108,12 +129,31 @@
 |---|---|---|---|---|
 | [`DS-T2-012`](../../assessments/data-science/tier-2/units/DS-06-visualization-and-storytelling/DS-T2-012-the-tariff-band-explorable/README.md) | The Tariff Band Explorable: Explaining an Electricity Policy Trade-off to Households | data-science | 2 | 20–35 h |
 
-## Cooperative Finance (2)
+## Context Engineering (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T1-015`](../../assessments/ai-engineering/tier-1/units/AI-08-context-engineering-and-memory/AI-T1-015-the-forgotten-account-number/README.md) | The Forgotten Account Number: Context Budgeting for a Bank Support Chat | ai-engineering | 1 | 8–12 h |
+
+## Cooperative Finance (3)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-010`](../../assessments/ai-engineering/tier-1/units/AI-05-rag-and-knowledge-systems/AI-T1-010-ask-the-ajo-handbook/README.md) | Ask the Ajo Handbook: Chunk, Retrieve, Cite | ai-engineering | 1 | 8–12 h |
 | [`DS-T1-018`](../../assessments/data-science/tier-1/units/DS-07-sql-and-database-analytics/DS-T1-018-the-thrift-book/README.md) | The Thrift Book: Ten Questions for a Market Cooperative | data-science | 1 | 6–10 h |
 | [`ML-T3-005`](../../assessments/ml-engineering/tier-3/units/ML-03-unsupervised-and-representation-learning/ML-T3-005-do-the-cooperatives-have-segments/README.md) | Do the Cooperatives Have Segments? Testing for Structure Before Clustering | ml-engineering | 3 | 24–40 h |
+
+## Cooperatives (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-013`](../../assessments/ai-engineering/tier-2/units/AI-07-agentic-workflows-and-orchestration/AI-T2-013-the-double-credit/README.md) | The Double Credit: A Compensating Orchestrator for AI-Planned Loan Disbursement | ai-engineering | 2 | 14–20 h |
+
+## Cost Engineering (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-004`](../../assessments/ai-engineering/tier-2/units/AI-03-model-apis-and-local-inference/AI-T2-004-the-waybill-sorter/README.md) | Six Hundred Waybills, Two Providers, One Outage: Batching, Caching and Failover for a Freight Classifier | ai-engineering | 2 | 14–20 h |
 
 ## Credit Risk (2)
 
@@ -135,6 +175,15 @@
 |---|---|---|---|---|
 | [`ML-T2-016`](../../assessments/ml-engineering/tier-2/units/ML-08-natural-language-processing/ML-T2-016-light-no-dey-and-the-vocabulary-that-moved/README.md) | Light No Dey: Complaint Triage When the Vocabulary Moves | ml-engineering | 2 | 14–20 h |
 
+## Customer Support (4)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-006`](../../assessments/ai-engineering/tier-1/units/AI-03-model-apis-and-local-inference/AI-T1-006-the-polite-retry/README.md) | The Polite Retry: A Resilient Client for a Flaky Model API | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-008`](../../assessments/ai-engineering/tier-1/units/AI-04-embeddings-and-semantic-search/AI-T1-008-the-longer-complaint-wins/README.md) | The Longer Complaint Wins: Building and Evaluating Similarity Search from Scratch | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-014`](../../assessments/ai-engineering/tier-1/units/AI-07-agentic-workflows-and-orchestration/AI-T1-014-mama-nkechis-order-desk/README.md) | Mama Nkechi's Order Desk: A Workflow Engine with Explicit State | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-015`](../../assessments/ai-engineering/tier-1/units/AI-08-context-engineering-and-memory/AI-T1-015-the-forgotten-account-number/README.md) | The Forgotten Account Number: Context Budgeting for a Bank Support Chat | ai-engineering | 1 | 8–12 h |
+
 ## Data Engineering (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
@@ -155,12 +204,13 @@
 | [`DS-T1-004`](../../assessments/data-science/tier-1/units/DS-02-data-acquisition-and-sourcing/DS-T1-004-every-page-exactly-once/README.md) | Every Page, Exactly Once: A Resilient Client for the World Bank Indicators API | data-science | 1 | 10–16 h |
 | [`DS-T2-004`](../../assessments/data-science/tier-2/units/DS-02-data-acquisition-and-sourcing/DS-T2-004-rain-grain-and-granularity/README.md) | Rain, Grain and Granularity: Fusing Open Climate, Crop and Development Data at Mismatched Scales | data-science | 2 | 20–35 h |
 
-## Digital Lending (2)
+## Digital Lending (3)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T3-022`](../../assessments/data-science/tier-3/units/DS-12-applied-research-and-communication/DS-T3-022-referee-report/README.md) | Referee Report: Auditing an Industry Whitepaper's Causal Claim and Re-analysing the Data | data-science | 3 | 22–36 h |
 | [`ML-T2-024`](../../assessments/ml-engineering/tier-2/units/ML-12-model-deployment-and-serving/ML-T2-024-salary-day-at-the-loan-desk/README.md) | Salary Day at the Loan Desk: Micro-Batching a Scoring Service Under a Latency SLO | ml-engineering | 2 | 14–20 h |
+| [`ML-T2-026`](../../assessments/ml-engineering/tier-2/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T2-026-payday-is-not-drift/README.md) | Payday Is Not Drift: Designing a Feature-Drift Monitor for a Digital Lender's Application Stream | ml-engineering | 2 | 14–20 h |
 
 ## Digital Ticketing (1)
 
@@ -168,10 +218,17 @@
 |---|---|---|---|---|
 | [`DS-T1-014`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-014-collision-course/README.md) | Collision Course: How Long Must a Booking Reference Be? | data-science | 1 | 8–14 h |
 
-## E Commerce (2)
+## Document Processing (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T2-002`](../../assessments/ai-engineering/tier-2/units/AI-02-prompt-engineering-and-structured-generation/AI-T2-002-waybills-at-scale/README.md) | Waybills at Scale: A Retrying, Validating, Cost-Aware Extraction Harness | ai-engineering | 2 | 14–20 h |
+
+## E Commerce (3)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T3-003`](../../assessments/ai-engineering/tier-3/units/AI-04-embeddings-and-semantic-search/AI-T3-003-the-stale-index/README.md) | The Stale Index: Approximate Nearest-Neighbour Search for a Marketplace Whose Catalogue Keeps Moving | ai-engineering | 3 | 26–36 h |
 | [`ML-T2-020`](../../assessments/ml-engineering/tier-2/units/ML-10-recommender-and-ranking-systems/ML-T2-020-seeds-fertiliser-and-new-arrivals/README.md) | Seeds, Fertiliser and New Arrivals: A Time-Aware Recommender with Cold-Start Items | ml-engineering | 2 | 14–20 h |
 | [`ML-T3-019`](../../assessments/ml-engineering/tier-3/units/ML-10-recommender-and-ranking-systems/ML-T3-019-position-bias-in-the-market-feed/README.md) | Position Bias in the Market Feed: Learning to Rank from Clicks Without Learning Where We Put Things | ml-engineering | 3 | 24–34 h |
 
@@ -182,15 +239,16 @@
 | [`ML-T2-022`](../../assessments/ml-engineering/tier-2/units/ML-11-efficient-ml-and-optimization/ML-T2-022-a-kilobyte-for-every-farm-node/README.md) | A Kilobyte for Every Farm Node: Quantising and Pruning a Small Network to a Byte Budget | ml-engineering | 2 | 14–20 h |
 | [`ML-T3-021`](../../assessments/ml-engineering/tier-3/units/ML-11-efficient-ml-and-optimization/ML-T3-021-two-megabytes-eight-languages/README.md) | Two Megabytes, Eight Languages: A Compression Study for On-Device Language Identification Under Distribution Shift | ml-engineering | 3 | 24–36 h |
 
-## Education (3)
+## Education (4)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T3-002`](../../assessments/ai-engineering/tier-3/units/AI-03-model-apis-and-local-inference/AI-T3-002-thirty-students-one-lab-pc/README.md) | Thirty Students, One Lab PC: A Quantisation and Batching Study for Local Inference | ai-engineering | 3 | 26–36 h |
 | [`DS-T1-006`](../../assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-006-the-registry-that-lies/README.md) | The Registry That Lies: Forensic Cleaning of a Student Records Export | data-science | 1 | 10–16 h |
 | [`DS-T1-029`](../../assessments/data-science/tier-1/units/DS-12-applied-research-and-communication/DS-T1-029-the-claim-in-the-press-release/README.md) | The Claim in the Press Release: Auditing a School-Meals Attendance Claim with Honest Intervals | data-science | 1 | 10–16 h |
 | [`DS-T2-009`](../../assessments/data-science/tier-2/units/DS-05-probability-and-statistics/DS-T2-009-small-schools-big-swings/README.md) | Small Schools, Big Swings: Empirical Bayes for School Pass Rates | data-science | 2 | 20–35 h |
 
-## Energy (17)
+## Energy (18)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
@@ -206,6 +264,7 @@
 | [`ML-T1-015`](../../assessments/ml-engineering/tier-1/units/ML-07-computer-vision/ML-T1-015-reading-the-prepaid-meter/README.md) | Reading the Prepaid Meter: Convolution, Pooling and Gradient Histograms from Scratch | ml-engineering | 1 | 8–12 h |
 | [`ML-T1-019`](../../assessments/ml-engineering/tier-1/units/ML-09-time-series-machine-learning/ML-T1-019-the-forecast-that-peeked/README.md) | The Forecast That Peeked: Building a Leak-Free Walk-Forward Backtest for Feeder Load | ml-engineering | 1 | 8–12 h |
 | [`ML-T1-021`](../../assessments/ml-engineering/tier-1/units/ML-12-model-deployment-and-serving/ML-T1-021-the-meter-token-gatekeeper/README.md) | The Meter Token Gatekeeper: A Validated, Checksummed Model Bundle and Prediction Function | ml-engineering | 1 | 8–12 h |
+| [`ML-T1-023`](../../assessments/ml-engineering/tier-1/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T1-023-the-model-that-changed-between-laptops/README.md) | The Model That Changed Between Laptops: Fingerprints, Seeds and a Versioned Artifact Store | ml-engineering | 1 | 8–12 h |
 | [`ML-T2-001`](../../assessments/ml-engineering/tier-2/units/ML-01-mathematical-and-computational-foundations/ML-T2-001-when-the-normal-equations-lie/README.md) | When the Normal Equations Lie: Fitting a Feeder-Load Model on Collinear Sensor Data | ml-engineering | 2 | 14–20 h |
 | [`ML-T2-005`](../../assessments/ml-engineering/tier-2/units/ML-03-unsupervised-and-representation-learning/ML-T2-005-quiet-meters/README.md) | Quiet Meters: Unsupervised Detection of Electricity Theft on a Distribution Feeder | ml-engineering | 2 | 14–22 h |
 | [`ML-T2-012`](../../assessments/ml-engineering/tier-2/units/ML-06-neural-networks-and-deep-learning/ML-T2-012-the-meter-that-lies/README.md) | The Meter That Lies: Training a Neural Network to Catch Prepaid-Meter Tampering | ml-engineering | 2 | 14–22 h |
@@ -224,10 +283,12 @@
 |---|---|---|---|---|
 | [`DS-T1-008`](../../assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-008-stuck-drifting-spiking/README.md) | Stuck, Drifting, Spiking: Validation Rules for a Low-Cost Air-Quality Network | data-science | 1 | 12–18 h |
 
-## Evaluation (1)
+## Evaluation (3)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T3-001`](../../assessments/ai-engineering/tier-3/units/AI-02-prompt-engineering-and-structured-generation/AI-T3-001-is-prompt-b-really-better/README.md) | Is Prompt B Really Better? A Regression Gate for Prompts in a Multilingual Care Bot | ai-engineering | 3 | 24–34 h |
+| [`AI-T3-005`](../../assessments/ai-engineering/tier-3/units/AI-05-rag-and-knowledge-systems/AI-T3-005-the-audit-that-finds-the-flaw/README.md) | The Audit That Finds the Flaw: Validating a RAG Evaluation Harness with Planted Faults | ai-engineering | 3 | 24–34 h |
 | [`ML-T1-011`](../../assessments/ml-engineering/tier-1/units/ML-05-evaluation-validation-and-model-selection/ML-T1-011-the-triage-scorecard/README.md) | The Triage Scorecard: Building an Honest Evaluation Kit for a Malaria Risk Score | ml-engineering | 1 | 8–14 h |
 
 ## Evaluation Methodology (1)
@@ -242,10 +303,11 @@
 |---|---|---|---|---|
 | [`DS-T2-015`](../../assessments/data-science/tier-2/units/DS-08-inference-experimentation-and-causality/DS-T2-015-ship-it-or-shelve-it/README.md) | Ship It or Shelve It? Auditing a Fintech A/B Test with Traps | data-science | 2 | 14–22 h |
 
-## Finance (1)
+## Finance (2)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T2-006`](../../assessments/ai-engineering/tier-2/units/AI-04-embeddings-and-semantic-search/AI-T2-006-needles-in-the-circular/README.md) | Needles in the Circular: Chunking and Hybrid Search for a Compliance Desk | ai-engineering | 2 | 14–20 h |
 | [`ML-T2-007`](../../assessments/ml-engineering/tier-2/units/ML-04-feature-engineering-and-data-for-ml/ML-T2-007-the-too-good-credit-model/README.md) | The Too-Good Credit Model: Leakage Forensics on a Microfinance Default Model | ml-engineering | 2 | 14–22 h |
 
 ## Financial Inclusion (1)
@@ -254,10 +316,17 @@
 |---|---|---|---|---|
 | [`DS-T2-025`](../../assessments/data-science/tier-2/units/DS-12-applied-research-and-communication/DS-T2-025-robust-or-fragile/README.md) | Robust or Fragile? A Specification-Curve and Sensitivity Analysis of a Mobile-Banking Training Programme | data-science | 2 | 16–26 h |
 
-## Fintech (24)
+## Fintech (34)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T1-006`](../../assessments/ai-engineering/tier-1/units/AI-03-model-apis-and-local-inference/AI-T1-006-the-polite-retry/README.md) | The Polite Retry: A Resilient Client for a Flaky Model API | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-008`](../../assessments/ai-engineering/tier-1/units/AI-04-embeddings-and-semantic-search/AI-T1-008-the-longer-complaint-wins/README.md) | The Longer Complaint Wins: Building and Evaluating Similarity Search from Scratch | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-010`](../../assessments/ai-engineering/tier-1/units/AI-05-rag-and-knowledge-systems/AI-T1-010-ask-the-ajo-handbook/README.md) | Ask the Ajo Handbook: Chunk, Retrieve, Cite | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-012`](../../assessments/ai-engineering/tier-1/units/AI-06-agents-and-tool-calling/AI-T1-012-the-wallet-assistant-dispatcher/README.md) | The Wallet Assistant Dispatcher: Typed Tools, Parsed Calls and a Bounded Loop | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-015`](../../assessments/ai-engineering/tier-1/units/AI-08-context-engineering-and-memory/AI-T1-015-the-forgotten-account-number/README.md) | The Forgotten Account Number: Context Budgeting for a Bank Support Chat | ai-engineering | 1 | 8–12 h |
+| [`AI-T2-001`](../../assessments/ai-engineering/tier-2/units/AI-01-ai-engineering-foundations/AI-T2-001-sharp-sharp-or-safe/README.md) | Sharp Sharp or Safe: Choosing Decoding Settings for a USSD Banking Assistant | ai-engineering | 2 | 14–20 h |
+| [`AI-T2-013`](../../assessments/ai-engineering/tier-2/units/AI-07-agentic-workflows-and-orchestration/AI-T2-013-the-double-credit/README.md) | The Double Credit: A Compensating Orchestrator for AI-Planned Loan Disbursement | ai-engineering | 2 | 14–20 h |
 | [`DS-T1-002`](../../assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-002-the-ledger-that-double-counts/README.md) | The Ledger That Double-Counts: Debugging a Mobile-Money Settlement Pipeline | data-science | 1 | 8–14 h |
 | [`DS-T1-011`](../../assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-011-the-confident-notebook/README.md) | The Confident Notebook: Auditing the Claims of an Exploratory Analysis | data-science | 1 | 10–16 h |
 | [`DS-T1-013`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-013-how-sure-are-we/README.md) | How Sure Are We? Bootstrap and Analytical Intervals Under a Coverage Experiment | data-science | 1 | 10–16 h |
@@ -277,11 +346,14 @@
 | [`ML-T2-009`](../../assessments/ml-engineering/tier-2/units/ML-05-evaluation-validation-and-model-selection/ML-T2-009-which-loan-model-ships/README.md) | Which Loan Model Ships? Time-Aware Model Selection for Mobile-Money Micro-Loans | ml-engineering | 2 | 14–22 h |
 | [`ML-T2-018`](../../assessments/ml-engineering/tier-2/units/ML-09-time-series-machine-learning/ML-T2-018-salary-day-cash-out-demand/README.md) | Salary Day at the POS Agent: Forecasting Cash-Out Demand Around Paydays and Holiday Eves | ml-engineering | 2 | 14–20 h |
 | [`ML-T2-024`](../../assessments/ml-engineering/tier-2/units/ML-12-model-deployment-and-serving/ML-T2-024-salary-day-at-the-loan-desk/README.md) | Salary Day at the Loan Desk: Micro-Batching a Scoring Service Under a Latency SLO | ml-engineering | 2 | 14–20 h |
+| [`ML-T2-026`](../../assessments/ml-engineering/tier-2/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T2-026-payday-is-not-drift/README.md) | Payday Is Not Drift: Designing a Feature-Drift Monitor for a Digital Lender's Application Stream | ml-engineering | 2 | 14–20 h |
+| [`ML-T2-029`](../../assessments/ml-engineering/tier-2/units/ML-14-responsible-ml/ML-T2-029-the-credit-score-that-cannot-be-fair-three-ways/README.md) | The Credit Score That Cannot Be Fair Three Ways: Fairness Metric Trade-offs and Mitigation in Micro-Lending | ml-engineering | 2 | 14–20 h |
 | [`ML-T3-001`](../../assessments/ml-engineering/tier-3/units/ML-01-mathematical-and-computational-foundations/ML-T3-001-does-adam-excuse-unscaled-features/README.md) | Does Adam Excuse Unscaled Features? An Experimental Study of Conditioning, Momentum and Second-Order Steps | ml-engineering | 3 | 24–36 h |
 | [`ML-T3-005`](../../assessments/ml-engineering/tier-3/units/ML-03-unsupervised-and-representation-learning/ML-T3-005-do-the-cooperatives-have-segments/README.md) | Do the Cooperatives Have Segments? Testing for Structure Before Clustering | ml-engineering | 3 | 24–40 h |
 | [`ML-T3-009`](../../assessments/ml-engineering/tier-3/units/ML-05-evaluation-validation-and-model-selection/ML-T3-009-the-leaderboard-that-flatters/README.md) | The Leaderboard That Flatters: Winner's Curse and Valid Selection in a Fraud Hackathon | ml-engineering | 3 | 24–36 h |
 | [`ML-T3-015`](../../assessments/ml-engineering/tier-3/units/ML-08-natural-language-processing/ML-T3-015-the-scam-detector-that-learned-to-shout/README.md) | The Scam Detector That Learned to Shout: Auditing and Hardening an SMS Filter Against Style Shortcuts | ml-engineering | 3 | 24–32 h |
 | [`ML-T3-023`](../../assessments/ml-engineering/tier-3/units/ML-12-model-deployment-and-serving/ML-T3-023-the-month-before-the-labels-arrive/README.md) | The Month Before the Labels Arrive: Designing a Safe Rollout for a Replacement Credit Model | ml-engineering | 3 | 24–36 h |
+| [`ML-T3-025`](../../assessments/ml-engineering/tier-3/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T3-025-when-to-retrain-the-harvest-loan-model/README.md) | When to Retrain the Harvest-Loan Model: Cost, Label Delay and Drift Regimes in a Retraining-Policy Study | ml-engineering | 3 | 24–32 h |
 
 ## Food Markets (1)
 
@@ -326,13 +398,19 @@
 | [`ML-T2-003`](../../assessments/ml-engineering/tier-2/units/ML-02-supervised-learning-and-ensembles/ML-T2-003-forty-analysts-two-hundred-alerts/README.md) | Forty Analysts, Two Hundred Alerts: Choosing Between Linear Models, Forests and Boosting Under an Alert Budget | ml-engineering | 2 | 14–20 h |
 | [`ML-T3-009`](../../assessments/ml-engineering/tier-3/units/ML-05-evaluation-validation-and-model-selection/ML-T3-009-the-leaderboard-that-flatters/README.md) | The Leaderboard That Flatters: Winner's Curse and Valid Selection in a Fraud Hackathon | ml-engineering | 3 | 24–36 h |
 
+## Freight (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-004`](../../assessments/ai-engineering/tier-2/units/AI-03-model-apis-and-local-inference/AI-T2-004-the-waybill-sorter/README.md) | Six Hundred Waybills, Two Providers, One Outage: Batching, Caching and Failover for a Freight Classifier | ai-engineering | 2 | 14–20 h |
+
 ## Geospatial (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`ML-T1-007`](../../assessments/ml-engineering/tier-1/units/ML-03-unsupervised-and-representation-learning/ML-T1-007-agents-on-the-map/README.md) | Agents on the Map: K-Means and Silhouette from Scratch for Mobile-Money Agent Siting | ml-engineering | 1 | 8–14 h |
 
-## Health (4)
+## Health (6)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
@@ -340,6 +418,8 @@
 | [`DS-T2-005`](../../assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-005-same-patient-two-registers/README.md) | Same Patient, Two Registers: Probabilistic vs Deterministic Record Linkage | data-science | 2 | 20–35 h |
 | [`DS-T3-018`](../../assessments/data-science/tier-3/units/DS-10-time-series-and-forecasting/DS-T3-018-one-number-many-clinics/README.md) | One Number, Many Clinics: Reconciling Hierarchical Forecasts Across a Health Network | data-science | 3 | 22–34 h |
 | [`ML-T1-011`](../../assessments/ml-engineering/tier-1/units/ML-05-evaluation-validation-and-model-selection/ML-T1-011-the-triage-scorecard/README.md) | The Triage Scorecard: Building an Honest Evaluation Kit for a Malaria Risk Score | ml-engineering | 1 | 8–14 h |
+| [`ML-T1-024`](../../assessments/ml-engineering/tier-1/units/ML-14-responsible-ml/ML-T1-024-who-does-the-referral-model-miss/README.md) | Who Does the Referral Model Miss? A Group-Wise Error Audit and Model Card for a Child-Health Screening Tool | ml-engineering | 1 | 8–12 h |
+| [`ML-T3-027`](../../assessments/ml-engineering/tier-3/units/ML-14-responsible-ml/ML-T3-027-do-the-explanations-tell-the-truth/README.md) | Do the Explanations Tell the Truth? Faithfulness, Stability and Shortcut Audits for a Tuberculosis-Screening Model | ml-engineering | 3 | 24–32 h |
 
 ## Health Information Systems (1)
 
@@ -371,11 +451,24 @@
 |---|---|---|---|---|
 | [`DS-T2-010`](../../assessments/data-science/tier-2/units/DS-05-probability-and-statistics/DS-T2-010-the-25-year-storm/README.md) | The 25-Year Storm: Extreme Value Analysis of Rainfall for Drainage Design | data-science | 2 | 20–35 h |
 
+## Information Retrieval (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-008`](../../assessments/ai-engineering/tier-1/units/AI-04-embeddings-and-semantic-search/AI-T1-008-the-longer-complaint-wins/README.md) | The Longer Complaint Wins: Building and Evaluating Similarity Search from Scratch | ai-engineering | 1 | 8–12 h |
+| [`AI-T2-006`](../../assessments/ai-engineering/tier-2/units/AI-04-embeddings-and-semantic-search/AI-T2-006-needles-in-the-circular/README.md) | Needles in the Circular: Chunking and Hybrid Search for a Compliance Desk | ai-engineering | 2 | 14–20 h |
+
 ## Insurance (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T3-008`](../../assessments/data-science/tier-3/units/DS-05-probability-and-statistics/DS-T3-008-do-the-intervals-cover/README.md) | Do the Intervals Cover? A Simulation Study of Confidence Intervals for Clustered Claims | data-science | 3 | 16–24 h |
+
+## Interpretability (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`ML-T3-027`](../../assessments/ml-engineering/tier-3/units/ML-14-responsible-ml/ML-T3-027-do-the-explanations-tell-the-truth/README.md) | Do the Explanations Tell the Truth? Faithfulness, Stability and Shortcut Audits for a Tuberculosis-Screening Model | ml-engineering | 3 | 24–32 h |
 
 ## Interpretable Ml (1)
 
@@ -401,12 +494,19 @@
 |---|---|---|---|---|
 | [`DS-T1-017`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-017-hot-days-small-multiples/README.md) | Hot Days, Six Cities: A Small-Multiples Climate Story from NASA POWER | data-science | 1 | 10–16 h |
 
-## Languages (2)
+## Languages (3)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T1-001`](../../assessments/ai-engineering/tier-1/units/AI-01-ai-engineering-foundations/AI-T1-001-kobo-per-token/README.md) | Kobo per Token: Building a Byte-Pair Tokeniser for a Lagos SMS Assistant | ai-engineering | 1 | 8–12 h |
 | [`ML-T1-017`](../../assessments/ml-engineering/tier-1/units/ML-08-natural-language-processing/ML-T1-017-which-language-is-this-sms/README.md) | Which Language Is This SMS? A Tokenizer, Character N-Grams and Naive Bayes from Scratch | ml-engineering | 1 | 8–12 h |
 | [`ML-T3-021`](../../assessments/ml-engineering/tier-3/units/ML-11-efficient-ml-and-optimization/ML-T3-021-two-megabytes-eight-languages/README.md) | Two Megabytes, Eight Languages: A Compression Study for On-Device Language Identification Under Distribution Shift | ml-engineering | 3 | 24–36 h |
+
+## Legal Aid (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T3-005`](../../assessments/ai-engineering/tier-3/units/AI-05-rag-and-knowledge-systems/AI-T3-005-the-audit-that-finds-the-flaw/README.md) | The Audit That Finds the Flaw: Validating a RAG Evaluation Harness with Planted Faults | ai-engineering | 3 | 24–34 h |
 
 ## Licensing (1)
 
@@ -414,11 +514,30 @@
 |---|---|---|---|---|
 | [`DS-T3-001`](../../assessments/data-science/tier-3/units/DS-02-data-acquisition-and-sourcing/DS-T3-001-the-dataset-worth-citing/README.md) | The Dataset Worth Citing: A Provenance and Licence Audit of a Data Catalogue | data-science | 3 | 14–22 h |
 
+## Llm Fundamentals (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-001`](../../assessments/ai-engineering/tier-2/units/AI-01-ai-engineering-foundations/AI-T2-001-sharp-sharp-or-safe/README.md) | Sharp Sharp or Safe: Choosing Decoding Settings for a USSD Banking Assistant | ai-engineering | 2 | 14–20 h |
+
 ## Local Government (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-027`](../../assessments/data-science/tier-1/units/DS-11-analytical-pipelines-and-data-engineering/DS-T1-027-run-it-twice/README.md) | Run It Twice: An Idempotent, Auditable Loader for Daily Market-Levy Files | data-science | 1 | 8–14 h |
+
+## Local Inference (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T3-002`](../../assessments/ai-engineering/tier-3/units/AI-03-model-apis-and-local-inference/AI-T3-002-thirty-students-one-lab-pc/README.md) | Thirty Students, One Lab PC: A Quantisation and Batching Study for Local Inference | ai-engineering | 3 | 26–36 h |
+
+## Logistics (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-002`](../../assessments/ai-engineering/tier-2/units/AI-02-prompt-engineering-and-structured-generation/AI-T2-002-waybills-at-scale/README.md) | Waybills at Scale: A Retrying, Validating, Cost-Aware Extraction Harness | ai-engineering | 2 | 14–20 h |
+| [`AI-T2-004`](../../assessments/ai-engineering/tier-2/units/AI-03-model-apis-and-local-inference/AI-T2-004-the-waybill-sorter/README.md) | Six Hundred Waybills, Two Providers, One Outage: Batching, Caching and Failover for a Freight Classifier | ai-engineering | 2 | 14–20 h |
 
 ## Macroeconomics (1)
 
@@ -426,11 +545,23 @@
 |---|---|---|---|---|
 | [`ML-T3-017`](../../assessments/ml-engineering/tier-3/units/ML-09-time-series-machine-learning/ML-T3-017-after-the-devaluation/README.md) | After the Devaluation: Calibrated Price Forecasts Across a Structural Break | ml-engineering | 3 | 24–34 h |
 
+## Marketplace (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T3-003`](../../assessments/ai-engineering/tier-3/units/AI-04-embeddings-and-semantic-search/AI-T3-003-the-stale-index/README.md) | The Stale Index: Approximate Nearest-Neighbour Search for a Marketplace Whose Catalogue Keeps Moving | ai-engineering | 3 | 26–36 h |
+
 ## Marketplaces (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`ML-T3-019`](../../assessments/ml-engineering/tier-3/units/ML-10-recommender-and-ranking-systems/ML-T3-019-position-bias-in-the-market-feed/README.md) | Position Bias in the Market Feed: Learning to Rank from Clicks Without Learning Where We Put Things | ml-engineering | 3 | 24–34 h |
+
+## Measurement Validity (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T3-005`](../../assessments/ai-engineering/tier-3/units/AI-05-rag-and-knowledge-systems/AI-T3-005-the-audit-that-finds-the-flaw/README.md) | The Audit That Finds the Flaw: Validating a RAG Evaluation Harness with Planted Faults | ai-engineering | 3 | 24–34 h |
 
 ## Media (1)
 
@@ -444,16 +575,36 @@
 |---|---|---|---|---|
 | [`DS-T1-015`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-015-the-truth-behind-the-chart/README.md) | The Truth Behind the Chart: Forensics of Misleading Graphics | data-science | 1 | 10–16 h |
 
+## Micro Lending (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`ML-T2-029`](../../assessments/ml-engineering/tier-2/units/ML-14-responsible-ml/ML-T2-029-the-credit-score-that-cannot-be-fair-three-ways/README.md) | The Credit Score That Cannot Be Fair Three Ways: Fairness Metric Trade-offs and Mitigation in Micro-Lending | ml-engineering | 2 | 14–20 h |
+
 ## Microfinance (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`ML-T2-007`](../../assessments/ml-engineering/tier-2/units/ML-04-feature-engineering-and-data-for-ml/ML-T2-007-the-too-good-credit-model/README.md) | The Too-Good Credit Model: Leakage Forensics on a Microfinance Default Model | ml-engineering | 2 | 14–22 h |
 
-## Mobile Money (10)
+## Mini Grid (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`ML-T1-023`](../../assessments/ml-engineering/tier-1/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T1-023-the-model-that-changed-between-laptops/README.md) | The Model That Changed Between Laptops: Fingerprints, Seeds and a Versioned Artifact Store | ml-engineering | 1 | 8–12 h |
+
+## Mlops (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`ML-T1-023`](../../assessments/ml-engineering/tier-1/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T1-023-the-model-that-changed-between-laptops/README.md) | The Model That Changed Between Laptops: Fingerprints, Seeds and a Versioned Artifact Store | ml-engineering | 1 | 8–12 h |
+| [`ML-T3-025`](../../assessments/ml-engineering/tier-3/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T3-025-when-to-retrain-the-harvest-loan-model/README.md) | When to Retrain the Harvest-Loan Model: Cost, Label Delay and Drift Regimes in a Retraining-Policy Study | ml-engineering | 3 | 24–32 h |
+
+## Mobile Money (11)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-012`](../../assessments/ai-engineering/tier-1/units/AI-06-agents-and-tool-calling/AI-T1-012-the-wallet-assistant-dispatcher/README.md) | The Wallet Assistant Dispatcher: Typed Tools, Parsed Calls and a Bounded Loop | ai-engineering | 1 | 8–12 h |
 | [`DS-T1-002`](../../assessments/data-science/tier-1/units/DS-01-python-and-data-wrangling/DS-T1-002-the-ledger-that-double-counts/README.md) | The Ledger That Double-Counts: Debugging a Mobile-Money Settlement Pipeline | data-science | 1 | 8–14 h |
 | [`DS-T1-011`](../../assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-011-the-confident-notebook/README.md) | The Confident Notebook: Auditing the Claims of an Exploratory Analysis | data-science | 1 | 10–16 h |
 | [`DS-T1-013`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-013-how-sure-are-we/README.md) | How Sure Are We? Bootstrap and Analytical Intervals Under a Coverage Experiment | data-science | 1 | 10–16 h |
@@ -465,6 +616,12 @@
 | [`ML-T2-009`](../../assessments/ml-engineering/tier-2/units/ML-05-evaluation-validation-and-model-selection/ML-T2-009-which-loan-model-ships/README.md) | Which Loan Model Ships? Time-Aware Model Selection for Mobile-Money Micro-Loans | ml-engineering | 2 | 14–22 h |
 | [`ML-T2-018`](../../assessments/ml-engineering/tier-2/units/ML-09-time-series-machine-learning/ML-T2-018-salary-day-cash-out-demand/README.md) | Salary Day at the POS Agent: Forecasting Cash-Out Demand Around Paydays and Holiday Eves | ml-engineering | 2 | 14–20 h |
 
+## Model Apis (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-004`](../../assessments/ai-engineering/tier-2/units/AI-03-model-apis-and-local-inference/AI-T2-004-the-waybill-sorter/README.md) | Six Hundred Waybills, Two Providers, One Outage: Batching, Caching and Failover for a Freight Classifier | ai-engineering | 2 | 14–20 h |
+
 ## Model Serving (3)
 
 | ID | Title | Subtrack | Tier | Est. time |
@@ -472,6 +629,13 @@
 | [`ML-T1-021`](../../assessments/ml-engineering/tier-1/units/ML-12-model-deployment-and-serving/ML-T1-021-the-meter-token-gatekeeper/README.md) | The Meter Token Gatekeeper: A Validated, Checksummed Model Bundle and Prediction Function | ml-engineering | 1 | 8–12 h |
 | [`ML-T2-024`](../../assessments/ml-engineering/tier-2/units/ML-12-model-deployment-and-serving/ML-T2-024-salary-day-at-the-loan-desk/README.md) | Salary Day at the Loan Desk: Micro-Batching a Scoring Service Under a Latency SLO | ml-engineering | 2 | 14–20 h |
 | [`ML-T3-023`](../../assessments/ml-engineering/tier-3/units/ML-12-model-deployment-and-serving/ML-T3-023-the-month-before-the-labels-arrive/README.md) | The Month Before the Labels Arrive: Designing a Safe Rollout for a Replacement Credit Model | ml-engineering | 3 | 24–36 h |
+
+## Monitoring (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T3-003`](../../assessments/ai-engineering/tier-3/units/AI-04-embeddings-and-semantic-search/AI-T3-003-the-stale-index/README.md) | The Stale Index: Approximate Nearest-Neighbour Search for a Marketplace Whose Catalogue Keeps Moving | ai-engineering | 3 | 26–36 h |
+| [`ML-T2-026`](../../assessments/ml-engineering/tier-2/units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T2-026-payday-is-not-drift/README.md) | Payday Is Not Drift: Designing a Feature-Drift Monitor for a Digital Lender's Application Stream | ml-engineering | 2 | 14–20 h |
 
 ## Neural Networks (3)
 
@@ -481,10 +645,28 @@
 | [`ML-T2-012`](../../assessments/ml-engineering/tier-2/units/ML-06-neural-networks-and-deep-learning/ML-T2-012-the-meter-that-lies/README.md) | The Meter That Lies: Training a Neural Network to Catch Prepaid-Meter Tampering | ml-engineering | 2 | 14–22 h |
 | [`ML-T3-011`](../../assessments/ml-engineering/tier-3/units/ML-06-neural-networks-and-deep-learning/ML-T3-011-when-does-depth-pay/README.md) | When Does Depth Pay? A Controlled Study of Neural Networks Versus Boosted Trees on Small Agricultural Tables | ml-engineering | 3 | 24–36 h |
 
-## Nigeria (7)
+## Nigeria (25)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T1-001`](../../assessments/ai-engineering/tier-1/units/AI-01-ai-engineering-foundations/AI-T1-001-kobo-per-token/README.md) | Kobo per Token: Building a Byte-Pair Tokeniser for a Lagos SMS Assistant | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-004`](../../assessments/ai-engineering/tier-1/units/AI-02-prompt-engineering-and-structured-generation/AI-T1-004-maize-sms-prompt-kit/README.md) | The Maize SMS Prompt Kit: Templates, Few-Shot Selection, Fencing and Strict Parsing | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-006`](../../assessments/ai-engineering/tier-1/units/AI-03-model-apis-and-local-inference/AI-T1-006-the-polite-retry/README.md) | The Polite Retry: A Resilient Client for a Flaky Model API | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-008`](../../assessments/ai-engineering/tier-1/units/AI-04-embeddings-and-semantic-search/AI-T1-008-the-longer-complaint-wins/README.md) | The Longer Complaint Wins: Building and Evaluating Similarity Search from Scratch | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-010`](../../assessments/ai-engineering/tier-1/units/AI-05-rag-and-knowledge-systems/AI-T1-010-ask-the-ajo-handbook/README.md) | Ask the Ajo Handbook: Chunk, Retrieve, Cite | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-012`](../../assessments/ai-engineering/tier-1/units/AI-06-agents-and-tool-calling/AI-T1-012-the-wallet-assistant-dispatcher/README.md) | The Wallet Assistant Dispatcher: Typed Tools, Parsed Calls and a Bounded Loop | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-014`](../../assessments/ai-engineering/tier-1/units/AI-07-agentic-workflows-and-orchestration/AI-T1-014-mama-nkechis-order-desk/README.md) | Mama Nkechi's Order Desk: A Workflow Engine with Explicit State | ai-engineering | 1 | 8–12 h |
+| [`AI-T1-015`](../../assessments/ai-engineering/tier-1/units/AI-08-context-engineering-and-memory/AI-T1-015-the-forgotten-account-number/README.md) | The Forgotten Account Number: Context Budgeting for a Bank Support Chat | ai-engineering | 1 | 8–12 h |
+| [`AI-T2-001`](../../assessments/ai-engineering/tier-2/units/AI-01-ai-engineering-foundations/AI-T2-001-sharp-sharp-or-safe/README.md) | Sharp Sharp or Safe: Choosing Decoding Settings for a USSD Banking Assistant | ai-engineering | 2 | 14–20 h |
+| [`AI-T2-002`](../../assessments/ai-engineering/tier-2/units/AI-02-prompt-engineering-and-structured-generation/AI-T2-002-waybills-at-scale/README.md) | Waybills at Scale: A Retrying, Validating, Cost-Aware Extraction Harness | ai-engineering | 2 | 14–20 h |
+| [`AI-T2-004`](../../assessments/ai-engineering/tier-2/units/AI-03-model-apis-and-local-inference/AI-T2-004-the-waybill-sorter/README.md) | Six Hundred Waybills, Two Providers, One Outage: Batching, Caching and Failover for a Freight Classifier | ai-engineering | 2 | 14–20 h |
+| [`AI-T2-006`](../../assessments/ai-engineering/tier-2/units/AI-04-embeddings-and-semantic-search/AI-T2-006-needles-in-the-circular/README.md) | Needles in the Circular: Chunking and Hybrid Search for a Compliance Desk | ai-engineering | 2 | 14–20 h |
+| [`AI-T2-008`](../../assessments/ai-engineering/tier-2/units/AI-05-rag-and-knowledge-systems/AI-T2-008-the-advisory-that-obeyed/README.md) | The Advisory That Obeyed: Hybrid Retrieval, Hijacked Documents and Knowing When to Abstain | ai-engineering | 2 | 14–20 h |
+| [`AI-T2-013`](../../assessments/ai-engineering/tier-2/units/AI-07-agentic-workflows-and-orchestration/AI-T2-013-the-double-credit/README.md) | The Double Credit: A Compensating Orchestrator for AI-Planned Loan Disbursement | ai-engineering | 2 | 14–20 h |
+| [`AI-T3-001`](../../assessments/ai-engineering/tier-3/units/AI-02-prompt-engineering-and-structured-generation/AI-T3-001-is-prompt-b-really-better/README.md) | Is Prompt B Really Better? A Regression Gate for Prompts in a Multilingual Care Bot | ai-engineering | 3 | 24–34 h |
+| [`AI-T3-002`](../../assessments/ai-engineering/tier-3/units/AI-03-model-apis-and-local-inference/AI-T3-002-thirty-students-one-lab-pc/README.md) | Thirty Students, One Lab PC: A Quantisation and Batching Study for Local Inference | ai-engineering | 3 | 26–36 h |
+| [`AI-T3-003`](../../assessments/ai-engineering/tier-3/units/AI-04-embeddings-and-semantic-search/AI-T3-003-the-stale-index/README.md) | The Stale Index: Approximate Nearest-Neighbour Search for a Marketplace Whose Catalogue Keeps Moving | ai-engineering | 3 | 26–36 h |
+| [`AI-T3-005`](../../assessments/ai-engineering/tier-3/units/AI-05-rag-and-knowledge-systems/AI-T3-005-the-audit-that-finds-the-flaw/README.md) | The Audit That Finds the Flaw: Validating a RAG Evaluation Harness with Planted Faults | ai-engineering | 3 | 24–34 h |
 | [`DS-T1-018`](../../assessments/data-science/tier-1/units/DS-07-sql-and-database-analytics/DS-T1-018-the-thrift-book/README.md) | The Thrift Book: Ten Questions for a Market Cooperative | data-science | 1 | 6–10 h |
 | [`DS-T2-013`](../../assessments/data-science/tier-2/units/DS-07-sql-and-database-analytics/DS-T2-013-the-slow-meter-report/README.md) | The Slow Meter Report: Making Five Analytical Queries Fast Without Making Them Wrong | data-science | 2 | 10–16 h |
 | [`DS-T3-001`](../../assessments/data-science/tier-3/units/DS-02-data-acquisition-and-sourcing/DS-T3-001-the-dataset-worth-citing/README.md) | The Dataset Worth Citing: A Provenance and Licence Audit of a Data Catalogue | data-science | 3 | 14–22 h |
@@ -501,6 +683,18 @@
 | [`ML-T2-016`](../../assessments/ml-engineering/tier-2/units/ML-08-natural-language-processing/ML-T2-016-light-no-dey-and-the-vocabulary-that-moved/README.md) | Light No Dey: Complaint Triage When the Vocabulary Moves | ml-engineering | 2 | 14–20 h |
 | [`ML-T3-015`](../../assessments/ml-engineering/tier-3/units/ML-08-natural-language-processing/ML-T3-015-the-scam-detector-that-learned-to-shout/README.md) | The Scam Detector That Learned to Shout: Auditing and Hardening an SMS Filter Against Style Shortcuts | ml-engineering | 3 | 24–32 h |
 | [`ML-T3-021`](../../assessments/ml-engineering/tier-3/units/ML-11-efficient-ml-and-optimization/ML-T3-021-two-megabytes-eight-languages/README.md) | Two Megabytes, Eight Languages: A Compression Study for On-Device Language Identification Under Distribution Shift | ml-engineering | 3 | 24–36 h |
+
+## Nlp Applications (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-004`](../../assessments/ai-engineering/tier-1/units/AI-02-prompt-engineering-and-structured-generation/AI-T1-004-maize-sms-prompt-kit/README.md) | The Maize SMS Prompt Kit: Templates, Few-Shot Selection, Fencing and Strict Parsing | ai-engineering | 1 | 8–12 h |
+
+## Nlp Fundamentals (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-001`](../../assessments/ai-engineering/tier-1/units/AI-01-ai-engineering-foundations/AI-T1-001-kobo-per-token/README.md) | Kobo per Token: Building a Byte-Pair Tokeniser for a Lagos SMS Assistant | ai-engineering | 1 | 8–12 h |
 
 ## Numerical Computing (1)
 
@@ -609,6 +803,19 @@
 |---|---|---|---|---|
 | [`DS-T3-003`](../../assessments/data-science/tier-3/units/DS-03-data-cleaning-and-quality/DS-T3-003-the-garden-of-forking-paths/README.md) | The Garden of Forking Paths: A Multiverse Study of Cleaning Choices | data-science | 3 | 35–60 h |
 
+## Prompt Engineering (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-004`](../../assessments/ai-engineering/tier-1/units/AI-02-prompt-engineering-and-structured-generation/AI-T1-004-maize-sms-prompt-kit/README.md) | The Maize SMS Prompt Kit: Templates, Few-Shot Selection, Fencing and Strict Parsing | ai-engineering | 1 | 8–12 h |
+| [`AI-T3-001`](../../assessments/ai-engineering/tier-3/units/AI-02-prompt-engineering-and-structured-generation/AI-T3-001-is-prompt-b-really-better/README.md) | Is Prompt B Really Better? A Regression Gate for Prompts in a Multilingual Care Bot | ai-engineering | 3 | 24–34 h |
+
+## Prompt Injection (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-008`](../../assessments/ai-engineering/tier-2/units/AI-05-rag-and-knowledge-systems/AI-T2-008-the-advisory-that-obeyed/README.md) | The Advisory That Obeyed: Hybrid Retrieval, Hijacked Documents and Knowing When to Abstain | ai-engineering | 2 | 14–20 h |
+
 ## Public Communication (2)
 
 | ID | Title | Subtrack | Tier | Est. time |
@@ -621,6 +828,12 @@
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-027`](../../assessments/data-science/tier-1/units/DS-11-analytical-pipelines-and-data-engineering/DS-T1-027-run-it-twice/README.md) | Run It Twice: An Idempotent, Auditable Loader for Daily Market-Levy Files | data-science | 1 | 8–14 h |
+
+## Public Health (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`ML-T1-024`](../../assessments/ml-engineering/tier-1/units/ML-14-responsible-ml/ML-T1-024-who-does-the-referral-model-miss/README.md) | Who Does the Referral Model Miss? A Group-Wise Error Audit and Model Card for a Child-Health Screening Tool | ml-engineering | 1 | 8–12 h |
 
 ## Public Health Communication (1)
 
@@ -661,6 +874,19 @@
 | [`DS-T1-006`](../../assessments/data-science/tier-1/units/DS-03-data-cleaning-and-quality/DS-T1-006-the-registry-that-lies/README.md) | The Registry That Lies: Forensic Cleaning of a Student Records Export | data-science | 1 | 10–16 h |
 | [`DS-T2-005`](../../assessments/data-science/tier-2/units/DS-03-data-cleaning-and-quality/DS-T2-005-same-patient-two-registers/README.md) | Same Patient, Two Registers: Probabilistic vs Deterministic Record Linkage | data-science | 2 | 20–35 h |
 
+## Quantisation (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T3-002`](../../assessments/ai-engineering/tier-3/units/AI-03-model-apis-and-local-inference/AI-T3-002-thirty-students-one-lab-pc/README.md) | Thirty Students, One Lab PC: A Quantisation and Batching Study for Local Inference | ai-engineering | 3 | 26–36 h |
+
+## Rag (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-008`](../../assessments/ai-engineering/tier-2/units/AI-05-rag-and-knowledge-systems/AI-T2-008-the-advisory-that-obeyed/README.md) | The Advisory That Obeyed: Hybrid Retrieval, Hijacked Documents and Knowing When to Abstain | ai-engineering | 2 | 14–20 h |
+| [`AI-T3-005`](../../assessments/ai-engineering/tier-3/units/AI-05-rag-and-knowledge-systems/AI-T3-005-the-audit-that-finds-the-flaw/README.md) | The Audit That Finds the Flaw: Validating a RAG Evaluation Harness with Planted Faults | ai-engineering | 3 | 24–34 h |
+
 ## Ranking (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
@@ -674,11 +900,25 @@
 | [`ML-T1-020`](../../assessments/ml-engineering/tier-1/units/ML-10-recommender-and-ranking-systems/ML-T1-020-ranking-metrics-and-nollywood-neighbours/README.md) | Ranking Metrics and Nollywood Neighbours: Implementing Item-Based Recommendation from Scratch | ml-engineering | 1 | 8–12 h |
 | [`ML-T2-020`](../../assessments/ml-engineering/tier-2/units/ML-10-recommender-and-ranking-systems/ML-T2-020-seeds-fertiliser-and-new-arrivals/README.md) | Seeds, Fertiliser and New Arrivals: A Time-Aware Recommender with Cold-Start Items | ml-engineering | 2 | 14–20 h |
 
-## Regulation (1)
+## Regulation (2)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T2-006`](../../assessments/ai-engineering/tier-2/units/AI-04-embeddings-and-semantic-search/AI-T2-006-needles-in-the-circular/README.md) | Needles in the Circular: Chunking and Hybrid Search for a Compliance Desk | ai-engineering | 2 | 14–20 h |
 | [`DS-T1-010`](../../assessments/data-science/tier-1/units/DS-04-exploratory-data-analysis/DS-T1-010-hours-on-the-feeder/README.md) | Hours on the Feeder: Supply-Hours Exploration of Electricity Outage Logs | data-science | 1 | 10–16 h |
+
+## Reliability (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-006`](../../assessments/ai-engineering/tier-1/units/AI-03-model-apis-and-local-inference/AI-T1-006-the-polite-retry/README.md) | The Polite Retry: A Resilient Client for a Flaky Model API | ai-engineering | 1 | 8–12 h |
+
+## Reliability Engineering (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-002`](../../assessments/ai-engineering/tier-2/units/AI-02-prompt-engineering-and-structured-generation/AI-T2-002-waybills-at-scale/README.md) | Waybills at Scale: A Retrying, Validating, Cost-Aware Extraction Harness | ai-engineering | 2 | 14–20 h |
+| [`AI-T2-013`](../../assessments/ai-engineering/tier-2/units/AI-07-agentic-workflows-and-orchestration/AI-T2-013-the-double-credit/README.md) | The Double Credit: A Compensating Orchestrator for AI-Planned Loan Disbursement | ai-engineering | 2 | 14–20 h |
 
 ## Remote Sensing (1)
 
@@ -710,11 +950,25 @@
 |---|---|---|---|---|
 | [`ML-T3-015`](../../assessments/ml-engineering/tier-3/units/ML-08-natural-language-processing/ML-T3-015-the-scam-detector-that-learned-to-shout/README.md) | The Scam Detector That Learned to Shout: Auditing and Hardening an SMS Filter Against Style Shortcuts | ml-engineering | 3 | 24–32 h |
 
+## Responsible Ml (3)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`ML-T1-024`](../../assessments/ml-engineering/tier-1/units/ML-14-responsible-ml/ML-T1-024-who-does-the-referral-model-miss/README.md) | Who Does the Referral Model Miss? A Group-Wise Error Audit and Model Card for a Child-Health Screening Tool | ml-engineering | 1 | 8–12 h |
+| [`ML-T2-029`](../../assessments/ml-engineering/tier-2/units/ML-14-responsible-ml/ML-T2-029-the-credit-score-that-cannot-be-fair-three-ways/README.md) | The Credit Score That Cannot Be Fair Three Ways: Fairness Metric Trade-offs and Mitigation in Micro-Lending | ml-engineering | 2 | 14–20 h |
+| [`ML-T3-027`](../../assessments/ml-engineering/tier-3/units/ML-14-responsible-ml/ML-T3-027-do-the-explanations-tell-the-truth/README.md) | Do the Explanations Tell the Truth? Faithfulness, Stability and Shortcut Audits for a Tuberculosis-Screening Model | ml-engineering | 3 | 24–32 h |
+
 ## Retail (1)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-023`](../../assessments/data-science/tier-1/units/DS-09-decision-and-business-analytics/DS-T1-023-how-many-crates/README.md) | How Many Crates? Inventory Decisions with Censored Demand at Mile 12 | data-science | 1 | 8–14 h |
+
+## Retrieval (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-010`](../../assessments/ai-engineering/tier-1/units/AI-05-rag-and-knowledge-systems/AI-T1-010-ask-the-ajo-handbook/README.md) | Ask the Ajo Handbook: Chunk, Retrieve, Cite | ai-engineering | 1 | 8–12 h |
 
 ## Rural Electrification (1)
 
@@ -727,6 +981,12 @@
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T1-014`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-014-collision-course/README.md) | Collision Course: How Long Must a Booking Reference Be? | data-science | 1 | 8–14 h |
+
+## Serving (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T3-002`](../../assessments/ai-engineering/tier-3/units/AI-03-model-apis-and-local-inference/AI-T3-002-thirty-students-one-lab-pc/README.md) | Thirty Students, One Lab PC: A Quantisation and Batching Study for Local Inference | ai-engineering | 3 | 26–36 h |
 
 ## Small Area Estimation (1)
 
@@ -746,10 +1006,11 @@
 |---|---|---|---|---|
 | [`ML-T3-003`](../../assessments/ml-engineering/tier-3/units/ML-02-supervised-learning-and-ensembles/ML-T3-003-do-ensembles-cure-overfitting/README.md) | Do Ensembles Cure Overfitting? A Bias-Variance Replication Study with Bagging and Boosting | ml-engineering | 3 | 24–36 h |
 
-## Statistics (1)
+## Statistics (2)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T3-001`](../../assessments/ai-engineering/tier-3/units/AI-02-prompt-engineering-and-structured-generation/AI-T3-001-is-prompt-b-really-better/README.md) | Is Prompt B Really Better? A Regression Gate for Prompts in a Multilingual Care Bot | ai-engineering | 3 | 24–34 h |
 | [`DS-T1-021`](../../assessments/data-science/tier-1/units/DS-08-inference-experimentation-and-causality/DS-T1-021-how-sure-is-the-average/README.md) | How Sure Is the Average? Confidence Intervals for Mobile-Money Cash-Outs | data-science | 1 | 8–14 h |
 
 ## Streaming (1)
@@ -771,15 +1032,23 @@
 | [`DS-T1-013`](../../assessments/data-science/tier-1/units/DS-05-probability-and-statistics/DS-T1-013-how-sure-are-we/README.md) | How Sure Are We? Bootstrap and Analytical Intervals Under a Coverage Experiment | data-science | 1 | 10–16 h |
 | [`DS-T1-016`](../../assessments/data-science/tier-1/units/DS-06-visualization-and-storytelling/DS-T1-016-honest-about-uncertainty/README.md) | Honest About Uncertainty: Interval Plots, Quantile Dotplots and Fan Charts | data-science | 1 | 10–16 h |
 
-## Telecoms (5)
+## Telecoms (7)
 
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
+| [`AI-T1-001`](../../assessments/ai-engineering/tier-1/units/AI-01-ai-engineering-foundations/AI-T1-001-kobo-per-token/README.md) | Kobo per Token: Building a Byte-Pair Tokeniser for a Lagos SMS Assistant | ai-engineering | 1 | 8–12 h |
+| [`AI-T3-001`](../../assessments/ai-engineering/tier-3/units/AI-02-prompt-engineering-and-structured-generation/AI-T3-001-is-prompt-b-really-better/README.md) | Is Prompt B Really Better? A Regression Gate for Prompts in a Multilingual Care Bot | ai-engineering | 3 | 24–34 h |
 | [`DS-T2-023`](../../assessments/data-science/tier-2/units/DS-11-analytical-pipelines-and-data-engineering/DS-T2-023-late-arrivals/README.md) | Late Arrivals: Incremental Revenue Aggregation with Watermarks, Corrections and Bounded Memory | data-science | 2 | 14–22 h |
 | [`ML-T1-001`](../../assessments/ml-engineering/tier-1/units/ML-01-mathematical-and-computational-foundations/ML-T1-001-the-score-that-overflowed/README.md) | The Score That Overflowed: Numerically Stable Softmax and Logistic Loss from Scratch | ml-engineering | 1 | 8–12 h |
 | [`ML-T1-013`](../../assessments/ml-engineering/tier-1/units/ML-06-neural-networks-and-deep-learning/ML-T1-013-the-signal-map/README.md) | The Signal Map: Backpropagation From Scratch for a 4G Coverage Classifier | ml-engineering | 1 | 10–16 h |
 | [`ML-T1-017`](../../assessments/ml-engineering/tier-1/units/ML-08-natural-language-processing/ML-T1-017-which-language-is-this-sms/README.md) | Which Language Is This SMS? A Tokenizer, Character N-Grams and Naive Bayes from Scratch | ml-engineering | 1 | 8–12 h |
 | [`ML-T3-021`](../../assessments/ml-engineering/tier-3/units/ML-11-efficient-ml-and-optimization/ML-T3-021-two-megabytes-eight-languages/README.md) | Two Megabytes, Eight Languages: A Compression Study for On-Device Language Identification Under Distribution Shift | ml-engineering | 3 | 24–36 h |
+
+## Tool Calling (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-012`](../../assessments/ai-engineering/tier-1/units/AI-06-agents-and-tool-calling/AI-T1-012-the-wallet-assistant-dispatcher/README.md) | The Wallet Assistant Dispatcher: Typed Tools, Parsed Calls and a Bounded Loop | ai-engineering | 1 | 8–12 h |
 
 ## Transport (3)
 
@@ -800,6 +1069,12 @@
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T3-005`](../../assessments/data-science/tier-3/units/DS-04-exploratory-data-analysis/DS-T3-005-the-line-that-got-slower/README.md) | The Line That Got Slower: Decomposing a Headline and Finding the Instrument Break | data-science | 3 | 14–22 h |
+
+## Ussd (1)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T2-001`](../../assessments/ai-engineering/tier-2/units/AI-01-ai-engineering-foundations/AI-T2-001-sharp-sharp-or-safe/README.md) | Sharp Sharp or Safe: Choosing Decoding Settings for a USSD Banking Assistant | ai-engineering | 2 | 14–20 h |
 
 ## Utilities (5)
 
@@ -822,4 +1097,11 @@
 | ID | Title | Subtrack | Tier | Est. time |
 |---|---|---|---|---|
 | [`DS-T3-011`](../../assessments/data-science/tier-3/units/DS-07-sql-and-database-analytics/DS-T3-011-the-agent-ledger-model/README.md) | The Agent Ledger Model: Point-in-Time Analytics for a Mobile-Money Network | data-science | 3 | 18–28 h |
+
+## Workflow Orchestration (2)
+
+| ID | Title | Subtrack | Tier | Est. time |
+|---|---|---|---|---|
+| [`AI-T1-014`](../../assessments/ai-engineering/tier-1/units/AI-07-agentic-workflows-and-orchestration/AI-T1-014-mama-nkechis-order-desk/README.md) | Mama Nkechi's Order Desk: A Workflow Engine with Explicit State | ai-engineering | 1 | 8–12 h |
+| [`AI-T2-013`](../../assessments/ai-engineering/tier-2/units/AI-07-agentic-workflows-and-orchestration/AI-T2-013-the-double-credit/README.md) | The Double Credit: A Compensating Orchestrator for AI-Planned Loan Disbursement | ai-engineering | 2 | 14–20 h |
 

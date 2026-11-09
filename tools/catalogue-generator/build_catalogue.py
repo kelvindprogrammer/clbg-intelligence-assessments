@@ -9,8 +9,6 @@ Files written (all generated, do not edit by hand):
   docs/catalogue/by-domain.md                    assessments grouped by domain
   assessments/<subtrack>/tier-N/README.md        tier landing pages
   assessments/<subtrack>/tier-N/units/<unit>/README.md   unit landing pages
-  assessments/<subtrack>/capstones/README.md
-  cross-disciplinary/README.md, signature-challenges/README.md (generated block only)
   assessments/<subtrack>/README.md               only the block between markers
 
 Usage:
@@ -47,7 +45,7 @@ FORMAT_NAMES = {
     "reverse-engineering": "Reverse Engineering", "replication": "Research Replication",
     "comparative": "Comparative", "optimization": "Optimization",
     "system-design": "System Design", "debugging-forensics": "Debugging & Forensics",
-    "open-ended": "Open-Ended", "capstone": "Integrated Capstone",
+    "open-ended": "Open-Ended",
 }
 
 
@@ -171,14 +169,6 @@ def build(check: bool) -> int:
                     outputs[unit_readme] = "\n".join(ul) + "\n"
             outputs[tier_readme] = "\n".join(lines) + "\n"
 
-        # capstones
-        caps = [a for a in assessments if a.meta.get("collection") == "capstone" and a.meta.get("subtrack") == sub]
-        cap_readme = sub_dir / "capstones" / "README.md"
-        outputs[cap_readme] = "\n".join([GEN_NOTE, f"# {sinfo['name']}: Capstone Projects", "",
-            "Capstones integrate several units into one substantial, end-to-end piece of work. "
-            "They are the strongest single piece of evidence for tier placement and usually need a full technical defence.", "",
-            table(caps, cap_readme, ("id", "title", "tier", "format", "hours", "status")) if caps else "_Capstones for this subtrack are in development._", ""]) + "\n"
-
         # subtrack README generated block
         sub_readme = sub_dir / "README.md"
         if sub_readme.exists():
@@ -196,34 +186,12 @@ def build(check: bool) -> int:
                     else:
                         cells.append("in development")
                 block.append(f"| **{code}** {u['name']} | " + " | ".join(cells) + " |")
-            block += ["", f"**Capstones:** [{len(caps)} capstone project{'s' if len(caps) != 1 else ''}](capstones/README.md)" if caps else "**Capstones:** [in development](capstones/README.md)"]
             block += ["", END]
             text = sub_readme.read_text(encoding="utf-8")
             if START in text and END in text:
                 pre, rest = text.split(START, 1)
                 _, post = rest.split(END, 1)
                 outputs[sub_readme] = pre + "\n".join(block) + post
-
-    # ---------- cross-disciplinary and signature generated blocks
-    for base, coll, title in (("cross-disciplinary", "cross-disciplinary", "Cross-Disciplinary Assessments"),
-                              ("signature-challenges", "signature", "CLBG Signature Challenges")):
-        readme = root / base / "README.md"
-        items = [a for a in assessments if a.meta.get("collection") == coll]
-        if readme.exists():
-            groups = defaultdict(list)
-            for a in items:
-                groups[a.path.parent.name].append(a)
-            block = [START, ""]
-            for g in sorted(groups):
-                block += [f"### {g.replace('-', ' ').title()}", "", table(groups[g], readme, ("id", "title", "tier", "format", "hours", "status")), ""]
-            if not items:
-                block.append("_In development._")
-            block += [END]
-            text = readme.read_text(encoding="utf-8")
-            if START in text and END in text:
-                pre, rest = text.split(START, 1)
-                _, post = rest.split(END, 1)
-                outputs[readme] = pre + "\n".join(block) + post
 
     # ---------- full catalogue
     cat = root / "CATALOGUE.md"
@@ -240,14 +208,7 @@ def build(check: bool) -> int:
             items = [a for a in assessments if a.meta["subtrack"] == sub and a.meta["tier"] == t and a.meta["collection"] == "unit"]
             if items:
                 lines += ["", f"### {TIER_NAMES[t]}", "", table(items, cat, ("id", "title", "unit", "format", "domain", "hours", "difficulty", "status"))]
-        caps = [a for a in assessments if a.meta["subtrack"] == sub and a.meta["collection"] == "capstone"]
-        if caps:
-            lines += ["", "### Capstones", "", table(caps, cat, ("id", "title", "tier", "format", "domain", "hours", "difficulty", "status"))]
         lines.append("")
-    for coll, name in (("cross-disciplinary", "Cross-Disciplinary"), ("signature", "CLBG Signature Challenges")):
-        items = [a for a in assessments if a.meta["collection"] == coll]
-        if items:
-            lines += [f"## {name}", "", table(items, cat, ("id", "title", "unit", "tier", "format", "domain", "hours", "status")), ""]
     outputs[cat] = "\n".join(lines) + "\n"
 
     # json
@@ -280,12 +241,7 @@ def build(check: bool) -> int:
                 cells.append("—" if tg == 0 and b == 0 else f"{b}/{tg}" + (" ✅" if b >= tg and tg else ""))
             cl.append(f"| {code} {u['name']} | " + " | ".join(cells) + " |")
         cl.append("")
-    by_coll = defaultdict(int)
-    for a in assessments:
-        by_coll[a.meta["collection"]] += 1
     cl += ["## Totals", "", f"- Unit assessments built against target: **{tot_b}/{tot_t}**",
-           f"- Unit assessments (all): {by_coll['unit']}", f"- Capstones: {by_coll['capstone']}",
-           f"- Cross-disciplinary: {by_coll['cross-disciplinary']}", f"- Signature challenges: {by_coll['signature']}",
            f"- **Total assessments: {len(assessments)}**", ""]
     outputs[cov] = "\n".join(cl) + "\n"
 

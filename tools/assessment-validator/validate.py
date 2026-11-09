@@ -39,18 +39,6 @@ FORBIDDEN_PATTERNS = [
     (re.compile(r"as an ai language model", re.I), "boilerplate model text"),
 ]
 
-SIG_CATEGORIES = {
-    "SIG-INT": "intelligence-challenges",
-    "SIG-DATA": "data-challenges",
-    "SIG-ML": "machine-learning-challenges",
-    "SIG-AIE": "ai-engineering-challenges",
-    "SIG-RES": "research-challenges",
-    "SIG-SYS": "systems-and-optimization-challenges",
-    "SIG-GRAND": "grand-integrated-challenges",
-}
-XD_DIRS = {"XD-FND": "foundations", "XD-INT": "integrated-challenges", "XD-ADV": "advanced-challenges"}
-
-
 def load_registry_ids() -> set[str]:
     reg = ct.ROOT / "shared" / "datasets" / "registry.yaml"
     if not reg.exists():
@@ -78,45 +66,24 @@ def check_location(a: ct.Assessment, units: dict) -> list[str]:
         errs.append(f"directory name '{dirname}' does not start with id '{m.get('id')}-'")
 
     coll, sub, tier, unit, aid = m.get("collection"), m.get("subtrack"), m.get("tier"), m.get("unit"), str(m.get("id"))
-    if coll == "unit":
-        code = ct.SUBTRACK_DIRS.get(sub)
-        if not code:
-            return errs + [f"collection 'unit' requires a specialist subtrack, got '{sub}'"]
-        if not aid.startswith(f"{code}-T{tier}-"):
-            errs.append(f"id '{aid}' inconsistent with subtrack '{sub}' / tier {tier}")
-        u = units.get(unit)
-        if not u:
-            errs.append(f"unit '{unit}' not found in shared/units.yaml")
-        else:
-            if u["subtrack"] != sub:
-                errs.append(f"unit '{unit}' belongs to '{u['subtrack']}', not '{sub}'")
-            if int(u["targets"].get(tier, 0)) == 0:
-                errs.append(f"unit '{unit}' is not offered at tier {tier} (targets=0)")
-            expected = ("assessments", sub, f"tier-{tier}", "units", f"{unit}-{u['slug']}", dirname)
-            if parts != expected:
-                errs.append(f"expected location {'/'.join(expected)}")
-    elif coll == "capstone":
-        code = ct.SUBTRACK_DIRS.get(sub)
-        if unit != "CAP" or not code or not aid.startswith(f"{code}-CAP-T{tier}-"):
-            errs.append("capstone must have unit 'CAP' and id '<DS|ML|AI>-CAP-T<tier>-NN'")
-        expected = ("assessments", sub, "capstones", dirname)
+    if coll != "unit":
+        return errs + [f"collection must be 'unit', got '{coll}'"]
+    code = ct.SUBTRACK_DIRS.get(sub)
+    if not code:
+        return errs + [f"collection 'unit' requires a specialist subtrack, got '{sub}'"]
+    if not aid.startswith(f"{code}-T{tier}-"):
+        errs.append(f"id '{aid}' inconsistent with subtrack '{sub}' / tier {tier}")
+    u = units.get(unit)
+    if not u:
+        errs.append(f"unit '{unit}' not found in shared/units.yaml")
+    else:
+        if u["subtrack"] != sub:
+            errs.append(f"unit '{unit}' belongs to '{u['subtrack']}', not '{sub}'")
+        if int(u["targets"].get(tier, 0)) == 0:
+            errs.append(f"unit '{unit}' is not offered at tier {tier} (targets=0)")
+        expected = ("assessments", sub, f"tier-{tier}", "units", f"{unit}-{u['slug']}", dirname)
         if parts != expected:
             errs.append(f"expected location {'/'.join(expected)}")
-    elif coll == "cross-disciplinary":
-        if sub != "cross-disciplinary" or not aid.startswith(f"XD-T{tier}-") or unit not in XD_DIRS:
-            errs.append("cross-disciplinary assessment must have subtrack 'cross-disciplinary', unit XD-FND/INT/ADV and id 'XD-T<tier>-NNN'")
-        else:
-            expected = ("cross-disciplinary", XD_DIRS[unit], dirname)
-            if parts != expected:
-                errs.append(f"expected location {'/'.join(expected)}")
-    elif coll == "signature":
-        cat = SIG_CATEGORIES.get(unit)
-        if not cat:
-            errs.append(f"signature unit '{unit}' unknown")
-        else:
-            expected = ("signature-challenges", cat, dirname)
-            if parts != expected:
-                errs.append(f"expected location {'/'.join(expected)}")
     return errs
 
 

@@ -232,7 +232,7 @@ The outcome is decided by the score **and** the gates: a passing defence, a repr
    ```
 3. **Commit as you work.** Your commit history is part of the evidence (see §K). A single "final" commit containing everything will be questioned at defence.
 4. **Submit** by adding the CLBG assessor account as a read-only collaborator and filing a submission issue in the CLBG assessments repository, using the **Assessment submission** issue template. Include the repository URL and the exact commit SHA you are submitting.
-5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines-extensions-and-late-work).
+5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines).
 6. Full general guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
 
 ---

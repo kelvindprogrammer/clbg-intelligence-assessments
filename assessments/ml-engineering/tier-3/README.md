@@ -103,15 +103,19 @@ Model packaging, REST serving, containers, input validation, batch versus online
 |---|---|---|---|---|
 | [`ML-T3-023`](units/ML-12-model-deployment-and-serving/ML-T3-023-the-month-before-the-labels-arrive/README.md) | The Month Before the Labels Arrive: Designing a Safe Rollout for a Replacement Credit Model | System Design | 24–36 h | reviewed |
 
-### ML-13: ML Pipelines, MLOps and Monitoring
+### [ML-13: ML Pipelines, MLOps and Monitoring](units/ML-13-ml-pipelines-mlops-and-monitoring/README.md)
 
 Experiment tracking, reproducible pipelines, CI for ML, model registries, drift detection and retraining policy.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-025`](units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T3-025-when-to-retrain-the-harvest-loan-model/README.md) | When to Retrain the Harvest-Loan Model: Cost, Label Delay and Drift Regimes in a Retraining-Policy Study | Open-Ended | 24–32 h | reviewed |
 
-### ML-14: Responsible ML (Fairness, Interpretability and Robustness)
+### [ML-14: Responsible ML (Fairness, Interpretability and Robustness)](units/ML-14-responsible-ml/README.md)
 
 Fairness metrics and trade-offs, explainability methods and their limits, adversarial and distributional robustness, model cards.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T3-027`](units/ML-14-responsible-ml/ML-T3-027-do-the-explanations-tell-the-truth/README.md) | Do the Explanations Tell the Truth? Faithfulness, Stability and Shortcut Audits for a Tuberculosis-Screening Model | Investigation | 24–32 h | reviewed |
 

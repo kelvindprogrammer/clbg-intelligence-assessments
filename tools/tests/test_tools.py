@@ -36,8 +36,7 @@ def test_split_sections_letters_and_titles():
 
 def test_dir_name_pattern():
     assert ct.DIR_NAME_RE.match("DS-T1-006-the-registry-that-lies")
-    assert ct.DIR_NAME_RE.match("ML-CAP-T2-01-fleet-health")
-    assert ct.DIR_NAME_RE.match("SIG-RES-01-replicate-this")
+    assert ct.DIR_NAME_RE.match("ML-T2-003-forty-analysts-two-hundred-alerts")
     assert not ct.DIR_NAME_RE.match("DS-T1-6-bad")
     assert not ct.DIR_NAME_RE.match("DS-T1-006_Bad_Case")
 

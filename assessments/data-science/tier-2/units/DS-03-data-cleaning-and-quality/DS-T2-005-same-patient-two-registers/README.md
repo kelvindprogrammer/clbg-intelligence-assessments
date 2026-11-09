@@ -208,7 +208,7 @@ Full rubric: **[rubric.md](rubric.md)**.
    ```
 3. Commit as you work. Exploratory dead ends belong in the history, and in the report if they taught you something.
 4. Submit through the **Assessment submission** issue template with the repository URL and commit SHA, and add the assessor account as a read-only collaborator.
-5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines-extensions-and-late-work). General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
+5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines). General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
 
 ---
 

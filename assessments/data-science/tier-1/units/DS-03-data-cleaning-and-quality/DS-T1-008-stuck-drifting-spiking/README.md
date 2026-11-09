@@ -224,7 +224,7 @@ Outcome rules: [placement framework](../../../../../../docs/placement-framework.
    ```
 3. **Commit as you work.** Your history is evidence, and a single final commit will be questioned.
 4. **Submit** by adding the CLBG assessor account as a read-only collaborator and filing an **Assessment submission** issue with the repository URL and commit SHA.
-5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines-extensions-and-late-work).
+5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines).
 6. Full guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
 
 ---

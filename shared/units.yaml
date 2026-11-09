@@ -2,7 +2,6 @@
 # This is the single source of truth for subtracks, units and tier applicability.
 # `targets` is the planned number of assessments per tier. 0 means that tier is
 # intentionally not offered for the unit, and `tier_notes` explains why.
-# Rationale for the unit design: docs/research/architecture-decisions.md (ADR-003).
 
 subtracks:
   data-science:

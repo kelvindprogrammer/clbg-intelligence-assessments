@@ -1,0 +1,51 @@
+id: AI-T2-008
+title: "The Advisory That Obeyed: Hybrid Retrieval, Hijacked Documents and Knowing When to Abstain"
+summary: >-
+  Engineer a farm-advisory question-answering pipeline over a mock model: hybrid lexical and dense retrieval, removal of instructions hidden in bulletins, superseded-bulletin resolution, an evidence-sufficiency gate for unanswerable and wrong-place questions, output verification, and a configuration chosen against stated quality bars.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 2
+unit: AI-05
+format: system-design
+secondary_formats: [optimization]
+domains: [agriculture, rag, prompt-injection, nigeria]
+technologies: [python, pytest]
+prerequisites:
+  knowledge:
+    - Python functions and regular expressions
+    - Basic idea of ranking and cosine similarity
+    - pytest with deterministic fakes
+competencies:
+  - Combining lexical and dense rankings and checking that the combination earns its complexity
+  - Treating retrieved documents as untrusted input and removing hijack text without deleting legitimate text
+  - Resolving conflicting versions of the same fact using metadata
+  - Deciding when evidence is insufficient and abstaining
+  - Choosing a configuration against explicit bars and testing it on unseen corpora
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 2, research: 2, engineering: 4, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [rag, hybrid-retrieval, prompt-injection, abstention, agriculture, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

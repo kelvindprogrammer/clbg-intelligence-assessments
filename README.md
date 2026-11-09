@@ -10,15 +10,19 @@
 |:---:|:---:|:---:|
 | [Tier 1](assessments/data-science/tier-1/README.md) · [Tier 2](assessments/data-science/tier-2/README.md) · [Tier 3](assessments/data-science/tier-3/README.md) | [Tier 1](assessments/ml-engineering/tier-1/README.md) · [Tier 2](assessments/ml-engineering/tier-2/README.md) · [Tier 3](assessments/ml-engineering/tier-3/README.md) | [Tier 1](assessments/ai-engineering/tier-1/README.md) · [Tier 2](assessments/ai-engineering/tier-2/README.md) · [Tier 3](assessments/ai-engineering/tier-3/README.md) |
 
-[**Assessment catalogue**](CATALOGUE.md) · [Member handbook](docs/member-handbook.md) · [Assessor handbook](docs/assessor-handbook.md) · [Signature Challenges](signature-challenges/README.md)
+[**Assessment catalogue**](CATALOGUE.md) · [Member handbook](docs/member-handbook.md)
 
 </div>
 
 ---
 
+## Placement window
+
+**The assessment runs 9–13 November 2026 (opens today, closes Friday). Results are announced the following week.**
+
 ## What this is
 
-This repository is the **project-based competency assessment system** of the CLBG Intelligence Track. It contains a library of complete, rigorously specified, independently assessable projects. They are built to **develop** genuine capability, **evidence** it fairly, and help CLBG **form strong technical teams**.
+This repository is the **project-based placement assessment** for the CLBG Intelligence Track. It contains a library of complete, rigorously specified, independently assessable projects. They are built to **evidence genuine capability** fairly and help CLBG **form strong technical teams**.
 
 Every assessment is a real project. Each one has:
 - a problem worth solving;
@@ -56,21 +60,21 @@ Tiers ask **different kinds of question**. They are not just bigger projects.
 | **2** | Applied Engineering and Independent Problem-Solving | Can you solve a realistic, partially specified problem, choosing and justifying your methods, testing your work and reasoning about its limits? |
 | **3** | Advanced Engineering, Research and System Design | Can you take on an ambiguous, substantial problem, make research-informed decisions, experiment rigorously and defend the trade-offs? |
 
-Placement is **per subtrack**. You can be Tier 1 in Data Science and Tier 3 in AI Engineering at the same time. See [tier definitions](docs/tier-definitions.md) and the [placement framework](docs/placement-framework.md).
+**You choose one subtrack and one tier for this placement window.** Your result is your placement in that subtrack, at that tier. See [tier definitions](docs/tier-definitions.md) and the [placement framework](docs/placement-framework.md).
 
 ## How to take an assessment
 
 ```text
- 1. Choose          2. Register          3. Build              4. Submit          5. Defend & grow
- subtrack → tier →  open an "Assessment  in your own private   commit SHA via the  technical defence,
- unit → assessment  attempt" issue       repo; commit often    submission issue    feedback, placement
+ 1. Choose                2. Register          3. Build              4. Submit          5. Defend
+ ONE subtrack, ONE tier,  open an "Assessment  in your own private   commit SHA via the  short technical
+ then ONE task of choice  attempt" issue       repo; commit often    submission issue    defence, then results
 ```
 
-1. **Choose.** Browse a subtrack, then a tier, then a unit, and pick any assessment. Or search the [catalogue](CATALOGUE.md). **Nothing is sequential.** Prerequisites are advice, not gates.
-2. **Register** your attempt with the issue template, and you'll be assigned a deadline and an assessor.
+1. **Choose.** Pick exactly one subtrack (Data Science, ML Engineering or AI Engineering) and exactly one tier (1, 2 or 3). Then pick any one unit and any one assessment within that tier. Browse the [catalogue](CATALOGUE.md) to decide.
+2. **Register** your attempt with the issue template, and you'll be assigned an assessor.
 3. **Build** in a private repository named `clbg-<ID>-<username>`. Run the contract tests first.
-4. **Submit** following the [submission guidelines](docs/submission-guidelines.md).
-5. **Defend** your work in a short [technical defence](assessment-operations/oral-defense/technical-defence-guide.md), then receive feedback and an outcome.
+4. **Submit** following the [submission guidelines](docs/submission-guidelines.md), by Friday 13 November 2026.
+5. **Defend** your work in a short technical defence, then receive your result the following week.
 
 The [member handbook](docs/member-handbook.md) walks you through all of it, including a self-check for choosing where to start.
 
@@ -89,7 +93,7 @@ assessments/<subtrack>/tier-<n>/units/<UNIT>-<name>/<ID>-<slug>/
 
 **Difficulty has six dimensions**: Technical, Mathematical, Research, Engineering, Ambiguity and Resources. A project can be analytically subtle but technically light, or the other way round. Pick what stretches you.
 
-**Assessment formats vary on purpose**: implementation, investigation, reverse engineering, research replication, comparative, optimisation, system design, debugging and forensics, open-ended, and integrated capstones.
+**Assessment formats vary on purpose**: implementation, investigation, reverse engineering, research replication, comparative, optimisation, system design, debugging and forensics, and open-ended.
 
 ## How evaluation works
 
@@ -114,22 +118,13 @@ Outcomes are *Meets requirements*, *Meets with minor deficiencies*, *Requires re
 
 | Path | Contents |
 |---|---|
-| [`assessments/`](assessments/) | The three subtrack assessment banks (units × tiers + capstones) |
-| [`cross-disciplinary/`](cross-disciplinary/README.md) | Shared foundations, integrated team challenges, advanced challenges |
-| [`signature-challenges/`](signature-challenges/README.md) | CLBG flagship challenges for events and showcases |
-| [`docs/`](docs/) | Policy, frameworks, handbooks, research ([standards report](docs/research/RESEARCH_AND_STANDARDS_REPORT.md), [benchmarks](docs/research/ELITE_EDUCATIONAL_BENCHMARKS.md), [legacy audit](docs/research/LEGACY_REPOSITORY_AUDIT.md)) |
+| [`assessments/`](assessments/) | The three subtrack assessment banks (units × tiers) |
+| [`docs/`](docs/) | Policy, frameworks and handbooks |
 | [`shared/`](shared/) | Unit registry, schemas, templates, [dataset registry](shared/datasets/DATASET_REGISTRY.md), [foundations](shared/foundations/README.md) |
-| [`assessment-operations/`](assessment-operations/) | Defence guide, scoring templates, moderation, checklists |
 | [`tools/`](tools/) | Validator, catalogue generator, link checker, test runner, dataset validator, rubric tools |
 
 Confidential assessor material (reference solutions, hidden tests, marking guides) is kept in a separate **private assessor kit** repository.
 
-## Contributing
-
-Report problems with an **Assessment feedback** issue, propose new assessments, or improve tooling. See [CONTRIBUTING.md](CONTRIBUTING.md), the [authoring guide](docs/contributing/AUTHORING_GUIDE.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). Maintainers should read the [maintenance guide](docs/contributing/maintenance.md).
-
 ## Licence
 
 Code: MIT. Content and CLBG synthetic datasets: CC BY 4.0. Third-party datasets keep their own terms. See [LICENSE](LICENSE).
-
-<sub>Educational approaches at institutions such as Harvard (CS50), MIT, Stanford, Carnegie Mellon and UC Berkeley informed the design of this system as benchmarks ([report](docs/research/ELITE_EDUCATIONAL_BENCHMARKS.md)). No affiliation with or endorsement by those institutions is claimed or implied.</sub>

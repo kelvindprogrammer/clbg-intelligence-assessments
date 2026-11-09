@@ -1,0 +1,51 @@
+id: AI-T3-005
+title: "The Audit That Finds the Flaw: Validating a RAG Evaluation Harness with Planted Faults"
+summary: >-
+  Design and validate an evaluation harness for retrieval-augmented systems: retrieval, faithfulness, citation, abstention and rank-sensitivity metrics with bootstrap intervals, then prove by planted-fault experiments that it diagnoses the right flaw, avoids false alarms under background noise, and has quantified power.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 3
+unit: AI-05
+format: investigation
+secondary_formats: [comparative]
+domains: [legal-aid, evaluation, rag, measurement-validity, nigeria]
+technologies: [python, pytest]
+prerequisites:
+  knowledge:
+    - Bootstrap resampling and confidence intervals
+    - Precision, recall and the idea of a confound
+    - Having built or studied a small RAG pipeline
+competencies:
+  - Separating retrieval failure from generation failure in an evaluation design
+  - Choosing metrics whose conditioning populations make attribution possible
+  - Using bootstrap intervals to control false alarms at small sample sizes
+  - Validating an evaluator with planted faults and reporting detection power
+  - Arguing the limits of a synthetic validity study
+estimated_hours: {min: 24, max: 34}
+difficulty: {technical: 4, mathematical: 3, research: 5, engineering: 4, ambiguity: 5, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [rag-evaluation, faithfulness, citations, bootstrap, validity, fault-injection, legal-aid, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

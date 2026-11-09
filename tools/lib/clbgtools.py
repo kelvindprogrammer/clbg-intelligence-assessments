@@ -14,7 +14,7 @@ from typing import Iterator
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-ASSESSMENT_ROOTS = ("assessments", "cross-disciplinary", "signature-challenges")
+ASSESSMENT_ROOTS = ("assessments",)
 
 SUBTRACK_DIRS = {
     "data-science": "DS",
@@ -47,7 +47,7 @@ SECTION_MIN_WORDS = {
 
 HEADING_RE = re.compile(r"^##\s+(?:([A-K])\.\s+)?(.+?)\s*$", re.MULTILINE)
 DIR_NAME_RE = re.compile(
-    r"^((?:DS|ML|AI|XD)-T[123]-[0-9]{3}|(?:DS|ML|AI)-CAP-T[123]-[0-9]{2}|SIG-[A-Z]{2,4}-[0-9]{2})-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    r"^((?:DS|ML|AI)-T[123]-[0-9]{3})-[a-z0-9]+(?:-[a-z0-9]+)*$"
 )
 
 

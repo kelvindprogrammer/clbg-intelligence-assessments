@@ -1,0 +1,51 @@
+id: AI-T1-014
+title: "Mama Nkechi's Order Desk: A Workflow Engine with Explicit State"
+summary: >-
+  Implement a small workflow engine (routing by label, step retries, loop guards, human pause and resume, static graph validation) and an order-desk graph around a deterministic mock model, then explain why a fixed workflow suits this job better than an agent.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 1
+unit: AI-07
+format: implementation
+secondary_formats: [investigation]
+domains: [commerce, workflow-orchestration, customer-support, nigeria]
+technologies: [python, pytest]
+prerequisites:
+  knowledge:
+    - Python dictionaries, closures and exceptions
+    - Running pytest and reading a failing assertion
+    - The idea of a state machine
+competencies:
+  - Implementing a workflow engine with explicit state, labelled edges and a trace
+  - Retrying only transient failures at the step level
+  - Preventing infinite loops with visit and step budgets
+  - Pausing at a human checkpoint and resuming from serialisable state
+  - Validating a workflow graph statically
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 3, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [workflow, state-machine, orchestration, human-in-the-loop, checkpoint, retries, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

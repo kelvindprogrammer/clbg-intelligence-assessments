@@ -197,7 +197,7 @@ The outcome depends on the score **and** the gates (defence, reproducibility, in
    ```
 3. **Commit as you work.** The history should show the parsers evolving as you discovered each format's traps.
 4. **Submit** by adding the CLBG assessor account as a read-only collaborator and filing an **Assessment submission** issue with the repository URL and commit SHA.
-5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines-extensions-and-late-work).
+5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines).
 6. General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
 
 ---

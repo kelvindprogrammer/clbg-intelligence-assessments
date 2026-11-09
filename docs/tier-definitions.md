@@ -1,6 +1,6 @@
 # Tier Definitions
 
-Tiers describe **demonstrated competence within one subtrack**. They are not ranks of people. A member can be Tier 1 in Data Science, Tier 2 in ML Engineering and Tier 3 in AI Engineering at the same time, and that is normal.
+Tiers describe **demonstrated competence within one subtrack**. They are not ranks of people. For this placement window, each member chooses **one subtrack and one tier**, and that choice is their assessment.
 
 Each tier asks a **qualitatively different question**. A Tier 2 assessment is never just a bigger Tier 1 assessment.
 
@@ -50,12 +50,10 @@ A member at Tier 3 can:
 
 Tier 3 never requires expensive GPUs, proprietary data or paid services. Every Tier 3 assessment has a resource-conscious path. See the `compute` field in each assessment's metadata.
 
-## 4. Placement is per subtrack, and evidence-based
+## 4. Placement is one subtrack, one tier, and evidence-based
 
-- **Independent placement.** Placement in one subtrack says nothing about another.
-- **No forced sequence.** Members may attempt any tier. The prerequisites tell you what knowledge you'll need, and the [placement framework](placement-framework.md) explains how attempts above your current tier count.
-- **Evidence, not one score.** A tier is awarded on combined evidence: the assessment outcome, the defence, reproducibility and independence. See [placement-framework.md](placement-framework.md).
-- **Growth.** Placement is reviewed every time new evidence arrives. Nobody is permanently labelled.
+- **One choice per window.** You pick your subtrack and tier before you start. The prerequisites tell you what knowledge you'll need; they're advice, not a requirement to start at Tier 1.
+- **Evidence, not one score.** The result is based on combined evidence: the assessment outcome, the defence, reproducibility and independence. See [placement-framework.md](placement-framework.md).
 
 ## 5. Multi-dimensional difficulty
 

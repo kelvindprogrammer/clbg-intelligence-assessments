@@ -208,7 +208,7 @@ The outcome is decided by the score **and** the gates. See the [placement framew
    ```
 3. **Commit as you work:** one function at a time, with its equivalence tests. Your history should show the profiling before the optimising.
 4. **Submit** by adding the CLBG assessor account as a read-only collaborator, then filing a submission issue in the CLBG assessments repository with the **Assessment submission** template. Include the repository URL and the commit SHA.
-5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see the [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines-extensions-and-late-work).
+5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** see the [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines).
 6. General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
 
 ---

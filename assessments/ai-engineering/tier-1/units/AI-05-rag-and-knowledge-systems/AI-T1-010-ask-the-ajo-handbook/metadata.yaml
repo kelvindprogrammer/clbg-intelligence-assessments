@@ -1,0 +1,49 @@
+id: AI-T1-010
+title: "Ask the Ajo Handbook: Chunk, Retrieve, Cite"
+summary: >-
+  Build the smallest honest RAG pipeline by hand: word-window chunking, a BM25 index from the formula, a budgeted context, citation extraction and checking against what was actually retrieved, abstention, and recall and MRR, all against a deterministic mock answerer.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 1
+unit: AI-05
+format: implementation
+domains: [fintech, cooperative-finance, retrieval, nigeria]
+technologies: [python, pytest]
+prerequisites:
+  knowledge:
+    - Python functions, dictionaries and list comprehensions
+    - Regular expressions at a basic level
+    - Writing simple pytest tests
+competencies:
+  - Chunking documents with overlap and reasoning about where facts are cut
+  - Implementing BM25 from its formula and checking it by hand
+  - Assembling a bounded context and verifying that cited sources were really supplied
+  - Measuring retrieval with recall at k and mean reciprocal rank
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 2, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [rag, chunking, bm25, citations, grounding, cooperative, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

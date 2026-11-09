@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://clbg.example/schemas/assessment.schema.json",
   "title": "CLBG Intelligence Track Assessment Metadata",
-  "description": "Schema for metadata.yaml in every CLBG assessment directory. See docs/contributing/metadata-reference.md for field guidance.",
+  "description": "Schema for metadata.yaml in every CLBG assessment directory.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -14,7 +14,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^((DS|ML|AI|XD)-T[123]-[0-9]{3}|(DS|ML|AI)-CAP-T[123]-[0-9]{2}|SIG-[A-Z]{2,4}-[0-9]{2})$"
+      "pattern": "^(DS|ML|AI)-T[123]-[0-9]{3}$"
     },
     "title": { "type": "string", "minLength": 8, "maxLength": 120 },
     "summary": { "type": "string", "minLength": 40, "maxLength": 400, "description": "One or two sentences used in the catalogue." },
@@ -25,18 +25,18 @@
     "created": { "type": "string", "format": "date" },
     "last_reviewed": { "type": "string", "format": "date" },
     "next_review": { "type": "string", "format": "date" },
-    "collection": { "enum": ["unit", "capstone", "cross-disciplinary", "signature"] },
-    "subtrack": { "enum": ["data-science", "ml-engineering", "ai-engineering", "cross-disciplinary"] },
+    "collection": { "enum": ["unit"] },
+    "subtrack": { "enum": ["data-science", "ml-engineering", "ai-engineering"] },
     "tier": { "type": "integer", "minimum": 1, "maximum": 3 },
     "unit": {
       "type": "string",
-      "pattern": "^((DS|ML|AI)-[0-9]{2}|XD-(FND|INT|ADV)|CAP|SIG-(INT|DATA|ML|AIE|RES|SYS|GRAND))$"
+      "pattern": "^(DS|ML|AI)-[0-9]{2}$"
     },
     "format": {
       "enum": [
         "implementation", "investigation", "reverse-engineering", "replication",
         "comparative", "optimization", "system-design", "debugging-forensics",
-        "open-ended", "capstone"
+        "open-ended"
       ]
     },
     "secondary_formats": {
@@ -45,7 +45,7 @@
         "enum": [
           "implementation", "investigation", "reverse-engineering", "replication",
           "comparative", "optimization", "system-design", "debugging-forensics",
-          "open-ended", "capstone"
+          "open-ended"
         ]
       }
     },

@@ -66,15 +66,14 @@ These are pass/fail and override the score:
 
 | Practice | When | How |
 |---|---|---|
-| **Assessor calibration** | Before each cohort, and for every new assessor | Each assessor independently scores 2–3 calibration exemplars, then the group compares and discusses differences larger than 5 points per dimension. See [moderation](../assessment-operations/moderation/README.md). |
-| **Double marking** | All Tier 3 work; all band-boundary scores (±3 of 50, 65, 80); every appeal; a 10% random sample of everything else | A second assessor marks blind to the first. A total difference of 10 points or more goes to a third assessor. |
-| **Moderation meeting** | End of each cohort | Review score distributions per assessment and per assessor, and investigate outliers. Revise rubrics or marking guides that cause disagreement. |
-| **Inter-rater statistics** | Each cohort | Track the mean absolute difference per dimension for double-marked work. The target is ≤ 1.5 points per dimension and ≤ 6 points total. Dimensions that keep missing the target need their descriptors rewritten. |
+| **Assessor calibration** | Before scoring begins, and for every new assessor | Each assessor independently scores 2–3 calibration exemplars, then the group compares and discusses differences larger than 5 points per dimension. |
+| **Double marking** | All Tier 3 work; all band-boundary scores (±3 of 50, 65, 80); every appeal | A second assessor marks blind to the first. A total difference of 10 points or more goes to a third assessor. |
+| **Inter-rater statistics** | Tracked across this window | Track the mean absolute difference per dimension for double-marked work. The target is ≤ 1.5 points per dimension and ≤ 6 points total. |
 
 ## 5. Interpreting numbers honestly
 
 - **Metric thresholds** in acceptance criteria are always justified by the problem, never arbitrary. Assessors don't reward tiny metric gains won at the cost of validity, such as leakage, tuning on test data or cherry-picked seeds.
-- **Rigour over leaderboard position.** In comparative and Signature challenges, a well-evidenced negative result can outscore a high but unvalidated number.
+- **Rigour over results.** A well-evidenced negative result can outscore a high but unvalidated number.
 - **Uncertainty.** When results vary with seed or sample, members are expected to report the variation, and assessors check that they did.
 
 ## 6. Feedback standards
@@ -87,14 +86,6 @@ Feedback is recorded on the score sheet and returned within 10 working days. It 
 4. for R and N outcomes, list exactly what a resubmission or retry must show;
 5. be respectful and about the work, not the person.
 
-Templates: [scoring templates](../assessment-operations/scoring-templates/README.md).
-
 ## 7. Continuous improvement
 
-Every assessment is reviewed at its `next_review` date, or earlier if:
-- outcomes for it are extreme (pass rate below 20% or above 95% over at least 10 attempts);
-- inter-rater disagreement on it is persistently above target;
-- its resources break, for example a dataset link or an API change;
-- members report ambiguity through the **Assessment feedback** issue template.
-
-Revisions bump the version (see the [maintenance guide](contributing/maintenance.md)).
+An assessment is revised if its resources break (for example a dataset link or an API change) or members report a genuine ambiguity. Revisions bump the version.

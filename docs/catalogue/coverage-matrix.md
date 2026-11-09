@@ -36,21 +36,21 @@ Built assessments versus the planned target, per unit and tier, from `shared/uni
 | ML-10 Recommender and Ranking Systems | 1/1 ✅ | 1/2 | 1/2 |
 | ML-11 Efficient ML and Model Optimization | — | 1/2 | 1/2 |
 | ML-12 Model Deployment and Serving | 1/2 | 1/2 | 1/2 |
-| ML-13 ML Pipelines, MLOps and Monitoring | 0/1 | 0/3 | 0/2 |
-| ML-14 Responsible ML (Fairness, Interpretability and Robustness) | 0/1 | 0/2 | 0/2 |
+| ML-13 ML Pipelines, MLOps and Monitoring | 1/1 ✅ | 1/3 | 1/2 |
+| ML-14 Responsible ML (Fairness, Interpretability and Robustness) | 1/1 ✅ | 1/2 | 1/2 |
 
 ## AI Engineering
 
 | Unit | T1 built/target | T2 built/target | T3 built/target |
 |---|---|---|---|
-| AI-01 AI Engineering Foundations and Model Fundamentals | 0/3 | 0/1 | — |
-| AI-02 Prompt Engineering and Structured Generation | 0/2 | 0/2 | 0/1 |
-| AI-03 Model APIs and Local Inference | 0/2 | 0/2 | 0/1 |
-| AI-04 Embeddings and Semantic Search | 0/2 | 0/2 | 0/2 |
-| AI-05 Retrieval-Augmented Generation and Knowledge Systems | 0/2 | 0/3 | 0/2 |
-| AI-06 AI Agents and Tool Calling | 0/2 | 0/2 | 0/2 |
-| AI-07 Agentic Workflows and Orchestration | 0/1 | 0/2 | 0/2 |
-| AI-08 Context Engineering and Memory Systems | 0/1 | 0/2 | 0/2 |
+| AI-01 AI Engineering Foundations and Model Fundamentals | 1/3 | 1/1 ✅ | — |
+| AI-02 Prompt Engineering and Structured Generation | 1/2 | 1/2 | 1/1 ✅ |
+| AI-03 Model APIs and Local Inference | 1/2 | 1/2 | 1/1 ✅ |
+| AI-04 Embeddings and Semantic Search | 1/2 | 1/2 | 1/2 |
+| AI-05 Retrieval-Augmented Generation and Knowledge Systems | 1/2 | 1/3 | 1/2 |
+| AI-06 AI Agents and Tool Calling | 1/2 | 0/2 | 0/2 |
+| AI-07 Agentic Workflows and Orchestration | 1/1 ✅ | 1/2 | 0/2 |
+| AI-08 Context Engineering and Memory Systems | 1/1 ✅ | 0/2 | 0/2 |
 | AI-09 Multimodal AI Engineering | 0/1 | 0/2 | 0/2 |
 | AI-10 AI Evaluation and Observability | 0/2 | 0/3 | 0/2 |
 | AI-11 AI Security and Responsible AI | 0/1 | 0/2 | 0/2 |
@@ -59,10 +59,6 @@ Built assessments versus the planned target, per unit and tier, from `shared/uni
 
 ## Totals
 
-- Unit assessments built against target: **85/232**
-- Unit assessments (all): 85
-- Capstones: 0
-- Cross-disciplinary: 0
-- Signature challenges: 0
-- **Total assessments: 85**
+- Unit assessments built against target: **109/232**
+- **Total assessments: 109**
 

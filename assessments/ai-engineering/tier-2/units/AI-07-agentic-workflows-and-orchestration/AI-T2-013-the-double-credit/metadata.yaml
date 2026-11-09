@@ -1,0 +1,51 @@
+id: AI-T2-013
+title: "The Double Credit: A Compensating Orchestrator for AI-Planned Loan Disbursement"
+summary: >-
+  Engineer an orchestrator for a mock-LLM-generated disbursement plan: static plan validation and repair, dependency waves with a parallel makespan, retries with idempotency keys against timeouts that applied the effect, reverse-order compensation including the failed step, an approval gate, and a consistency audit of the simulated ledger.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 2
+unit: AI-07
+format: system-design
+secondary_formats: [debugging-forensics]
+domains: [fintech, cooperatives, workflow-orchestration, reliability-engineering, nigeria]
+technologies: [python, pytest]
+prerequisites:
+  knowledge:
+    - Exceptions, retries and backoff in Python
+    - Directed graphs and topological layering
+    - Writing tests with scripted fake services
+competencies:
+  - Validating a model-generated plan statically before executing any step
+  - Running independent steps in parallel on a virtual clock and measuring the makespan
+  - Using idempotency keys so that ambiguous timeouts cannot cause double effects
+  - Compensating completed and possibly-completed steps in reverse order
+  - Gating consequential actions behind human approval and proving it with tests
+estimated_hours: {min: 14, max: 20}
+difficulty: {technical: 3, mathematical: 1, research: 2, engineering: 4, ambiguity: 3, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [saga, compensation, idempotency, plan-validation, human-in-the-loop, orchestration, fintech, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

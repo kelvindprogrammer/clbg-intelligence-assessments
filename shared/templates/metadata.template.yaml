@@ -1,5 +1,5 @@
 # Copy to <assessment>/metadata.yaml and fill in every field.
-# The schema is at shared/schemas/assessment.schema.json, and the guide at docs/contributing/AUTHORING_GUIDE.md §4.
+# The schema is at shared/schemas/assessment.schema.json.
 id: XX-TN-NNN                      # from shared/id-allocation.md
 title: "Evocative Title: Precise Subtitle"
 summary: >-
@@ -12,11 +12,11 @@ reviewers: []                      # required before status: approved
 created: 2026-11-03
 last_reviewed: 2026-11-03
 next_review: 2027-08-01
-collection: unit                   # unit | capstone | cross-disciplinary | signature
-subtrack: data-science             # data-science | ml-engineering | ai-engineering | cross-disciplinary
+collection: unit                   # unit
+subtrack: data-science             # data-science | ml-engineering | ai-engineering
 tier: 1
-unit: DS-03                        # unit code; CAP for capstones; XD-FND/INT/ADV; SIG-<CAT>
-format: investigation              # see AUTHORING_GUIDE §1.3
+unit: DS-03                        # unit code
+format: investigation
 secondary_formats: []
 domains: [education]
 technologies: [python, pandas]

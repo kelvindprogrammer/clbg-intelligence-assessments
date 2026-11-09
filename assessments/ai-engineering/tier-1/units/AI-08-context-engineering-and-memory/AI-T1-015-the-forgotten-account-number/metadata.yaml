@@ -1,0 +1,51 @@
+id: AI-T1-015
+title: "The Forgotten Account Number: Context Budgeting for a Bank Support Chat"
+summary: >-
+  Implement a token counter, a window fitter with pinned messages and a reply reserve, a summary-based compaction step, a fact-retention metric and a budget report, then measure what each strategy forgets in a synthetic bank-support chat.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 1
+unit: AI-08
+format: implementation
+secondary_formats: [investigation]
+domains: [fintech, customer-support, context-engineering, nigeria]
+technologies: [python, pytest]
+prerequisites:
+  knowledge:
+    - Python lists, dictionaries and the re module
+    - Running pytest and reading a failing assertion
+    - The idea that a model only sees what is placed in its prompt
+competencies:
+  - Counting tokens by an explicit rule and budgeting a window with a reply reserve
+  - Dropping history without leaving holes and without losing pinned messages
+  - Replacing dropped history by a bounded summary inside the budget
+  - Measuring what a context strategy forgets
+  - Explaining the trade-off between truncation, summarisation and pinning
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 2, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [context-window, token-budget, summarisation, compaction, pinning, context-engineering, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}

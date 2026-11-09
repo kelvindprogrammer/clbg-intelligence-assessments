@@ -99,15 +99,19 @@ Model packaging, REST serving, containers, input validation, batch versus online
 |---|---|---|---|---|
 | [`ML-T1-021`](units/ML-12-model-deployment-and-serving/ML-T1-021-the-meter-token-gatekeeper/README.md) | The Meter Token Gatekeeper: A Validated, Checksummed Model Bundle and Prediction Function | Implementation | 8–12 h | reviewed |
 
-### ML-13: ML Pipelines, MLOps and Monitoring
+### [ML-13: ML Pipelines, MLOps and Monitoring](units/ML-13-ml-pipelines-mlops-and-monitoring/README.md)
 
 Experiment tracking, reproducible pipelines, CI for ML, model registries, drift detection and retraining policy.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-023`](units/ML-13-ml-pipelines-mlops-and-monitoring/ML-T1-023-the-model-that-changed-between-laptops/README.md) | The Model That Changed Between Laptops: Fingerprints, Seeds and a Versioned Artifact Store | Implementation | 8–12 h | reviewed |
 
-### ML-14: Responsible ML (Fairness, Interpretability and Robustness)
+### [ML-14: Responsible ML (Fairness, Interpretability and Robustness)](units/ML-14-responsible-ml/README.md)
 
 Fairness metrics and trade-offs, explainability methods and their limits, adversarial and distributional robustness, model cards.
 
-_Assessments for this unit are in development._
+| ID | Title | Format | Est. time | Status |
+|---|---|---|---|---|
+| [`ML-T1-024`](units/ML-14-responsible-ml/ML-T1-024-who-does-the-referral-model-miss/README.md) | Who Does the Referral Model Miss? A Group-Wise Error Audit and Model Card for a Child-Health Screening Tool | Implementation | 8–12 h | reviewed |
 

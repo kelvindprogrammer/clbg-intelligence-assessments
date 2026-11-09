@@ -210,7 +210,7 @@ Full rubric: **[rubric.md](rubric.md)**.
    ```
 3. **Commit as you work, and commit `spec.yaml` before your first full run.** The history is part of the evidence that the space was not tuned to the results (D.3).
 4. Submit through the **Assessment submission** issue template with the repository URL and commit SHA, and add the assessor account as a read-only collaborator.
-5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines-extensions-and-late-work). General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
+5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines). General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
 
 ---
 

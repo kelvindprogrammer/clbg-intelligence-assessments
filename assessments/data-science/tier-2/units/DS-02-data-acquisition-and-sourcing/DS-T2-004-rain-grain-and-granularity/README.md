@@ -196,7 +196,7 @@ The outcome depends on the score **and** the gates ([placement framework](../../
    ```
 3. **Commit as you work.** The order in which you added designs should be visible.
 4. **Submit** with an **Assessment submission** issue (repository URL and commit SHA), after adding the CLBG assessor account as a read-only collaborator.
-5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines-extensions-and-late-work).
+5. **Deadline:** `<<set by the cohort coordinator>>`. **Late policy:** [assessment policy](../../../../../../docs/assessment-policy.md#7-deadlines).
 6. General guidance: [submission guidelines](../../../../../../docs/submission-guidelines.md).
 
 ---

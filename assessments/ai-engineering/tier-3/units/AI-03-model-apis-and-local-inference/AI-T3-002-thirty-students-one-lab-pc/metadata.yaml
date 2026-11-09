@@ -43,7 +43,6 @@ resources:
   tests: true
   submission_template: true
   assessor_kit: true
-  data_generator: resources/toylm.py
   generator_in_assessor_kit: true
 ci:
   contract_tests: true

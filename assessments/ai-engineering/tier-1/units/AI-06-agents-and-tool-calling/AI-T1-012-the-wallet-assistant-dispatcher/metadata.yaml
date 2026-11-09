@@ -1,0 +1,50 @@
+id: AI-T1-012
+title: "The Wallet Assistant Dispatcher: Typed Tools, Parsed Calls and a Bounded Loop"
+summary: >-
+  Build the plumbing under every tool-calling agent: argument validation against a typed schema, a tool registry that never raises, a parser for messy model output, redaction of sensitive fields, and a step-bounded agent loop, all against a deterministic scripted model.
+version: 1.0.0
+status: reviewed
+authors: ["CLBG Intelligence Track Assessment Committee"]
+reviewers: ["CLBG Intelligence Track Assessment Committee"]
+created: 2026-11-03
+last_reviewed: 2026-11-03
+next_review: 2027-08-01
+collection: unit
+subtrack: ai-engineering
+tier: 1
+unit: AI-06
+format: implementation
+domains: [fintech, mobile-money, agents, tool-calling, nigeria]
+technologies: [python, pytest]
+prerequisites:
+  knowledge:
+    - Python functions, dictionaries and exceptions
+    - JSON with the json module
+    - Writing simple pytest tests
+competencies:
+  - Validating tool arguments against a declared schema and reporting precise errors
+  - Containing tool failures so that the loop continues
+  - Parsing a tool call out of free text without being fooled by braces inside strings
+  - Keeping sensitive fields out of the model context and the trace
+  - Bounding an agent loop so a stuck model cannot run forever
+estimated_hours: {min: 8, max: 12}
+difficulty: {technical: 2, mathematical: 1, research: 1, engineering: 3, ambiguity: 1, resources: 1}
+compute:
+  gpu: none
+  internet: none
+  paid_api: none
+  min_ram_gb: 4
+collaboration: individual
+datasets: [synthetic]
+resources:
+  starter: true
+  tests: true
+  submission_template: true
+  assessor_kit: true
+  generator_in_assessor_kit: false
+ci:
+  contract_tests: true
+  heavy: false
+tags: [agents, tool-calling, json-schema, parsing, redaction, fintech, nigeria]
+changelog:
+  - {version: 1.0.0, date: 2026-11-03, change: "Initial release."}
